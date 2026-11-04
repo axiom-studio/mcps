@@ -1,0 +1,13 @@
+name: Car Dealer Tracker MCP
+summary: Read-only MCP access to a used-car dealer's inventory, profit, expenses, sales, debts and cash.
+category: finance
+tags:
+  - analytics
+  - business-operations
+  - database
+  - finance
+docs_url: https://cardealertracker.app/mcp/
+endpoints:
+  - url: https://mcp.cardealertracker.app/mcp
+    transport: streamable-http
+    auth: oauth

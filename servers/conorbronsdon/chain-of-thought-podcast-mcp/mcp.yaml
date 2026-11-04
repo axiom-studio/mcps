@@ -1,0 +1,13 @@
+name: Chain of Thought Podcast Archive
+summary: Read-only search over the Chain of Thought podcast's transcripts and episodes (interviews with people shipping AI in production). Every result links to the episode page so agents can cite it. No login or API key.
+category: search
+tags:
+  - knowledge-retrieval
+  - media
+  - research
+  - search
+docs_url: https://github.com/conorbronsdon/chain-of-thought-podcast-mcp
+endpoints:
+  - url: https://mcp.chainofthought.show/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: CommsHarbor
+summary: Email hosting for your domain (webmail, IMAP, SMTP); the MCP helps an assistant prepare domain setup, check DNS verification and manage mailboxes and aliases.
+category: communication
+tags:
+  - cloud-infrastructure
+  - communication
+  - email-automation
+  - workflow-automation
+docs_url: https://github.com/wrpbr/commsharbor
+endpoints:
+  - url: https://commsharbor.com/mcp
+    transport: streamable-http
+    auth: none

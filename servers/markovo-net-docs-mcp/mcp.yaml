@@ -1,0 +1,12 @@
+name: Markovo
+summary: Convert PDF, DOCX, PPTX, XLSX and authorized public HTTPS pages into clean, structured Markdown for agent context.
+category: development
+tags:
+  - development
+  - document
+  - documentation
+docs_url: https://markovo.net/docs/mcp
+endpoints:
+  - url: https://markovo.net/mcp
+    transport: streamable-http
+    auth: unknown

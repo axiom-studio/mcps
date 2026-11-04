@@ -1,0 +1,13 @@
+name: Doklad.ai
+summary: 'Czech invoicing for freelancers and small companies: create, send and track invoices, customers, expenses, payments and cash flow from Claude, ChatGPT, Codex, Cursor or VS Code. Hosted server, OAuth sign-in.'
+category: finance
+tags:
+  - business-operations
+  - document
+  - ecommerce
+  - finance
+docs_url: https://doklad.ai/mcp-fakturace
+endpoints:
+  - url: https://doklad.ai/mcp
+    transport: streamable-http
+    auth: oauth

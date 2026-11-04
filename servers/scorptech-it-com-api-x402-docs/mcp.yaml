@@ -1,0 +1,14 @@
+name: ScorpTech x402 Tools
+summary: 'Remote MCP server with 112 pay-per-call tools (security, finance, government data, FDA, BLS, web utilities), paid per call in USDC on Solana via the x402 protocol. No API key or account needed. Server URL: https://scorptech.it.com/api/x402/mcp'
+category: finance
+tags:
+  - crypto
+  - finance
+  - government
+  - payment
+  - security
+docs_url: https://scorptech.it.com/api/x402/docs
+endpoints:
+  - url: https://scorptech.it.com/api/x402/mcp
+    transport: streamable-http
+    auth: none

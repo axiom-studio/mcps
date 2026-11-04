@@ -1,0 +1,14 @@
+name: Zens AI
+summary: AI customer support system that turns user feedback into Codex and Multica workflows, helping SaaS teams improve every week.
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - customer-ops
+  - workflow-automation
+official: true
+docs_url: https://zens.ai/docs/reference/mcp
+endpoints:
+  - url: https://zens.ai/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: FedFinder
+summary: Source-linked federal opportunity, award and DLA research in your AI workspace. OAuth connection; paid FedFinder account and plan-specific permissions required.
+category: search
+tags:
+  - business-operations
+  - government
+  - research
+  - search
+docs_url: https://www.fedfinder.net/connector-docs
+endpoints:
+  - url: https://app.fedfinder.net/mcp
+    transport: streamable-http
+    auth: oauth

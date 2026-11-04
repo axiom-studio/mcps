@@ -1,0 +1,12 @@
+name: mcpfax
+summary: Send real faxes worldwide from Claude, ChatGPT & Cursor. Prepaid, no subscription, PDF report.
+category: communication
+tags:
+  - communication
+  - document
+  - pdf
+docs_url: https://github.com/Ploetzeneder/mcpfax
+endpoints:
+  - url: https://mcpfax.de/mcp
+    transport: streamable-http
+    auth: unknown

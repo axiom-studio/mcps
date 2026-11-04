@@ -1,0 +1,14 @@
+name: Relvato
+summary: 'Website monitoring for any site, deepest on WordPress & WooCommerce: add sites, run checks, read results and get fix prompts.'
+category: development
+tags:
+  - analytics
+  - devops-infrastructure
+  - ecommerce
+  - monitoring
+  - wordpress
+docs_url: https://www.relvato.com/developers
+endpoints:
+  - url: https://app.relvato.com/api/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,12 @@
+name: Forkmate
+summary: Free AI calorie and macro tracker. Tell Claude, ChatGPT or Cursor what you ate and Forkmate logs it to your private food diary. No ads, no paid tier.
+category: other
+tags:
+  - ai-agent
+  - data-analysis
+  - healthcare
+docs_url: https://forkmate.ai/connect/
+endpoints:
+  - url: https://mcp.forkmate.ai/
+    transport: streamable-http
+    auth: oauth

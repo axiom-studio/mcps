@@ -1,0 +1,13 @@
+name: btlabs Core
+summary: 'Headless website platform by Berger+Team (Bolzano, South Tyrol) for SMEs: trilingual (DE/IT/EN), cookieless, with structured data, llms.txt and an MCP interface for managing website content via AI. Endpoint: https://btlabs.dev/api/mcp (requires auth).'
+category: development
+tags:
+  - ai-agent
+  - cms
+  - content-creation
+  - web-research
+docs_url: https://btlabs.dev
+endpoints:
+  - url: https://btlabs.dev/api/mcp
+    transport: streamable-http
+    auth: unknown

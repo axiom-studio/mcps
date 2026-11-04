@@ -1,0 +1,14 @@
+name: Cornelius
+summary: Cornelius gives Claude and ChatGPT a lasting memory of your people, projects and routines, plus a morning brief. Free. No server, no API keys.
+category: memory
+tags:
+  - ai-agent
+  - anthropic
+  - memory
+  - openai
+  - productivity
+docs_url: https://cornelius.bot
+endpoints:
+  - url: https://mcp.cornelius.bot/mcp
+    transport: streamable-http
+    auth: oauth

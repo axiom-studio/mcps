@@ -1,0 +1,13 @@
+name: Newsletrix
+summary: Query competitor newsletter analytics (subject lines, SWOT, send patterns, ESP) from Claude, ChatGPT or Cursor.
+category: marketing
+tags:
+  - analytics
+  - email-automation
+  - marketing
+  - research
+docs_url: https://newsletrix.com/mcp/
+endpoints:
+  - url: https://beacon.newsletrix.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,11 @@
+name: 'eSIMCompare: travel eSIM prices'
+summary: Find the cheapest travel eSIM plans for a trip across 15 providers (18,332 plans in 202 destinations), every price cited to the provider's own page, plus a monthly travel eSIM price index.
+category: other
+tags:
+  - ecommerce
+  - search
+docs_url: https://esimcompare.co/data#mcp
+endpoints:
+  - url: https://esimcompare.co/mcp
+    transport: streamable-http
+    auth: none

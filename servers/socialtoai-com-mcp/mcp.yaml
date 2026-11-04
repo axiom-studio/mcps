@@ -1,0 +1,14 @@
+name: SocialToAI
+summary: Read public social media posts, comments, profiles and trends from 18 platforms. Pay per call.
+category: search
+tags:
+  - analytics
+  - marketing
+  - search
+  - social-media
+  - web-scraping
+docs_url: https://socialtoai.com/mcp/?utm_source=mcpservers-org&utm_medium=directory
+endpoints:
+  - url: https://mcp.socialtoai.com/mcp
+    transport: streamable-http
+    auth: oauth

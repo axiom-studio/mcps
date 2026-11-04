@@ -1,0 +1,18 @@
+name: FactSet
+summary: FactSet provides institutional-grade financial data, analytics, and research tools. Its AI-Ready Data remote MCP server gives assistants structured access to FactSet content so company fundamentals, estimates, and market data can be queried in conversation.
+description: |-
+  FactSet provides institutional-grade financial data, analytics, and research tools. Its AI-Ready Data remote MCP server gives assistants structured access to FactSet content so company fundamentals, estimates, and market data can be queried in conversation.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/factset)
+category: finance
+tags:
+  - finance
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/factset
+endpoints:
+  - url: https://mcp.factset.com/content/v1
+    transport: streamable-http
+    auth: oauth

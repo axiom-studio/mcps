@@ -1,0 +1,15 @@
+name: Werify
+summary: 'Your WhatsApp history in Claude and ChatGPT: search years of chats, voice notes transcribed.'
+category: communication
+tags:
+  - communication
+  - search
+  - translation
+  - whatsapp
+official: true
+registry_name: app.werify/werify
+docs_url: https://werify.app/en/whatsapp-mcp-server
+endpoints:
+  - url: https://werify.app/mcp
+    transport: streamable-http
+    auth: oauth

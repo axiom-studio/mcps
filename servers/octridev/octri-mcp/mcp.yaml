@@ -1,0 +1,13 @@
+name: Octri API Docs
+summary: Search an API's docs, guides, changelog and SDK snippets, and call its endpoints as tools. Built from the OpenAPI spec by Octri.
+category: development
+tags:
+  - api
+  - development
+  - documentation
+  - openapi
+docs_url: https://github.com/octridev/octri-mcp
+endpoints:
+  - url: https://api.octri.dev/api/v1/public/mcp/6a97f4e4dafe167dc569cbf0/mcp
+    transport: streamable-http
+    auth: none

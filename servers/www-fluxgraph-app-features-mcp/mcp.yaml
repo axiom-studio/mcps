@@ -1,0 +1,13 @@
+name: Flux LinkedIn MCP
+summary: Flux (fluxgraph.app) is a hosted LinkedIn MCP server for post analytics and research on any public profile or company page. Ask which days, formats, and lengths beat an account's own baseline, with the sample size behind each finding. A free preview covers up to 50 recent posts, and usage limits apply. Paid plans start at $5/month (MCP access is on Edge at $15/month, as of November 2026) and add full post history, weekly refresh, trends, search, and the engagement graph. You share no LinkedIn login or cookie. Flux reads public data through a third-party data provider, is read-only on LinkedIn, and is not affiliated with LinkedIn.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - social-media
+  - web-research
+docs_url: https://www.fluxgraph.app/features/mcp
+endpoints:
+  - url: https://www.fluxgraph.app/mcp
+    transport: streamable-http
+    auth: oauth

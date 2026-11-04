@@ -1,0 +1,13 @@
+name: Agent Cost Hub
+summary: 'LLM API prices and AI agent cost estimates, verified daily. Read-only tools: list_models, get_model_price, estimate_cost, compare_models, cheapest_models_for. 79 models, free, no auth. Streamable HTTP: https://agentcosthub.com/mcp'
+category: finance
+tags:
+  - ai-model
+  - data-analysis
+  - finance
+  - llm
+docs_url: https://agentcosthub.com/mcp/
+endpoints:
+  - url: https://agentcosthub.com/mcp
+    transport: streamable-http
+    auth: none

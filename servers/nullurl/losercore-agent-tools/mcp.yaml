@@ -1,0 +1,13 @@
+name: Losercore Playlist
+summary: Search starter-track metadata, retrieve original scene prompts and prepare editable playlist-video JSON drafts for a free browser workspace.
+category: design
+tags:
+  - content-creation
+  - media
+  - music
+  - search
+docs_url: https://github.com/nullurl/losercore-agent-tools
+endpoints:
+  - url: https://losercoreplaylist.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: Reconstruct
+summary: Captured web interfaces, screenshots and flows as evidence for AI coding agents.
+category: development
+tags:
+  - browser-automation
+  - testing-qa
+  - web-scraping
+docs_url: https://github.com/cryptify-corporation/reconstruct-ai-skills
+endpoints:
+  - url: https://reconstruct.dev/mcp
+    transport: streamable-http
+    auth: oauth

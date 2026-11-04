@@ -1,0 +1,14 @@
+name: GeoQuant Orb
+summary: 'Read-only geopolitics + market context for AI agents: Hormuz, GDELT news, Kraken prices, macro.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - geospatial
+  - news
+  - trading
+docs_url: https://geoquant-orb.pages.dev
+endpoints:
+  - url: https://geoquant-orb.pages.dev/mcp
+    transport: streamable-http
+    auth: none

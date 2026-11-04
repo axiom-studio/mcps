@@ -1,0 +1,12 @@
+name: Calidario MCP
+summary: 'Calidario MCP verbindet KI-Assistenten mit Kalenderdaten, Datumsberechnungen und druckbaren Kalendern. Eine Frage in Alltagssprache genügt: Der Assistent kann verlässliche Kalenderinformationen abrufen, Zeiträume vergleichen und auf Wunsch einen fertigen Kalender erstellen lassen.'
+category: productivity
+tags:
+  - ai-agent
+  - calendar
+  - productivity
+docs_url: https://www.calidar.io/de-de/kalender-mcp-server.html
+endpoints:
+  - url: https://mcp.calidar.io/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: smsverbot-mcp
+summary: 'SMS verification for AI agents: buy a real number, get the code, cancel with refund.'
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - payment
+  - sms
+docs_url: https://github.com/MassimoSun/smsverbot-mcp
+endpoints:
+  - url: https://mcp.188.137.227.14.sslip.io/mcp
+    transport: streamable-http
+    auth: api-key

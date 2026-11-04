@@ -1,0 +1,12 @@
+name: PulseWatch Vendor Status
+summary: Current status and incidents for 1,700+ SaaS and cloud vendors from PulseWatch. $0.01 per call in USDC on Base, no account.
+category: cloud-service
+tags:
+  - api
+  - cloud-infrastructure
+  - monitoring
+docs_url: https://pulsewatch.us
+endpoints:
+  - url: https://api.pulsewatch.us/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: Index Agentica
+summary: Search a curated directory of agent tools, MCP servers, APIs, protocols and skills. No auth.
+category: search
+tags:
+  - knowledge-retrieval
+  - search
+  - web-research
+docs_url: https://github.com/Drudley/indexagentica-mcp
+endpoints:
+  - url: https://mcp.indexagentica.com/mcp
+    transport: streamable-http
+    auth: unknown

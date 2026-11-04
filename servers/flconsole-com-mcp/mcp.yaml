@@ -1,0 +1,12 @@
+name: flconsole — Upwork jobs
+summary: 'Free hosted MCP server for new Upwork jobs: your agent searches jobs posted in the last 30 minutes by Upwork filters, reads them and shortlists the ones that fit. Feeds also send Telegram alerts within a minute. OAuth sign-in via Telegram, no API key.'
+category: productivity
+tags:
+  - productivity
+  - telegram
+  - workflow-automation
+docs_url: https://flconsole.com/mcp?utm_source=mcpservers&utm_medium=directory&utm_campaign=launch_mcp
+endpoints:
+  - url: https://mcp.lite.flconsole.com/mcp
+    transport: streamable-http
+    auth: oauth

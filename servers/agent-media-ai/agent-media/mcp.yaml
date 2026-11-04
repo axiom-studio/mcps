@@ -1,0 +1,16 @@
+name: agent-media
+summary: Hosted MCP server (OAuth, no API keys) that makes short drama series (micro-dramas, sitcoms, K-drama style, any language) and other short vertical videos from Claude, ChatGPT or Codex, with the same cast every episode.
+category: marketing
+tags:
+  - advertising
+  - ai-model
+  - content-creation
+  - marketing
+  - video
+official: true
+registry_name: io.github.yuvalsuede/agent-media
+docs_url: https://agent-media.ai/claude
+endpoints:
+  - url: https://api.agent-media.ai/mcp
+    transport: streamable-http
+    auth: oauth

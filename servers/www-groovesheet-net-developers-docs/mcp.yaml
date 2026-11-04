@@ -1,0 +1,13 @@
+name: GrooveSheet
+summary: 'Find sheet music, MIDI and isolated stems for songs in GrooveSheet''s library of AI transcriptions. Ask for a song and get the score, a printable PDF and a Guitar Pro file for drums, piano, bass or guitar. Remote, no sign-in: https://api.groovesheet.net/mcp/public (sign in at /mcp to also transcribe your own songs).'
+category: other
+tags:
+  - api
+  - media
+  - music
+  - pdf
+docs_url: https://www.groovesheet.net/developers/docs
+endpoints:
+  - url: https://api.groovesheet.net/mcp/public
+    transport: streamable-http
+    auth: none

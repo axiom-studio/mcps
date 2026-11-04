@@ -1,0 +1,12 @@
+name: ProxyJam
+summary: ProxyJam's remote MCP server lets AI agents find proxy offers, order and renew ISP proxies, and check traffic and balance. Purchases show a preview and wait for your yes.
+category: web-scraping
+tags:
+  - payment
+  - web-scraping
+  - workflow-automation
+docs_url: https://proxyjam.com/mcp/
+endpoints:
+  - url: https://proxyjam.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: Agent Data Tools
+summary: '175 pay-per-call data tools for AI agents over a remote MCP server: read web pages, PDFs and feeds as clean text; domain, email and company checks; OFAC sanctions screening; token, wallet and chain reads on five EVM networks; prices, Bitcoin fees, FX, weather, time; JSON, date and validation utilities. 25 free calls per caller, then a fixed price per call (most $0.003) in USDC via x402/MPP or prepaid card credits; failed calls are never charged.'
+category: search
+tags:
+  - crypto
+  - data-analysis
+  - evm
+  - payment
+  - web-scraping
+docs_url: https://agent-data-tools.revmesh2074.workers.dev
+endpoints:
+  - url: https://agent-data-tools.revmesh2074.workers.dev/mcp
+    transport: streamable-http
+    auth: none

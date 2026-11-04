@@ -1,0 +1,14 @@
+name: PreReason
+summary: 'Financial market context for AI agents, with listed companies'' results: www.prereason.com/agents.md'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - finance
+  - research
+docs_url: https://github.com/PreReason/mcp
+website_url: https://www.prereason.com
+endpoints:
+  - url: https://api.prereason.com/api/mcp
+    transport: streamable-http
+    auth: oauth

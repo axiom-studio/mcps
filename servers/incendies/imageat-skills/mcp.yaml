@@ -1,0 +1,14 @@
+name: imageat
+summary: AI image generation and editing, video, narrated explainers and voiceovers for AI agents, via a hosted MCP server.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - media
+  - text-to-speech
+  - video
+docs_url: https://github.com/incendies/imageat-skills
+endpoints:
+  - url: https://mcp.imageat.com/mcp
+    transport: streamable-http
+    auth: oauth

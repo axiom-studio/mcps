@@ -1,0 +1,13 @@
+name: LinkedNav MCP
+summary: 'Run your LinkedIn outreach from your AI chat. LinkedNav MCP connects AI assistants (Claude, Cursor, and any other MCP app) to your LinkedNav account: find the right people, launch campaigns, send connection requests and messages, answer replies, and check results. Hosted at https://mcp.linkednav.com/ with 145 outreach tools. Free 7-day trial. Not affiliated with LinkedIn.'
+category: marketing
+tags:
+  - communication
+  - crm
+  - marketing-automation
+  - workflow-automation
+docs_url: https://www.linkednav.com/mcp?utm_source=mcpservers&utm_medium=listing
+endpoints:
+  - url: https://mcp.linkednav.com/
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: SupWriter MCP
+summary: Humanize AI text, detect AI-written text, paraphrase and fix grammar from inside Claude, ChatGPT, Cursor, VS Code and Claude Code. Remote MCP server by SupWriter; 50+ languages.
+category: productivity
+tags:
+  - ai-model
+  - content-creation
+  - productivity
+docs_url: https://supwriter.com/mcp
+endpoints:
+  - url: https://supwriter.com/api/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,16 @@
+name: Neon
+summary: Interact with the Neon serverless Postgres platform
+category: database
+tags:
+  - cloud-infrastructure
+  - database
+  - neon
+  - postgres
+  - serverless
+official: true
+registry_name: com.neon/mcp
+docs_url: https://github.com/neondatabase/mcp-server-neon
+endpoints:
+  - url: https://mcp.neon.tech/mcp
+    transport: streamable-http
+    auth: oauth

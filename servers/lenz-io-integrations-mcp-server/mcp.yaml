@@ -1,0 +1,12 @@
+name: Lenz Fact-Check
+summary: 'Checks the factual claims in a draft or an answer against independent sources: a quick verdict, or a deep check with sources.'
+category: productivity
+tags:
+  - knowledge-retrieval
+  - research
+  - web-research
+docs_url: https://lenz.io/integrations/mcp-server
+endpoints:
+  - url: https://lenz.io/mcp
+    transport: streamable-http
+    auth: oauth

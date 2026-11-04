@@ -1,0 +1,13 @@
+name: Songbrain
+summary: 'Hosted music analysis MCP server: beat grid with downbeats, song sections, best moments with reasons, word-timed lyrics and a beat-synced shot plan for any song. Example tools work without a key'
+category: other
+tags:
+  - audio
+  - content-creation
+  - media
+  - music
+docs_url: https://github.com/songbrain-ai/songbrain
+endpoints:
+  - url: https://api.songbrain.ai/v1/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: RAR.now MCP Server
+summary: Convert RAR archives to ZIP, 7Z and TAR through MCP-compatible AI clients, with remote job status and API usage tools.
+category: file-system
+tags:
+  - api
+  - file-conversion
+  - file-management
+docs_url: https://rar.now/mcp-server
+endpoints:
+  - url: https://rar.now/mcp
+    transport: streamable-http
+    auth: api-key

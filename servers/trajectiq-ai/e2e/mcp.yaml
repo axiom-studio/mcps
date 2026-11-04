@@ -1,0 +1,12 @@
+name: Playwright E2E MCP
+summary: 'Run, debug and inspect Playwright end-to-end tests from any AI agent: structured results with file:line failure diagnostics, live DOM inspection, selector validation, visual diffs and flaky-test diagnosis.'
+category: development
+tags:
+  - browser-automation
+  - playwright
+  - testing-qa
+docs_url: https://github.com/trajectiq-ai/E2E
+endpoints:
+  - url: https://playwright-e2e-mcp.vercel.app/api/mcp
+    transport: streamable-http
+    auth: none

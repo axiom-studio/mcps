@@ -1,0 +1,12 @@
+name: exascale.build
+summary: 'Source-cited US energy data for agents: all 7 ISO interconnection queues, EIA power data, ERCOT prices, plus AI infra, robotics and satellite filings. 25 free queries, then $49/mo or $490/yr.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+docs_url: https://exascale.build/docs/
+endpoints:
+  - url: https://api.exascale.build/mcp
+    transport: streamable-http
+    auth: unknown

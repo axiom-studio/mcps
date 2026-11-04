@@ -1,0 +1,13 @@
+name: apMZoomAI · Dongdaemun wholesale
+summary: 'Search Dongdaemun (Seoul) wholesale fashion: items, new arrivals and stalls by building and floor, with links to apMZoomAI. Read-only; no prices or contact details.'
+category: other
+tags:
+  - ecommerce
+  - marketplace
+  - search
+  - web-research
+docs_url: https://github.com/apmleokeo-gif/apmzoom-mcp
+endpoints:
+  - url: https://www.apmzoom.com/mcp
+    transport: streamable-http
+    auth: none

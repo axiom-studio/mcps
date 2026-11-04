@@ -1,0 +1,12 @@
+name: SpendGate
+summary: MCP/API that scores a planned spend as approve, ask_human, or block so agents don’t burn money by mistake. Free to try, then USDC via x402.
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - payment
+docs_url: https://github.com/toolweather/spendgate
+endpoints:
+  - url: https://spendgate.toolweather.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

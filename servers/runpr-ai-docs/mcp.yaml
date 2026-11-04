@@ -1,0 +1,13 @@
+name: RunPR
+summary: PR research, pitch preparation and workflow reads over Streamable HTTP, with no sending tool. Organization keys are support-provisioned for eligible paid or trialing workspaces. A separate enrolled Claude Code OAuth pilot adds selected-client access. See docs for setup, permissions and limits.
+category: marketing
+tags:
+  - communication
+  - marketing
+  - research
+  - workflow-automation
+docs_url: https://runpr.ai/docs
+endpoints:
+  - url: https://runpr.ai/api/mcp
+    transport: streamable-http
+    auth: api-key

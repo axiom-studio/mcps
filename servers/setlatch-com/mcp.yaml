@@ -1,0 +1,13 @@
+name: SetLatch
+summary: 'Privacy requests (DSARs) for every site you run: triage, app look-ups, tasks and the audit trail.'
+category: productivity
+tags:
+  - compliance
+  - privacy
+  - productivity
+  - workflow-automation
+docs_url: https://setlatch.com
+endpoints:
+  - url: https://setlatch.com/mcp
+    transport: streamable-http
+    auth: oauth

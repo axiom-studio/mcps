@@ -1,0 +1,14 @@
+name: Velocity
+summary: AI-centric project management. Project management for 2026 and beyond.
+category: productivity
+tags:
+  - ai-agent
+  - productivity
+  - project-management
+  - task-management
+official: true
+docs_url: https://docs.velocity.quest/mcp
+endpoints:
+  - url: https://velocity.quest/api/mcp
+    transport: streamable-http
+    auth: api-key

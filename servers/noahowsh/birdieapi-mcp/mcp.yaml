@@ -1,0 +1,12 @@
+name: BirdieAPI
+summary: 'PGA Tour data from 2001: leaderboards, holes, courses, ratings, par-3/4/5 splits, major winner odds.'
+category: other
+tags:
+  - api
+  - data-analysis
+  - sports
+docs_url: https://github.com/noahowsh/birdieapi-mcp
+endpoints:
+  - url: https://mcp.birdieapi.com/mcp
+    transport: streamable-http
+    auth: api-key

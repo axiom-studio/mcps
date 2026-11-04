@@ -1,0 +1,14 @@
+name: LaunchMyStore
+summary: 'Run a LaunchMyStore online store from any AI assistant: products, orders, customers, coupons, analytics, themes, shipping and plans. 190+ tools with OAuth or token login.'
+category: other
+tags:
+  - analytics
+  - business-operations
+  - customer-ops
+  - ecommerce
+  - inventory
+docs_url: https://docs.launchmystore.io/mcp/overview
+endpoints:
+  - url: https://api.launchmystore.io/mcp
+    transport: streamable-http
+    auth: oauth

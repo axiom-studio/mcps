@@ -1,0 +1,12 @@
+name: FontGlitch Zalgo Text
+summary: Generate zalgo / glitch text with adjustable intensity and repeatable seeds, plus 17 Unicode font styles (bold, cursive, gothic, bubble, small caps) that paste anywhere. No auth.
+category: design
+tags:
+  - content-creation
+  - design
+  - text-to-speech
+docs_url: https://fontglitch.com
+endpoints:
+  - url: https://fontglitch.com/mcp
+    transport: streamable-http
+    auth: none

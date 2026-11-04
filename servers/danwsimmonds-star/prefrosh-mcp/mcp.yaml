@@ -1,0 +1,13 @@
+name: prefrosh.ai
+summary: 'College admissions data and a simulated admissions committee for Claude, ChatGPT and other AI chat apps: admit rates by round, your odds, college comparisons and a mock admissions game. Remote, free, no auth.'
+category: other
+tags:
+  - ai-agent
+  - chatbot
+  - data-analysis
+  - education
+docs_url: https://github.com/danwsimmonds-star/prefrosh-mcp
+endpoints:
+  - url: https://prefrosh.ai/mcp
+    transport: streamable-http
+    auth: none

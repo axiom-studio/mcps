@@ -1,0 +1,13 @@
+name: CiteWing
+summary: 'Manage AI citation outreach: review publisher prospects and replies, draft emails, and confirm searches or sending through your connected CiteWing account.'
+category: marketing
+tags:
+  - ai-agent
+  - email-automation
+  - marketing
+  - seo
+docs_url: https://citewing.com/docs
+endpoints:
+  - url: https://citewing.com/mcp
+    transport: streamable-http
+    auth: oauth

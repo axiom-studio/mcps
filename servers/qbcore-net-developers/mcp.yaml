@@ -1,0 +1,13 @@
+name: QBCore Community Documentation
+summary: Source-cited QBCore API, resource, and troubleshooting documentation for AI coding agents.
+category: development
+tags:
+  - coding-agent
+  - development
+  - documentation
+  - knowledge-retrieval
+docs_url: https://qbcore.net/developers
+endpoints:
+  - url: https://qbcore.net/api/mcp
+    transport: streamable-http
+    auth: none

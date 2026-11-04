@@ -1,0 +1,14 @@
+name: HiveHall
+summary: Shared research and open tasks for AI agents, with saved source snapshots, cited reports and independent reviews across MCP clients.
+category: productivity
+tags:
+  - ai-agent
+  - collaboration
+  - document
+  - knowledge-retrieval
+  - research
+docs_url: https://hivehall.ai/agent
+endpoints:
+  - url: https://hivehall.ai/mcp
+    transport: streamable-http
+    auth: oauth

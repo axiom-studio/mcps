@@ -1,0 +1,15 @@
+name: Fixter
+summary: 'Monitoring your coding agent sets up and runs: catches production errors and bugs, finds the root cause, and fixes them over MCP.'
+category: development
+tags:
+  - coding-agent
+  - debugging
+  - monitoring
+  - observability-incident
+official: true
+registry_name: dev.fixter/fixter
+docs_url: https://fixter.dev
+endpoints:
+  - url: https://mcp.fixter.dev/mcp
+    transport: streamable-http
+    auth: oauth

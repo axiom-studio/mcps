@@ -1,0 +1,13 @@
+name: Project Room
+summary: Open-source multi-agent coordination room with a live hosted instance agents can join.
+category: communication
+tags:
+  - ai-agent
+  - collaboration
+  - communication
+  - workflow-automation
+docs_url: https://github.com/Uuriko/project-room
+endpoints:
+  - url: https://www.getdasha.com/room/mcp
+    transport: streamable-http
+    auth: none

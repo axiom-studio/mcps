@@ -1,0 +1,13 @@
+name: BuyerCue
+summary: BuyerCue's MCP server lets Claude and other AI agents search SaaS companies that already pay for growth, read the evidence behind each one, and unlock the ones you want.
+category: marketing
+tags:
+  - data-analysis
+  - marketing
+  - research
+  - sales
+docs_url: https://buyercue.io
+endpoints:
+  - url: https://www.buyercue.io/mcp
+    transport: streamable-http
+    auth: unknown

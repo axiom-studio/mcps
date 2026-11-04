@@ -1,0 +1,13 @@
+name: CasaCaddy
+summary: Read maintenance requirements, prepare confirmed guides and check device-owned guide jobs.
+category: productivity
+tags:
+  - document
+  - knowledge-retrieval
+  - productivity
+  - workflow-automation
+docs_url: https://api.casacaddy.com/developers
+endpoints:
+  - url: https://api.casacaddy.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: StrictScore
+summary: 'STRICT fundamentals scores (0-100) for 970 crypto assets: search, rankings, full analyses, comparisons, sectors, market health. Bearer API key from the Enterprise plan.'
+category: finance
+tags:
+  - analytics
+  - api
+  - crypto
+  - finance
+docs_url: https://strictscore.com/developers
+endpoints:
+  - url: https://strictscore.com/api/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,14 @@
+name: Reduck MCP
+summary: Reduck MCP allows agents to discover, run and create browser automation scripts that serve as tools. Scripts run in your own Chrome, through our extension, which allows your agent to work where you are logged in — no credentials exposure, and same fingerprints so no bot detection.
+category: web-scraping
+tags:
+  - browser
+  - browser-automation
+  - web-scraping
+official: true
+registry_name: ai.reduck/reduck
+docs_url: https://docs.reduck.ai/other-clients/
+endpoints:
+  - url: https://mcp.reduck.ai/mcp
+    transport: streamable-http
+    auth: oauth

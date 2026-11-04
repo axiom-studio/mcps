@@ -1,0 +1,13 @@
+name: Provider Trust
+summary: 'Provider Trust MCP from ScriptMasterLabs: verify a provider or source (identity, payment, history, status) before an AI agent trusts or pays it, plus CANON bulk registry lookup of up to 100 providers per call. Paid via x402 USDC on Base.'
+category: other
+tags:
+  - ai-agent
+  - crypto
+  - identity
+  - payment
+docs_url: https://provider-trust-mcp.onrender.com/mcp
+endpoints:
+  - url: https://provider-trust-mcp.onrender.com/mcp
+    transport: streamable-http
+    auth: none

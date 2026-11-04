@@ -1,0 +1,12 @@
+name: Laydyne
+summary: Build and check 2D/3D floor plans with your AI over MCP. Compare layout and operational options in Pro or Max.
+category: design
+tags:
+  - data-analysis
+  - design
+  - geospatial
+docs_url: https://laydyne.com/docs#connect-mcp
+endpoints:
+  - url: https://laydyne.com/api/mcp/oauth
+    transport: streamable-http
+    auth: oauth

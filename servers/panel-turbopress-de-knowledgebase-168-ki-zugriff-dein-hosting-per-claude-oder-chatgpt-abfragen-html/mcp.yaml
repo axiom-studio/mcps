@@ -1,0 +1,11 @@
+name: turbopress Hosting
+summary: 'Connect Claude or ChatGPT to your turbopress hosting: check site health, disk space, domains and invoices, create mailboxes, renew SSL and publish AI-built websites with AI Launch. Requires a turbopress account (OAuth).'
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - devops-infrastructure
+docs_url: https://panel.turbopress.de/knowledgebase/168/KI-Zugriff-Dein-Hosting-per-Claude-oder-ChatGPT-abfragen.html
+endpoints:
+  - url: https://mcp.turbopress.de/mcp
+    transport: streamable-http
+    auth: oauth

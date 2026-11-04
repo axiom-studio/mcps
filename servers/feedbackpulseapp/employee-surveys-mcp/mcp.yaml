@@ -1,0 +1,12 @@
+name: FeedbackPulse Employee Surveys
+summary: 'Design employee surveys with AI: preview, prepare and save surveys. No sign-in.'
+category: productivity
+tags:
+  - ai-agent
+  - productivity
+  - workflow-automation
+docs_url: https://github.com/FeedbackPulseApp/employee-surveys-mcp
+endpoints:
+  - url: https://app.feedbackpulse.com/mcp/employee-surveys
+    transport: streamable-http
+    auth: none

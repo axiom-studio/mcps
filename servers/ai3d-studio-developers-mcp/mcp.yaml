@@ -1,0 +1,13 @@
+name: AI3D Studio
+summary: Generate 3D models from images or text with AI, then retexture or convert them to STL, 3MF or OBJ. Remote server with OAuth sign-in; runs bill AI3D Studio credits.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - file-conversion
+docs_url: https://ai3d.studio/developers/mcp
+endpoints:
+  - url: https://ai3d.studio/mcp
+    transport: streamable-http
+    auth: oauth

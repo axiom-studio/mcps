@@ -1,0 +1,14 @@
+name: FFmpeguru
+summary: Describe it in plain language. You get a runnable FFmpeg command, an explanation of every flag, and an answer informed by what other people have already asked.
+category: productivity
+tags:
+  - audio
+  - document
+  - file-conversion
+  - media
+  - video
+docs_url: https://ffmpeguru.com/
+endpoints:
+  - url: https://api.ffmpeguru.com/mcp
+    transport: streamable-http
+    auth: none

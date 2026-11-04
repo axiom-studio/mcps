@@ -1,0 +1,13 @@
+name: Browser Use
+summary: 'Official Browser Use MCP server: run browser agents on stealth cloud browsers (CAPTCHA solving, proxies in 195+ countries) from Claude Code, Cursor or any MCP client.'
+category: web-scraping
+tags:
+  - ai-agent
+  - browser-automation
+  - testing-qa
+  - web-scraping
+docs_url: https://browser-use.com/mcp
+endpoints:
+  - url: https://api.browser-use.com/v3/mcp
+    transport: streamable-http
+    auth: api-key

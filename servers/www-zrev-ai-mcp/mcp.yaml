@@ -1,0 +1,14 @@
+name: zRev AI
+summary: Grade any llms.txt, cold-read a homepage the way an AI assistant does, run a B2B GTM ROI model and get a GTM due diligence checklist. Remote, no key needed.
+category: marketing
+tags:
+  - ai-model
+  - business-operations
+  - marketing
+  - research
+  - web-research
+docs_url: https://www.zrev.ai/mcp
+endpoints:
+  - url: https://go.zrev.ai/mcp
+    transport: streamable-http
+    auth: none

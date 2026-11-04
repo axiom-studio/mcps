@@ -1,0 +1,13 @@
+name: Cleave for Agents
+summary: Plan split token swaps, cross-chain swaps and gas top-ups on 6 EVM chains. Cleave returns unsigned calls, and the user's wallet signs.
+category: finance
+tags:
+  - crypto
+  - defi
+  - evm
+  - trading
+docs_url: https://github.com/cleave-protocol/cleave-swap
+endpoints:
+  - url: https://api.cleave.fi/mcp
+    transport: streamable-http
+    auth: none

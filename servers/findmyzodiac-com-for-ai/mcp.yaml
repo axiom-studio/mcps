@@ -1,0 +1,11 @@
+name: findmyzodiac
+summary: Western zodiac sign from date of birth plus sign compatibility scores. English and Hindi. Free remote MCP server, no auth.
+category: other
+tags:
+  - api
+  - entertainment
+docs_url: https://findmyzodiac.com/for-ai
+endpoints:
+  - url: https://findmyzodiac.com/mcp
+    transport: streamable-http
+    auth: none

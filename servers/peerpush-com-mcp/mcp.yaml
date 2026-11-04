@@ -1,0 +1,13 @@
+name: PeerPush
+summary: 'Find and compare software, SaaS, developer, and AI tools: alternatives, pricing, platforms, and trends. Read-only remote server, no API key needed.'
+category: search
+tags:
+  - knowledge-retrieval
+  - research
+  - search
+  - web-research
+docs_url: https://peerpush.com/mcp
+endpoints:
+  - url: https://peerpush.com/api/mcp
+    transport: streamable-http
+    auth: none

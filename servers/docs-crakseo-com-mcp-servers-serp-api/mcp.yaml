@@ -1,0 +1,13 @@
+name: CrakSEO Google SERP API MCP
+summary: Live Google and Bing results, AI Overview sources, Google Maps results and live rank checks for AI assistants. Hosted Streamable HTTP with OAuth or a scoped API key; SEO data calls use API credits.
+category: search
+tags:
+  - api
+  - search
+  - seo
+  - web-research
+docs_url: https://docs.crakseo.com/mcp-servers/serp-api
+endpoints:
+  - url: https://crakseo.com/mcp/serp-api
+    transport: streamable-http
+    auth: oauth

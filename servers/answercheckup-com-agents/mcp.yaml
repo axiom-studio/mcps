@@ -1,0 +1,12 @@
+name: Answer Checkup
+summary: Free AI readiness scan for any website. Paid reports for agents are coming soon.
+category: marketing
+tags:
+  - marketing
+  - seo
+  - web-research
+docs_url: https://answercheckup.com/agents
+endpoints:
+  - url: https://answercheckup.com/mcp
+    transport: streamable-http
+    auth: unknown

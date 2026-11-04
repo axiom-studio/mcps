@@ -1,0 +1,11 @@
+name: Meridian Dispatch
+summary: 'Free travel reference for AI agents: reported guides to destinations worldwide.'
+category: search
+tags:
+  - research
+  - web-research
+docs_url: https://www.meridiandispatch.com/mcp
+endpoints:
+  - url: https://www.meridiandispatch.com/api/mcp
+    transport: streamable-http
+    auth: none

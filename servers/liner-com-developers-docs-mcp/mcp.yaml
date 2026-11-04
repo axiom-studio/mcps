@@ -1,0 +1,13 @@
+name: Liner Search & Research
+summary: Cited web and academic search, quick answers, and multi-step deep research reports from Liner. Remote MCP server with OAuth sign-in.
+category: search
+tags:
+  - knowledge-retrieval
+  - research
+  - search
+  - web-research
+docs_url: https://liner.com/developers/docs/mcp
+endpoints:
+  - url: https://platform.liner.com/api/v1/mcp
+    transport: streamable-http
+    auth: oauth

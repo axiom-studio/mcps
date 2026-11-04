@@ -1,0 +1,13 @@
+name: InvestorMatch
+summary: Find the right VC investors for your startup — search a public directory of venture capital firms and fundraising guides. No sign-in needed.
+category: finance
+tags:
+  - database
+  - finance
+  - research
+  - search
+docs_url: https://investormatch.pro/api-docs#mcp
+endpoints:
+  - url: https://investormatch.pro/mcp/public
+    transport: streamable-http
+    auth: none

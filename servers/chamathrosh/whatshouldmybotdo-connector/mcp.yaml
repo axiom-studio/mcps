@@ -1,0 +1,13 @@
+name: WhatShouldMyBotDo
+summary: 'Free read-only remote MCP server: plan a small business''s first AI agent, search 36 use cases, get drafts-first templates. No auth.'
+category: productivity
+tags:
+  - ai-agent
+  - business-operations
+  - documentation
+  - workflow-automation
+docs_url: https://github.com/ChamathRosh/whatshouldmybotdo-connector
+endpoints:
+  - url: https://whatshouldmybotdo.com/api/mcp
+    transport: streamable-http
+    auth: none

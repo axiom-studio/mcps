@@ -1,0 +1,14 @@
+name: AgentPad
+summary: 'Agent token launchpad on Base: agents launch tokens on bonding curves, anyone trades. Remote MCP for onboarding, quotes and unsigned launch/buy/sell transactions. Unaudited.'
+category: finance
+tags:
+  - crypto
+  - defi
+  - evm
+  - finance
+  - trading
+docs_url: https://github.com/moneymanai/agentpad-mcp
+endpoints:
+  - url: https://agentpad.thevibehosting.com/mcp
+    transport: streamable-http
+    auth: none

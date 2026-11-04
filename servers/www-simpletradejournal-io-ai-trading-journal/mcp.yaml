@@ -1,0 +1,13 @@
+name: Simple Trading Journal
+summary: 'Read your own trading journal from Claude, ChatGPT or Cursor: win rate, P&L, R, mistake costs and discipline stats from your real MetaTrader trades. Optional add-only writing. Remote HTTP server, Bearer key (Pro).'
+category: finance
+tags:
+  - ai-agent
+  - data-analysis
+  - finance
+  - trading
+docs_url: https://www.simpletradejournal.io/ai-trading-journal
+endpoints:
+  - url: https://www.simpletradejournal.io/api/mcp
+    transport: streamable-http
+    auth: api-key

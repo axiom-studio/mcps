@@ -1,0 +1,13 @@
+name: LLM Scraper by Nova (CIVAI)
+summary: Scrape websites by following links and extract structured data from natural language instructions.
+category: search
+tags:
+  - browser-automation
+  - data-analysis
+  - llm
+  - web-scraping
+docs_url: https://github.com/civai-technologies/mcp-llm-scraper-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-llm-scraper
+    transport: streamable-http
+    auth: api-key

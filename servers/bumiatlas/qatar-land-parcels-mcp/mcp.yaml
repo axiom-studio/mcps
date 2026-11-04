@@ -1,0 +1,13 @@
+name: Qatar Land Parcels & PIN Lookup (قطع الأراضي)
+summary: Qatar Ministry of Municipality parcels by PIN, zone and block or coordinates, with building height.
+category: other
+tags:
+  - geospatial
+  - government
+  - real-estate
+  - search
+docs_url: https://github.com/BumiAtlas/qatar-land-parcels-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/qatar
+    transport: streamable-http
+    auth: oauth

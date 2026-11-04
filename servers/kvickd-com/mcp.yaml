@@ -1,0 +1,12 @@
+name: Kvickd
+summary: Swedish bookkeeping over MCP – vouchers, invoices, VAT, payroll tax and annual reports.
+category: finance
+tags:
+  - business-operations
+  - document
+  - finance
+docs_url: https://kvickd.com
+endpoints:
+  - url: https://api.kvickd.com/mcp
+    transport: streamable-http
+    auth: oauth

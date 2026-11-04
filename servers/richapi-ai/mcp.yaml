@@ -1,0 +1,13 @@
+name: RichAPI
+summary: 'Live B2B GTM data API: people, companies, emails, phones, web intelligence. One key. On waterfall endpoints a miss costs zero credits.'
+category: development
+tags:
+  - api
+  - data-analysis
+  - research
+  - sales
+docs_url: https://richapi.ai
+endpoints:
+  - url: https://mcp.richapi.ai/mcp
+    transport: streamable-http
+    auth: oauth

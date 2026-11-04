@@ -1,0 +1,12 @@
+name: Trades With AI + SaaS Price Watch
+summary: Read-only data on AI tools for trades businesses and public SaaS pricing, with source quotes and check dates.
+category: search
+tags:
+  - data-analysis
+  - research
+  - web-research
+docs_url: https://tradeswithai.com/agents/
+endpoints:
+  - url: https://tradeswithai.com/mcp
+    transport: streamable-http
+    auth: unknown

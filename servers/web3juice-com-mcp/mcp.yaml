@@ -1,0 +1,13 @@
+name: Web3Juice
+summary: 'Evidence-backed DeFi yield data for ~17,000 pools: market summaries, base vs reward APY, 90-day history and comparisons. Read-only.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - defi
+  - finance
+docs_url: https://web3juice.com/mcp
+endpoints:
+  - url: https://web3juice.com/api/mcp
+    transport: streamable-http
+    auth: unknown

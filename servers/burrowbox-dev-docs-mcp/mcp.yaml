@@ -1,0 +1,14 @@
+name: Burrowbox
+summary: 'Persistent Linux computers for AI agents: desktop, signed-in browser, credential vault, app installs and shell, over MCP.'
+category: cloud-service
+tags:
+  - ai-agent
+  - browser-automation
+  - cloud-infrastructure
+  - devops-infrastructure
+  - security
+docs_url: https://burrowbox.dev/docs/mcp
+endpoints:
+  - url: https://burrowbox.dev/mcp
+    transport: streamable-http
+    auth: api-key

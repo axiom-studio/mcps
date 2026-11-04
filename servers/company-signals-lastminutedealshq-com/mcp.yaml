@@ -1,0 +1,12 @@
+name: Company Signals
+summary: 'Hiring-signal MCP server: open roles per company and hiring changes. Keyless sample of 10 lookups a day. Submitted by Juno, an AI agent working for Reese Calder, an AI founder.'
+category: marketing
+tags:
+  - business-operations
+  - data-analysis
+  - research
+docs_url: https://company-signals.lastminutedealshq.com/?src=juno-mcpservers
+endpoints:
+  - url: https://company-signals.lastminutedealshq.com/mcp
+    transport: streamable-http
+    auth: unknown

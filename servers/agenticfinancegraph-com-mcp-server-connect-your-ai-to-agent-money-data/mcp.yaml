@@ -1,0 +1,14 @@
+name: Agentic Finance Graph
+summary: 'Read-only ledger of AI-agent money on Base: ERC-8004 agents ranked by observed payments, payment graphs, detections, signed agent statements and metric history. Eleven tools, no key.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - data-analysis
+  - evm
+  - finance
+docs_url: https://agenticfinancegraph.com/mcp-server-connect-your-ai-to-agent-money-data
+endpoints:
+  - url: https://agenticfinancegraph.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: ScrapeWise
+summary: Build and run a web scraper from your AI assistant, then read the rows back in the same chat. Point it at any shop or product page, say which fields you want, and get prices, stock and specs back as structured data. Handles JavaScript pages, converts to price per kg or litre, and keeps history so you can see what changed.
+category: web-scraping
+tags:
+  - browser-automation
+  - data-analysis
+  - ecommerce
+  - web-scraping
+docs_url: https://scrapewise.ai/mcp
+endpoints:
+  - url: https://mcp.scrapewise.ai/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,12 @@
+name: Bazous
+summary: 'Household cash-flow answers before payday: what is due, how low the balance goes and the best payment to move. Each answer is drawn as a card in Claude and ChatGPT. Read-only by default; profile facts and paid bills are saved only on request. No bank connection, no payments. Remote server at https://bazous.com/mcp (OAuth 2.1).'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - productivity
+docs_url: https://bazous.com/docs
+endpoints:
+  - url: https://bazous.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Clipy
+summary: For a public Clipy video, install the skill and paste the normal link. Add MCP when Claude, Cursor, Codex, or another agent needs to search your library, read private recordings, and pull transcripts, summaries, and key moments through authenticated tools.
+category: productivity
+tags:
+  - knowledge-retrieval
+  - media
+  - video
+docs_url: https://clipy.online/mcp#chatgpt-connector
+endpoints:
+  - url: https://clipy.online/api/mcp
+    transport: streamable-http
+    auth: unknown

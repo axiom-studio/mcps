@@ -1,0 +1,13 @@
+name: ESEO — marketplace product cards
+summary: 'MCP server for product listings on Russian marketplaces (Wildberries, Ozon, Yandex Market). Tools: score_card — SEO score 0–100 with per-factor hints; check_description — checks a title and description against marketplace limits; marketplace_limits — title, word and description limits per marketplace; generate_card — a ready listing (needs an ESEO API key). The first three work without a key. Endpoint: https://eseo.su/api/mcp (Streamable HTTP).'
+category: marketing
+tags:
+  - ecommerce
+  - marketing
+  - marketplace
+  - seo
+docs_url: https://eseo.su/developers?utm_source=mcpservers&utm_medium=listing&utm_campaign=listings_2610
+endpoints:
+  - url: https://eseo.su/api/mcp
+    transport: streamable-http
+    auth: none

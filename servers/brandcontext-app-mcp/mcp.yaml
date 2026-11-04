@@ -1,0 +1,12 @@
+name: Brand Context
+summary: Connect your brand profile to Claude, ChatGPT and other AI assistants for on-brand marketing.
+category: marketing
+tags:
+  - ai-agent
+  - content-creation
+  - marketing
+docs_url: https://brandcontext.app/mcp
+endpoints:
+  - url: https://mcp.brandcontext.app/mcp
+    transport: streamable-http
+    auth: oauth

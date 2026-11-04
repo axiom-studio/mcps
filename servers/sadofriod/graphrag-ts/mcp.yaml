@@ -1,0 +1,12 @@
+name: graphrag-ts citation integrity
+summary: 'Answers whether retraction evidence reaches a DOI through its citation graph: deterministic, source-tiered verdicts (CONTESTED / SUPPORTED / ABSTAINED) with an explicit abstention when reference coverage is thin. Public read tier needs no API key.'
+category: search
+tags:
+  - graph
+  - knowledge-graph
+  - research
+docs_url: https://github.com/sadofriod/graphrag-ts
+endpoints:
+  - url: https://mcp.ashesborn.cloud/mcp
+    transport: streamable-http
+    auth: none

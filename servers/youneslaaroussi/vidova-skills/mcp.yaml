@@ -1,0 +1,13 @@
+name: Vidova
+summary: 'AI video editor your agent drives: edit a real timeline, add captions, music and effects, and render in the cloud.'
+category: design
+tags:
+  - ai-agent
+  - content-creation
+  - media
+  - video
+docs_url: https://github.com/youneslaaroussi/vidova-skills
+endpoints:
+  - url: https://mcp.vidova.ai/mcp
+    transport: streamable-http
+    auth: oauth

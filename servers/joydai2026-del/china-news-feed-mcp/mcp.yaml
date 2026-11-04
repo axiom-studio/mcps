@@ -1,0 +1,13 @@
+name: China News Feed (Deletion Watch)
+summary: Live China hot lists and news from Weibo 微博, Baidu 百度, Zhihu 知乎, Douyin 抖音 and 190 outlets, with deletion watch flagging posts that vanish. Chinese + English. Free sample tool; full feed via Apify or pay-per-call x402 (USDC on Base).
+category: other
+tags:
+  - content-creation
+  - news
+  - research
+  - web-scraping
+docs_url: https://github.com/joydai2026-del/china-news-feed-mcp
+endpoints:
+  - url: https://china-news-feed-mcp.joyd-ai-2026.workers.dev/mcp
+    transport: streamable-http
+    auth: none

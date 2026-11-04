@@ -1,0 +1,12 @@
+name: Established Finance Data
+summary: 'UK business finance reference data: Bank Rate since 1975, company size thresholds, R&D tax relief tribunal cases, invoice finance decline reasons and a SIC code tracker. Each dataset names its sources.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+docs_url: https://establishedfinance.co.uk/data-downloads/
+endpoints:
+  - url: https://establishedfinance.co.uk/mcp
+    transport: streamable-http
+    auth: none

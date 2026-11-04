@@ -1,0 +1,13 @@
+name: SportQuanta
+summary: Sports data API with hosted MCP for live scores, fixtures, statistics, standings and historical data; MCP access requires a paid Sharp or Max plan and workspace API token.
+category: other
+tags:
+  - analytics
+  - api
+  - data-analysis
+  - sports
+docs_url: https://docs.sportquanta.com/agents/mcp/
+endpoints:
+  - url: https://sports-assistant.sportquanta.com/mcp
+    transport: streamable-http
+    auth: api-key

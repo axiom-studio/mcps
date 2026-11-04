@@ -1,0 +1,13 @@
+name: PocketSmith Read-only
+summary: 'Read-only: transactions, budgets, forecasts and insights from the PocketSmith personal finance tool.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+official: true
+registry_name: com.pocketsmith/mcp-readonly
+docs_url: https://www.pocketsmith.com/mcp
+endpoints:
+  - url: https://mcp-readonly.pocketsmith.com/mcp
+    transport: streamable-http
+    auth: oauth

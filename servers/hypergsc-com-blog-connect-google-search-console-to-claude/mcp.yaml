@@ -1,0 +1,14 @@
+name: HyperGSC — Google Search Console AI MCP
+summary: Google Search Console AI MCP. Connect search data to Claude, ChatGPT, and Codex to analyze traffic, rankings, indexing, and SEO opportunities.
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - marketing
+  - seo
+  - web-research
+docs_url: https://hypergsc.com/blog/connect-google-search-console-to-claude
+endpoints:
+  - url: https://hypergsc.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Deadline Desk
+summary: Deadline Desk is a bot-callable US retail policy lookup API for returns, price adjustments, warranty, and cancellation. Responses include quoted store text, confidence, and public TRACE receipts. Equip https://deadline.bot2botlabs.com/onboard · demo https://deadline.bot2botlabs.com/docs/demo · contract https://deadline.bot2botlabs.com/llms.txt · $0.05/lookup. Built by Bot2Bot Labs.
+category: finance
+tags:
+  - api
+  - customer-ops
+  - ecommerce
+  - knowledge-retrieval
+docs_url: https://deadline.bot2botlabs.com
+endpoints:
+  - url: https://deadline.bot2botlabs.com/mcp
+    transport: streamable-http
+    auth: none

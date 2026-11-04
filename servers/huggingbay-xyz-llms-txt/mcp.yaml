@@ -1,0 +1,12 @@
+name: Hugging Bay
+summary: Search open models, read license labels, and get hosted file links and SHA-256 hashes.
+category: search
+tags:
+  - ai-model
+  - knowledge-retrieval
+  - search
+docs_url: https://huggingbay.xyz/llms.txt
+endpoints:
+  - url: https://huggingbay.xyz/api/mcp
+    transport: streamable-http
+    auth: none

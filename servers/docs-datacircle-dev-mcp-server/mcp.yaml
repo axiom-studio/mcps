@@ -1,0 +1,14 @@
+name: Datacircle
+summary: LinkedIn profiles and B2B data at the provider's own price, no markup, from your Datacircle balance. Remote server, OAuth or an API key.
+category: marketing
+tags:
+  - api
+  - crm
+  - data-analysis
+  - marketing
+  - sales
+docs_url: https://docs.datacircle.dev/mcp-server
+endpoints:
+  - url: https://api.datacircle.dev/mcp
+    transport: streamable-http
+    auth: oauth

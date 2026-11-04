@@ -1,0 +1,13 @@
+name: nohumans.directory
+summary: 'Find and vet paid x402 APIs before your agent pays: probe status, a reliability score, and whether a real USDC purchase delivered.'
+category: search
+tags:
+  - api
+  - payment
+  - research
+  - web-research
+docs_url: https://nohumans.directory/integrate
+endpoints:
+  - url: https://api.nohumans.directory/mcp
+    transport: streamable-http
+    auth: none

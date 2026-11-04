@@ -1,0 +1,12 @@
+name: GdzieZabawa.pl – local events in every Polish municipality
+summary: 'Read-only MCP server with local events in Polish municipalities (gminy): festivals, family and kids events, concerts, cabarets, weekend ideas by town or region, with dates and tickets. No account needed. Endpoint: https://gdziezabawa.pl/mcp'
+category: search
+tags:
+  - entertainment
+  - media
+  - search
+docs_url: https://gdziezabawa.pl/
+endpoints:
+  - url: https://gdziezabawa.pl/mcp
+    transport: streamable-http
+    auth: none

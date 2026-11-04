@@ -1,0 +1,12 @@
+name: Factuarea
+summary: 'Spanish invoicing with VeriFactu (AEAT) for AI agents: invoices and rectificativas, quotes, delivery notes, purchases, contacts, products, tax filings and time tracking. 450+ tools, OAuth 2.1 or API key, sandbox mode.'
+category: finance
+tags:
+  - api
+  - business-operations
+  - finance
+docs_url: https://github.com/factuarea/factuarea-mcp
+endpoints:
+  - url: https://mcp.factuarea.com
+    transport: streamable-http
+    auth: oauth

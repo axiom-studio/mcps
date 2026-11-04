@@ -1,0 +1,13 @@
+name: Veevid
+summary: 'Remote MCP server for Veevid AI: list models, check credit cost, and generate AI videos, images and audio from Claude Code, Cursor or Claude Desktop.'
+category: other
+tags:
+  - ai-model
+  - content-creation
+  - media
+  - video
+docs_url: https://veevid.ai/developers
+endpoints:
+  - url: https://veevid.ai/api/mcp
+    transport: streamable-http
+    auth: api-key

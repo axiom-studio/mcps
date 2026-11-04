@@ -1,0 +1,12 @@
+name: DodoDentist Dental Clinic
+summary: See your dental clinic's free slots, dentists, treatment prices and how busy each day is.
+category: productivity
+tags:
+  - business-operations
+  - calendar
+  - healthcare
+docs_url: https://www.dododentist.com/developers/#mcp
+endpoints:
+  - url: https://mcp.dododentist.com/mcp
+    transport: streamable-http
+    auth: oauth

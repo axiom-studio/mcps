@@ -1,0 +1,12 @@
+name: Gaia Baby Tracker
+summary: Read-only access to your family’s Gaia baby log through OAuth, including recent activity, feeds, sleep summaries, and growth history.
+category: other
+tags:
+  - analytics
+  - data-analysis
+  - healthcare
+docs_url: https://gaiababy.app/mcp
+endpoints:
+  - url: https://gaiababy.app/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: SafePrompt
+summary: Check untrusted text (user messages, retrieved pages, tool outputs) for prompt injection before it reaches the LLM. Returns safe or not, plus the threat type. Free tier of 10,000 checks a month.
+category: development
+tags:
+  - ai-agent
+  - llm
+  - security
+docs_url: https://docs.safeprompt.dev/mcp
+endpoints:
+  - url: https://mcp.safeprompt.dev/mcp
+    transport: streamable-http
+    auth: api-key

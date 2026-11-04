@@ -1,0 +1,15 @@
+name: Opsis OSINT
+summary: 'OSINT search for AI agents. Find the accounts behind an email, username or domain across 1,000+ sources, with verified profiles: names, photos, bios, locations and linked accounts. Hosted, sign in with OAuth, 3 free searches.'
+category: search
+tags:
+  - identity
+  - search
+  - security
+  - web-research
+official: true
+registry_name: com.useopsis/opsis
+docs_url: https://github.com/Opsis-OSINT/opsis-mcp
+endpoints:
+  - url: https://api.useopsis.com/mcp
+    transport: streamable-http
+    auth: oauth

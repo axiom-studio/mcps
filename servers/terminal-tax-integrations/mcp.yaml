@@ -1,0 +1,14 @@
+name: Terminal Tax
+summary: 'Tax software: your AI agent sends the facts, we calculate and e-file; you review and sign.'
+category: finance
+tags:
+  - ai-agent
+  - compliance
+  - finance
+  - payment
+docs_url: https://github.com/terminaltax/terminal-tax-mcp-server
+website_url: https://terminal.tax
+endpoints:
+  - url: https://mcp.terminal.tax/v1/hosted-mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,17 @@
+name: Identik Firma Digital
+summary: Prepare and send documents for digital signature in Argentina, track signers, and download signed PDFs and audit evidence. Human signers authorize each signature.
+category: productivity
+tags:
+  - compliance
+  - document
+  - identity
+  - pdf
+  - productivity
+docs_url: https://identik.me/developers/
+endpoints:
+  - url: https://electronica.identik.me/api/mcp
+    transport: streamable-http
+    auth: api-key
+  - url: https://firma.identik.me/api/mcp
+    transport: streamable-http
+    auth: api-key

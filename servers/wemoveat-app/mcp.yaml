@@ -1,0 +1,13 @@
+name: Moveat
+summary: Coaching app for fitness coaches. Lets ChatGPT or Claude read your clients' check-ins, weight trends, diets and programs, and save draft diets for you to review.
+category: productivity
+tags:
+  - ai-agent
+  - fitness
+  - healthcare
+  - productivity
+docs_url: https://wemoveat.app
+endpoints:
+  - url: https://wemoveat.app/api/mcp
+    transport: streamable-http
+    auth: oauth

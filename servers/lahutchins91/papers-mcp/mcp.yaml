@@ -1,0 +1,12 @@
+name: Papers by Ouroboros Apps
+summary: 'Papers by Ouroboros Apps: Research paper search with real citations and reference formatting'
+category: search
+tags:
+  - document
+  - knowledge-retrieval
+  - research
+docs_url: https://github.com/LAHutchins91/papers-mcp
+endpoints:
+  - url: https://papers-mcp.vercel.app/mcp
+    transport: streamable-http
+    auth: unknown

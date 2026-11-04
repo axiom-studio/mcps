@@ -1,0 +1,13 @@
+name: Resume-effect reconciliation
+summary: Reconciles side effects when checkpointed agent runs resume — Solo $9, Team $25 /mo + $0.005/verdict
+category: productivity
+tags:
+  - ai-agent
+  - productivity
+  - resilience
+  - workflow-automation
+docs_url: https://textforagents.com/products/resume-effect-reconciliation/mcp
+endpoints:
+  - url: https://textforagents.com/products/resume-effect-reconciliation/mcp
+    transport: streamable-http
+    auth: unknown

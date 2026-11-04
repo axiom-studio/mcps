@@ -1,0 +1,12 @@
+name: EasyGroupFlights
+summary: Remote MCP for group flight quotes (10+) and small-party search on easygroupflights.com
+category: development
+tags:
+  - development
+  - knowledge-retrieval
+  - search
+docs_url: https://easygroupflights.com
+endpoints:
+  - url: https://mcp.easygroupflights.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Editais do Brasil
+summary: Open Brazilian public tenders (PNCP), public job exams (concursos), CNPJ lookup, sanctions check, reference prices paid by government, and a free radar simulation. 18 tools, no API key.
+category: search
+tags:
+  - data-analysis
+  - government
+  - search
+  - web-research
+docs_url: https://editaisdobrasil.com
+endpoints:
+  - url: https://editaisdobrasil.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: DC Blueprint
+summary: 'Dated, sourced European data-centre figures: project pipeline by market, grid connection queues and rules, data-centre regulation by country, and live grid carbon and price.'
+category: other
+tags:
+  - analytics
+  - data-analysis
+  - government
+  - research
+docs_url: https://dcblueprint.com/connector
+endpoints:
+  - url: https://dcblueprint.com/mcp
+    transport: streamable-http
+    auth: unknown

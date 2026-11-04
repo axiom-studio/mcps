@@ -1,0 +1,13 @@
+name: Tensorust
+summary: 'Receipts-first data for agents: real crates.io downloads (release-day bots removed), dated LLM API prices and the cheapest model for a job, sourced answers, and 14 free dev tools (cron, semver, UUID, JWT, tokens, VRAM). Free, no key.'
+category: development
+tags:
+  - ai-model
+  - api
+  - data-analysis
+  - development
+docs_url: https://tensorust.com/developers/
+endpoints:
+  - url: https://mcp.tensorust.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: APICK MCP
+summary: MCP access to Korean business data, OCR, parcel tracking, web search and AI services through APICK. Supports a hosted HTTP server and a Node.js stdio bridge; API calls require an APICK key and may consume points.
+category: development
+tags:
+  - ai-model
+  - api
+  - data-analysis
+  - web-research
+docs_url: https://github.com/lead788/apick-mcp
+endpoints:
+  - url: https://apick.app/mcp/all
+    transport: streamable-http
+    auth: api-key

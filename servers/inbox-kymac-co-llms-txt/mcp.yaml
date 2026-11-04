@@ -1,0 +1,13 @@
+name: webhook-inbox
+summary: Ephemeral HTTPS inbox for bots — mint URL, capture POSTs, list JSON. Free try then prepaid TEST. Sole entry https://inbox.kymac.co/llms.txt
+category: other
+tags:
+  - api
+  - testing-qa
+  - web-scraping
+  - workflow-automation
+docs_url: https://inbox.kymac.co/llms.txt
+endpoints:
+  - url: https://inbox.kymac.co/mcp
+    transport: streamable-http
+    auth: api-key

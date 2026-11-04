@@ -1,0 +1,18 @@
+name: Daloopa
+summary: Daloopa supplies financial fundamentals and KPI data sourced from SEC filings, investor presentations, and public financial documents. Its connector gives assistants source-linked data points for quantitative financial analysis, dashboards, and company comparisons.
+description: |-
+  Daloopa supplies financial fundamentals and KPI data sourced from SEC filings, investor presentations, and public financial documents. Its connector gives assistants source-linked data points for quantitative financial analysis, dashboards, and company comparisons.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/daloopa)
+category: finance
+tags:
+  - finance
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/daloopa
+endpoints:
+  - url: https://mcp.daloopa.com/server/mcp
+    transport: streamable-http
+    auth: oauth

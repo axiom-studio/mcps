@@ -1,0 +1,13 @@
+name: eCFR MCP by 1102tools
+summary: 'Free hosted MCP server for the eCFR (Electronic Code of Federal Regulations): FAR, DFARS and agency supplement clause text, definitions, and what changed and when. Connect at https://ecfr.1102tools.com/mcp with nothing to install and no API key. Open source (MIT).'
+category: other
+tags:
+  - compliance
+  - government
+  - knowledge-retrieval
+  - research
+docs_url: https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/ecfr-mcp
+endpoints:
+  - url: https://ecfr.1102tools.com/mcp
+    transport: streamable-http
+    auth: none

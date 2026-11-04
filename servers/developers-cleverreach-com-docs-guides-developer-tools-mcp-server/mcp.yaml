@@ -1,0 +1,13 @@
+name: CleverReach MCP Server
+summary: Official MCP server for CleverReach, the GDPR-compliant email marketing platform made in Germany. Connect Claude, ChatGPT, Cursor and other AI assistants to your CleverReach account via OAuth 2.0 to manage groups, attributes and segments, create and edit mailing drafts, and analyze campaign reports in natural language.
+category: marketing
+tags:
+  - analytics
+  - email-automation
+  - marketing
+  - marketing-automation
+docs_url: https://developers.cleverreach.com/docs/guides/developer-tools/mcp-server
+endpoints:
+  - url: https://mcprest.cleverreach.com/mcp
+    transport: streamable-http
+    auth: oauth

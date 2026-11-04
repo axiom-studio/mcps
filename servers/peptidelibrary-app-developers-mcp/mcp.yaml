@@ -1,0 +1,13 @@
+name: Peptide Library
+summary: Peptide research profiles with evidence by study type, comparisons, educational search and unit math. Read-only, no account, no dosing.
+category: other
+tags:
+  - bioinformatics
+  - data-analysis
+  - education
+  - research
+docs_url: https://peptidelibrary.app/developers/mcp?utm_source=mcpservers.org&utm_medium=mcp_directory
+endpoints:
+  - url: https://peptidelibrary.app/mcp
+    transport: streamable-http
+    auth: none

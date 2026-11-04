@@ -1,0 +1,14 @@
+name: Market Brew
+summary: 'Read-only access to Market Brew search engine modeling and AI visibility data via OAuth. Analyze ranking models, content alignment, knowledge bases, crawl data, and AI visibility history through a hosted Streamable HTTP MCP server. Requires an enabled Market Brew account. Endpoint: https://brew.marketbrew.ai/mcp'
+category: marketing
+tags:
+  - ai-model
+  - analytics
+  - data-analysis
+  - marketing
+  - seo
+docs_url: https://brew.marketbrew.ai/customer-manual.htm#api-and-chatgpt-read-access
+endpoints:
+  - url: https://brew.marketbrew.ai/mcp
+    transport: streamable-http
+    auth: oauth

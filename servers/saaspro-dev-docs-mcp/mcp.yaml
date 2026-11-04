@@ -1,0 +1,13 @@
+name: SaaS Pro Max
+summary: Explore product analytics, investigate errors and manage feature flags with scoped OAuth access.
+category: development
+tags:
+  - analytics
+  - debugging
+  - development
+  - monitoring
+docs_url: https://saaspro.dev/docs/mcp
+endpoints:
+  - url: https://saaspro.dev/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: getsolulu
+summary: 'Lo Shu grid numerology for India: life path, Chaldean name number and birth-date compatibility. Free remote MCP server, no auth.'
+category: other
+tags:
+  - ai-agent
+  - education
+  - entertainment
+docs_url: https://getsolulu.com/for-ai
+endpoints:
+  - url: https://getsolulu.com/mcp
+    transport: streamable-http
+    auth: none

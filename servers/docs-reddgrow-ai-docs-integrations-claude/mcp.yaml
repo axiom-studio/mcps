@@ -1,0 +1,13 @@
+name: ReddGrow MCP Server
+summary: Manage ReddGrow Reddit campaigns, drafts, brand mentions and AI visibility from any MCP client.
+category: marketing
+tags:
+  - ai-agent
+  - content-creation
+  - marketing
+  - social-media
+docs_url: https://docs.reddgrow.ai/docs/integrations/claude
+endpoints:
+  - url: https://mcp.reddgrow.ai/mcp
+    transport: streamable-http
+    auth: oauth

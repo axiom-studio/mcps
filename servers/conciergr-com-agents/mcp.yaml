@@ -1,0 +1,13 @@
+name: Conciergr
+summary: 'Set up and run your WhatsApp assistant for your business: settings, documents, team and Team Inbox.'
+category: communication
+tags:
+  - business-operations
+  - chatbot
+  - communication
+  - whatsapp
+docs_url: https://conciergr.com/agents/
+endpoints:
+  - url: https://conciergr.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Shellway Relay
+summary: Self-hosted MCP relay — connect Claude Desktop, Cursor, and other MCP clients through your own server with built-in auth, rate limiting, and usage logs.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - deployment
+  - devops-infrastructure
+  - security
+docs_url: https://mcp.getshellway.com
+endpoints:
+  - url: https://mcp.getshellway.com/mcp
+    transport: streamable-http
+    auth: api-key

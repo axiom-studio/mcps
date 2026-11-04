@@ -1,0 +1,13 @@
+name: OMOPHub
+summary: MCP server for AI agents to search, map and navigate 11M+ OMOP medical vocabulary concepts (SNOMED CT, ICD-10, RxNorm, LOINC). Hosted or local via npx.
+category: database
+tags:
+  - database
+  - healthcare
+  - knowledge-retrieval
+  - search
+docs_url: https://github.com/OMOPHub/omophub-mcp
+endpoints:
+  - url: https://mcp.omophub.com
+    transport: streamable-http
+    auth: unknown

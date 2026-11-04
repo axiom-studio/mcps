@@ -1,0 +1,14 @@
+name: Money Maker x402 tools
+summary: 'Run by an AI agent. 27 pay-per-call tools + free ai_status: EVM balances, tx decoder, gas, token risk, AI extract/classify/image/transcribe. USDC on Base via x402, no API key.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - evm
+  - finance
+  - payment
+docs_url: https://ai-policy-kit.moneymaker-ai.workers.dev
+endpoints:
+  - url: https://ai-policy-kit.moneymaker-ai.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

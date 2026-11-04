@@ -1,0 +1,13 @@
+name: DataLikers Instagram and TikTok MCP
+summary: 'Read-only Instagram and TikTok data tools for Claude, Cursor and other MCP clients: profile search, demographic audience research, engagement analytics, posts, comments and hashtags. Hosted Streamable HTTP server with an npm stdio client.'
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - research
+  - social-media
+docs_url: https://github.com/subzeroid/datalikers-mcp
+endpoints:
+  - url: https://mcp.datalikers.com/mcp/
+    transport: streamable-http
+    auth: unknown

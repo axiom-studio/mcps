@@ -1,0 +1,12 @@
+name: Product Launch Checklist MCP
+summary: A free product launch checklist for indie makers, served over a no-auth MCP server with get_checklist, get_item and list_launch_types tools.
+category: productivity
+tags:
+  - documentation
+  - productivity
+  - task-management
+docs_url: https://productlaunchchecklist.com/llms.txt
+endpoints:
+  - url: https://productlaunchchecklist.com/mcp
+    transport: streamable-http
+    auth: unknown

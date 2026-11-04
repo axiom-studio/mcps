@@ -1,0 +1,12 @@
+name: AI Architectures
+summary: 'House plans and AI-drafted CAD floor plans (DXF, DWG, PDF): search ~500 free house plans, have new layered, dimensioned CAD floor plans drawn and changed in plain words.'
+category: design
+tags:
+  - design
+  - knowledge-retrieval
+  - search
+docs_url: https://plans.ai-architectures.com/ai-assistants
+endpoints:
+  - url: https://mcp.ai-architectures.com/mcp
+    transport: streamable-http
+    auth: oauth

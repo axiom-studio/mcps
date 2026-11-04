@@ -1,0 +1,12 @@
+name: Optionscanner
+summary: Price any options trade with up to eight legs, run what-if scenarios on price, time and volatility, and read the Optionscanner Learn library. No account, no key.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - trading
+docs_url: https://optionscanner.ai/learn/mcp
+endpoints:
+  - url: https://optionscanner.ai/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,14 @@
+name: AgentX x402 Services (paid MCP tools)
+summary: All 26 AgentX paid micro-services as MCP tools, including weather, site health, security headers, SEO audit, WebMCP check, CISA KEV/CVE checks, crypto and Polymarket data, email DNS, FX rates, BTC fees, AI classification and keyword extraction. Read-only except one order tool behind explicit user confirmation; unpaid calls surface the x402 402 challenge (USDC on Base + Solana).
+category: other
+tags:
+  - api
+  - crypto
+  - security
+  - seo
+  - weather
+docs_url: https://agentx.sale/x402/catalogue
+endpoints:
+  - url: https://agentx.sale/connect/mcp
+    transport: streamable-http
+    auth: none

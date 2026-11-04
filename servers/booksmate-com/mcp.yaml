@@ -1,0 +1,13 @@
+name: Booksmate
+summary: Hosted MCP server that lets ChatGPT and Claude find, read and export your invoices and receipts collected from email and 500+ supplier portals.
+category: finance
+tags:
+  - document
+  - email-automation
+  - file-management
+  - finance
+docs_url: https://booksmate.com/
+endpoints:
+  - url: https://mcp.booksmate.com
+    transport: streamable-http
+    auth: oauth

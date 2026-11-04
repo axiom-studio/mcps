@@ -1,0 +1,12 @@
+name: BNex by Ziync
+summary: WhatsApp Cloud API platform & shared inbox by Ziync - remote MCP server
+category: communication
+tags:
+  - api
+  - communication
+  - whatsapp
+docs_url: https://bnex.ziync.com
+endpoints:
+  - url: https://bnex.ziync.com/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: TaskBullet Hub
+summary: 'Open MCP hub for AI agents: one remote endpoint that routes to human-in-the-loop tools from TaskBullet and partner makers. No key needed to connect.'
+category: productivity
+tags:
+  - ai-agent
+  - productivity
+  - workflow-automation
+docs_url: https://taskbullet.com
+endpoints:
+  - url: https://taskbullet.com/api/hub/mcp
+    transport: streamable-http
+    auth: none

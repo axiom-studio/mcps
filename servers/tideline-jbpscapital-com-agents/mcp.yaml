@@ -1,0 +1,12 @@
+name: Tideline
+summary: 'Published end-of-day state of a rules-based SPY/QQQ index model. Read-only. Free tier: 30-day delay; Core key for the current state.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - trading
+docs_url: https://tideline.jbpscapital.com/agents?utm_source=mcpservers&utm_medium=referral
+endpoints:
+  - url: https://tideline.jbpscapital.com/mcp
+    transport: streamable-http
+    auth: unknown

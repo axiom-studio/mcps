@@ -1,0 +1,13 @@
+name: Bastrio
+summary: Manage remote servers, SSH terminals, files, databases and proxies with scoped access and approvals.
+category: cloud-service
+tags:
+  - database
+  - security
+  - serverless
+  - ssh
+docs_url: https://bastr.io/mcp.html
+endpoints:
+  - url: https://bastr.io/api/mcp
+    transport: streamable-http
+    auth: api-key

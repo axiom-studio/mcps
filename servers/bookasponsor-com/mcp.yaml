@@ -1,0 +1,14 @@
+name: Book a Sponsor
+summary: Paste your newsletter URL and Book a Sponsor lists the brands that sponsored similar newsletters, finds who buys the ads and drafts the pitch. It emails those brands every day from its own domains and introduces you when one replies. $20 in free credits, then 10¢ per email. No commission.
+category: marketing
+tags:
+  - advertising
+  - communication
+  - email-automation
+  - marketing
+  - sales
+docs_url: https://bookasponsor.com
+endpoints:
+  - url: https://bookasponsor.com/mcp
+    transport: streamable-http
+    auth: none

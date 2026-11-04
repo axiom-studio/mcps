@@ -1,0 +1,12 @@
+name: Bitlands
+summary: Read-only MCP server for the Bitlands catalog of indie products. Search by capability, kind, pricing and access method, then fetch a product manifest and how to connect to it. Public, no key.
+category: search
+tags:
+  - marketplace
+  - search
+  - web-research
+docs_url: https://bitlands.lol/agents?utm_source=mcpdir&utm_medium=directory&utm_campaign=mcpservers
+endpoints:
+  - url: https://api.bitlands.lol/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,11 @@
+name: Twelfth
+summary: Read your Twelfth retail workspace through permission-scoped, read-only MCP tools.
+category: productivity
+tags:
+  - business-operations
+  - data-analysis
+docs_url: https://twelfth.ai/developers/mcp
+endpoints:
+  - url: https://api.twelfth.ai/mcp
+    transport: streamable-http
+    auth: oauth

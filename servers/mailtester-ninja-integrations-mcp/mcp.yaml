@@ -1,0 +1,13 @@
+name: MailTester Ninja
+summary: Remote MCP server that lets AI agents check whether an email address really exists, straight from its mail server and without sending anything, and find someone's work email from their name and company domain. Free API token available.
+category: marketing
+tags:
+  - api
+  - email-automation
+  - marketing
+  - sales
+docs_url: https://mailtester.ninja/integrations/mcp/
+endpoints:
+  - url: https://mcp.mailtester.ninja/mcp
+    transport: streamable-http
+    auth: api-key

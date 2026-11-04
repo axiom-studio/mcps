@@ -1,0 +1,12 @@
+name: Aturan.org – Indonesian Legal Research
+summary: Large-scale semantic search and article-level retrieval for Indonesian regulations, providing AI agents with structured access to relevant laws and authoritative legal text.
+category: search
+tags:
+  - data-analysis
+  - knowledge-retrieval
+  - search
+docs_url: https://github.com/adamksn/aturanorg
+endpoints:
+  - url: https://mcp.aturan.org/mcp
+    transport: streamable-http
+    auth: api-key

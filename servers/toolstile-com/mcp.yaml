@@ -1,0 +1,13 @@
+name: Toolstile
+summary: 'Managed MCP gateway: connect remote servers through one endpoint with per-agent permissions, shared accounts, and activity logs.'
+category: cloud-service
+tags:
+  - api
+  - identity
+  - monitoring
+  - security
+docs_url: https://toolstile.com
+endpoints:
+  - url: https://toolstile.com/mcp
+    transport: streamable-http
+    auth: oauth

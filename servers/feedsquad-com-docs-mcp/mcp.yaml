@@ -1,0 +1,13 @@
+name: FeedSquad
+summary: Plan, draft and schedule LinkedIn, X and Threads posts from Claude, ChatGPT or any MCP client. Every post is saved as a draft and goes out only after you approve it. OAuth 2.1 sign-in, no API keys.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://feedsquad.com/docs/mcp
+endpoints:
+  - url: https://feedsquad.com/api/mcp
+    transport: streamable-http
+    auth: oauth

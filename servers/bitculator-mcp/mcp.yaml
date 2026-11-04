@@ -1,0 +1,15 @@
+name: Bitculator
+summary: 'Crypto market data for AI agents: live prices, OHLCV, sentiment, indicators and exchanges.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - data-analysis
+  - finance
+official: true
+registry_name: com.bitculator/market-data
+docs_url: https://bitculator.com/en/crypto-mcp
+endpoints:
+  - url: https://bitculator.com/mcp
+    transport: streamable-http
+    auth: api-key

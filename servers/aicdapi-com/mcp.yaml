@@ -1,0 +1,12 @@
+name: AICD API
+summary: Search source-linked records from Dallas-Fort Worth city councils and county commissioners courts, from an AI agent or over a REST API.
+category: search
+tags:
+  - government
+  - search
+  - web-research
+docs_url: https://aicdapi.com/?utm_source=mcpservers&utm_medium=directory&utm_campaign=free_listings
+endpoints:
+  - url: https://aicdapi.com/api/v1/mcp
+    transport: streamable-http
+    auth: api-key

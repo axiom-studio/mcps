@@ -1,0 +1,13 @@
+name: Cloady
+summary: Deploy and manage apps and databases from AI assistants. Cloady provides MCP tools for workspaces, deployments, logs, domains, storage and more, with hosted OAuth over Streamable HTTP and a local npm/stdio server. Permissions follow OAuth scopes and workspace roles.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - database
+  - deployment
+  - devops
+docs_url: https://cloady.com
+endpoints:
+  - url: https://cloady.com/api/mcp
+    transport: streamable-http
+    auth: oauth

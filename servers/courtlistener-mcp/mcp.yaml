@@ -1,0 +1,18 @@
+name: CourtListener
+summary: CourtListener is Free Law Project's legal research platform for U.S. court opinions, PACER dockets, judge profiles, oral arguments, and citation data. Its connector grounds assistants in primary legal records while supporting citation checks and docket-aware research.
+description: |-
+  CourtListener is Free Law Project's legal research platform for U.S. court opinions, PACER dockets, judge profiles, oral arguments, and citation data. Its connector grounds assistants in primary legal records while supporting citation checks and docket-aware research.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://github.com/freelawproject/courtlistener-api-client/blob/main/MCP_README.md)
+category: search
+tags:
+  - remote-mcp
+  - search
+official: true
+docs_url: https://github.com/freelawproject/courtlistener-api-client/blob/main/MCP_README.md
+endpoints:
+  - url: https://mcp.courtlistener.com/
+    transport: streamable-http
+    auth: oauth

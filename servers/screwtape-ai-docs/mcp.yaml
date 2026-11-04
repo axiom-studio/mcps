@@ -1,0 +1,12 @@
+name: Screwtape.ai
+summary: Pass, fail, or retry verdicts and consensus scores for agent outputs.
+category: development
+tags:
+  - ai-agent
+  - code-quality
+  - testing-qa
+docs_url: https://screwtape.ai/docs/
+endpoints:
+  - url: https://screwtape.ai/mcp
+    transport: streamable-http
+    auth: unknown

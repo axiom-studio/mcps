@@ -1,0 +1,12 @@
+name: Rentyfic
+summary: 'Read-only U.S. renter law data and plain-English guides. 50-state rules for deposits, entry notice, move-out notice, late fees and rent increases, plus ''Can my landlord...?'' answers, lease term definitions and renter guides. Remote endpoint: https://rentyfic.com/mcp (Streamable HTTP, no auth). Educational, not legal advice.'
+category: other
+tags:
+  - documentation
+  - education
+  - research
+docs_url: https://rentyfic.com
+endpoints:
+  - url: https://rentyfic.com/mcp
+    transport: streamable-http
+    auth: none

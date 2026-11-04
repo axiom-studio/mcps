@@ -1,0 +1,10 @@
+name: Whooshly
+summary: Whooshly is a pay-once campaign link toolkit for editable short links, dynamic QR codes, UTMs, digital cards and campaign pages.
+category: marketing
+tags:
+  - marketing
+docs_url: https://github.com/ankurmans/whooshly-mcp
+endpoints:
+  - url: https://app.whooshly.co/api/mcp
+    transport: streamable-http
+    auth: oauth

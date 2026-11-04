@@ -1,0 +1,13 @@
+name: Add to CRM
+summary: Find work contact details and add people and companies to your own CRM from the conversation. Checks your CRM first so nobody is added twice. Works with 29+ CRMs.
+category: marketing
+tags:
+  - crm
+  - marketing-automation
+  - productivity
+  - sales
+docs_url: https://github.com/crm-inputs/mcp
+endpoints:
+  - url: https://mcp.addtocrm.com/mcp
+    transport: streamable-http
+    auth: oauth

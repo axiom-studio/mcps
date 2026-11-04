@@ -1,0 +1,12 @@
+name: Shipday
+summary: Manage Shipday orders, drivers and access drivers earnings and relevant reports from your AI assistants.
+category: other
+tags:
+  - business-operations
+  - inventory
+  - task-management
+docs_url: https://shipday-public-data.s3.us-west-2.amazonaws.com/Shipday_MCP_Server_Documentation_2.pdf
+endpoints:
+  - url: https://api.shipday.com/v2/mcp
+    transport: streamable-http
+    auth: oauth

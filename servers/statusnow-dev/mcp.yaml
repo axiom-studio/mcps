@@ -1,0 +1,14 @@
+name: Statusnow MCP
+summary: Connect your AI coding assistant directly to real-time uptime monitors, vulnerability scans, and server logs via StatusNow.
+category: development
+tags:
+  - devops
+  - log-management
+  - monitoring
+  - observability-incident
+  - security
+docs_url: https://statusnow.dev/
+endpoints:
+  - url: https://statusnow.dev/mcp
+    transport: streamable-http
+    auth: oauth

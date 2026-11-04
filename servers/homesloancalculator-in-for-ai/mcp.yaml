@@ -1,0 +1,12 @@
+name: homes-loan-calculator
+summary: Home loan EMI, affordability, balance transfer, down payment and rent vs buy calculators for India. Free remote MCP server, no auth.
+category: finance
+tags:
+  - finance
+  - payment
+  - real-estate
+docs_url: https://homesloancalculator.in/for-ai
+endpoints:
+  - url: https://homesloancalculator.in/mcp
+    transport: streamable-http
+    auth: none

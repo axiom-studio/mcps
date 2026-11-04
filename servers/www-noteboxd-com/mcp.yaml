@@ -1,0 +1,12 @@
+name: Noteboxd
+summary: Free perfume MCP server for AI assistants — search and explore 200,000+ fragrances, brands, notes, perfumers and community charts, plus your own cabinet, wishlist and collections; Streamable HTTP transport; OAuth or API key authentication.
+category: search
+tags:
+  - ecommerce
+  - productivity
+  - search
+docs_url: https://www.noteboxd.com
+endpoints:
+  - url: https://mcp.noteboxd.com/mcp
+    transport: streamable-http
+    auth: oauth

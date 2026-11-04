@@ -1,0 +1,12 @@
+name: Everyday MCP
+summary: Remote MCP tools for calculations, units, dates, subtitles and structured data. Streamable HTTP; no Everyday account or API key.
+category: productivity
+tags:
+  - data-analysis
+  - file-conversion
+  - productivity
+docs_url: https://alfie.family/agent-guide.html
+endpoints:
+  - url: https://everyday.alfie.family/mcp
+    transport: streamable-http
+    auth: none

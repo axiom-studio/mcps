@@ -1,0 +1,13 @@
+name: Fast GST Refund
+summary: Indian service-export GST refund checklists, cited guides and anonymous receipt-allocation checks.
+category: finance
+tags:
+  - compliance
+  - document
+  - finance
+  - research
+docs_url: https://fastgstrefund.com/for-agents/
+endpoints:
+  - url: https://fastgstrefund.com/mcp
+    transport: streamable-http
+    auth: none

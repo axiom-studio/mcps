@@ -1,0 +1,15 @@
+name: Kaiva Bridge
+summary: Turn an API, database or documents into a hosted MCP server that Claude, ChatGPT, Cursor and VS Code can use. No code and nothing to host; an agent can create one from a public API spec with no account.
+category: development
+tags:
+  - ai-agent
+  - api
+  - development
+  - workflow-automation
+official: true
+registry_name: ai.kaiv/bridge
+docs_url: https://kaiv.ai/bridge
+endpoints:
+  - url: https://api.kaiv.ai/api/bridge/manage/mcp
+    transport: streamable-http
+    auth: oauth

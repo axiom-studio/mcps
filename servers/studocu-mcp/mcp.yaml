@@ -1,0 +1,15 @@
+name: Studocu
+summary: Studocu helps students find study documents, set course context, ground answers from the open web, and manage authenticated study projects—attaching sources, reading artifacts, creating quizzes or mock exams, and keeping durable study memory—from any MCP client.
+category: productivity
+tags:
+  - document
+  - education
+  - knowledge-retrieval
+  - productivity
+  - research
+official: true
+docs_url: https://www.studocu.com/mcp
+endpoints:
+  - url: https://agent-os-mcp.alpha.studocu.com/mcp
+    transport: streamable-http
+    auth: oauth

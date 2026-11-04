@@ -1,0 +1,12 @@
+name: ctxstore
+summary: 'Persistent memory for AI agents: keyed facts, a wake bundle each session, one memory in every model. Remote MCP server, OAuth 2.1 or API key.'
+category: memory
+tags:
+  - ai-agent
+  - llm
+  - memory
+docs_url: https://ctxstore.ai
+endpoints:
+  - url: https://mcp.ctxstore.ai/mcp
+    transport: streamable-http
+    auth: oauth

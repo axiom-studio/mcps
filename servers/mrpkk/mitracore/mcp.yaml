@@ -1,0 +1,13 @@
+name: mitracore
+summary: 'One entry point for an agent''s work, money and mandates: routes to artifact verification, spend accounting and limits. Remote MCP server.'
+category: development
+tags:
+  - ai-agent
+  - finance
+  - payment
+  - workflow-automation
+docs_url: https://github.com/mrpkk/mitracore
+endpoints:
+  - url: https://rta.lat/mitracore/mcp
+    transport: streamable-http
+    auth: unknown

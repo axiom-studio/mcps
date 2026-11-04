@@ -1,0 +1,14 @@
+name: Footgun
+summary: Dated, verified fixes for how APIs, platforms and AI coding tools break, served to your coding agent before it writes the code.
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - development
+  - documentation
+  - knowledge-retrieval
+docs_url: https://getfootgun.com
+endpoints:
+  - url: https://getfootgun.com/api/mcp
+    transport: streamable-http
+    auth: none

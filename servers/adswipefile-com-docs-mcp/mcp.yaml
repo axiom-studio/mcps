@@ -1,0 +1,13 @@
+name: AdSwipeFile
+summary: 'Ad library of winning Facebook and Instagram ads for AI agents: see what a competitor is running, find ads by niche and format and read their hooks and angles.'
+category: marketing
+tags:
+  - advertising
+  - ai-agent
+  - marketing
+  - web-research
+docs_url: https://adswipefile.com/docs/mcp
+endpoints:
+  - url: https://adswipefile.com/api/mcp
+    transport: streamable-http
+    auth: oauth

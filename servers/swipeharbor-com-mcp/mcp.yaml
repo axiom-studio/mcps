@@ -1,0 +1,13 @@
+name: SwipeHarbor MCP
+summary: 'Remote MCP server (paid members only) that lets Claude, Cursor and other MCP clients search SwipeHarbor''s ad archive: NewsBreak, Rumble, YouTube and Meta.'
+category: marketing
+tags:
+  - advertising
+  - marketing
+  - search
+  - web-research
+docs_url: https://swipeharbor.com/mcp
+endpoints:
+  - url: https://swipeharbor.com/api/mcp
+    transport: streamable-http
+    auth: api-key

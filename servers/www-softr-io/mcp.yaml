@@ -1,0 +1,12 @@
+name: Softr
+summary: Build and launch custom AI-powered portals and internal tools in minutes, no code required.
+category: development
+tags:
+  - ai-agent
+  - development
+  - workflow-automation
+docs_url: https://www.softr.io/
+endpoints:
+  - url: https://mcp.softr.io/mcp
+    transport: streamable-http
+    auth: oauth

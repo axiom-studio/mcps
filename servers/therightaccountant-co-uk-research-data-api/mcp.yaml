@@ -1,0 +1,13 @@
+name: The Right Accountant Research Data
+summary: 'Research on UK accountancy companies from Companies House data: ownership type, size, company age, overdue filings and when accounts are due. Totals only; companies, not practices. Read-only, no key needed.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - government
+  - research
+docs_url: https://therightaccountant.co.uk/research/data-api/
+endpoints:
+  - url: https://therightaccountant.co.uk/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,15 @@
+name: Poplin
+summary: Estimates of Poplin's fees and exchange rates, and where you can get paid from abroad and pay bank accounts abroad. Read-only, no sign-in.
+category: finance
+tags:
+  - api
+  - finance
+  - payment
+docs_url: https://poplinmoney.com/ai-assistants/
+endpoints:
+  - url: https://agents.poplinmoney.com/account
+    transport: streamable-http
+    auth: oauth
+  - url: https://agents.poplinmoney.com/public
+    transport: streamable-http
+    auth: none

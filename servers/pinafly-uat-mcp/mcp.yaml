@@ -1,0 +1,15 @@
+name: Pinafly UAT MCP
+summary: Your coding agent finishes a feature and hands you a UAT link. You walk it on the real app and pin what is wrong. The agent reads each pin, fixes it and reports back. Only a person marks a fix verified. 6 tools, OAuth sign-in, works with Claude Code and any MCP client.
+category: development
+tags:
+  - browser-automation
+  - coding-agent
+  - testing-qa
+  - workflow-automation
+official: true
+registry_name: com.pinafly/uat
+docs_url: https://pinafly.com/agents
+endpoints:
+  - url: https://pinafly.com/mcp/uat
+    transport: streamable-http
+    auth: oauth

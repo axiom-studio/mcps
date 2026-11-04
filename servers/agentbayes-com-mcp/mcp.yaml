@@ -1,0 +1,13 @@
+name: Agent Bayes
+summary: Search your indexed academic papers by meaning, ask a research agent for cited answers, and build mindmaps of page-cited claims from Claude, Codex or Cursor.
+category: search
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - rag
+  - research
+docs_url: https://agentbayes.com/mcp
+endpoints:
+  - url: https://api.agentbayes.com/mcp/
+    transport: streamable-http
+    auth: api-key

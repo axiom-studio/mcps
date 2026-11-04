@@ -1,0 +1,12 @@
+name: Deckodex
+summary: Gundam Card Game cards, prices, tournament meta, and your Deckodex collection and decks. Sign in with your Deckodex account.
+category: other
+tags:
+  - database
+  - gaming
+  - research
+docs_url: https://github.com/markomatic507/deckodex-mcp
+endpoints:
+  - url: https://deckodex.com/mcp
+    transport: streamable-http
+    auth: oauth

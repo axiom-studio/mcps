@@ -1,0 +1,13 @@
+name: NotFair
+summary: Approval-gated Google Ads MCP with hosted OAuth, 121 Google Ads tools, and logged, reviewable writes for campaigns, keywords, budgets, bids, ads, and assets.
+category: marketing
+tags:
+  - advertising
+  - google-analytics
+  - marketing
+  - workflow-automation
+docs_url: https://notfair.co/google-ads-mcp
+endpoints:
+  - url: https://notfair.co/api/mcp/notfair
+    transport: streamable-http
+    auth: oauth

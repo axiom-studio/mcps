@@ -1,0 +1,12 @@
+name: Muretai Catalog
+summary: 'Product search across any shop: 1.6M+ shops indexed from public data, with links to each shop''s own page.'
+category: search
+tags:
+  - ecommerce
+  - marketplace
+  - search
+docs_url: https://catalog.muretai.com/
+endpoints:
+  - url: https://catalog.muretai.com/mcp
+    transport: streamable-http
+    auth: none

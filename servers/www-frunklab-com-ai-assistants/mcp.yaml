@@ -1,0 +1,11 @@
+name: FrunkLab
+summary: Design custom Tesla Paint Shop wraps and lock chimes from your AI assistant. Generate a wrap for any Tesla model, create a lock chime, browse the free wrap gallery and search the lock sound library. Remote server with OAuth.
+category: design
+tags:
+  - ai-agent
+  - design
+docs_url: https://www.frunklab.com/ai-assistants
+endpoints:
+  - url: https://www.frunklab.com/api/mcp
+    transport: streamable-http
+    auth: oauth

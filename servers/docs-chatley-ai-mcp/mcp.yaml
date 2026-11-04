@@ -1,0 +1,13 @@
+name: Chatley AI
+summary: 'Manage Chatley AI voice agents: review calls, transcripts and analytics, and edit agents safely.'
+category: communication
+tags:
+  - ai-agent
+  - analytics
+  - communication
+  - customer-ops
+docs_url: https://docs.chatley.ai/mcp
+endpoints:
+  - url: https://mcp.chatley.ai/mcp
+    transport: streamable-http
+    auth: oauth

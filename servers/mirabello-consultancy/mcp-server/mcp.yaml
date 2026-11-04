@@ -1,0 +1,13 @@
+name: Mirabello Immigration Intelligence
+summary: 'Mira, by Mirabello: free, no-sign-in remote MCP server with 68 read-only tools for citizenship and residency by investment, golden visas, immigration pathways in 190+ countries, visa requirements, naturalisation and tax residency. Every figure carries its official source and verification date. General information, not legal advice.'
+category: other
+tags:
+  - compliance
+  - government
+  - knowledge-retrieval
+  - research
+docs_url: https://github.com/mirabello-consultancy/mcp-server
+endpoints:
+  - url: https://mcp.mirabelloconsultancy.com/mcp
+    transport: streamable-http
+    auth: none

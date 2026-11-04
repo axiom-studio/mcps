@@ -1,0 +1,14 @@
+name: Timexxs MCP
+summary: 'Remote MCP server (Streamable HTTP, OAuth 2.1) for AI content creation and multi-platform short-video publishing (Douyin, Kuaishou, Xiaohongshu, WeChat Channels). Endpoints: https://mcp.timexxs.com/kgc , /ks , /kf'
+category: marketing
+tags:
+  - content-creation
+  - marketing-automation
+  - social-media
+  - video
+  - workflow-automation
+docs_url: https://github.com/zealdin/timexxs-mcp
+endpoints:
+  - url: https://mcp.timexxs.com/kgc
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: KW Commercial Kitchen Equipment Finder
+summary: 'Search KW commercial kitchen equipment: public specs, AUD prices, supply status and product links.'
+category: search
+tags:
+  - ecommerce
+  - productivity
+  - search
+docs_url: https://www.kwcommercial.com.au/mcp
+endpoints:
+  - url: https://www.kwcommercial.com.au/api/mcp
+    transport: streamable-http
+    auth: none

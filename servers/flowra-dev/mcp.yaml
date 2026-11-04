@@ -1,0 +1,12 @@
+name: Flowra AI
+summary: Flowra AI turns one sentence into an AI agent or workflow. Connect your apps, approve risky steps, and run on schedules, messengers, or your site.
+category: productivity
+tags:
+  - ai-agent
+  - productivity
+  - workflow-automation
+docs_url: https://flowra.dev
+endpoints:
+  - url: https://mcp.flowra.dev/mcp
+    transport: streamable-http
+    auth: unknown

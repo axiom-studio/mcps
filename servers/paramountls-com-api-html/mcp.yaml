@@ -1,0 +1,12 @@
+name: Paramount Loan Services
+summary: File a Fannie Mae Form 1003 mortgage application with a licensed California broker. Dry runs validate first.
+category: finance
+tags:
+  - document
+  - finance
+  - workflow-automation
+docs_url: https://paramountls.com/api.html
+endpoints:
+  - url: https://paramountls.com/mcp
+    transport: streamable-http
+    auth: none

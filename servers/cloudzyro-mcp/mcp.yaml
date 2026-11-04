@@ -1,0 +1,13 @@
+name: Cloudzyro
+summary: Deploy and host websites straight from your AI tool. Create a site, publish files, get a live cloudzyro.app link in seconds, and restore any earlier version in one click.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - deployment
+  - workflow-automation
+official: true
+docs_url: https://cloudzyro.com/mcp-documentation/
+endpoints:
+  - url: https://api.cloudzyro.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Riffkit
+summary: 'Make short vertical videos from Claude or ChatGPT: remake a winning TikTok with your own product or character, keep a video''s shots and change the person, product or style, or make one from a written idea. Quotes the price before it spends credits.'
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - media
+  - video
+docs_url: https://riffkit.ai/mcp
+endpoints:
+  - url: https://mcp.riffkit.ai/mcp
+    transport: streamable-http
+    auth: oauth

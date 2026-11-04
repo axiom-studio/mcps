@@ -1,0 +1,12 @@
+name: Calorie MCP
+summary: A calorie MCP is a Model Context Protocol server that looks up calories and macros for Claude Code and Cursor. The catalog covers 4M+ foods. Personal use is $29 a month or $228 a year. The numbers come from the catalog, not from the model guessing.
+category: development
+tags:
+  - data-analysis
+  - healthcare
+  - knowledge-retrieval
+docs_url: https://calorieapi.com/mcp
+endpoints:
+  - url: https://calorieapiadmin.com/mcp
+    transport: streamable-http
+    auth: api-key

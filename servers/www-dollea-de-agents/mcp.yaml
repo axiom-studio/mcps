@@ -1,0 +1,15 @@
+name: Dollea Salon
+summary: Beauty services, prices, availability and authorized appointment booking in Munich.
+category: other
+tags:
+  - business-operations
+  - calendar
+  - communication
+docs_url: https://www.dollea.de/agents/?language=en
+endpoints:
+  - url: https://coworking.dollea.de/mcp/coworking
+    transport: streamable-http
+    auth: oauth
+  - url: https://www.dollea.de/mcp/salon
+    transport: streamable-http
+    auth: oauth

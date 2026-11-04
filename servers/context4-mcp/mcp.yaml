@@ -1,0 +1,15 @@
+name: Context4
+summary: Connect AI assistants to business tools through one remote MCP server. Search data and take action in amoCRM, Bitrix24, GitHub, Linear, Pipedrive, Sentry, and Grafana with managed authentication and access controls.
+category: productivity
+tags:
+  - crm
+  - github
+  - monitoring
+  - project-management
+  - workflow-automation
+official: true
+docs_url: https://context4.me
+endpoints:
+  - url: https://context4.me/mcp
+    transport: streamable-http
+    auth: oauth

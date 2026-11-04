@@ -1,0 +1,13 @@
+name: EQIQs — Personality & Compatibility Intelligence
+summary: OAuth-secured personality profiles and 21-framework compatibility tools for Claude, ChatGPT, Cursor, and MCP clients.
+category: productivity
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - productivity
+  - research
+docs_url: https://github.com/EQIQs/mcp-server
+endpoints:
+  - url: https://adgmsnwjynqkhawhioil.supabase.co/functions/v1/mcp
+    transport: streamable-http
+    auth: oauth

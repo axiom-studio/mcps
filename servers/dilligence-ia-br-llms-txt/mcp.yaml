@@ -1,0 +1,13 @@
+name: Dilligence
+summary: 'Brazilian company clearance certificates (CNPJ) in one request: fetched, read and summarized.'
+category: other
+tags:
+  - business-operations
+  - compliance
+  - document
+  - government
+docs_url: https://dilligence.ia.br/llms.txt
+endpoints:
+  - url: https://dilligence.ia.br/mcp
+    transport: streamable-http
+    auth: unknown

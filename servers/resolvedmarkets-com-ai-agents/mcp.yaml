@@ -1,0 +1,8 @@
+name: Resolved Markets MCP
+summary: 'Hosted MCP server for Polymarket order-book data: live books, historical snapshots, OHLC candles, trades, settlement results, and Hyperliquid perpetual books for AI agents.'
+category: finance
+docs_url: https://resolvedmarkets.com/ai-agents
+endpoints:
+  - url: https://mcp.resolvedmarkets.com/mcp
+    transport: streamable-http
+    auth: none

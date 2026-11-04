@@ -1,0 +1,13 @@
+name: Buy Box Checker
+summary: 'Read your own Amazon Buy Box monitoring data from Claude, ChatGPT or Cursor: who holds the Buy Box in each city or ZIP code, Buy Box history, alerts, sales rank movers and product page changes. Read only, OAuth sign-in, no API key.'
+category: marketing
+tags:
+  - analytics
+  - ecommerce
+  - marketing
+  - monitoring
+docs_url: https://www.buyboxchecker.com/mcp
+endpoints:
+  - url: https://www.buyboxchecker.com/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: DoesQA MCP
+summary: DoesQA MCP connects coding agents to DoesQA, the no-code end-to-end web testing platform. Agents get 50+ tools to create Flows and Elements, start runs on hosted browsers and triage results, while real browsers decide pass and fail. Requires a DoesQA account.
+category: development
+tags:
+  - browser-automation
+  - coding-agent
+  - development
+  - testing-qa
+docs_url: https://does.qa?utm_source=mcpservers&utm_medium=referral
+endpoints:
+  - url: https://mcp.ai.does.qa/mcp
+    transport: streamable-http
+    auth: unknown

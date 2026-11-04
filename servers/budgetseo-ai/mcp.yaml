@@ -1,0 +1,13 @@
+name: budgetSEO
+summary: Ahrefs-grade SEO for $9/mo — rank tracking, keyword research, competitor analysis & AI visibility. Remote MCP for Cursor, Claude, and agents.
+category: marketing
+tags:
+  - ai-agent
+  - analytics
+  - marketing
+  - seo
+docs_url: https://budgetseo.ai
+endpoints:
+  - url: https://budgetseo.ai/api/mcp
+    transport: streamable-http
+    auth: unknown

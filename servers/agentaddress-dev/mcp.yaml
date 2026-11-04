@@ -1,0 +1,8 @@
+name: AgentAddress
+summary: 'Persistent webhooks, callback queues, and an email inbox for AI agents that outlive the run. Agents create a task-scoped HTTPS inbox + email + ordered event queue with one POST; a future run polls and acks events. Hosted remote MCP endpoint: https://agentaddress.dev/api/mcp'
+category: other
+docs_url: https://agentaddress.dev
+endpoints:
+  - url: https://agentaddress.dev/api/mcp
+    transport: streamable-http
+    auth: unknown

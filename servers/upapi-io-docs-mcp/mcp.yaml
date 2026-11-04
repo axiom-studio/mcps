@@ -1,0 +1,14 @@
+name: upAPI MCP
+summary: Call a catalog of ready-to-use APIs through one upAPI account and key, without signing up for each upstream service. Remote server with OAuth sign-in.
+category: development
+tags:
+  - development
+  - document
+  - documentation
+  - identity
+  - security
+docs_url: https://upapi.io/docs/mcp
+endpoints:
+  - url: https://app.upapi.io/api/mcp
+    transport: streamable-http
+    auth: oauth

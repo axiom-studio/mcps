@@ -1,0 +1,14 @@
+name: AgentStack (agentstack.tech)
+summary: 'Cloud backend for AI-built apps over MCP: ~668 actions for hosting, data, auth, payments and CRM.'
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - crm
+  - database
+  - identity
+  - payment
+docs_url: https://agentstack.tech/mcp-docs
+endpoints:
+  - url: https://agentstack.tech/mcp
+    transport: streamable-http
+    auth: oauth

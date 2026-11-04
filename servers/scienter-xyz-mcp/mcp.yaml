@@ -1,0 +1,13 @@
+name: Scienter
+summary: 'Read-only forensic lookups on blockchain addresses: who launched a Solana token and how that wallet''s earlier launches ended, OFAC SDN matches, exchange and bridge activity. Answers cite sources.'
+category: finance
+tags:
+  - compliance
+  - crypto
+  - finance
+  - security
+docs_url: https://scienter.xyz/mcp
+endpoints:
+  - url: https://scienter.xyz/mcp
+    transport: streamable-http
+    auth: unknown

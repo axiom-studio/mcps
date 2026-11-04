@@ -1,0 +1,24 @@
+name: AllTrails
+summary: AllTrails helps people discover hikes, walks, and outdoor routes using curated trail information, community reviews, photos, ratings, and trip-planning context. Its MCP connector brings that outdoor discovery context into assistant workflows for comparing nearby routes and choosing an adventure before heading out.
+description: |-
+  # AllTrails
+
+  AllTrails helps people discover hikes, walks, and outdoor routes using curated trail information, community reviews, photos, ratings, and trip-planning context. Its MCP connector brings that outdoor discovery context into assistant workflows for comparing nearby routes and choosing an adventure before heading out.
+
+  ## Connection
+
+  none: https://www.alltrails.com/mcp
+
+  Publisher help explicitly states no API keys, accounts or additional configuration are required.
+
+  [Official documentation](https://support.alltrails.com/hc/en-us/articles/47343827423764-AllTrails-integrations-with-AI-assistants)
+category: search
+tags:
+  - remote-mcp
+  - search
+official: true
+docs_url: https://support.alltrails.com/hc/en-us/articles/47343827423764-AllTrails-integrations-with-AI-assistants
+endpoints:
+  - url: https://www.alltrails.com/mcp
+    transport: streamable-http
+    auth: none

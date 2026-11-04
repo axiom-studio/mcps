@@ -1,0 +1,12 @@
+name: ARAM Mayhem
+summary: Read-only ARAM Mayhem champion builds, tiers, augments, curated combos and patch notes, with page citations and data dates.
+category: other
+tags:
+  - data-analysis
+  - gaming
+  - knowledge-retrieval
+docs_url: https://arammayhem.com/use-with-ai/
+endpoints:
+  - url: https://arammayhem.com/mcp
+    transport: streamable-http
+    auth: none

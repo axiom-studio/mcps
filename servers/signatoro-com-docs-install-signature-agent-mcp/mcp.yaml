@@ -1,0 +1,13 @@
+name: Signatoro
+summary: 'Your saved email signature for emails AI assistants send: get it as HTML and text with your real contact details, make a free signature, and manage a company''s people.'
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - document
+  - email-automation
+docs_url: https://signatoro.com/docs/install-signature/agent/mcp
+endpoints:
+  - url: https://signatoro.com/mcp
+    transport: streamable-http
+    auth: oauth

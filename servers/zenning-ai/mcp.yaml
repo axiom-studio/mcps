@@ -1,0 +1,13 @@
+name: Zenning
+summary: Use your Zenning AI employees and 2,000+ connected apps from Claude, ChatGPT, Cursor or any MCP client. Ask Zenning to act across Gmail, Slack, your CRM and more, run an AI employee on demand, and read your Zenning chats. Hosted remote server with OAuth.
+category: productivity
+tags:
+  - ai-agent
+  - communication
+  - productivity
+  - workflow-automation
+docs_url: https://zenning.ai
+endpoints:
+  - url: https://api.zenning.ai/api/mcp
+    transport: streamable-http
+    auth: unknown

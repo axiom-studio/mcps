@@ -1,0 +1,12 @@
+name: SpaceJobs.Now
+summary: Search open space-industry jobs (launch, satellites, spacecraft) from 47 employers' own hiring systems, refreshed hourly, with posted pay, kind of work and the countries each role accepts.
+category: search
+tags:
+  - marketplace
+  - research
+  - search
+docs_url: https://spacejobs.now/job-feed
+endpoints:
+  - url: https://spacejobs.now/api/mcp
+    transport: streamable-http
+    auth: unknown

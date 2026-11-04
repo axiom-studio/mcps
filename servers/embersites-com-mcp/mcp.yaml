@@ -1,0 +1,13 @@
+name: Ember Websites
+summary: Build, edit, preview and publish hosted content websites from Claude, ChatGPT or Cursor.
+category: productivity
+tags:
+  - cms
+  - content-creation
+  - web-research
+  - workflow-automation
+docs_url: https://embersites.com/mcp/
+endpoints:
+  - url: https://embersites.app/mcp
+    transport: streamable-http
+    auth: oauth

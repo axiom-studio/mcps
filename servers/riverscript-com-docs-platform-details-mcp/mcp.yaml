@@ -1,0 +1,12 @@
+name: RiverScript v2
+summary: Bring your RiverScript transcripts to any AI agent
+category: productivity
+tags:
+  - ai-agent
+  - document
+  - productivity
+docs_url: https://riverscript.com/docs/platform-details/mcp
+endpoints:
+  - url: https://riverscript.com/api/mcp/v2
+    transport: streamable-http
+    auth: oauth

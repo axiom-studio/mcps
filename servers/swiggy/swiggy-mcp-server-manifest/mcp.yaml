@@ -1,0 +1,20 @@
+name: Swiggy Food MCP
+summary: Discover restaurants, browse menus, manage food carts, and place food orders through Swiggy.
+category: development
+tags:
+  - ecommerce
+  - marketplace
+docs_url: https://github.com/Swiggy/swiggy-mcp-server-manifest
+endpoints:
+  - url: https://mcp.swiggy.com/scenes
+    transport: streamable-http
+    auth: oauth
+  - url: https://mcp.swiggy.com/dineout
+    transport: streamable-http
+    auth: oauth
+  - url: https://mcp.swiggy.com/im
+    transport: streamable-http
+    auth: oauth
+  - url: https://mcp.swiggy.com/food
+    transport: streamable-http
+    auth: oauth

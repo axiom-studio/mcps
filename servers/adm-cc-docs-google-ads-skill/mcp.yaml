@@ -1,0 +1,13 @@
+name: ADM Google Ads MCP Server
+summary: Connect Claude Code, Codex, Cursor or Windsurf to your Google Ads accounts. Read campaign data in plain language and draft new Search campaigns with ADM AI.
+category: marketing
+tags:
+  - advertising
+  - ai-agent
+  - google-analytics
+  - marketing
+docs_url: https://adm.cc/docs/google-ads-skill
+endpoints:
+  - url: https://app.adm.cc/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,12 @@
+name: Katana — Japan Stock Screener
+summary: Screen every listed company in Japan by financials, custom formulas, and annual report text.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+docs_url: https://katanascreener.com/en/mcp/
+endpoints:
+  - url: https://mcp.katanascreener.com/mcp
+    transport: streamable-http
+    auth: oauth

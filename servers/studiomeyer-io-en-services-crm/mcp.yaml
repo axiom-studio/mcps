@@ -1,0 +1,13 @@
+name: StudioMeyer CRM
+summary: Hosted AI-native CRM with 37 MCP tools for contacts, leads, deals, tasks, and customer context. Connects remotely via OAuth.
+category: productivity
+tags:
+  - ai-agent
+  - crm
+  - customer-ops
+  - sales
+docs_url: https://studiomeyer.io/en/services/crm
+endpoints:
+  - url: https://crm.studiomeyer.io/mcp
+    transport: streamable-http
+    auth: oauth

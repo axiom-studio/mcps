@@ -1,0 +1,13 @@
+name: FlickDirect Connect
+summary: Read-only Movie MCP Server for FlickDirect movie and TV details, cast, trivia, and links to original reviews, interviews, trailers, and news. Public Streamable HTTP endpoint; no sign-in required.
+category: search
+tags:
+  - entertainment
+  - media
+  - search
+  - web-research
+docs_url: https://flickdirect.com/connect.aspx
+endpoints:
+  - url: https://connect.flickdirect.com/mcp
+    transport: streamable-http
+    auth: none

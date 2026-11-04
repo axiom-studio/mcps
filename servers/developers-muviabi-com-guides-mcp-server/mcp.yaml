@@ -1,0 +1,14 @@
+name: Muvia BI
+summary: Query company and machine data with SQL, and build dashboards, reports and alarms; writes follow an approval policy.
+category: database
+tags:
+  - analytics
+  - business-operations
+  - data-analysis
+  - database
+  - sql
+docs_url: https://developers.muviabi.com/guides/mcp-server
+endpoints:
+  - url: https://api.muviabi.com/mcp/v1
+    transport: streamable-http
+    auth: oauth

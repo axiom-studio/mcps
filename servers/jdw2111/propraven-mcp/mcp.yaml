@@ -1,0 +1,13 @@
+name: PropRaven
+summary: 'US property data: 180M+ parcels with lookup, search, owners, hazards, valuations, permits and sales history.'
+category: other
+tags:
+  - data-analysis
+  - government
+  - real-estate
+  - search
+docs_url: https://github.com/jdw2111/propraven-mcp
+endpoints:
+  - url: https://propraven.com/mcp
+    transport: streamable-http
+    auth: unknown

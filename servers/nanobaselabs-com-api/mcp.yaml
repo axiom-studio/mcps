@@ -1,0 +1,13 @@
+name: 'TDA Logic by NanoBase™: Cosmetic Formulation'
+summary: 'TDA logic for AI: design, check and label leave-on nanocosmetic formulas on NanoBase™.'
+category: other
+tags:
+  - ai-agent
+  - documentation
+  - knowledge-retrieval
+  - research
+docs_url: https://nanobaselabs.com/api
+endpoints:
+  - url: https://api.nanobaselabs.com/mcp
+    transport: streamable-http
+    auth: unknown

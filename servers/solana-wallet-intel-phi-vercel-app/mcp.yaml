@@ -1,0 +1,13 @@
+name: Solana Wallet Intel (x402)
+summary: 'Pay-per-call Solana wallet intel for AI agents: $0.002 quick wallet screen (bot/exchange flags, PnL, win rate), full wallet profiles with holdings and PnL, batch screening, and trending tokens with rug flags. USDC on Solana via x402, no API key, free preview endpoint.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - payment
+  - trading
+docs_url: https://solana-wallet-intel-phi.vercel.app
+endpoints:
+  - url: https://solana-wallet-intel-phi.vercel.app/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Ryufin
+summary: 'Free US stock research from SEC filings: five plain answers per stock (quality, safety, valuation, growth, market), financial history and 8-K news. Remote, no API key.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+  - web-research
+docs_url: https://ryufin.com/developers
+endpoints:
+  - url: https://ryufin.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: AccountsOS
+summary: 'AI accounting for small businesses. Ask about your live AccountsOS books from any MCP client: transactions, balances, VAT summaries, filing deadlines, invoices and documents, across 31 countries.'
+category: finance
+tags:
+  - ai-agent
+  - business-operations
+  - finance
+docs_url: https://github.com/thriveventurelabs/accountsos-mcp-server
+endpoints:
+  - url: https://accounts-os.com/api/mcp/plugin
+    transport: streamable-http
+    auth: oauth

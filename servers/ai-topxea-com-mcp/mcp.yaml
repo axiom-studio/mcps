@@ -1,0 +1,12 @@
+name: TopxAI Models
+summary: 'Ask any text model in the TopxAI catalogue (Claude, GPT, Grok, GLM, Kimi, DeepSeek) from inside another model''s conversation: a second opinion, a review, or a model the host does not have. Tools: list_models, ask_model, judge. Remote Streamable HTTP endpoint https://ai.topxea.com/mcp/models with an API key in the Authorization header; each call costs the model''s token price plus a $0.001 fee.'
+category: development
+tags:
+  - ai-model
+  - api
+  - llm
+docs_url: https://ai.topxea.com/mcp
+endpoints:
+  - url: https://ai.topxea.com/mcp/models
+    transport: streamable-http
+    auth: api-key

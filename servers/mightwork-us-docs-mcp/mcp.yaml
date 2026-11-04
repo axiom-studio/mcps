@@ -1,0 +1,13 @@
+name: MightWork
+summary: MightWork's MCP server lets Claude or ChatGPT read a MightWork workspace (business facts, leads, bookings, performance) with the permissions the owner grants. Requires a MightWork account.
+category: productivity
+tags:
+  - business-operations
+  - crm
+  - data-analysis
+  - productivity
+docs_url: https://mightwork.us/docs/mcp
+endpoints:
+  - url: https://app.mightwork.us/api/mcp
+    transport: streamable-http
+    auth: oauth

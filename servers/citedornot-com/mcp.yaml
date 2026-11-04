@@ -1,0 +1,14 @@
+name: CitedOrNot - AI Search Visibility
+summary: 'Check your brand''s AI search visibility from your AI assistant: do ChatGPT, Gemini and others name you, who wins instead, and what to publish. Read-only.'
+category: marketing
+tags:
+  - ai-model
+  - marketing
+  - research
+  - seo
+  - web-research
+docs_url: https://citedornot.com/?ref=mcp-mcpservers
+endpoints:
+  - url: https://citedornot.com/mcp
+    transport: streamable-http
+    auth: unknown

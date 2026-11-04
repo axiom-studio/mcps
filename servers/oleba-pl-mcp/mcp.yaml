@@ -1,0 +1,11 @@
+name: ABC Remonty Oleba MCP
+summary: Public read-only MCP server for ABC Remonty Oleba. Provides information about renovation services, service areas, prices and published project realizations in Warsaw, Piaseczno and surrounding areas.
+category: other
+tags:
+  - business-operations
+  - web-research
+docs_url: https://oleba.pl/mcp
+endpoints:
+  - url: https://oleba.pl/mcp
+    transport: streamable-http
+    auth: none

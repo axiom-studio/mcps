@@ -1,0 +1,13 @@
+name: Agentboxd
+summary: 'Real email inboxes for AI agents: create inboxes (or self-deleting temporary ones), send and reply in threads, wait for new mail, and read OTP codes and magic links. Email is marked untrusted; SPF/DMARC failures and likely prompt injection are flagged. npx -y @agentboxd/mcp'
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - email-automation
+  - security
+docs_url: https://github.com/agentboxd/agentboxd
+endpoints:
+  - url: https://mcp.agentboxd.com/mcp
+    transport: streamable-http
+    auth: oauth

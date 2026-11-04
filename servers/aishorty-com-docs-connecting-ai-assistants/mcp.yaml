@@ -1,0 +1,13 @@
+name: Shorty MCP
+summary: Summarize and transcribe videos, audio files, documents and web pages with Shorty. Remote server with OAuth sign-in.
+category: productivity
+tags:
+  - content-creation
+  - document
+  - media
+  - productivity
+docs_url: https://aishorty.com/docs/connecting-ai-assistants
+endpoints:
+  - url: https://aishorty.com/api/mcp
+    transport: streamable-http
+    auth: oauth

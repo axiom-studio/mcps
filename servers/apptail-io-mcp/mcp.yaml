@@ -1,0 +1,13 @@
+name: AppTail – ASO & Keyword Research
+summary: 'App Store optimization (ASO) and keyword research for iOS: track app store rankings, analyze competitors, research markets and reviews, and read your App Store Connect analytics.'
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - mobile
+  - research
+docs_url: https://apptail.io/mcp
+endpoints:
+  - url: https://mcp.apptail.io/mcp
+    transport: streamable-http
+    auth: oauth

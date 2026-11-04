@@ -1,0 +1,13 @@
+name: DueChat
+summary: Let Claude, ChatGPT or Cursor find who owes you, draft invoices and chase payment over MCP. Nothing goes out without your OK. Free for 3 invoices/mo.
+category: finance
+tags:
+  - ai-agent
+  - email-automation
+  - finance
+  - payment
+docs_url: https://duechat.io
+endpoints:
+  - url: https://duechat.io/mcp
+    transport: streamable-http
+    auth: unknown

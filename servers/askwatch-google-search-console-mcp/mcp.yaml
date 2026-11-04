@@ -1,0 +1,14 @@
+name: AskWatch Google Search Console MCP
+summary: Ask Google Search Console in plain language. Hosted, free, no Google Cloud project.
+category: search
+tags:
+  - analytics
+  - search
+  - seo
+official: true
+registry_name: ai.askwatch/gsc
+docs_url: https://askwatch.ai/free-tools/google-search-console-mcp
+endpoints:
+  - url: https://mcp.askwatch.ai/gsc
+    transport: streamable-http
+    auth: api-key

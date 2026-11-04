@@ -1,0 +1,11 @@
+name: PirateFly Flight Deals
+summary: Is this flight price good right now? Fare verdicts and cheap-flight deals from 90 days of observed fares on 500+ routes. Remote server, no API key.
+category: search
+tags:
+  - data-analysis
+  - search
+docs_url: https://github.com/DeusAcc/piratefly-mcp
+endpoints:
+  - url: https://piratefly.com/mcp
+    transport: streamable-http
+    auth: unknown

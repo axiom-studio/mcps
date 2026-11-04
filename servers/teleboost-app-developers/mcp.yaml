@@ -1,0 +1,12 @@
+name: TeleBoost
+summary: TeleBoost runs a hosted MCP server so any MCP-compatible AI (Claude, ChatGPT, Cursor, Zed, and automation tools like n8n and Make) can work with your workspace directly.
+category: productivity
+tags:
+  - ai-agent
+  - productivity
+  - workflow-automation
+docs_url: https://teleboost.app/developers
+endpoints:
+  - url: https://mcp.teleboost.app/mcp
+    transport: streamable-http
+    auth: oauth

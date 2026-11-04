@@ -1,0 +1,13 @@
+name: CoworkingView
+summary: Search coworking spaces and private offices across Europe and the UAE by city, district, amenities and price, with operator-published rates and per-city price medians.
+category: search
+tags:
+  - business-operations
+  - geospatial
+  - real-estate
+  - search
+docs_url: https://coworkingview.com/en/mcp
+endpoints:
+  - url: https://mcp.coworkingview.com/mcp
+    transport: streamable-http
+    auth: none

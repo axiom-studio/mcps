@@ -1,0 +1,11 @@
+name: GetMattered
+summary: Job search plugin for ChatGPT and Claude. Finds jobs that fit your resume, tailors the resume and cover letter for each role, and applies on the employer's own hiring system across 30+ hiring systems. An application counts as sent only when the employer's system confirms it.
+category: productivity
+tags:
+  - productivity
+docs_url: https://github.com/getmattered/getmattered-mcp
+website_url: https://getmattered.com/mcps
+endpoints:
+  - url: https://mcp.getmattered.com/mcp
+    transport: streamable-http
+    auth: oauth

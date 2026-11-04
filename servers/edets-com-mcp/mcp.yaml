@@ -1,0 +1,13 @@
+name: edets
+summary: Hosted MCP so agents can turn a still into an edets Max or edets Motion clip, and build a multi-shot ad pack.
+category: other
+tags:
+  - advertising
+  - content-creation
+  - media
+  - video
+docs_url: https://edets.com/mcp
+endpoints:
+  - url: https://edets.com/api/mcp
+    transport: streamable-http
+    auth: unknown

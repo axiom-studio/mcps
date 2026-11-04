@@ -1,0 +1,13 @@
+name: Public Data MCP (Clearline Labs)
+summary: 'Remote MCP server with 7 tools over official US public data: CPSC/FDA/USDA/NHTSA recalls, federal contract winners, IRS income by ZIP, new Texas businesses, WHOIS/DNS and tech stacks.'
+category: search
+tags:
+  - data-analysis
+  - government
+  - search
+  - web-research
+docs_url: https://payoffpath-wv2.pages.dev/public-data-mcp-server/
+endpoints:
+  - url: https://intuitive-ytterbium--public-data-mcp.apify.actor/mcp
+    transport: streamable-http
+    auth: api-key

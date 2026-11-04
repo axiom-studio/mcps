@@ -1,0 +1,13 @@
+name: Discord Docs MCP
+summary: A public, authless MCP server that gives AI assistants fast, precise access to Discord's developer documentation, with search, section retrieval, and endpoint/object/enum lookups.
+category: development
+tags:
+  - development
+  - discord
+  - documentation
+  - search
+docs_url: https://github.com/The-LukeZ/discord-docs-mcp
+endpoints:
+  - url: https://bugcord-mcp.dev/mcp
+    transport: streamable-http
+    auth: none

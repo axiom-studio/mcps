@@ -1,0 +1,14 @@
+name: Taavik
+summary: Gives Claude Code, Codex and Cursor the schema of your PostgreSQL, MySQL, SQL Server and Redshift databases (tables, columns, indexes, relations) without a database connection and without ever returning rows. Read-only, OAuth sign-in, free plan.
+category: database
+tags:
+  - coding-agent
+  - database
+  - mysql
+  - postgres
+  - sql
+docs_url: https://taavik.com/ai-database-context
+endpoints:
+  - url: https://api.taavik.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: Localnord
+summary: 'Manage Google Business Profiles from Claude or ChatGPT: posts, reviews, rankings, audits and reports for agencies.'
+category: marketing
+tags:
+  - analytics
+  - communication
+  - crm
+  - customer-ops
+  - marketing
+docs_url: https://app.localnord.io/docs/mcp
+endpoints:
+  - url: https://app.localnord.io/api/mcp/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Taskaid MCP
+summary: Manage tasks and plans between your and your agents
+category: productivity
+tags:
+  - ai-agent
+  - productivity
+  - task-management
+  - workflow-automation
+docs_url: https://taskaid.ai
+endpoints:
+  - url: https://taskaid.ai/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: NameStation
+summary: Brand names with verified-available domains, aftermarket prices, brand analysis, and trademark checks.
+category: search
+tags:
+  - business-operations
+  - marketing
+  - search
+docs_url: https://www.namestation.com/integrations
+endpoints:
+  - url: https://api.namestation.com/mcp
+    transport: streamable-http
+    auth: oauth

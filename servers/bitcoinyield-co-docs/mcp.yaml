@@ -1,0 +1,13 @@
+name: BitcoinYield
+summary: 'Live crypto yields for Bitcoin, stablecoins, ETH and SOL across DeFi and CeFi, with the best proven rate at each A-D risk grade. Two read-only tools: list_yields (the best yield per asset, by grade) and list_offers (the top offers for one asset, filterable by chain and risk). No API key.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - defi
+  - finance
+docs_url: https://bitcoinyield.co/docs
+endpoints:
+  - url: https://bitcoinyield.co/api/mcp
+    transport: streamable-http
+    auth: none

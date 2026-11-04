@@ -1,0 +1,12 @@
+name: TipMaster Consensus
+summary: 'What real football tippers predict, per match: home/draw/away shares, top scorelines, expert cohort. Free, no key, no odds.'
+category: other
+tags:
+  - data-analysis
+  - research
+  - sports
+docs_url: https://github.com/We-The-Flywheel/tipmaster-mcp
+endpoints:
+  - url: https://tipmaster.net/api/agent/mcp
+    transport: streamable-http
+    auth: none

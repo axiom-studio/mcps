@@ -1,0 +1,14 @@
+name: PeekPanda
+summary: Remote MCP server (HTTP, OAuth sign-in) for iOS competitor research. Look up apps, read their Meta ads, App Store keyword rankings, ASO data, organic viral posts and market charts, with every result carrying its observation date. Works with Claude Code, ChatGPT, Cursor and other MCP clients.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - marketing
+  - mobile
+  - research
+docs_url: https://peekpanda.com/docs
+endpoints:
+  - url: https://mcp.peekpanda.com/mcp
+    transport: streamable-http
+    auth: oauth

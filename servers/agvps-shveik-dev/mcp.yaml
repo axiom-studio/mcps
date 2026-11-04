@@ -1,0 +1,14 @@
+name: agvps
+summary: 'Servers for AI agents, rented by the month: a Linux server with root access and a public IPv4. No account, paid per call with x402 stablecoins, renewed by paying again.'
+category: cloud-service
+tags:
+  - ai-agent
+  - cloud-infrastructure
+  - crypto
+  - payment
+  - ssh
+docs_url: https://agvps.shveik.dev
+endpoints:
+  - url: https://agvps.shveik.dev/mcp
+    transport: streamable-http
+    auth: unknown

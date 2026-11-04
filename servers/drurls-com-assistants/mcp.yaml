@@ -1,0 +1,13 @@
+name: DrUrls
+summary: 'SEO audits from your AI assistant: crawl a website, get its SEO score, every issue with the fix, Google indexability checks, and start new audits. Remote MCP server with OAuth sign-in (Claude, ChatGPT, Cursor, VS Code) or an API key; a free single-page check needs no account.'
+category: development
+tags:
+  - analytics
+  - marketing
+  - seo
+  - web-scraping
+docs_url: https://drurls.com/assistants
+endpoints:
+  - url: https://drurls.com/mcp
+    transport: streamable-http
+    auth: oauth

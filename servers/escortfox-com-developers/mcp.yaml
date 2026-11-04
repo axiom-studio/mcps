@@ -1,0 +1,12 @@
+name: EscortFox
+summary: 'Free, read-only public API and MCP server over the EscortFox directory: countries, cities, districts and listing summaries. No API key needed.'
+category: search
+tags:
+  - api
+  - marketplace
+  - search
+docs_url: https://escortfox.com/developers
+endpoints:
+  - url: https://escortfox.com/mcp
+    transport: streamable-http
+    auth: none

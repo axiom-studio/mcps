@@ -1,0 +1,10 @@
+name: SkyAccess
+summary: Search live private jet empty legs, get charter estimates and booking links. Free, no API key.
+category: other
+tags:
+  - search
+docs_url: https://github.com/sky-access/skyaccess-mcp
+endpoints:
+  - url: https://mcp.skyaccess.com/mcp
+    transport: streamable-http
+    auth: none

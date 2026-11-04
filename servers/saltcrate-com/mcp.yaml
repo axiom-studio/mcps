@@ -1,0 +1,14 @@
+name: SaltCrate Oracle
+summary: Pay-per-call MCP server for live web intelligence — fetch, link checking, change monitoring, and claim verification. $0.50/call via Stripe MPP card.
+category: web-scraping
+tags:
+  - browser-automation
+  - monitoring
+  - research
+  - web-scraping
+docs_url: https://saltcrate-oracle.fly.dev/
+website_url: https://saltcrate-oracle.fly.dev/
+endpoints:
+  - url: https://saltcrate-oracle.fly.dev/mcp
+    transport: streamable-http
+    auth: unknown

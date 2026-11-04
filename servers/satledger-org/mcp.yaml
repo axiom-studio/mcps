@@ -1,0 +1,8 @@
+name: satledger
+summary: RFC 3161 timestamp over a SHA-256 digest you supply. Paid per call over x402; no account, verifies offline.
+category: other
+docs_url: https://satledger.org/mcp/
+endpoints:
+  - url: https://api.satledger.org/mcp
+    transport: streamable-http
+    auth: none

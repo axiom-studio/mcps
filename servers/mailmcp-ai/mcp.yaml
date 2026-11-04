@@ -1,0 +1,13 @@
+name: mailmcp
+summary: 'Your mailboxes in ChatGPT and Claude: Gmail, iCloud, Fastmail or any IMAP/SMTP account, as many as you like. Search, read, threaded replies, drafts, allowlisted sending and attachments. Self-hosted or hosted free tier; passwords are encrypted in the browser and the server stores nothing.'
+category: communication
+tags:
+  - communication
+  - email-automation
+  - gmail
+  - productivity
+docs_url: https://mailmcp.ai
+endpoints:
+  - url: https://mailmcp.ai/mcp
+    transport: streamable-http
+    auth: unknown

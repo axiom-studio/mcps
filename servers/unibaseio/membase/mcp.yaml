@@ -1,0 +1,13 @@
+name: Membase
+summary: 'Memory layer for AI agents: add, search and ask over one long-term memory shared by Claude Code, Cursor, Codex, ChatGPT and your own agents. Runs hosted or locally.'
+category: memory
+tags:
+  - cloud-storage
+  - database
+  - storage
+docs_url: https://github.com/unibaseio/membase
+website_url: https://membase.com
+endpoints:
+  - url: https://api.app.membase.com/mcp-http
+    transport: streamable-http
+    auth: oauth

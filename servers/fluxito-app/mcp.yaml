@@ -1,0 +1,13 @@
+name: Fluxito
+summary: Fluxito is a hosted MCP server for marketing analytics. Plan tracking, draft GTM and Adobe Launch tags, audit containers and build dashboards. Free in beta.
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - marketing
+  - workflow-automation
+docs_url: https://fluxito.app/?utm_source=mcpservers&utm_medium=directory&utm_campaign=mcp_directories
+endpoints:
+  - url: https://fluxito.app/mcp
+    transport: streamable-http
+    auth: unknown

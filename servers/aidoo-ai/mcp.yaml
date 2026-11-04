@@ -1,0 +1,14 @@
+name: Aidoo for Odoo
+summary: 'Query and update your Odoo ERP in plain language: search records, inspect model schemas, create quotations and invoices, generate Odoo PDF reports, upload attachments and read documents. Every call runs under the Odoo access rules of the connected user.'
+category: productivity
+tags:
+  - business-operations
+  - database
+  - document
+  - file-management
+  - productivity
+docs_url: https://aidoo.ai
+endpoints:
+  - url: https://mcp.aidoo.ai/mcp
+    transport: streamable-http
+    auth: oauth

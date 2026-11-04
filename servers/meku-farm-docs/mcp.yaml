@@ -1,0 +1,12 @@
+name: MEKU Human Cloud
+summary: Remote MCP server for AI agents that need a real person. Search aggregate, privacy-safe availability by skill and country, submit a real-world task request that a MEKU human operator reviews, and check its status. Early-stage; API key required (issued manually).
+category: other
+tags:
+  - ai-agent
+  - business-operations
+  - marketplace
+docs_url: https://meku.farm/docs
+endpoints:
+  - url: https://meku.farm/api/public/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,18 @@
+name: TopCounsel by The L Suite
+summary: TopCounsel by The L Suite helps users find outside counsel recommendations based on insights from a large in-house counsel community. Its connector brings legal-provider rankings, expertise signals, and recommendation context into assistant workflows.
+description: |-
+  TopCounsel by The L Suite helps users find outside counsel recommendations based on insights from a large in-house counsel community. Its connector brings legal-provider rankings, expertise signals, and recommendation context into assistant workflows.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/topcounsel)
+category: search
+tags:
+  - remote-mcp
+  - search
+official: true
+docs_url: https://claude.com/connectors/topcounsel
+endpoints:
+  - url: https://api.techgc.co/api/mcp/topcounsel
+    transport: streamable-http
+    auth: oauth

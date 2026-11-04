@@ -1,0 +1,13 @@
+name: HaveTML
+summary: Publish AI-generated HTML as hosted, shareable pages. Connect Claude, ChatGPT or Cursor to upload artifacts, organise folders and projects, and collect comments on shared links.
+category: productivity
+tags:
+  - collaboration
+  - content-creation
+  - document
+  - file-management
+docs_url: https://havetml.com/connect?ref=mcpservers&utm_source=mcpservers&utm_medium=directory&utm_campaign=pro500
+endpoints:
+  - url: https://havetml.com/mcp/mcpservers
+    transport: streamable-http
+    auth: oauth

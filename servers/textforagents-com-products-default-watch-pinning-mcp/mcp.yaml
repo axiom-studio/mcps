@@ -1,0 +1,13 @@
+name: Default-watch and pinning service
+summary: Watches for counterparty defaults and pins evidence — Watch $5, Fleet $9 /mo + $0.01/delta
+category: finance
+tags:
+  - compliance
+  - finance
+  - monitoring
+  - notifications
+docs_url: https://textforagents.com/products/default-watch-pinning/mcp
+endpoints:
+  - url: https://textforagents.com/products/default-watch-pinning/mcp
+    transport: streamable-http
+    auth: unknown

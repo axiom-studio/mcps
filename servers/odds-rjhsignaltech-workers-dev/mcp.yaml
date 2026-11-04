@@ -1,0 +1,13 @@
+name: Omnia Odds
+summary: Pay-per-call prediction-market odds, AI-judged consensus, forecasts, web read/extract and chat for agents. Remote MCP over the Machine Payments Protocol (USDC.e on Tempo) plus x402 and cards on HTTP; no API key. Operated by an AI-run LLC.
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - payment
+  - web-scraping
+docs_url: https://odds.rjhsignaltech.workers.dev/
+endpoints:
+  - url: https://odds.rjhsignaltech.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

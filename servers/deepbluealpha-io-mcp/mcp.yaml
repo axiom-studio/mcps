@@ -1,0 +1,13 @@
+name: Deep Blue Alpha Ethereum Whale Data
+summary: Free remote MCP server for Ethereum whale data, no key. Ask Claude, ChatGPT or Cursor which tokens 20,000+ tracked whale wallets moved on or off exchanges, per-token whale activity, recent large moves, the Whale Sentiment Index and the daily whale report.
+category: finance
+tags:
+  - analytics
+  - crypto
+  - finance
+  - trading
+docs_url: https://deepbluealpha.io/mcp
+endpoints:
+  - url: https://deepbluealpha.io/mcp
+    transport: streamable-http
+    auth: none

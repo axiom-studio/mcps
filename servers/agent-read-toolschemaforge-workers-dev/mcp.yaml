@@ -1,0 +1,13 @@
+name: AgentRead
+summary: AgentRead turns any public URL, PDF or DOCX into clean Markdown for LLM context, and scans untrusted text for prompt-injection before it reaches your agent. Free tier 50 calls/day, then x402 (USDC on Base) or Lightning. Built with AI assistance.
+category: search
+tags:
+  - llm
+  - pdf
+  - security
+  - web-scraping
+docs_url: https://agent-read.toolschemaforge.workers.dev/
+endpoints:
+  - url: https://agent-read.toolschemaforge.workers.dev/mcp
+    transport: streamable-http
+    auth: none

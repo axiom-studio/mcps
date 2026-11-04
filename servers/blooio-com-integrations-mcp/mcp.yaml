@@ -1,0 +1,13 @@
+name: Blooio
+summary: Only MCP for Apple Messages for Business. Send iMessage, SMS & RCS from AI agents.
+category: communication
+tags:
+  - ai-agent
+  - chatbot
+  - communication
+  - sms
+docs_url: https://blooio.com/integrations/mcp
+endpoints:
+  - url: https://mcp.blooio.com/v4
+    transport: streamable-http
+    auth: oauth

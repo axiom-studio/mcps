@@ -1,0 +1,12 @@
+name: past.dev
+summary: Give your assistant long-term memory. Ask what is true now and get the current fact, the value it replaced and the dated source. Manage projects, keys and access from the same connection.
+category: memory
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - memory
+docs_url: https://past.dev/docs/mcp/overview
+endpoints:
+  - url: https://app.past.dev/mcp
+    transport: streamable-http
+    auth: oauth

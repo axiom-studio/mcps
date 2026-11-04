@@ -1,0 +1,13 @@
+name: eriShield B2B KYB & Compliance MCP
+summary: Automated B2B Vendor KYB & Regulatory Compliance MCP server verifying GLEIF LEI, EU VIES VAT, US SEC EDGAR, HHS NPI, and NIS2/GDPR/EAA domain security posture.
+category: finance
+tags:
+  - business-operations
+  - compliance
+  - finance
+  - security
+docs_url: https://github.com/chathukas/verishield-kyb
+endpoints:
+  - url: https://mcp.apify.com
+    transport: streamable-http
+    auth: unknown

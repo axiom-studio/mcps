@@ -1,0 +1,13 @@
+name: BLS OEWS MCP by 1102tools
+summary: 'Free hosted MCP server for BLS OEWS (Occupational Employment and Wage Statistics): market wages by occupation and location for pricing proposals and IGCEs. Connect at https://bls-oews.1102tools.com/mcp with nothing to install and no API key. Open source (MIT).'
+category: other
+tags:
+  - data-analysis
+  - finance
+  - government
+  - research
+docs_url: https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/bls-oews-mcp
+endpoints:
+  - url: https://bls-oews.1102tools.com/mcp
+    transport: streamable-http
+    auth: none

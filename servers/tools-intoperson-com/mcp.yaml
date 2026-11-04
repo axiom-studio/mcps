@@ -1,0 +1,15 @@
+name: Lottery Numbers
+summary: Random lottery picks in any format (Lotto 6/45, Powerball, Mega Millions, EuroMillions and more), past draws and ticket checks. Free, no key; every pick carries a seed that reproduces it.
+category: other
+tags:
+  - data-analysis
+  - entertainment
+  - gaming
+docs_url: https://tools.intoperson.com/
+endpoints:
+  - url: https://tools.intoperson.com/mcp/lottery
+    transport: streamable-http
+    auth: none
+  - url: https://tools.intoperson.com/mcp/random
+    transport: streamable-http
+    auth: none

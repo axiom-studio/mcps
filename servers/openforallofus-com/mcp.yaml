@@ -1,0 +1,12 @@
+name: Agora
+summary: 'Search for MCP servers, ranked by what was measured: handshake checks, tool lists, repository signals and signed reports. Open data.'
+category: search
+tags:
+  - knowledge-retrieval
+  - marketplace
+  - search
+docs_url: https://openforallofus.com
+endpoints:
+  - url: https://openforallofus.com/api/mcp
+    transport: streamable-http
+    auth: none

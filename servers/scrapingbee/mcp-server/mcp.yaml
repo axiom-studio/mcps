@@ -1,0 +1,13 @@
+name: ScrapingBee
+summary: Fetch any web page as text, markdown, HTML or a screenshot with JavaScript rendering, CAPTCHAs and anti-bot blocking handled, extract structured data, and get JSON from Google, Amazon, Walmart, YouTube, ChatGPT and Gemini. Remote server, Bearer API key.
+category: web-scraping
+tags:
+  - api
+  - browser-automation
+  - search
+  - web-scraping
+docs_url: https://github.com/ScrapingBee/mcp-server
+endpoints:
+  - url: https://mcp.scrapingbee.com/mcp
+    transport: streamable-http
+    auth: api-key

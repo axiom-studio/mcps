@@ -1,0 +1,14 @@
+name: WriteStack
+summary: Connect Claude, ChatGPT, Notion, or any MCP client to a writer’s WriteStack account. Draft and schedule Substack Notes, manage articles, and read statistics.
+category: marketing
+tags:
+  - analytics
+  - content-creation
+  - marketing
+  - notion
+  - social-media
+docs_url: https://www.writestack.io/mcp
+endpoints:
+  - url: https://www.writestack.io/api/mcp/mcp
+    transport: streamable-http
+    auth: oauth

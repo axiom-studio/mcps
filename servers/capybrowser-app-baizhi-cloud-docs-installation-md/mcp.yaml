@@ -1,0 +1,13 @@
+name: Baizhi Cloud Browser
+summary: Manage cloud browser sessions, saved login state, human handoff and downloads. Use your own Baizhi API key and a CDP client for page actions; browser runtime is billed.
+category: cloud-service
+tags:
+  - api
+  - browser
+  - browser-automation
+  - cloud-infrastructure
+docs_url: https://capybrowser.app.baizhi.cloud/docs/installation.md
+endpoints:
+  - url: https://capybrowser.app.baizhi.cloud/mcp
+    transport: streamable-http
+    auth: api-key

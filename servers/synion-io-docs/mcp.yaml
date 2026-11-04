@@ -1,0 +1,13 @@
+name: Synion
+summary: 'The AI video studio: records your web app, writes and voices the script, renders a tutorial MP4.'
+category: marketing
+tags:
+  - ai-model
+  - content-creation
+  - marketing
+  - video
+docs_url: https://synion.io/docs
+endpoints:
+  - url: https://synion.io/mcp
+    transport: streamable-http
+    auth: oauth

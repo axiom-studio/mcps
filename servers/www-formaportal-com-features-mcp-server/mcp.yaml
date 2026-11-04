@@ -1,0 +1,13 @@
+name: FormaPortal
+summary: Connect Claude or any MCP assistant to your FormaPortal customer portal and CRM. Find contacts, submissions and ticket sales, log notes and send reminders.
+category: productivity
+tags:
+  - communication
+  - crm
+  - customer-ops
+  - productivity
+docs_url: https://www.formaportal.com/features/mcp-server
+endpoints:
+  - url: https://app.formaportal.com/api/mcp
+    transport: streamable-http
+    auth: oauth

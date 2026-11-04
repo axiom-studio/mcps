@@ -1,0 +1,14 @@
+name: Murkuz SEO
+summary: 'Your Google Search Console, GA4 and Bing Webmaster data, queryable from Claude and ChatGPT. Hosted remote MCP (OAuth 2.0) with 32 SEO tools: search analytics, rankings, URL inspection, traffic drops, content decay.'
+category: marketing
+tags:
+  - analytics
+  - google-analytics
+  - marketing
+  - seo
+  - web-research
+docs_url: https://murkuz.com/integrations/mcp
+endpoints:
+  - url: https://murkuz.com/mcp
+    transport: streamable-http
+    auth: oauth

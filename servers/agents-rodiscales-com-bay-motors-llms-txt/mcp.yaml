@@ -1,0 +1,10 @@
+name: Bay Motors Auto Repair (Hayward, CA)
+summary: Lets AI agents get a quote or book a visit at Bay Motors, a Hayward, CA auto repair shop.
+category: other
+tags:
+  - ai-agent
+docs_url: https://agents.rodiscales.com/bay-motors/llms.txt
+endpoints:
+  - url: https://agents.rodiscales.com/bay-motors/mcp
+    transport: streamable-http
+    auth: unknown

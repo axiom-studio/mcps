@@ -1,0 +1,13 @@
+name: Umami MCP
+summary: Connect your AI assistant to Umami and ask questions about your website analytics in plain language.
+category: cloud-service
+tags:
+  - analytics
+  - data-analysis
+  - web-research
+official: true
+docs_url: https://github.com/umami-software/umami/tree/dev/packages/mcp
+endpoints:
+  - url: https://cloud.umami.is/mcp
+    transport: streamable-http
+    auth: api-key

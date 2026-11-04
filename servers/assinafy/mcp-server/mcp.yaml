@@ -1,0 +1,10 @@
+name: Assinafy
+summary: Send documents for legally valid e-signature in Brazil, track signers and status, and download signed files.
+category: productivity
+tags:
+  - productivity
+docs_url: https://github.com/assinafy/mcp-server
+endpoints:
+  - url: https://mcp.assinafy.com.br/mcp
+    transport: streamable-http
+    auth: api-key

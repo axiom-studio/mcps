@@ -1,0 +1,12 @@
+name: A/B Test Sample Size Calculator MCP
+summary: A/B test sample size, duration, z-test, chi-square and Fisher exact tests with peeking checks
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - testing-qa
+docs_url: https://github.com/theluckystrike/ab-test-sample-size-calculator-mcp
+endpoints:
+  - url: https://ab-test-sample-size-calculator-mcp.lipmichal.workers.dev/mcp
+    transport: streamable-http
+    auth: none

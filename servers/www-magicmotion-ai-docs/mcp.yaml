@@ -1,0 +1,13 @@
+name: Magic Motion
+summary: Character motion that hits the mark. Directable 3D character animation for AI agents. Prompt plus floor marks, paths, and poses, with FBX/GLB/BVH export. OAuth sign-in, no API key needed.
+category: design
+tags:
+  - ai-agent
+  - content-creation
+  - design
+  - game-development
+docs_url: https://www.magicmotion.ai/docs
+endpoints:
+  - url: https://www.magicmotion.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

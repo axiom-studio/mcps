@@ -1,0 +1,13 @@
+name: Omniyond
+summary: 'Pay-per-use API toolbox for AI builders over MCP: scheduling, page extraction, PDFs, images, QR codes and short links. One API key, from $0.01 a call. npx omniyond-mcp.'
+category: development
+tags:
+  - api
+  - file-conversion
+  - pdf
+  - workflow-automation
+docs_url: https://omniyond.com
+endpoints:
+  - url: https://omniyond.com/mcp
+    transport: streamable-http
+    auth: api-key

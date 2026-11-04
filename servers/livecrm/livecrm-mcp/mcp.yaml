@@ -1,0 +1,14 @@
+name: LiveCRM
+summary: 'Hosted MCP server for Salesforce and HubSpot: dedupe, normalize, enrich, assign, job change, create, mass update, segment.'
+category: productivity
+tags:
+  - crm
+  - data-analysis
+  - hubspot
+  - sales
+  - salesforce
+docs_url: https://github.com/Livecrm/livecrm-mcp
+endpoints:
+  - url: https://api.livecrm.ai/mcp
+    transport: streamable-http
+    auth: oauth

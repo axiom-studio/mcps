@@ -1,0 +1,12 @@
+name: x402 Markdown Reader
+summary: 'Remote MCP + HTTP API that turns any public web page into clean Markdown (title, byline, excerpt, main content). Pay-per-call via x402: 0.005 USDC on Base, charged only on successful extraction. No API key or account.'
+category: web-scraping
+tags:
+  - document
+  - file-conversion
+  - web-scraping
+docs_url: https://x402-reader.xbtbot.workers.dev/openapi.json
+endpoints:
+  - url: https://x402-reader.xbtbot.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Gosset
+summary: 'Pharma and biotech intelligence for AI assistants: search connected drug, clinical trial, patent, company and deal data with source links, and forecast trial success (PTRS).'
+category: other
+tags:
+  - bioinformatics
+  - data-analysis
+  - healthcare
+  - research
+docs_url: https://docs.gosset.ai/guide/
+endpoints:
+  - url: https://mcp.gosset.ai/mcp
+    transport: streamable-http
+    auth: oauth

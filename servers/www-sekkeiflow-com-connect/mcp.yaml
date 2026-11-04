@@ -1,0 +1,14 @@
+name: SekkeiFlow MCP
+summary: Connect Claude, ChatGPT or another MCP client to SekkeiFlow Pro. Manage 10 life-domain boards for tasks, budgets, workouts, travel and more, with AI coaching.
+category: productivity
+tags:
+  - ai-model
+  - anthropic
+  - fitness
+  - healthcare
+  - llm
+docs_url: https://www.sekkeiflow.com/connect
+endpoints:
+  - url: https://www.sekkeiflow.com/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Runlane
+summary: 'Hosted kanban for solo devs and their coding agents: 26 MCP tools for tasks, subtasks, columns, sprints and a per-board wiki.'
+category: productivity
+tags:
+  - ai-agent
+  - productivity
+  - project-management
+  - task-management
+docs_url: https://runlane.run/mcp?ref=mcpservers
+endpoints:
+  - url: https://runlane.run/api/mcp
+    transport: streamable-http
+    auth: api-key

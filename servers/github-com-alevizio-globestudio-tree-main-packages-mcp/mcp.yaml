@@ -1,0 +1,13 @@
+name: Globestudio
+summary: Find dotted globe and map looks by vibe, build share links, and get preview links and embed snippets from chat.
+category: design
+tags:
+  - content-creation
+  - design
+  - geospatial
+  - web-research
+docs_url: https://github.com/alevizio/globestudio/tree/main/packages/mcp
+endpoints:
+  - url: https://globestudio.app/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: 'Adsap: Google Ads and Meta Ads'
+summary: Hosted Google Ads and Meta Ads MCP server for Claude, ChatGPT and Perplexity. Read performance, create campaigns and ads, and change budgets. You see a preview before every change. No Google Cloud project, nothing to install.
+category: marketing
+tags:
+  - advertising
+  - ai-agent
+  - marketing-automation
+docs_url: https://adsap.ai
+endpoints:
+  - url: https://mcp.adsap.ai/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Taiwan Legal RAG (TLR)｜台灣法律 MCP
+summary: 'Taiwan legal research MCP server by Dr.Legal 法律偵探: search 22.7M Taiwan court judgments, current statutes, administrative rulings and Constitutional Court decisions. Retrieval-only with per-item citations and a citation audit. Free, no API key, remote Streamable HTTP with OAuth dynamic registration. 台灣法律 MCP：檢索 2,272 萬筆裁判書、現行法規、行政函釋與憲法法庭裁判，逐筆附出處並提供引用查核。免費、免金鑰。'
+category: search
+tags:
+  - government
+  - knowledge-retrieval
+  - research
+  - search
+docs_url: https://dr-legal.com.tw/mcp
+endpoints:
+  - url: https://tlr.dr-legal.com.tw/mcp
+    transport: streamable-http
+    auth: oauth

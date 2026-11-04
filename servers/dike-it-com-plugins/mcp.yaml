@@ -1,0 +1,12 @@
+name: Dike Legal Search
+summary: Grounded MENA legal search, reasoning, and citation MCP server for Saudi, UAE, Qatar, Kuwait, and Egyptian primary law. Zero-hallucination legal grounding with verifiable citations.
+category: search
+tags:
+  - knowledge-retrieval
+  - research
+  - search
+docs_url: https://dike.it.com/plugins
+endpoints:
+  - url: https://api.dike.it.com/mcp
+    transport: streamable-http
+    auth: api-key

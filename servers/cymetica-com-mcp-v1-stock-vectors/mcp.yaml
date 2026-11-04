@@ -1,0 +1,14 @@
+name: Tuatara Embed Stocks
+summary: 'Stock-symbol vectors: which listed symbols an event, theme or headline moves, ranked in one call.'
+category: finance
+tags:
+  - data-analysis
+  - embeddings
+  - finance
+  - trading
+  - vector-search
+docs_url: https://cymetica.com/mcp/v1/stock-vectors
+endpoints:
+  - url: https://cymetica.com/mcp/v1/stock-vectors
+    transport: streamable-http
+    auth: unknown

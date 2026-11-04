@@ -1,0 +1,13 @@
+name: Aldine
+summary: Self-hosted collaborative LaTeX editor with a built-in MCP server. Claude reads and edits project files, typesets with latexmk, gets errors with file and line, and sees the PDF. Every edit is a git commit.
+category: productivity
+tags:
+  - collaboration
+  - development
+  - document
+  - git
+docs_url: https://github.com/trahloff/Aldine
+endpoints:
+  - url: https://demo.aldine.dev/mcp
+    transport: streamable-http
+    auth: api-key

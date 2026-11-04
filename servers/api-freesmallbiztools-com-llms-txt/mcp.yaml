@@ -1,0 +1,14 @@
+name: Free Small Biz Tools
+summary: 'Remote MCP server for small businesses: free quote totals, late-fee calculator and a list of checked free tools, plus paid (x402 USDC on Base) late-fee reminder emails, good/better/best quote packs and a $1 tool stack report.'
+category: finance
+tags:
+  - business-operations
+  - crypto
+  - email-automation
+  - finance
+  - payment
+docs_url: https://api.freesmallbiztools.com/llms.txt
+endpoints:
+  - url: https://api.freesmallbiztools.com/mcp
+    transport: streamable-http
+    auth: none

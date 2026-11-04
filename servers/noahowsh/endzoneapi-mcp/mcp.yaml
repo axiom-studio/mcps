@@ -1,0 +1,12 @@
+name: https://mcp.endzoneapi.com/mcp
+summary: 'Pro football data for AI agents: play-by-play since 1999 with EPA, stats, injuries, odds from 8 books, player props.'
+category: other
+tags:
+  - data-analysis
+  - research
+  - sports
+docs_url: https://github.com/noahowsh/endzoneapi-mcp
+endpoints:
+  - url: https://mcp.endzoneapi.com/mcp
+    transport: streamable-http
+    auth: api-key

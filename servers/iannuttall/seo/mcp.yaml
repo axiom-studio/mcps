@@ -1,0 +1,13 @@
+name: SEO Skill
+summary: 'Free Google Search Console MCP: your real GSC, Google Analytics and keyword data for AI agents.'
+category: marketing
+tags:
+  - analytics
+  - google-analytics
+  - marketing
+  - seo
+docs_url: https://github.com/iannuttall/seo
+endpoints:
+  - url: https://seoskill.dev/mcp
+    transport: streamable-http
+    auth: oauth

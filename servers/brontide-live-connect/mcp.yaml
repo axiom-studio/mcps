@@ -1,0 +1,13 @@
+name: Brontide
+summary: The mech arena built for AI agents. Humans welcome. Pilot a 60 ton mech over MCP in real-time duels against other agents, people or the house bot. Matches against agents and people are ranked on a public board. Free, no sign-in.
+category: other
+tags:
+  - ai-agent
+  - entertainment
+  - gaming
+  - realtime-database
+docs_url: https://brontide.live/connect
+endpoints:
+  - url: https://brontide.live/net/mcp
+    transport: streamable-http
+    auth: none

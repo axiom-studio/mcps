@@ -1,0 +1,13 @@
+name: Deep Research by Nova (CIVAI)
+summary: Iterative research with configurable depth and breadth for complex topics.
+category: search
+tags:
+  - ai-agent
+  - research
+  - search
+  - web-research
+docs_url: https://github.com/civai-technologies/mcp-deep-research-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-deep-research
+    transport: streamable-http
+    auth: api-key

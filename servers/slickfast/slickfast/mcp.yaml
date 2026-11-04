@@ -1,0 +1,12 @@
+name: SlickFast
+summary: 'A chart MCP server that renders locally, with no browser. Agents send small JSON specs and get PNG/SVG charts and dashboards. 47 types plus scientific plots: Kaplan–Meier, volcano, Bland–Altman, Q–Q, error bars and log axes. The same spec always gives the same bytes. Free local use, AGPL-3.0.'
+category: other
+tags:
+  - data-analysis
+  - document
+  - file-conversion
+docs_url: https://github.com/SlickFast/slickfast
+endpoints:
+  - url: https://mcp.slickfast.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: GAIP Agents
+summary: 'Free, read-only evidence on AI agents and MCP servers: conformance, change, delivery, receipts. No account or API key.'
+category: development
+tags:
+  - ai-agent
+  - development
+  - knowledge-retrieval
+  - research
+docs_url: https://github.com/tjcgraham-rgb/gaip-agents
+endpoints:
+  - url: https://www.gaipagents.com/mcp
+    transport: streamable-http
+    auth: none

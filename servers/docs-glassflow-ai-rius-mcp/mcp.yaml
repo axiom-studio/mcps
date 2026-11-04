@@ -1,0 +1,13 @@
+name: Rius
+summary: Query your AI agents' traces, errors, cost and alerts in Rius, the agent observability platform.
+category: development
+tags:
+  - ai-agent
+  - analytics
+  - monitoring
+  - observability-incident
+docs_url: https://docs.glassflow.ai/rius/mcp
+endpoints:
+  - url: https://mcp.eu.console.rius-glassflow.com/mcp
+    transport: streamable-http
+    auth: api-key

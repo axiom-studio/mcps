@@ -1,0 +1,13 @@
+name: Meiku Charts
+summary: Turn a table into an animated chart or a live, sortable table, and get an embed code you can paste into any web page.
+category: design
+tags:
+  - content-creation
+  - data-analysis
+  - design
+  - spreadsheet
+docs_url: https://meikucharts.com
+endpoints:
+  - url: https://meikucharts.com/mcp
+    transport: streamable-http
+    auth: oauth

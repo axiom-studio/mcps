@@ -1,0 +1,13 @@
+name: Vazante
+summary: Connect Meta Ads, Google Ads and TikTok Ads to Claude and ChatGPT. Ask about spend, leads and CPL across every account you manage, and let the AI create and edit campaigns after you confirm.
+category: marketing
+tags:
+  - advertising
+  - ai-agent
+  - marketing
+  - marketing-automation
+docs_url: https://vazante.app
+endpoints:
+  - url: https://vazante.app/api/mcp
+    transport: streamable-http
+    auth: oauth

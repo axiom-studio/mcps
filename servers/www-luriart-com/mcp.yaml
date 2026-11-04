@@ -1,0 +1,13 @@
+name: Luria
+summary: 'AI split testing for any website: agents add a site, verify the tag, start AI-written A/B tests, read heatmaps and recordings, and get the winner.'
+category: marketing
+tags:
+  - ai-agent
+  - analytics
+  - marketing
+  - testing-qa
+docs_url: https://www.luriart.com/
+endpoints:
+  - url: https://www.luriart.com/api/mcp
+    transport: streamable-http
+    auth: oauth

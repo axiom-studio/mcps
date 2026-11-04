@@ -1,0 +1,12 @@
+name: TrueCal
+summary: Remote MCP server for TrueCal, a calorie and macro tracker. Log meals from text and read your food diary, totals and weight with OAuth sign-in.
+category: other
+tags:
+  - data-analysis
+  - healthcare
+  - productivity
+docs_url: https://truecal.com/truecal-cli?utm_source=mcpservers&utm_medium=listing
+endpoints:
+  - url: https://app.truecal.com/mcp
+    transport: streamable-http
+    auth: oauth

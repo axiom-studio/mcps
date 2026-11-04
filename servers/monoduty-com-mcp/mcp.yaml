@@ -1,0 +1,12 @@
+name: MonoDuty
+summary: Inspect monitoring coverage, propose configurations, and create uptime monitors, job heartbeats and webhook sources with scoped permissions.
+category: development
+tags:
+  - api
+  - devops-infrastructure
+  - monitoring
+docs_url: https://monoduty.com/mcp
+endpoints:
+  - url: https://mcp.monoduty.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: fnlowl
+summary: Manage website widgets, leads, email sequences and analytics from an AI assistant. Remote OAuth server; writes are drafts and publishing needs a person's approval.
+category: marketing
+tags:
+  - analytics
+  - crm
+  - email-automation
+  - marketing
+  - workflow-automation
+docs_url: https://fnlowl.com/docs/agents/mcp-server/
+endpoints:
+  - url: https://api.fnlowl.com/v1/mcp
+    transport: streamable-http
+    auth: unknown

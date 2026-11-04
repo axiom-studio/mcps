@@ -1,0 +1,14 @@
+name: Rhylthyme
+summary: 'Plan real-time, multi-track work (recipes, lab protocols, events, workouts): import, validate and analyze schedules with dependencies and resource limits, then share a live timeline. Free, no auth.'
+category: productivity
+tags:
+  - calendar
+  - data-analysis
+  - productivity
+  - project-management
+  - workflow-automation
+docs_url: https://github.com/rhylthyme/rhylthyme-mcp
+endpoints:
+  - url: https://mcp.rhylthyme.com/mcp
+    transport: streamable-http
+    auth: none

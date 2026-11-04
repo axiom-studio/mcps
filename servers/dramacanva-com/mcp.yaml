@@ -1,0 +1,13 @@
+name: DramaCanvas
+summary: MCP server for DramaCanvas, a free-to-start AI filmmaking platform on an infinite canvas for short dramas, films, music videos and commercials.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - video
+docs_url: https://dramacanva.com
+endpoints:
+  - url: https://dramacanva.com/api/mcp
+    transport: streamable-http
+    auth: api-key

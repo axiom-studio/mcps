@@ -1,0 +1,13 @@
+name: ArtifactDeploy
+summary: 'Deploy what Claude builds to a live link in seconds: rich previews, personal links that show who opened it, stats, forms, live data and custom domains.'
+category: cloud-service
+tags:
+  - analytics
+  - cloud-infrastructure
+  - content-creation
+  - deployment
+docs_url: https://artifactdeploy.com/docs?via=mcpservers
+endpoints:
+  - url: https://mcp.artifactdeploy.com/mcp
+    transport: streamable-http
+    auth: oauth

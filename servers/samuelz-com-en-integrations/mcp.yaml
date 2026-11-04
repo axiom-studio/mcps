@@ -1,0 +1,10 @@
+name: Samuelz Chauffeur Booking
+summary: Public chauffeur prices, policies and consent-led ride offers for travel bookers and AI assistants.
+category: productivity
+tags:
+  - api
+docs_url: https://samuelz.com/en/integrations?utm_source=mcpservers.org&utm_medium=directory&utm_campaign=mcp_launch
+endpoints:
+  - url: https://platform-api.samuelz.com/api/v1/mcp/chauffeur/samuelz-chauffeur
+    transport: streamable-http
+    auth: none

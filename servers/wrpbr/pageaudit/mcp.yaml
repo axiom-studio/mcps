@@ -1,0 +1,13 @@
+name: PageAudit
+summary: Audit any web page for SEO, performance and accessibility from your AI agent, with fix patches.
+category: development
+tags:
+  - browser-automation
+  - performance
+  - seo
+  - testing-qa
+docs_url: https://github.com/wrpbr/pageaudit
+endpoints:
+  - url: https://pageaudit.online/mcp
+    transport: streamable-http
+    auth: none

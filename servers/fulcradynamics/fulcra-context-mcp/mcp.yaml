@@ -1,0 +1,15 @@
+name: Fulcra Context
+summary: Fulcra Context MCP server for accessing your personal health, workouts, sleep, location, and more, all privately. Built around Context by Fulcra.
+category: memory
+tags:
+  - data-analysis
+  - healthcare
+  - privacy
+  - wearable
+official: true
+registry_name: com.fulcradynamics/context
+docs_url: https://github.com/fulcradynamics/fulcra-context-mcp
+endpoints:
+  - url: https://mcp.fulcradynamics.com/mcp
+    transport: streamable-http
+    auth: oauth

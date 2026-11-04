@@ -1,0 +1,13 @@
+name: Artifact Publisher
+summary: Agents publish self-contained HTML to a stable review link, with page-level feedback and revoke.
+category: cloud-service
+tags:
+  - collaboration
+  - deployment
+  - documentation
+  - workflow-automation
+docs_url: https://artifactpublisher.com/docs/mcp/?ref=mcpservers
+endpoints:
+  - url: https://app.artifactpublisher.com/mcp
+    transport: streamable-http
+    auth: unknown

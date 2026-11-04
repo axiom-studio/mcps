@@ -1,0 +1,18 @@
+name: Readwise
+summary: Readwise is a reading system for saving highlights and managing a personal library across books, articles, podcasts, and more. Its remote MCP server gives assistants OAuth-backed access to Readwise highlights and Reader documents so you can search notes, ground answers in your reading history, and manage library items from conversation.
+description: |-
+  Readwise is a reading system for saving highlights and managing a personal library across books, articles, podcasts, and more. Its remote MCP server gives assistants OAuth-backed access to Readwise highlights and Reader documents so you can search notes, ground answers in your reading history, and manage library items from conversation.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://readwise.io/mcp)
+category: productivity
+tags:
+  - productivity
+  - remote-mcp
+official: true
+docs_url: https://readwise.io/mcp
+endpoints:
+  - url: https://mcp2.readwise.io/mcp
+    transport: streamable-http
+    auth: oauth

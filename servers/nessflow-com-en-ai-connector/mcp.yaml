@@ -1,0 +1,13 @@
+name: NessFlow
+summary: 'Run and read SEO site audits: issues, health score, fixes, rankings and logs.'
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - seo
+  - web-research
+docs_url: https://nessflow.com/en/ai-connector
+endpoints:
+  - url: https://mcp.nessflow.com/mcp
+    transport: streamable-http
+    auth: oauth

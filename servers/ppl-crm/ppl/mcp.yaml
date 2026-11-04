@@ -1,0 +1,12 @@
+name: ppl
+summary: Relational memory for you and your AI.
+category: memory
+tags:
+  - ai-agent
+  - knowledge-graph
+  - memory
+docs_url: https://github.com/ppl-crm/ppl
+endpoints:
+  - url: https://withppl.com/mcp
+    transport: streamable-http
+    auth: oauth

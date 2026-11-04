@@ -1,0 +1,14 @@
+name: perps.ai Projects
+summary: Search perpetuals ecosystem projects, retrieve project details, and list categories.
+category: finance
+tags:
+  - crypto
+  - defi
+  - finance
+  - knowledge-retrieval
+  - research
+docs_url: https://perps.ai
+endpoints:
+  - url: https://perps.ai/mcp
+    transport: streamable-http
+    auth: none

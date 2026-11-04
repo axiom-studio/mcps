@@ -1,0 +1,15 @@
+name: Get MCP Ads
+summary: Connectez Google Ads, Meta Ads, TikTok Ads, Pinterest Ads, Snapchat Ads, Search Console et GA4 à votre assistant IA via une URL MCP hébergée. Sélection des comptes autorisés, offre gratuite en lecture seule, aperçu et confirmation des écritures prises en charge sur les offres payantes.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - google-analytics
+  - marketing
+  - search
+official: true
+docs_url: https://www.getmcpads.com/tools?utm_source=mcpservers&utm_medium=directory&utm_campaign=hosted
+endpoints:
+  - url: https://mcp.getmcpads.com/mcp
+    transport: streamable-http
+    auth: oauth

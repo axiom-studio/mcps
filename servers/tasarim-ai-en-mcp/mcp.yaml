@@ -1,0 +1,13 @@
+name: tasarim.ai AI Catalog
+summary: Find AI design tools, compare catalog records, and inspect stored evidence and limitations.
+category: design
+tags:
+  - ai-model
+  - design
+  - marketplace
+  - search
+docs_url: https://tasarim.ai/en/mcp
+endpoints:
+  - url: https://tasarim.ai/api/mcp
+    transport: streamable-http
+    auth: none

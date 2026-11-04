@@ -1,0 +1,11 @@
+name: ATAbooking
+summary: 'ATAbooking lets your AI book hotels directly, for a 5% fee instead of the 15–20% the big booking sites take. Demo: sample hotels, no real bookings yet.'
+category: other
+tags:
+  - ecommerce
+  - payment
+docs_url: https://atabooking.com/mcp/docs/
+endpoints:
+  - url: https://atabooking.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,18 @@
+name: Pendo
+summary: Pendo is a product experience platform combining analytics, in-app guides, and feedback. Its remote MCP server gives assistants access to visitor, account, and usage data so product questions can be answered from real behavioral analytics.
+description: |-
+  Pendo is a product experience platform combining analytics, in-app guides, and feedback. Its remote MCP server gives assistants access to visitor, account, and usage data so product questions can be answered from real behavioral analytics.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://support.pendo.io/hc/en-us/articles/41102236924955-Connect-to-the-Pendo-MCP-server)
+category: marketing
+tags:
+  - marketing
+  - remote-mcp
+official: true
+docs_url: https://support.pendo.io/hc/en-us/articles/41102236924955-Connect-to-the-Pendo-MCP-server
+endpoints:
+  - url: https://app.pendo.io/mcp/v0/shttp
+    transport: streamable-http
+    auth: oauth

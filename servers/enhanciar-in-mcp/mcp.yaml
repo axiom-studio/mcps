@@ -1,0 +1,14 @@
+name: Enhanciar
+summary: 'Remote MCP server (streamable HTTP) for Enhanciar, the company brain. Ask questions over your team''s Slack, Gmail, GitHub, Notion, Jira and Linear and get answers with a citation on every claim; search the generated wiki; run impact analysis on code; and propose Jira, Linear, GitHub, Slack or calendar actions that wait for a person to approve. Endpoint: https://enhanciar.in/enhanciar/mcp/ with an API key (Bearer header). Early access by waitlist.'
+category: productivity
+tags:
+  - ai-agent
+  - collaboration
+  - knowledge-retrieval
+  - productivity
+  - workflow-automation
+docs_url: https://enhanciar.in/mcp
+endpoints:
+  - url: https://enhanciar.in/enhanciar/mcp/
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: GSC Search Insights
+summary: Explore Google Search Console and Bing Webmaster Tools reports, compare search performance, and find SEO opportunities. Hosted remote MCP server (https://api.gscmcpserver.com/mcp) with OAuth and 12 read-only tools.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+  - web-research
+docs_url: https://gscmcpserver.com/blog/connect-google-search-console-to-claude-chatgpt
+endpoints:
+  - url: https://api.gscmcpserver.com/mcp
+    transport: streamable-http
+    auth: oauth

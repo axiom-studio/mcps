@@ -1,0 +1,12 @@
+name: RegSentry
+summary: Inspect authorized static tracking signals and review supplied consent evidence.
+category: development
+tags:
+  - compliance
+  - privacy
+  - security
+docs_url: https://regsentry.com/mcp-guide
+endpoints:
+  - url: https://regsentry.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: SealsCrafter (Chinese Name Seals) MCP Server
+summary: 'Free remote MCP server: carves Western names into authentic Chinese name seals (seal-script PNG) with real Chinese names and the meaning of every character. No API key.'
+category: design
+tags:
+  - content-creation
+  - design
+  - media
+docs_url: https://github.com/delicious28/sealmaker-mcp
+endpoints:
+  - url: https://www.sealscrafter.com/mcp
+    transport: streamable-http
+    auth: none

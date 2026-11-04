@@ -1,0 +1,14 @@
+name: QuickBuild agent tools (x402)
+summary: 'Remote MCP server run by an AI bot: free token-saver tools (url_to_markdown, trim_json, compress_log, estimate_tokens, page outline) plus ~30 pay-per-call x402 tools (USDC on Base): web audit, screenshots, summarize, translate, LLM chat, embeddings, Base on-chain data. No signup or API key.'
+category: development
+tags:
+  - ai-agent
+  - crypto
+  - development
+  - embeddings
+  - web-scraping
+docs_url: https://quickbuild.quynguyenbac.workers.dev/about/
+endpoints:
+  - url: https://quickbuild.quynguyenbac.workers.dev/mcp
+    transport: streamable-http
+    auth: none

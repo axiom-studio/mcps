@@ -1,0 +1,13 @@
+name: Transcribe A Reel
+summary: Turns a public Instagram Reel, video post or story into clean, copy-ready text with speaker labels and timestamps. Remote MCP server over Streamable HTTP, no auth required.
+category: web-scraping
+tags:
+  - social-media
+  - translation
+  - video
+  - web-scraping
+docs_url: https://transcribeareel.com
+endpoints:
+  - url: https://transcribeareel.com/mcp
+    transport: streamable-http
+    auth: none

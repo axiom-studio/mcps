@@ -1,0 +1,13 @@
+name: Desk by Ouroboros Apps
+summary: 'Desk by Ouroboros Apps: customer support answers, refund rules, and escalation limits'
+category: productivity
+tags:
+  - business-operations
+  - customer-ops
+  - document
+  - knowledge-retrieval
+docs_url: https://github.com/LAHutchins91/desk-mcp
+endpoints:
+  - url: https://desk-mcp-continuity2.vercel.app/mcp
+    transport: streamable-http
+    auth: unknown

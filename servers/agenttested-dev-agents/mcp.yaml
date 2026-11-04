@@ -1,0 +1,13 @@
+name: Agent Tested
+summary: Hands-on agent test results for small AI tools and MCP servers, live AI outages, malware name check.
+category: development
+tags:
+  - ai-agent
+  - development
+  - monitoring
+  - testing-qa
+docs_url: https://agenttested.dev/agents#mcp
+endpoints:
+  - url: https://agenttested.dev/mcp
+    transport: streamable-http
+    auth: none

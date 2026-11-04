@@ -1,0 +1,13 @@
+name: Addness
+summary: Official remote MCP server for Addness, the company brain your team and AI share. Claude Code, Codex, Cursor and other MCP clients can read and write goals, to-dos, comments and knowledge, so AI agents work from your team's real context. OAuth.
+category: productivity
+tags:
+  - ai-agent
+  - collaboration
+  - knowledge-retrieval
+  - task-management
+docs_url: https://hp.addness.com/connect/mcp
+endpoints:
+  - url: https://vt.api.addness.com/mcp
+    transport: streamable-http
+    auth: oauth

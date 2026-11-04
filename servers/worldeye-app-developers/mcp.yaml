@@ -1,0 +1,13 @@
+name: WorldEye
+summary: 'WorldEye MCP gives AI agents read-only access to the redistribution-cleared slice of WorldEye''s live camera catalogue — tens of thousands of public cameras, with the operating agency credited on every record — plus the USGS earthquake feed. Five tools: camera search, camera details, cameras near a place, latest earthquakes, and API-key usage. The API serves metadata, snapshots and watch links only — no live stream URLs; watching happens on WorldEye.'
+category: search
+tags:
+  - api
+  - geospatial
+  - search
+  - weather
+docs_url: https://worldeye.app/developers
+endpoints:
+  - url: https://worldeye.app/api/v1/mcp
+    transport: streamable-http
+    auth: api-key

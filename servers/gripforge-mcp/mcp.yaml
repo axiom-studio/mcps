@@ -1,0 +1,16 @@
+name: GripForge
+summary: The tools your AI needs to make your games. Turn prompts into production-ready game assets — animated characters with their weapons attached, seamless textures, terrain, VFX, HUDs — and playable game kits Unity, Godot, Unreal or Three.js can load.
+category: development
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - game-development
+  - media
+official: true
+registry_name: io.github.gripforgeai/mcp
+docs_url: https://gripforge.ai
+endpoints:
+  - url: https://gripforge.ai/mcp
+    transport: streamable-http
+    auth: api-key

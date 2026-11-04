@@ -1,0 +1,14 @@
+name: BlazePhoenix
+summary: 'Keyless remote MCP for an on-chain DEX aggregator: prepare a swap quote to run on your own RPC, decode it with a safety verdict, and read deployments and ABIs.'
+category: finance
+tags:
+  - crypto
+  - defi
+  - evm
+  - smart-contracts
+  - trading
+docs_url: https://blazephoenix.xyz/agents/
+endpoints:
+  - url: https://blazephoenix.xyz/mcp
+    transport: streamable-http
+    auth: none

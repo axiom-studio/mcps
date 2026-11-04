@@ -1,0 +1,13 @@
+name: Tempost
+summary: Hosted MCP server to upload, schedule and publish YouTube videos and read analytics from AI agents. Facebook and Instagram coming soon.
+category: marketing
+tags:
+  - analytics
+  - marketing-automation
+  - social-media
+  - youtube
+docs_url: https://tempost.io/mcp/
+endpoints:
+  - url: https://app.tempost.io/mcp
+    transport: streamable-http
+    auth: oauth

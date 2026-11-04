@@ -1,0 +1,14 @@
+name: Stablecoin Scanner (StableScan)
+summary: 'Read-only stablecoin compliance and risk for AI agents across Ethereum, Tron, BSC, Base, Arbitrum, Optimism and Solana: issuer freeze/seize status, OFAC sanctions, taint/exposure and unified risk verdicts, open token allowances, recent transfers, wallet graph walk and indexer freshness. Hosted remote MCP (streamable HTTP), free, no API key.'
+category: finance
+tags:
+  - compliance
+  - crypto
+  - data-analysis
+  - evm
+  - finance
+docs_url: https://stablescan.achivx.com
+endpoints:
+  - url: https://stablescan.achivx.com/mcp
+    transport: streamable-http
+    auth: none

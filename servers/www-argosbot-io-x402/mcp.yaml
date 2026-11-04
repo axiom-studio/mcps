@@ -1,0 +1,13 @@
+name: Argos Bot CTS Bridge Lookup
+summary: Inspect Arc/Base token mappings, wrapped supply and ownerless CTS bridges; lookup calls cost 0.007 USDC on Arc via x402.
+category: finance
+tags:
+  - crypto
+  - evm
+  - finance
+  - payment
+docs_url: https://www.argosbot.io/x402
+endpoints:
+  - url: https://arcus-api.argosbot.io/mcp
+    transport: streamable-http
+    auth: unknown

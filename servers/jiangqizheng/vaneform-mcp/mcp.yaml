@@ -1,0 +1,13 @@
+name: Vaneform
+summary: 'Free website traffic checker for AI agents: estimated monthly visits, traffic sources, top countries and side-by-side domain comparison. Hosted endpoint https://vaneform.com/mcp.'
+category: search
+tags:
+  - analytics
+  - data-analysis
+  - search
+  - web-research
+docs_url: https://github.com/jiangqizheng/vaneform-mcp
+endpoints:
+  - url: https://vaneform.com/mcp
+    transport: streamable-http
+    auth: unknown

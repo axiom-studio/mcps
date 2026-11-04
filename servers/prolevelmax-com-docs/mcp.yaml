@@ -1,0 +1,13 @@
+name: ProLevelMax
+summary: 'Read-only public social data for AI: posts, comments, profiles, search and trends from 157 platforms, including Reddit, TikTok, Instagram, X, YouTube, Xiaohongshu and Douyin. Remote MCP with OAuth or an API key, pay per use.'
+category: web-scraping
+tags:
+  - data-analysis
+  - research
+  - social-media
+  - web-scraping
+docs_url: https://prolevelmax.com/docs
+endpoints:
+  - url: https://prolevelmax.com/mcp
+    transport: streamable-http
+    auth: oauth

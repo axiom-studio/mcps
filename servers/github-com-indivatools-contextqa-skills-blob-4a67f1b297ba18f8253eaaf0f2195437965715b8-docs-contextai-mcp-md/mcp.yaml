@@ -1,0 +1,13 @@
+name: ContextAI
+summary: 'Evaluate text and voice AI agents end to end: configure scenarios/personas, generate cases, run evaluations and inspect results. OAuth; ContextAI account required.'
+category: development
+tags:
+  - ai-agent
+  - audio
+  - development
+  - testing-qa
+docs_url: https://github.com/indivatools/contextqa-skills/blob/4a67f1b297ba18f8253eaaf0f2195437965715b8/docs/contextai-mcp.md
+endpoints:
+  - url: https://ai.contextqa.com/api/mcp
+    transport: streamable-http
+    auth: oauth

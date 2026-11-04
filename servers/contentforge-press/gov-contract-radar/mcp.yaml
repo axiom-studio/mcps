@@ -1,0 +1,14 @@
+name: GovContract Radar
+summary: 'US federal contract opportunities: NAICS-filtered SAM.gov solicitations, set-aside alerts and deadlines. AI-native MCP server with streamable HTTP endpoint.'
+category: search
+tags:
+  - ai-agent
+  - data-analysis
+  - government
+  - search
+  - web-research
+docs_url: https://github.com/contentforge-press/gov-contract-radar
+endpoints:
+  - url: https://gov.pixharvest.com/mcp
+    transport: streamable-http
+    auth: unknown

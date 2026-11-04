@@ -1,0 +1,13 @@
+name: doctorSIM
+summary: Buy travel eSIMs, mobile top-ups, and digital gift cards through MCP.
+category: communication
+tags:
+  - communication
+  - ecommerce
+  - mobile
+  - payment
+docs_url: https://github.com/doctorsim/agents
+endpoints:
+  - url: https://api.doctorsim.com/mcp
+    transport: streamable-http
+    auth: none

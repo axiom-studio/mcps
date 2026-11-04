@@ -1,0 +1,12 @@
+name: Playable Gift
+summary: Make, save and revise personal browser games through an MCP server. The sender previews the game, then shares the gift with a link.
+category: other
+tags:
+  - browser
+  - content-creation
+  - gaming
+docs_url: https://playablegift.com/agents
+endpoints:
+  - url: https://playablegift.com/mcp
+    transport: streamable-http
+    auth: none

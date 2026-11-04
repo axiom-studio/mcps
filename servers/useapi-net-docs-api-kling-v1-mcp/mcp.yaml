@@ -1,0 +1,13 @@
+name: Kling AI MCP Server by useapi.net
+summary: 'Kling AI: 4.0, v3 and Omni video, images, avatars, lip-sync, motion control, elements, voices. Third-party, paid ($15/month), runs on your own Kling account.'
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - media
+  - video
+docs_url: https://useapi.net/docs/api-kling-v1/mcp
+endpoints:
+  - url: https://api.useapi.net/v1/kling/mcp
+    transport: streamable-http
+    auth: api-key

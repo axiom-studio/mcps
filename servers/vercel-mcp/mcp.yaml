@@ -1,0 +1,19 @@
+name: Vercel
+summary: Vercel is a cloud platform for deploying and scaling web applications, home of Next.js. Its official remote MCP server lets assistants search Vercel documentation, manage projects and deployments, and analyze logs from the account teams already ship with.
+description: |-
+  Vercel is a cloud platform for deploying and scaling web applications, home of Next.js. Its official remote MCP server lets assistants search Vercel documentation, manage projects and deployments, and analyze logs from the account teams already ship with.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://vercel.com/docs/agent-resources/vercel-mcp)
+category: development
+tags:
+  - development
+  - remote-mcp
+official: true
+registry_name: com.vercel/vercel-mcp
+docs_url: https://vercel.com/docs/agent-resources/vercel-mcp
+endpoints:
+  - url: https://mcp.vercel.com
+    transport: streamable-http
+    auth: oauth

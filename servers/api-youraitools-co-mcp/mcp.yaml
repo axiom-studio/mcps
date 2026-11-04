@@ -1,0 +1,14 @@
+name: YourAITools MCP Hub
+summary: 'One remote MCP server for 31 agent tools: security checks, web reading, token safety and read-only market data. Free tiers on 26 tools.'
+category: development
+tags:
+  - api
+  - crypto
+  - security
+  - trading
+  - web-scraping
+docs_url: https://api.youraitools.co/mcp/
+endpoints:
+  - url: https://api.youraitools.co/mcp/hub
+    transport: streamable-http
+    auth: unknown

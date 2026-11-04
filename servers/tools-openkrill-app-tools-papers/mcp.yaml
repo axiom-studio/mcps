@@ -1,0 +1,12 @@
+name: Paper Finder
+summary: Find research papers and arXiv preprints. Give it a DOI or id and it returns the abstract and a free full text.
+category: search
+tags:
+  - document
+  - research
+  - search
+docs_url: https://tools.openkrill.app/tools/papers
+endpoints:
+  - url: https://papers.openkrill.app/mcp
+    transport: streamable-http
+    auth: none

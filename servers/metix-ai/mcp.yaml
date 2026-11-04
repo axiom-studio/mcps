@@ -1,0 +1,13 @@
+name: Metix AI
+summary: 'Remote MCP server by Metix AI for 900M people, 90M job and 30M company records: AI recruiting search, profile lookup and contact unlock.'
+category: search
+tags:
+  - ai-model
+  - crm
+  - data-analysis
+  - search
+docs_url: https://metix.ai
+endpoints:
+  - url: https://mira-api.metix.ai/mcp
+    transport: streamable-http
+    auth: api-key

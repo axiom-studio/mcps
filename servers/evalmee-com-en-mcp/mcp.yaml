@@ -1,0 +1,12 @@
+name: Evalmee
+summary: 'Remote MCP server (https://app.evalmee.com/mcp, Streamable HTTP, OAuth, no API key) for Evalmee, the online exam platform. Your assistant creates and edits exams in the Evalmee editor: sections, nine question types (MCQ, true/false, open, matching, file upload...), answer keys, per-question grading criteria, images; read the structure of exams you authored. Changes appear live in the web editor.'
+category: productivity
+tags:
+  - education
+  - productivity
+  - workflow-automation
+docs_url: https://evalmee.com/en/mcp/
+endpoints:
+  - url: https://app.evalmee.com/mcp
+    transport: streamable-http
+    auth: oauth

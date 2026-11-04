@@ -1,0 +1,10 @@
+name: Beamline UI
+summary: 'Beamline UI: React UI components by Danylo Pravda; hosted MCP installs selected parts. Free MIT sample. beamline.io'
+category: development
+tags:
+  - development
+docs_url: https://beamline.io/connect
+endpoints:
+  - url: https://mcp.beamline.io/mcp
+    transport: streamable-http
+    auth: oauth

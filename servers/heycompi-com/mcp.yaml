@@ -1,0 +1,12 @@
+name: Compi
+summary: 'Connect AI assistants to your Compi travel plans: trips, daily itineraries, stays, places, lists and shared expenses. Remote MCP with OAuth; a Compi account is required.'
+category: productivity
+tags:
+  - ai-agent
+  - finance
+  - productivity
+docs_url: https://heycompi.com/
+endpoints:
+  - url: https://heycompi.com/api/mcp
+    transport: streamable-http
+    auth: oauth

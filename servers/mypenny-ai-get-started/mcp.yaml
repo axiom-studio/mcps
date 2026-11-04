@@ -1,0 +1,13 @@
+name: MyPenny
+summary: Keep your memories and notes available across Claude, ChatGPT, and coding tools through a hosted MCP server.
+category: memory
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - memory
+  - notes
+docs_url: https://mypenny.ai/get-started
+endpoints:
+  - url: https://app.mypenny.ai/mcp
+    transport: streamable-http
+    auth: oauth

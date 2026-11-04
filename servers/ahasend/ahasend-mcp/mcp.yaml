@@ -1,0 +1,15 @@
+name: AhaSend Email API & SMTP relay
+summary: Send email, find out why an email failed, set up sending domains, and manage templates, contacts, lists and campaigns in your AhaSend account.
+category: communication
+tags:
+  - communication
+  - email-automation
+  - marketing-automation
+  - sms
+official: true
+registry_name: com.ahasend/mcp
+docs_url: https://github.com/AhaSend/ahasend-mcp
+endpoints:
+  - url: https://mcp.ahasend.com/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: IndiaInsurances
+summary: Every Indian insurance policy read clause by clause, with verbatim quotes. Free, no API key.
+category: finance
+tags:
+  - document
+  - finance
+  - knowledge-retrieval
+  - research
+docs_url: https://indiainsurances.com/for-agents
+endpoints:
+  - url: https://indiainsurances.com/mcp
+    transport: streamable-http
+    auth: unknown

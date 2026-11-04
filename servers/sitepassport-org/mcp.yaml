@@ -1,0 +1,13 @@
+name: Site Passport
+summary: 'Live-checks whether a WordPress site is ready to be safely operated by AI agents: llms.txt, robots.txt AI-crawler rules, schema.org markup — checked against the site, not self-reported.'
+category: other
+tags:
+  - ai-agent
+  - seo
+  - web-research
+  - wordpress
+docs_url: https://sitepassport.org
+endpoints:
+  - url: https://sitepassport.org/.well-known/mcp.json
+    transport: streamable-http
+    auth: none

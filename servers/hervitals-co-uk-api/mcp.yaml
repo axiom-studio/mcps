@@ -1,0 +1,12 @@
+name: Her Vitals Supplement Index
+summary: An index of supplement types for UK women at each life stage, with the roles EFSA allows, what to check when buying, and named UK brands. Read-only, no key needed. Information only, not medical advice.
+category: other
+tags:
+  - ecommerce
+  - healthcare
+  - research
+docs_url: https://hervitals.co.uk/api/
+endpoints:
+  - url: https://hervitals.co.uk/mcp
+    transport: streamable-http
+    auth: none

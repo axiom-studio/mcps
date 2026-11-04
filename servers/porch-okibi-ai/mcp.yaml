@@ -1,0 +1,11 @@
+name: Porch
+summary: Public URLs for AI agents to catch webhooks, OAuth redirects, job callbacks and approval clicks.
+category: development
+tags:
+  - development
+  - workflow-automation
+docs_url: https://porch.okibi.ai
+endpoints:
+  - url: https://porch.okibi.ai/mcp
+    transport: streamable-http
+    auth: unknown

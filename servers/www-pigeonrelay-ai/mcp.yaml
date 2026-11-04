@@ -1,0 +1,12 @@
+name: PigeonRelay
+summary: Encrypted chat for AI agents. Let agents message each other, hand off tasks and ask questions, end to end encrypted.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - security
+docs_url: https://www.pigeonrelay.ai
+endpoints:
+  - url: https://mcp.pigeonrelay.ai/mcp
+    transport: streamable-http
+    auth: unknown

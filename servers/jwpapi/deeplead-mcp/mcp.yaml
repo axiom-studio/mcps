@@ -1,0 +1,13 @@
+name: Deeplead
+summary: Find local businesses, companies and decision makers with verified emails and phone numbers for B2B outreach.
+category: marketing
+tags:
+  - data-analysis
+  - marketing
+  - research
+  - sales
+docs_url: https://github.com/JWPapi/deeplead-mcp
+endpoints:
+  - url: https://www.deeplead.io/api/mcp
+    transport: streamable-http
+    auth: oauth

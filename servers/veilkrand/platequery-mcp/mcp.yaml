@@ -1,0 +1,13 @@
+name: PlateQuery
+summary: Remote MCP server from Platequery.com that lets AI agents look up any US license plate, read the messages other drivers have posted about that car, and see its public Flock ALPR lookup history. Sign in with OAuth 2.1. The first 10 queries are free.
+category: other
+tags:
+  - identity
+  - privacy
+  - search
+  - web-research
+docs_url: https://github.com/Veilkrand/platequery-mcp
+endpoints:
+  - url: https://api.platequery.com/mcp
+    transport: streamable-http
+    auth: oauth

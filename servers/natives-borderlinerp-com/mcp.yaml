@@ -1,0 +1,13 @@
+name: RedM Natives MCP
+summary: 'Look up RedM / RDR3 natives: exact signatures, hashes and Lua/JS/C# calls, plus enums, blip sprites/styles, ped models, animations and joaat hashing.'
+category: development
+tags:
+  - development
+  - documentation
+  - game-development
+  - knowledge-retrieval
+docs_url: https://natives.borderlinerp.com/
+endpoints:
+  - url: https://natives.borderlinerp.com/mcp
+    transport: streamable-http
+    auth: none

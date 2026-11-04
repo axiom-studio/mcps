@@ -1,0 +1,24 @@
+name: Kindora Funder Discovery
+summary: Kindora Funder Discovery helps organizations find funders aligned with their causes. Its connector brings fundraising and grantmaker context into assistant workflows for prospect research and funding strategy.
+description: |-
+  # Kindora Funder Discovery
+
+  Kindora Funder Discovery helps organizations find funders aligned with their causes. Its connector brings fundraising and grantmaker context into assistant workflows for prospect research and funding strategy.
+
+  ## Connection
+
+  none: https://mcp.kindora.co/mcp
+
+  The current official public endpoint replaces the old Azure hostname; free access does not require authentication. Premium is a separate key-authenticated URL and is not imported. Registry candidate is held because GitHub publisher ownership could not yet be independently established.
+
+  [Official documentation](https://www.kindora.co/en/mcp)
+category: search
+tags:
+  - remote-mcp
+  - search
+official: true
+docs_url: https://www.kindora.co/en/mcp
+endpoints:
+  - url: https://mcp.kindora.co/mcp
+    transport: streamable-http
+    auth: none

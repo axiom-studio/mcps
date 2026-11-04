@@ -1,0 +1,12 @@
+name: Poofbox
+summary: Disposable, receive-only email inboxes for AI agents. Create an address, wait for the verification email, and get the extracted code or magic link back. OAuth, hosted in the EU.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - email-automation
+docs_url: https://poofboxmail.com
+endpoints:
+  - url: https://poofboxmail.com/mcp
+    transport: streamable-http
+    auth: oauth

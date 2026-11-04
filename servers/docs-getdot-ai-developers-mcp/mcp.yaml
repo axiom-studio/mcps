@@ -1,0 +1,14 @@
+name: Dot - AI Data Analyst
+summary: Remote MCP server for Dot, the AI data analyst. Ask in plain English; Dot writes read-only SQL, runs it on your warehouse (Snowflake, BigQuery, Databricks, Postgres and more) and returns tables and charts. OAuth or API key.
+category: database
+tags:
+  - bigquery
+  - data-analysis
+  - postgres
+  - snowflake
+  - sql
+docs_url: https://docs.getdot.ai/developers/mcp
+endpoints:
+  - url: https://app.getdot.ai/ai/mcp
+    transport: streamable-http
+    auth: oauth

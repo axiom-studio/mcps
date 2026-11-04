@@ -1,0 +1,12 @@
+name: Pinpal Notes
+summary: 'A beautiful, simple notes app for iPhone, iPad and Mac that your AI can open too: folders, Markdown notes, checklists and files. You and your AI write in the same notes.'
+category: productivity
+tags:
+  - file-management
+  - notes
+  - productivity
+docs_url: https://mypinpal.com/notes/connect
+endpoints:
+  - url: https://notes.mypinpal.com/mcp
+    transport: streamable-http
+    auth: oauth

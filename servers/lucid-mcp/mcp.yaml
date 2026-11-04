@@ -1,0 +1,19 @@
+name: Lucid
+summary: Lucid helps teams ideate, diagram, and align around visual collaboration. Its connector gives assistants diagramming and board context for creating, editing, and reasoning over visual planning artifacts.
+description: |-
+  Lucid helps teams ideate, diagram, and align around visual collaboration. Its connector gives assistants diagramming and board context for creating, editing, and reasoning over visual planning artifacts.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/lucid)
+category: design
+tags:
+  - design
+  - remote-mcp
+official: true
+registry_name: app.lucid.mcp/lucid
+docs_url: https://claude.com/connectors/lucid
+endpoints:
+  - url: https://mcp.lucid.app/mcp
+    transport: streamable-http
+    auth: oauth

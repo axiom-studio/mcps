@@ -1,0 +1,13 @@
+name: InfluenciCo
+summary: Find creators and run influencer campaigns as a brand, or browse paid offers, get affiliate links and track earnings as a creator, all from your InfluenciCo account.
+category: marketing
+tags:
+  - advertising
+  - marketing
+  - marketing-automation
+  - social-media
+docs_url: https://influencico.com/ai-assistant
+endpoints:
+  - url: https://influencico.com/mcp
+    transport: streamable-http
+    auth: oauth

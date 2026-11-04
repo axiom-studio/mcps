@@ -1,0 +1,13 @@
+name: MediaFast
+summary: 'Reddit marketing for AI agents: find subreddits that allow promotion, draft rule-aware posts, find threads to comment on, check shadowbans'
+category: marketing
+tags:
+  - ai-agent
+  - content-creation
+  - marketing
+  - social-media
+docs_url: https://www.mediafa.st
+endpoints:
+  - url: https://api.mediafa.st/mcp
+    transport: streamable-http
+    auth: oauth

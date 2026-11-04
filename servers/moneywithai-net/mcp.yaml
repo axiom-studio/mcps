@@ -1,0 +1,13 @@
+name: Money With AI Directory MCP
+summary: 'Read-only MCP server that searches 640+ copy-ready Grok Bot setups and 150+ business use cases. Endpoint: https://moneywithai.net/mcp'
+category: search
+tags:
+  - ai-agent
+  - business-operations
+  - knowledge-retrieval
+  - search
+docs_url: https://moneywithai.net/?utm_source=mcpservers.org&utm_medium=directory
+endpoints:
+  - url: https://moneywithai.net/mcp
+    transport: streamable-http
+    auth: none

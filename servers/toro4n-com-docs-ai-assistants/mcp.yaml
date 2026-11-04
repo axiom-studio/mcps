@@ -1,0 +1,13 @@
+name: toro4n
+summary: Draw, shape, and edit Neo4j graph data models in toro4n with your AI assistant.
+category: database
+tags:
+  - ai-agent
+  - database
+  - graph
+  - neo4j
+docs_url: https://toro4n.com/docs/ai-assistants/
+endpoints:
+  - url: https://toro4n.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: VibeRaven Guides
+summary: Hosted, read-only, no sign-in (https://viberaven.dev/mcp). Explains VibeRaven finding ids and returns launch guides and checklists for Vercel + Supabase apps. It never reads your repo.
+category: development
+tags:
+  - development
+  - documentation
+  - supabase
+  - vercel
+docs_url: https://viberaven.dev
+endpoints:
+  - url: https://viberaven.dev/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: Card Mailer
+summary: Prints 5x7 photo postcards with your message and mails them by USPS First-Class to a list of US addresses.
+category: communication
+tags:
+  - communication
+  - email-automation
+  - notifications
+docs_url: https://cards.onmax.me/docs/claude
+endpoints:
+  - url: https://cards.onmax.me/mcp/claude
+    transport: streamable-http
+    auth: none

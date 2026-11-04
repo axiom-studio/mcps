@@ -1,0 +1,13 @@
+name: Limonene
+summary: 'Read-only Amazon seller analytics: sales, Buy Box, FBA inventory, alerts, revenue and fees.'
+category: productivity
+tags:
+  - analytics
+  - business-operations
+  - data-analysis
+  - ecommerce
+docs_url: https://github.com/M-Abozaid/limonene-mcp
+endpoints:
+  - url: https://limonene.app/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Landing en 24h
+summary: 'Free remote MCP server that generates a complete, responsive single-file HTML landing page for a small business (hero, services, WhatsApp/email call to action, contact, footer, inline CSS, SEO meta tags). Inputs: business name plus optional tagline, description, services, city, WhatsApp, email, language (es/en), color. Streamable HTTP endpoint: https://landingen24h.com/mcp (no auth).'
+category: development
+tags:
+  - content-creation
+  - design-to-code
+  - development
+  - seo
+docs_url: https://landingen24h.com/api/
+endpoints:
+  - url: https://landingen24h.com/mcp
+    transport: streamable-http
+    auth: none

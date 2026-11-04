@@ -1,0 +1,13 @@
+name: App-Kit
+summary: Remote MCP server for website SEO audits (400 checks, 0-100 score by group), text readability and grammar checks (English and Russian), image format conversion and PDF to images. Free tier, no sign-up; an optional free token raises limits.
+category: marketing
+tags:
+  - content-creation
+  - file-conversion
+  - marketing
+  - seo
+docs_url: https://app-kit.dev/mcp
+endpoints:
+  - url: https://mcp.app-kit.dev/mcp
+    transport: streamable-http
+    auth: none

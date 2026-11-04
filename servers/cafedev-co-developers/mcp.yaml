@@ -1,0 +1,11 @@
+name: CafeDev
+summary: 'Search LATAM tech job listings and hiring companies from CafeDev. Free remote MCP server (Streamable HTTP), no auth. Tools: search_jobs, get_job, list_companies, get_company.'
+category: search
+tags:
+  - search
+  - web-research
+docs_url: https://cafedev.co/developers/
+endpoints:
+  - url: https://mcp.cafedev.co/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,19 @@
+name: CookieYes
+summary: |-
+  Manage your cookie consent banner from Claude, ChatGPT, Lovable, Cursor, Codex or VS Code. Check whether your cookie banner is live, update its theme, colours, layout and position, run the cookie scanner to see which cookies and third-party trackers are on your site, and review your GDPR and CCPA compliance settings without opening the dashboard.
+
+  This hosted MCP server connects your AI assistant to your CookieYes account: list your websites and spot inactive cookie banners, view a site’s configuration, get the banner install code for a domain, trigger a cookie scan and browse results by category, and check which privacy laws and geo-targeting rules are enabled. Every write action asks for your confirmation first.
+
+  Works on all plans, including Free; an account owner must enable MCP access. Access uses OAuth 2.1 with PKCE, and consent logs, visitor data and cookie values are never exposed. CookieYes is a Google-certified consent management platform (CMP) used on 1.5M+ websites. The platform itself, managed in the CookieYes dashboard rather than through this MCP server, provides GDPR opt-in and US state law opt-out banner templates, CCPA/CPRA compliance, Google Consent Mode v2, Microsoft UET Consent Mode and IAB TCF v2.4 support.
+category: marketing
+tags:
+  - compliance
+  - marketing
+  - privacy
+  - security
+official: true
+docs_url: https://www.cookieyes.com/documentation/mcp-server/?utm_source=mcpservers&utm_medium=directory&utm_campaign=mcp-listing
+endpoints:
+  - url: https://app.cookieyes.com/mcp
+    transport: streamable-http
+    auth: oauth

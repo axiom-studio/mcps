@@ -1,0 +1,13 @@
+name: Flottix
+summary: 'Deterministic IT asset registry AI agents operate over MCP - agents onboard, offboard and audit hardware and licenses; humans approve. OAuth 2.1, per-resource scopes, immutable audit trail. Free plan: 50 items, full agent access.'
+category: productivity
+tags:
+  - ai-agent
+  - business-operations
+  - compliance
+  - workflow-automation
+docs_url: https://flottix.app/docs/agent-quickstart.md
+endpoints:
+  - url: https://flottix.app/api/mcp
+    transport: streamable-http
+    auth: oauth

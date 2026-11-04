@@ -1,0 +1,14 @@
+name: OneHaus (Haus)
+summary: 'OneHaus household tools: tasks, calendar, contacts, pets, vehicles, documents and more.'
+category: productivity
+tags:
+  - calendar
+  - document
+  - file-management
+  - productivity
+  - task-management
+docs_url: https://onehaus.app
+endpoints:
+  - url: https://mcp.onehaus.app
+    transport: streamable-http
+    auth: unknown

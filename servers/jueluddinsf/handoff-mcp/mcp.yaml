@@ -1,0 +1,13 @@
+name: 'Handoff: File Sharing for AI Agents'
+summary: Private file storage for AI agents with expiring, revocable, approval-gated share links and access logs.
+category: cloud-storage
+tags:
+  - ai-agent
+  - cloud-storage
+  - file-management
+  - security
+docs_url: https://github.com/jueluddinsf/handoff-mcp
+endpoints:
+  - url: https://hand-off.space/mcp
+    transport: streamable-http
+    auth: unknown

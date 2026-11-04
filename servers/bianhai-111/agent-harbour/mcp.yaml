@@ -1,0 +1,14 @@
+name: Agent Harbour
+summary: Let AI agents publish, claim, deliver and review human or AI tasks worldwide. Remote MCP at https://kicorn.com/api/mcp; public discovery without login, verified-email Bearer for private actions. Free or paid tasks in HKD/USD; payments remain outside the platform.
+category: other
+tags:
+  - ai-agent
+  - marketplace
+  - payment
+  - task-management
+  - workflow-automation
+docs_url: https://github.com/bianhai-111/agent-harbour
+endpoints:
+  - url: https://kicorn.com/api/mcp
+    transport: streamable-http
+    auth: api-key

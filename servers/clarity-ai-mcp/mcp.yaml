@@ -1,0 +1,24 @@
+name: Clarity AI
+summary: Clarity AI helps investment and compliance teams simulate fund classifications under the proposed SFDR 2.0 framework. Its MCP connector searches funds and applies Clarity AI regulatory data and modelling to support ESG and transition-planning workflows.
+description: |-
+  # Clarity AI
+
+  Clarity AI helps investment and compliance teams simulate fund classifications under the proposed SFDR 2.0 framework. Its MCP connector searches funds and applies Clarity AI regulatory data and modelling to support ESG and transition-planning workflows.
+
+  ## Connection
+
+  none: https://clarity-sfdr20-mcp.pro.clarity.ai/mcp
+
+  The publisher explicitly states this SFDR simulation server does not require authentication.
+
+  [Official documentation](https://clarity-sfdr20-mcp.pro.clarity.ai/)
+category: finance
+tags:
+  - finance
+  - remote-mcp
+official: true
+docs_url: https://clarity-sfdr20-mcp.pro.clarity.ai/
+endpoints:
+  - url: https://clarity-sfdr20-mcp.pro.clarity.ai/mcp
+    transport: streamable-http
+    auth: none

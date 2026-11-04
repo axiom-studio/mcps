@@ -1,0 +1,13 @@
+name: agentlytics (by measuremy.site)
+summary: Cookieless web analytics for AI agents. Your coding agent reads traffic, finds why it spiked, builds funnels, and makes tracked links, over MCP.
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - marketing
+  - web-research
+docs_url: https://measuremy.site/docs/mcp?utm_source=mcp-directories&utm_medium=referral&utm_campaign=directory-listings
+endpoints:
+  - url: https://a.measuremy.site/mcp
+    transport: streamable-http
+    auth: api-key

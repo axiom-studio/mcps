@@ -1,0 +1,12 @@
+name: timr MCP
+summary: Drive your timr time tracking — start and stop working times, log project time or track drive logs, manage absences, see running timers
+category: productivity
+tags:
+  - productivity
+  - project-management
+  - workflow-automation
+docs_url: https://timr.com
+endpoints:
+  - url: https://mcp.timr.app/mcp
+    transport: streamable-http
+    auth: oauth

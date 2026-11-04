@@ -1,0 +1,12 @@
+name: StatementKit
+summary: Normalize bank statements (CSV, camt, MT940, OFX, QIF) to JSON, analyze and export them (remote MCP).
+category: finance
+tags:
+  - data-analysis
+  - file-conversion
+  - finance
+docs_url: https://statementkit.zenith-ops.workers.dev/llms.txt
+endpoints:
+  - url: https://statementkit.zenith-ops.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

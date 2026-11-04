@@ -1,0 +1,13 @@
+name: Agentik
+summary: Agentik (agentik.cc) connects Claude, ChatGPT, Codex and Cursor to 2,400+ tools from 52 providers through one MCP connection, each call at the provider's price, with a price shown before each call and no provider keys.
+category: development
+tags:
+  - ai-agent
+  - api
+  - development
+  - workflow-automation
+docs_url: https://www.agentik.cc
+endpoints:
+  - url: https://ai.agentik.cc/mcp
+    transport: streamable-http
+    auth: oauth

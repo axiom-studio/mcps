@@ -1,0 +1,13 @@
+name: Limurse
+summary: Find bookable influencers, photographers and videographers, benchmark market rates and draft campaign briefs for your brand, then open a booking on Limurse. Read-only, OAuth sign-in.
+category: marketing
+tags:
+  - identity
+  - marketing
+  - marketing-automation
+  - security
+docs_url: https://limurse.ai/developers/mcp
+endpoints:
+  - url: https://api.limurse.ai/mcp
+    transport: streamable-http
+    auth: oauth

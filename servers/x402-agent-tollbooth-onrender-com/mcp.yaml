@@ -1,0 +1,14 @@
+name: x402 Agent Tollbooth
+summary: Cross-DEX arbitrage radar, smart order routing, and autonomous contract auditing via dual-chain x402.
+category: finance
+tags:
+  - crypto
+  - defi
+  - evm
+  - smart-contracts
+  - trading
+docs_url: https://x402-agent-tollbooth.onrender.com
+endpoints:
+  - url: https://x402-agent-tollbooth.onrender.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: AffiliateSpy
+summary: Find the TikTok, YouTube and Instagram creators and the blogs, review sites and roundups already promoting your competitors, with the proof, then reveal verified contacts and run outreach from your own inbox. 32 tools, OAuth 2.1 or API key, REST mirror and skills. Included on every paid plan; free quick scan and sandbox keys.
+category: marketing
+tags:
+  - communication
+  - marketing
+  - research
+  - social-media
+docs_url: https://www.affiliatespy.io/docs
+endpoints:
+  - url: https://www.affiliatespy.io/api/mcp
+    transport: streamable-http
+    auth: oauth

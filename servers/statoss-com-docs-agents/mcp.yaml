@@ -1,0 +1,13 @@
+name: StatOSS
+summary: 'Status pages and uptime monitoring: read status, monitors and incidents, and with a write key open incidents, post updates, schedule maintenance and record deploys.'
+category: development
+tags:
+  - api
+  - devops-infrastructure
+  - monitoring
+  - notifications
+docs_url: https://statoss.com/docs/agents
+endpoints:
+  - url: https://statoss.com/api/v1/mcp
+    transport: streamable-http
+    auth: api-key

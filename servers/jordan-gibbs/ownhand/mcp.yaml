@@ -1,0 +1,14 @@
+name: Ownhand
+summary: Writes drafts in your own voice, fitted to the occasion (Slack DM, cold email, PR description and 9 more), and learns from the text you actually send.
+category: productivity
+tags:
+  - communication
+  - content-creation
+  - email-automation
+  - productivity
+  - slack
+docs_url: https://github.com/jordan-gibbs/ownhand
+endpoints:
+  - url: https://ownhand.dev/mcp
+    transport: streamable-http
+    auth: unknown

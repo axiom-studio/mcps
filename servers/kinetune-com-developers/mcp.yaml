@@ -1,0 +1,14 @@
+name: Kinetune
+summary: Turn songs into word-synced lyric videos (9:16, 16:9, 1:1) and Spotify Canvas loops. Upload a track, browse Looks, get an exact credit quote, then render and download.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - media
+  - music
+  - video
+docs_url: https://kinetune.com/developers#mcp
+endpoints:
+  - url: https://kinetune.com/mcp
+    transport: streamable-http
+    auth: oauth

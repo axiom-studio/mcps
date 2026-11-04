@@ -1,0 +1,14 @@
+name: LotsNotes
+summary: 'Business context every AI agent reads: positioning, customers, decisions and rules in shared notes.'
+category: memory
+tags:
+  - ai-agent
+  - business-operations
+  - knowledge-retrieval
+  - memory
+  - notes
+docs_url: https://lotsnotes.com/mcp
+endpoints:
+  - url: https://api.lotsnotes.com/mcp
+    transport: streamable-http
+    auth: oauth

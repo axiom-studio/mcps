@@ -1,0 +1,13 @@
+name: TriRank
+summary: Read stored AI citation evidence, search performance and SEO reports through read-only MCP tools.
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - research
+  - seo
+docs_url: https://trirankai.com/mcp
+endpoints:
+  - url: https://mcp.trirankai.com/mcp
+    transport: streamable-http
+    auth: oauth

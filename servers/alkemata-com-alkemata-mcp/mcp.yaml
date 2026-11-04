@@ -1,0 +1,13 @@
+name: Alkemata Knowledge Gateway
+summary: Read Alkemata articles and knowledge maps, submit anonymous proposals for review, and add map content with authorization.
+category: search
+tags:
+  - content-creation
+  - document
+  - knowledge-retrieval
+  - research
+docs_url: https://alkemata.com/alkemata-mcp/
+endpoints:
+  - url: https://alkemata.com/wp-json/mcp/alkemata-public
+    transport: streamable-http
+    auth: unknown

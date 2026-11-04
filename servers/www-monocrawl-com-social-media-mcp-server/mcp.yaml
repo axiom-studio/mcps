@@ -1,0 +1,13 @@
+name: Monocrawl
+summary: 'Live public data from 70+ platforms for AI agents: TikTok, Instagram, YouTube, X, Reddit, Amazon, Google and more, on one key.'
+category: web-scraping
+tags:
+  - data-analysis
+  - research
+  - social-media
+  - web-scraping
+docs_url: https://www.monocrawl.com/social-media-mcp-server
+endpoints:
+  - url: https://www.monocrawl.com/mcp/oauth
+    transport: streamable-http
+    auth: unknown

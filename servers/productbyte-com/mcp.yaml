@@ -1,0 +1,14 @@
+name: ProductByte
+summary: Post, advertise and measure. Social posts, ads and insights for e-commerce, in one connection for your agent.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - ecommerce
+  - marketing
+  - social-media
+docs_url: https://productbyte.com
+endpoints:
+  - url: https://mcp.productbyte.com/mcp
+    transport: streamable-http
+    auth: unknown

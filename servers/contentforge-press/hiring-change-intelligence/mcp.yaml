@@ -1,0 +1,12 @@
+name: Hiring Change Intelligence
+summary: Track job openings and closings across Greenhouse, Lever and Ashby to detect hiring growth or hiring freezes. Free snapshot; paid intel via x402 USDC.
+category: other
+tags:
+  - analytics
+  - crm
+  - data-analysis
+docs_url: https://github.com/contentforge-press/hiring-change-intelligence
+endpoints:
+  - url: https://hiring-intel.contentforge-press.workers.dev/mcp
+    transport: streamable-http
+    auth: none

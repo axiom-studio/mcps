@@ -1,0 +1,13 @@
+name: Nodo
+summary: Nodo gives Claude, ChatGPT or Cursor a computer that stays on, logins that stay signed in, and a phone that runs real apps. Ask once, and the work runs every day without you.
+category: productivity
+tags:
+  - ai-agent
+  - browser-automation
+  - productivity
+  - workflow-automation
+docs_url: https://nodo.com?utm_source=mcpserversorg&utm_medium=directory&utm_campaign=directories
+endpoints:
+  - url: https://mcp.nodo.com/api/user/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: 'Clino: Swiss household employment'
+summary: 'Swiss household employment rules for all 26 cantons: cost, net wage, minimum wage and deadlines, every figure sourced.'
+category: finance
+tags:
+  - business-operations
+  - compliance
+  - finance
+  - research
+docs_url: https://clino.ch/en/mcp
+endpoints:
+  - url: https://clino.ch/mcp
+    transport: streamable-http
+    auth: none

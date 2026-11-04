@@ -1,0 +1,11 @@
+name: chucho — Book Direct
+summary: Find vacation rentals, explore photos and property details, and open direct host booking links.
+category: search
+tags:
+  - search
+  - web-research
+docs_url: https://chucho.ai/chatgpt/
+endpoints:
+  - url: https://chucho.ai/chatgpt/mcp
+    transport: streamable-http
+    auth: none

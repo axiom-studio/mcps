@@ -1,0 +1,11 @@
+name: PPT Depot
+summary: Search thousands of professional PowerPoint templates and individual slides for business presentations. Free, read-only, no sign-in.
+category: design
+tags:
+  - design
+  - document
+docs_url: https://github.com/flevy-com/pptdepot-mcp
+endpoints:
+  - url: https://pptdepot.com/mcp
+    transport: streamable-http
+    auth: none

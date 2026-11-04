@@ -1,0 +1,13 @@
+name: LightRay
+summary: Company report on who owns and runs a company, its filings, court matters and press. Send a name and city; about 12 minutes. 3 free reports.
+category: search
+tags:
+  - business-operations
+  - compliance
+  - research
+  - web-research
+docs_url: https://www.lightray.ai/claude?ref=MS
+endpoints:
+  - url: https://app.lightray.ai/mcp
+    transport: streamable-http
+    auth: unknown

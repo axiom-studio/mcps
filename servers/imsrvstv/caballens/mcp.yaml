@@ -1,0 +1,13 @@
+name: CabalLens — Solana Forensics MCP
+summary: 2-hop genesis funder cabal detection, copy-wallet fake-PnL auditing, and free meme-coin triage on Solana with x402 settlement.
+category: finance
+tags:
+  - crypto
+  - finance
+  - security
+  - trading
+docs_url: https://github.com/imsrvstv/caballens
+endpoints:
+  - url: https://caballens.vercel.app/api/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,14 @@
+name: Customer Intelligence and segmentation
+summary: Customer Intelligence & Segmentation MCP analyzes customer behavior, segments audiences, identifies purchasing patterns, and helps businesses understand customer needs, improve engagement, and make smarter marketing and retention decisions.
+category: marketing
+tags:
+  - analytics
+  - crm
+  - customer-ops
+  - data-analysis
+  - marketing
+docs_url: https://saifs.ai/customer-intelligence
+endpoints:
+  - url: https://customer-tiering-mcp-latest.saifs.ai/mcp
+    transport: streamable-http
+    auth: oauth

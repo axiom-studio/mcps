@@ -1,0 +1,14 @@
+name: Unsora
+summary: Generate AI images, video, avatars, music and voiceovers, clip videos, and schedule social posts.
+category: marketing
+tags:
+  - ai-model
+  - content-creation
+  - marketing-automation
+  - media
+  - social-media
+docs_url: https://tryunsora.com
+endpoints:
+  - url: https://mcp.tryunsora.com/mcp
+    transport: streamable-http
+    auth: oauth

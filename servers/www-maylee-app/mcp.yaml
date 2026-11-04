@@ -1,0 +1,13 @@
+name: Maylee
+summary: Client mail IA avec MCP. Connecte Claude, ChatGPT ou Cursor à ta boîte mail via OAuth pour lire, organiser et répondre aux emails.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - email-automation
+  - productivity
+docs_url: https://www.maylee.app
+endpoints:
+  - url: https://mcp.maylee.app/mcp
+    transport: streamable-http
+    auth: unknown

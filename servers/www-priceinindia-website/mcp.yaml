@@ -1,0 +1,12 @@
+name: PriceInIndia
+summary: Find the latest prices for products sold in India across Amazon, Flipkart, Croma and more Indian retailers.
+category: search
+tags:
+  - ecommerce
+  - marketplace
+  - search
+docs_url: https://www.priceinindia.website/
+endpoints:
+  - url: https://mcp.priceinindia.website/mcp
+    transport: streamable-http
+    auth: none

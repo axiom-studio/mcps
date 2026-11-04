@@ -1,0 +1,13 @@
+name: Web Data API Plan Finder
+summary: Compare web scraping, crawling and SERP API plans, prices and limits against your workload and budget.
+category: web-scraping
+tags:
+  - api
+  - data-analysis
+  - search
+  - web-scraping
+docs_url: https://plans.intoperson.com/guide
+endpoints:
+  - url: https://plans.intoperson.com/mcp
+    transport: streamable-http
+    auth: none

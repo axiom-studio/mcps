@@ -1,0 +1,13 @@
+name: 'Capxule : Capsule AI'
+summary: 'Capxule is the context marketplace: expert-curated capsules you take as guided AI journeys, then keep as companions. Web, iOS, Android, and MCP for your assistant.'
+category: search
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - marketplace
+  - search
+docs_url: https://capxule.com
+endpoints:
+  - url: https://capxule.ai/mcp
+    transport: streamable-http
+    auth: unknown

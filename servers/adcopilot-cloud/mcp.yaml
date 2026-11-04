@@ -1,0 +1,13 @@
+name: AdCopilot
+summary: Google Ads, GA4, Search Console and Tag Manager for AI assistants. Every change is proposed first.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - google-analytics
+  - marketing
+docs_url: https://adcopilot.cloud
+endpoints:
+  - url: https://mcp.adcopilot.cloud/mcp
+    transport: streamable-http
+    auth: oauth

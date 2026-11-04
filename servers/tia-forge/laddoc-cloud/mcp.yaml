@@ -1,0 +1,13 @@
+name: LadDoc Cloud
+summary: LadDoc → SimaticML 云服务 MCP：严格校验梯形图文档（LadDoc IR），确定性生成可被 TIA Portal V19 直接导入的程序块（FC/FB/OB）。
+category: development
+tags:
+  - code-quality
+  - development
+  - documentation
+  - workflow-automation
+docs_url: https://github.com/tia-forge/laddoc-cloud
+endpoints:
+  - url: https://tia.hubwiz.com/lad/mcp
+    transport: streamable-http
+    auth: unknown

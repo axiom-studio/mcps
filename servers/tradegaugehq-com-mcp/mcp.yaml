@@ -1,0 +1,13 @@
+name: TradeGauge
+summary: Dynasty and redraft fantasy football trade values, trade grades (WIN/EVEN/LOSE) and real Sleeper league rosters. 7 read-only tools, no auth.
+category: other
+tags:
+  - analytics
+  - data-analysis
+  - sports
+  - trading
+docs_url: https://tradegaugehq.com/mcp/
+endpoints:
+  - url: https://mcp.tradegaugehq.com/mcp
+    transport: streamable-http
+    auth: none

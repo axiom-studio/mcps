@@ -1,0 +1,14 @@
+name: StealthGuard 402
+summary: Polymarket whale orderflow, crypto odds divergence, and stealth web intelligence via dual-chain x402.
+category: finance
+tags:
+  - crypto
+  - defi
+  - finance
+  - trading
+  - web-research
+docs_url: https://stealthguard-402.onrender.com
+endpoints:
+  - url: https://stealthguard-402.onrender.com/mcp
+    transport: streamable-http
+    auth: unknown

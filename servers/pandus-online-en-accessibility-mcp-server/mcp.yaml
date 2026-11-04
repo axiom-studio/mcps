@@ -1,0 +1,13 @@
+name: Pandus Accessibility
+summary: 'Checks websites for WCAG 2.2 AA accessibility (European Accessibility Act, ADA). Free, no account: search and explain any axe-core rule or WCAG criterion, with fixes for code, Shopify, WooCommerce, PrestaShop and Shoptet. Signed in with OAuth or a Pandus API token: list your sites, see what to fix first, open a problem, start a check and compare results. Automated check, not a full audit, not legal advice.'
+category: development
+tags:
+  - compliance
+  - ecommerce
+  - testing-qa
+  - web-scraping
+docs_url: https://pandus.online/en/accessibility-mcp-server
+endpoints:
+  - url: https://pandus.online/mcp
+    transport: streamable-http
+    auth: oauth

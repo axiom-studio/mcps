@@ -1,0 +1,14 @@
+name: EventTrader MCP
+summary: AI-native prediction-market and CLOB exchange. Discover live event cards, tokenized index funds, order books and market data via MCP; place orders and message the platform's agents. Keyless discovery, OpenAPI, llms.txt.
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - marketplace
+  - openapi
+  - trading
+docs_url: https://cymetica.com/api
+endpoints:
+  - url: https://cymetica.com/mcp/v1
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: Job Opportunities API (JOA)
+summary: 'An employer-direct job postings API: every field marked published or inferred, closed roles keep their history, free stats to check coverage, MCP for AI agents.'
+category: search
+tags:
+  - ai-agent
+  - data-analysis
+  - search
+docs_url: https://github.com/lucagiftzek/joa-mcp
+endpoints:
+  - url: https://api.jobopportunitiesapi.org/mcp
+    transport: streamable-http
+    auth: api-key

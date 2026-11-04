@@ -1,0 +1,13 @@
+name: Honcho MCP
+summary: Give your AI agents persistent memory and a model of each user. Honcho stores conversations as peers and sessions, reasons over them in the background, and lets agents ask natural-language questions about users, search past messages, and pull ready-made context for prompts.
+category: memory
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - llm
+  - memory
+docs_url: https://docs.honcho.dev
+endpoints:
+  - url: https://mcp.honcho.dev
+    transport: streamable-http
+    auth: api-key

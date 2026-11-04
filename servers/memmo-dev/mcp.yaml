@@ -1,0 +1,13 @@
+name: Memmo
+summary: Memmo gives AI coding agents the memory of the team. Sessions and merged pull requests propose memories (rules, decisions, risks, past failures); a person approves them; approved memories are served to Claude Code, Codex, Cursor or any MCP client, and ground pull request reviews.
+category: development
+tags:
+  - code-quality
+  - coding-agent
+  - github
+  - memory
+docs_url: https://memmo.dev/?utm_source=directory
+endpoints:
+  - url: https://api.memmo.dev/mcp
+    transport: streamable-http
+    auth: oauth

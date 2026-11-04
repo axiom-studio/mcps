@@ -1,0 +1,13 @@
+name: Wall Street Turkish MCP
+summary: Borsa İstanbul, Wall Street ve dünya borsaları, TEFAS fonları, finans bültenleri ve gazete manşetlerine odaklanan salt okunur finansal MCP sunucusu.
+category: other
+tags:
+  - data-analysis
+  - finance
+  - news
+  - research
+docs_url: https://wallstreetturkish.com/api/mcp
+endpoints:
+  - url: https://wallstreetturkish.com/api/mcp
+    transport: streamable-http
+    auth: none

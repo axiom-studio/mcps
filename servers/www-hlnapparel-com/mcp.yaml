@@ -1,0 +1,12 @@
+name: HLN Apparel — Clothing Manufacturer MCP
+summary: 'Remote MCP server for a Dongguan clothing manufacturer (est. 2006). Tools: factory overview, product categories with MOQ, HS code lookup with US duty rates for garments, GSM to oz/yd² fabric weight converter, and inquiry preview/submit for custom apparel quotes.'
+category: other
+tags:
+  - business-operations
+  - ecommerce
+  - inventory
+docs_url: https://www.hlnapparel.com
+endpoints:
+  - url: https://www.hlnapparel.com/api/mcp
+    transport: streamable-http
+    auth: none

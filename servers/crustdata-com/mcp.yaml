@@ -1,0 +1,13 @@
+name: Crustdata MCP
+summary: 'Real-time B2B data for agents: search and enrich 1B+ people and 200M+ company profiles.'
+category: marketing
+tags:
+  - data-analysis
+  - marketing
+  - research
+  - sales
+docs_url: https://crustdata.com
+endpoints:
+  - url: https://install.crustdata.com/mcp
+    transport: streamable-http
+    auth: oauth

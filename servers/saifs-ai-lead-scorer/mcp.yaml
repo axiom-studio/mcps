@@ -1,0 +1,12 @@
+name: Lead Scorer - Saifs AI
+summary: Lead Scorer MCP evaluates leads, scores prospects based on their conversion potential, identifies high-value opportunities, and helps sales teams prioritize outreach and improve conversion rates.
+category: marketing
+tags:
+  - crm
+  - marketing
+  - sales
+docs_url: https://saifs.ai/lead-scorer
+endpoints:
+  - url: https://lead-scoring-mcp.saifs.ai/mcp
+    transport: streamable-http
+    auth: oauth

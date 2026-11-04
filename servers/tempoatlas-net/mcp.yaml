@@ -1,0 +1,12 @@
+name: Tempo Atlas Projects
+summary: Search Tempo ecosystem projects, retrieve project details, and list categories.
+category: finance
+tags:
+  - knowledge-retrieval
+  - research
+  - web-research
+docs_url: https://tempoatlas.net
+endpoints:
+  - url: https://tempoatlas.net/mcp
+    transport: streamable-http
+    auth: none

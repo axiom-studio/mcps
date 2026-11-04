@@ -1,0 +1,13 @@
+name: Runcrate
+summary: 'Let your agent rent cloud GPUs: launch H100/A100/RTX 4090 instances, run commands over SSH, call 200+ models, track spend. Remote, OAuth.'
+category: cloud-service
+tags:
+  - ai-model
+  - cloud-infrastructure
+  - deployment
+  - ssh
+docs_url: https://www.runcrate.ai/docs/mcp/setup?utm_source=mcpservers.org&utm_medium=directory&utm_campaign=mcp
+endpoints:
+  - url: https://mcp.runcrate.ai/mcp
+    transport: streamable-http
+    auth: oauth

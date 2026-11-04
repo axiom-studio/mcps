@@ -1,0 +1,14 @@
+name: CheckMX
+summary: 'Cold-email outreach platform: run campaigns from connected mailboxes with warm-up and daily send caps, manage replies in a unified inbox, and track results. Email checks included on every plan. Paid plans from $37/month.'
+category: marketing
+tags:
+  - email-automation
+  - marketing
+  - marketing-automation
+  - sales
+registry_name: dev.checkmx/checkmx
+docs_url: https://checkmx.dev
+endpoints:
+  - url: https://checkmx.dev/mcp
+    transport: streamable-http
+    auth: oauth

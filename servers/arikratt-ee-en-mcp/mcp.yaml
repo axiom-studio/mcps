@@ -1,0 +1,13 @@
+name: Ärikratt
+summary: Query Estonian public registers for company accounts, tax debt, insolvency, sector stats, funding calls and tenders.
+category: finance
+tags:
+  - business-operations
+  - data-analysis
+  - finance
+  - research
+docs_url: https://arikratt.ee/en/mcp
+endpoints:
+  - url: https://arikratt.ee/mcp
+    transport: streamable-http
+    auth: unknown

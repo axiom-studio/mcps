@@ -1,0 +1,11 @@
+name: IbiPoint mobile data eSIM Catalog
+summary: 'Search prepaid travel eSIM data plans for 200+ countries with live prices in 60 currencies, full plan facts and a secure checkout link. Remote MCP server, no API key: https://ibipoint.com/esimshop/wp-json/ibipoint/mcp — tools: search_esim_plans, get_plan_details, start_checkout.'
+category: other
+tags:
+  - ecommerce
+  - marketplace
+docs_url: https://ibipoint.com/
+endpoints:
+  - url: https://ibipoint.com/esimshop/wp-json/ibipoint/mcp
+    transport: streamable-http
+    auth: none

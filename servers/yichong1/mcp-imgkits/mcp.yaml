@@ -1,0 +1,13 @@
+name: ImgKits MCP
+summary: ImgKits MCP exposes MinerU document→Markdown/OCR/tables, TransMonkey translation, and MarkAny watermark tools to MCP clients over Streamable HTTP.
+category: productivity
+tags:
+  - document
+  - file-conversion
+  - productivity
+  - translation
+docs_url: https://github.com/yichong1/mcp-imgkits
+endpoints:
+  - url: https://mcp.imgkits.com/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,8 @@
+name: UK Planning MCP
+summary: Planning apps for an LPA or UK postcode — free peek then £0.49 JSON pack for agents.
+category: other
+docs_url: https://uk-planning-mcp.donniertf.workers.dev/tools
+endpoints:
+  - url: https://uk-planning-mcp.donniertf.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

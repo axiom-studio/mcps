@@ -1,0 +1,13 @@
+name: Backwork
+summary: Medicare and commercial payer coverage policies, medical code lookup, prior authorization research, and claim validation with cited sources.
+category: other
+tags:
+  - compliance
+  - healthcare
+  - knowledge-retrieval
+  - research
+docs_url: https://github.com/tylergibbs1/backwork-mcp
+endpoints:
+  - url: https://backworkhealth.com/mcp
+    transport: streamable-http
+    auth: oauth

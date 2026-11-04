@@ -1,0 +1,13 @@
+name: aVenture
+summary: Research private companies, founders, investors, funding rounds, and news with aVenture
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+  - web-research
+docs_url: https://github.com/aventurevc/aventure-mcp
+endpoints:
+  - url: https://mcp.aventure.vc/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Parsewise MCP
+summary: 'Parsewise MCP gives AI agents access to Navi by Parsewise: AI for commercial insurance that reads every page of a claim file or submission and links each value to its source page.'
+category: finance
+tags:
+  - ai-agent
+  - document
+  - finance
+  - knowledge-retrieval
+docs_url: https://docs.parsewise.ai/parsewise-mcp
+endpoints:
+  - url: https://api.parsewise.ai/mcp
+    transport: streamable-http
+    auth: unknown

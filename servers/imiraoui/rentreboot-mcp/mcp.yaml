@@ -1,0 +1,12 @@
+name: RentReboot
+summary: NYC renter guides and neighborhood rent data, plus scoped OAuth tools for apartment alerts, saved searches and Housing Lottery status. Hosted Streamable HTTP MCP.
+category: search
+tags:
+  - notifications
+  - real-estate
+  - search
+docs_url: https://github.com/imiraoui/rentreboot-mcp
+endpoints:
+  - url: https://rentreboot.com/api/mcp
+    transport: streamable-http
+    auth: oauth

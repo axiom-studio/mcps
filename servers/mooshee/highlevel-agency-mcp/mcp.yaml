@@ -1,0 +1,13 @@
+name: HighLevel Agency MCP
+summary: Remote MCP server and local proxy for HighLevel API v2 exposing 481 tools across 39 domain families.
+category: marketing
+tags:
+  - api
+  - crm
+  - marketing
+  - marketing-automation
+docs_url: https://github.com/mooshee/highlevel-agency-mcp
+endpoints:
+  - url: https://ghlagencymcp.com/mcp
+    transport: streamable-http
+    auth: oauth

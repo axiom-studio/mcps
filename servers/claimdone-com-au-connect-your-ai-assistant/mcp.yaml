@@ -1,0 +1,12 @@
+name: Claim Done
+summary: 'Drafts Australian legal documents from a person''s answers for a flat fee: letters of demand, tribunal applications (NCAT, VCAT, QCAT and more), cease and desist letters, notices and agreements, with a Stripe payment link. Not a law firm.'
+category: productivity
+tags:
+  - document
+  - payment
+  - workflow-automation
+docs_url: https://claimdone.com.au/connect-your-ai-assistant/
+endpoints:
+  - url: https://claimdone.com.au/mcp
+    transport: streamable-http
+    auth: none

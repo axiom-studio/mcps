@@ -1,0 +1,14 @@
+name: VoiceDock
+summary: 'Build and manage voice AI agents for real phone lines: assistants, calls, numbers and campaigns.'
+category: communication
+tags:
+  - ai-agent
+  - audio
+  - communication
+  - telegram
+  - workflow-automation
+docs_url: https://doc.voicedock.ai/docs/integrations/mcp-server
+endpoints:
+  - url: https://mcp.hmsovereign.com/mcp
+    transport: streamable-http
+    auth: oauth

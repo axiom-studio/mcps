@@ -1,0 +1,13 @@
+name: FlexQueries SEO MCP
+summary: Pay-as-you-go SEO research, backlinks, rankings, site audits, and AI visibility for compatible AI clients.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+  - web-research
+docs_url: https://flexqueries.com/docs/mcp
+endpoints:
+  - url: https://app.flexqueries.com/mcp
+    transport: streamable-http
+    auth: oauth

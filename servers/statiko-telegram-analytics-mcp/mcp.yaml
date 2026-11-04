@@ -1,0 +1,16 @@
+name: Statiko — Telegram analytics
+summary: 'Live Telegram data for Claude and ChatGPT: trending topics, channel profiles & metrics, post history with edits and deletions.'
+category: search
+tags:
+  - analytics
+  - data-analysis
+  - search
+  - social-media
+  - telegram
+official: true
+registry_name: io.statiko/telegram
+docs_url: https://statiko.io/product/mcp
+endpoints:
+  - url: https://mcp.statiko.io/mcp
+    transport: streamable-http
+    auth: oauth

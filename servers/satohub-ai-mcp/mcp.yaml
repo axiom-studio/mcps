@@ -1,0 +1,14 @@
+name: 'Sato Hub: Onchain Agents'
+summary: 'Build any crypto agent: get frameworks, wallets, x402 payments and DeFi tools for your goal, with install steps and a Preflight check before you install or pay.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - defi
+  - finance
+  - payment
+docs_url: https://satohub.ai/mcp
+endpoints:
+  - url: https://satohub.ai/api/mcp
+    transport: streamable-http
+    auth: none

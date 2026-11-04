@@ -1,0 +1,14 @@
+name: Zapier
+summary: Connect your AI Agents to 8,000 apps instantly.
+category: productivity
+tags:
+  - api
+  - productivity
+  - workflow-automation
+official: true
+registry_name: com.zapier/mcp
+docs_url: https://zapier.com/mcp
+endpoints:
+  - url: https://mcp.zapier.com/api/v1/connect
+    transport: streamable-http
+    auth: oauth

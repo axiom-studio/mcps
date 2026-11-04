@@ -1,0 +1,13 @@
+name: News Manşet MCP
+summary: Gazete manşetleri, son dakika Türkiye haberleri, BIST payları, TEFAS fonları ve uluslararası piyasa göstergelerini sunan veri sunucusu.
+category: other
+tags:
+  - data-analysis
+  - finance
+  - news
+  - trading
+docs_url: https://newsmanset.com/api/mcp
+endpoints:
+  - url: https://newsmanset.com/api/mcp
+    transport: streamable-http
+    auth: none

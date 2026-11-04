@@ -1,0 +1,13 @@
+name: Repostit
+summary: Connect Claude to Repostit for social publishing. Create editable text, image, carousel and video briefs, schedule or publish, check delivery, and build workflows for future posts. Repostit distributes finished video; it does not generate clips.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://app.repostit.io/claude-connector.html
+endpoints:
+  - url: https://repostit-mcp-cfjcykgqda-uc.a.run.app/mcp/v1.1
+    transport: streamable-http
+    auth: oauth

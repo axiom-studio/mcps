@@ -1,0 +1,13 @@
+name: Imagelato Image Optimization
+summary: Review image projects, resize and reformat presets, processed batches, and webhook delivery health through Imagelato’s OAuth-protected MCP server.
+category: design
+tags:
+  - design
+  - file-conversion
+  - media
+  - workflow-automation
+docs_url: https://www.imagelato.com/developers/#claude-mcp
+endpoints:
+  - url: https://mcp.imagelato.com/mcp
+    transport: streamable-http
+    auth: oauth

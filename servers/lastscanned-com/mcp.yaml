@@ -1,0 +1,13 @@
+name: lastscanned
+summary: Synchronous package tracking MCP server & REST API across 542 global, regional, and cross-border carriers (USPS, UPS, FedEx, DHL, UniUni, SpeedX, GOFO, Veho, OnTrac, Yanwen, 4PX, Cainiao, YunExpress).
+category: cloud-service
+tags:
+  - api
+  - ecommerce
+  - inventory
+  - workflow-automation
+docs_url: https://lastscanned.com
+endpoints:
+  - url: https://mcp.lastscanned.com
+    transport: streamable-http
+    auth: api-key

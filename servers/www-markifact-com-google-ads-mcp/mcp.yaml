@@ -1,0 +1,13 @@
+name: Google Ads MCP by Markifact
+summary: 'Google Ads MCP server for Claude, ChatGPT, Codex, Cursor and any MCP client: reports, search terms, negatives, budgets, bids, campaign creation and Performance Max, with approval on every write. Hosted by Markifact, OAuth login, nothing to install locally.'
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - marketing
+  - marketing-automation
+docs_url: https://www.markifact.com/google-ads-mcp
+endpoints:
+  - url: https://api.markifact.com/mcp/google-ads
+    transport: streamable-http
+    auth: oauth

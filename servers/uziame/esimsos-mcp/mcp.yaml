@@ -1,0 +1,13 @@
+name: eSIM SOS
+summary: 'Search and order travel eSIMs for 200+ countries: plans with prices, price comparison, order with a payment link for the user.'
+category: other
+tags:
+  - communication
+  - ecommerce
+  - payment
+  - telegram
+docs_url: https://github.com/uziame/esimsos-mcp
+endpoints:
+  - url: https://esimsos.net/api/mcp
+    transport: streamable-http
+    auth: none

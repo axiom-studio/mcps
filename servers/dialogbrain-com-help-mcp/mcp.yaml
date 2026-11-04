@@ -1,0 +1,14 @@
+name: DialogBrain
+summary: 'Your business inbox as MCP tools: read and send WhatsApp, Telegram, Instagram, email and SMS messages, search conversations and contacts, place and transcribe phone calls, manage AI agents, tasks and calendar. Remote streamable-http server at https://api.dialogbrain.com/mcp/ with OAuth or API key; works in Claude, ChatGPT, Cursor and Claude Code.'
+category: communication
+tags:
+  - communication
+  - email-automation
+  - sms
+  - telegram
+  - whatsapp
+docs_url: https://dialogbrain.com/help/mcp
+endpoints:
+  - url: https://api.dialogbrain.com/mcp/
+    transport: streamable-http
+    auth: unknown

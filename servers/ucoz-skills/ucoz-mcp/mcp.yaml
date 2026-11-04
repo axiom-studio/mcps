@@ -1,0 +1,13 @@
+name: uCoz MCP
+summary: 'Manage uCoz sites from an AI assistant: templates, content, shop, users, and files.'
+category: development
+tags:
+  - cms
+  - development
+  - ecommerce
+  - file-management
+docs_url: https://github.com/ucoz-skills/ucoz-mcp
+endpoints:
+  - url: https://www.ucoz.com/mcp
+    transport: streamable-http
+    auth: oauth

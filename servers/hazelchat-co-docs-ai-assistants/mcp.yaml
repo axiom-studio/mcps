@@ -1,0 +1,13 @@
+name: Hazelchat
+summary: 'Check your Hazelchat website agent: what visitors asked, unanswered questions and enquiries; add answers to its draft.'
+category: marketing
+tags:
+  - chatbot
+  - customer-ops
+  - knowledge-retrieval
+  - marketing-automation
+docs_url: https://hazelchat.co/docs/ai-assistants/
+endpoints:
+  - url: https://app.hazelchat.co/mcp
+    transport: streamable-http
+    auth: oauth

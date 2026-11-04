@@ -1,0 +1,13 @@
+name: xmcp Docs
+summary: Search the official xmcp documentation from AI coding agents. Free remote MCP server for TypeScript MCP development.
+category: development
+tags:
+  - coding-agent
+  - development
+  - documentation
+  - search
+docs_url: https://xmcp.dev/docs/guides/xmcp-mcp-server
+endpoints:
+  - url: https://xmcp.dev/mcp
+    transport: streamable-http
+    auth: none

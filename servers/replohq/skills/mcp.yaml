@@ -1,0 +1,13 @@
+name: Replo
+summary: Research competitors and build, edit, and manage ecommerce sites from your AI assistant.
+category: marketing
+tags:
+  - content-creation
+  - ecommerce
+  - marketing
+  - web-research
+docs_url: https://github.com/replohq/skills
+endpoints:
+  - url: https://api.replo.app/v1/mcp
+    transport: streamable-http
+    auth: oauth

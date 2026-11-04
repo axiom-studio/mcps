@@ -1,0 +1,12 @@
+name: American Bully ($BULLY) facts
+summary: 'Read-only MCP server with official facts about the $BULLY token on Robinhood Chain (chain ID 4663): overview, official links, project disclaimer. Remote endpoint https://abullycoin.com/mcp - no auth, no market data.'
+category: finance
+tags:
+  - crypto
+  - finance
+  - knowledge-retrieval
+docs_url: https://abullycoin.com
+endpoints:
+  - url: https://abullycoin.com/mcp
+    transport: streamable-http
+    auth: unknown

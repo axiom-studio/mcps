@@ -1,0 +1,13 @@
+name: Capital Workbench
+summary: Read company financial statements, performance KPIs, SEC filings, and analyzed management commentary.
+category: finance
+tags:
+  - data-analysis
+  - document
+  - finance
+  - research
+docs_url: https://capital-workbench.com/agents
+endpoints:
+  - url: https://mcp.capital-workbench.com/mcp
+    transport: streamable-http
+    auth: oauth

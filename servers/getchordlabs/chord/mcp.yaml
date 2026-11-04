@@ -1,0 +1,14 @@
+name: Chord
+summary: Swap quotes + unsigned txs on 7 EVM chains, token boards, candles, wallet PnL, smart money. No key.
+category: finance
+tags:
+  - crypto
+  - defi
+  - evm
+  - finance
+  - trading
+docs_url: https://github.com/getchordlabs/chord
+endpoints:
+  - url: https://api.getchord.xyz/v1/mcp
+    transport: streamable-http
+    auth: none

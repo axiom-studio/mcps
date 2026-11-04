@@ -1,0 +1,12 @@
+name: Mailyond
+summary: 'Send app email and answer replies on the same domains from your agent: list, read and reply to threads across every connected domain, plus send_email. API key auth.'
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - email-automation
+docs_url: https://mailyond.com
+endpoints:
+  - url: https://mailyond.com/mcp
+    transport: streamable-http
+    auth: api-key

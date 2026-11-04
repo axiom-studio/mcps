@@ -1,0 +1,14 @@
+name: txscribe
+summary: Transcribe a YouTube, Google Drive or Dropbox link, then search your recordings and read transcripts (txt, SRT, VTT, or JSON with word timings and speakers) and summaries from your txscribe account. Hosted at https://txscribe.ai/mcp with OAuth sign-in, or run locally with npx -y @txscribe/mcp and an API key.
+category: productivity
+tags:
+  - audio
+  - google-drive
+  - productivity
+  - translation
+  - youtube
+docs_url: https://txscribe.ai/developers#mcp
+endpoints:
+  - url: https://txscribe.ai/mcp
+    transport: streamable-http
+    auth: oauth

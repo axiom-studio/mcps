@@ -1,0 +1,13 @@
+name: Singapore Land Lots & Master Plan Zoning
+summary: Singapore SLA land lots by lot number or coordinates, with URA Master Plan 2025 land use and GPR.
+category: other
+tags:
+  - database
+  - geospatial
+  - government
+  - real-estate
+docs_url: https://github.com/BumiAtlas/singapore-land-zoning-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/singapore
+    transport: streamable-http
+    auth: oauth

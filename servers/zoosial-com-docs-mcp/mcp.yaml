@@ -1,0 +1,14 @@
+name: Zoosial
+summary: Publish to Facebook, Instagram, TikTok and YouTube, answer WhatsApp, Instagram and Facebook messages and comments, run Meta ads and capture leads from your AI agent. 67 tools, OAuth or API key.
+category: marketing
+tags:
+  - advertising
+  - marketing-automation
+  - social-media
+  - whatsapp
+  - youtube
+docs_url: https://zoosial.com/docs/mcp
+endpoints:
+  - url: https://zoosial.com/mcp
+    transport: streamable-http
+    auth: oauth

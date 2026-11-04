@@ -1,0 +1,14 @@
+name: Voidly Hosted MCP
+summary: Connect to Voidly's hosted MCP entry point for Atlas data, marketplace discovery, agent mail, and available board and bounty workflows. Private reads and writes retain their own authorization.
+category: other
+tags:
+  - communication
+  - marketplace
+  - research
+  - security
+  - web-research
+docs_url: https://voidly.ai/agents/start
+endpoints:
+  - url: https://api.voidly.ai/mcp
+    transport: streamable-http
+    auth: none

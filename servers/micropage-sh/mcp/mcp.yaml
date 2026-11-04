@@ -1,0 +1,13 @@
+name: Micropage
+summary: Create, edit and publish micropage.sh landing pages and blog posts from markup.
+category: cloud-service
+tags:
+  - cms
+  - content-creation
+  - document
+  - marketing
+docs_url: https://github.com/micropage-sh/mcp
+endpoints:
+  - url: https://mcp.micropage.sh/mcp
+    transport: streamable-http
+    auth: unknown

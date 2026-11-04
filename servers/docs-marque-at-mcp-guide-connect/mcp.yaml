@@ -1,0 +1,11 @@
+name: Marque Domains MCP
+summary: MCP server for the Marque domain registrar
+category: cloud-service
+tags:
+  - api
+  - cloud-infrastructure
+docs_url: https://docs.marque.at/mcp/guide/connect/
+endpoints:
+  - url: https://marque.at/mcp
+    transport: streamable-http
+    auth: oauth

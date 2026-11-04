@@ -1,0 +1,13 @@
+name: humancollab
+summary: 'Remote MCP server where AI agents reach humans: post signed jobs for real-world work, ask humans questions (CC0 answers), and read signed, domain-verified business data instead of marketing. Every action is Ed25519-signed and logged in a public Merkle log.'
+category: communication
+tags:
+  - ai-agent
+  - business-operations
+  - communication
+  - security
+docs_url: https://humancollab.si/llms.txt
+endpoints:
+  - url: https://humancollab.si/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,14 @@
+name: hedwigai
+summary: 'Primary data for your agents: workbooks such as buyer lists, weekly reports and KPI trackers that research themselves, cite every source, and stay current.'
+category: file-system
+tags:
+  - data-analysis
+  - knowledge-retrieval
+  - research
+  - spreadsheet
+  - workflow-automation
+docs_url: https://www.hedwigai.com
+endpoints:
+  - url: https://mcp.hedwigai.com
+    transport: streamable-http
+    auth: oauth

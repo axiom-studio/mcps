@@ -1,0 +1,12 @@
+name: JOY Automart MCP Server
+summary: 'Remote MCP server (Streamable HTTP) for JOY Automart, Bangladesh''s automotive parts and vehicle marketplace. Tools: search_parts (English, Bangla and Banglish queries), get_part, search_vehicles, get_vehicle, compare_vehicles, get_auction_status, get_buying_guide, prepare_buyer_handoff. Public read-only access; an optional buyer token is available. Endpoint: https://www.joyautomart.com/mcp'
+category: other
+tags:
+  - ecommerce
+  - marketplace
+  - search
+docs_url: https://github.com/www-joyautomart-com/mcp-server
+endpoints:
+  - url: https://www.joyautomart.com/mcp
+    transport: streamable-http
+    auth: none

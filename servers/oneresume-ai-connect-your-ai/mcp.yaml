@@ -1,0 +1,12 @@
+name: OneResume
+summary: 'Job search from your résumé profile: live job search ranked by match, fact-checked résumé tailoring, cover letters, hiring-manager outreach drafts and an application tracker. Remote server with OAuth; works in Claude, ChatGPT and Grok. Never submits or sends for the user.'
+category: productivity
+tags:
+  - ai-agent
+  - document
+  - productivity
+docs_url: https://oneresume.ai/connect-your-ai
+endpoints:
+  - url: https://oneresume.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

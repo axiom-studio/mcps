@@ -1,0 +1,12 @@
+name: 765T Flow
+summary: 'Revit MCP: lets AI read and edit your open Revit model. Best supported on Revit 2021 and later · Windows · Free during Early Access.'
+category: design
+tags:
+  - ai-agent
+  - design
+  - development
+docs_url: https://765tflow.com/docs?utm_source=mcpservers&utm_medium=directory&utm_campaign=flow-oct26
+endpoints:
+  - url: https://765tflow.com/mcp
+    transport: streamable-http
+    auth: oauth

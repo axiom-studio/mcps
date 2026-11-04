@@ -1,0 +1,12 @@
+name: Laplace’s Mini World
+summary: Over 100 interactive 3D science models (the seasons, tides, black holes, a jet engine, neural networks) that open live in the chat, in Chinese and English. Read-only, no sign-in.
+category: other
+tags:
+  - content-creation
+  - education
+  - media
+docs_url: https://github.com/Keith-CY/laplace-mini-world-mcp
+endpoints:
+  - url: https://world.lapla.si/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: MailProbe
+summary: 'Verify email addresses in real time, without sending anything: deliverability status and score, disposable, role-based and catch-all detection, typo fixes. Remote server, hosted in France.'
+category: communication
+tags:
+  - communication
+  - data-analysis
+  - email-automation
+docs_url: https://github.com/jamalofski/mailprobe-mcp
+endpoints:
+  - url: https://mailprobe.dev/mcp
+    transport: streamable-http
+    auth: api-key

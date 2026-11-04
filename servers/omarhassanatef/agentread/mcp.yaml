@@ -1,0 +1,13 @@
+name: AgentRead
+summary: Web page to clean Markdown, metadata, headings and links for AI agents. Free inspect; paid extraction via x402 (USDC on Base).
+category: web-scraping
+tags:
+  - ai-agent
+  - crypto
+  - document
+  - web-scraping
+docs_url: https://github.com/omarhassanatef/agentread
+endpoints:
+  - url: https://agentread.omar-cv.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

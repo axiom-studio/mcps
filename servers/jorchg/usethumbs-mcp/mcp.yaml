@@ -1,0 +1,13 @@
+name: thumbs
+summary: thumbs gives Claude Code or any MCP client an iPhone to see, tap and type on, through one remote URL (https://mcp.usethumbs.com/mcp) with Google sign-in. Early access runs on the iOS Simulator; free, waitlist, allowlist-only for now.
+category: development
+tags:
+  - ai-agent
+  - browser-automation
+  - mobile
+  - testing-qa
+docs_url: https://github.com/jorchg/usethumbs-mcp
+endpoints:
+  - url: https://mcp.usethumbs.com/mcp
+    transport: streamable-http
+    auth: oauth

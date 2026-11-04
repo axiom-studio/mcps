@@ -1,0 +1,13 @@
+name: Pylot AI
+summary: 'Social media publishing for AI agents: list channels, draft posts, write on-brand captions, generate brand-aware images and schedule or publish to Instagram, Facebook, TikTok, LinkedIn, X and Google Business Profile.'
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://www.getpylot.com/agents
+endpoints:
+  - url: https://www.getpylot.com/api/mcp
+    transport: streamable-http
+    auth: api-key

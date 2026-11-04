@@ -1,0 +1,13 @@
+name: Spritefetch
+summary: Search and download free CC0 2D sprite sheets and tilesets through MCP or a REST API.
+category: search
+tags:
+  - api
+  - game-development
+  - media
+  - search
+docs_url: https://spritefetch.com/docs/quickstart
+endpoints:
+  - url: https://api.spritefetch.dev/mcp
+    transport: streamable-http
+    auth: none

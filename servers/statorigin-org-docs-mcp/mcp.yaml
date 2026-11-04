@@ -1,0 +1,13 @@
+name: StatOrigin
+summary: 'Search and cite sourced public statistics from your AI agent. Remote MCP server, no auth (Streamable HTTP: https://statorigin.org/mcp). Read-only tools: search, fetch, get_ranking.'
+category: search
+tags:
+  - data-analysis
+  - knowledge-retrieval
+  - research
+  - web-research
+docs_url: https://statorigin.org/docs/mcp
+endpoints:
+  - url: https://statorigin.org/mcp
+    transport: streamable-http
+    auth: none

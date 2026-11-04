@@ -1,0 +1,13 @@
+name: Zanzibar Buildings (COLA · Building registration numbers)
+summary: Zanzibar building footprints from the COLA register by building registration number or coordinates.
+category: other
+tags:
+  - database
+  - geospatial
+  - government
+  - real-estate
+docs_url: https://github.com/BumiAtlas/zanzibar-buildings-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/tanzania
+    transport: streamable-http
+    auth: oauth

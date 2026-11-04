@@ -1,0 +1,13 @@
+name: JENNi Shop Local
+summary: 'Real-time local inventory, price and same-day delivery promise for agents; returns a JENNi checkout link. Remote MCP (streamable HTTP, no auth): https://shop.jennipro.com/mcp'
+category: other
+tags:
+  - ecommerce
+  - inventory
+  - marketplace
+  - payment
+docs_url: https://shop.jennipro.com/agents.md
+endpoints:
+  - url: https://shop.jennipro.com/mcp
+    transport: streamable-http
+    auth: none

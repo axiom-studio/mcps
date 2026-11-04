@@ -1,0 +1,12 @@
+name: Calcupedia
+summary: 2,400+ calculators and unit converters with exact results and a live calculator card in the chat.
+category: productivity
+tags:
+  - data-analysis
+  - document
+  - productivity
+docs_url: https://calcupedia.io/mcp
+endpoints:
+  - url: https://calcupedia.io/api/mcp
+    transport: streamable-http
+    auth: unknown

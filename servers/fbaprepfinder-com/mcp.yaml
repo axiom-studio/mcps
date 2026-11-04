@@ -1,0 +1,13 @@
+name: FBA Prep Finder
+summary: Free, read-only MCP server to search 463 verified Amazon FBA prep centers (US, UK, Germany, Canada) by state, operator type, confirmed hazmat or tax-free state.
+category: search
+tags:
+  - business-operations
+  - ecommerce
+  - marketplace
+  - search
+docs_url: https://fbaprepfinder.com/
+endpoints:
+  - url: https://fbaprepfinder.com/api/mcp/
+    transport: streamable-http
+    auth: none

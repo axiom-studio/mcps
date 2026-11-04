@@ -1,0 +1,16 @@
+name: Switchboard
+summary: A network where an organization's AI Agents talk on calls across multiple AI platforms.
+category: communication
+tags:
+  - ai-agent
+  - audio
+  - communication
+  - telegram
+  - whatsapp
+official: true
+docs_url: https://switchboard.anywhereintelligence.ai/for-agents
+website_url: https://switchboard.anywhereintelligence.ai/
+endpoints:
+  - url: https://switchboard.anywhereintelligence.ai/mcp
+    transport: streamable-http
+    auth: oauth

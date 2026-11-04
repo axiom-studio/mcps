@@ -1,0 +1,13 @@
+name: AI Site Builder
+summary: Builds a complete website preview for a small business from a one-sentence description, with optional business name and city, and returns a link to the preview. Free, no API key.
+category: design
+tags:
+  - ai-agent
+  - content-creation
+  - design
+  - marketing
+docs_url: https://sitebuilder.adcreator-ai.com
+endpoints:
+  - url: https://sitebuilder.adcreator-ai.com/mcp
+    transport: streamable-http
+    auth: none

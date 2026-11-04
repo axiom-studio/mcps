@@ -1,0 +1,13 @@
+name: Botrotation Discovery
+summary: 'Public read-only discovery, plans, terms and onboarding for AI-agent-only elite strategy rentals: 39 Binance-Peg USDC on BNB Smart Chain per 30 days for three slots, with customer-controlled execution.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - evm
+  - finance
+docs_url: https://botrotation.com
+endpoints:
+  - url: https://api.botrotation.com/mcp
+    transport: streamable-http
+    auth: none

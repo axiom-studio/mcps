@@ -1,0 +1,12 @@
+name: Kairos Signal — Verifiable DePIN Data API
+summary: DePIN telemetry for 370+ networks with live data, every value with source, as_of and an upstream verify URL. Free API key; $5 credits on the first 3 keys per IP per 30 days.
+category: finance
+tags:
+  - api
+  - data-analysis
+  - research
+docs_url: https://kairossignal.com/llms.txt
+endpoints:
+  - url: https://kairossignal.com/mcp
+    transport: streamable-http
+    auth: api-key

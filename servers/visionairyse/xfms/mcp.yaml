@@ -1,0 +1,13 @@
+name: XF Model Source
+summary: Finds what an AI job needs, shortlists from 450+ OpenRouter models, and tests the best on your own tasks. Free to start.
+category: development
+tags:
+  - ai-model
+  - development
+  - research
+  - testing-qa
+docs_url: https://github.com/VisionAIrySE/XFMS
+endpoints:
+  - url: https://xfms.xpansion.dev/mcp/
+    transport: streamable-http
+    auth: oauth

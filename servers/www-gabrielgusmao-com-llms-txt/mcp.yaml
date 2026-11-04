@@ -1,0 +1,13 @@
+name: Gabriel S. Gusmao — Research and Scientific CLIs
+summary: Read-only research profiles, papers, scientific-ML playgrounds, citations, and local CLI discovery for KINN/kinnlib, Optinpy, mkin4py, and xl2py.
+category: other
+tags:
+  - data-analysis
+  - documentation
+  - knowledge-retrieval
+  - research
+docs_url: https://www.gabrielgusmao.com/llms.txt
+endpoints:
+  - url: https://www.gabrielgusmao.com/mcp
+    transport: streamable-http
+    auth: none

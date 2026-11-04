@@ -1,0 +1,12 @@
+name: Silvertongue
+summary: Famous writing voices for your agent. Pick a voice, switch any time, keep your point.
+category: productivity
+tags:
+  - ai-agent
+  - content-creation
+  - productivity
+docs_url: https://github.com/auscaster/silvertongue
+endpoints:
+  - url: https://mcp.silvertongue.dev/mcp
+    transport: streamable-http
+    auth: none

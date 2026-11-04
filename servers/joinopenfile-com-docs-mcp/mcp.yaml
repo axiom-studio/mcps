@@ -1,0 +1,13 @@
+name: OpenFile
+summary: Form U.S. LLCs and corporations and file U.S. trademarks. The agent prepares the filing and the owner signs it.
+category: productivity
+tags:
+  - ai-agent
+  - business-operations
+  - compliance
+  - document
+docs_url: https://joinopenfile.com/docs/mcp
+endpoints:
+  - url: https://mcp.joinopenfile.com
+    transport: streamable-http
+    auth: none

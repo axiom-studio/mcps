@@ -1,0 +1,15 @@
+name: Zarla
+summary: Build, edit and publish websites from Claude, ChatGPT, Cursor and Gemini. No code — Zarla hosts it.
+category: development
+tags:
+  - cloud-infrastructure
+  - cms
+  - deployment
+  - development
+official: true
+registry_name: com.zarla/website-builder
+docs_url: https://www.zarla.com/features/mcp-website-builder
+endpoints:
+  - url: https://www.zarla.com/api/mcp
+    transport: streamable-http
+    auth: oauth

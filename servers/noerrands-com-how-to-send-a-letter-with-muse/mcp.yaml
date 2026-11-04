@@ -1,0 +1,12 @@
+name: No Errands Mail
+summary: 'Mail a real letter or postcard to any US address: First-Class, certified, or a photo postcard, with USPS address checks first. The agent quotes the price and waits for approval before sending. Letters from $2.49. Remote MCP (streamable HTTP), API-key auth, US only.'
+category: communication
+tags:
+  - api
+  - communication
+  - workflow-automation
+docs_url: https://noerrands.com/how-to/send-a-letter-with-muse/?ref=mcpservers
+endpoints:
+  - url: https://api.noerrands.com/c/mail/mcp
+    transport: streamable-http
+    auth: api-key

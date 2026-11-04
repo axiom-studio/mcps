@@ -1,0 +1,11 @@
+name: Airport Pickups London
+summary: Quote, book, track and see live cars near UK airports. Fixed prices; no signup to start.
+category: other
+tags:
+  - api
+  - payment
+docs_url: https://mcp.airport-pickups-london.com/docs
+endpoints:
+  - url: https://mcp.airport-pickups-london.com/mcp
+    transport: streamable-http
+    auth: unknown

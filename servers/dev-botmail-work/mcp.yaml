@@ -1,0 +1,12 @@
+name: BotmailMCP
+summary: Give your agents their own email. Free internal messaging.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - email-automation
+docs_url: https://dev.botmail.work
+endpoints:
+  - url: https://mcp.botmail.work
+    transport: streamable-http
+    auth: oauth

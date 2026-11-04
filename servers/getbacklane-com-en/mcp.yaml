@@ -1,0 +1,15 @@
+name: Backlane
+summary: Backlane brings your eCommerce work into your AI chat. Connect your OTTO Market, Kaufland and 50+ Mirakl marketplace seller accounts (home24, Decathlon, XXXLutz, MediaMarktSaturn, ...) once, add one remote MCP URL to Claude, ChatGPT, Cursor or VS Code, and check stock, fix listings, handle orders, returns and buyer messages, and analyse ad spend in plain language. Hosted, OAuth sign-in, free during the open beta.
+category: productivity
+tags:
+  - advertising
+  - business-operations
+  - ecommerce
+  - marketplace
+official: true
+registry_name: com.getbacklane/backlane
+docs_url: https://getbacklane.com/
+endpoints:
+  - url: https://app.getbacklane.com/mcp
+    transport: streamable-http
+    auth: oauth

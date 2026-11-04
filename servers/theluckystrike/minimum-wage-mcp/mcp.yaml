@@ -1,0 +1,12 @@
+name: Minimum Wage MCP
+summary: US state minimum wages for 2026 and 2027, tipped wages and scheduled increases, 50 states and DC.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - government
+docs_url: https://github.com/theluckystrike/minimum-wage-mcp
+endpoints:
+  - url: https://minimum-wage-mcp.lipmichal.workers.dev/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Memory.fit
+summary: 'Your training, sleep, recovery and fuel in one place for the AI you already use. Your AI reads workouts from Garmin, Wahoo, COROS, Polar, Apple Health and more, sleep and HRV, and what you ate, then writes your week back: sessions sent to your watch, daily targets and meal plans, shown in the Memory.fit app. Hosted, OAuth sign-in.'
+category: other
+tags:
+  - ai-agent
+  - fitness
+  - healthcare
+  - wearable
+docs_url: https://memory.fit/ai-coaches
+endpoints:
+  - url: https://api.memory.fit/mcp
+    transport: streamable-http
+    auth: oauth

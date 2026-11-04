@@ -1,0 +1,13 @@
+name: MCPBinder
+summary: Read project goals, tasks and activity, plan work, and record decisions in MCPBinder with access you control.
+category: productivity
+tags:
+  - documentation
+  - productivity
+  - project-management
+  - task-management
+docs_url: https://github.com/ReedStories/mcpbinder-plugins
+endpoints:
+  - url: https://www.mcpbinder.com/api/mcp
+    transport: streamable-http
+    auth: oauth

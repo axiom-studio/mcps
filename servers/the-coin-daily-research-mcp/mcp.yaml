@@ -1,0 +1,16 @@
+name: The Coin Daily Research
+summary: Live crypto charts, funding and market context from The Coin Daily's research desk.
+category: finance
+tags:
+  - crypto
+  - finance
+  - news
+  - research
+official: true
+registry_name: co.thecoindaily/research
+docs_url: https://docs.thecoindaily.co
+website_url: https://thecoindaily.co/mcp/
+endpoints:
+  - url: https://mcp.thecoindaily.co/mcp
+    transport: streamable-http
+    auth: oauth

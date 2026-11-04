@@ -1,0 +1,14 @@
+name: Datrace — Amazon Marketplace Data MCP
+summary: Connect AI assistants to Amazon marketplace data for product, keyword, ranking, traffic, and category research. Remote MCP with OAuth; free beta available.
+category: marketing
+tags:
+  - data-analysis
+  - ecommerce
+  - marketing
+  - research
+  - web-research
+docs_url: https://www.datrace.com/en
+endpoints:
+  - url: https://mcp.datrace.com/mcp
+    transport: streamable-http
+    auth: oauth

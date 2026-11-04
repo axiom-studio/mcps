@@ -1,0 +1,13 @@
+name: Ledgo CRM
+summary: 'Lets AI assistants work in Ledgo CRM: search records, create leads, set follow-ups, move deals between stages, log calls and create tasks, with the user''s own permissions.'
+category: productivity
+tags:
+  - crm
+  - sales
+  - task-management
+  - workflow-automation
+docs_url: https://ledgo.io/features/api-and-webhooks
+endpoints:
+  - url: https://ledgo.io/api/mcp
+    transport: streamable-http
+    auth: api-key

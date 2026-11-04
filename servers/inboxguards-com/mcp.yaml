@@ -1,0 +1,10 @@
+name: InboxGuards Email Check
+summary: 'Check an email address before you send: syntax, MX, disposable and role inboxes. Half a cent per call in USDC on Base.'
+category: cloud-service
+tags:
+  - cloud-infrastructure
+docs_url: https://inboxguards.com
+endpoints:
+  - url: https://api.inboxguardstest.com/mcp
+    transport: streamable-http
+    auth: none

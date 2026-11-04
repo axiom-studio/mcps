@@ -1,0 +1,12 @@
+name: DunkAPI
+summary: 'NBA, WNBA and college basketball data: play-by-play, shot locations, box scores, odds. REST and MCP.'
+category: other
+tags:
+  - api
+  - data-analysis
+  - sports
+docs_url: https://github.com/noahowsh/dunkapi-mcp
+endpoints:
+  - url: https://mcp.dunkapi.com/mcp
+    transport: streamable-http
+    auth: api-key

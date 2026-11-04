@@ -1,0 +1,13 @@
+name: AdSparky
+summary: 'Hosted MCP for PPC agencies: Google Ads, Meta Ads, GA4, GTM and Merchant Center across clients, with preview, approval and one-step undo.'
+category: marketing
+tags:
+  - advertising
+  - google-analytics
+  - marketing
+  - marketing-automation
+docs_url: https://www.adsparky.com
+endpoints:
+  - url: https://adsparky.onrender.com/mcp
+    transport: streamable-http
+    auth: oauth

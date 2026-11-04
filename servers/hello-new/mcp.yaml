@@ -1,0 +1,12 @@
+name: hello.new
+summary: Create file upload links, shared Markdown pages and webhook URLs, then query incoming files and webhook requests. Remote MCP over streamable HTTP. No authentication needed for anonymous links that last 24 hours.
+category: productivity
+tags:
+  - file-management
+  - productivity
+  - workflow-automation
+docs_url: https://hello.new/?ref=mcpservers-org
+endpoints:
+  - url: https://api.hello.new/mcp
+    transport: streamable-http
+    auth: none

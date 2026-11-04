@@ -1,0 +1,13 @@
+name: obrotomierz open data
+summary: Polish savings bonds since 1999, retail government bonds in 195 countries and bank account opening bonuses in 27 EU countries. Read-only, no key, CC BY 4.0.
+category: finance
+tags:
+  - api
+  - data-analysis
+  - finance
+  - government
+docs_url: https://obrotomierz.pl/en/data/api/
+endpoints:
+  - url: https://obrotomierz.pl/mcp
+    transport: streamable-http
+    auth: none

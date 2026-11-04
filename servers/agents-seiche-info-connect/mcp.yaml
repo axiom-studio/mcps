@@ -1,0 +1,12 @@
+name: Wake Agent Economy
+summary: Free hosted MCP for source-dated AI usage and e-commerce context. Three read-only tools expose public aggregates, dataset policy and the signed contributor contract. https://agents.seiche.info/products/wake/mcp
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+docs_url: https://agents.seiche.info/connect
+endpoints:
+  - url: https://agents.seiche.info/products/wake/mcp
+    transport: streamable-http
+    auth: none

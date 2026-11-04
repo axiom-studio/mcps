@@ -1,0 +1,14 @@
+name: 'Whimbrel: Medtech Research'
+summary: Find and rank device companies
+category: other
+tags:
+  - data-analysis
+  - healthcare
+  - knowledge-retrieval
+  - research
+docs_url: https://whimbrelresearch.com/connect/
+website_url: https://whimbrelresearch.com/
+endpoints:
+  - url: https://data.whimbrelresearch.com
+    transport: streamable-http
+    auth: oauth

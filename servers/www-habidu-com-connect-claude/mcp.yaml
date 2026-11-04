@@ -1,0 +1,13 @@
+name: Habidu
+summary: 'Remote MCP server for Habidu, an AI daily coach. Read and change your daily plan from Claude or any MCP client: tasks, inbox, routines, streak and journal, or ask the Habidu coach. OAuth sign-in with your own Habidu account.'
+category: productivity
+tags:
+  - ai-agent
+  - notes
+  - productivity
+  - task-management
+docs_url: https://www.habidu.com/connect-claude/?src=mcpservers
+endpoints:
+  - url: https://mcp.habidu.com/mcp
+    transport: streamable-http
+    auth: unknown

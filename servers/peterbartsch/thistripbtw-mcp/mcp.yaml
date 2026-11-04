@@ -1,0 +1,12 @@
+name: this trip, btw
+summary: Hand someone a complete itinerary as a private, editable map link. No account, no API key, no card.
+category: productivity
+tags:
+  - file-management
+  - geospatial
+  - productivity
+docs_url: https://github.com/peterbartsch/thistripbtw-mcp
+endpoints:
+  - url: https://thistripbtw.us/mcp
+    transport: streamable-http
+    auth: none

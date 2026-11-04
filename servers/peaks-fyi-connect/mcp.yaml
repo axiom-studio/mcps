@@ -1,0 +1,12 @@
+name: peaks.fyi — Mountain Routes, Huts & Weather
+summary: European mountain routes, huts, access and forecasts with sources and explicit unknowns.
+category: other
+tags:
+  - geospatial
+  - research
+  - weather
+docs_url: https://peaks.fyi/connect?utm_source=awesome
+endpoints:
+  - url: https://peaks.fyi/mcp
+    transport: streamable-http
+    auth: none

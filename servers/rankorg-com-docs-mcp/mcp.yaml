@@ -1,0 +1,13 @@
+name: RankOrg MCP
+summary: RankOrg researches your niche and builds topical authority with SEO/GEO optimized blogs.
+category: search
+tags:
+  - content-creation
+  - marketing
+  - research
+  - seo
+docs_url: https://rankorg.com/docs/mcp
+endpoints:
+  - url: https://rankorg.com/api/mcp
+    transport: streamable-http
+    auth: oauth

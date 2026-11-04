@@ -1,0 +1,8 @@
+name: Zeno
+summary: 'AI bookkeeper for Swiss small companies: books invoices, reconciles the bank, keeps VAT current. Remote MCP server; your agent can sign you up and connect without a password.'
+category: finance
+docs_url: https://zeno-works.ch/en/handbook/mcp/
+endpoints:
+  - url: https://app.zeno-works.ch/mcp
+    transport: streamable-http
+    auth: none

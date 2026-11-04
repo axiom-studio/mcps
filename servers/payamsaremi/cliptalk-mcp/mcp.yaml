@@ -1,0 +1,13 @@
+name: ClipTalk
+summary: 'Create and edit videos for TikTok, Reels and YouTube from your AI assistant: script, AI visuals, voiceover, captions, music, MP4.'
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - media
+  - video
+docs_url: https://github.com/payamsaremi/cliptalk-mcp
+endpoints:
+  - url: https://www.cliptalk.pro/mcp
+    transport: streamable-http
+    auth: oauth

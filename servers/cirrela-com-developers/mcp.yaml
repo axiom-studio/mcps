@@ -1,0 +1,13 @@
+name: Cirrela
+summary: Lets an AI assistant create videos and images with Cirrela through a remote MCP server. Needs a Cirrela Studio plan.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - video
+docs_url: https://cirrela.com/developers?utm_source=mcpservers
+endpoints:
+  - url: https://cirrela.com/api/mcp
+    transport: streamable-http
+    auth: unknown

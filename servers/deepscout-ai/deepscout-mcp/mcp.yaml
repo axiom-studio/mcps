@@ -1,0 +1,12 @@
+name: DeepScout
+summary: Scrape product data from any e-shop and match the same products across shops, without EAN. Remote MCP with OAuth.
+category: web-scraping
+tags:
+  - ecommerce
+  - productivity
+  - web-scraping
+docs_url: https://github.com/deepscout-ai/deepscout-mcp
+endpoints:
+  - url: https://mcp.deepscout.ai/mcp
+    transport: streamable-http
+    auth: oauth

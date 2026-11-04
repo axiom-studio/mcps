@@ -1,0 +1,13 @@
+name: Mailzzy
+summary: Allows AI assistants to interact with Mailzzy for email marketing tasks, including campaign management, contact handling, template operations, sending, and automation.
+category: marketing
+tags:
+  - communication
+  - email-automation
+  - marketing
+  - marketing-automation
+docs_url: https://mailzzy.com/
+endpoints:
+  - url: https://api.mailzzy.com/crm/mcp/
+    transport: streamable-http
+    auth: oauth

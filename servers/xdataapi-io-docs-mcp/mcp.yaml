@@ -1,0 +1,13 @@
+name: xdataapi
+summary: 'Read-only public X (Twitter) data: profiles, posts, threads, replies, followers, and search with the x.com operators. Pay per result; empty results and errors are free.'
+category: search
+tags:
+  - search
+  - social-media
+  - web-research
+  - x-twitter
+docs_url: https://xdataapi.io/docs/mcp
+endpoints:
+  - url: https://api.xdataapi.io/mcp
+    transport: streamable-http
+    auth: oauth

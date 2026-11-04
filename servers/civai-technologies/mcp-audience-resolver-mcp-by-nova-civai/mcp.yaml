@@ -1,0 +1,13 @@
+name: Audience Resolver MCP by Nova (CIVAI)
+summary: Manage Audience Resolver content calendars, rows, and social scheduling on your AR project.
+category: search
+tags:
+  - calendar
+  - content-creation
+  - marketing
+  - social-media
+docs_url: https://github.com/civai-technologies/mcp-audience-resolver-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-audience-resolver
+    transport: streamable-http
+    auth: api-key

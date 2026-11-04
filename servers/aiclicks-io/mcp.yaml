@@ -1,0 +1,12 @@
+name: AIclicks
+summary: Official AIclicks MCP server. Ask Claude, Cursor, or any MCP client about your brand's visibility in ChatGPT, Perplexity, Gemini, Google AI Overviews and more.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+docs_url: https://docs.aiclicks.io/
+endpoints:
+  - url: https://mcp.aiclicks.io/mcp
+    transport: streamable-http
+    auth: unknown

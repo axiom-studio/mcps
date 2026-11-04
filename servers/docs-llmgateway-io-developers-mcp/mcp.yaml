@@ -1,0 +1,13 @@
+name: LLM Gateway
+summary: Chat with any LLM, generate images, list models with pricing, and check your LLM Gateway usage and costs.
+category: development
+tags:
+  - ai-model
+  - analytics
+  - api
+  - llm
+docs_url: https://docs.llmgateway.io/developers/mcp
+endpoints:
+  - url: https://api.llmgateway.io/mcp
+    transport: streamable-http
+    auth: unknown

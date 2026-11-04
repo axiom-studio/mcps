@@ -1,0 +1,13 @@
+name: Vectoree Tool Hub
+summary: Remote MCP server from Vectoree giving agents web search and web page extraction tools, plus third-party hub tools, behind one project API key. Streamable HTTP at https://vectoree.ai/mcp; requires API key (Bearer or x-api-key), no OAuth.
+category: search
+tags:
+  - api
+  - search
+  - web-research
+  - web-scraping
+docs_url: https://vectoree.ai/SKILL.md
+endpoints:
+  - url: https://vectoree.ai/mcp
+    transport: streamable-http
+    auth: api-key

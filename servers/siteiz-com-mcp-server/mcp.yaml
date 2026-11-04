@@ -1,0 +1,13 @@
+name: Siteiz
+summary: Check which AI crawlers a site allows and see pages the way AI crawlers do. SEO & AEO & GEO. Free, read-only.
+category: marketing
+tags:
+  - analytics
+  - browser
+  - seo
+  - web-research
+docs_url: https://siteiz.com/mcp-server
+endpoints:
+  - url: https://siteiz.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,14 @@
+name: QRCode.Pub tools
+summary: Free QR code images; paid web page → Markdown, page metadata and 30-day file hosting via x402 micropayments (USDC on Base/Solana, no API key). Remote Streamable HTTP server at https://qrcode.pub/mcp
+category: web-scraping
+tags:
+  - crypto
+  - document
+  - file-conversion
+  - payment
+  - web-scraping
+docs_url: https://qrcode.pub/qr-code-api#mcp
+endpoints:
+  - url: https://qrcode.pub/mcp
+    transport: streamable-http
+    auth: none

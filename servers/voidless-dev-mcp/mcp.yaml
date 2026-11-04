@@ -1,0 +1,14 @@
+name: Voidless
+summary: 'Generate game assets from chat: pixel-art and painted sprites, animations, 8-direction rotations, tilesets, sound effects, music, video and rigged 3D models, saved to your Voidless library.'
+category: design
+tags:
+  - audio
+  - design
+  - game-development
+  - icon-generation
+  - video
+docs_url: https://voidless.dev/mcp
+endpoints:
+  - url: https://mcp.voidless.dev/mcp
+    transport: streamable-http
+    auth: oauth

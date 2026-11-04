@@ -1,0 +1,13 @@
+name: MarklyKit
+summary: Search your MarklyKit web highlights and notes from Claude, ChatGPT or Grok, with source links.
+category: productivity
+tags:
+  - knowledge-retrieval
+  - notes
+  - productivity
+  - web-research
+docs_url: https://marklykit.com
+endpoints:
+  - url: https://www.marklykit.com/api/mcp
+    transport: streamable-http
+    auth: oauth

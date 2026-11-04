@@ -1,0 +1,14 @@
+name: Postraid
+summary: OAuth MCP for brands and saved social content. Save supplied copy as editable carousel drafts for review without generating media, publishing posts or spending credits. https://postraid.com
+category: marketing
+tags:
+  - content-creation
+  - identity
+  - marketing-automation
+  - security
+  - social-media
+docs_url: https://github.com/postraid/mcp-server
+endpoints:
+  - url: https://mcp.postraid.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: PumpGTM MCP server
+summary: PumpGTM is a hosted MCP server that lets Claude, ChatGPT, Cursor, Codex or any AI agent find buyers showing intent, run LinkedIn, email and X outreach from your own accounts inside each platform's limits, and hand every reply back to a human. Sign in with OAuth; no API key is needed for AI clients.
+category: marketing
+tags:
+  - ai-agent
+  - communication
+  - marketing
+  - sales
+  - workflow-automation
+docs_url: https://github.com/pumpgtm/pumpgtm-mcp
+endpoints:
+  - url: https://mcp.pumpgtm.com/mcp
+    transport: streamable-http
+    auth: oauth

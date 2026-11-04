@@ -1,0 +1,12 @@
+name: Apparent
+summary: 'Ask your agent how your mobile apps are doing: live activity, App Store, Google Play and RevenueCat reviews and sales, ads, and why a number moved. Read-only.'
+category: development
+tags:
+  - analytics
+  - data-analysis
+  - mobile
+docs_url: https://apparent.fyi/app-analytics-mcp?ref=mcpservers
+endpoints:
+  - url: https://app.apparent.fyi/mcp
+    transport: streamable-http
+    auth: api-key

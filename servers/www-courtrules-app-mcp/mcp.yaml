@@ -1,0 +1,11 @@
+name: Court Rules
+summary: Judge-level filing rules, court holidays and enforcement data for US federal and state courts.
+category: other
+tags:
+  - data-analysis
+  - research
+docs_url: https://www.courtrules.app/mcp
+endpoints:
+  - url: https://mcp.courtrules.app/mcp
+    transport: streamable-http
+    auth: unknown

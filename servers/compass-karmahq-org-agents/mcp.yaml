@@ -1,0 +1,13 @@
+name: Karma Compass
+summary: Manage nonprofit board meetings, agendas, minutes, and action items from Claude, ChatGPT, or Codex.
+category: productivity
+tags:
+  - collaboration
+  - meeting-notes
+  - productivity
+  - task-management
+docs_url: https://compass.karmahq.org/agents
+endpoints:
+  - url: https://nonprofitsapi.karmahq.org/mcp
+    transport: streamable-http
+    auth: oauth

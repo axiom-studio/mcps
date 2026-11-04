@@ -1,0 +1,13 @@
+name: haggl.ai for merchants
+summary: 'Run your haggl.ai sales agent from Claude, ChatGPT or Gemini: set the budget and max discount, pause or resume, and see results. Every change waits for the merchant''s yes. Sign-in required.'
+category: marketing
+tags:
+  - ai-agent
+  - ecommerce
+  - marketing
+  - sales
+docs_url: https://www.haggl.ai/coding-agents
+endpoints:
+  - url: https://www.haggl.ai/api/mcp/merchant
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Feason Context
+summary: Source-grounded Christian evidence for AI agents, with passage provenance, tradition attribution, coverage boundaries, and citation verification.
+category: search
+tags:
+  - ai-agent
+  - documentation
+  - knowledge-retrieval
+  - research
+docs_url: https://www.feason.com/developers
+endpoints:
+  - url: https://www.feason.com/api/mcp
+    transport: streamable-http
+    auth: unknown

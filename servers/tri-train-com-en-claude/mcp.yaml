@@ -1,0 +1,13 @@
+name: tri-train
+summary: 'Your triathlon training in Claude: activities, PMC load, plans pushed to Garmin, races, recovery.'
+category: other
+tags:
+  - calendar
+  - fitness
+  - healthcare
+  - productivity
+docs_url: https://tri-train.com/en/claude?utm_source=mcp-dir&utm_medium=directory&utm_campaign=claude-garmin
+endpoints:
+  - url: https://tri-train.com/api/mcp
+    transport: streamable-http
+    auth: oauth

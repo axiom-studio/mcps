@@ -1,0 +1,13 @@
+name: Flowlines
+summary: Flowlines is the observability platform for MCP servers and AI agents.  Instrument your MCP server with OpenTelemetry using Flowlines’ ready-made skills, then reconstruct complete agent sessions from the initial user request through tool calls to the final response.
+category: development
+tags:
+  - ai-agent
+  - devops-infrastructure
+  - monitoring
+  - observability-incident
+docs_url: https://flowlines.ai/mcp-observability
+endpoints:
+  - url: https://api.flowlines.ai/mcp
+    transport: streamable-http
+    auth: oauth

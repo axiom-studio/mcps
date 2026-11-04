@@ -1,0 +1,13 @@
+name: MachineWitness
+summary: Checks whether a domain is observed by an EU evidentiary archive of the machine-readable web (robots.txt, ai.txt, TDM, llms.txt, sealed daily), and orders a time-stamped record of public web addresses. Remote, no authentication.
+category: search
+tags:
+  - compliance
+  - knowledge-retrieval
+  - search
+  - web-research
+docs_url: https://github.com/martinschenk/machinewitness-mcp
+endpoints:
+  - url: https://machinewitness.eu/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,14 @@
+name: Formgong
+summary: 'Remote MCP server for Formgong, a form backend for static and AI-built sites: create contact forms, get ready-to-paste HTML/React/Next.js code with the access key, list forms and read recent submissions. Leads go to Telegram and email, EU data. Streamable HTTP; Bearer API token.'
+category: marketing
+tags:
+  - communication
+  - email-automation
+  - marketing
+  - telegram
+  - workflow-automation
+docs_url: https://github.com/formgong/mcp
+endpoints:
+  - url: https://formgong.com/mcp
+    transport: streamable-http
+    auth: api-key

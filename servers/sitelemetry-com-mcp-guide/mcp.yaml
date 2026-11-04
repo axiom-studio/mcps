@@ -1,0 +1,14 @@
+name: Sitelemetry
+summary: 'Authorized website audits from your agent: security posture, technical SEO, AI visibility (GEO/AEO), analytics integrations, WCAG 2.2 accessibility and performance, returning evidence-backed findings with fixes in 9 languages. Remote Streamable HTTP MCP server with browser OAuth (PKCE + dynamic client registration); no API key to paste. Only audit sites you own or are authorized to test.'
+category: development
+tags:
+  - analytics
+  - performance
+  - security
+  - seo
+  - testing-qa
+docs_url: https://sitelemetry.com/mcp-guide
+endpoints:
+  - url: https://sitelemetry.com/mcp
+    transport: streamable-http
+    auth: oauth

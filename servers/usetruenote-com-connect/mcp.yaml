@@ -1,0 +1,12 @@
+name: Truenote
+summary: Your bank, card, loan and investment accounts plus the context behind them (a spending plan, buckets, goals, income and taxes), for any AI. Remote server at https://app.usetruenote.com/mcp with OAuth sign-in. Read-only to your banks.
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - payment
+docs_url: https://usetruenote.com/connect
+endpoints:
+  - url: https://app.usetruenote.com/mcp
+    transport: streamable-http
+    auth: oauth

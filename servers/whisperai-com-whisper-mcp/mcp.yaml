@@ -1,0 +1,13 @@
+name: WhisperAI
+summary: Transcribe audio and video files up to 5 GB from Claude or ChatGPT through WhisperAI's hosted MCP server, with speaker labels in 98 languages. Search your transcripts and export them as PDF, DOCX, TXT, SRT or VTT. Sign in with your WhisperAI account over OAuth; it works on every plan, free included.
+category: productivity
+tags:
+  - audio
+  - document
+  - productivity
+  - translation
+docs_url: https://whisperai.com/whisper-mcp
+endpoints:
+  - url: https://whisperai.com/mcp
+    transport: streamable-http
+    auth: oauth

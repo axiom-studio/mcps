@@ -1,0 +1,12 @@
+name: ImageKit
+summary: Resize, convert to WebP, compress, crop, rotate and strip EXIF from images. Free tier, RapidAPI key.
+category: design
+tags:
+  - design
+  - file-conversion
+  - media
+docs_url: https://rapidapi.com/Olly-1VN9JTXKG/api/imagekit-resize-convert-to-webp-compress-crop
+endpoints:
+  - url: https://imagekit-resize-convert-to-webp-compress-crop.p.rapidapi.com/mcp
+    transport: streamable-http
+    auth: api-key

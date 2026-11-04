@@ -1,0 +1,13 @@
+name: Cutscene
+summary: Assemble motion-design launch films for software from ready-made pieces, with your brand read from your site; check, preview, finish in the editor.
+category: other
+tags:
+  - content-creation
+  - design
+  - marketing
+  - video
+docs_url: https://app.cutscene.studio/connect
+endpoints:
+  - url: https://app.cutscene.studio/mcp
+    transport: streamable-http
+    auth: oauth

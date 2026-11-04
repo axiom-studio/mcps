@@ -1,0 +1,13 @@
+name: FluidTalk
+summary: Create AI Characters and generate their DM and comment replies from any MCP client.
+category: communication
+tags:
+  - ai-agent
+  - chatbot
+  - communication
+  - content-creation
+docs_url: https://talk.fluidvip.com
+endpoints:
+  - url: https://api-talk.fluidvip.com/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: LinkIntel
+summary: 'Gives your AI assistant evidence for its next X post: your measured post results, X''s ranking weights and chosen reference posts, as one cited content brief. Never publishes.'
+category: marketing
+tags:
+  - analytics
+  - content-creation
+  - marketing
+  - x-twitter
+docs_url: https://www.getlinkintel.com
+endpoints:
+  - url: https://www.getlinkintel.com/api/mcp
+    transport: streamable-http
+    auth: oauth

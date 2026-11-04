@@ -1,0 +1,13 @@
+name: Formquote
+summary: Compare email verification credit prices, commercial sound-effect licences and font licences from live public catalogues; read-only, no sign-in.
+category: productivity
+tags:
+  - ecommerce
+  - marketplace
+  - research
+  - web-research
+docs_url: https://github.com/Keith-CY/formquote-mcp
+endpoints:
+  - url: https://formquote-mcp.chen-yu-d1.workers.dev/mcp
+    transport: streamable-http
+    auth: none

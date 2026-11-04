@@ -1,0 +1,12 @@
+name: Weio site check
+summary: 'Read-only website facts for agents: check_https diagnoses certificate problems and browser privacy warnings for a domain and its www variant; site_info returns the CMS, mobile viewport, role emails and phones a business publishes. Remote, no install, 10 free calls a day.'
+category: development
+tags:
+  - browser
+  - security
+  - web-research
+docs_url: https://weio.ai/services/site-check-api.html?utm_source=mcpservers&utm_medium=listing&utm_campaign=awesome-mcp
+endpoints:
+  - url: https://weio.ai/mcp
+    transport: streamable-http
+    auth: unknown

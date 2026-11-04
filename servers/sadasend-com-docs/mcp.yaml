@@ -1,0 +1,13 @@
+name: SadaSend
+summary: Safe transactional email API and deliverability engine for AI agents with server-enforced recipient allowlists, pre-send bounce verification, and human approval holds.
+category: communication
+tags:
+  - api
+  - communication
+  - email-automation
+  - security
+docs_url: https://sadasend.com/docs
+endpoints:
+  - url: https://mcp.sadasend.com
+    transport: streamable-http
+    auth: api-key

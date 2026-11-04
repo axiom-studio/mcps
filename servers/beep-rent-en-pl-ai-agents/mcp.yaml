@@ -1,0 +1,13 @@
+name: BEEP.rent — car rental in Poland
+summary: Search and book cars in Poland. Agent developers can earn commissions with a BEEP partner API key.
+category: other
+tags:
+  - api
+  - ecommerce
+  - marketplace
+  - payment
+docs_url: https://beep.rent/en-pl/ai-agents/
+endpoints:
+  - url: https://mcp.beep.rent/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: FiveM Docs
+summary: Search and read independent FiveM development guides with citation URLs. Free, read-only MCP tools; no API key required.
+category: development
+tags:
+  - development
+  - documentation
+  - knowledge-retrieval
+  - web-research
+docs_url: https://fivemdocs.com/tools/ai-assistants
+endpoints:
+  - url: https://fivemdocs.com/api/mcp
+    transport: streamable-http
+    auth: none

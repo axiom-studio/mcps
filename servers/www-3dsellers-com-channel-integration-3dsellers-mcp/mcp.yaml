@@ -1,0 +1,13 @@
+name: 3Dsellers MCP
+summary: Run eBay, Amazon, Walmart, Etsy, Shopify and TikTok Shop stores from your AI assistant. 150+ hosted ecommerce tools, no code.
+category: other
+tags:
+  - business-operations
+  - ecommerce
+  - marketplace
+  - workflow-automation
+docs_url: https://www.3dsellers.com/channel-integration/3dsellers-mcp
+endpoints:
+  - url: https://api.3dsellers.com/mcp
+    transport: streamable-http
+    auth: oauth

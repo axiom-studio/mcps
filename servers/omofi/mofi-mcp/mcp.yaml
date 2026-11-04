@@ -1,0 +1,12 @@
+name: Mofi
+summary: Ask your AI about your Brazilian bank spending. Requires a paid Mofi plan. Read-only bank link.
+category: finance
+tags:
+  - ai-agent
+  - data-analysis
+  - finance
+docs_url: https://github.com/Omofi/mofi-mcp
+endpoints:
+  - url: https://omofi.com.br/api/mcp
+    transport: streamable-http
+    auth: unknown

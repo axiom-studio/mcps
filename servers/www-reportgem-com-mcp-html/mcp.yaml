@@ -1,0 +1,13 @@
+name: ReportGem Global Research (报告驿站)
+summary: 'Global investment research knowledge base & agent: search 16M+ global investment bank reports (Goldman Sachs, Citi, HSBC, UBS, JPMorgan, Morgan Stanley), 5M+ Chinese broker reports, filings, earnings-call notes and charts; read page-cited source passages. Remote MCP with OAuth; free credits for new accounts.'
+category: finance
+tags:
+  - document
+  - finance
+  - knowledge-retrieval
+  - research
+docs_url: https://www.reportgem.com/mcp.html
+endpoints:
+  - url: https://www.reportgem.com/mcp
+    transport: streamable-http
+    auth: oauth

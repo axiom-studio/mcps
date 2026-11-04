@@ -1,0 +1,14 @@
+name: GlobalCast AI Studio MCP
+summary: AI Video Dubbing, Wav2Lip-GAN Visual Lip-Sync & -14 LUFS Mastering in 15 Languages (incl. Hinglish, Traditional Chinese & Cantonese) + Unlimited BYOK Mode.
+category: productivity
+tags:
+  - ai-model
+  - audio
+  - content-creation
+  - translation
+  - video
+docs_url: https://globalcastai.com
+endpoints:
+  - url: https://globalcastai.com/api/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Wezoo
+summary: Find and book coworking, meeting rooms, and office space.
+category: productivity
+tags:
+  - business-operations
+  - productivity
+  - real-estate
+  - workflow-automation
+docs_url: https://book.wezoo.com/mcp
+endpoints:
+  - url: https://cluster.live.backend.wezoo.com/mcp
+    transport: streamable-http
+    auth: none

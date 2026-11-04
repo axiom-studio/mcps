@@ -1,0 +1,14 @@
+name: MoltNode by Chord
+summary: 'Read 31 blockchains over JSON-RPC and swap via Chord: best route, unsigned tx, simulation. No key.'
+category: finance
+tags:
+  - crypto
+  - defi
+  - evm
+  - finance
+  - trading
+docs_url: https://github.com/tuantqse90/moltnode-mcp
+endpoints:
+  - url: https://moltnode.ag/mcp
+    transport: streamable-http
+    auth: none

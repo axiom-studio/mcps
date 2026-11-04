@@ -1,0 +1,12 @@
+name: FindAIforWork
+summary: Search, read and compare reviewed AI tools by work scenario. Public, read-only, no auth.
+category: search
+tags:
+  - ai-model
+  - research
+  - search
+docs_url: https://findaiforwork.com
+endpoints:
+  - url: https://findaiforwork.com/mcp
+    transport: streamable-http
+    auth: none

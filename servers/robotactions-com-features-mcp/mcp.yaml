@@ -1,0 +1,13 @@
+name: RobotActions
+summary: Real iPhone, Android, Apple TV and Google TV devices plus desktop browsers in the cloud, driven by your AI agent over MCP. Live control, network capture and mocking, Jira, TestRail and Azure DevOps. Free tier.
+category: development
+tags:
+  - browser-automation
+  - devops-infrastructure
+  - mobile
+  - testing-qa
+docs_url: https://robotactions.com/features/mcp
+endpoints:
+  - url: https://mcp.robotactions.com/mcp
+    transport: streamable-http
+    auth: oauth

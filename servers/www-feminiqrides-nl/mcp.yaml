@@ -1,0 +1,11 @@
+name: Feminiq Rides
+summary: 'Book Amsterdam chauffeur rides with a female driver option: Schiphol transfers, custom rides and private tours.'
+category: other
+tags:
+  - ecommerce
+  - payment
+docs_url: https://www.feminiqrides.nl/
+endpoints:
+  - url: https://www.feminiqrides.nl/mcp
+    transport: streamable-http
+    auth: unknown

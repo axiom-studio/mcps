@@ -1,0 +1,14 @@
+name: DualEntry MCP
+summary: Connect Claude, Cursor or Codex to DualEntry's AI-native ERP. Search invoices, bills and journal entries, then draft, validate and post records to the general ledger.
+category: finance
+tags:
+  - ai-agent
+  - business-operations
+  - database
+  - finance
+official: true
+docs_url: https://docs.dualentry.com/developers/guides/integrations-and-tools/mcp
+endpoints:
+  - url: https://api.dualentry.com/mcp/
+    transport: streamable-http
+    auth: oauth

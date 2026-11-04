@@ -1,0 +1,12 @@
+name: PeptideClinic
+summary: PeptideClinic lists licensed peptide providers in the United States by city. Browse services, prescriber type and licence checks, or query the same data through a free API and MCP endpoint.
+category: search
+tags:
+  - api
+  - healthcare
+  - search
+docs_url: https://peptideclinic.fyi
+endpoints:
+  - url: https://peptideclinic.fyi/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,10 @@
+name: Talent Summoner
+summary: 'AI candidate sourcing: find, review and shortlist talent worldwide from your AI assistant.'
+category: productivity
+tags:
+  - ai-agent
+docs_url: https://talentsummoner.com/mcp
+endpoints:
+  - url: https://talentsummoner.com/api/mcp
+    transport: streamable-http
+    auth: oauth

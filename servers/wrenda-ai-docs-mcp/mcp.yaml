@@ -1,0 +1,14 @@
+name: Wrenda
+summary: Edge reverse-proxy for AI crawler optimisation, pre-rendering, GEO/AI citation tracking, and remote MCP to query analytics and tune optimizations.
+category: marketing
+tags:
+  - ai-agent
+  - analytics
+  - marketing
+  - seo
+  - web-scraping
+docs_url: https://wrenda.ai/docs/mcp/
+endpoints:
+  - url: https://api.wrenda.ai/mcp
+    transport: streamable-http
+    auth: api-key

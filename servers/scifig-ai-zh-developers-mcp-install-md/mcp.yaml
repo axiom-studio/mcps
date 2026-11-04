@@ -1,0 +1,14 @@
+name: SciFig
+summary: SciFig is an AI scientific figure generator with a remote MCP server for AI assistants. AI Illustration creates scientific visuals from prompts and references; DataChart plots real CSV, TSV, TXT, and Excel data; FlowChart builds editable SVG workflows and model diagrams. Researchers can create and edit figures through SciFig’s public API and MCP. You retain full publication and commercial rights to figures made with SciFig; the license PDF is free to download.
+category: design
+tags:
+  - content-creation
+  - data-analysis
+  - design
+  - research
+  - svg
+docs_url: https://scifig.ai/zh/developers/mcp/install.md
+endpoints:
+  - url: https://mcp.scifig.ai/mcp
+    transport: streamable-http
+    auth: unknown

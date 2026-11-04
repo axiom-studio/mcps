@@ -1,0 +1,11 @@
+name: TableJourney food travel
+summary: Verified restaurants, markets and street food in 200+ cities with provenance and hours, food festivals with resolved dates, bookable tours and stays. Public remote MCP server, no key.
+category: search
+tags:
+  - search
+  - web-research
+docs_url: https://tablejourney.com/agents/
+endpoints:
+  - url: https://tablejourney.com/mcp
+    transport: streamable-http
+    auth: none

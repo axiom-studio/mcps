@@ -1,0 +1,13 @@
+name: Omphalis
+summary: 'Connect your Omphalis Library over MCP: search saved articles, PDFs, videos and podcasts, read your marks and notebooks. OAuth sign-in, no API key.'
+category: productivity
+tags:
+  - document
+  - knowledge-retrieval
+  - productivity
+  - search
+docs_url: https://github.com/Voxiven/omphalis-plugin
+endpoints:
+  - url: https://app.omphalis.ai/api/v2/mcp
+    transport: streamable-http
+    auth: oauth

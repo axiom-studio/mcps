@@ -1,0 +1,13 @@
+name: Callin.io AI Voice Agents
+summary: Access your Callin.io AI phone agents, call history and call transcripts from any AI assistant (remote MCP, OAuth).
+category: communication
+tags:
+  - ai-agent
+  - audio
+  - communication
+  - notifications
+docs_url: https://support.callin.io/Create-AI-Agent/Actions
+endpoints:
+  - url: https://claude-mcp.callin.io/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Liftaven
+summary: 'OAuth MCP for Liftaven SEO research, connected search reports, and reviewed website improvements. Connect at https://mcp.liftaven.com/mcp; desktop npm package: liftaven-mcp. https://liftaven.com'
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+  - web-research
+docs_url: https://github.com/liftaven/mcp-server
+endpoints:
+  - url: https://mcp.liftaven.com/mcp
+    transport: streamable-http
+    auth: oauth

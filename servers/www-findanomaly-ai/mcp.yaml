@@ -1,0 +1,14 @@
+name: Anomaly AI
+summary: Remote MCP server for Anomaly AI, the AI data analyst for large datasets and spreadsheets. Ask about your data; get charts, dashboards and files back.
+category: database
+tags:
+  - ai-agent
+  - analytics
+  - data-analysis
+  - database
+  - spreadsheet
+docs_url: https://www.findanomaly.ai
+endpoints:
+  - url: https://mcp.findanomaly.ai/mcp
+    transport: streamable-http
+    auth: oauth

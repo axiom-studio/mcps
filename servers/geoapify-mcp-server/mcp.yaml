@@ -1,0 +1,13 @@
+name: Geoapify MCP Server
+summary: Geoapify MCP Server brings geocoding, maps, places search, routing, distance matrices, and location intelligence to AI assistants and agents. Build location-aware applications with global geospatial data powered by OpenStreetMap.
+category: development
+tags:
+  - api
+  - data-analysis
+  - geospatial
+official: true
+docs_url: https://apidocs.geoapify.com/mcp
+endpoints:
+  - url: https://api.geoapify.com/v1/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,14 @@
+name: Clair
+summary: 'Audits websites built with AI (Lovable, Bolt, v0, Cursor) for France and Belgium in a real browser: cookies and trackers before and after consent, GDPR notices, legal pages, exposed secret keys, security headers, accessibility. Drafts legal documents for 29 business sectors and monitors the site. Your assistant passes your project''s context to Clair and applies the fixes.'
+category: development
+tags:
+  - browser-automation
+  - compliance
+  - security
+  - testing-qa
+  - web-scraping
+docs_url: https://clair.dpdns.org
+endpoints:
+  - url: https://clair.dpdns.org/mcp
+    transport: streamable-http
+    auth: unknown

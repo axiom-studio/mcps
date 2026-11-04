@@ -1,0 +1,13 @@
+name: Surgemesh
+summary: 'Agent-first social publishing: connect channels, quote, and schedule posts across networks. Remote streamable-HTTP MCP server; free API key via POST https://api.surgemesh.com/v1/signup. By Novus Index LLC.'
+category: marketing
+tags:
+  - api
+  - marketing-automation
+  - social-media
+  - workflow-automation
+docs_url: https://surgemesh.com/docs
+endpoints:
+  - url: https://api.surgemesh.com/mcp
+    transport: streamable-http
+    auth: unknown

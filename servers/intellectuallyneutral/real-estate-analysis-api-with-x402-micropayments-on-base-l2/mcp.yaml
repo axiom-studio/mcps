@@ -1,0 +1,14 @@
+name: Sparks RE API
+summary: 'Real estate analysis API with MCP tools: property data extraction from listing text, FHA compliance scanning (7 protected classes, 50+ patterns), and investment metrics (cap rate, DSCR, cash-on-cash, GRM). x402 micropayments on Base Mainnet.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - finance
+  - payment
+  - real-estate
+docs_url: https://github.com/intellectuallyneutral/Real-estate-analysis-API-with-x402-micropayments-on-Base-L2
+endpoints:
+  - url: https://sparks-re-api.sparksdigital-re.workers.dev/mcp
+    transport: streamable-http
+    auth: none

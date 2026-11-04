@@ -1,0 +1,13 @@
+name: CurlShot
+summary: 'Let your AI agent screenshot any web page: full page, mobile, dark mode, PDF or video. Remote MCP server for the CurlShot screenshot API.'
+category: web-scraping
+tags:
+  - browser-automation
+  - pdf
+  - testing-qa
+  - web-scraping
+docs_url: https://github.com/SergiuPogor/curlshot-mcp
+endpoints:
+  - url: https://curlshot.com/api/mcp
+    transport: streamable-http
+    auth: api-key

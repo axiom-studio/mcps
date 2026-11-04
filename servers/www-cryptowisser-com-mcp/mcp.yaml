@@ -1,0 +1,12 @@
+name: Cryptowisser News
+summary: 'Up-to-date crypto news from Cryptowisser''s newsroom: the latest headlines, news on any coin, company, person or event, this week''s biggest stories and full articles, all with source links.'
+category: finance
+tags:
+  - crypto
+  - news
+  - web-research
+docs_url: https://www.cryptowisser.com/mcp/
+endpoints:
+  - url: https://www.cryptowisser.com/mcp/server
+    transport: streamable-http
+    auth: none

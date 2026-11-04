@@ -1,0 +1,13 @@
+name: AAJ Marketing Engine
+summary: 'Deterministic marketing math for agents: unit economics, pipeline forecast, A/B significance, budget allocation and pricing engines, plus the method behind each. Hosted or local.'
+category: marketing
+tags:
+  - ai-agent
+  - analytics
+  - data-analysis
+  - marketing
+docs_url: https://github.com/sarojkjha/aaj-marketing-skills
+endpoints:
+  - url: https://aaj-engines-mcp.sarojkjha10.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

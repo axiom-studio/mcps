@@ -1,0 +1,13 @@
+name: fenbs
+summary: 'Project board where people and AI assistants are members with roles: tasks, decisions, testing and project rules, every change signed.'
+category: productivity
+tags:
+  - ai-agent
+  - collaboration
+  - project-management
+  - task-management
+docs_url: https://fenbs.ai/docs/mcp
+endpoints:
+  - url: https://fenbs.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

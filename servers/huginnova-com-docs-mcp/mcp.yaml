@@ -1,0 +1,13 @@
+name: Huginnova
+summary: AI search visibility for agencies and brands. MCP server with 32 tools for Claude, ChatGPT and Cursor — answers, sources, action plans, reputation and site readiness.
+category: marketing
+tags:
+  - ai-model
+  - analytics
+  - marketing
+  - seo
+docs_url: https://huginnova.com/docs/mcp
+endpoints:
+  - url: https://huginnova.com/api/mcp
+    transport: streamable-http
+    auth: unknown

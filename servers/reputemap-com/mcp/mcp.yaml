@@ -1,0 +1,14 @@
+name: ReputeMap
+summary: 'ReputeMap is an agentic reputation platform for multi-location brands: more Google reviews, AI replies you approve, 1–3★ alerts and reports, from $19/month.'
+category: marketing
+tags:
+  - analytics
+  - communication
+  - customer-ops
+  - marketing
+  - workflow-automation
+docs_url: https://github.com/reputemap-com/mcp
+endpoints:
+  - url: https://api.reputemap.com/mcp
+    transport: streamable-http
+    auth: api-key

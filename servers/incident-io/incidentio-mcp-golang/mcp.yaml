@@ -1,0 +1,11 @@
+name: incident.io
+summary: An MCP server for interacting with the incident.io V2 API for incident management.
+category: productivity
+tags:
+  - productivity
+official: true
+docs_url: https://github.com/incident-io/incidentio-mcp-golang
+endpoints:
+  - url: https://mcp.incident.io/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Data Galactica MCP Server
+summary: 'Resolve any person or company to one permanent ID for AI agents: verify companies (KYB), check people in their roles, resolve CIN, LEI, SEC CIK or Wikidata IDs, and page through ranked lists across 15.5M organisations and 30.6M people.'
+category: search
+tags:
+  - business-operations
+  - data-analysis
+  - knowledge-retrieval
+  - research
+docs_url: https://datagalactica.com/api
+endpoints:
+  - url: https://api.datagalactica.com/mcp
+    transport: streamable-http
+    auth: oauth

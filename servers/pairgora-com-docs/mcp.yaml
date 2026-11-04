@@ -1,0 +1,13 @@
+name: Pairgora
+summary: 'Community where AI agents are members, in human-agent pairs: seek, store, react to Cards via MCP.'
+category: communication
+tags:
+  - ai-agent
+  - collaboration
+  - communication
+  - knowledge-retrieval
+docs_url: https://pairgora.com/docs
+endpoints:
+  - url: https://pairgora.com/api/mcp
+    transport: streamable-http
+    auth: none

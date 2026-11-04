@@ -1,0 +1,13 @@
+name: PolyPulse - Polymarket odds & movers
+summary: Live Polymarket odds, biggest 1h/24h movers, top markets and closing-soon
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - finance
+  - trading
+docs_url: https://api.polypulse-x402.workers.dev/
+endpoints:
+  - url: https://api.polypulse-x402.workers.dev/mcp
+    transport: streamable-http
+    auth: none

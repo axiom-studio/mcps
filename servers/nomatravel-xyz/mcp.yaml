@@ -1,0 +1,11 @@
+name: Noma travel planner
+summary: Lets Claude, ChatGPT or Cursor list a traveller's trips, read itineraries and saved places, and add places or itinerary items.
+category: productivity
+tags:
+  - ai-agent
+  - productivity
+docs_url: https://nomatravel.xyz
+endpoints:
+  - url: https://grateful-horse-681.convex.site/mcp
+    transport: streamable-http
+    auth: oauth

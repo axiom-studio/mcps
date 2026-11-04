@@ -1,0 +1,13 @@
+name: PageLens Analytics
+summary: 'Ask your AI assistant about your website analytics: visitors, top pages, sources, funnels, revenue by source, and which AI crawlers and assistants read your site. Read-only, works with an API key from PageLens Analytics (pagelens.io).'
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - marketing
+  - web-research
+docs_url: https://pagelens.io/docs/api
+endpoints:
+  - url: https://app.pagelens.io/mcp
+    transport: streamable-http
+    auth: api-key

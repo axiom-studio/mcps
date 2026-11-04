@@ -1,0 +1,13 @@
+name: Mailcheer
+summary: 'Send transactional email and newsletter campaigns from an agent: subscribers, segments, suppression list, sending and stats — on one API key. Runs on Amazon SES, hosted in Europe.'
+category: communication
+tags:
+  - analytics
+  - communication
+  - email-automation
+  - marketing-automation
+docs_url: https://mailcheer.com/docs/api
+endpoints:
+  - url: https://mailcheer.com/api/mcp
+    transport: streamable-http
+    auth: api-key

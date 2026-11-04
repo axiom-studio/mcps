@@ -1,0 +1,14 @@
+name: Veyra (veyra.money)
+summary: 'Spending limits for AI agents that pay: non-custodial USDC on Base with per-payment and daily caps, approval bands and an allowlist, enforced server-side.'
+category: finance
+tags:
+  - ai-agent
+  - defi
+  - evm
+  - finance
+  - payment
+docs_url: https://github.com/zapxlabs/veyra-mcp
+endpoints:
+  - url: https://veyra.money/api/mcp
+    transport: streamable-http
+    auth: unknown

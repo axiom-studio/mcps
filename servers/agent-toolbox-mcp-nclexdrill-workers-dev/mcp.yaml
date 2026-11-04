@@ -1,0 +1,13 @@
+name: AgentToolbox
+summary: '13 free utility tools for AI agents: web text extraction, markdown/HTML conversion, hashing, encoding, UUIDs, date math, unit conversion, JSON formatting.'
+category: development
+tags:
+  - data-analysis
+  - development
+  - file-conversion
+  - web-scraping
+docs_url: https://agent-toolbox-mcp.nclexdrill.workers.dev
+endpoints:
+  - url: https://agent-toolbox-mcp.nclexdrill.workers.dev/mcp
+    transport: streamable-http
+    auth: none

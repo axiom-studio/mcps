@@ -1,0 +1,13 @@
+name: overflo.ws MCP
+summary: 'Public, read-only CVE tools over the Model Context Protocol: search CVEs, look up vendors and products, get CISA KEV exploitation status and EPSS scores, and check an open-source package for vulnerabilities and malicious releases in one call.'
+category: search
+tags:
+  - database
+  - knowledge-retrieval
+  - research
+  - security
+docs_url: https://mcp.overflo.ws
+endpoints:
+  - url: https://mcp.overflo.ws/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: compi
+summary: compi is a rules layer between your own AI agent, your wallet and Hyperliquid. Connect your agent through our MCP server at https://mcp.compi.ai/mcp (OAuth). Five read tools (status, limits, account, positions, market) and one propose tool; every proposed action is checked against your own rules on your device before anything is signed. Paper mode included. Join the waitlist at https://compi.ai, waitlist members get compi free for life.
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - finance
+  - trading
+docs_url: https://compi.ai
+endpoints:
+  - url: https://mcp.compi.ai/mcp
+    transport: streamable-http
+    auth: unknown

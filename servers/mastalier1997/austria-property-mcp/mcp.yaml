@@ -1,0 +1,13 @@
+name: Austria Property
+summary: Austrian property purchase costs, buy-to-let underwriting, rental income tax and MRG rent-cap checks. Every number is cited to its statute.
+category: finance
+tags:
+  - compliance
+  - data-analysis
+  - finance
+  - real-estate
+docs_url: https://github.com/mastalier1997/austria-property-mcp
+endpoints:
+  - url: https://austria-property-mcp.jan-mastalier.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: SentryDock
+summary: Search indexed news, monitor topics and receive signed JSON webhook alerts. OAuth or API key; uses your existing SentryDock plan.
+category: search
+tags:
+  - monitoring
+  - news
+  - notifications
+  - search
+docs_url: https://www.sentrydock.com/agents
+endpoints:
+  - url: https://www.sentrydock.com/mcp
+    transport: streamable-http
+    auth: oauth

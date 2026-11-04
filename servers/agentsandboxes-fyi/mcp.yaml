@@ -1,0 +1,13 @@
+name: AgentSandboxes
+summary: A neutral index of cloud sandboxes for AI agents, with source-linked specs, a free REST API and an MCP endpoint.
+category: search
+tags:
+  - ai-agent
+  - api
+  - cloud-infrastructure
+  - search
+docs_url: https://agentsandboxes.fyi
+endpoints:
+  - url: https://agentsandboxes.fyi/mcp
+    transport: streamable-http
+    auth: none

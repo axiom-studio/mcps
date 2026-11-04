@@ -1,0 +1,14 @@
+name: Seonix
+summary: 'Read your Seonix SEO project in AI agents: Site Health and fix plan, Search Console, keyword clusters, articles, draft scoring.'
+category: marketing
+tags:
+  - analytics
+  - content-creation
+  - google-analytics
+  - marketing
+  - seo
+docs_url: https://seonix.ai/mcp
+endpoints:
+  - url: https://api.seonix.ai/mcp
+    transport: streamable-http
+    auth: api-key

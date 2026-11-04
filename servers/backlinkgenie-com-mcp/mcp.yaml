@@ -1,0 +1,13 @@
+name: BacklinkGenie
+summary: 'Run link-building outreach from your AI assistant: find blog posts where your product fits, review and approve pitches, read replies and track won links.'
+category: marketing
+tags:
+  - communication
+  - marketing
+  - web-research
+  - workflow-automation
+docs_url: https://backlinkgenie.com/mcp/
+endpoints:
+  - url: https://app.backlinkgenie.com/mcp
+    transport: streamable-http
+    auth: oauth

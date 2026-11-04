@@ -1,0 +1,13 @@
+name: No Errands Sign
+summary: Get a PDF e-signed under ESIGN and UETA by up to 5 people, or sign it yourself, with a signed certificate. The agent quotes the price and waits for approval before sending. First self-sign is free. Remote MCP (streamable HTTP), API-key auth, US only.
+category: productivity
+tags:
+  - document
+  - pdf
+  - productivity
+  - workflow-automation
+docs_url: https://noerrands.com/how-to/get-a-document-signed-with-muse/?ref=mcpservers
+endpoints:
+  - url: https://api.noerrands.com/c/sign/mcp
+    transport: streamable-http
+    auth: api-key

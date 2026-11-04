@@ -1,0 +1,11 @@
+name: China Footnotes
+summary: 'Sourced, dated travel facts for first-time visitors to China: opening hours, tickets, booking and passport notes, getting there, notices and pre-trip topics. Read-only, no sign-in.'
+category: other
+tags:
+  - notes
+  - productivity
+docs_url: https://chinafootnotes.com/connect
+endpoints:
+  - url: https://chinafootnotes.com/mcp
+    transport: streamable-http
+    auth: none

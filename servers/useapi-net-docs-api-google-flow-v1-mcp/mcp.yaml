@@ -1,0 +1,13 @@
+name: Google Flow Agent MCP Server by useapi.net
+summary: 'Google Flow agent: chat that plans and makes Veo 3.1 videos and Nano Banana images, approvals, your own media. Third-party, paid ($15/month).'
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - media
+  - video
+docs_url: https://useapi.net/docs/api-google-flow-v1/mcp
+endpoints:
+  - url: https://api.useapi.net/v1/google-flow/mcp
+    transport: streamable-http
+    auth: api-key

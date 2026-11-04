@@ -1,0 +1,14 @@
+name: CrunchJunkie MCP
+summary: Query AI visibility and marketing reporting data from Claude, ChatGPT or Cursor. 45 OAuth-secured tools, read-only until you enable writes.
+category: marketing
+tags:
+  - ai-agent
+  - analytics
+  - data-analysis
+  - marketing
+  - seo
+docs_url: https://crunchjunkie.io/docs/mcp-connector
+endpoints:
+  - url: https://app.crunchjunkie.io/api/mcp/mcp
+    transport: streamable-http
+    auth: oauth

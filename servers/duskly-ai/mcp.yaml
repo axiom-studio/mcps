@@ -1,0 +1,12 @@
+name: Duskly
+summary: Day to dusk, virtual staging, declutter and more for listing photos. Each edit comes back with the unaltered original and disclosure wording.
+category: other
+tags:
+  - content-creation
+  - media
+  - real-estate
+docs_url: https://duskly.ai/
+endpoints:
+  - url: https://duskly.ai/mcp
+    transport: streamable-http
+    auth: none

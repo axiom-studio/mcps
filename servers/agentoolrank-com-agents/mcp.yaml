@@ -1,0 +1,13 @@
+name: AgentoolRank
+summary: Search and compare 600+ open-source AI agent tools (frameworks, coding agents, MCP servers, RAG, evals) ranked by live GitHub activity; get alternatives, stats, and list new tools.
+category: search
+tags:
+  - ai-agent
+  - development
+  - knowledge-retrieval
+  - search
+docs_url: https://agentoolrank.com/agents
+endpoints:
+  - url: https://agentoolrank.com/api/mcp
+    transport: streamable-http
+    auth: none

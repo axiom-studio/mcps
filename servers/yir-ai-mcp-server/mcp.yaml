@@ -1,0 +1,14 @@
+name: Yir Image & Video Generation
+summary: 'Generate images, videos and music from ChatGPT, Claude or Cursor: GPT Image, Nano Banana, Seedream, FLUX, Seedance, Veo, Kling and more through one API key, each job quoted before it runs.'
+category: design
+tags:
+  - ai-model
+  - api
+  - content-creation
+  - media
+  - video
+docs_url: https://yir.ai/mcp-server
+endpoints:
+  - url: https://gateway.yir.ai/mcp
+    transport: streamable-http
+    auth: oauth

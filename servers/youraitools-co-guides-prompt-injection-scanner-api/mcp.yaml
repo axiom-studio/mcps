@@ -1,0 +1,13 @@
+name: InjectScan
+summary: Scan text, web pages and MCP tool definitions for prompt injection before your agent reads them. We built it. Free MCP tool; paid calls use x402 USDC on Base.
+category: development
+tags:
+  - ai-agent
+  - crypto
+  - security
+  - web-scraping
+docs_url: https://youraitools.co/guides/prompt-injection-scanner-api
+endpoints:
+  - url: https://injectscan.agentgate.workers.dev/mcp
+    transport: streamable-http
+    auth: none

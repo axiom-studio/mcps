@@ -1,0 +1,13 @@
+name: Shareout
+summary: Publish HTML reports, proposals, and interactive pages, collect feedback, and publish revisions at the same link.
+category: productivity
+tags:
+  - collaboration
+  - content-creation
+  - document
+  - file-management
+docs_url: https://shareout.io/agents
+endpoints:
+  - url: https://shareout.io/mcp
+    transport: streamable-http
+    auth: oauth

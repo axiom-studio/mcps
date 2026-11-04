@@ -1,0 +1,14 @@
+name: WickedAPI
+summary: 'One MCP server for the whole Wicked suite (73 tools): trading and DeFi data, protocol health and token risk checks, wallet-based agent identity and reputation, a free tool-reliability registry with self-serve API keys, hallucination checks, and paid agent memory. x402-native with free tiers.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - defi
+  - finance
+  - trading
+docs_url: https://github.com/choaticpixels/wicked-mcp
+endpoints:
+  - url: https://mcp.wickedapi.com/mcp
+    transport: streamable-http
+    auth: unknown

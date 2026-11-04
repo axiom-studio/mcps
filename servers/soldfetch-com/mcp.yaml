@@ -1,0 +1,13 @@
+name: SoldFetch
+summary: Search eBay sold and active listings, browse categories, and retrieve item details for pricing and product research with explicit data-quality metadata.
+category: web-scraping
+tags:
+  - data-analysis
+  - ecommerce
+  - search
+  - web-scraping
+docs_url: https://soldfetch.com
+endpoints:
+  - url: https://soldfetch.com/api/mcp
+    transport: streamable-http
+    auth: api-key

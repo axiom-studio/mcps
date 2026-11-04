@@ -1,0 +1,14 @@
+name: Xenition
+summary: An AI workspace to create, edit and search documents, slides, spreadsheets, notes, boards, 3D models, create image , video and forms — all from one chat.
+category: productivity
+tags:
+  - ai-agent
+  - content-creation
+  - document
+  - productivity
+  - workflow-automation
+docs_url: https://xenition.com
+endpoints:
+  - url: https://api.xenition.com/mcp
+    transport: streamable-http
+    auth: oauth

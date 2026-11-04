@@ -1,0 +1,12 @@
+name: Tasks MCP
+summary: 'Let your AI assistant work on your Tasks boards: create and update tasks, comment and track time, only in the projects you choose.'
+category: productivity
+tags:
+  - productivity
+  - project-management
+  - task-management
+docs_url: https://thetasks.app/guides/mcp/
+endpoints:
+  - url: https://api.thetasks.app/mcp
+    transport: streamable-http
+    auth: oauth

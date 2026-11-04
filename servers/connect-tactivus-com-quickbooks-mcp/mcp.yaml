@@ -1,0 +1,13 @@
+name: Connect by Tactivus
+summary: 'QuickBooks Online MCP server for accounting firms: multi-company access, approvals, audit log.'
+category: finance
+tags:
+  - business-operations
+  - crm
+  - database
+  - finance
+docs_url: https://connect.tactivus.com/quickbooks-mcp
+endpoints:
+  - url: https://connect.tactivus.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Kestrel
+summary: Free, no-signup web page change monitor for AI agents. Watch any URL (HTML/JSON/RSS/text); check_watch tells you if it changed since last time and shows a short diff. MCP + HTTP, no key, no email.
+category: web-scraping
+tags:
+  - document
+  - documentation
+  - web-scraping
+docs_url: https://kestrel.perch-app.workers.dev/docs
+endpoints:
+  - url: https://kestrel.perch-app.workers.dev/mcp
+    transport: streamable-http
+    auth: none

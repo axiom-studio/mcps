@@ -1,0 +1,13 @@
+name: Essentras
+summary: 'Buy press coverage in 3,800+ vetted media outlets. Search by budget, authority and link policy, price a basket, and hand the buyer a checkout link. Read-only: the server never takes payment.'
+category: marketing
+tags:
+  - marketing
+  - media
+  - research
+  - seo
+docs_url: https://essentras.com/agents
+endpoints:
+  - url: https://essentras.com/api/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: Tuatara Decide
+summary: 'Tuatara Decide: train a text classifier from your labelled examples (2 to 255 labels) in about a minute, then label texts in milliseconds with a probability and an unsure flag. 94.09% on BANKING77 where the leading hosted classifier scored 92.40%; scorer and every prediction published. Your examples train only your classifier.'
+category: development
+tags:
+  - ai-model
+  - data-analysis
+  - development
+docs_url: https://cymetica.com/mcp/v1/decide
+endpoints:
+  - url: https://cymetica.com/mcp/v1/decide
+    transport: streamable-http
+    auth: unknown

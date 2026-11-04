@@ -1,0 +1,15 @@
+name: Your Next Tours
+summary: 'Prepare audio-guided tours from your AI assistant: turn a PDF or web page into a tour program, open trips, add guests and manage your tour website, with OAuth sign-in and scoped permissions.'
+category: productivity
+tags:
+  - audio
+  - document
+  - file-conversion
+  - productivity
+  - web-research
+docs_url: https://github.com/First-Point/your-next-tours-mcp
+website_url: https://yournext.tours
+endpoints:
+  - url: https://api.yournext.tours/api/mcp/guide
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: 'Staygreen: Uptime and Incident Monitoring'
+summary: 'Uptime and incident monitoring for apps built with coding agents. Ask your agent what''s broken: it reads status, uptime, response times, incident evidence and SSL and domain expiry. It can scan an app, set up its checks, status page and cron heartbeats in one call, add a monitor, pause monitors, and draft an incident update for you to publish. Sign in with OAuth or use a workspace API token.'
+category: development
+tags:
+  - ai-agent
+  - devops
+  - monitoring
+  - observability-incident
+docs_url: https://github.com/phuryn/staygreen
+endpoints:
+  - url: https://staygreen.io/mcp
+    transport: streamable-http
+    auth: oauth

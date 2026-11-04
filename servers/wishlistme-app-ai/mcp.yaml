@@ -1,0 +1,12 @@
+name: Wishlistme
+summary: Manage gift wishlists, reserve gifts on friends' lists and run a Secret Santa from a chat. OAuth sign-in, per-permission consent, no payments.
+category: productivity
+tags:
+  - ecommerce
+  - productivity
+  - social-media
+docs_url: https://wishlistme.app/ai
+endpoints:
+  - url: https://wishlistme.app/api/mcp
+    transport: streamable-http
+    auth: oauth

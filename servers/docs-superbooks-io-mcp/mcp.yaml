@@ -1,0 +1,13 @@
+name: SuperBooks MCP
+summary: 'Work with your SuperBooks books: transactions and categories, invoices, customers, receipts, time tracking and financial reports. Remote server with OAuth sign-in.'
+category: finance
+tags:
+  - document
+  - documentation
+  - identity
+  - security
+docs_url: https://docs.superbooks.io/mcp
+endpoints:
+  - url: https://app.superbooks.io/mcp
+    transport: streamable-http
+    auth: oauth

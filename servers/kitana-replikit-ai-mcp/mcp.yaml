@@ -1,0 +1,12 @@
+name: Kitana
+summary: 'Brand review for AI agents: score marketing images 0-100 against your brand kit across colour, typography, logo, layout and cross-asset coherence, with findings, history and run-to-run comparison.'
+category: design
+tags:
+  - ai-agent
+  - design
+  - marketing
+docs_url: https://kitana.replikit.ai/mcp
+endpoints:
+  - url: https://mcp.replikit.ai
+    transport: streamable-http
+    auth: oauth

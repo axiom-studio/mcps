@@ -1,0 +1,14 @@
+name: GigSoul x402 MCP Server
+summary: 'Pay-per-call MCP tools for AI agents: marketing, sales and research helpers plus delivery verification with acceptance receipts and an integration test lab. initialize and tools/list are free; tools/call is paid per call in USDC on Base via x402 ($0.005 to $2.00).'
+category: marketing
+tags:
+  - ai-agent
+  - marketing
+  - payment
+  - research
+  - sales
+docs_url: https://github.com/gigsoul-org/gigsoul-x402
+endpoints:
+  - url: https://api.gigsoul.com/mcp
+    transport: streamable-http
+    auth: unknown

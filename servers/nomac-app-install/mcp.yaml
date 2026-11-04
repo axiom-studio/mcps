@@ -1,0 +1,14 @@
+name: NoMac
+summary: 'A real cloud Mac with Xcode for your agent: start macOS, run commands, build and test iOS apps, ship to TestFlight.'
+category: development
+tags:
+  - cloud-infrastructure
+  - development
+  - devops
+  - mobile
+  - testing-qa
+docs_url: https://nomac.app/install
+endpoints:
+  - url: https://mcp.nomac.app/mcp
+    transport: streamable-http
+    auth: oauth

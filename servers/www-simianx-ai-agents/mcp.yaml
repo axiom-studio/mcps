@@ -1,0 +1,14 @@
+name: SimianX AI
+summary: Live multi-agent analysis and scored market news for US stocks and crypto, from SimianX AI.
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - finance
+  - news
+  - trading
+docs_url: https://www.simianx.ai/agents#mcp
+endpoints:
+  - url: https://service.simianx.ai/v1/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,12 @@
+name: Applystead
+summary: Search open jobs from employers' own career sites from ChatGPT, Claude or any MCP client. Job search needs no sign-in.
+category: search
+tags:
+  - productivity
+  - search
+  - web-scraping
+docs_url: https://applystead.com/developers
+endpoints:
+  - url: https://applystead.com/mcp
+    transport: streamable-http
+    auth: none

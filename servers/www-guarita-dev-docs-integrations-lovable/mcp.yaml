@@ -1,0 +1,13 @@
+name: Guarita
+summary: Security scans for AI-built web apps. Verify app ownership, find vulnerabilities, get evidence and AI-ready fix prompts, and request retests through MCP. OAuth authentication; scans require authorization from the app owner.
+category: development
+tags:
+  - ai-agent
+  - development
+  - security
+  - testing-qa
+docs_url: https://www.guarita.dev/docs/integrations/lovable
+endpoints:
+  - url: https://api.guarita.dev/mcp
+    transport: streamable-http
+    auth: oauth

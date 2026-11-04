@@ -1,0 +1,12 @@
+name: SERVIQO Agents
+summary: Register an agent, retrieve tracked Rhapsody links, and inspect aggregate attribution in a voluntary unpaid pilot. Public discovery and registration need no key; protected tools require tokens. Clicks are not verified readers.
+category: marketing
+tags:
+  - ai-agent
+  - analytics
+  - marketing
+docs_url: https://agents.serviqo.co/join.md
+endpoints:
+  - url: https://agents.serviqo.co/mcp
+    transport: streamable-http
+    auth: none

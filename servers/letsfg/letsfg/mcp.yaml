@@ -1,0 +1,10 @@
+name: LetsFG
+summary: Flights from hundreds of airlines, plus hotels. Nothing is booked until you approve by email. Checks every nearby airport, bag prices and each flight's on-time record, then books it for you.
+category: other
+tags:
+  - workflow-automation
+docs_url: https://github.com/LetsFG/LetsFG
+endpoints:
+  - url: https://letsfg.co/mcp
+    transport: streamable-http
+    auth: oauth

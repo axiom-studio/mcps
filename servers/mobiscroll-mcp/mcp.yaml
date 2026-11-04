@@ -1,0 +1,14 @@
+name: Mobiscroll MCP
+summary: Version-stamped API knowledge for Mobiscroll UI — scheduler, event calendar, timeline and pickers — plus the Connect calendar API. 14 read-only tools.
+category: development
+tags:
+  - api
+  - development
+  - documentation
+official: true
+registry_name: com.mobiscroll/mcp
+docs_url: https://mobiscroll.com/docs/react/guides/ai-integration
+endpoints:
+  - url: https://mcp.mobiscroll.com
+    transport: streamable-http
+    auth: none

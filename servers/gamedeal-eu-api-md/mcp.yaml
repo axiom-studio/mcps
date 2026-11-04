@@ -1,0 +1,13 @@
+name: GameDeal
+summary: 'Search PC games and compare current offers and price history through GameDeal. Remote public MCP endpoint: https://gamedeal.eu/api/mcp'
+category: search
+tags:
+  - data-analysis
+  - ecommerce
+  - gaming
+  - search
+docs_url: https://gamedeal.eu/api.md
+endpoints:
+  - url: https://gamedeal.eu/api/mcp
+    transport: streamable-http
+    auth: none

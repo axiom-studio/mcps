@@ -1,0 +1,13 @@
+name: Diffio
+summary: 'Restore speech in audio and video recordings: reduce background noise, play and mix restored audio, read timestamped transcripts. Remote server at https://diffio.ai/mcp with OAuth.'
+category: other
+tags:
+  - audio
+  - media
+  - text-to-speech
+  - video
+docs_url: https://diffio.ai/
+endpoints:
+  - url: https://diffio.ai/mcp
+    transport: streamable-http
+    auth: oauth

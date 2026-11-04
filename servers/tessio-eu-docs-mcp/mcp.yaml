@@ -1,0 +1,13 @@
+name: Tessio age verification stats
+summary: 'Ask an AI assistant how your EU age checks are going. It reads Tessio.Cloud stats over MCP: pass rate against the previous period, trends, refusal reasons, the funnel and grouped outcomes. A stats:read key can never start a check or change a setting.'
+category: development
+tags:
+  - analytics
+  - business-operations
+  - compliance
+  - data-analysis
+docs_url: https://tessio.eu/docs/mcp/
+endpoints:
+  - url: https://api.tessio.eu/mcp
+    transport: streamable-http
+    auth: api-key

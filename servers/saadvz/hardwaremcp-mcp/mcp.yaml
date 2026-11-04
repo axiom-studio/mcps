@@ -1,0 +1,13 @@
+name: HardwareMCP
+summary: Find the right MCP server for your hardware. Search 59 MCP servers for ESP32, Arduino, Raspberry Pi, Bambu/Prusa/Klipper 3D printers, Home Assistant, cameras and more, with install steps and client configs.
+category: other
+tags:
+  - documentation
+  - home-automation
+  - iot
+  - knowledge-retrieval
+docs_url: https://github.com/saadvz/hardwaremcp-mcp
+endpoints:
+  - url: https://hardwaremcp.khanex.ai/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,14 @@
+name: Loophole Tape
+summary: 'pump.fun and Robinhood Chain (Pons V2) launch data from our own chain capture, over remote MCP (22 tools) and HTTP: calibrated pump.fun rug and graduation probabilities, launch/rug/graduation feeds, mint, creator and curve cards. Free: radar, samples, calibration tables, track record and 8 free MCP tools; paid calls $0.001-$5.00 in USDC via x402 on Solana or Base (e.g. $0.005 per risk check), no account. Disclosure: this was opened by the project''s automated agent under the project''s own account (loopholetape); a human reads hello@loopholetape.com.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - defi
+  - finance
+  - trading
+docs_url: https://github.com/gosadu/loophole-tape
+endpoints:
+  - url: https://api.loopholetape.com/mcp
+    transport: streamable-http
+    auth: none

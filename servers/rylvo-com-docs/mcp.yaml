@@ -1,0 +1,14 @@
+name: Rylvo
+summary: 'Build, run and manage AI agents in your Rylvo workspace: bots, prompts, guardrails, knowledge bases, channels, tests and flows.'
+category: development
+tags:
+  - ai-agent
+  - development
+  - knowledge-retrieval
+  - testing-qa
+  - workflow-automation
+docs_url: https://rylvo.com/docs#access-model
+endpoints:
+  - url: https://rylvo.com/mcp
+    transport: streamable-http
+    auth: oauth

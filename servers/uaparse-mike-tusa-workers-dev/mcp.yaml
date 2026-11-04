@@ -1,0 +1,13 @@
+name: UAParse
+summary: Parse a User-Agent string into browser, engine, OS, device type and CPU, and flag known bots, search crawlers, AI crawlers and AI agents that identify themselves in the User-Agent. One read-only tool, parse_user_agent; no API key needed for light use. Matches are by User-Agent only and can be spoofed.
+category: development
+tags:
+  - browser-automation
+  - development
+  - testing-qa
+  - web-research
+docs_url: https://uaparse.mike-tusa.workers.dev/
+endpoints:
+  - url: https://uaparse.mike-tusa.workers.dev/mcp
+    transport: streamable-http
+    auth: none

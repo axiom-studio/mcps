@@ -1,0 +1,13 @@
+name: easySales
+summary: Remote MCP server for easySales, the sales and billing system for small businesses. Search and read accounts, contacts, leads, quotations, invoices, receipts and credit notes; create or update records after a confirmed preview. OAuth sign-in, respects each user's permissions.
+category: productivity
+tags:
+  - crm
+  - finance
+  - productivity
+  - sales
+docs_url: https://easysales.work/help/ai-access/connect-an-assistant/
+endpoints:
+  - url: https://app.easysales.work/mcp
+    transport: streamable-http
+    auth: oauth

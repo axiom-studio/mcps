@@ -1,0 +1,14 @@
+name: Supplementscanner
+summary: Search and compare supplements across shops using current prices, product details and quality attributes.
+category: search
+tags:
+  - ecommerce
+  - healthcare
+  - search
+official: true
+registry_name: io.github.supplementscanner/scanner
+docs_url: https://supplementscanner.eu
+endpoints:
+  - url: https://mcp.supplementscanner.eu
+    transport: streamable-http
+    auth: none

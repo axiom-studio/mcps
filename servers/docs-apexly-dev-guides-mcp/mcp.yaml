@@ -1,0 +1,13 @@
+name: Apexly
+summary: Add, check, diagnose and remove your SaaS customers' custom domains from any MCP client.
+category: development
+tags:
+  - api
+  - business-operations
+  - development
+  - devops
+docs_url: https://docs.apexly.dev/guides/mcp
+endpoints:
+  - url: https://mcp.apexly.dev/mcp
+    transport: streamable-http
+    auth: unknown

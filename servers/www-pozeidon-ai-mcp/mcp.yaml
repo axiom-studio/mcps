@@ -1,0 +1,14 @@
+name: Pozeidon
+summary: One MCP server for mobile game user acquisition across Meta, Google Ads, AppLovin, Unity, Mintegral, TikTok and Moloco, by Bubbleye Ltd. Ask about creative and campaign performance, and ask Pozeidon to prepare changes such as uploading, adding or rotating creatives. Every change becomes a confirmation card in the Pozeidon web app, and nothing happens on any network until a person approves it. Works from Claude, ChatGPT, Claude Code, VS Code and OpenAI Codex (OAuth sign-in).
+category: marketing
+tags:
+  - advertising
+  - ai-agent
+  - marketing
+  - mobile
+  - workflow-automation
+docs_url: https://www.pozeidon.ai/mcp
+endpoints:
+  - url: https://pozeidon.ai/mcp
+    transport: streamable-http
+    auth: oauth

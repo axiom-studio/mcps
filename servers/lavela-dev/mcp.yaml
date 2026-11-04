@@ -1,0 +1,13 @@
+name: lavela
+summary: 'Deploy an app from a GitHub repo to a live server from chat, and check on it afterwards: status, logs, health, domain and email. Remote MCP server (beta), sign-in with a lavela account.'
+category: cloud-service
+tags:
+  - deployment
+  - devops
+  - github
+  - monitoring
+docs_url: https://lavela.dev
+endpoints:
+  - url: https://console.lavela.dev/api/mcp
+    transport: streamable-http
+    auth: oauth

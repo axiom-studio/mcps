@@ -1,0 +1,12 @@
+name: Cayman Job Finder
+summary: Current job vacancies in the Cayman Islands, with links to the job page and the official advert.
+category: search
+tags:
+  - marketplace
+  - search
+  - web-research
+docs_url: https://caymanjobfinder.com
+endpoints:
+  - url: https://caymanjobfinder.com/api/mcp
+    transport: streamable-http
+    auth: none

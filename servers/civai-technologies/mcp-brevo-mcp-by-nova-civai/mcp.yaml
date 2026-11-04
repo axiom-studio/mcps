@@ -1,0 +1,13 @@
+name: Brevo by Nova (CIVAI)
+summary: Campaigns, contacts, and CRM via Brevo’s official MCP.
+category: communication
+tags:
+  - communication
+  - crm
+  - email-automation
+  - marketing-automation
+docs_url: https://github.com/civai-technologies/mcp-brevo-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-brevo
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: CosVoice
+summary: CosVoice gives your AI Chief of Staff (Grok Bot, Claude, ChatGPT, Cursor) a real US phone number and email. It calls, answers, and sends written summaries. Connect via https://cosvoice.com/mcp — from $29/mo.
+category: communication
+tags:
+  - ai-agent
+  - audio
+  - communication
+  - email-automation
+docs_url: https://github.com/CosVoice/cosvoice-mcp
+endpoints:
+  - url: https://cosvoice.com/mcp
+    transport: streamable-http
+    auth: unknown

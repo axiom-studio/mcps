@@ -1,0 +1,13 @@
+name: Liminality (Liminal MCP)
+summary: Breaks a question into checkable sub-questions, grounds each one, and returns an answer that marks what it couldn't confirm.
+category: development
+tags:
+  - ai-agent
+  - data-analysis
+  - knowledge-retrieval
+  - research
+docs_url: https://github.com/jaybro2042-alt/liminality-mcp
+endpoints:
+  - url: https://liminality.physea.ai/mcp
+    transport: streamable-http
+    auth: api-key

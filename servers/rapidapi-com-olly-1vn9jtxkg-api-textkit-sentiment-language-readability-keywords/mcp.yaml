@@ -1,0 +1,13 @@
+name: TextKit
+summary: Sentiment, language detection, readability, keywords, summaries and profanity filtering. Free tier, RapidAPI key.
+category: other
+tags:
+  - api
+  - content-creation
+  - data-analysis
+  - research
+docs_url: https://rapidapi.com/Olly-1VN9JTXKG/api/textkit-sentiment-language-readability-keywords
+endpoints:
+  - url: https://textkit-sentiment-language-readability-keywords.p.rapidapi.com/mcp
+    transport: streamable-http
+    auth: api-key

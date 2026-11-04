@@ -1,0 +1,13 @@
+name: Sortefi
+summary: Sortefi turns a trading screen written in plain English into a list of matching symbols, across US stocks, India (NSE), ETFs, forex and crypto perpetuals.
+category: finance
+tags:
+  - crypto
+  - finance
+  - search
+  - trading
+docs_url: https://www.sortefi.com/docs/chatgpt-claude
+endpoints:
+  - url: https://mcp.sortefi.com/mcp
+    transport: streamable-http
+    auth: oauth

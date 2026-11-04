@@ -1,0 +1,12 @@
+name: Hash Encoding Direct Credits
+summary: SHA-256, SHA-512, HMAC-SHA256, Base64 and JWT decode tools with prepaid direct Base USDC credits.
+category: development
+tags:
+  - crypto
+  - development
+  - security
+docs_url: https://hash-encoding-001d.qqqa16521-dce.workers.dev/openapi.json
+endpoints:
+  - url: https://hash-encoding-001d.qqqa16521-dce.workers.dev/mcp
+    transport: streamable-http
+    auth: api-key

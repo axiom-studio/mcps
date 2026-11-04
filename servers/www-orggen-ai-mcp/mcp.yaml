@@ -1,0 +1,13 @@
+name: OrgGen AI
+summary: The human-agent interface for your projects. You prioritize and decide; your AI agents pull tasks, raise decisions instead of stalling on questions, and keep diagrams current. Free plan includes MCP with an account.
+category: productivity
+tags:
+  - ai-agent
+  - productivity
+  - task-management
+  - workflow-automation
+docs_url: https://www.orggen.ai/mcp
+endpoints:
+  - url: https://www.orggen.ai/api/mcp
+    transport: streamable-http
+    auth: api-key

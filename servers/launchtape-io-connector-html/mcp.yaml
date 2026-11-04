@@ -1,0 +1,13 @@
+name: Launch Tape
+summary: 'Recorded pump fun (Solana memecoin) graduation data: each day''s graduates, first 30 minutes of trades, wallets, outcomes. Free tools plus paid tools with a buyer key.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - finance
+  - trading
+docs_url: https://launchtape.io/connector.html
+endpoints:
+  - url: https://launchtape.io/mcp
+    transport: streamable-http
+    auth: none

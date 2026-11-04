@@ -1,0 +1,12 @@
+name: InvoiceVista Invoicing
+summary: See revenue, unpaid invoices, open quotes and your product catalog for each of your businesses.
+category: finance
+tags:
+  - business-operations
+  - data-analysis
+  - finance
+docs_url: https://www.invoicevista.com/developers/#mcp
+endpoints:
+  - url: https://mcp.invoicevista.com/mcp
+    transport: streamable-http
+    auth: oauth

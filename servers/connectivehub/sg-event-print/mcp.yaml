@@ -1,0 +1,12 @@
+name: Singapore Buying Desk
+summary: Firm SGD quotes and delivery in Singapore for office and IT supplies, ink, toner and event print.
+category: productivity
+tags:
+  - business-operations
+  - ecommerce
+  - productivity
+docs_url: https://github.com/connectivehub/sg-event-print
+endpoints:
+  - url: https://mcp.connective-labs.com/sg-buying-desk
+    transport: streamable-http
+    auth: none

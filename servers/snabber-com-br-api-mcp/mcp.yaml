@@ -1,0 +1,12 @@
+name: Snabber
+summary: Brazilian personal and business finance app with Open Finance. Ask Claude or ChatGPT about spending, credit card bills, installments and investments, and let it log or recategorize transactions (opt-in write, undo for 30 days).
+category: finance
+tags:
+  - ai-agent
+  - data-analysis
+  - finance
+docs_url: https://snabber.com.br/api-mcp
+endpoints:
+  - url: https://snabber.com.br/api/mcp
+    transport: streamable-http
+    auth: oauth

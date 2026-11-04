@@ -1,0 +1,12 @@
+name: Marcel
+summary: Your AI agent for real-world introductions. Create your profile through your AI and join the waitlist. Introductions are coming later. OAuth sign-in required.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - productivity
+docs_url: https://marcelme.com
+endpoints:
+  - url: https://mcp.marcelme.dev/mcp
+    transport: streamable-http
+    auth: oauth

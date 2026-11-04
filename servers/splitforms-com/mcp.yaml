@@ -1,0 +1,10 @@
+name: Split Forms MCP
+summary: 'Hosted MCP server for Split Forms, the free contact form backend: let AI agents manage forms and read spam-filtered submissions.'
+category: productivity
+tags:
+  - productivity
+docs_url: https://splitforms.com
+endpoints:
+  - url: https://splitforms.com/api/mcp
+    transport: streamable-http
+    auth: unknown

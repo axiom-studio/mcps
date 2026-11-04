@@ -1,0 +1,13 @@
+name: Vitalityfit MCP
+summary: With the Vitalityfit MCP server, an AI assistant (e.g. Claude or ChatGPT) can look up the cheapest offers for a specific product and pack size from German online shops and pharmacies — searching by name, PZN or EAN. The server is public, read-only, free and requires no login.
+category: search
+tags:
+  - ecommerce
+  - healthcare
+  - productivity
+  - search
+docs_url: https://vitality-fit.de/mcp/
+endpoints:
+  - url: https://vitality-fit.de/mcp
+    transport: streamable-http
+    auth: none

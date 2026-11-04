@@ -1,0 +1,12 @@
+name: Receipt Audit
+summary: Checks receipts and invoices for AI generation, edits and resubmission, with proof you can re-check.
+category: finance
+tags:
+  - compliance
+  - document
+  - finance
+docs_url: https://receiptaudit.com/mcp-server
+endpoints:
+  - url: https://receiptaudit.com/mcp
+    transport: streamable-http
+    auth: api-key

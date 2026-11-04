@@ -1,0 +1,13 @@
+name: RedirX
+summary: Map old site URLs to new ones during a migration, review proposals and export approved redirects.
+category: marketing
+tags:
+  - marketing
+  - seo
+  - web-research
+  - workflow-automation
+docs_url: https://redirx.dev/?utm_source=mcpservers.org&utm_medium=directory
+endpoints:
+  - url: https://redirx-mcp-server.onrender.com/mcp
+    transport: streamable-http
+    auth: oauth

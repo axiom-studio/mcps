@@ -1,0 +1,13 @@
+name: Numonic
+summary: Search, organize, and publish AI-generated images and video with provenance and lineage.
+category: cloud-storage
+tags:
+  - cloud-storage
+  - content-creation
+  - media
+  - search
+docs_url: https://www.numonic.ai/docs/api/mcp
+endpoints:
+  - url: https://www.numonic.ai/mcp
+    transport: streamable-http
+    auth: oauth

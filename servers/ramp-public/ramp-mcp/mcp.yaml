@@ -1,0 +1,13 @@
+name: Ramp
+summary: Interact with Ramp's Developer API to run analysis on your spend and gain insights leveraging LLMs
+category: productivity
+tags:
+  - api
+  - data-analysis
+  - finance
+official: true
+docs_url: https://github.com/ramp-public/ramp-mcp
+endpoints:
+  - url: https://mcp.ramp.com/mcp
+    transport: streamable-http
+    auth: oauth

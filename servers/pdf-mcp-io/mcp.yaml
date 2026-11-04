@@ -1,0 +1,13 @@
+name: pdf-mcp.io
+summary: Standardized PDF MCP Server for working with PDFs. Brings PDF generation tools but also tools to work with PDFs, like pdf-grep or split and merging pdfs with your Agents.
+category: productivity
+tags:
+  - document
+  - file-management
+  - pdf
+  - productivity
+docs_url: https://pdf-mcp.io
+endpoints:
+  - url: https://api.pdf-mcp.io/mcp
+    transport: streamable-http
+    auth: oauth

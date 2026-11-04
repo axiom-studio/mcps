@@ -1,0 +1,13 @@
+name: VettedHome property guides
+summary: UK guides to property problems and home energy decisions. Search the guide index by topic. Read-only, no key needed.
+category: other
+tags:
+  - home-automation
+  - real-estate
+  - search
+  - web-research
+docs_url: https://vettedhome.co.uk/api/
+endpoints:
+  - url: https://vettedhome.co.uk/mcp
+    transport: streamable-http
+    auth: none

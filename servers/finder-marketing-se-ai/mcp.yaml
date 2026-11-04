@@ -1,0 +1,12 @@
+name: 'Finder: local tradespeople'
+summary: Find local tradespeople connected in a town and prepare a quote request link.
+category: search
+tags:
+  - business-operations
+  - marketplace
+  - search
+docs_url: https://finder-marketing.se/ai
+endpoints:
+  - url: https://mcp.finder-marketing.se/mcp
+    transport: streamable-http
+    auth: none

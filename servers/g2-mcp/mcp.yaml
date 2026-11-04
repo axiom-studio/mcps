@@ -1,0 +1,18 @@
+name: G2
+summary: G2 is a software marketplace and peer-review platform. Its remote MCP server brings real-time Buyer Intent, competitive-interest, and review-sentiment signals into assistant workflows for account prioritization, outreach, messaging, and market analysis.
+description: |-
+  G2 is a software marketplace and peer-review platform. Its remote MCP server brings real-time Buyer Intent, competitive-interest, and review-sentiment signals into assistant workflows for account prioritization, outreach, messaging, and market analysis.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://documentation.g2.com/docs/g2-mcp-server)
+category: marketing
+tags:
+  - marketing
+  - remote-mcp
+official: true
+docs_url: https://documentation.g2.com/docs/g2-mcp-server
+endpoints:
+  - url: https://mcp.g2.com/mcp
+    transport: streamable-http
+    auth: oauth

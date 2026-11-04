@@ -1,0 +1,13 @@
+name: Dedox
+summary: Remote MCP server for Dedox help centres. Let Claude Desktop, Cursor and other MCP clients search, read and draft help centre articles. Beta.
+category: productivity
+tags:
+  - content-creation
+  - documentation
+  - knowledge-retrieval
+  - productivity
+docs_url: https://dedox.ai/mcp
+endpoints:
+  - url: https://api.dedox.ai/mcp
+    transport: streamable-http
+    auth: unknown

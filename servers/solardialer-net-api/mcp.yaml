@@ -1,0 +1,13 @@
+name: SolarDialer
+summary: 'AI dialer: add and find leads, list campaigns, and have the AI agent call a lead now.'
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - crm
+  - sales
+docs_url: https://solardialer.net/api?utm_source=mcpservers#mcp
+endpoints:
+  - url: https://solardialer.net/mcp
+    transport: streamable-http
+    auth: oauth

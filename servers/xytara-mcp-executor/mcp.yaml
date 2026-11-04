@@ -1,0 +1,16 @@
+name: xytara MCP Executor
+summary: Pay-per-call MCP tools for agents, settled with x402 (USDC on Base mainnet). 17 tools — text/data utilities plus x402/EVM-native. No API keys.
+category: development
+tags:
+  - ai-agent
+  - crypto
+  - development
+  - evm
+  - payment
+official: true
+registry_name: com.naxytra/xytara-mcp-executor
+docs_url: https://www.naxytra.com/agents
+endpoints:
+  - url: https://xytara-mcp-executor.onrender.com/mcp
+    transport: streamable-http
+    auth: none

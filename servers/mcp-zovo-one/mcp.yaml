@@ -1,0 +1,14 @@
+name: zovo.one MCP Server Suite
+summary: '43 business document MCP servers: invoices, spreadsheets, statements, checklists, leave and onboarding trackers, and more. Make real, sendable PDFs and files from a sentence. Local-first storage.'
+category: finance
+tags:
+  - document
+  - file-conversion
+  - pdf
+  - productivity
+  - workflow-automation
+docs_url: https://mcp.zovo.one
+endpoints:
+  - url: https://mcp.zovo.one/mcp/invoice
+    transport: streamable-http
+    auth: unknown

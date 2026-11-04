@@ -1,0 +1,13 @@
+name: ImmoDocs MCP
+summary: Suchen und Finden von zusätndigen Ämtern, Dokumentenbeschaffung wie Grundbuchauszug oder Flurkarte in ganz Deutschland
+category: search
+tags:
+  - document
+  - geospatial
+  - government
+  - search
+docs_url: https://immodocs.com/ki-assistenten
+endpoints:
+  - url: https://immodocs.com/mcp
+    transport: streamable-http
+    auth: none

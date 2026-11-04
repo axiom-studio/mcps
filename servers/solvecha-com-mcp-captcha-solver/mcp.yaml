@@ -1,0 +1,12 @@
+name: Solvecha
+summary: Hosted MCP server that solves reCAPTCHA v2 image grids, text captchas, GeeTest sliders and FunCAPTCHA for AI agents; free tier included.
+category: web-scraping
+tags:
+  - ai-agent
+  - browser-automation
+  - web-scraping
+docs_url: https://solvecha.com/mcp-captcha-solver
+endpoints:
+  - url: https://api.solvecha.com/mcp
+    transport: streamable-http
+    auth: unknown

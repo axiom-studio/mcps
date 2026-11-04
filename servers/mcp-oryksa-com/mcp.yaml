@@ -1,0 +1,13 @@
+name: ORYKSA AI Employees
+summary: 'Adds an AI customer support employee to the website you are building with Claude Code, Codex or Cursor: it learns the whole site (pages, prices, FAQ), then answers visitors by chat and voice, and later on WhatsApp, Telegram and phone. Remote MCP with OAuth.'
+category: productivity
+tags:
+  - ai-agent
+  - chatbot
+  - communication
+  - customer-ops
+docs_url: https://mcp.oryksa.com
+endpoints:
+  - url: https://mcp.oryksa.com
+    transport: streamable-http
+    auth: oauth

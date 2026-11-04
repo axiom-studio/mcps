@@ -1,0 +1,14 @@
+name: GoCons
+summary: Manage consultancy contracts, tasks, milestones, invoices and documents from Claude, ChatGPT or VS Code. Role-based access, OAuth sign-in, included on the Free plan.
+category: productivity
+tags:
+  - business-operations
+  - document
+  - finance
+  - project-management
+  - task-management
+docs_url: https://gocons.eu/en/Home/MCP
+endpoints:
+  - url: https://gocons.eu/mcp
+    transport: streamable-http
+    auth: oauth

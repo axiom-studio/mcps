@@ -1,0 +1,13 @@
+name: PayPerFax
+summary: 'Prepare and track faxes from your AI assistant: fax a letter the assistant writes, or upload a PDF, signed form or scan. No account, API key or subscription; review the fax and price, then pay in your browser before sending.'
+category: communication
+tags:
+  - communication
+  - document
+  - file-management
+  - payment
+docs_url: https://github.com/payperfax/fax-mcp
+endpoints:
+  - url: https://fax.payperfax.com/mcp
+    transport: streamable-http
+    auth: none

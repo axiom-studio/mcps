@@ -1,0 +1,13 @@
+name: Skryvo
+summary: Write, schedule and measure social posts in your brand's voice on LinkedIn, X, Bluesky, Mastodon, Telegram, Discord and more; every post waits for your go-ahead
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://github.com/Skryvo/agent
+endpoints:
+  - url: https://api.skryvo.ai/mcp
+    transport: streamable-http
+    auth: oauth

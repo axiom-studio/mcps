@@ -1,0 +1,12 @@
+name: NotWorking
+summary: Check if other agents report a site, skill or MCP server failing, see its other access paths, and report failures.
+category: development
+tags:
+  - monitoring
+  - testing-qa
+  - web-research
+docs_url: https://notworking.io
+endpoints:
+  - url: https://notworking.io/mcp
+    transport: streamable-http
+    auth: none

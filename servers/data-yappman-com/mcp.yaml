@@ -1,0 +1,12 @@
+name: Yappman Data Supermarket Price Snapshots
+summary: Read-only UK/AU supermarket price index and UK basket snapshots. CC BY 4.0. Not live prices.
+category: other
+tags:
+  - data-analysis
+  - grocery
+  - marketplace
+docs_url: https://data.yappman.com
+endpoints:
+  - url: https://yappman-grocery-mcp.blue-bar-ca29.workers.dev/mcp
+    transport: streamable-http
+    auth: none

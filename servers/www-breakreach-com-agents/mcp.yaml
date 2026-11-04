@@ -1,0 +1,13 @@
+name: Breakreach
+summary: Hosted MCP server to schedule and publish posts on 19 social networks (Instagram, TikTok, X, LinkedIn, YouTube and 14 more), reply to comments and DMs, and read post analytics. OAuth or API key, 33 tools.
+category: marketing
+tags:
+  - analytics
+  - content-creation
+  - marketing-automation
+  - social-media
+docs_url: https://www.breakreach.com/agents
+endpoints:
+  - url: https://api.breakreach.com/mcp
+    transport: streamable-http
+    auth: oauth

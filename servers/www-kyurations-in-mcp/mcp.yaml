@@ -1,0 +1,13 @@
+name: Kyurations
+summary: Search, read and organize your own saved links and collections from Claude, Cursor or any MCP client.
+category: productivity
+tags:
+  - file-management
+  - knowledge-retrieval
+  - productivity
+  - search
+docs_url: https://www.kyurations.in/mcp
+endpoints:
+  - url: https://www.kyurations.in/api/mcp
+    transport: streamable-http
+    auth: oauth

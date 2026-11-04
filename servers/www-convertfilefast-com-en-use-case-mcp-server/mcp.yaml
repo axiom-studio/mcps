@@ -1,0 +1,13 @@
+name: ConvertFileFast
+summary: Convert documents, images and data files between formats, and merge, split, compress or protect PDFs. Hosted remote endpoint or local install via uvx/npx; conversions need an API key.
+category: file-system
+tags:
+  - cloud-storage
+  - document
+  - file-conversion
+  - pdf
+docs_url: https://www.convertfilefast.com/en/use-case/mcp-server
+endpoints:
+  - url: https://mcp.convertfilefast.com/mcp
+    transport: streamable-http
+    auth: api-key

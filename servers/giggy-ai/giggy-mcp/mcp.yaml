@@ -1,0 +1,12 @@
+name: Giggy Speech MCP
+summary: 'Remote MCP server for adding Giggy voice AI to compatible clients: free Batch TTS/STT and aggressively priced streaming TTS at $10 per million characters and STT at $0.08 per input audio hour. API key required.'
+category: development
+tags:
+  - ai-model
+  - audio
+  - text-to-speech
+docs_url: https://github.com/giggy-ai/giggy-mcp
+endpoints:
+  - url: https://giggy.ai/mcp
+    transport: streamable-http
+    auth: api-key

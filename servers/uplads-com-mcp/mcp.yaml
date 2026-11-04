@@ -1,0 +1,13 @@
+name: uplads
+summary: Ads MCP server for Meta, Google Ads, TikTok, Snapchat and LinkedIn. Stage launches and manage campaigns from Claude or ChatGPT.
+category: marketing
+tags:
+  - advertising
+  - marketing
+  - marketing-automation
+  - social-media
+docs_url: https://uplads.com/mcp
+endpoints:
+  - url: https://uplads.com/api/mcp
+    transport: streamable-http
+    auth: oauth

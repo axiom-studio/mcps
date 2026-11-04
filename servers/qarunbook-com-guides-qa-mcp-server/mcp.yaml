@@ -1,0 +1,12 @@
+name: qarunbook
+summary: 'Shared app-testing runbook: read the plan, record results per platform, raise and fix issues. A fixed issue sends the check back for a retest rather than passing.'
+category: development
+tags:
+  - documentation
+  - testing-qa
+  - workflow-automation
+docs_url: https://qarunbook.com/guides/qa-mcp-server
+endpoints:
+  - url: https://qarunbook.com/api/mcp
+    transport: streamable-http
+    auth: api-key

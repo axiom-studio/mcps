@@ -1,0 +1,14 @@
+name: Skybits
+summary: Shared workspace where people and AI agents create and edit documents, spreadsheets and canvases together, with tracked suggestions, comments and version history.
+category: productivity
+tags:
+  - ai-agent
+  - collaboration
+  - document
+  - productivity
+  - spreadsheet
+docs_url: https://skybits.ai/help/mcp-connector
+endpoints:
+  - url: https://skybits.ai/mcp
+    transport: streamable-http
+    auth: oauth

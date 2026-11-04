@@ -1,0 +1,13 @@
+name: Biohacking Kompakt
+summary: 'Evidence-rated database (German) of 280+ supplements, peptides and longevity methods: BK score, study sources, podcast episodes.'
+category: other
+tags:
+  - database
+  - healthcare
+  - knowledge-retrieval
+  - research
+docs_url: https://biohackingkompakt.de
+endpoints:
+  - url: https://mcp.biohackingkompakt.de/mcp
+    transport: streamable-http
+    auth: none

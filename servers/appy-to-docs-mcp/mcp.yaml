@@ -1,0 +1,13 @@
+name: Appy Smart Links
+summary: Create and update smart links, compare campaign clicks, and inspect custom domains from AI assistants; hosted MCP with API-key access on Business and Enterprise, plus install attribution on Enterprise.
+category: marketing
+tags:
+  - analytics
+  - api
+  - marketing
+  - marketing-automation
+docs_url: https://appy.to/docs/mcp
+endpoints:
+  - url: https://mcp.appy.to
+    transport: streamable-http
+    auth: api-key

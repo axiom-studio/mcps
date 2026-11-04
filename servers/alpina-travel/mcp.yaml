@@ -1,0 +1,12 @@
+name: Alpina.travel
+summary: KG-powered alpine holiday concierge for Lungau, Austria. Agents can search places, tours and curated apartments, check live availability and EUR quotes, and hand the traveller to the property's booking page. No-auth public MCP over SSE, NLWeb /ask, UCP booking sessions, ACP product feed, llms.txt. Built by WordLift.
+category: other
+tags:
+  - ai-agent
+  - knowledge-graph
+  - web-research
+docs_url: https://alpina.travel
+endpoints:
+  - url: https://alpina.travel/mcp/sse
+    transport: streamable-http
+    auth: none

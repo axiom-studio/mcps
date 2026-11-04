@@ -1,0 +1,15 @@
+name: WhatsApp MCP
+summary: Read, search and reply to your WhatsApp chats from your AI, using your own number.
+category: productivity
+tags:
+  - chatbot
+  - communication
+  - productivity
+  - whatsapp
+official: true
+docs_url: https://wa-mcp.com/blog/whatsapp-mcp-documentation?utm_source=mcpservers.org&utm_medium=directory
+website_url: https://wa-mcp.com/?utm_source=mcpservers.org&utm_medium=directory
+endpoints:
+  - url: https://server.wa-mcp.com/mcp
+    transport: streamable-http
+    auth: oauth

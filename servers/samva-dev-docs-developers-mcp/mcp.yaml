@@ -1,0 +1,13 @@
+name: Samva
+summary: Samva's hosted MCP server lets AI agents send email, read replies, and manage templates, domains, campaigns, and mailboxes through its email API.
+category: communication
+tags:
+  - communication
+  - crm
+  - email-automation
+  - marketing-automation
+docs_url: https://samva.dev/docs/developers/mcp
+endpoints:
+  - url: https://mcp.samva.dev
+    transport: streamable-http
+    auth: oauth

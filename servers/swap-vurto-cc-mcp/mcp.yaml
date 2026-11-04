@@ -1,0 +1,14 @@
+name: Vurto Swap MCP
+summary: No Gain, No Fee! Non-custodial DEX aggregator on 9 EVM chains and Solana.
+category: finance
+tags:
+  - crypto
+  - defi
+  - evm
+  - finance
+  - trading
+docs_url: https://swap.vurto.cc/mcp
+endpoints:
+  - url: https://swap.vurto.cc/mcp
+    transport: streamable-http
+    auth: none

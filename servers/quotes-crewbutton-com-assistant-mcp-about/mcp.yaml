@@ -1,0 +1,13 @@
+name: CrewButton
+summary: 'Get prices from local pros for a home job: see how many US businesses in a trade can send written prices near a ZIP code, check a quote you already have, and learn what to tell a pro. Read-only, no sign-in.'
+category: productivity
+tags:
+  - business-operations
+  - marketplace
+  - productivity
+  - real-estate
+docs_url: https://quotes.crewbutton.com/assistant-mcp/about
+endpoints:
+  - url: https://quotes.crewbutton.com/assistant-mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: BioFlow MCP
+summary: Edit and publish your link-in-bio page, its links and blocks, and read page analytics and signups from BioFlow. Remote server with OAuth sign-in.
+category: marketing
+tags:
+  - identity
+  - marketing
+  - marketing-automation
+  - security
+docs_url: https://getbioflow.com/mcp
+endpoints:
+  - url: https://app.getbioflow.com/api/mcp
+    transport: streamable-http
+    auth: oauth

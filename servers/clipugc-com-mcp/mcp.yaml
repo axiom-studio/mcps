@@ -1,0 +1,14 @@
+name: ClipUGC
+summary: 'AI influencer studio for app founders: design an AI influencer once, then make UGC videos, photos and story series with the same face from your agent.'
+category: marketing
+tags:
+  - ai-agent
+  - content-creation
+  - marketing
+  - media
+  - video
+docs_url: https://clipugc.com/mcp
+endpoints:
+  - url: https://clipugc.com/mcp
+    transport: streamable-http
+    auth: oauth

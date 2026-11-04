@@ -1,0 +1,13 @@
+name: BeatAPI
+summary: 'Unified model API for AI agents: text, image and video models plus social data and web search through one API key, pay-as-you-go.'
+category: other
+tags:
+  - ai-model
+  - api
+  - media
+  - web-research
+docs_url: https://beatapi.io
+endpoints:
+  - url: https://beatapi.io/mcp
+    transport: streamable-http
+    auth: unknown

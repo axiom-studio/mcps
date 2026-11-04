@@ -1,0 +1,12 @@
+name: UFCalendar MMA Fight Data API
+summary: 'Hosted MCP server for UFC, PFL, OKTAGON, BKFC and RIZIN fight data: events since UFC 1, full cards, results within minutes, per-round stats, fighter careers, judges scorecards, UFC rankings history since 2013 and consensus odds. 47 tools, OAuth or API key, free 1-day trial.'
+category: other
+tags:
+  - api
+  - data-analysis
+  - sports
+docs_url: https://github.com/UFCalendar/ufcalendar-mcp
+endpoints:
+  - url: https://api.ufcalendar.com/mcp
+    transport: streamable-http
+    auth: oauth

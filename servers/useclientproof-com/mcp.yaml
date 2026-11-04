@@ -1,0 +1,14 @@
+name: ClientProof
+summary: Agency multi-client testimonial MCP — collect, approve, and embed Walls of Love per client brand from one dashboard. Text testimonials with approval queue; not a UGC social aggregator. Live at useclientproof.com (not clientproof.app).
+category: marketing
+tags:
+  - content-creation
+  - crm
+  - customer-ops
+  - marketing
+  - workflow-automation
+docs_url: https://useclientproof.com
+endpoints:
+  - url: https://useclientproof.com/api/mcp
+    transport: streamable-http
+    auth: api-key

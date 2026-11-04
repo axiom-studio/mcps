@@ -1,0 +1,13 @@
+name: VOMO
+summary: Find and read your VOMO meeting notes, summaries, and original transcripts. OAuth sign-in with read-only access.
+category: productivity
+tags:
+  - knowledge-retrieval
+  - meeting-notes
+  - notes
+  - productivity
+docs_url: https://vomo.ai/cli
+endpoints:
+  - url: https://mcp.vomo.ai/mcp
+    transport: streamable-http
+    auth: oauth

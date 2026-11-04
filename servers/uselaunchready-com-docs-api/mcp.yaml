@@ -1,0 +1,13 @@
+name: Launch Ready
+summary: 'Pre-launch website QA: deterministic rule-based scans, readiness score, and blockers for agents.'
+category: development
+tags:
+  - browser-automation
+  - development
+  - testing-qa
+  - web-research
+docs_url: https://uselaunchready.com/docs/api#mcp-connector
+endpoints:
+  - url: https://uselaunchready.com/api/mcp
+    transport: streamable-http
+    auth: unknown

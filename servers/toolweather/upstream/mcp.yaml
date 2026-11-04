@@ -1,0 +1,12 @@
+name: Upstream
+summary: Is this AI/dev API down? Is this model deprecated, what replaces it? Live status for ~40 APIs.
+category: development
+tags:
+  - api
+  - development
+  - monitoring
+docs_url: https://github.com/toolweather/upstream
+endpoints:
+  - url: https://upstream.toolweather.workers.dev/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: Cooper Email
+summary: 'Email inboxes for AI agents: create an address, send and receive mail, and full-text search every message over MCP (OAuth or API key).'
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - email-automation
+docs_url: https://cooperemail.com/docs/mcp
+endpoints:
+  - url: https://cooperemail.com/mcp
+    transport: streamable-http
+    auth: oauth

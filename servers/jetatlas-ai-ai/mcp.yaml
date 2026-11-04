@@ -1,0 +1,12 @@
+name: JetAtlas
+summary: 'Read-only private aviation research: compare business jets, look up airports, estimate routes and costs, and find articles with source links.'
+category: search
+tags:
+  - research
+  - search
+  - web-research
+docs_url: https://jetatlas.ai/ai
+endpoints:
+  - url: https://jetatlas.ai/mcp
+    transport: streamable-http
+    auth: none

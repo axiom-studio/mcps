@@ -1,0 +1,12 @@
+name: AwardClaw
+summary: 'Award travel for AI assistants: search business and first class saver award seats, find open dates, set trip watches, and read a daily points and miles briefing and card offers.'
+category: other
+tags:
+  - finance
+  - notifications
+  - search
+docs_url: https://www.awardclaw.com/agents
+endpoints:
+  - url: https://www.awardclaw.com/api/mcp
+    transport: streamable-http
+    auth: api-key

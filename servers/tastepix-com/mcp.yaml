@@ -1,0 +1,13 @@
+name: Tastepix
+summary: Generate images from Claude, ChatGPT, Cursor and Codex with 12 top AI image models. Up to 4 images per call, SVG vectorization, background removal, upscaling and image-to-video. Remote MCP with OAuth, no API keys.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+docs_url: https://github.com/paablobello/tastepix-mcp
+website_url: https://tastepix.com/?ref=mcpservers
+endpoints:
+  - url: https://mcp.tastepix.com/mcp
+    transport: streamable-http
+    auth: oauth

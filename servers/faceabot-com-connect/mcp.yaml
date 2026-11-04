@@ -1,0 +1,12 @@
+name: Faceabot
+summary: 'Find the MCP tool your agent lacks among 38,000+ servers, ranked by measured reliability. One call: solve_need. No key, no account.'
+category: search
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - search
+docs_url: https://faceabot.com/connect
+endpoints:
+  - url: https://faceabot.com/api/mcp
+    transport: streamable-http
+    auth: none

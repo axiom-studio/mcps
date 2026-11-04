@@ -1,0 +1,12 @@
+name: Business Days & Workday Calc
+summary: Count workdays, office days and PTO days, or list bank holidays and school breaks.
+category: productivity
+tags:
+  - business-operations
+  - calendar
+  - productivity
+docs_url: https://tools.openkrill.app/tools/business-days
+endpoints:
+  - url: https://businessdays.openkrill.app/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,18 @@
+name: CB Insights
+summary: CB Insights provides predictive intelligence on private companies, markets, deals, and technology trends. Its MCP connector gives assistants company profiles, market-map context, investment-research signals, and competitor-monitoring data for private-market workflows.
+description: |-
+  CB Insights provides predictive intelligence on private companies, markets, deals, and technology trends. Its MCP connector gives assistants company profiles, market-map context, investment-research signals, and competitor-monitoring data for private-market workflows.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/cb-insights)
+category: finance
+tags:
+  - finance
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/cb-insights
+endpoints:
+  - url: https://mcp.cbinsights.com
+    transport: streamable-http
+    auth: oauth

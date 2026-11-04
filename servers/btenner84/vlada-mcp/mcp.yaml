@@ -1,0 +1,13 @@
+name: Vlada Health
+summary: 'US healthcare data for AI agents: hospital and payer negotiated prices, Medicare Advantage benefits, Stars and enrollment, Medicaid, providers, drugs. Every answer carries its source file, vintage and a replay hash. Read-only, OAuth, free account with $5 of queries.'
+category: other
+tags:
+  - data-analysis
+  - healthcare
+  - knowledge-retrieval
+  - research
+docs_url: https://github.com/btenner84/vlada-mcp
+endpoints:
+  - url: https://mcp-secure.vladahealth.com/mcp
+    transport: streamable-http
+    auth: oauth

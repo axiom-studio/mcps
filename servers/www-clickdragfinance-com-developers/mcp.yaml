@@ -1,0 +1,12 @@
+name: ClickDrag Finance
+summary: Cost segregation estimates, pricing, allocation planning bands and provider facts for US property, plus a consultation request.
+category: finance
+tags:
+  - business-operations
+  - finance
+  - real-estate
+docs_url: https://www.clickdragfinance.com/developers
+endpoints:
+  - url: https://www.clickdragfinance.com/api/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: MyLeadTech HVAC
+summary: HVAC MCP server — fault codes, model lookup and answers cited to the OEM manual page.
+category: search
+tags:
+  - data-analysis
+  - document
+  - knowledge-retrieval
+  - search
+docs_url: https://github.com/MyLeadTech/myleadtech-mcp
+endpoints:
+  - url: https://mcp.myleadtech.app/mcp/
+    transport: streamable-http
+    auth: oauth

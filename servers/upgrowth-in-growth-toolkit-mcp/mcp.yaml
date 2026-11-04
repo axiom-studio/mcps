@@ -1,0 +1,13 @@
+name: upGrowth Growth Toolkit
+summary: '29 free read-only growth tools: CAC, ROAS, PPC, schema, meta tags, robots.txt and AI crawler checks.'
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - marketing
+  - seo
+docs_url: https://upgrowth.in/growth-toolkit-mcp/
+endpoints:
+  - url: https://upgrowth.in/connected-app/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: 313 Automations
+summary: 'Read-only remote server with facts about 313 Automations, an AI automation, web development and SEO company in Lahore: company info, starting prices, every page as Markdown, and site search. No sign-in.'
+category: search
+tags:
+  - marketing-automation
+  - search
+  - seo
+  - web-research
+docs_url: https://313automations.com/.well-known/mcp/server-card.json
+endpoints:
+  - url: https://313automations.com/mcp
+    transport: streamable-http
+    auth: none

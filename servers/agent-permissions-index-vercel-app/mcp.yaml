@@ -1,0 +1,13 @@
+name: Agent Permissions Index
+summary: Grades AI coding agent permission configs and serves stats from an index of ~14,000 public configs on GitHub.
+category: development
+tags:
+  - ai-agent
+  - code-quality
+  - coding-agent
+  - github
+docs_url: https://agent-permissions-index.vercel.app
+endpoints:
+  - url: https://agent-permissions-index.vercel.app/mcp
+    transport: streamable-http
+    auth: none

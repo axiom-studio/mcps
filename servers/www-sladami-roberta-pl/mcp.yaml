@@ -1,0 +1,10 @@
+name: Śladami Roberta Makłowicza
+summary: Search ~1,000 restaurants and attractions from Robert Makłowicz's travel episodes by country, type or text.
+category: search
+tags:
+  - search
+docs_url: https://www.sladami-roberta.pl
+endpoints:
+  - url: https://www.sladami-roberta.pl/api/mcp
+    transport: streamable-http
+    auth: none

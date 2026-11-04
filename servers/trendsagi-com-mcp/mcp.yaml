@@ -1,0 +1,13 @@
+name: TrendsAGI
+summary: Read trending topics with measured volume, velocity and growth, trend time series, AI insights, recommendations and your watchlist from your TrendsAGI account. Hosted, read-only, OAuth sign-in.
+category: marketing
+tags:
+  - ai-agent
+  - analytics
+  - marketing
+  - research
+docs_url: https://trendsagi.com/mcp
+endpoints:
+  - url: https://api.trendsagi.com/mcp
+    transport: streamable-http
+    auth: oauth

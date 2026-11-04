@@ -1,0 +1,11 @@
+name: Company Jobs Finder
+summary: List open jobs from a company public Greenhouse, Lever, Ashby, Workable or SmartRecruiters board and rank them against a profile. Remote, no API key.
+category: search
+tags:
+  - search
+  - web-scraping
+docs_url: https://tools.openkrill.app/#company-jobs
+endpoints:
+  - url: https://jobs.openkrill.app/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: CADProps
+summary: 'Fast online CAD previews with broad format support: STEP, IGES, STL, OBJ, GLB/glTF, DWG and supported native CAD files. Inspect dimensions, units, volume and surface area; distinguish exact geometry from mesh approximations; convert to STEP, STL or GLB; then open the CADProps workspace to measure, section, annotate and share. Temporary connector uploads need no CADProps account; creating website shares requires sign-in. Format/version limits and quotas apply.'
+category: design
+tags:
+  - cloud-storage
+  - design
+  - document
+  - file-conversion
+docs_url: https://www.cadprops.com/connector/
+endpoints:
+  - url: https://www.cadprops.com/api/v1/mcp
+    transport: streamable-http
+    auth: none

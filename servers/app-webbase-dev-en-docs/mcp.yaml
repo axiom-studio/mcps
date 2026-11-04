@@ -1,0 +1,14 @@
+name: WebBase
+summary: 'Web hosting your AI assistant operates by itself over MCP: it creates the project, writes the files, deploys and reports the live address (<name>.webbase.dev or your own domain). Static HTML, Next.js static and SSR, Postgres, custom domains, env vars, visitor stats, team members. 30 tools, API-key auth, servers in Germany. Free plan available.'
+category: cloud-service
+tags:
+  - ai-agent
+  - cloud-infrastructure
+  - deployment
+  - postgres
+  - workflow-automation
+docs_url: https://app.webbase.dev/en/docs
+endpoints:
+  - url: https://mcp.webbase.dev/mcp
+    transport: streamable-http
+    auth: api-key

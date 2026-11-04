@@ -1,0 +1,13 @@
+name: Reline
+summary: Search and read your meeting notes, transcripts and action items, and create notes.
+category: productivity
+tags:
+  - knowledge-retrieval
+  - meeting-notes
+  - notes
+  - productivity
+docs_url: https://www.reline.so/docs/api?utm_source=mcpservers-org&utm_medium=marketplace
+endpoints:
+  - url: https://mcp.reline.so/mcp
+    transport: streamable-http
+    auth: oauth

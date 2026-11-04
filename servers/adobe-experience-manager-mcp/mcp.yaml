@@ -1,0 +1,18 @@
+name: Adobe Experience Manager
+summary: Adobe Experience Manager lets users create, edit, search, and publish pages or content fragments by describing the work in natural language. The MCP connector supports content updates, campaign-page searches, and launch scheduling while respecting existing AEM permissions.
+description: |-
+  Adobe Experience Manager lets users create, edit, search, and publish pages or content fragments by describing the work in natural language. The MCP connector supports content updates, campaign-page searches, and launch scheduling while respecting existing AEM permissions.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/using-mcp-with-aem-as-a-cloud-service)
+category: marketing
+tags:
+  - marketing
+  - remote-mcp
+official: true
+docs_url: https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/mcp-support/using-mcp-with-aem-as-a-cloud-service
+endpoints:
+  - url: https://mcp.adobeaemcloud.com/adobe/mcp/aem
+    transport: streamable-http
+    auth: oauth

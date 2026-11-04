@@ -1,0 +1,12 @@
+name: OpenBait Lookalike Domains
+summary: 'Find lookalike domains of a brand''s website (typos, look-alike characters, added words, other TLDs), check which resolve in DNS and what their front page shows. Read-only, no sign-up. Remote endpoint: https://openbait.com/api/mcp'
+category: other
+tags:
+  - search
+  - security
+  - web-research
+docs_url: https://openbait.com/tools/typosquat-check
+endpoints:
+  - url: https://openbait.com/api/mcp
+    transport: streamable-http
+    auth: none

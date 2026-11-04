@@ -1,0 +1,13 @@
+name: Memocore
+summary: A second brain for your AI — shared memory for ChatGPT, Claude, Cursor and any MCP client.
+category: productivity
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - memory
+  - productivity
+docs_url: https://memocore.ai
+endpoints:
+  - url: https://memocore.ai/mcp
+    transport: streamable-http
+    auth: oauth

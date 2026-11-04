@@ -1,0 +1,14 @@
+name: ToolsPad
+summary: Connect AI clients to CRM contacts, tasks, notes, forms and calendars in an OAuth-authorized ToolsPad workspace.
+category: productivity
+tags:
+  - calendar
+  - crm
+  - notes
+  - productivity
+  - task-management
+docs_url: https://toolspad.com/mcp?utm_source=mcpservers_org&utm_medium=referral&utm_campaign=aidm&utm_id=aidm_organic_v1&utm_content=mcpservers_workspace_001
+endpoints:
+  - url: https://app.toolspad.com/mcp
+    transport: streamable-http
+    auth: oauth

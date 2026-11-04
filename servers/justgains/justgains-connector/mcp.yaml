@@ -1,0 +1,13 @@
+name: JustGains
+summary: Connect AI assistants to your JustGains account to plan and log workouts, track nutrition, and review training progress through OAuth.
+category: other
+tags:
+  - ai-agent
+  - fitness
+  - healthcare
+  - productivity
+docs_url: https://github.com/JustGains/justgains-connector
+endpoints:
+  - url: https://justgains.com/connect/mcp
+    transport: streamable-http
+    auth: oauth

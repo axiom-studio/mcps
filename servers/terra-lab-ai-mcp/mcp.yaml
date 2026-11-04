@@ -1,0 +1,12 @@
+name: TerraLab MCP
+summary: 'Map data ready for QGIS: open map data extracts, GIS file conversion, coordinates, elevation and French parcels, with sources and licences.'
+category: productivity
+tags:
+  - data-analysis
+  - file-conversion
+  - geospatial
+docs_url: https://terra-lab.ai/mcp
+endpoints:
+  - url: https://mcp.terra-lab.ai/mcp
+    transport: streamable-http
+    auth: none

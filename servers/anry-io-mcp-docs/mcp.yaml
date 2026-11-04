@@ -1,0 +1,14 @@
+name: Anry
+summary: Anry is a read-only MCP server that ties every ad click to the visit and the order, puts a price on where an online store loses money, and gives the fix to the store's own AI agent.
+category: marketing
+tags:
+  - advertising
+  - ai-agent
+  - analytics
+  - ecommerce
+  - marketing
+docs_url: https://anry.io/mcp/docs
+endpoints:
+  - url: https://mcp.anry.io/mcp
+    transport: streamable-http
+    auth: oauth

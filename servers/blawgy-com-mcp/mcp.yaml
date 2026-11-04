@@ -1,0 +1,13 @@
+name: Blawgy
+summary: Research keywords, plan, write, update and publish SEO blog posts on your site from any agent.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - seo
+  - workflow-automation
+docs_url: https://blawgy.com/mcp
+endpoints:
+  - url: https://app.blawgy.com/mcp
+    transport: streamable-http
+    auth: oauth

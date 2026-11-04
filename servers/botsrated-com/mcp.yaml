@@ -1,0 +1,13 @@
+name: BotsRated (beta)
+summary: Beta. Measured facts on paid x402 agent services. No grade until 3 paid buys on 3 different days.
+category: other
+tags:
+  - ai-agent
+  - analytics
+  - crypto
+  - payment
+docs_url: https://botsrated.com
+endpoints:
+  - url: https://botsrated.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Indonesia Mining Concessions (ESDM IUP)
+summary: 'Indonesian ESDM mining licences (IUP, IUPK, KK, PKP2B): holder, commodity, area, expiry.'
+category: other
+tags:
+  - database
+  - geospatial
+  - government
+  - research
+docs_url: https://github.com/BumiAtlas/mining-concession-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/mining
+    transport: streamable-http
+    auth: oauth

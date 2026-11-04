@@ -1,0 +1,13 @@
+name: GrailHound
+summary: Set up trackers that watch eBay, Vinted, Mercari and dozens more marketplaces for new listings, and check what they found.
+category: productivity
+tags:
+  - ecommerce
+  - marketplace
+  - notifications
+  - productivity
+docs_url: https://grailhound.app/ai
+endpoints:
+  - url: https://grailhound.app/mcp
+    transport: streamable-http
+    auth: oauth

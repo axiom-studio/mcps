@@ -1,0 +1,13 @@
+name: Odin
+summary: Read Odin security findings and remediation, link fix pull requests and track retests.
+category: other
+tags:
+  - compliance
+  - github
+  - security
+  - testing-qa
+docs_url: https://www.borghq.io/
+endpoints:
+  - url: https://odin.borghq.io/api/mcp
+    transport: streamable-http
+    auth: oauth

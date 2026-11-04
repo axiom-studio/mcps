@@ -1,0 +1,13 @@
+name: ALLR
+summary: 'Public read-only MCP server: search motorcycle gear, compare landed cost per retailer (CA, US, EU, UK), list price drops, recommend sizes. No auth.'
+category: search
+tags:
+  - ecommerce
+  - inventory
+  - marketplace
+  - search
+docs_url: https://allr.io/developers
+endpoints:
+  - url: https://allr.io/mcp
+    transport: streamable-http
+    auth: none

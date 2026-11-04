@@ -1,0 +1,14 @@
+name: Omentir
+summary: Hosted MCP server for Omentir. Your agent can find and score LinkedIn prospects, draft outreach, run human-paced campaigns, and answer replies. OAuth sign-in, no API key, and the agent never sees your LinkedIn password.
+category: marketing
+tags:
+  - ai-agent
+  - communication
+  - crm
+  - marketing
+  - sales
+docs_url: https://omentir.com/integrations/mcp
+endpoints:
+  - url: https://omentir.com/api/agent/v1/mcp
+    transport: streamable-http
+    auth: oauth

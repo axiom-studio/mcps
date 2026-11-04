@@ -1,0 +1,13 @@
+name: 艾达 ADA (hengyu.group)
+summary: agent 的水电煤：读网页正文、全国共享缓存省 token、长文取片、标准时间、Ed25519 验签、免费记忆柜；不注册、不收费、不过手数据。
+category: web-scraping
+tags:
+  - knowledge-retrieval
+  - memory
+  - security
+  - web-scraping
+docs_url: https://ai.hengyu.group/
+endpoints:
+  - url: https://ai.hengyu.group/mcp
+    transport: streamable-http
+    auth: none

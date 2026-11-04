@@ -1,0 +1,12 @@
+name: instgrameMCP
+summary: Nabil ElNour Story site
+category: marketing
+tags:
+  - content-creation
+  - media
+  - social-media
+docs_url: https://github.com/github/spec-kit
+endpoints:
+  - url: https://connect.composio.dev/mcp
+    transport: streamable-http
+    auth: api-key

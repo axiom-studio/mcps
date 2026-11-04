@@ -1,0 +1,13 @@
+name: Scrupp
+summary: Export LinkedIn, Sales Navigator and Apollo searches, find decision makers, and find and verify work emails from any MCP client.
+category: marketing
+tags:
+  - crm
+  - email-automation
+  - sales
+  - web-scraping
+docs_url: https://scrupp.com/email-finder-mcp
+endpoints:
+  - url: https://mcp.scrupp.com/mcp
+    transport: streamable-http
+    auth: unknown

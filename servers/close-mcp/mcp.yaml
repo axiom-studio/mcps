@@ -1,0 +1,19 @@
+name: Close
+summary: Close is a CRM built for inside sales teams, combining leads, calls, email, and pipeline management. Its remote MCP server gives assistants direct access to CRM data so leads can be looked up, activity summarized, and records updated from conversation.
+description: |-
+  Close is a CRM built for inside sales teams, combining leads, calls, email, and pipeline management. Its remote MCP server gives assistants direct access to CRM data so leads can be looked up, activity summarized, and records updated from conversation.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://help.close.com/integrations/close-mcp-server.md)
+category: marketing
+tags:
+  - marketing
+  - remote-mcp
+official: true
+registry_name: com.close/close-mcp
+docs_url: https://help.close.com/integrations/close-mcp-server.md
+endpoints:
+  - url: https://mcp.close.com/mcp
+    transport: streamable-http
+    auth: oauth

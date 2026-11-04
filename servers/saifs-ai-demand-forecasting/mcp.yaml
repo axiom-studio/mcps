@@ -1,0 +1,13 @@
+name: Demand Forecasting - Saifs AI
+summary: Demand Forecasting MCP by Saifs AI analyzes historical sales, identifies demand trends and seasonality, forecasts future product demand, and helps businesses optimize inventory planning, purchasing decisions, and resource allocation using data-driven insights.
+category: marketing
+tags:
+  - analytics
+  - business-operations
+  - data-analysis
+  - inventory
+docs_url: https://saifs.ai/demand-forecasting
+endpoints:
+  - url: https://demand-forecaster-mcp.saifs.ai/mcp
+    transport: streamable-http
+    auth: unknown

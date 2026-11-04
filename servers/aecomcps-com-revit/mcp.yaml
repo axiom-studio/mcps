@@ -1,0 +1,13 @@
+name: Revit MCP
+summary: 'Free Revit add-in with a built-in MCP server: Claude, ChatGPT, Cursor and other AI assistants read and edit the open Revit 2024–2027 model.'
+category: design
+tags:
+  - ai-model
+  - anthropic
+  - design
+  - llm
+docs_url: https://aecomcps.com/revit
+endpoints:
+  - url: https://revit-mcp.pages.dev/mcp/revit
+    transport: streamable-http
+    auth: unknown

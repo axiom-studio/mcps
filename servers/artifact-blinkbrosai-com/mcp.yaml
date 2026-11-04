@@ -1,0 +1,13 @@
+name: blink artifact
+summary: Hosted MCP server for publishing HTML pages, docs, slides, dashboards and whiteboards from AI CLIs, with live editing and comments.
+category: productivity
+tags:
+  - collaboration
+  - content-creation
+  - document
+  - productivity
+docs_url: https://artifact.blinkbrosai.com/?utm_source=mcpservers.org
+endpoints:
+  - url: https://artifact.blinkbrosai.com/mcp
+    transport: streamable-http
+    auth: api-key

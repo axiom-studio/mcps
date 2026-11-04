@@ -1,0 +1,13 @@
+name: Whereabot
+summary: Let your AI agent ask your phone where you are. The phone shows a prompt and sends one GPS fix only after you tap Allow; nothing is stored. OAuth sign-in, no API keys.
+category: other
+tags:
+  - ai-agent
+  - geospatial
+  - mobile
+  - privacy
+docs_url: https://github.com/whereabot/whereabot
+endpoints:
+  - url: https://relay.whereabot.io/mcp
+    transport: streamable-http
+    auth: oauth

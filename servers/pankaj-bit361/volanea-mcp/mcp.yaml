@@ -1,0 +1,13 @@
+name: Volanea MCP
+summary: Send and test email, manage templates, segments and workflows, and read agentic inboxes on Volanea (Amazon SES) from your AI assistant.
+category: communication
+tags:
+  - aws
+  - communication
+  - email-automation
+  - marketing-automation
+docs_url: https://github.com/Pankaj-bit361/volanea-mcp
+endpoints:
+  - url: https://api.volanea.com/mcp
+    transport: streamable-http
+    auth: api-key

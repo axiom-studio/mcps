@@ -1,0 +1,14 @@
+name: MimikFlow
+summary: Supervise and steer automated B2B LinkedIn prospecting, campaigns, conversations, leads and meetings from your AI assistant.
+category: marketing
+tags:
+  - ai-agent
+  - communication
+  - crm
+  - marketing-automation
+  - workflow-automation
+docs_url: https://mimikflow.com/features/mcp
+endpoints:
+  - url: https://mimikflow.com/api/mcp
+    transport: streamable-http
+    auth: oauth

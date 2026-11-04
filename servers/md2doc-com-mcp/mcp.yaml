@@ -1,0 +1,12 @@
+name: MD2Doc
+summary: 'Free hosted MCP server: convert markdown / AI output to Word (.docx), PDF, or HTML and get a download link. No API key.'
+category: productivity
+tags:
+  - document
+  - file-conversion
+  - productivity
+docs_url: https://md2doc.com/mcp
+endpoints:
+  - url: https://md2doc.com/mcp
+    transport: streamable-http
+    auth: none

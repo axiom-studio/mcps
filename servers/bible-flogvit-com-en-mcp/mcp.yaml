@@ -1,0 +1,12 @@
+name: FLOGVIT.bible
+summary: 'Read and search the Bible: open translations, Hebrew and Greek source text, cross-references and study notes.'
+category: other
+tags:
+  - education
+  - knowledge-retrieval
+  - research
+docs_url: https://bible.flogvit.com/en/mcp
+endpoints:
+  - url: https://mcp.bible.flogvit.com/mcp
+    transport: streamable-http
+    auth: unknown

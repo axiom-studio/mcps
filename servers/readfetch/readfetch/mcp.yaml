@@ -1,0 +1,13 @@
+name: ReadFetch
+summary: A reading layer for agents, behind one payment rail. No account, no API key, no subscription.
+category: web-scraping
+tags:
+  - ai-agent
+  - payment
+  - web-research
+  - web-scraping
+docs_url: https://github.com/readfetch/readfetch
+endpoints:
+  - url: https://readfetch.com/mcp
+    transport: streamable-http
+    auth: unknown

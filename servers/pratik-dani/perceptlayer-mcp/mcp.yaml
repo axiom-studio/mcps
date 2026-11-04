@@ -1,0 +1,13 @@
+name: Perceptlayer
+summary: 'Live web data API for developers and AI agents: 248 websites, one key, structured JSON, 1 credit per call, failed calls free.'
+category: web-scraping
+tags:
+  - ai-agent
+  - api
+  - data-analysis
+  - web-scraping
+docs_url: https://github.com/pratik-dani/perceptlayer-mcp
+endpoints:
+  - url: https://api.perceptlayer.com/mcp
+    transport: streamable-http
+    auth: unknown

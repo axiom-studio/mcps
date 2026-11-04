@@ -1,0 +1,12 @@
+name: SuguFAX (すぐFAX)
+summary: Send real faxes to Japan from ChatGPT, Claude, Gemini or Grok. PDF or photo. From ¥400, no account.
+category: communication
+tags:
+  - communication
+  - document
+  - file-conversion
+docs_url: https://sugufax.com/ai
+endpoints:
+  - url: https://sugufax.com/api/mcp-oauth.php
+    transport: streamable-http
+    auth: oauth

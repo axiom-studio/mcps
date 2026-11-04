@@ -1,0 +1,12 @@
+name: Truelist
+summary: Verifies emails
+category: marketing
+tags:
+  - data-analysis
+  - email-automation
+  - marketing-automation
+docs_url: https://truelist.io/
+endpoints:
+  - url: https://api.truelist.io/mcp
+    transport: streamable-http
+    auth: unknown

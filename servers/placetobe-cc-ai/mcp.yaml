@@ -1,0 +1,13 @@
+name: Place to Be
+summary: 'Live, ranked events worldwide for AI agents: concerts, sport, festivals, nightlife and culture, with full city boards for 333 cities. Each event has a 0-100 score for how big a moment it is and a one-line reason. Tools: search_events, list_cities, get_event. Free, no key.'
+category: search
+tags:
+  - entertainment
+  - media
+  - search
+  - web-research
+docs_url: https://placetobe.cc/ai?utm_source=mcpservers&utm_medium=listing&utm_campaign=mcp-directories
+endpoints:
+  - url: https://placetobe.cc/mcp
+    transport: streamable-http
+    auth: unknown

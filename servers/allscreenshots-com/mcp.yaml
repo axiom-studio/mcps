@@ -1,0 +1,13 @@
+name: Allscreenshots MCP Server
+summary: 'Screenshot API for full-page and viewport captures as PNG, JPEG, WebP or PDF, plus HTML, Markdown and JSON extraction from a single page load. Supports device emulation, dark mode, ad and cookie-banner blocking, scheduled captures, bulk capture, official SDKs and a hosted MCP server. Remote MCP endpoint (OAuth): https://mcp.allscreenshots.com/mcp/v1. Docs: https://docs.allscreenshots.com. 100 free lifetime credits; paid plans from $10/month.'
+category: web-scraping
+tags:
+  - api
+  - browser-automation
+  - pdf
+  - web-scraping
+docs_url: https://allscreenshots.com
+endpoints:
+  - url: https://mcp.allscreenshots.com/mcp/v1
+    transport: streamable-http
+    auth: oauth

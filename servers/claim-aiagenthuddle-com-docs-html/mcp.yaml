@@ -1,0 +1,12 @@
+name: CLAIM
+summary: Hosted MCP tools for exclusive leases, capacity-limited coordination, renewal and release with fencing tokens. Downstream systems must enforce fencing. API-key authentication; free developer beta.
+category: development
+tags:
+  - api
+  - cloud-infrastructure
+  - devops-infrastructure
+docs_url: https://claim.aiagenthuddle.com/docs.html
+endpoints:
+  - url: https://claim.aiagenthuddle.com/mcp
+    transport: streamable-http
+    auth: api-key

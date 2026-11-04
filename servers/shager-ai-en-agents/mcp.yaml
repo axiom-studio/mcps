@@ -1,0 +1,13 @@
+name: Shager
+summary: Remote MCP server for social media teams. Your agent drafts, schedules (a separate time per network if you want), answers comments and checks the numbers, all through one OAuth connection.
+category: marketing
+tags:
+  - communication
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://shager.ai/en/agents
+endpoints:
+  - url: https://app.shager.ai/api/mcp
+    transport: streamable-http
+    auth: unknown

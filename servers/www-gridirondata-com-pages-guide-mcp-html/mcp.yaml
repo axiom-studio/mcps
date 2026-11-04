@@ -1,0 +1,12 @@
+name: GridIron Data
+summary: 'NFL fantasy football and player-prop data: players, weekly and rest-of-season projections, stats, snaps, news, injuries and prop odds. Remote server with OAuth sign-in; free accounts available.'
+category: other
+tags:
+  - analytics
+  - data-analysis
+  - sports
+docs_url: https://www.gridirondata.com/pages/guide-mcp.html
+endpoints:
+  - url: https://api.gridirondata.com/mcp
+    transport: streamable-http
+    auth: oauth

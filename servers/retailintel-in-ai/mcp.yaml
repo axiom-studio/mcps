@@ -1,0 +1,13 @@
+name: RetailIntel
+summary: 'What moved in Indian retail: store openings, results, deals and leadership, each cited to its report; compare brands, read the morning brief, see who opened where.'
+category: search
+tags:
+  - business-operations
+  - data-analysis
+  - news
+  - research
+docs_url: https://retailintel.in/ai?utm_source=mcpservers.org
+endpoints:
+  - url: https://retailintel.in/mcp
+    transport: streamable-http
+    auth: none

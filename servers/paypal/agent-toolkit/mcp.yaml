@@ -1,0 +1,14 @@
+name: PayPal
+summary: The PayPal Model Context Protocol server allows you to integrate with PayPal APIs through function calling. This protocol supports various tools to interact with different PayPal services.
+category: cloud-service
+tags:
+  - api
+  - ecommerce
+  - payment
+official: true
+registry_name: com.paypal.mcp/mcp
+docs_url: https://github.com/paypal/agent-toolkit
+endpoints:
+  - url: https://mcp.paypal.com/mcp
+    transport: streamable-http
+    auth: oauth

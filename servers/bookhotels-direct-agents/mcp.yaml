@@ -1,0 +1,11 @@
+name: BookHotels.direct
+summary: 'Checks whether a hotel is cheaper on its own website than on Booking.com for a traveller''s exact stay: reads the hotel''s own booking site live, applies its public promo codes and free-club prices, and compares like for like, honestly either way. Free, no sign-in.'
+category: other
+tags:
+  - ecommerce
+  - web-scraping
+docs_url: https://bookhotels.direct/agents/
+endpoints:
+  - url: https://bookhotels.direct/mcp
+    transport: streamable-http
+    auth: none

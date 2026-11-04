@@ -1,0 +1,13 @@
+name: No Stairs Please
+summary: Stateless Streamable HTTP MCP server with 8 tools to search small and mid-size live music venues across all 50 US states, DC, and British Columbia, check room details and direct talent buyer contacts, and plan multi-stop tour routes along drive corridors.
+category: search
+tags:
+  - entertainment
+  - geospatial
+  - music
+  - search
+docs_url: https://nostairsplease.com/mcp
+endpoints:
+  - url: https://nostairsplease.com/mcp
+    transport: streamable-http
+    auth: oauth

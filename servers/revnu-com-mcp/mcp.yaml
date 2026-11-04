@@ -1,0 +1,14 @@
+name: Revnu
+summary: Review growth work, browse leads and results, message your AI growth agent, and schedule workflows.
+category: marketing
+tags:
+  - ai-agent
+  - communication
+  - customer-ops
+  - marketing
+  - workflow-automation
+docs_url: https://revnu.com/mcp
+endpoints:
+  - url: https://revnu.com/api/mcp
+    transport: streamable-http
+    auth: unknown

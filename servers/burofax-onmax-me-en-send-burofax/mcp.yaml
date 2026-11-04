@@ -1,0 +1,12 @@
+name: Remite
+summary: Send a burofax or certified letter to a Spanish address, with proof of delivery and content.
+category: communication
+tags:
+  - communication
+  - document
+  - notifications
+docs_url: https://burofax.onmax.me/en/send-burofax
+endpoints:
+  - url: https://burofax.onmax.me/mcp/claude
+    transport: streamable-http
+    auth: none

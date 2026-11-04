@@ -1,0 +1,12 @@
+name: Loppee
+summary: Find US local pros and check their Loppee verification class, license and registration checks, and identity-verified reviews from any AI assistant.
+category: search
+tags:
+  - business-operations
+  - data-analysis
+  - search
+docs_url: https://loppee.com/developers
+endpoints:
+  - url: https://loppee.com/mcp/discovery
+    transport: streamable-http
+    auth: unknown

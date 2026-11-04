@@ -1,0 +1,13 @@
+name: SurfacedBy AI Visibility & GEO Audit
+summary: 'Free AI visibility and GEO audit: see what AI reads on your site and whether its answers cite you.'
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+  - web-research
+docs_url: https://github.com/surfacedby/ai-visibility-mcp
+endpoints:
+  - url: https://api.surfacedby.com/api/v1/mcp/public/
+    transport: streamable-http
+    auth: none

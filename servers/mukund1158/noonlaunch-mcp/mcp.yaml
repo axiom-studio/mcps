@@ -1,0 +1,13 @@
+name: Noonlaunch
+summary: Launch a product on Noonlaunch from your agent, search its product directory and weekly winners, and find 333 startup launch directories. Remote, no API key.
+category: marketing
+tags:
+  - marketing
+  - marketplace
+  - productivity
+  - search
+docs_url: https://github.com/mukund1158/noonlaunch-mcp
+endpoints:
+  - url: https://noonlaunch.com/mcp
+    transport: streamable-http
+    auth: none

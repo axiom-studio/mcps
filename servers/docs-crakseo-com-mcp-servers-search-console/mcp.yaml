@@ -1,0 +1,13 @@
+name: CrakSEO Google Search Console MCP
+summary: 'Free Google Search Console and Bing Webmaster Tools: search queries, URL inspection and sitemaps for connected properties. Hosted Streamable HTTP with OAuth or a scoped API key. Check availability and pricing before paid calls.'
+category: search
+tags:
+  - analytics
+  - google-analytics
+  - seo
+  - web-research
+docs_url: https://docs.crakseo.com/mcp-servers/search-console
+endpoints:
+  - url: https://crakseo.com/mcp/search-console
+    transport: streamable-http
+    auth: oauth

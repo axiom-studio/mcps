@@ -1,0 +1,13 @@
+name: Bidhelm
+summary: 'Bidhelm, your AI marketing department, inside Claude Code, Codex or any MCP client: ask what moved and what to change next, then run your ads, social and landing pages.'
+category: marketing
+tags:
+  - advertising
+  - ai-agent
+  - marketing
+  - marketing-automation
+docs_url: https://bidhelm.com/?utm_source=mcpservers&utm_medium=directory&utm_campaign=distribution-directories&utm_content=distribution-20261024-mcpservers
+endpoints:
+  - url: https://mcp.bidhelm.com/mcp
+    transport: streamable-http
+    auth: oauth

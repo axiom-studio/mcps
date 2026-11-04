@@ -1,0 +1,13 @@
+name: QueryAtlas
+summary: Query selected Google and Bing analytics, search, and advertising reports through MCP.
+category: productivity
+tags:
+  - advertising
+  - analytics
+  - google-analytics
+  - search
+docs_url: https://queryatlas.app
+endpoints:
+  - url: https://queryatlas.app/mcp
+    transport: streamable-http
+    auth: oauth

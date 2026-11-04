@@ -1,0 +1,14 @@
+name: 402cron
+summary: 'Paid cron for AI agents: calls your HTTPS URL on a schedule with signed deliveries; no account, paid with x402 in USDC on Base.'
+category: development
+tags:
+  - crypto
+  - devops
+  - evm
+  - payment
+  - workflow-automation
+docs_url: https://402cron.com
+endpoints:
+  - url: https://402cron.com/mcp
+    transport: streamable-http
+    auth: none

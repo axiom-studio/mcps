@@ -1,0 +1,11 @@
+name: Ashley Payne, fractional CTO
+summary: Ask a UK fractional CTO's practice what it does, what it costs and whether it suits your project. Read-only, no sign-in.
+category: productivity
+tags:
+  - business-operations
+  - project-management
+docs_url: https://www.ashleypayne.co.uk/ai
+endpoints:
+  - url: https://www.ashleypayne.co.uk/mcp
+    transport: streamable-http
+    auth: none

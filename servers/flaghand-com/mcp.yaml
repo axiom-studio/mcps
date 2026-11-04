@@ -1,0 +1,13 @@
+name: Flaghand
+summary: Agents draft X and LinkedIn posts. Only your passkey approves. Flaghand posts exactly that.
+category: marketing
+tags:
+  - ai-agent
+  - marketing-automation
+  - social-media
+  - x-twitter
+docs_url: https://flaghand.com/?utm_source=mcp-directory&utm_medium=referral&utm_campaign=flaghand_launch_nov2026&utm_content=mcpservers
+endpoints:
+  - url: https://app.flaghand.com/mcp
+    transport: streamable-http
+    auth: oauth

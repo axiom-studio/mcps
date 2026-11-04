@@ -1,0 +1,14 @@
+name: presign-guard
+summary: Safe to sign? Green/orange/red verdict for EVM, Solana, XRPL and Algorand transactions, permits, EIP-7702 and tokens, plus OFAC wallet screening.
+category: finance
+tags:
+  - compliance
+  - crypto
+  - evm
+  - finance
+  - security
+docs_url: https://presign-guard.fizzl.eu/
+endpoints:
+  - url: https://presign-guard.fizzl.eu/mcp
+    transport: streamable-http
+    auth: unknown

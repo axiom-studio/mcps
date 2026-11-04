@@ -1,0 +1,13 @@
+name: Actually Asked
+summary: Review what visitors asked on your website, publish FAQ answers written from your own pages, and follow up on visitors who left an email.
+category: marketing
+tags:
+  - analytics
+  - communication
+  - customer-ops
+  - marketing
+docs_url: https://actuallyasked.com/mcp
+endpoints:
+  - url: https://mcp.actuallyasked.com/mcp
+    transport: streamable-http
+    auth: oauth

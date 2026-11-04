@@ -1,0 +1,13 @@
+name: InsertChat - AI Receptionist
+summary: 'Run your InsertChat AI receptionist and AI chatbot from any MCP client: see the calls and chats that need you, draft replies, look up leads, review reports, and train your assistant on web pages.'
+category: productivity
+tags:
+  - ai-agent
+  - chatbot
+  - communication
+  - customer-ops
+docs_url: https://github.com/MindCraftersGroup/claude-plugin
+endpoints:
+  - url: https://api.insertchat.com/v2/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: Userport
+summary: Userport is customer support and outbound messaging for SaaS founders. Connect your AI to triage and answer support conversations, and write, test and launch outbound email and chat sequences.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - customer-ops
+  - email-automation
+  - workflow-automation
+docs_url: https://userport.io/mcp-server
+endpoints:
+  - url: https://mcp.userport.io/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,11 @@
+name: Wärmepumpen-Vorcheck
+summary: 'Heat-pump readiness check for German single-family houses: traffic light (green/yellow/red) with reasons, heat-load class per m², next step and a prefilled link to the full free check. Read-only, remote, no auth, inputs not stored.'
+category: other
+tags:
+  - home-automation
+  - real-estate
+docs_url: https://waermepumpen-vorcheck.de/mcp-server
+endpoints:
+  - url: https://waermepumpen-vorcheck.de/mcp
+    transport: streamable-http
+    auth: none

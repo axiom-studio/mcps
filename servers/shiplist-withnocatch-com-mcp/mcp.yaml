@@ -1,0 +1,12 @@
+name: Shiplist
+summary: Search the Shiplist product directory and submit your product from your own agent.
+category: marketing
+tags:
+  - marketplace
+  - productivity
+  - web-research
+docs_url: https://shiplist.withnocatch.com/mcp?utm_source=mcpservers&utm_medium=listing
+endpoints:
+  - url: https://shiplist.withnocatch.com/mcp
+    transport: streamable-http
+    auth: none

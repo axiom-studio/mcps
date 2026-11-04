@@ -1,0 +1,13 @@
+name: JetForge
+summary: 'Trade Solana fair-launch tokens on JetForge: list active markets, get live bonding-curve quotes, check wallet balances and build unsigned buy or sell transactions for your own wallet to sign. No API key; no tool can move funds.'
+category: finance
+tags:
+  - crypto
+  - defi
+  - payment
+  - trading
+docs_url: https://jetforge.io/docs/api
+endpoints:
+  - url: https://jetforge.io/api/mcp
+    transport: streamable-http
+    auth: none

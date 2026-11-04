@@ -1,0 +1,12 @@
+name: ImgVX AI
+summary: 'Find the free ImgVX AI browser tool for any image job: remove backgrounds, upscale, erase objects, compress, resize, convert.'
+category: design
+tags:
+  - content-creation
+  - design
+  - file-conversion
+docs_url: https://imgvx.com/mcp-server/
+endpoints:
+  - url: https://imgvx.com/mcp
+    transport: streamable-http
+    auth: none

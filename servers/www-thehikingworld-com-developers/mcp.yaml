@@ -1,0 +1,12 @@
+name: The Hiking World
+summary: 'Sourced wilderness-trail facts: trails, permits and fees, with issuer, source and read date for each figure.'
+category: other
+tags:
+  - government
+  - research
+  - web-research
+docs_url: https://www.thehikingworld.com/developers
+endpoints:
+  - url: https://www.thehikingworld.com/api/mcp
+    transport: streamable-http
+    auth: unknown

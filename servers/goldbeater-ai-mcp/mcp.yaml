@@ -1,0 +1,13 @@
+name: Goldbeater
+summary: 'Goldbeater''s daily Google Ads audit, read-only: each finding, its evidence, its value and its fix.'
+category: marketing
+tags:
+  - advertising
+  - data-analysis
+  - google-analytics
+  - marketing
+docs_url: https://goldbeater.ai/mcp
+endpoints:
+  - url: https://api.goldbeater.ai/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Solnk MCP
+summary: Draft, schedule, and publish posts to X, Instagram, TikTok, YouTube, Facebook, LinkedIn, Pinterest, Threads, and Bluesky from any MCP client. Hosted remote server with OAuth or API key auth.
+category: marketing
+tags:
+  - content-creation
+  - marketing-automation
+  - social-media
+  - workflow-automation
+docs_url: https://github.com/solnk-dev/solnk-mcp
+endpoints:
+  - url: https://mcp.solnk.com/mcp
+    transport: streamable-http
+    auth: oauth

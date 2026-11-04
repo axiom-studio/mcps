@@ -1,0 +1,13 @@
+name: FramerToNextJS (FNJ)
+summary: 'Edit and publish your FramerToNextJS sites (converted Framer or AI-built) from Claude, Cursor or Codex: copy, styles, sections, pages and CMS. OAuth, with a read-only option. Needs an FNJ plan.'
+category: design
+tags:
+  - cms
+  - design
+  - development
+  - workflow-automation
+docs_url: https://framertonextjs.com/mcp
+endpoints:
+  - url: https://framertonextjs.com/api/mcp
+    transport: streamable-http
+    auth: oauth

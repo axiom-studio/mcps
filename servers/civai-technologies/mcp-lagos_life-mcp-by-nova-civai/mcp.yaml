@@ -1,0 +1,13 @@
+name: Lagos Life by Nova (CIVAI)
+summary: 'Play Lagos Life from chat: sign in, see who is on the map, read and send Phone DMs, check daily rewards, and peek at the Forbes rich list — like having a friend help you in the game.'
+category: productivity
+tags:
+  - chatbot
+  - gaming
+  - productivity
+  - social-media
+docs_url: https://github.com/civai-technologies/mcp-lagos_life-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-lagos_life
+    transport: streamable-http
+    auth: api-key

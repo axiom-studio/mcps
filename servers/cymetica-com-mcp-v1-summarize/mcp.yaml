@@ -1,0 +1,12 @@
+name: Tuatara Summarize
+summary: 'Extractive summaries of long documents: returns the text''s own sentences, so it cannot add facts. No key needed.'
+category: productivity
+tags:
+  - data-analysis
+  - document
+  - productivity
+docs_url: https://cymetica.com/mcp/v1/summarize
+endpoints:
+  - url: https://cymetica.com/mcp/v1/summarize
+    transport: streamable-http
+    auth: unknown

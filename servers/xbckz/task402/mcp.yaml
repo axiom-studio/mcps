@@ -1,0 +1,14 @@
+name: Task402 Agent Evidence Tools
+summary: 'Pay-per-call evidence for AI agents: native-text PDF indexing and citation tools, public web evidence, OpenAPI contract analysis, and read-only Base data through x402 USDC.'
+category: productivity
+tags:
+  - ai-agent
+  - document
+  - openapi
+  - payment
+  - web-research
+docs_url: https://github.com/xbckz/task402
+endpoints:
+  - url: https://task402.xyz/mcp
+    transport: streamable-http
+    auth: unknown

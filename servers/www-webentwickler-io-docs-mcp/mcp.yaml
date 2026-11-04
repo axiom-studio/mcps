@@ -1,0 +1,13 @@
+name: Webentwickler CRM
+summary: Zum Verwalten, Ändern, Publizieren von Webentwickler CRM Webseiten
+category: marketing
+tags:
+  - cms
+  - content-creation
+  - crm
+  - marketing
+docs_url: https://www.webentwickler.io/docs/mcp/
+endpoints:
+  - url: https://www.webentwickler.io/mcp
+    transport: streamable-http
+    auth: oauth

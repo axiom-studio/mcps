@@ -1,0 +1,13 @@
+name: PeakAI
+summary: 'Verified phone numbers and work emails for B2B prospects inside your AI agent. Search people and companies by title, seniority, industry, location and size, find contacts from LinkedIn profiles, bulk lookup up to 250 profiles, and export leads. Remote server: https://mcp.linkedinenrich.com/mcp'
+category: marketing
+tags:
+  - ai-agent
+  - crm
+  - data-analysis
+  - sales
+docs_url: https://thepeakai.com/api-docs?tab=mcp#claude
+endpoints:
+  - url: https://mcp.linkedinenrich.com/mcp
+    transport: streamable-http
+    auth: unknown

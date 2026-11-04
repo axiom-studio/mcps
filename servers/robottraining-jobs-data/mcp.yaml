@@ -1,0 +1,10 @@
+name: RobotTraining.jobs
+summary: Search open robot training jobs (robot teleoperation, demonstration data collection, at-home video recording, robot QA, robot fleet operations, autonomous vehicle and drone operator roles) from about 60 employers, with the hourly pay each role advertises. Updated daily from the employers' own job feeds.
+category: search
+tags:
+  - search
+docs_url: https://robottraining.jobs/data#mcp
+endpoints:
+  - url: https://robottraining.jobs/api/mcp
+    transport: streamable-http
+    auth: unknown

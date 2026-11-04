@@ -1,0 +1,12 @@
+name: Amber Notes (ambernotes.app)
+summary: Search, read and edit your notes in Amber Notes, the notes app for iPhone and Mac, with read-only or read-and-edit access.
+category: productivity
+tags:
+  - file-management
+  - notes
+  - productivity
+docs_url: https://ambernotes.app/blog/mcp-server
+endpoints:
+  - url: https://mcp.ambernotes.app
+    transport: streamable-http
+    auth: oauth

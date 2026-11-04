@@ -1,0 +1,12 @@
+name: mcp web
+summary: MCP 网页读写与浏览器自动化服务解决方案,解决企业内部办公自动化的最后的短板，比如外贸行业。
+category: web-scraping
+tags:
+  - browser-automation
+  - web-scraping
+  - workflow-automation
+docs_url: https://mcpweb.wjjnew.cn/
+endpoints:
+  - url: https://mcpweb.wjjnew.cn/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,14 @@
+name: TheDeskMonitor
+summary: AI-infused workforce productivity and cost intelligence. Real-time dashboards, automatic time tracking, 24 MCP tools (OAuth 2.1) for Claude, Copilot, Gemini, and Cursor.
+category: productivity
+tags:
+  - analytics
+  - data-analysis
+  - monitoring
+  - productivity
+  - workflow-automation
+docs_url: https://thedeskmonitor.com/integrations/ai-connect
+endpoints:
+  - url: https://api.thedeskmonitor.com/api/mcp/v1/
+    transport: streamable-http
+    auth: oauth

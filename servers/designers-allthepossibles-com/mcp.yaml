@@ -1,0 +1,13 @@
+name: Designers
+summary: 141 tools for design, accessibility, UX, typography, colour and site audits. Free tier, with Pro for unlimited use.
+category: development
+tags:
+  - code-quality
+  - design
+  - development
+  - testing-qa
+docs_url: https://designers.allthepossibles.com
+endpoints:
+  - url: https://designers.allthepossibles.com/mcp
+    transport: streamable-http
+    auth: unknown

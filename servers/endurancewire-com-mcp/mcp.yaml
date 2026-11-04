@@ -1,0 +1,13 @@
+name: Endurance Wire
+summary: Compare endurance watches from Garmin, COROS, Suunto, Apple, and more. Look up specifications, release history, and upcoming models with source links. No API key required.
+category: search
+tags:
+  - search
+  - sports
+  - wearable
+  - web-research
+docs_url: https://endurancewire.com/mcp/
+endpoints:
+  - url: https://endurancewire.com/mcp
+    transport: streamable-http
+    auth: none

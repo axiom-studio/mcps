@@ -1,0 +1,14 @@
+name: Alternative Asset Literacy — Retail
+summary: 'Alternative-asset education for retail investors: DeFi, art, tokenized real-world assets, VC/PE, gender-lens investing, and a beyond-GDP framework found nowhere else, plus real computation (Monte Carlo, illiquidity pacing) and a free SEC/FINRA lookup.'
+category: finance
+tags:
+  - data-analysis
+  - defi
+  - education
+  - finance
+  - research
+docs_url: https://github.com/untitledfinancial/aal-plugins/tree/main/aal-retail-mcp
+endpoints:
+  - url: https://alternativeassetliteracy.com/mcp/retail
+    transport: streamable-http
+    auth: none

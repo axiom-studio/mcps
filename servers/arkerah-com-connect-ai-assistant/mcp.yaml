@@ -1,0 +1,10 @@
+name: arkerah
+summary: Your ranked corporate job matches in five European countries, read from your AI assistant.
+category: productivity
+tags:
+  - productivity
+docs_url: https://arkerah.com/connect-ai-assistant
+endpoints:
+  - url: https://app.arkerah.com/api/mcp
+    transport: streamable-http
+    auth: oauth

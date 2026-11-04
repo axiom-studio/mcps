@@ -1,0 +1,13 @@
+name: LinkedCamp MCP
+summary: 'Remote MCP server for LinkedCamp. Run LinkedIn and email outreach from ChatGPT, Claude or Cursor: campaigns, unified inbox, leads and analytics in 133 tools.'
+category: marketing
+tags:
+  - analytics
+  - email-automation
+  - marketing-automation
+  - sales
+docs_url: https://www.linkedcamp.com/mcp
+endpoints:
+  - url: https://mcp.linkedcamp.com/mcp
+    transport: streamable-http
+    auth: unknown

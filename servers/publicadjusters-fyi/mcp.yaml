@@ -1,0 +1,12 @@
+name: PublicAdjusters.fyi
+summary: Directory of licensed public insurance adjusters by state.
+category: search
+tags:
+  - business-operations
+  - research
+  - search
+docs_url: https://publicadjusters.fyi
+endpoints:
+  - url: https://publicadjusters.fyi/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: January AI Nutrition
+summary: Food photo recognition, nutrition search, meal logging and glucose prediction for health apps.
+category: other
+tags:
+  - ai-model
+  - data-analysis
+  - healthcare
+docs_url: https://docs.january.ai/docs/mcp-server
+endpoints:
+  - url: https://mcp.january.ai/mcp
+    transport: streamable-http
+    auth: api-key

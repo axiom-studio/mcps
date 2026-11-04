@@ -1,0 +1,14 @@
+name: WalletFollow
+summary: Research Hyperliquid wallets, positions, markets and copy portfolios with 62 read-only tools, OAuth, source timestamps and coverage warnings. Verified WalletFollow account and plan limits apply.
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - defi
+  - finance
+  - trading
+docs_url: https://walletfollow.ai/mcp
+endpoints:
+  - url: https://mcp.walletfollow.ai/mcp
+    transport: streamable-http
+    auth: oauth

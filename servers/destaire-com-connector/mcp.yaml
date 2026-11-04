@@ -1,0 +1,11 @@
+name: Déstaire
+summary: A curated guide to luxury hotels and private stays in Europe, with travel writing and city guides.
+category: other
+tags:
+  - content-creation
+  - media
+docs_url: https://destaire.com/connector
+endpoints:
+  - url: https://destaire.com/mcp
+    transport: streamable-http
+    auth: none

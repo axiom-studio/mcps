@@ -1,0 +1,12 @@
+name: ADHDEvaluations.fyi
+summary: Directory of ADHD evaluation providers by state.
+category: search
+tags:
+  - healthcare
+  - search
+  - web-research
+docs_url: https://adhdevaluations.fyi
+endpoints:
+  - url: https://adhdevaluations.fyi/mcp
+    transport: streamable-http
+    auth: unknown

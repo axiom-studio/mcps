@@ -1,0 +1,13 @@
+name: Run it by
+summary: 'Ask people outside the chat for answers or approvals by link: forms, surveys and sign-offs they answer on their phone, returned to your agent as JSON.'
+category: productivity
+tags:
+  - ai-agent
+  - notifications
+  - productivity
+  - workflow-automation
+docs_url: https://runitby.app/docs
+endpoints:
+  - url: https://runitby.app/mcp
+    transport: streamable-http
+    auth: unknown

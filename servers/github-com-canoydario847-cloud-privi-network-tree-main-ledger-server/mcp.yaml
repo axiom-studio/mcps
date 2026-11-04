@@ -1,0 +1,13 @@
+name: Privi Ledger
+summary: 'Tamper-evident, quantum-sealed audit logs for AI agents: log every action, prove it later, sealed compliance reports (EU AI Act, OMB AI inventories, post-quantum plans), agent trust passports, wallet Know-Your-Agent, spending mandates. Remote MCP, free tier, x402.'
+category: development
+tags:
+  - ai-agent
+  - compliance
+  - crypto
+  - security
+docs_url: https://github.com/canoydario847-cloud/Privi-Network/tree/main/ledger-server
+endpoints:
+  - url: https://privi-ledger.onrender.com/mcp
+    transport: streamable-http
+    auth: unknown

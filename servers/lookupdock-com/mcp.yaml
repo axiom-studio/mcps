@@ -1,0 +1,12 @@
+name: LookupDock
+summary: Check disposable emails, basic phone ranges and hosting or Tor IPs through API, CSV or MCP. Unknown stays unknown.
+category: development
+tags:
+  - api
+  - email-automation
+  - security
+docs_url: https://lookupdock.com/?ref=mcpservers-org
+endpoints:
+  - url: https://lookupdock.com/mcp
+    transport: streamable-http
+    auth: api-key

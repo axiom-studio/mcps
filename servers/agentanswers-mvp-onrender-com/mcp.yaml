@@ -1,0 +1,14 @@
+name: AgentAnswers
+summary: APIs agents pay for per-call (x402, USDC, no account). MCP server (9 tools) for research, claim verification, crypto backtesting, extraction, pricing, summarization and bundles. Free tier (10/IP/day), then pay per call in USDC on Base.
+category: search
+tags:
+  - crypto
+  - data-analysis
+  - knowledge-retrieval
+  - payment
+  - research
+docs_url: https://agentanswers-mvp.onrender.com
+endpoints:
+  - url: https://agentanswers-mvp.onrender.com/mcp
+    transport: streamable-http
+    auth: none

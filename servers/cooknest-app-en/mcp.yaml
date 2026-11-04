@@ -1,0 +1,13 @@
+name: CookNest
+summary: 'Remote MCP server for your CookNest recipe library: search and open your recipes, import one from a link, plan meals and build your shopping list.'
+category: productivity
+tags:
+  - file-management
+  - grocery
+  - productivity
+  - workflow-automation
+docs_url: https://cooknest.app/en
+endpoints:
+  - url: https://mcp.cooknest.app/mcp
+    transport: streamable-http
+    auth: oauth

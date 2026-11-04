@@ -1,0 +1,11 @@
+name: Uviqora
+summary: 'Find and book people for short on-site tasks in Switzerland: pick something up and deliver it, check on location, record a condition. Every binding step needs the user''s explicit confirmation, enforced server-side. Free public pilot, early stage, starting in Zurich; no payments through the platform.'
+category: other
+tags:
+  - document
+  - documentation
+docs_url: https://uviqora.ch/docs/mcp
+endpoints:
+  - url: https://uviqora.ch/mcp
+    transport: streamable-http
+    auth: oauth

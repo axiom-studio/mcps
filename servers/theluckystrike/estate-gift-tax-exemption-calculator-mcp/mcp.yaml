@@ -1,0 +1,12 @@
+name: Estate and Gift Tax Exemption Calculator MCP
+summary: Federal estate and gift tax exemption 2025-2026, $15M OBBBA amount, gift checks
+category: finance
+tags:
+  - compliance
+  - data-analysis
+  - finance
+docs_url: https://github.com/theluckystrike/estate-gift-tax-exemption-calculator-mcp
+endpoints:
+  - url: https://estate-gift-tax-exemption-calculator-mcp.lipmichal.workers.dev/mcp
+    transport: streamable-http
+    auth: none

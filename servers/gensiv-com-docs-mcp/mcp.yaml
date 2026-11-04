@@ -1,0 +1,13 @@
+name: Gensiv
+summary: 'Read-only MCP server for Gensiv AI visibility data: how six AI engines answer your buyers, who they recommend and which sources they cite.'
+category: marketing
+tags:
+  - ai-model
+  - analytics
+  - marketing
+  - seo
+docs_url: https://gensiv.com/docs/mcp
+endpoints:
+  - url: https://api.gensiv.com/v1/mcp
+    transport: streamable-http
+    auth: api-key

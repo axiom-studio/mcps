@@ -1,0 +1,14 @@
+name: UiChemy MCP
+summary: Remote MCP server that lets Claude, Cursor, Codex or VS Code search 500+ hand-built WordPress sections and place them on a page as editable Elementor widgets or Gutenberg blocks.
+category: design
+tags:
+  - cms
+  - content-creation
+  - design
+  - web-research
+  - wordpress
+docs_url: https://github.com/posimyth/uichemy-mcp
+endpoints:
+  - url: https://app.uichemy.com/api/mcp
+    transport: streamable-http
+    auth: oauth

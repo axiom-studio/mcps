@@ -1,0 +1,14 @@
+name: ModelsLab MCP
+summary: Generate images, video, speech, music and sound effects, and run LLM chat, across 10,000+ AI models from any MCP client. Hosted Streamable HTTP server with OAuth 2.1 or API key auth.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - llm
+  - media
+  - text-to-speech
+docs_url: https://github.com/ModelsLab/modelslab-mcp
+endpoints:
+  - url: https://modelslab.com/mcp/v7
+    transport: streamable-http
+    auth: oauth

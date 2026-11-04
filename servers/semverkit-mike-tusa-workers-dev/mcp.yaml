@@ -1,0 +1,12 @@
+name: SemverKit
+summary: Parse and compare semantic versions, check npm-style ranges (^, ~, x, hyphen, ||), find the max satisfying version from up to 200 candidates and compute the next version, node-semver compatible. Free, with no sign-up and no API key; about 60 checks per minute per IP. Nothing you submit is stored. SemverKit is not affiliated with semver.org, npm, GitHub or the OpenJS Foundation.
+category: development
+tags:
+  - code-quality
+  - development
+  - version-control
+docs_url: https://semverkit.mike-tusa.workers.dev/
+endpoints:
+  - url: https://semverkit.mike-tusa.workers.dev/mcp
+    transport: streamable-http
+    auth: none

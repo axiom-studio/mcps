@@ -1,0 +1,13 @@
+name: x402 Doctor
+summary: 'Check x402 and MPP paid APIs before your agent pays: free endpoint check, $0.001 go/caution/no_go preflight, and fixes for sellers.'
+category: development
+tags:
+  - api
+  - development
+  - payment
+  - testing-qa
+docs_url: https://x402-doctor.fizzl.eu/
+endpoints:
+  - url: https://x402-doctor.fizzl.eu/mcp
+    transport: streamable-http
+    auth: unknown

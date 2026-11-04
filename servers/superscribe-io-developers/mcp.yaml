@@ -1,0 +1,13 @@
+name: Superscribe
+summary: Remote MCP server to search and read your Superscribe call and meeting recordings, transcripts and summaries from Claude and other agents
+category: productivity
+tags:
+  - communication
+  - knowledge-retrieval
+  - meeting-notes
+  - productivity
+docs_url: https://superscribe.io/developers
+endpoints:
+  - url: https://superscribe.io/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: Replai
+summary: Set up, test and publish an AI customer support Agent for your SaaS product.
+category: productivity
+tags:
+  - ai-agent
+  - chatbot
+  - customer-ops
+  - productivity
+docs_url: https://replai.tw/en/guide/connect-ai-agents?utm_source=mcpservers.org&utm_medium=directory&utm_campaign=mcp-launch
+endpoints:
+  - url: https://api.replai.tw/mcp
+    transport: streamable-http
+    auth: oauth

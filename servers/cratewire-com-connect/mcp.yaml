@@ -1,0 +1,13 @@
+name: CrateWire
+summary: Ask Claude, ChatGPT and other AI apps about the tracks DJs play. Look up the tracks CrateWire identified in an Instagram post, TikTok or DJ set link, see what the DJs you follow played lately, browse your feed and your scanned sets, and start new scans on your plan. Remote server, OAuth sign-in, no API key.
+category: other
+tags:
+  - media
+  - music
+  - search
+  - social-media
+docs_url: https://cratewire.com/connect
+endpoints:
+  - url: https://cratewire.com/mcp
+    transport: streamable-http
+    auth: oauth

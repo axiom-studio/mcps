@@ -1,0 +1,15 @@
+name: Tavily
+summary: Official Tavily MCP server for AI search and content extraction, giving MCP clients web search, crawl, and extract tools.
+category: search
+tags:
+  - ai-agent
+  - content-creation
+  - search
+  - web-research
+official: true
+registry_name: io.github.tavily-ai/tavily-mcp
+docs_url: https://github.com/tavily-ai/tavily-mcp
+endpoints:
+  - url: https://mcp.tavily.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,11 @@
+name: FindEnergyRates Electricity Rates
+summary: 'Live US retail electricity plans, utility price-to-compare rates and ZIP-to-utility lookup; no key needed. Remote endpoint: https://findenergyrates.com/mcp/public'
+category: other
+tags:
+  - data-analysis
+  - research
+docs_url: https://findenergyrates.com/developers/mcp
+endpoints:
+  - url: https://findenergyrates.com/mcp/public
+    transport: streamable-http
+    auth: none

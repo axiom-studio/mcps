@@ -1,0 +1,13 @@
+name: pwned.coffee
+summary: 'Live security incidents, updated hourly: fix status, fixed versions, lockfile and repo checks.'
+category: development
+tags:
+  - compliance
+  - development
+  - security
+  - threat-intelligence
+docs_url: https://github.com/pwned-coffee/pwned.coffee
+endpoints:
+  - url: https://pwned.coffee/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,11 @@
+name: NaCzarter (yacht charter, Masurian Lakes)
+summary: 'Find yacht, motorboat and houseboat charters on the Masurian Lakes in Poland: specs and exact date quotes.'
+category: other
+tags:
+  - ecommerce
+  - marketplace
+docs_url: https://naczarter.pl/en/developers
+endpoints:
+  - url: https://naczarter.pl/api/mcp
+    transport: streamable-http
+    auth: none

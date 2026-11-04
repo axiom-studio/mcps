@@ -1,0 +1,15 @@
+name: getimg
+summary: Create images, video and audio
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - media
+official: true
+registry_name: ai.getimg/getimg
+docs_url: https://getimg.ai/mcp
+endpoints:
+  - url: https://getimg.ai/mcp
+    transport: streamable-http
+    auth: oauth

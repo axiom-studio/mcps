@@ -1,0 +1,13 @@
+name: Local Commander (hosted)
+summary: Remote control of all your Windows, Mac and Linux computers from one ChatGPT, Claude or Cursor chat — even from your phone.
+category: development
+tags:
+  - development
+  - file-management
+  - git
+  - workflow-automation
+docs_url: https://localcmd.app
+endpoints:
+  - url: https://localcmd.app/mcp
+    transport: streamable-http
+    auth: oauth

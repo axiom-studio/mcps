@@ -1,0 +1,12 @@
+name: Fizzlayer
+summary: 'The physical layer for AI agents. Fizzlayer connects AI agents to the real world: pair a Raspberry Pi, ESP32, or phone, bring any sensor over HTTPS, and ask in plain English or connect over MCP. Remote MCP endpoint https://fizzlayer.com/api/mcp (Streamable HTTP, Bearer token required, created on the Agents page). Tools: list_sensors, get_readings, list_alerts, create_alert, pair_device.'
+category: other
+tags:
+  - ai-agent
+  - home-automation
+  - iot
+docs_url: https://github.com/fizzlayer/fizzlayer
+endpoints:
+  - url: https://fizzlayer.com/api/mcp
+    transport: streamable-http
+    auth: api-key

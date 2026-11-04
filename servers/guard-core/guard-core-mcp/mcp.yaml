@@ -1,0 +1,12 @@
+name: Guard Core MCP
+summary: 'Security analysis for Python codebases through the guard-core engine: SecurityConfig validation that catches keys pydantic silently drops, docs search over the vendored corpus, live detection probing, and verified setup guidance for Python, Typescript, Rust, PHP and Go adapters.'
+category: other
+tags:
+  - code-quality
+  - documentation
+  - security
+docs_url: https://github.com/Guard-Core/guard-core-mcp
+endpoints:
+  - url: https://mcp.guard-core.com/mcp
+    transport: streamable-http
+    auth: oauth

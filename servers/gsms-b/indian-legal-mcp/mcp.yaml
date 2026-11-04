@@ -1,0 +1,13 @@
+name: Indian-Legal-MCP
+summary: An advanced MCP server that connects AI agents directly to 10 major Indian Legal Acts(BNS, BNSS, BSA, IPC, CrPC, IEA, COI, MVA, NIA, CPC) featuring guided tool orchestration, dynamic act metadata, and 15 native prompt workflows.
+category: other
+tags:
+  - ai-agent
+  - document
+  - knowledge-retrieval
+  - research
+docs_url: https://github.com/GSMS-B/indian-legal-mcp
+endpoints:
+  - url: https://gsms-b-indian-legal-mcp.hf.space/gradio_api/mcp/
+    transport: streamable-http
+    auth: none

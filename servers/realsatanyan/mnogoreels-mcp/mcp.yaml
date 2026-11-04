@@ -1,0 +1,13 @@
+name: MnogoReels
+summary: Turn long videos into captioned vertical shorts, transcripts and articles with MnogoReels.
+category: other
+tags:
+  - content-creation
+  - file-conversion
+  - media
+  - video
+docs_url: https://github.com/RealSatanyan/mnogoreels-mcp
+endpoints:
+  - url: https://mcp.mnogo-reels.ru/mcp
+    transport: streamable-http
+    auth: api-key

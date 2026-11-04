@@ -1,0 +1,14 @@
+name: NullClear Protocol MCP
+summary: Autonomous deferred schema escrow, ERC-8004 reputation scoring, and KYA corporate liability mandate verifier for x402 AI agent payments on Base.
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - evm
+  - finance
+  - smart-contracts
+docs_url: https://github.com/Nullclear-Protocol/nullclear
+endpoints:
+  - url: https://nullclear.dev/mcp
+    transport: streamable-http
+    auth: none

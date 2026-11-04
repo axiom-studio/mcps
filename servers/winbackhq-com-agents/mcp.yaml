@@ -1,0 +1,12 @@
+name: 'Winback HQ: pay-on-success win-back'
+summary: 'Remote, read-only MCP server for Winback HQ, pay-on-success win-back for subscription apps (RevenueCat, Stripe, App Store, Google Play). It groups lapsed subscribers, drafts personal win-back messages with offers inside founder limits, and charges only on recovered revenue. Tools: get_winback_overview, get_winback_pricing, estimate_win_back_revenue, get_apple_retention_facts. Streamable HTTP, no auth.'
+category: marketing
+tags:
+  - analytics
+  - customer-ops
+  - marketing
+docs_url: https://winbackhq.com/agents/
+endpoints:
+  - url: https://winbackhq.com/mcp/
+    transport: streamable-http
+    auth: none

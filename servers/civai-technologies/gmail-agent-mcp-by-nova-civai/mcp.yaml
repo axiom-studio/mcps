@@ -1,0 +1,13 @@
+name: Gmail Agent by Nova (CIVAI)
+summary: I do everything related to Gmail and productivity
+category: productivity
+tags:
+  - ai-agent
+  - email-automation
+  - gmail
+  - productivity
+docs_url: https://github.com/civai-technologies/gmail-agent-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/gmail-agent
+    transport: streamable-http
+    auth: api-key

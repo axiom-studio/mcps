@@ -1,0 +1,13 @@
+name: Voidly Atlas MCP Server
+summary: 'Please replace the old "Voidly MCP Server" listing (its text is out of date). Voidly Atlas: an MCP server for internet-censorship data — country rankings, domain blocking checks, incidents with evidence links from OONI, CensoredPlanet and IODA, and shutdown-risk forecasts. Local stdio package @voidly/mcp-server 3.0.2 (MIT); a read-only hosted version runs at https://atlas-mcp.voidly.ai/mcp. Agent relay tools are optional; relay messages are relay-readable, not end-to-end encrypted, and relay writes are off by default.'
+category: search
+tags:
+  - data-analysis
+  - research
+  - security
+  - web-research
+docs_url: https://github.com/voidly-ai/atlas-mcp
+endpoints:
+  - url: https://atlas-mcp.voidly.ai/mcp
+    transport: streamable-http
+    auth: none

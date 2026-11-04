@@ -1,0 +1,12 @@
+name: Autoza UK
+summary: 'Free UK used-car MCP server (no sign-up): road tax (VED), ULEZ/CAZ charges, MOT dates and pass odds, DVSA reliability, running costs, price guidance and live UK dealer stock.'
+category: other
+tags:
+  - data-analysis
+  - finance
+  - marketplace
+docs_url: https://autoza.co.uk/mcp
+endpoints:
+  - url: https://autoza.co.uk/api/mcp
+    transport: streamable-http
+    auth: none

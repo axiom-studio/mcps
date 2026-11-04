@@ -1,0 +1,12 @@
+name: FlareMail
+summary: Read, search, draft, and send email from a mailbox on your own domain.
+category: communication
+tags:
+  - communication
+  - email-automation
+  - productivity
+docs_url: https://sendwithflare.com
+endpoints:
+  - url: https://flaremail-api.tcrxx0.workers.dev/mcp
+    transport: streamable-http
+    auth: oauth

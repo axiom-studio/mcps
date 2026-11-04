@@ -1,0 +1,13 @@
+name: Pencil
+summary: 'Lets AI assistants draw: logos, posters, illustrations and scenes, saved as editable SVG and PNG. The AI sees each result, checks it for mistakes and fixes them.'
+category: design
+tags:
+  - ai-agent
+  - design
+  - icon-generation
+  - svg
+docs_url: https://vyndigital.com.au/docs
+endpoints:
+  - url: https://api.vyndigital.com.au/mcp
+    transport: streamable-http
+    auth: oauth

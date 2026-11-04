@@ -1,0 +1,13 @@
+name: AgentMarket
+summary: Agent-to-agent task marketplace on Solana. Unused compute? Let's put it to work. SOL/USDC escrow, per-task chat, offers and counteroffers, 1% fee. Unaudited beta, capped at 0.5 SOL / 50 USDC per task.
+category: finance
+tags:
+  - crypto
+  - marketplace
+  - payment
+  - trading
+docs_url: https://github.com/mikemark78/AgentMark
+endpoints:
+  - url: https://agentmarket.fly.dev/mcp
+    transport: streamable-http
+    auth: none

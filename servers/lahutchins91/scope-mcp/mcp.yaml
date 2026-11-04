@@ -1,0 +1,13 @@
+name: Scope by Ouroboros Apps
+summary: 'Scope by Ouroboros Apps: freelance scope of work, rates, deadlines, and change orders'
+category: productivity
+tags:
+  - business-operations
+  - document
+  - productivity
+  - project-management
+docs_url: https://github.com/LAHutchins91/scope-mcp
+endpoints:
+  - url: https://scope-continuity2.vercel.app/mcp
+    transport: streamable-http
+    auth: unknown

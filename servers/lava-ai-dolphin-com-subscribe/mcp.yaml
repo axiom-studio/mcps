@@ -1,0 +1,13 @@
+name: Lava / 熔岩
+summary: A-share news-flow heat monitoring for stocks and concept sectors — structured read-only MCP/REST for quant traders.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - news
+  - trading
+docs_url: https://lava.ai-dolphin.com/subscribe
+endpoints:
+  - url: https://lava.ai-dolphin.com/subscribe/v1/mcp
+    transport: streamable-http
+    auth: unknown

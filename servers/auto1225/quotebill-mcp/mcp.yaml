@@ -1,0 +1,13 @@
+name: QuoteBill
+summary: 'Draft quotations and invoices from ChatGPT, Claude, Gemini or any MCP client: 133 templates, published tax rules for 195 countries with their official sources, exact totals, and a link that opens the finished document on quotebill.com. Free QuoteBill account; clients sign in with OAuth 2.1.'
+category: finance
+tags:
+  - business-operations
+  - document
+  - finance
+  - productivity
+docs_url: https://github.com/auto1225/quotebill-mcp
+endpoints:
+  - url: https://quotebill.com/mcp
+    transport: streamable-http
+    auth: oauth

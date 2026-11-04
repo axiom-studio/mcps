@@ -1,0 +1,13 @@
+name: OtaKit
+summary: 'Ship over-the-air updates for Capacitor apps: publish releases after your approval, control staged rollouts, read rollout health, and revert.'
+category: development
+tags:
+  - deployment
+  - development
+  - devops
+  - mobile
+docs_url: https://github.com/OtaKit/otakit
+endpoints:
+  - url: https://console.otakit.app/mcp
+    transport: streamable-http
+    auth: oauth

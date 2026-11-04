@@ -1,0 +1,13 @@
+name: Quickbase MCP by Smart Strategy
+summary: Ask your Quickbase apps questions in plain language. Each person sees only what their Quickbase permissions allow; changes need human approval.
+category: productivity
+tags:
+  - ai-agent
+  - database
+  - productivity
+  - workflow-automation
+docs_url: https://auth.smartstrategyapps.com/docs?lang=en
+endpoints:
+  - url: https://mcpqb.smartstrategyapps.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: npiwho
+summary: Look up US health care providers by NPI, name or phone, with payments, Medicare, OIG and facility data. Free, no key.
+category: search
+tags:
+  - government
+  - healthcare
+  - search
+docs_url: https://npiwho.com/developers/mcp
+endpoints:
+  - url: https://npiwho.com/mcp
+    transport: streamable-http
+    auth: none

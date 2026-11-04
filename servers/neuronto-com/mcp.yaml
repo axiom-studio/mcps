@@ -1,0 +1,13 @@
+name: Neuronto ARD Registry
+summary: Search over 120,000 MCP servers, agents and APIs by capability, with the tools each server actually exposes. An Agentic Resource Discovery (ARD) registry.
+category: search
+tags:
+  - ai-agent
+  - api
+  - knowledge-retrieval
+  - search
+docs_url: https://neuronto.com
+endpoints:
+  - url: https://neuronto.com/mcp
+    transport: streamable-http
+    auth: none

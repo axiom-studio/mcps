@@ -1,0 +1,12 @@
+name: Shared team memory for agents
+summary: Shared persistent memory for agent teams — $4.75/seat/mo
+category: memory
+tags:
+  - ai-agent
+  - collaboration
+  - memory
+docs_url: https://textforagents.com/products/shared-team-agent-memory/
+endpoints:
+  - url: https://textforagents.com/products/shared-team-agent-memory/
+    transport: streamable-http
+    auth: unknown

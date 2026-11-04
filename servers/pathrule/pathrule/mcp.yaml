@@ -1,0 +1,13 @@
+name: Pathrule
+summary: Path-scoped memories, rules and skills for coding agents, local or synced through Pathrule Cloud.
+category: memory
+tags:
+  - ai-agent
+  - coding-agent
+  - development
+  - memory
+docs_url: https://github.com/pathrule/pathrule
+endpoints:
+  - url: https://cloud.pathrule.io/mcp
+    transport: streamable-http
+    auth: oauth

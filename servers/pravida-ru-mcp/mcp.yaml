@@ -1,0 +1,12 @@
+name: Pravida — Russian law
+summary: 'Russian law for AI: statutes with edition dates, Supreme Court guidance and court practice.'
+category: search
+tags:
+  - government
+  - knowledge-retrieval
+  - search
+docs_url: https://pravida.ru/mcp/
+endpoints:
+  - url: https://lk.pravida.ru/mcp
+    transport: streamable-http
+    auth: oauth

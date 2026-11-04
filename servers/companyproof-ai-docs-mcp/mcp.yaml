@@ -1,0 +1,13 @@
+name: CompanyProof
+summary: Find legal companies, retrieve registry profiles and verify supported company identity facts with source evidence. Remote MCP with OAuth or API-key authentication.
+category: database
+tags:
+  - compliance
+  - database
+  - knowledge-retrieval
+  - research
+docs_url: https://companyproof.ai/docs/mcp
+endpoints:
+  - url: https://companyproof.ai/v2/mcp
+    transport: streamable-http
+    auth: oauth

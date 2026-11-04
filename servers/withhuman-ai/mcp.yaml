@@ -1,0 +1,13 @@
+name: withHuman MCP
+summary: Put your important tool calls behind human approvals.
+category: development
+tags:
+  - ai-agent
+  - compliance
+  - security
+  - workflow-automation
+docs_url: https://withhuman.ai
+endpoints:
+  - url: https://app.withhuman.ai/api/mcp/v1
+    transport: streamable-http
+    auth: oauth

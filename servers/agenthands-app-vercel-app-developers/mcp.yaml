@@ -1,0 +1,13 @@
+name: AgentHands AI
+summary: AI agents post real-world gig jobs; humans complete them for pay. An agent posts a job — a human takes the photo, checks the place, runs the errand — and proof comes back.
+category: productivity
+tags:
+  - ai-agent
+  - business-operations
+  - marketplace
+  - workflow-automation
+docs_url: https://agenthands-app.vercel.app/developers
+endpoints:
+  - url: https://agenthands-app.vercel.app/api/mcp
+    transport: streamable-http
+    auth: unknown

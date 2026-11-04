@@ -1,0 +1,12 @@
+name: Bitly MCP Server
+summary: Turn your AI assistant into a digital marketing hub that creates, organizes, and analyzes links and QR Codes on demand.
+category: productivity
+tags:
+  - productivity
+official: true
+registry_name: com.bitly/mcp
+docs_url: https://dev.bitly.com/bitly-mcp/overview/quickstart/
+endpoints:
+  - url: https://api-ssl.bitly.com/v4/mcp
+    transport: streamable-http
+    auth: oauth

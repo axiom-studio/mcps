@@ -1,0 +1,12 @@
+name: French4PR
+summary: French4PR lists French test centres, schools and online tutors for Canadian permanent residence. Browse by city and category, and access listings through a free API and MCP server.
+category: search
+tags:
+  - api
+  - education
+  - search
+docs_url: https://french4pr.com
+endpoints:
+  - url: https://french4pr.com/mcp
+    transport: streamable-http
+    auth: none

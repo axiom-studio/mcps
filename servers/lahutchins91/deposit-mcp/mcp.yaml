@@ -1,0 +1,12 @@
+name: Deposit by Ouroboros Apps
+summary: 'Deposit by Ouroboros Apps: freelance deposit and payment schedule'
+category: finance
+tags:
+  - business-operations
+  - finance
+  - payment
+docs_url: https://github.com/LAHutchins91/deposit-mcp
+endpoints:
+  - url: https://deposit-continuity2.vercel.app/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: NetAPI
+summary: 'Domain intelligence for AI assistants: check domains and IPs against compromised lists, TLD statistics, Top 1M ranks, newly registered domains, registrar and DNS provider data from NetAPI (1,500+ TLDs).'
+category: search
+tags:
+  - data-analysis
+  - security
+  - threat-intelligence
+  - web-research
+docs_url: https://netapi.com/help/mcp/
+endpoints:
+  - url: https://mcp.netapi.com/mcp
+    transport: streamable-http
+    auth: oauth

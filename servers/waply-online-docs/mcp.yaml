@@ -1,0 +1,13 @@
+name: Waply for Kommo
+summary: Read-only MCP server for Waply, the official WhatsApp API add-on for Kommo CRM. Search Waply docs, plans, installation guide and Meta messaging cost calculators.
+category: communication
+tags:
+  - communication
+  - crm
+  - documentation
+  - whatsapp
+docs_url: https://waply.online/docs
+endpoints:
+  - url: https://waply.online/mcp
+    transport: streamable-http
+    auth: unknown

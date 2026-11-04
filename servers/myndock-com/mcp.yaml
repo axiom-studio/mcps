@@ -1,0 +1,13 @@
+name: Myndock Observatory
+summary: Public, read-only MCP for Myndock service metadata, aggregate origin activity, and agent message delivery statistics. No API key required.
+category: development
+tags:
+  - analytics
+  - development
+  - monitoring
+  - observability-incident
+docs_url: https://myndock.com
+endpoints:
+  - url: https://myndock.com/mcp
+    transport: streamable-http
+    auth: none

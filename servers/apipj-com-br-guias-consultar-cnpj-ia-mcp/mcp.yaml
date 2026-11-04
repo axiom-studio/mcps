@@ -1,0 +1,12 @@
+name: apipj
+summary: 'Brazilian company data (CNPJ) from Receita Federal open data: lookup, alphanumeric CNPJ validation and data load status. Free plan: 50k lookups/month.'
+category: search
+tags:
+  - api
+  - data-analysis
+  - search
+docs_url: https://apipj.com.br/guias/consultar-cnpj-ia-mcp
+endpoints:
+  - url: https://apipj.com.br/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Pith — Instagram publishing
+summary: Publish to Instagram from chat — official Graph API, OAuth 2.1, free for your own posts.
+category: marketing
+tags:
+  - api
+  - content-creation
+  - marketing
+  - social-media
+docs_url: https://pith.day/connect/mcp?utm_source=mcpservers&utm_medium=listing&utm_campaign=directories
+endpoints:
+  - url: https://pith.day/api/mcp
+    transport: streamable-http
+    auth: oauth

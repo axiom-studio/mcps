@@ -1,0 +1,12 @@
+name: MCP Tool Response Reference
+summary: Searches the web using DuckDuckGo and returns relevant result titles, URLs, and snippets for a given query. Supports limiting the number of results.
+category: search
+tags:
+  - knowledge-retrieval
+  - search
+  - web-research
+docs_url: https://8.133.174.91/docs/duckduckgo
+endpoints:
+  - url: https://8.133.174.91/mcp
+    transport: streamable-http
+    auth: unknown

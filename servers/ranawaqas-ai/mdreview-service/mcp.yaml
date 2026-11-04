@@ -1,0 +1,13 @@
+name: mdreview
+summary: Human-in-the-loop document review. An agent pushes a markdown or LaTeX draft, a person comments in the browser, and the agent reads the comments, revises and resolves them.
+category: productivity
+tags:
+  - ai-agent
+  - collaboration
+  - document
+  - workflow-automation
+docs_url: https://github.com/ranawaqas-ai/mdreview-service
+endpoints:
+  - url: https://app.mdreview.space/mcp
+    transport: streamable-http
+    auth: oauth

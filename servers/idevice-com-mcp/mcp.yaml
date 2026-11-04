@@ -1,0 +1,12 @@
+name: iDevice Wearables
+summary: Prices, availability, compatibility, sourced specs, comparisons and graded leak claims for wearables and phones. Remote, no API key.
+category: other
+tags:
+  - productivity
+  - research
+  - web-research
+docs_url: https://idevice.com/mcp
+endpoints:
+  - url: https://idevice.com/api/mcp
+    transport: streamable-http
+    auth: none

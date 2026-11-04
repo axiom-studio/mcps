@@ -1,0 +1,10 @@
+name: Hypotize
+summary: 'Agent-native Growth OS: idea backlog, experiment pipeline and learnings your team and agent share.'
+category: productivity
+tags:
+  - productivity
+docs_url: https://hypotize.ai/mcp?utm_source=mcpservers&utm_medium=directory
+endpoints:
+  - url: https://api.hypotize.ai/mcp
+    transport: streamable-http
+    auth: oauth

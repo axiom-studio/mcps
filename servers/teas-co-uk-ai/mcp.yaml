@@ -1,0 +1,12 @@
+name: teas.co.uk
+summary: Search, compare and buy tea, coffee and hot chocolate from a UK shop; sign in to track orders.
+category: other
+tags:
+  - ecommerce
+  - productivity
+  - search
+docs_url: https://teas.co.uk/ai/
+endpoints:
+  - url: https://teas.co.uk/mcp
+    transport: streamable-http
+    auth: unknown

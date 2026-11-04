@@ -1,0 +1,12 @@
+name: AdLens
+summary: Your AdMob numbers, without the AdMob console. A fast MCP server so your AI assistant can query the same live data
+category: productivity
+tags:
+  - advertising
+  - analytics
+  - api
+docs_url: https://github.com/ys-pro-duction/AdLens
+endpoints:
+  - url: https://adlens.moreproductive.in/mcp
+    transport: streamable-http
+    auth: api-key

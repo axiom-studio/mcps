@@ -1,0 +1,13 @@
+name: PartPacket — 3D printing quotes
+summary: Compare live FDM STL printing estimates from Slant 3D and Craftcloud over MCP. Separate provider prices, 10% fee and shipping. No payments or production orders.
+category: development
+tags:
+  - development
+  - ecommerce
+  - marketplace
+  - payment
+docs_url: https://partpacket.com/docs?utm_source=mcpservers&utm_medium=directory
+endpoints:
+  - url: https://partpacket.com/mcp
+    transport: streamable-http
+    auth: none

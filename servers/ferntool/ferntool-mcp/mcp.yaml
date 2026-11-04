@@ -1,0 +1,12 @@
+name: FernTool IP Lookup
+summary: 'Free remote MCP server to get your public IP, look up country, ISP and ASN for any IP, and validate IPv4/IPv6. No API key needed. Tools: get_my_ip, lookup_ip, validate_ip. Remote URL (streamable HTTP): https://www.ferntool.com/mcp'
+category: development
+tags:
+  - api
+  - development
+  - network-automation
+docs_url: https://github.com/FernTool/ferntool-mcp
+endpoints:
+  - url: https://www.ferntool.com/mcp
+    transport: streamable-http
+    auth: none

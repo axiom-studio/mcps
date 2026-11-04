@@ -1,0 +1,13 @@
+name: FastAF
+summary: 'Web data tools for AI agents: pages as markdown, search, Google Maps, Amazon/eBay/Walmart, jobs, news, AI answers, screenshots. Bearer API key from fastaf.co/signup (one free request), or pay per request in USDC via x402.'
+category: web-scraping
+tags:
+  - ai-agent
+  - ecommerce
+  - search
+  - web-scraping
+docs_url: https://fastaf.co
+endpoints:
+  - url: https://api.fastaf.co/mcp
+    transport: streamable-http
+    auth: api-key

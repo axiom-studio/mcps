@@ -1,0 +1,18 @@
+name: Hex
+summary: Hex is a data workspace for analysis, notebooks, and collaborative analytics. Its connector lets assistants answer questions with Hex agent context, helping users reason over data projects and analytical workflows.
+description: |-
+  Hex is a data workspace for analysis, notebooks, and collaborative analytics. Its connector lets assistants answer questions with Hex agent context, helping users reason over data projects and analytical workflows.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://learn.hex.tech/docs/api-integrations/mcp-server)
+category: database
+tags:
+  - database
+  - remote-mcp
+official: true
+docs_url: https://learn.hex.tech/docs/api-integrations/mcp-server
+endpoints:
+  - url: https://app.hex.tech/mcp
+    transport: streamable-http
+    auth: oauth

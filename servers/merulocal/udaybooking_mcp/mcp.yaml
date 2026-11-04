@@ -1,0 +1,13 @@
+name: UdayBooking MCP Server
+summary: Read-only MCP server that lets Claude and other AI agents search UdayBooking's scheduling docs, guides, help centre, pricing and FAQs. Remote endpoint, no API key.
+category: productivity
+tags:
+  - calendar
+  - documentation
+  - knowledge-retrieval
+  - productivity
+docs_url: https://github.com/MeruLocal/udaybooking_MCP
+endpoints:
+  - url: https://mcp.udaybooking.com/mcp
+    transport: streamable-http
+    auth: none

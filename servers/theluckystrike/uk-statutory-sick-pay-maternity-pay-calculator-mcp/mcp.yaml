@@ -1,0 +1,12 @@
+name: UK Statutory Sick Pay and Maternity Pay Calculator MCP
+summary: UK SSP after the April 2026 reform, maternity pay and 2026-2027 minimum wage
+category: finance
+tags:
+  - compliance
+  - finance
+  - government
+docs_url: https://github.com/theluckystrike/uk-statutory-sick-pay-maternity-pay-calculator-mcp
+endpoints:
+  - url: https://uk-statutory-sick-pay-maternity-pay-calculator-mcp.lipmichal.workers.dev/mcp
+    transport: streamable-http
+    auth: none

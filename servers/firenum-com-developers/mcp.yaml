@@ -1,0 +1,12 @@
+name: firenum - retirement planner
+summary: When can you retire? Turns your age, savings, income and spending into a retirement date, checked against 500 simulated markets and every start year since 1872.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+docs_url: https://firenum.com/developers#mcp
+endpoints:
+  - url: https://firenum.com/mcp
+    transport: streamable-http
+    auth: none

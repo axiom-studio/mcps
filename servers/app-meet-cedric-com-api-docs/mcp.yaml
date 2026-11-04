@@ -1,0 +1,14 @@
+name: Cedric MCP
+summary: 'Remote MCP server for Cedric, an AI employee: your agent gets his memory, team chat channels, connected apps, files, workflows and scheduling, with human approval on risky actions.'
+category: productivity
+tags:
+  - ai-agent
+  - collaboration
+  - productivity
+  - task-management
+  - workflow-automation
+docs_url: https://app.meet-cedric.com/api-docs
+endpoints:
+  - url: https://app.meet-cedric.com/api/v1/mcp
+    transport: streamable-http
+    auth: oauth

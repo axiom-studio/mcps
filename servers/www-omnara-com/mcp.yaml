@@ -1,0 +1,13 @@
+name: Omnara
+summary: Omnara is an open-source managed agent platform. Its MCP server lets Claude Code, Codex, Cursor, VS Code, and other MCP clients launch Omnara agents on any model and machine, message them, read their events, and approve their tool calls, with the permissions of your Omnara account. Sign in through the browser with OAuth; there's nothing to install.
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - development
+  - workflow-automation
+docs_url: https://www.omnara.com
+endpoints:
+  - url: https://app.omnara.com/mcp
+    transport: streamable-http
+    auth: oauth

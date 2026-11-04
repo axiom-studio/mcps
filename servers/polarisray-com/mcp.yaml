@@ -1,0 +1,14 @@
+name: PolarisRay
+summary: 'Remote MCP for public FDA/NIH data: federated search across MAUDE, ClinicalTrials.gov, DailyMed, openFDA SPL, and recalls (https://mcp.polarisray.com/federated). No API key. FAERS at /faers. Not medical advice—verify via returned source URLs. https://polarisray.com/docs/'
+category: search
+tags:
+  - data-analysis
+  - healthcare
+  - knowledge-retrieval
+  - research
+  - search
+docs_url: https://polarisray.com
+endpoints:
+  - url: https://mcp.polarisray.com/federated
+    transport: streamable-http
+    auth: none

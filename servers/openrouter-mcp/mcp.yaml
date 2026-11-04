@@ -1,0 +1,18 @@
+name: OpenRouter
+summary: OpenRouter is a unified API gateway for accessing hundreds of LLMs from a single endpoint. Its remote MCP server gives assistants live access to OpenRouter data, including model catalogs, pricing, benchmarks and rankings, and account credits, and lets them send test messages to any model without leaving the editor.
+description: |-
+  OpenRouter is a unified API gateway for accessing hundreds of LLMs from a single endpoint. Its remote MCP server gives assistants live access to OpenRouter data, including model catalogs, pricing, benchmarks and rankings, and account credits, and lets them send test messages to any model without leaving the editor.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://openrouter.ai/docs/guides/overview/mcp-server.md)
+category: development
+tags:
+  - development
+  - remote-mcp
+official: true
+docs_url: https://openrouter.ai/docs/guides/overview/mcp-server.md
+endpoints:
+  - url: https://mcp.openrouter.ai/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Streamlivr
+summary: Pay-per-request access to public creator, brand, streams, content and music data over x402 on Celo.
+category: search
+tags:
+  - crypto
+  - media
+  - payment
+  - search
+docs_url: https://github.com/streamlivr/streamlivr-x402-celo
+endpoints:
+  - url: https://api.streamlivr.com/mcp
+    transport: streamable-http
+    auth: unknown

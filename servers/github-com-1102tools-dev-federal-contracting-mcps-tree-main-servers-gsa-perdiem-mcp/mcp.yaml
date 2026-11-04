@@ -1,0 +1,11 @@
+name: GSA Per Diem MCP by 1102tools
+summary: 'Free hosted MCP server for GSA per diem rates: lodging and meals-and-incidental-expense rates by city, state or ZIP for pricing travel in proposals and IGCEs. Connect at https://gsa-perdiem.1102tools.com/mcp with nothing to install and no API key. Open source (MIT).'
+category: other
+tags:
+  - finance
+  - government
+docs_url: https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/gsa-perdiem-mcp
+endpoints:
+  - url: https://gsa-perdiem.1102tools.com/mcp
+    transport: streamable-http
+    auth: none

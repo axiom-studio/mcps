@@ -1,0 +1,12 @@
+name: CompressGIF
+summary: Compress GIFs from HTTPS URLs with quality, size-first, or target-size modes; check compression jobs, download results, and API credit usage.
+category: design
+tags:
+  - api
+  - file-conversion
+  - media
+docs_url: https://compressgif.net/docs
+endpoints:
+  - url: https://compressgif.net/api/mcp
+    transport: streamable-http
+    auth: api-key

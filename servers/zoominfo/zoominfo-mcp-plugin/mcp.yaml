@@ -1,0 +1,14 @@
+name: zoominfo-mcp-plugin
+summary: ZoomInfo MCP plugin
+category: development
+tags:
+  - business-operations
+  - crm
+  - data-analysis
+  - sales
+registry_name: io.github.Zoominfo/zoominfo-mcp
+docs_url: https://github.com/Zoominfo/zoominfo-mcp-plugin
+endpoints:
+  - url: https://mcp.zoominfo.com/mcp
+    transport: streamable-http
+    auth: oauth

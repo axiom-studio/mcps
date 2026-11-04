@@ -1,0 +1,13 @@
+name: POEditor (Official)
+summary: 'Manage POEditor localization projects from your AI assistant: add terms, update translations, run QA checks, auto-translate, and manage glossaries.'
+category: development
+tags:
+  - development
+  - project-management
+  - translation
+  - workflow-automation
+docs_url: https://github.com/POEditor/poeditor-mcp
+endpoints:
+  - url: https://mcp.poeditor.com/mcp
+    transport: streamable-http
+    auth: oauth

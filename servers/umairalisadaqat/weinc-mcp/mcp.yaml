@@ -1,0 +1,12 @@
+name: WeInc
+summary: 'Create, edit and publish small-business websites from your AI assistant: build a site from a prompt, change pages, read form submissions.'
+category: design
+tags:
+  - cms
+  - content-creation
+  - design-to-code
+docs_url: https://github.com/umairalisadaqat/weinc-mcp
+endpoints:
+  - url: https://my.we.inc/api/mcp
+    transport: streamable-http
+    auth: unknown

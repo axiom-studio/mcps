@@ -1,0 +1,15 @@
+name: treg
+summary: 'One MCP server and one key for 3,700+ pay-per-call APIs: SEO and backlinks, people and company enrichment, social, ads, scraping, image and video generation. Remote at https://treg.to/mcp/v2/ (OAuth) or self-hosted.'
+category: search
+tags:
+  - api
+  - data-analysis
+  - marketing
+  - search
+  - web-scraping
+official: true
+docs_url: https://github.com/superdesigndev/treg
+endpoints:
+  - url: https://treg.to/mcp/v2/
+    transport: streamable-http
+    auth: oauth

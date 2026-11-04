@@ -1,0 +1,14 @@
+name: Bot-Hosting.net
+summary: 'Deploy and manage Discord bots and apps on Bot-Hosting.net from your AI assistant: deployments, files, logs, shell, env vars, backups, domains. OAuth + scoped API keys.'
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - deployment
+  - devops
+  - discord
+  - ssh
+docs_url: https://bot-hosting.net/mcp
+endpoints:
+  - url: https://bot-hosting.net/api/mcp
+    transport: streamable-http
+    auth: oauth

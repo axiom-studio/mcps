@@ -1,0 +1,13 @@
+name: Fluid Recall
+summary: Agent-native spaced recall — deterministic system of record for Muse/AI agents. Remote MCP at fluidrecall.com/mcp; Markdown and JSON APIs also first-class.
+category: memory
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - memory
+  - rag
+docs_url: https://fluidrecall.com
+endpoints:
+  - url: https://fluidrecall.com/mcp
+    transport: streamable-http
+    auth: unknown

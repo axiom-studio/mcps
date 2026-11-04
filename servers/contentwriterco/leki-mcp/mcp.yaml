@@ -1,0 +1,8 @@
+name: Leki PL (leki-mcp)
+summary: 'Polish medicines for AI agents: official prices of refunded drugs, how much the patient pays, cheaper equivalents (same substance, strength and pack), free drugs for 65+/children/pregnant, prescription status and leaflets. Ministry of Health refund list + Medicinal Products Register. Free, no API key.'
+category: other
+docs_url: https://github.com/ContentWriterco/leki-mcp
+endpoints:
+  - url: https://leki.compabase.com/mcp
+    transport: streamable-http
+    auth: none

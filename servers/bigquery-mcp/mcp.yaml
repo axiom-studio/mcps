@@ -1,0 +1,18 @@
+name: Google Cloud BigQuery
+summary: Google Cloud BigQuery provides advanced analytical insight for data agents. Its connector gives assistants BigQuery context for exploring datasets, asking analytical questions, and working with large-scale cloud data from natural language.
+description: |-
+  Google Cloud BigQuery provides advanced analytical insight for data agents. Its connector gives assistants BigQuery context for exploring datasets, asking analytical questions, and working with large-scale cloud data from natural language.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://docs.cloud.google.com/bigquery/docs/use-bigquery-mcp)
+category: database
+tags:
+  - database
+  - remote-mcp
+official: true
+docs_url: https://docs.cloud.google.com/bigquery/docs/use-bigquery-mcp
+endpoints:
+  - url: https://bigquery.googleapis.com/mcp
+    transport: streamable-http
+    auth: oauth

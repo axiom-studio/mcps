@@ -1,0 +1,11 @@
+name: PhoneScreen
+summary: Score resumes, screen candidates by phone, and check references from your AI assistant.
+category: productivity
+tags:
+  - ai-agent
+  - crm
+docs_url: https://phonescreen.ai/mcp
+endpoints:
+  - url: https://app.phonescreen.ai/mcp
+    transport: streamable-http
+    auth: oauth

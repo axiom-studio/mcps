@@ -1,0 +1,13 @@
+name: GuardCue
+summary: Checks a site built with AI tools for security problems and gives the fix in plain English.
+category: development
+tags:
+  - code-quality
+  - development
+  - security
+  - testing-qa
+docs_url: https://guardcue.com/connect
+endpoints:
+  - url: https://api.guardcue.com/api/v1/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Chorus
+summary: Plan, check and launch ad campaigns on Meta, Google Ads and LinkedIn from Claude or ChatGPT. Campaigns start paused
+category: marketing
+tags:
+  - advertising
+  - ai-agent
+  - marketing
+  - marketing-automation
+docs_url: https://www.chorushq.net/mcp
+endpoints:
+  - url: https://mcp.chorushq.net/mcp
+    transport: streamable-http
+    auth: oauth

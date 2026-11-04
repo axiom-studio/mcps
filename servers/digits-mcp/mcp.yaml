@@ -1,0 +1,18 @@
+name: Digits
+summary: Digits helps users track and analyze business finances through connected accounting context. Its connector gives assistants financial data for reviewing performance, answering finance questions, and understanding company numbers from conversational prompts.
+description: |-
+  Digits helps users track and analyze business finances through connected accounting context. Its connector gives assistants financial data for reviewing performance, answering finance questions, and understanding company numbers from conversational prompts.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://help.digits.com/business-connections/digits-mcp.md)
+category: finance
+tags:
+  - finance
+  - remote-mcp
+official: true
+docs_url: https://help.digits.com/business-connections/digits-mcp.md
+endpoints:
+  - url: https://api.digits.com/mcp
+    transport: streamable-http
+    auth: oauth

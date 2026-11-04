@@ -1,0 +1,11 @@
+name: Lupamundo
+summary: 'Sourced Spanish guides for Latin America and US Hispanics: IELTS/TOEFL/CELPIP prices, work and study in Canada/US, online courses, travel kit and eSIM, evidence-based wellness. Read-only, no auth.'
+category: other
+tags:
+  - education
+  - research
+docs_url: https://lupamundo.com
+endpoints:
+  - url: https://lupamundo.com/mcp
+    transport: streamable-http
+    auth: none

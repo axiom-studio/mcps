@@ -1,0 +1,13 @@
+name: AnswerPool
+summary: Computed SEC EDGAR events, XBRL comparisons, insider clusters, Federal Register rules and US federal funding signals,   as JSON with provenance for AI agents. 80 free endpoints, free sample on every product, paid analyses from $0.02 per   call with prepaid credits or x402.
+category: other
+tags:
+  - api
+  - data-analysis
+  - finance
+  - research
+docs_url: https://answerpool.io/llms.txt
+endpoints:
+  - url: https://answerpool.io/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: GEN
+summary: GEN researches and creates social video over MCP. Free video editor and social publishing. AI content uses credits via cards or x402. OAuth/PATs and agent signup supported.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - video
+docs_url: https://gen.pro/docs
+endpoints:
+  - url: https://mcp.gen.pro
+    transport: streamable-http
+    auth: unknown

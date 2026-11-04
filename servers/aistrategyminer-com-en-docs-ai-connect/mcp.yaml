@@ -1,0 +1,13 @@
+name: AIStrategyMiner
+summary: 'Draft and validate trading strategy flows from templates, then open them in a visual no-code Strategy Builder for MetaTrader 5. Remote server: https://aistrategyminer.com/mcp. Not available in some regions, including the US.'
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - trading
+  - workflow-automation
+docs_url: https://aistrategyminer.com/en/docs/ai/connect
+endpoints:
+  - url: https://aistrategyminer.com/mcp
+    transport: streamable-http
+    auth: none

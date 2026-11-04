@@ -1,0 +1,15 @@
+name: Signal8
+summary: SEC filings, small-cap dilution (warrants, convertibles, ATMs, shelf capacity, cash runway), insider and congressional trades, and market data for AI agents.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+  - trading
+official: true
+registry_name: ai.signal8/mcp
+docs_url: https://github.com/signal8ai/signal8-mcp
+endpoints:
+  - url: https://mcp.signal8.ai/mcp
+    transport: streamable-http
+    auth: oauth

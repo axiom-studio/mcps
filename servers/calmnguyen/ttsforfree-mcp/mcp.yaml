@@ -1,0 +1,13 @@
+name: TTSForFree
+summary: Generate AI voices, convert text to speech, create multi-voice audio, convert SRT subtitles to speech, transcribe media, and localize videos.
+category: development
+tags:
+  - audio
+  - media
+  - text-to-speech
+  - translation
+docs_url: https://github.com/CalmNguyen/ttsforfree-mcp
+endpoints:
+  - url: https://api.ttsforfree.com/mcp
+    transport: streamable-http
+    auth: oauth

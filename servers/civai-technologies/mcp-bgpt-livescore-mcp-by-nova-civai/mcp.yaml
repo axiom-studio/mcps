@@ -1,0 +1,12 @@
+name: LiveScore MCP by Nova (CIVAI)
+summary: Live football scores, fixtures, teams, and players.
+category: productivity
+tags:
+  - entertainment
+  - news
+  - sports
+docs_url: https://github.com/civai-technologies/mcp-bgpt-livescore-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-bgpt-livescore
+    transport: streamable-http
+    auth: api-key

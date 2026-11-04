@@ -1,0 +1,13 @@
+name: 'How To Make Money On Snapchat: creator monetization MCP'
+summary: Sourced, dated Snapchat creator-monetization rules plus deterministic eligibility, gap, growth-pace and payout-timeline calculations for AI agents.
+category: marketing
+tags:
+  - advertising
+  - finance
+  - marketing
+  - social-media
+docs_url: https://howtomakemoneyonsnapchat.com/docs
+endpoints:
+  - url: https://howtomakemoneyonsnapchat.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,14 @@
+name: Eye.Art Polyphemus
+summary: One chat for image generation, edits, editable SVG, page-matched art, and motion. Free to try without a key; anonymous use is rate-limited.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - media
+  - svg
+docs_url: https://eye.art/polyphemus/api
+endpoints:
+  - url: https://eye.art/api/eye-mcp
+    transport: streamable-http
+    auth: none

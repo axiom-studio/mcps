@@ -1,0 +1,13 @@
+name: Verateca
+summary: 'Dietary supplement reference for AI assistants: label compositions (NIH DSLD), US store prices and price per day, upper limits by country, and a check that adds every ingredient across a whole stack. Read-only, no account.'
+category: search
+tags:
+  - data-analysis
+  - healthcare
+  - knowledge-retrieval
+  - search
+docs_url: https://verateca.com/ai
+endpoints:
+  - url: https://verateca.com/mcp
+    transport: streamable-http
+    auth: none

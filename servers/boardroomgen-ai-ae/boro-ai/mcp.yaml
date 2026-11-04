@@ -1,0 +1,14 @@
+name: Boardroom Revenue Control
+summary: 'Read-only MCP server for a sales CRM: leads, pipeline, AI-agent conversations (WhatsApp, Instagram, Telegram, voice), calls and ad attribution. Token per workspace, masked PII, every read audited.'
+category: marketing
+tags:
+  - advertising
+  - ai-agent
+  - communication
+  - crm
+  - sales
+docs_url: https://github.com/boardroomgen-ai-ae/boro-ai
+endpoints:
+  - url: https://control.boardroom-ai.ae/mcp
+    transport: streamable-http
+    auth: api-key

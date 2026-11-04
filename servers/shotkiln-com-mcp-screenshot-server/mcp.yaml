@@ -1,0 +1,13 @@
+name: Shotkiln
+summary: Capture web pages as PNG, JPEG or WebP, render a URL or HTML to PDF, and generate 1200x630 OG images. REST API and remote MCP server. Free tier.
+category: development
+tags:
+  - browser-automation
+  - file-conversion
+  - testing-qa
+  - web-scraping
+docs_url: https://shotkiln.com/mcp-screenshot-server
+endpoints:
+  - url: https://shotkiln.com/mcp
+    transport: streamable-http
+    auth: unknown

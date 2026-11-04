@@ -1,0 +1,13 @@
+name: MakeBox for Etsy
+summary: Research Etsy niches, keywords and listings, and manage an authorized Etsy shop through MakeBox.
+category: marketing
+tags:
+  - ecommerce
+  - marketing
+  - marketplace
+  - research
+docs_url: https://github.com/russol07/makebox-etsy-plugin
+endpoints:
+  - url: https://mcp.makebox.ai/mcp
+    transport: streamable-http
+    auth: oauth

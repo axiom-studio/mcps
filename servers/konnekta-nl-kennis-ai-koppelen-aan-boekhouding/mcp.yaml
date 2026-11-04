@@ -1,0 +1,12 @@
+name: Konnekta
+summary: Connect Claude to Dutch accounting software. Read and write invoices, contacts, ledger accounts and transactions in e-Boekhouden and more. Fully managed, no setup.
+category: finance
+tags:
+  - ecommerce
+  - finance
+  - workflow-automation
+docs_url: https://konnekta.nl/kennis/ai-koppelen-aan-boekhouding
+endpoints:
+  - url: https://app.konnekta.nl/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Dibsline Carriers
+summary: New US trucking companies, authority grants and insurance cancellations from FMCSA records, daily.
+category: marketing
+tags:
+  - business-operations
+  - government
+  - marketing
+  - news
+docs_url: https://dibsline.com/docs/carriers
+endpoints:
+  - url: https://mcp.dibsline.com/carriers/mcp
+    transport: streamable-http
+    auth: unknown

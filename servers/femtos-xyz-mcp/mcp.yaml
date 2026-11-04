@@ -1,0 +1,14 @@
+name: Femtos
+summary: 'Hyperliquid data for AI agents across HyperCore, HyperEVM and Elysium: markets, order books, positions, liquidations, wallets, tokens and launches. Hosted Streamable HTTP server'
+category: finance
+tags:
+  - crypto
+  - defi
+  - evm
+  - finance
+  - trading
+docs_url: https://femtos.xyz/mcp
+endpoints:
+  - url: https://api.femtos.xyz/mcp
+    transport: streamable-http
+    auth: api-key

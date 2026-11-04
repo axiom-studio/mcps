@@ -1,0 +1,13 @@
+name: OwlChart MCP
+summary: 'Live crypto and stock market data for AI assistants: prices and candles for any market, liquidity heatmaps, open interest across 13 exchanges, order book walls, funding, liquidations, spot ETF flows, insider trades, chart patterns and the day''s money flows. 26 tools, remote connector with OAuth, Trial of 10 calls a day.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - finance
+  - trading
+docs_url: https://owlchart.com/developers.html
+endpoints:
+  - url: https://owlchart.com/mcp
+    transport: streamable-http
+    auth: unknown

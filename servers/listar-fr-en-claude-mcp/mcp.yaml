@@ -1,0 +1,13 @@
+name: Listar
+summary: Find verified B2B emails, phone numbers and the decision makers of any company, right from Claude. Pay only for data found.
+category: marketing
+tags:
+  - data-analysis
+  - marketing
+  - research
+  - sales
+docs_url: https://listar.fr/en/claude-mcp
+endpoints:
+  - url: https://api.listar.fr/mcp
+    transport: streamable-http
+    auth: oauth

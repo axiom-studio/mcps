@@ -1,0 +1,14 @@
+name: Gilbert
+summary: Recherchez vos réunions Gilbert, explorez vos dossiers et consultez les transcriptions et résumés avec votre assistant IA.
+category: productivity
+tags:
+  - ai-agent
+  - document
+  - knowledge-retrieval
+  - meeting-notes
+  - productivity
+docs_url: http://gilbert-assistant.fr/developers#connectors
+endpoints:
+  - url: https://gilbert-assistant.ovh/api/mcp
+    transport: streamable-http
+    auth: oauth

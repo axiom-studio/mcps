@@ -1,0 +1,13 @@
+name: Swiss Cheese AI (SCAI)
+summary: Get a second opinion inside Claude, ChatGPT, Perplexity or Gemini. SCAI runs your question or draft answer through a multi-model AI debate and returns one integrated conclusion with uncertainty flagged.
+category: productivity
+tags:
+  - ai-model
+  - llm
+  - productivity
+  - research
+docs_url: https://mcp.swisscheeseai.com
+endpoints:
+  - url: https://www.swisscheeseai.com/api/mcp
+    transport: streamable-http
+    auth: oauth

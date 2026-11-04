@@ -1,0 +1,14 @@
+name: Skysay
+summary: Connect AI assistants to your Skysay workspace to inspect and manage voice agents, phone numbers, calls, SMS and campaigns through OAuth or scoped API keys. Number availability, capabilities and verification requirements vary by country. 100+ countries covered.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - crm
+  - sms
+  - telegram
+docs_url: https://skysay.ai/docs/mcp
+endpoints:
+  - url: https://api.skysay.ai/mcp
+    transport: streamable-http
+    auth: oauth

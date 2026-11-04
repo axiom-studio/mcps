@@ -1,0 +1,12 @@
+name: StaffPick
+summary: Find and hire tested remote staff (VAs, support, bookkeepers, developers) from your AI app.
+category: productivity
+tags:
+  - business-operations
+  - customer-ops
+  - productivity
+docs_url: https://staffpick.ai/developers
+endpoints:
+  - url: https://staffpick.ai/mcp
+    transport: streamable-http
+    auth: oauth

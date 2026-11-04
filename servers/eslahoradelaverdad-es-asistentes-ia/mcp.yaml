@@ -1,0 +1,12 @@
+name: Es la hora de la verdad (Congreso de los Diputados)
+summary: 'Read-only MCP server for Spain''s Congress of Deputies: plenary votes since 2020, how each group and deputy voted, provinces and the 29 November 2026 election, with links to every source page.'
+category: other
+tags:
+  - data-analysis
+  - government
+  - research
+docs_url: https://eslahoradelaverdad.es/asistentes-ia/
+endpoints:
+  - url: https://eslahoradelaverdad.es/api/mcp
+    transport: streamable-http
+    auth: none

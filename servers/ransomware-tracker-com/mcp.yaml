@@ -1,0 +1,13 @@
+name: Dragons Eye Ransomware Claim Lookup
+summary: Look up whether a company was named on a ransomware leak site, by domain or name. Results labelled unverified. $0.01 per call in USDC on Base.
+category: other
+tags:
+  - database
+  - security
+  - threat-intelligence
+  - web-research
+docs_url: https://ransomware-tracker.com
+endpoints:
+  - url: https://api.ransomware-tracker.com/mcp
+    transport: streamable-http
+    auth: none

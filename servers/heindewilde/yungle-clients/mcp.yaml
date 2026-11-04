@@ -1,0 +1,13 @@
+name: Yungle
+summary: 'Send files to people from an AI assistant: share files as download links, list transfers and read download receipts. Private, EU-hosted file transfer (servers in Germany). OAuth sign-in, no key to paste; emailing a recipient needs your confirmation on every send.'
+category: cloud-storage
+tags:
+  - cloud-storage
+  - email-automation
+  - file-management
+  - privacy
+docs_url: https://github.com/heindewilde/yungle-clients
+endpoints:
+  - url: https://yungle.co/mcp
+    transport: streamable-http
+    auth: unknown

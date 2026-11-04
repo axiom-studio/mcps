@@ -1,0 +1,13 @@
+name: memento Team claims
+summary: 'Free hosted MCP server: parallel coding agents claim a file before they edit it, so none overwrites another. Tools claim, who and release; claims kept 24 hours per team name, no account. URL: https://overflow.games/memento/mcp'
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - collaboration
+  - development
+docs_url: https://overflow.games/memento/?ref=mcpservers
+endpoints:
+  - url: https://overflow.games/memento/mcp
+    transport: streamable-http
+    auth: none

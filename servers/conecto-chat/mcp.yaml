@@ -1,0 +1,14 @@
+name: Conecto
+summary: The whole back office for your AI agent. 581 tools in 52 areas, from CRM, email and phone to invoices, books and hiring, paid per action.
+category: productivity
+tags:
+  - business-operations
+  - crm
+  - email-automation
+  - finance
+  - productivity
+docs_url: https://conecto.chat/?utm_source=mcpservers
+endpoints:
+  - url: https://api.conecto.chat/v1/mcp
+    transport: streamable-http
+    auth: oauth

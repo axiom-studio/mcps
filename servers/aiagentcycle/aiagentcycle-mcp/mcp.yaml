@@ -1,0 +1,13 @@
+name: AIAgentCycle
+summary: Public read-only MCP server with sourced Dutch and English information about AIAgentCycle's n8n automation, AI agents, integrations, services, prices and case studies.
+category: productivity
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - n8n
+  - workflow-automation
+docs_url: https://github.com/aiagentcycle/aiagentcycle-mcp
+endpoints:
+  - url: https://mcp.aiagentcycle.com/mcp
+    transport: streamable-http
+    auth: none

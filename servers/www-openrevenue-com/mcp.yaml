@@ -1,0 +1,12 @@
+name: OpenRevenue
+summary: Query site analytics, visitors, funnels, and goals from Cursor or Claude with an API key or OAuth.
+category: productivity
+tags:
+  - analytics
+  - data-analysis
+  - marketing
+docs_url: https://www.openrevenue.com
+endpoints:
+  - url: https://mcp.openrevenue.com/mcp
+    transport: streamable-http
+    auth: api-key

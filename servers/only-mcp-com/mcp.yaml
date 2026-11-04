@@ -1,0 +1,13 @@
+name: OnlyMCP
+summary: 'One remote MCP address for every AI client: the same skills, agents, memory and connected MCP servers in Claude Code, Cursor, Codex and VS Code.'
+category: memory
+tags:
+  - ai-agent
+  - coding-agent
+  - memory
+  - productivity
+docs_url: https://only-mcp.com
+endpoints:
+  - url: https://only-mcp.com/api/mcp
+    transport: streamable-http
+    auth: oauth

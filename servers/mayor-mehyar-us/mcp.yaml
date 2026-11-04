@@ -1,0 +1,14 @@
+name: The Mayor
+summary: 'The Mayor — AI front desk for local businesses: bookings, missed calls, and customer follow-up.'
+category: productivity
+tags:
+  - business-operations
+  - communication
+  - crm
+  - customer-ops
+  - workflow-automation
+docs_url: https://mayor.mehyar.us
+endpoints:
+  - url: https://mayor.mehyar.us/mcp
+    transport: streamable-http
+    auth: unknown

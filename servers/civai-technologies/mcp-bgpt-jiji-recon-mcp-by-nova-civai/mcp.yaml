@@ -1,0 +1,13 @@
+name: Jiji Nigeria MCP by Nova (CIVAI)
+summary: Search and buy on Jiji Nigeria — browse listings, message sellers, and manage your ads.
+category: productivity
+tags:
+  - browser-automation
+  - ecommerce
+  - marketplace
+  - productivity
+docs_url: https://github.com/civai-technologies/mcp-bgpt-jiji-recon-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-bgpt-jiji-recon
+    transport: streamable-http
+    auth: api-key

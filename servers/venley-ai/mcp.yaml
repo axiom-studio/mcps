@@ -1,0 +1,13 @@
+name: Venley
+summary: 'Remote MCP server for Venezuelan law. It searches Supreme Court (TSJ) case law, laws and the Official Gazette from ChatGPT, Claude or any MCP client, with verifiable citations. Endpoint: https://api.venley.ai/mcp'
+category: search
+tags:
+  - government
+  - knowledge-retrieval
+  - research
+  - search
+docs_url: https://venley.ai
+endpoints:
+  - url: https://api.venley.ai/mcp
+    transport: streamable-http
+    auth: unknown

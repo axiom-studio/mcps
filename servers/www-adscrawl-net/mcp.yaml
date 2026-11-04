@@ -1,0 +1,13 @@
+name: AdsCrawl
+summary: Hosted cloud browser, browser automation and web data extraction for developers and AI agents.
+category: web-scraping
+tags:
+  - ai-agent
+  - browser
+  - browser-automation
+  - web-scraping
+docs_url: https://www.adscrawl.net/
+endpoints:
+  - url: https://api.adscrawl.net/mcp
+    transport: streamable-http
+    auth: api-key

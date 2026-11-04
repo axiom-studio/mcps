@@ -1,0 +1,12 @@
+name: CrakSEO SEO Site Audit MCP
+summary: On-page and technical SEO checks, Lighthouse scores and Core Web Vitals research. Hosted Streamable HTTP with OAuth or a scoped API key. Check availability and pricing before paid calls.
+category: search
+tags:
+  - performance
+  - seo
+  - web-research
+docs_url: https://docs.crakseo.com/mcp-servers/site-audit
+endpoints:
+  - url: https://crakseo.com/mcp/site-audit
+    transport: streamable-http
+    auth: oauth

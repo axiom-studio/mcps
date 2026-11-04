@@ -1,0 +1,12 @@
+name: AgentaOS
+summary: 'Merchant of record for selling digital products and services: create products, payment links, checkouts, subscriptions, invoices and discount codes from your AI agent, with VAT and sales tax handled in 135+ jurisdictions.'
+category: finance
+tags:
+  - ecommerce
+  - finance
+  - payment
+docs_url: https://github.com/AgentaOS/agentaos
+endpoints:
+  - url: https://mcp.agentaos.ai/mcphttps://mcp.agentaos.ai/mcp
+    transport: streamable-http
+    auth: oauth

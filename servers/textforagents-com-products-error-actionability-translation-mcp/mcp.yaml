@@ -1,0 +1,12 @@
+name: Error-actionability translation
+summary: Translates MCP tool errors into next actions — Solo $9, Fleet $19 /mo + $0.002/check
+category: development
+tags:
+  - ai-agent
+  - debugging
+  - development
+docs_url: https://textforagents.com/products/error-actionability-translation/mcp
+endpoints:
+  - url: https://textforagents.com/products/error-actionability-translation/mcp
+    transport: streamable-http
+    auth: unknown

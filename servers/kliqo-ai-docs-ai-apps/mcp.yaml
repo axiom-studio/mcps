@@ -1,0 +1,13 @@
+name: Kliqo AI
+summary: Free AI crawler and page checks, then see if ChatGPT and Google AI name you or your competitors.
+category: marketing
+tags:
+  - ai-model
+  - analytics
+  - marketing
+  - seo
+docs_url: https://kliqo.ai/docs/ai-apps
+endpoints:
+  - url: https://kliqo.ai/mcp
+    transport: streamable-http
+    auth: unknown

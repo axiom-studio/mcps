@@ -1,0 +1,13 @@
+name: Hawklify for Odoo
+summary: Read, write and run Odoo actions from any AI app, as each user, with approval rules per colleague.
+category: productivity
+tags:
+  - business-operations
+  - crm
+  - productivity
+  - workflow-automation
+docs_url: https://hawklify.com/docs/
+endpoints:
+  - url: https://mcp.hawklify.com/mcp
+    transport: streamable-http
+    auth: oauth

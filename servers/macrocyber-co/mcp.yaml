@@ -1,0 +1,12 @@
+name: MacroCyber
+summary: Scan a site or AI-built app for exposed databases, keys and MCP endpoints, then verify the fixes.
+category: other
+tags:
+  - security
+  - testing-qa
+  - web-scraping
+docs_url: https://macrocyber.co
+endpoints:
+  - url: https://macrocyber.co/api/mcp
+    transport: streamable-http
+    auth: unknown

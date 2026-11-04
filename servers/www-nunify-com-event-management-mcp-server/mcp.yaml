@@ -1,0 +1,13 @@
+name: Nunify MCP Server
+summary: MCP server that enables AI assistants like Claude and ChatGPT to retrieve event data and execute event management operations in Nunify event platform.
+category: productivity
+tags:
+  - business-operations
+  - calendar
+  - productivity
+  - workflow-automation
+docs_url: https://www.nunify.com/event-management-mcp-server
+endpoints:
+  - url: https://app.nunify.com/mcp
+    transport: streamable-http
+    auth: oauth

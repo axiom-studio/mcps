@@ -1,0 +1,12 @@
+name: MarriageLicense.fyi
+summary: 'US marriage-license requirements by county: fees, waiting periods, offices, documents.'
+category: search
+tags:
+  - government
+  - research
+  - web-research
+docs_url: https://marriagelicense.fyi
+endpoints:
+  - url: https://marriagelicense.fyi/mcp
+    transport: streamable-http
+    auth: unknown

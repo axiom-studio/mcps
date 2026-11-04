@@ -1,0 +1,13 @@
+name: AssetFeed Market Data
+summary: Read-only mention counts, recaps and market data for crypto, stocks, ETFs, forex and commodities.
+category: finance
+tags:
+  - crypto
+  - finance
+  - marketplace
+  - trading
+docs_url: https://assetfeed.com/mcp
+endpoints:
+  - url: https://api.assetfeed.com/mcp
+    transport: streamable-http
+    auth: oauth

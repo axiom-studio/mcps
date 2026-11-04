@@ -1,0 +1,13 @@
+name: BugBug
+summary: Plan, create, run and debug BugBug end-to-end browser tests, and report test health for QA and product teams.
+category: development
+tags:
+  - browser
+  - browser-automation
+  - debugging
+  - testing-qa
+docs_url: https://github.com/bugbug-io/agent-plugin
+endpoints:
+  - url: https://mcp.bugbug.io/mcp
+    transport: streamable-http
+    auth: oauth

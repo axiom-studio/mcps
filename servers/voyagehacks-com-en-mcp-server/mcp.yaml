@@ -1,0 +1,12 @@
+name: VoyageHacks
+summary: 'Fact-checked travel guides in 10 languages: article search, packing kits, a trip finder by month and budget, and flight, hotel, eSIM and car rental links.'
+category: other
+tags:
+  - search
+  - translation
+  - web-research
+docs_url: https://voyagehacks.com/en/mcp-server/
+endpoints:
+  - url: https://voyagehacks.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: ISO 20022 Navigator
+summary: Read-only reference data for ISO 20022 financial messaging. Look up Bank Transaction Codes, map legacy SWIFT MT, NACHA and CHAPS messages to ISO 20022, and see which payment schemes use a message. Free, no authentication.
+category: finance
+tags:
+  - data-analysis
+  - documentation
+  - finance
+  - knowledge-retrieval
+docs_url: https://github.com/kreativeManish/iso20022-navigator-mcp
+endpoints:
+  - url: https://mcp.isonavigator.io/iso20022
+    transport: streamable-http
+    auth: none

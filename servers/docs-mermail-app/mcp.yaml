@@ -1,0 +1,13 @@
+name: Mermail MCP
+summary: Email infrastructure for AI agents to send, receive, manage, and automate real email workflows.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - email-automation
+  - workflow-automation
+docs_url: https://docs.mermail.app/
+endpoints:
+  - url: https://console.mermail.app/mcp
+    transport: streamable-http
+    auth: oauth

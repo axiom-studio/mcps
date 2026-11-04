@@ -1,0 +1,11 @@
+name: variotrip route eSIM configurator
+summary: 'One travel eSIM for up to 8 countries: live quotes by route, GB, days and networks, plus a buy link.'
+category: other
+tags:
+  - ecommerce
+  - payment
+docs_url: https://variotrip.com/llms.txt
+endpoints:
+  - url: https://variotrip.com/wp-json/variotrip/mcp
+    transport: streamable-http
+    auth: none

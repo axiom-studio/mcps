@@ -1,0 +1,13 @@
+name: The MCP Census
+summary: Check whether an MCP server is safe to install, with registry, security and policy records. Remote MCP at https://api.mcpcensus.com/mcp.
+category: development
+tags:
+  - compliance
+  - development
+  - marketplace
+  - security
+docs_url: https://mcpcensus.com/developers
+endpoints:
+  - url: https://api.mcpcensus.com/mcp
+    transport: streamable-http
+    auth: unknown

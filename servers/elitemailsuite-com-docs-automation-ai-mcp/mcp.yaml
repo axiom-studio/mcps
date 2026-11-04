@@ -1,0 +1,13 @@
+name: Elite Mail Suite MCP
+summary: Connect compatible AI clients to email activity, contacts and draft workflows with scoped permissions. Included in Elite Pro and Team.
+category: communication
+tags:
+  - communication
+  - email-automation
+  - productivity
+  - workflow-automation
+docs_url: https://elitemailsuite.com/docs/automation/ai-mcp
+endpoints:
+  - url: https://tracker.elitemailsuite.com/mcp
+    transport: streamable-http
+    auth: oauth

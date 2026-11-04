@@ -1,0 +1,13 @@
+name: RightAIChoice — verified AI tool data
+summary: 'What changed, what died, what it costs, what survives: 8,000+ AI tools, verified and dated.'
+category: search
+tags:
+  - ai-model
+  - marketplace
+  - research
+  - search
+docs_url: https://rightaichoice.com/mcp
+endpoints:
+  - url: https://rightaichoice.com/api/mcp
+    transport: streamable-http
+    auth: unknown

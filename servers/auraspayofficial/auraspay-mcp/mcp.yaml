@@ -1,0 +1,12 @@
+name: AurasPay Merchant MCP
+summary: Review scoped merchant payments and prepare payment links with OAuth and separate human approval for changes.
+category: finance
+tags:
+  - ecommerce
+  - finance
+  - payment
+docs_url: https://github.com/AurasPayOfficial/auraspay-mcp
+endpoints:
+  - url: https://mcp.auraspay.com/api/mcp
+    transport: streamable-http
+    auth: oauth

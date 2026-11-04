@@ -1,0 +1,13 @@
+name: GSCmate
+summary: Connect Google Search Console to Claude, Codex, ChatGPT, Cursor, and other MCP-compatible AI clients. GSCmate uses Google OAuth with read-only access and fetches Search Analytics and property data on demand.
+category: search
+tags:
+  - analytics
+  - google-analytics
+  - seo
+  - web-research
+docs_url: https://gscmate.com/
+endpoints:
+  - url: https://gscmate.com/mcp
+    transport: streamable-http
+    auth: unknown

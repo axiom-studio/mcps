@@ -1,0 +1,14 @@
+name: TRYIT
+summary: 'Short-form trend data for AI agents: viral Shorts/Reels/TikTok, rising keywords and creators, YouTube channel breakdowns, original-upload candidates and long-running Meta ads across 100+ countries.'
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - marketing
+  - social-media
+  - youtube
+docs_url: https://inctryit.com/en/mcp
+endpoints:
+  - url: https://inctryit.com/mcp
+    transport: streamable-http
+    auth: oauth

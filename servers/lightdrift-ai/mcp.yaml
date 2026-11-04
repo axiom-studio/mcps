@@ -1,0 +1,13 @@
+name: Lightdrift Images MCP
+summary: Semantic stock-image search with hosted files, source licenses, and attribution metadata.
+category: search
+tags:
+  - knowledge-retrieval
+  - media
+  - search
+  - web-research
+docs_url: https://lightdrift.ai
+endpoints:
+  - url: https://lightdrift.ai/mcp
+    transport: streamable-http
+    auth: oauth

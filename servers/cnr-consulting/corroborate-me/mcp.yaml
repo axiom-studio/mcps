@@ -1,0 +1,13 @@
+name: CorroborateMe
+summary: 'Prove end users to agents and apps: login-links, OIDC clients, and API keys over remote MCP'
+category: development
+tags:
+  - ai-agent
+  - api
+  - identity
+  - security
+docs_url: https://github.com/CNR-Consulting/corroborate-me
+endpoints:
+  - url: https://corroborateme.com/mcp
+    transport: streamable-http
+    auth: oauth

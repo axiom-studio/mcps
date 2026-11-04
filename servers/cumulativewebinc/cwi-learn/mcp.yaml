@@ -1,0 +1,13 @@
+name: CWI Discovery Engine
+summary: 28-tool music catalog MCP server — search the Cumulative Web Inc catalog, get track/artist/release data, live Radio 365 streaming info, sync licensing catalog, lyrics, press kit, and AI-to-AI agent tools for music discovery
+category: other
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - media
+  - music
+docs_url: https://github.com/CumulativeWebInc/cwi-learn
+endpoints:
+  - url: https://cwi-machine-data.hp-ace.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

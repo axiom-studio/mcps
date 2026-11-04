@@ -1,0 +1,13 @@
+name: PubCrawl
+summary: PubMed, Europe PMC (including preprints), FDA/DailyMed and UK eMC drug labelling, and ClinicalTrials.gov for AI assistants, including side-by-side US vs UK label comparison. Every result cites its PMID, NCT ID or DOI; no API key required.
+category: search
+tags:
+  - healthcare
+  - knowledge-retrieval
+  - research
+  - search
+docs_url: https://github.com/nickjlamb/pubcrawl
+endpoints:
+  - url: https://pubcrawl-production-feb9.up.railway.app/mcp
+    transport: streamable-http
+    auth: none

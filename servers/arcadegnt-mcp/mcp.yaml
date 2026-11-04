@@ -1,0 +1,14 @@
+name: arcadegnt
+summary: 'Make browser games by chatting with your AI assistant: it writes a web game, arcadegnt builds, hosts and playtests it on desktop and phone.  Share with friends or submit to our arcade for an official listing and ranking!'
+category: development
+tags:
+  - ai-agent
+  - browser
+  - content-creation
+  - game-development
+official: true
+docs_url: https://arcadegnt.com/docs/mcp
+endpoints:
+  - url: https://arcadegnt.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: ClickPop
+summary: ClickPop is an AI video studio that turns a typed idea into a cinematic, VFX-packed short video, ready to post. Every plan is 40% off when billed yearly.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - media
+  - video
+docs_url: https://clickpop.ai
+endpoints:
+  - url: https://www.clickpop.ai/api/mcp
+    transport: streamable-http
+    auth: unknown

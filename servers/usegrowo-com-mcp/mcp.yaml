@@ -1,0 +1,12 @@
+name: Growo Child Growth
+summary: WHO and CDC child growth percentiles, birth size, corrected age, BMI and milestones for AI assistants. Remote, free, no API key.
+category: other
+tags:
+  - data-analysis
+  - healthcare
+  - research
+docs_url: https://usegrowo.com/mcp
+endpoints:
+  - url: https://mcp.usegrowo.com/
+    transport: streamable-http
+    auth: none

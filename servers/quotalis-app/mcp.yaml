@@ -1,0 +1,13 @@
+name: Quotalis
+summary: 'MCP server for AI search visibility data. Tools: get_benchmark_latest (weekly benchmark of which AI visibility tools ChatGPT, Gemini and Perplexity recommend), get_benchmark_history (full dated history), audit_site (AI-readiness audit for any public website, 0-100 score). Free, no login, no API keys.'
+category: marketing
+tags:
+  - ai-model
+  - analytics
+  - seo
+  - web-research
+docs_url: https://quotalis.app
+endpoints:
+  - url: https://quotalis.app/mcp
+    transport: streamable-http
+    auth: none

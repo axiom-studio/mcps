@@ -1,0 +1,13 @@
+name: FluxProof
+summary: Monitors public pricing, policy and changelog pages and returns before-and-after evidence with source URLs, content hashes, change history and signed webhooks. Free daily monitor for one page; paid passes are paid once for 30 days, with no subscription. REST and remote MCP.
+category: web-scraping
+tags:
+  - monitoring
+  - notifications
+  - web-scraping
+  - workflow-automation
+docs_url: https://fluxproof.neoaethel.workers.dev/?ref=mcpservers-org
+endpoints:
+  - url: https://fluxproof.neoaethel.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

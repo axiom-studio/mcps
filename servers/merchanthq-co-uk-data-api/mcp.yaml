@@ -1,0 +1,13 @@
+name: MerchantHQ Card Acquirer Index
+summary: Read-only search of UK card-payment acquirers by tier or sales channel, plus a current card fees snapshot.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - payment
+  - search
+docs_url: https://merchanthq.co.uk/data/api/
+endpoints:
+  - url: https://merchanthq.co.uk/mcp
+    transport: streamable-http
+    auth: none

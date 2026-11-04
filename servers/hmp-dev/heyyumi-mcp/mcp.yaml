@@ -1,0 +1,11 @@
+name: HeyYumi
+summary: 'Ground your AI in verified Korean venue data: search restaurants, cafes and bars and book a table in-chat across Seoul, Gyeonggi, Busan and Jeju.'
+category: search
+tags:
+  - search
+  - web-research
+docs_url: https://github.com/hmp-dev/heyyumi-mcp
+endpoints:
+  - url: https://mcp.heyyumi.ai/mcp
+    transport: streamable-http
+    auth: oauth

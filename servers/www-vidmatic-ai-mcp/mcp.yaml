@@ -1,0 +1,13 @@
+name: Vidmatic
+summary: 'Screen recording for AI coding agents: read a recording''s transcript, marks and frames over MCP'
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - documentation
+  - video
+docs_url: https://www.vidmatic.ai/mcp
+endpoints:
+  - url: https://api.vidmatic.ai/mcp
+    transport: streamable-http
+    auth: oauth

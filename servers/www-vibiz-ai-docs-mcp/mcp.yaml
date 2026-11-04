@@ -1,0 +1,14 @@
+name: Vibiz
+summary: 'AI marketing team: onboard a brand from its website, create on-brand ads and UGC videos, see ad results across Meta, Google, TikTok and more, and publish to social with approval.'
+category: marketing
+tags:
+  - advertising
+  - ai-agent
+  - content-creation
+  - marketing
+  - social-media
+docs_url: https://www.vibiz.ai/docs/mcp
+endpoints:
+  - url: https://mcp.vibiz.ai/mcp
+    transport: streamable-http
+    auth: oauth

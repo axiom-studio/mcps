@@ -1,0 +1,13 @@
+name: Scanverity Resolution Rules
+summary: Independent Polymarket resolution research and written rule-QA offers; live assessments require an approved Scanverity customer account.
+category: finance
+tags:
+  - crypto
+  - finance
+  - research
+  - trading
+docs_url: https://scanverity.com/connectors
+endpoints:
+  - url: https://scanverity.com/mcp
+    transport: streamable-http
+    auth: oauth

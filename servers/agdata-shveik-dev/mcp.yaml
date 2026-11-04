@@ -1,0 +1,14 @@
+name: agdata
+summary: 'Pay-per-call web data for AI agents: any URL as Markdown, screenshots, YouTube transcripts, Google Maps and Amazon reviews, job listings, news and search. No API key, paid per call with x402 stablecoins.'
+category: web-scraping
+tags:
+  - browser-automation
+  - media
+  - research
+  - search
+  - web-scraping
+docs_url: https://agdata.shveik.dev
+endpoints:
+  - url: https://agdata.shveik.dev/mcp
+    transport: streamable-http
+    auth: unknown

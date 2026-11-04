@@ -1,0 +1,14 @@
+name: Bridge Watch MCP
+summary: 'Zero-dependency MCP stdio bridge for Bridge Watch: 104,209 on-chain address labels + 7 x402-metered tools on Base.'
+category: development
+tags:
+  - api
+  - crypto
+  - data-analysis
+  - evm
+  - finance
+docs_url: https://github.com/LakeSky/bridge-watch-mcp
+endpoints:
+  - url: https://agentsapi.top/mcp
+    transport: streamable-http
+    auth: none

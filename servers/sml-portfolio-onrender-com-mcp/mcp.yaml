@@ -1,0 +1,13 @@
+name: Cascade Graph
+summary: 'Cascade Graph MCP from ScriptMasterLabs: macro decision capsules and Jev jury review over a hash-chained calibration log. Currently runs in shadow mode (not decision-eligible) — status is reported honestly by the tools themselves. Free.'
+category: finance
+tags:
+  - ai-agent
+  - compliance
+  - data-analysis
+  - finance
+docs_url: https://sml-portfolio.onrender.com/mcp
+endpoints:
+  - url: https://sml-portfolio.onrender.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: BotSupply
+summary: 'BotSupply: wholesale credits + MCP for venue hours, competitor snapshots, booking recipe docs.'
+category: other
+tags:
+  - business-operations
+  - document
+  - knowledge-retrieval
+  - research
+docs_url: https://github.com/iambrettforbes/Botsupply-
+endpoints:
+  - url: https://botsupply.onrender.com/mcp
+    transport: streamable-http
+    auth: unknown

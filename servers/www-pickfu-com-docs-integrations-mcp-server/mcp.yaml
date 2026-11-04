@@ -1,0 +1,13 @@
+name: PickFu MCP
+summary: PickFu MCP connects AI assistants to real consumer feedback, enabling surveys, market research, product testing, design testing, split testing, and concept validation directly within AI workflows.
+category: marketing
+tags:
+  - data-analysis
+  - marketing
+  - research
+  - testing-qa
+docs_url: https://www.pickfu.com/docs/integrations/mcp-server
+endpoints:
+  - url: https://mcp.pickfu.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Attesto
+summary: 'Price and check certified document translations for U.S. immigration (USCIS): live per-page pricing and quotes, the 80 supported languages, document types and the USCIS translation-certification rules. Read-only, no sign-up.'
+category: other
+tags:
+  - document
+  - government
+  - research
+  - translation
+docs_url: https://attestodocs.com/docs/api
+endpoints:
+  - url: https://attestodocs.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,14 @@
+name: Superdirector
+summary: Research social videos, analyze Brand DNA, and generate content briefs from your AI assistant through a hosted OAuth MCP connection.
+category: marketing
+tags:
+  - ai-agent
+  - content-creation
+  - marketing
+  - research
+  - social-media
+docs_url: https://superdirector.app/docs/mcp
+endpoints:
+  - url: https://superdirector.app/mcp
+    transport: streamable-http
+    auth: oauth

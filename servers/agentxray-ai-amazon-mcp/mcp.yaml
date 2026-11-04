@@ -1,0 +1,14 @@
+name: AgentXray — Amazon Seller Central & Ads
+summary: 'Amazon Seller Central and Amazon Ads in Claude or ChatGPT: profit measured from your own settlement reports, PPC judged on net contribution, stock, shipments and returns. Changes are drafts you approve.'
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - ecommerce
+  - finance
+  - marketing
+docs_url: https://agentxray.ai/amazon-mcp
+endpoints:
+  - url: https://agentxray.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

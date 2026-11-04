@@ -1,0 +1,14 @@
+name: Eachspy
+summary: Search an enriched Facebook ads library (estimated spend, landing-page platform, affiliate network, similar creatives, advertiser stats) and a Shopify product library from Claude, ChatGPT, Cursor or Codex. Remote server with OAuth; requires an Eachspy Pro or Team plan.
+category: marketing
+tags:
+  - advertising
+  - ecommerce
+  - marketing
+  - shopify
+  - web-research
+docs_url: https://www.eachspy.com/features/mcp-connector/
+endpoints:
+  - url: https://www.eachspy.com/mcp
+    transport: streamable-http
+    auth: oauth

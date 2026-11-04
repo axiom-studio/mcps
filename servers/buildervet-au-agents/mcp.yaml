@@ -1,0 +1,13 @@
+name: BuilderVet
+summary: NSW and QLD builder licence, company and regulator records with source dates. Remote MCP at https://mcp.buildervet.au/
+category: other
+tags:
+  - compliance
+  - government
+  - real-estate
+  - research
+docs_url: https://buildervet.au/agents
+endpoints:
+  - url: https://mcp.buildervet.au/
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Pocket Invoice
+summary: Create invoices and estimates, generate PDFs, and query unpaid balances through an OAuth-authorized remote MCP server.
+category: finance
+tags:
+  - document
+  - finance
+  - payment
+  - pdf
+docs_url: https://www.freedominvoice.com/mcp
+endpoints:
+  - url: https://api.freedominvoice.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Norwegian Company Data MCP
+summary: Norwegian company search, accounts, roles and websites from Brønnøysund. Remote MCP.
+category: search
+tags:
+  - business-operations
+  - government
+  - research
+  - search
+docs_url: https://github.com/skaidigital/brreg-mcp
+endpoints:
+  - url: https://tools.skaidigital.com/brreg/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,10 @@
+name: Immersive Commons
+summary: RSVP to San Francisco AI events, book rooms, borrow VR headsets, submit 3D prints, find members and read THE SIGNAL at Immersive Commons, Floor 10 Frontier Tower SF
+category: productivity
+tags:
+  - productivity
+docs_url: https://www.immersivecommons.com/developers
+endpoints:
+  - url: https://www.immersivecommons.com/api/mcp
+    transport: streamable-http
+    auth: none

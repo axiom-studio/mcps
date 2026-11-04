@@ -1,0 +1,13 @@
+name: KARTA
+summary: 'Spend control for AI agents: per-task budget, kill switch, signed receipts.'
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - payment
+  - security
+docs_url: https://karta.rta.lat
+endpoints:
+  - url: https://karta.rta.lat/mcp
+    transport: streamable-http
+    auth: unknown

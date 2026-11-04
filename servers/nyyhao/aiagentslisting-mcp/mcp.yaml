@@ -1,0 +1,13 @@
+name: AI Agents Listing
+summary: 'Search a directory of AI agents, MCP servers and agent skills: browse by category, pricing and access model, see what is trending, find alternatives to a product and compare listings side by side. Read tools need no API key.'
+category: search
+tags:
+  - ai-agent
+  - marketplace
+  - research
+  - search
+docs_url: https://github.com/nyyhao/aiagentslisting-mcp
+endpoints:
+  - url: https://aiagentslisting.com/api/mcp
+    transport: streamable-http
+    auth: none

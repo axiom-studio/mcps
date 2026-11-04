@@ -1,0 +1,13 @@
+name: Pathmint
+summary: Before you pay an x402 URL, ping it live or dead. One cent, USDC on Base.
+category: finance
+tags:
+  - crypto
+  - evm
+  - finance
+  - payment
+docs_url: https://pathmint.edge.report
+endpoints:
+  - url: https://pathmint.edge.report/mcp
+    transport: streamable-http
+    auth: none

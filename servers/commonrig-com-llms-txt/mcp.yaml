@@ -1,0 +1,13 @@
+name: CommonRig
+summary: 'Read-only catalogue for an agent operating kit for Claude Code and Codex: kit contents, free sample, price quotes and x402 payment terms. No auth.'
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - marketplace
+  - payment
+docs_url: https://commonrig.com/llms.txt
+endpoints:
+  - url: https://commonrig.com/mcp
+    transport: streamable-http
+    auth: none

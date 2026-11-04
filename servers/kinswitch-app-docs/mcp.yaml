@@ -1,0 +1,12 @@
+name: KinSwitch
+summary: Write down what only you know, and manage your KinSwitch library, beneficiaries, and switches from your AI assistant.
+category: productivity
+tags:
+  - document
+  - file-management
+  - productivity
+docs_url: https://kinswitch.app/docs
+endpoints:
+  - url: https://kinswitch.app/mcp
+    transport: streamable-http
+    auth: oauth

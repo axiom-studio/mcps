@@ -1,0 +1,12 @@
+name: Recipes Air Fryer
+summary: A tool that exposes recipes for air fryer.
+category: search
+tags:
+  - content-creation
+  - media
+  - search
+docs_url: https://recipeairfryer.com
+endpoints:
+  - url: https://recipeairfryer.com/mcp
+    transport: streamable-http
+    auth: none

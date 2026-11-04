@@ -1,0 +1,14 @@
+name: OceanAlt AML
+summary: 'Pre-payment checks for AI agents: before an agent pays, get allow, review or decline with evidence. Screens the payee address for sanctions and AML risk, checks payment pages for phishing and lookalike domains, and checks invoices or messages that ask for payment. Free remote MCP server, no API key.'
+category: finance
+tags:
+  - ai-agent
+  - compliance
+  - finance
+  - payment
+  - security
+docs_url: https://oceanalt.com/en/api-docs
+endpoints:
+  - url: https://oceanalt.com/api/mcp
+    transport: streamable-http
+    auth: none

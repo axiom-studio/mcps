@@ -1,0 +1,13 @@
+name: Puley
+summary: Puley lets your AI read web pages, get video transcripts where available, turn pages into tables, compare prices across countries, and watch for changes. Connect a free Puley account. Alerts arrive by email and in-app.
+category: productivity
+tags:
+  - data-analysis
+  - notifications
+  - research
+  - web-scraping
+docs_url: https://puley.com
+endpoints:
+  - url: https://app.puley.com/mcp
+    transport: streamable-http
+    auth: oauth

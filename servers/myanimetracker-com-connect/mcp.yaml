@@ -1,0 +1,12 @@
+name: MyAnimeTracker
+summary: Anime watch order, no guesswork. Watch orders, filler guides, title search, airing this week.
+category: other
+tags:
+  - entertainment
+  - media
+  - search
+docs_url: https://myanimetracker.com/connect
+endpoints:
+  - url: https://myanimetracker.com/api/mcp
+    transport: streamable-http
+    auth: unknown

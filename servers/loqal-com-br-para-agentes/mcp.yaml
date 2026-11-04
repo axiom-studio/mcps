@@ -1,0 +1,12 @@
+name: Loqal
+summary: 'Find local service professionals in Brazil (plumbers, electricians, cleaners, painters, party services and 270+ types) by neighborhood or city: ratings, distance, profiles, comparisons and a safe WhatsApp contact link. 130k+ providers, remote Streamable HTTP, no auth.'
+category: search
+tags:
+  - communication
+  - search
+  - web-research
+docs_url: https://loqal.com.br/para-agentes
+endpoints:
+  - url: https://api.loqal.com.br/mcp
+    transport: streamable-http
+    auth: unknown

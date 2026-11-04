@@ -1,0 +1,14 @@
+name: Cloud World Model
+summary: Simulate cloud infrastructure and estimate cost, latency and resilience before deploying or changing infrastructure. AI agents can compare architectures across AWS, GCP, Azure, OCI and DigitalOcean without provisioning real resources.
+category: cloud-service
+tags:
+  - aws
+  - azure
+  - cloud-infrastructure
+  - devops-infrastructure
+  - resilience
+docs_url: https://www.cloudworldmodel.ai/mcp-quickstart
+endpoints:
+  - url: https://www.cloudworldmodel.ai/mcp
+    transport: streamable-http
+    auth: api-key

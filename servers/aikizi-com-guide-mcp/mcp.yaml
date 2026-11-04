@@ -1,0 +1,13 @@
+name: AIKIZI
+summary: Search thousands of decoded art styles and their generation prompts, break down any published decode (styles, style DNA, palette, moods, key tokens), and with an AIKIZI account decode your own images. Remote server at https://aikizi.com/mcp, OAuth 2.1; public tools need no sign-in.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - search
+docs_url: https://aikizi.com/guide/mcp
+endpoints:
+  - url: https://aikizi.com/mcp
+    transport: streamable-http
+    auth: oauth

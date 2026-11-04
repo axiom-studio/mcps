@@ -1,0 +1,16 @@
+name: Official Apollo.io MCP
+summary: Find buyers and book more meetings without your AI Assistant
+category: productivity
+tags:
+  - crm
+  - customer-ops
+  - email-automation
+  - marketing-automation
+  - sales
+official: true
+registry_name: io.github.apolloio/apollo-mcp
+docs_url: https://github.com/apolloio/apollo-mcp-plugin
+endpoints:
+  - url: https://mcp.apollo.io/mcp
+    transport: streamable-http
+    auth: oauth

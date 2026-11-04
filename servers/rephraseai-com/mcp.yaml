@@ -1,0 +1,11 @@
+name: Rephrase AI
+summary: Paraphrase sentences, paragraphs, emails, and drafts with Rephrase AI. Make your writing clearer, more professional, or shorter without changing its meaning.
+category: productivity
+tags:
+  - content-creation
+  - productivity
+docs_url: https://rephraseai.com
+endpoints:
+  - url: https://www.rephraseai.com/mcp
+    transport: streamable-http
+    auth: oauth

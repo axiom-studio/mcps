@@ -1,0 +1,13 @@
+name: Slabline
+summary: Current market value of graded sports cards and Pokémon/TCG slabs, by grade, from real recorded sales. Free, read-only, no API key.
+category: finance
+tags:
+  - finance
+  - marketplace
+  - sports
+  - trading
+docs_url: https://slabline.ai
+endpoints:
+  - url: https://slabline.ai/mcp
+    transport: streamable-http
+    auth: none

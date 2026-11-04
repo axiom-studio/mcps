@@ -1,0 +1,13 @@
+name: SecretPass
+summary: Find current shop offers and voucher deals in Australia, the UK and the US by keyword, country, category, shop, brand or specs.
+category: search
+tags:
+  - ecommerce
+  - marketplace
+  - search
+  - web-research
+docs_url: https://secretpass.com/mcp-api-docs
+endpoints:
+  - url: https://secretpass.com/mcp
+    transport: streamable-http
+    auth: none

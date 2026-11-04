@@ -1,0 +1,13 @@
+name: TokenVerdict
+summary: 'Safety check for a Base ERC-20 token before an agent touches it: simulated buy-transfer-sell (honeypot and taxes), owner powers, liquidity, holders. SAFE / CAUTION / DANGER with a 0-100 score.'
+category: finance
+tags:
+  - crypto
+  - evm
+  - security
+  - trading
+docs_url: https://youraitools.co/guides/base-token-honeypot-checker-api
+endpoints:
+  - url: https://api.youraitools.co/tokenverdict/mcp
+    transport: streamable-http
+    auth: none

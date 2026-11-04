@@ -1,0 +1,12 @@
+name: ievent.ro
+summary: Wedding venues finder in Romania
+category: marketing
+tags:
+  - business-operations
+  - ecommerce
+  - marketing
+docs_url: https://ievent.ro
+endpoints:
+  - url: https://ievent.ro/mcp
+    transport: streamable-http
+    auth: none

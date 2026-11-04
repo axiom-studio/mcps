@@ -1,0 +1,14 @@
+name: RudderStack MCP
+summary: 'Hosted MCP server that lets AI assistants debug RudderStack pipelines: delivery errors, warehouse loads, tracking plan violations and transformations.'
+category: development
+tags:
+  - analytics
+  - data-analysis
+  - debugging
+  - monitoring
+  - observability-incident
+docs_url: https://www.rudderstack.com/docs/ai-features/rudderstack-mcp/connect/?utm_source=mcpservers&utm_medium=listing&utm_campaign=mcp-listings
+endpoints:
+  - url: https://mcp.rudderstack.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Solk CRM
+summary: Official remote MCP server for Solk, a B2B sales CRM. Search accounts and contacts, review the pipeline, log visits and calls, build quotes and orders, check ERP balances and manage tickets with your own permissions (OAuth 2.1, 100+ tools).
+category: productivity
+tags:
+  - business-operations
+  - crm
+  - sales
+  - task-management
+docs_url: https://docs.solk.app/en/mcp/overview
+endpoints:
+  - url: https://mcp.solk.app/mcp
+    transport: streamable-http
+    auth: oauth

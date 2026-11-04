@@ -1,0 +1,13 @@
+name: FYN
+summary: 'AI money ledger: receipts, email, bank sync — read-only MCP for Claude, ChatGPT & agents.'
+category: finance
+tags:
+  - ai-agent
+  - email-automation
+  - finance
+  - productivity
+docs_url: https://fyn.fyi/docs/mcp/
+endpoints:
+  - url: https://mcp.fyn.fyi
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Contentstack Canoe
+summary: Bring your Contentstack Canoe AI visibility data into any agent. See how ChatGPT, Gemini, Perplexity and Claude name and cite your brand, who they recommend instead and what to fix first, then start a fresh run. Nine tools. Free plan to start, MCP on Growth. OAuth sign-in is coming soon.
+category: marketing
+tags:
+  - ai-model
+  - analytics
+  - marketing
+  - seo
+docs_url: https://canoe.contentstack.com/docs/mcp/
+endpoints:
+  - url: https://canoe.contentstack.com/api/mcp
+    transport: streamable-http
+    auth: api-key

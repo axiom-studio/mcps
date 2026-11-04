@@ -1,0 +1,12 @@
+name: 'Agent NOTAMs: hazard bulletins for agents'
+summary: Hazard bulletins for agents — Reader $3, Fleet $9, Feed $29 /mo
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - notifications
+docs_url: https://textforagents.com/products/agent-notams-hazard-bulletins/mcp
+endpoints:
+  - url: https://textforagents.com/products/agent-notams-hazard-bulletins/mcp
+    transport: streamable-http
+    auth: unknown

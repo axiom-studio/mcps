@@ -1,0 +1,12 @@
+name: The Living Bread
+summary: A free remote MCP server for The Living Bread. Bible passages read word for word from a stored public domain text with an evidence label, keyword search and cross references, real churches, gatherings and prayer groups with honest freshness, and one next step into a real Christian community.
+category: other
+tags:
+  - knowledge-retrieval
+  - research
+  - web-research
+docs_url: https://github.com/thegoodfruit/living-bread-mcp
+endpoints:
+  - url: https://mcp.living-bread.org/mcp
+    transport: streamable-http
+    auth: none

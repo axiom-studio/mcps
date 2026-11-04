@@ -1,0 +1,13 @@
+name: Specify MCP
+summary: Connect coding agents to your team’s documents, decisions, and code context in Specify. Search and read workspace documentation through a remote MCP server, with read-only access by default and optional permission to create or edit documents.
+category: development
+tags:
+  - coding-agent
+  - collaboration
+  - document
+  - knowledge-retrieval
+docs_url: https://docs.specify.app/en/mcp/overview
+endpoints:
+  - url: https://mcp.specify.app
+    transport: streamable-http
+    auth: oauth

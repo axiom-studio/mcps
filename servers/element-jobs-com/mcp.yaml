@@ -1,0 +1,12 @@
+name: Element Jobs
+summary: 'Read-only U.S. job search: https://mcp.element-jobs.com/mcp. Salary filters and employer links; access restricted to supported OpenAI/Anthropic provider networks.'
+category: search
+tags:
+  - anthropic
+  - openai
+  - search
+docs_url: https://element-jobs.com
+endpoints:
+  - url: https://mcp.element-jobs.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,14 @@
+name: Toffu
+summary: AI marketing agent for ad accounts, analytics, content, campaigns and reports. Remote MCP server with OAuth 2.1 and Bearer key auth.
+category: marketing
+tags:
+  - advertising
+  - ai-agent
+  - analytics
+  - content-creation
+  - marketing
+docs_url: https://github.com/toffu-ai/toffu-mcp
+endpoints:
+  - url: https://mcp.toffu.ai/mcp
+    transport: streamable-http
+    auth: oauth

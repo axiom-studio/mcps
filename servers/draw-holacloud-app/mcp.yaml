@@ -1,0 +1,12 @@
+name: Draw Hola Cloud
+summary: Draw Hola Cloud gives AI agents a visual canvas to programmatically create architecture diagrams, system designs, workflows, sequence diagrams, flowcharts, infrastructure layouts, and other visual explanations, then return a shareable URL that can be opened, edited, presented, or shared.
+category: development
+tags:
+  - development
+  - documentation
+  - workflow-automation
+docs_url: https://draw.holacloud.app
+endpoints:
+  - url: https://draw.holacloud.app/mcp
+    transport: streamable-http
+    auth: none

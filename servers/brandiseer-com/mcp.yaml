@@ -1,0 +1,12 @@
+name: Brandiseer
+summary: 'Brandiseer remote MCP server: generate on-brand images from your saved brand kits. Tools: list_brands, check_credits, generate_image, get_job. OAuth 2.1 (PKCE + DCR). Endpoint https://brandiseer.com/api/mcp'
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+docs_url: https://brandiseer.com
+endpoints:
+  - url: https://brandiseer.com/api/mcp
+    transport: streamable-http
+    auth: oauth

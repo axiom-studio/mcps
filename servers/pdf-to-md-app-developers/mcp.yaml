@@ -1,0 +1,13 @@
+name: PDF to MD
+summary: Convert PDFs and scans to Markdown, export Markdown to PDF, and manage document conversion jobs through remote MCP.
+category: productivity
+tags:
+  - document
+  - file-conversion
+  - pdf
+  - productivity
+docs_url: https://pdf-to-md.app/developers
+endpoints:
+  - url: https://pdf-to-md.app/mcp
+    transport: streamable-http
+    auth: api-key

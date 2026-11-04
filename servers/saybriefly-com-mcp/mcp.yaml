@@ -1,0 +1,13 @@
+name: SayBriefly
+summary: 'Know what was agreed with every client: meetings, decisions, to-dos and briefs from SayBriefly. Read-only.'
+category: productivity
+tags:
+  - document
+  - knowledge-retrieval
+  - meeting-notes
+  - productivity
+docs_url: https://saybriefly.com/mcp
+endpoints:
+  - url: https://mcp.saybriefly.com/mcp
+    transport: streamable-http
+    auth: oauth

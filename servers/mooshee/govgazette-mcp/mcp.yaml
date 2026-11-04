@@ -1,0 +1,12 @@
+name: GovGazette
+summary: Remote MCP server for U.S. federal contract opportunities, procurement award and vendor intelligence, SAM.gov exclusion screening, and signed RSS/Atom saved-search feeds.
+category: search
+tags:
+  - business-operations
+  - government
+  - search
+docs_url: https://github.com/mooshee/govgazette-mcp
+endpoints:
+  - url: https://govgazette.com/mcp
+    transport: streamable-http
+    auth: none

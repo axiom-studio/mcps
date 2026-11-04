@@ -1,0 +1,12 @@
+name: Aitho
+summary: 'Rehearse and deliver presentations from your own slides: create a talk from a PDF or PowerPoint deck, attach a speaker script, start a presentation, move between slides, and ask questions answered from your own material.'
+category: productivity
+tags:
+  - ai-agent
+  - document
+  - productivity
+docs_url: https://aitho.app
+endpoints:
+  - url: https://present.aitho.app/mcp
+    transport: streamable-http
+    auth: oauth

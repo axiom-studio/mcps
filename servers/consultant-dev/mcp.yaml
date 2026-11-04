@@ -1,0 +1,11 @@
+name: Consultant
+summary: Search open freelance and contract assignments from consultant brokers, staffing agencies and job boards across many countries. Filter by role, skills, location and remote, and open full assignment details from your AI assistant.
+category: search
+tags:
+  - search
+  - web-research
+docs_url: https://consultant.dev
+endpoints:
+  - url: https://mcp.consultant.dev/mcp
+    transport: streamable-http
+    auth: oauth

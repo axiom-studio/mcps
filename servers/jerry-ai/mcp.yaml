@@ -1,0 +1,12 @@
+name: Jerry AI
+summary: Car and Home Insurance Shopping
+category: finance
+tags:
+  - ecommerce
+  - finance
+  - research
+docs_url: https://jerry.ai
+endpoints:
+  - url: https://mcp.jerry.ai/mcp
+    transport: streamable-http
+    auth: oauth

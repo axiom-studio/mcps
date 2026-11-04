@@ -1,0 +1,12 @@
+name: Easy Email Verification
+summary: 'Verify email addresses before you send: single, batch (50) and bulk lists (10,000).'
+category: marketing
+tags:
+  - data-analysis
+  - email-automation
+  - marketing-automation
+docs_url: https://www.easyemailverification.com/en-US/mcp
+endpoints:
+  - url: https://mcp.easyemailverification.com/mcp
+    transport: streamable-http
+    auth: oauth

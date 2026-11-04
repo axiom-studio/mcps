@@ -1,0 +1,13 @@
+name: Nitech — heating spare parts and ordering
+summary: Find heating spare parts, check prices, availability and documented part/appliance compatibility, get a delivery quote and place an order with explicit confirmation, choose home delivery or a GLS parcel shop where eligible, pay by card entered by the customer on Scellius / La Banque Postale, bank transfer or cheque, and access private order status through a remote MCP server.
+category: other
+tags:
+  - business-operations
+  - ecommerce
+  - inventory
+  - payment
+docs_url: https://catalogue.nitech.fr/agents/
+endpoints:
+  - url: https://mcp.nitech.fr/mcp
+    transport: streamable-http
+    auth: none

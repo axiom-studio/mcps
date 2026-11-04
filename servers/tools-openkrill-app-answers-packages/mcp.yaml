@@ -1,0 +1,13 @@
+name: Package Health Check
+summary: Check an npm or Python package, or a package.json, for known vulnerabilities and upkeep. Free, hosted, no API key.
+category: development
+tags:
+  - code-quality
+  - development
+  - devops
+  - security
+docs_url: https://tools.openkrill.app/answers/packages
+endpoints:
+  - url: https://packages.openkrill.app/mcp
+    transport: streamable-http
+    auth: none

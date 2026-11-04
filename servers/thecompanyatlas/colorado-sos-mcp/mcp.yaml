@@ -1,0 +1,13 @@
+name: Colorado SOS Business Entity & Registered Agent MCP
+summary: Colorado Secretary of State business entity search with status and registered agent lookup
+category: database
+tags:
+  - business-operations
+  - compliance
+  - database
+  - search
+docs_url: https://github.com/TheCompanyAtlas/colorado-sos-mcp
+endpoints:
+  - url: https://thecompanyatlas.com/mcp/colorado
+    transport: streamable-http
+    auth: oauth

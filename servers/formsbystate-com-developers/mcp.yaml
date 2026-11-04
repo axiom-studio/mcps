@@ -1,0 +1,13 @@
+name: FormsByState
+summary: 'Fill out state-specific US legal forms in chat: leases, eviction notices, lien waivers, WH-347 certified payroll, NDAs. Checks state rules, outputs PDF/Word.'
+category: productivity
+tags:
+  - document
+  - file-conversion
+  - pdf
+  - productivity
+docs_url: https://formsbystate.com/developers/
+endpoints:
+  - url: https://formsbystate.com/mcp/
+    transport: streamable-http
+    auth: oauth

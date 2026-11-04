@@ -1,0 +1,14 @@
+name: Listings API
+summary: 'Listings API is a local citation and listings submission API: one REST call submits a business to 50+ listings sites including Google Business Profile, Apple Maps, Bing Places, Facebook, Yelp, and the rest of the major directories, maps, and answer engines, and keeps its name, address, phone, and hours in sync everywhere it appears. Manage business locations, listings, reviews, posts, and local analytics. Monitor listing status, respond to reviews, publish posts, and analyze performance. DayPass is free when available: 24-hour activation, no credit card, 2 locations and 10 demo directories. DayPass supports locations and listings only, with no real publisher writes, reviews, posts, or analytics. Website: https://www.listingsapi.com/ MCP endpoint: https://listingsapi.com/mcp DayPass guide: https://listingsapi.com/docs/day-pass.md DayPass signup: https://listingsapi.com/signup?plan=day-pass&campaign=daypass Repository: https://github.com/listings-api/listingsapi-mcp'
+category: marketing
+tags:
+  - analytics
+  - business-operations
+  - communication
+  - crm
+  - marketing
+docs_url: https://github.com/listings-api/listingsapi-mcp
+endpoints:
+  - url: https://listingsapi.com/mcp
+    transport: streamable-http
+    auth: unknown

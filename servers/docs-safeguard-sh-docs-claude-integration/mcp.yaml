@@ -1,0 +1,11 @@
+name: Safeguard
+summary: 'Hosted MCP server (OAuth) for the Safeguard software supply chain security platform: look up projects, SBOMs, findings and vulnerabilities with EPSS and CISA KEV context.'
+category: development
+tags:
+  - compliance
+  - security
+docs_url: https://docs.safeguard.sh/docs/claude-integration
+endpoints:
+  - url: https://mcp.safeguard.sh/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Online Web Directory
+summary: 'How websites treat AI agents: bot walls, JS needs, robots rules, llms.txt. Look up before you fetch.'
+category: database
+tags:
+  - ai-agent
+  - browser
+  - web-research
+  - web-scraping
+docs_url: https://onlinewebdirectory.net/install.md
+endpoints:
+  - url: https://onlinewebdirectory.net/mcp
+    transport: streamable-http
+    auth: unknown

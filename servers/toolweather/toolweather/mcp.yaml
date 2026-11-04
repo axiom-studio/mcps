@@ -1,0 +1,12 @@
+name: Toolweather
+summary: Is this MCP server healthy and safe to call now? Live checks of ~2,000 servers + alternatives.
+category: development
+tags:
+  - api
+  - devops
+  - monitoring
+docs_url: https://github.com/toolweather/toolweather
+endpoints:
+  - url: https://toolweather.toolweather.workers.dev/mcp
+    transport: streamable-http
+    auth: none

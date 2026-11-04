@@ -1,0 +1,13 @@
+name: Wine Labs
+summary: Wine matching, prices, auction results, merchant comparisons, and cellar workflows. Hosted MCP with Wine Labs OAuth sign-in; data access follows your account plan.
+category: finance
+tags:
+  - ecommerce
+  - finance
+  - inventory
+  - marketplace
+docs_url: https://winelabs.ai/agents
+endpoints:
+  - url: https://chat.wine-labs.com/mcp
+    transport: streamable-http
+    auth: oauth

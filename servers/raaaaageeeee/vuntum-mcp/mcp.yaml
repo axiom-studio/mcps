@@ -1,0 +1,12 @@
+name: Vuntum
+summary: 'Sourced, dated data on consumer robots and physical AI: specs, prices, availability and evidence levels. Read-only, free, no key.'
+category: other
+tags:
+  - ai-model
+  - data-analysis
+  - research
+docs_url: https://github.com/RAAAAAGEEEEE/vuntum-mcp
+endpoints:
+  - url: https://vuntum.com/mcp
+    transport: streamable-http
+    auth: unknown

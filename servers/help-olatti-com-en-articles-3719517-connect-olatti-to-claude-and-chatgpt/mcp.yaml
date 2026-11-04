@@ -1,0 +1,13 @@
+name: Olatti
+summary: 'Your Olatti UK business phone system in Claude and ChatGPT: find calls, read summaries and transcripts, look up contacts, message colleagues, call out.'
+category: communication
+tags:
+  - ai-agent
+  - audio
+  - communication
+  - productivity
+docs_url: https://help.olatti.com/en/articles/3719517-connect-olatti-to-claude-and-chatgpt
+endpoints:
+  - url: https://mcp.olatti.com/mcp
+    transport: streamable-http
+    auth: oauth

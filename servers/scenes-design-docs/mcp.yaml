@@ -1,0 +1,13 @@
+name: Scenes
+summary: Search a library of finished motion graphics scenes and copy their HyperFrames code and prompt to render as MP4.
+category: design
+tags:
+  - content-creation
+  - design
+  - media
+  - video
+docs_url: https://scenes.design/docs#claude
+endpoints:
+  - url: https://scenes.design/mcp
+    transport: streamable-http
+    auth: oauth

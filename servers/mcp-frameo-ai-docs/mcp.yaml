@@ -1,0 +1,12 @@
+name: Frameo
+summary: Create & edit AI videos using frameo
+category: productivity
+tags:
+  - ai-model
+  - content-creation
+  - video
+docs_url: https://mcp.frameo.ai/docs
+endpoints:
+  - url: https://mcp.frameo.ai/mcp
+    transport: streamable-http
+    auth: oauth

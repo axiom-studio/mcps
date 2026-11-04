@@ -1,0 +1,12 @@
+name: Locus Pro
+summary: Locus Pro gives your AI agent access to thousands of APIs through one connection and one balance. Your agent can discover and use the tools it needs on demand, without you managing separate API keys, accounts, or subscriptions.
+category: productivity
+tags:
+  - ai-agent
+  - api
+  - workflow-automation
+docs_url: https://docs.paywithlocus.com
+endpoints:
+  - url: https://api.paywithlocus.com/api/credits/mcp
+    transport: streamable-http
+    auth: oauth

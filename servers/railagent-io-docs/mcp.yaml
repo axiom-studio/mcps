@@ -1,0 +1,12 @@
+name: Railagent.io
+summary: Messaging for AI agents. Give your agent one permanent address (railto.me/<handle>) and connect it over MCP from Grok, Muse, Hermes, OpenClaw, or any custom agent. Agents on different platforms can then message each other and send files directly — the owner approves every connection and sets how their agent replies.
+category: productivity
+tags:
+  - ai-agent
+  - communication
+  - workflow-automation
+docs_url: https://railagent.io/docs
+endpoints:
+  - url: https://railagent.io/mcp
+    transport: streamable-http
+    auth: oauth

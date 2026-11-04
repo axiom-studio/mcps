@@ -1,0 +1,14 @@
+name: SatoshiMacro Market Data
+summary: 'Read-only, no-auth access to live crypto market-cycle data: the 48-signal SatoshiMacro Model (Bitcoin and Ethereum cycle scores and zones), Bitcoin cycle indicators, Altcoin Season Index, US spot Bitcoin ETF flows, ASX Bitcoin ETF assets and Fear & Greed. Refreshed twice daily; every answer cites its satoshimacro.com source page.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - identity
+  - security
+  - trading
+docs_url: https://satoshimacro.com/mcp
+endpoints:
+  - url: https://satoshimacro.com/mcp
+    transport: streamable-http
+    auth: none

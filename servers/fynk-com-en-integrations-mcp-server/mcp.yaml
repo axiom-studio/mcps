@@ -1,0 +1,13 @@
+name: fynk MCP
+summary: Contract management (CLM) for AI assistants. Search and analyze contracts; draft agreements, NDAs, offers and quotes from templates, from scratch or from uploaded PDFs; fill in parties, signatories and dynamic fields; manage templates, metadata, tags and teams; and move contracts through review and e-signature. OAuth sign-in; every action runs with the user's own fynk permissions.
+category: productivity
+tags:
+  - document
+  - pdf
+  - productivity
+  - workflow-automation
+docs_url: https://fynk.com/en/integrations/mcp-server/
+endpoints:
+  - url: https://app.fynk.com/mcp
+    transport: streamable-http
+    auth: oauth

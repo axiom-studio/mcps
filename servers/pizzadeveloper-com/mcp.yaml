@@ -1,0 +1,13 @@
+name: Pizza Developer
+summary: Your product's plan, instructions, and deliveries, ready for any coding agent.
+category: productivity
+tags:
+  - coding-agent
+  - documentation
+  - project-management
+  - workflow-automation
+docs_url: https://pizzadeveloper.com/
+endpoints:
+  - url: https://pizzadeveloper.com/api/mcp
+    transport: streamable-http
+    auth: oauth

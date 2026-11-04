@@ -1,0 +1,15 @@
+name: Postdom
+summary: Schedule and publish social content to 9 platforms from an AI agent, with human approval and performance read-back.
+category: marketing
+tags:
+  - content-creation
+  - marketing-automation
+  - social-media
+  - workflow-automation
+official: true
+registry_name: io.github.deanfankhauser/postdom
+docs_url: https://postdom.com/docs
+endpoints:
+  - url: https://api.postdom.com/mcp
+    transport: streamable-http
+    auth: oauth

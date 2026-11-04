@@ -1,0 +1,13 @@
+name: Advancer.World MCP
+summary: 'Ask Claude or ChatGPT about your partner programs: each partner''s stage, KPIs and progress over time, and update them in plain language.'
+category: productivity
+tags:
+  - business-operations
+  - crm
+  - productivity
+  - sales
+docs_url: https://advancer.world/Home/MCP
+endpoints:
+  - url: https://advancer.world/mcp
+    transport: streamable-http
+    auth: oauth

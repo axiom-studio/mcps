@@ -1,0 +1,14 @@
+name: Catalogian
+summary: Give your AI access to CSVs and their history. Catalogian tracks every version, finds changes between imports, and makes your data searchable through MCP.
+category: database
+tags:
+  - data-analysis
+  - database
+  - search
+  - version-control
+official: true
+docs_url: https://catalogian.com/docs
+endpoints:
+  - url: https://api.catalogian.com/v1/mcp
+    transport: streamable-http
+    auth: api-key

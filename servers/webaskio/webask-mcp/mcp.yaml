@@ -1,0 +1,12 @@
+name: WebAsk MCP
+summary: Build surveys, collect responses and create reports in WebAsk from AI assistants using 161 MCP tools.
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - marketing
+docs_url: https://github.com/WebAskio/webask-mcp
+endpoints:
+  - url: https://mcp.webask.io/mcp/v1
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,15 @@
+name: Camden Tools
+summary: Official MCP server for Camden Tools. Live prices, Stock levels and delivery estimates for power tools, hand tools, among a lot of more items available worldwide. Worldwide delivery in 2-7 days, with UPS express. No API Key needed.
+category: other
+tags:
+  - data-analysis
+  - ecommerce
+  - inventory
+  - search
+official: true
+registry_name: com.camdentools/shop
+docs_url: https://camdentools.com/developers/
+endpoints:
+  - url: https://camdentools.com/mcp
+    transport: streamable-http
+    auth: none

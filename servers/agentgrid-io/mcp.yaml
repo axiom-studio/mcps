@@ -1,0 +1,13 @@
+name: AgentGrid.io
+summary: Shared workspace for humans and AI agents by Anima. Create, version, publish, and share live apps, docs, and files from any agent, with per-agent access control.
+category: productivity
+tags:
+  - ai-agent
+  - collaboration
+  - file-management
+  - productivity
+docs_url: https://agentgrid.io/
+endpoints:
+  - url: https://api.agentgrid.io/v1/mcp
+    transport: streamable-http
+    auth: oauth

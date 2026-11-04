@@ -1,0 +1,13 @@
+name: Elicitly Pro
+summary: 'Hosted human-in-the-loop for AI agents: durable approvals, proposals, and choices that survive disconnects, reach any device via a review page, and leave an audit trail.'
+category: development
+tags:
+  - ai-agent
+  - communication
+  - compliance
+  - workflow-automation
+docs_url: https://www.elicitly.ai
+endpoints:
+  - url: https://mcp.elicitly.ai/mcp
+    transport: streamable-http
+    auth: oauth

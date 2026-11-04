@@ -1,0 +1,13 @@
+name: AnswerRail MCP
+summary: 6-category AI search readiness audit & local auto-remediation (Schema.org JSON-LD, robots.txt AI bots, /llms.txt, ARD 1.0 & 25k-token RAG checks).
+category: search
+tags:
+  - ai-agent
+  - rag
+  - seo
+  - web-scraping
+docs_url: https://github.com/quitegoodproject/answerrail-mcp
+endpoints:
+  - url: https://answerrail.com/mcp
+    transport: streamable-http
+    auth: unknown

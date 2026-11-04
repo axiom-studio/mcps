@@ -1,0 +1,11 @@
+name: Ulule MCP
+summary: Création de votre projet de financement participatif
+category: finance
+tags:
+  - document
+  - documentation
+docs_url: https://developers.ulule.com/docs/mcp/
+endpoints:
+  - url: https://api.ulule.com/mcp/public
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Lunacal
+summary: AI-powered scheduling with Lunacal, directly inside your AI assistant.
+category: productivity
+tags:
+  - ai-agent
+  - calendar
+  - productivity
+docs_url: https://lunacal.ai
+endpoints:
+  - url: https://mcp.lunacal.ai/mcp
+    transport: streamable-http
+    auth: oauth

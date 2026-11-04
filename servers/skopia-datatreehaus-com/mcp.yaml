@@ -1,0 +1,13 @@
+name: Skopia
+summary: Floor plans, elevations and sections for agents. Draw a room in real millimetres, place doors, windows and tables, validate with typed errors, render deterministic SVG. Free key, no approval.
+category: design
+tags:
+  - design
+  - document
+  - file-conversion
+  - svg
+docs_url: https://skopia.datatreehaus.com
+endpoints:
+  - url: https://skopia.datatreehaus.com/v1
+    transport: streamable-http
+    auth: unknown

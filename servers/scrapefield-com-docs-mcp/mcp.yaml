@@ -1,0 +1,13 @@
+name: ScrapeField
+summary: 'Google Maps, LinkedIn, Instagram, TikTok and X data for agents, as MCP tools and a REST API. 45 tools across five platforms: places and reviews, profiles, companies, posts, jobs, comments, followers and search. No login or cookies of your own.'
+category: web-scraping
+tags:
+  - api
+  - search
+  - social-media
+  - web-scraping
+docs_url: https://scrapefield.com/docs/mcp
+endpoints:
+  - url: https://scrapefield.com/mcp
+    transport: streamable-http
+    auth: api-key

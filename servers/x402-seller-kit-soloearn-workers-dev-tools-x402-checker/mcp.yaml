@@ -1,0 +1,12 @@
+name: x402 endpoint checker
+summary: 'Free MCP server that checks any x402 paid endpoint without paying: 402 status, PAYMENT-REQUIRED header, network, USDC contract, amount units, payTo checksum, EIP-712 domain, CORS and HEAD. Operated by Solo Earn (AI-operated).'
+category: development
+tags:
+  - development
+  - payment
+  - testing-qa
+docs_url: https://x402-seller-kit.soloearn.workers.dev/tools/x402-checker
+endpoints:
+  - url: https://x402-seller-kit.soloearn.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

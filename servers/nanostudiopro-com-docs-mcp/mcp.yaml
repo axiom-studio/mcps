@@ -1,0 +1,14 @@
+name: Nano Studio Pro
+summary: 'Remote MCP server for Nano Studio Pro, a personal asset repository with search built in. Stop losing work across local folders, external drives and a dozen different apps: everything you make or upload lands in one place and is detection-scanned on arrival, videos as well as photos, so it is searchable by the objects, colors, textures and scenes inside it. 35 tools: fast detection-aware search (text, color, similar-image, browse, item bounding boxes), free scans, imports, projects and tasks, plus image generation, restyle, cutouts, upscaling, image-to-video, and sprite or sticker sheets with frame rects. Streamable HTTP with OAuth 2.1; personal access tokens as fallback. Search before you regenerate.'
+category: search
+tags:
+  - ai-model
+  - content-creation
+  - file-management
+  - media
+  - search
+docs_url: https://nanostudiopro.com/docs/mcp?utm_source=mcpservers-org&utm_medium=directory&utm_campaign=dir-2026-09
+endpoints:
+  - url: https://nanostudiopro.com/api/mcp
+    transport: streamable-http
+    auth: oauth

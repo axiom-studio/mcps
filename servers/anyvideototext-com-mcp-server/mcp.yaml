@@ -1,0 +1,14 @@
+name: Any Video to Text
+summary: 'Get the transcript or an AI summary of any TikTok, YouTube, Instagram, Facebook or X video from its link, inside Claude, ChatGPT or Cursor. Uses the video''s captions or Whisper speech-to-text. Free: 5 transcripts and 5 summaries a day; Google sign-in (OAuth) or API key.'
+category: productivity
+tags:
+  - ai-model
+  - social-media
+  - translation
+  - video
+  - youtube
+docs_url: https://anyvideototext.com/mcp-server
+endpoints:
+  - url: https://anyvideototext.com/mcp
+    transport: streamable-http
+    auth: oauth

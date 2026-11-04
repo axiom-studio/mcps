@@ -1,0 +1,13 @@
+name: Flux by Reportei MCP
+summary: Flux by Reportei helps agencies approve and schedule social posts 10x faster with AI. Flux AI creates images, captions and carousels. Clients approve by link with no login, and the Flux MCP server lets you plan and schedule from Claude, ChatGPT or Cursor. 8 networks, unlimited users and posts, from USD 6/month per project.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://developers.reportei.com/flux
+endpoints:
+  - url: https://flux.reportei.com/mcp/v1
+    transport: streamable-http
+    auth: oauth

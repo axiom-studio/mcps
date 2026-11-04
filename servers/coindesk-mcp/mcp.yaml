@@ -1,0 +1,18 @@
+name: CoinDesk
+summary: CoinDesk Data and Indices provides real-time and historical digital asset market data, regulated indices, benchmarks, spot prices, derivatives data, and exchange metrics. Its connector gives assistants crypto-market context for trader, analyst, and research workflows.
+description: |-
+  CoinDesk Data and Indices provides real-time and historical digital asset market data, regulated indices, benchmarks, spot prices, derivatives data, and exchange metrics. Its connector gives assistants crypto-market context for trader, analyst, and research workflows.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://mcp.coindesk.com/)
+category: finance
+tags:
+  - finance
+  - remote-mcp
+official: true
+docs_url: https://mcp.coindesk.com/
+endpoints:
+  - url: https://mcp.coindesk.com/mcp
+    transport: streamable-http
+    auth: oauth

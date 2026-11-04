@@ -1,0 +1,13 @@
+name: StackPick
+summary: 'Ranked AI dev tools by job: top picks per category, side-by-side compares, search, and recent release notes.'
+category: development
+tags:
+  - ai-model
+  - development
+  - productivity
+  - research
+docs_url: https://stackpick.app/developers
+endpoints:
+  - url: https://stackpick.app/mcp
+    transport: streamable-http
+    auth: none

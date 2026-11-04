@@ -1,0 +1,13 @@
+name: oJo MCP
+summary: Save a template. Fill it with data from anywhere.  oJo turns an HTML template and your JSON data into a PDF or PNG at a hosted link, from the REST API, any MCP client or the editor. Start with the API guide, or connect your AI client through the MCP server.
+category: productivity
+tags:
+  - api
+  - document
+  - file-conversion
+  - pdf
+docs_url: https://ojo.so/docs
+endpoints:
+  - url: https://mcp.ojo.so/mcp
+    transport: streamable-http
+    auth: oauth

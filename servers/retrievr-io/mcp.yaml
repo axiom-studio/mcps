@@ -1,0 +1,13 @@
+name: Retrievr.io
+summary: One-line RAG for your agent.
+category: productivity
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - productivity
+  - rag
+docs_url: https://retrievr.io/
+endpoints:
+  - url: https://retrievr.io/mcp
+    transport: streamable-http
+    auth: api-key

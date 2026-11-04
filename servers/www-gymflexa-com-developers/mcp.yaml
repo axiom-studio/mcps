@@ -1,0 +1,14 @@
+name: GymFlexa Gym Management
+summary: See your gym's open slots, services, how busy each day is and your payment totals.
+category: productivity
+tags:
+  - analytics
+  - business-operations
+  - calendar
+  - payment
+  - productivity
+docs_url: https://www.gymflexa.com/developers/#mcp
+endpoints:
+  - url: https://mcp.gymflexa.com/mcp
+    transport: streamable-http
+    auth: oauth

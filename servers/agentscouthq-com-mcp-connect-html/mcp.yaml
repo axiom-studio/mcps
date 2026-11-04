@@ -1,0 +1,12 @@
+name: AgentScout directory
+summary: 'Free, read-only MCP server: search 1,706 AI agent tools and 239 MCP servers from Claude, Cursor, VS Code or any MCP client. No sign-up needed. Server URL: https://agentscout-mcp.agentscouthq.workers.dev/mcp'
+category: search
+tags:
+  - ai-agent
+  - marketplace
+  - search
+docs_url: https://agentscouthq.com/mcp/connect.html
+endpoints:
+  - url: https://agentscout-mcp.agentscouthq.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

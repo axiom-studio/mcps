@@ -1,0 +1,12 @@
+name: Pinpal Todo
+summary: 'A quiet to-do list for iPhone, iPad and Mac that your AI can work with too: add, read, tick off and reopen todos. No dates, no reminders, and it never deletes.'
+category: productivity
+tags:
+  - mobile
+  - productivity
+  - task-management
+docs_url: https://mypinpal.com/todo/connect
+endpoints:
+  - url: https://todo.mypinpal.com/mcp
+    transport: streamable-http
+    auth: oauth

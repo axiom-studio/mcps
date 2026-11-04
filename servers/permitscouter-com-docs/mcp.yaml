@@ -1,0 +1,12 @@
+name: Permit Scouter
+summary: Fresh building permits from six Tampa Bay, Florida jurisdictions, with job value, contractor, licence and trade (roofing, HVAC, solar, pool...). Two free tools; paid tools cost $0.01 to $0.10 per call in USDC via x402.
+category: search
+tags:
+  - data-analysis
+  - real-estate
+  - search
+docs_url: https://permitscouter.com/docs
+endpoints:
+  - url: https://api.permitscouter.com/mcp
+    transport: streamable-http
+    auth: unknown

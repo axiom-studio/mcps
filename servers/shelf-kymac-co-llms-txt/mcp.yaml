@@ -1,0 +1,12 @@
+name: shelf-smoke
+summary: Machine-buyable URL smoke API/MCP. Prepaid TEST credits. Sample key via POST /keys (no hardcoded secret). No human mid-loop.
+category: other
+tags:
+  - api
+  - payment
+  - testing-qa
+docs_url: https://shelf.kymac.co/llms.txt
+endpoints:
+  - url: https://shelf.kymac.co/mcp
+    transport: streamable-http
+    auth: api-key

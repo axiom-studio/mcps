@@ -1,0 +1,13 @@
+name: Base Payment Assurance
+summary: Verify Base Mainnet USDC payments with dual-RPC agreement, safe finality, and exact sender, recipient, and amount matching via 7 MCP tools; 0.11 USDC buys 100 prepaid credits.
+category: finance
+tags:
+  - crypto
+  - evm
+  - finance
+  - payment
+docs_url: https://smithery.ai/servers/qqqa16521/base-payment-assurance
+endpoints:
+  - url: https://base-payment-assurance-002.qqqa16521-dce.workers.dev/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,12 @@
+name: Agent Output Verifier
+summary: 'Independently verify an agent''s output before you pay: structure, formats, ranges and cross-field rules, with a signed attestation and receipt. 3 free calls a day, then x402 v2.'
+category: development
+tags:
+  - ai-agent
+  - api
+  - testing-qa
+docs_url: https://github.com/mglbagi/agent-output-verifier
+endpoints:
+  - url: https://fastapi-service-5ag4.onrender.com/mcp
+    transport: streamable-http
+    auth: unknown

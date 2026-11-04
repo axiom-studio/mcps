@@ -1,0 +1,12 @@
+name: India Jobs MCP
+summary: Search nine Indian job boards (Naukri, Indeed India, Foundit, Shine, Apna, CutShort, Hirist, Instahyre, Internshala) from one remote MCP endpoint, plus LinkedIn candidate sourcing and AmbitionBox employer snapshots. 14 tools. Hosted on Apify, pay per result, and a search that comes back empty is not billed.
+category: web-scraping
+tags:
+  - knowledge-retrieval
+  - search
+  - web-scraping
+docs_url: https://apify.com/themineworks/india-jobs-mcp?utm_source=ranking-site&utm_medium=distribution&utm_campaign=mcpservers-org
+endpoints:
+  - url: https://themineworks--india-jobs-mcp.apify.actor/mcp
+    transport: streamable-http
+    auth: api-key

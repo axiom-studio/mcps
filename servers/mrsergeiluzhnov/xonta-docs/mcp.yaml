@@ -1,0 +1,13 @@
+name: Xonta Docs RU
+summary: 'Tools for AI agents preparing Russian business documents: validates INN, KPP, OGRN, BIC and bank accounts by checksum, writes amounts in Russian words with VAT, declines Russian names and job titles by case, and counts working days by the official Russian calendar. Free remote server, no API key: https://mcp.xonta.ru/mcp'
+category: productivity
+tags:
+  - business-operations
+  - compliance
+  - document
+  - productivity
+docs_url: https://github.com/mrsergeiluzhnov/xonta-docs
+endpoints:
+  - url: https://mcp.xonta.ru/mcp
+    transport: streamable-http
+    auth: none

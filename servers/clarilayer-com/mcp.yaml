@@ -1,0 +1,12 @@
+name: ClariLayer
+summary: A personal MCP context layer so you stop re-explaining data definitions to your coding agent every session. Connect Claude Code, Cursor, or Codex in one command. Free to start.
+category: memory
+tags:
+  - ai-model
+  - anthropic
+  - llm
+docs_url: https://clarilayer.com
+endpoints:
+  - url: https://clarilayer.com/api/mcp/mcp
+    transport: streamable-http
+    auth: unknown

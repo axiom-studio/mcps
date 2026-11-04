@@ -1,0 +1,14 @@
+name: Subastech — Spanish judicial property auctions (BOE)
+summary: 'Search and analyse every judicial and tax real-estate auction in Spain (BOE, AEAT, Social Security): official data, results, alerts and paid due-diligence reports. Remote MCP with OAuth.'
+category: search
+tags:
+  - content-creation
+  - identity
+  - marketing-automation
+  - security
+  - social-media
+docs_url: https://app.subastech.com/agentes
+endpoints:
+  - url: https://mcp.subastech.com/mcp
+    transport: streamable-http
+    auth: oauth

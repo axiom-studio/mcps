@@ -1,0 +1,12 @@
+name: FrameAnyPhoto Prints
+summary: 'Shop for and buy framed museum-quality prints of public-domain art and photos, shipped US-wide. Remote endpoint: https://frameanyphoto.com/mcp'
+category: other
+tags:
+  - ecommerce
+  - marketplace
+  - payment
+docs_url: https://github.com/morgangoins/frameanyphoto-mcp
+endpoints:
+  - url: https://frameanyphoto.com/mcp
+    transport: streamable-http
+    auth: unknown

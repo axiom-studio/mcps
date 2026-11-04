@@ -1,0 +1,12 @@
+name: Brik
+summary: 'Official remote MCP server of Brik, the French rental management software: work with your properties, leases, rents and tenants from Claude, ChatGPT or Cursor (OAuth 2.1, read by default).'
+category: productivity
+tags:
+  - business-operations
+  - productivity
+  - real-estate
+docs_url: https://brik.com/integrations/connecteur-mcp
+endpoints:
+  - url: https://app.brik.com/api/mcp
+    transport: streamable-http
+    auth: oauth

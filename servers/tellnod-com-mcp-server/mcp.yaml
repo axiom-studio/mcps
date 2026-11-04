@@ -1,0 +1,13 @@
+name: Tellnod
+summary: 'Email marketing in Claude or ChatGPT: draft, preview and send campaigns to your own customers. You approve every send on a card.'
+category: marketing
+tags:
+  - chatbot
+  - email-automation
+  - marketing
+  - marketing-automation
+docs_url: https://tellnod.com/mcp-server
+endpoints:
+  - url: https://mcp.tellnod.com/mcp
+    transport: streamable-http
+    auth: oauth

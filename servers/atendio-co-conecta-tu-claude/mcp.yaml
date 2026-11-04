@@ -1,0 +1,14 @@
+name: Atendio
+summary: Read WhatsApp conversations and analytics, and manage AI assistant rules in Atendio, a WhatsApp AI chatbot.
+category: communication
+tags:
+  - analytics
+  - chatbot
+  - communication
+  - customer-ops
+  - whatsapp
+docs_url: https://atendio.co/conecta-tu-claude
+endpoints:
+  - url: https://atendio.co/api/mcp
+    transport: streamable-http
+    auth: oauth

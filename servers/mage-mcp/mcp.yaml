@@ -1,0 +1,15 @@
+name: Mage
+summary: Generate AI images, video, and audio with many frontier models, private by default.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - media
+official: true
+registry_name: space.mage/mage
+docs_url: https://docs.mage.space/api/mcp
+endpoints:
+  - url: https://mcp.mage.space/mcp
+    transport: streamable-http
+    auth: oauth

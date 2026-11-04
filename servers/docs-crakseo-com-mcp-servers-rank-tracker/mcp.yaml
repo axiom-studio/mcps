@@ -1,0 +1,13 @@
+name: CrakSEO Google Rank Tracker MCP
+summary: Live Google rank checks, ranked keywords, competitor domains and keyword gaps. Hosted Streamable HTTP with OAuth or a scoped API key. Check availability and pricing before paid calls.
+category: search
+tags:
+  - analytics
+  - marketing
+  - search
+  - seo
+docs_url: https://docs.crakseo.com/mcp-servers/rank-tracker
+endpoints:
+  - url: https://crakseo.com/mcp/rank-tracker
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: MisarSEO MCP
+summary: Keyword research, site audits, rank tracking, AI search visibility and Google Search Console data from your AI agent.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+  - web-research
+docs_url: https://misarseo.com/docs/mcp
+endpoints:
+  - url: https://seo.misar.io/mcp
+    transport: streamable-http
+    auth: api-key

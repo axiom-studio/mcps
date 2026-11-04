@@ -1,0 +1,13 @@
+name: BestPrintOnDemand
+summary: 'Live print-on-demand costs by supplier (Printful, Printify, Gelato and more): base price, US shipping, total and profit after marketplace fees, each figure with its source.'
+category: finance
+tags:
+  - business-operations
+  - ecommerce
+  - finance
+  - research
+docs_url: https://bestprintondemand.co/?utm_source=mcpservers&utm_medium=listing&utm_campaign=mcp
+endpoints:
+  - url: https://bestprintondemand.co/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: Inveliq MCP
+summary: Find flat and Flatmates
+category: other
+tags:
+  - marketplace
+  - real-estate
+  - search
+docs_url: https://www.tryinveliq.com/
+endpoints:
+  - url: https://mcp.tryinveliq.com
+    transport: streamable-http
+    auth: none

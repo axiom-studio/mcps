@@ -1,0 +1,14 @@
+name: StoryShort MCP (storyshort.app)
+summary: 'Remote MCP server for StoryShort (storyshort.app), an AI faceless story-video maker. Lets agents turn stories, scripts or topics into faceless vertical videos with AI scenes, narration and synced captions via your StoryShort account. Streamable HTTP endpoint https://storyshort.app/api/mcp, authenticated with a StoryShort API key (Authorization: Bearer). Not affiliated with StoryShort.ai.'
+category: other
+tags:
+  - ai-model
+  - content-creation
+  - media
+  - video
+  - workflow-automation
+docs_url: https://storyshort.app/en/developers
+endpoints:
+  - url: https://storyshort.app/api/mcp
+    transport: streamable-http
+    auth: api-key

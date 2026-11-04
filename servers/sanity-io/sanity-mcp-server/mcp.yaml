@@ -1,0 +1,14 @@
+name: Sanity MCP Server
+summary: Connects Sanity projects with AI tools, allowing AI models to understand content structure and perform operations using natural language.
+category: database
+tags:
+  - ai-agent
+  - cms
+  - content-creation
+  - database
+registry_name: io.sanity.www/mcp
+docs_url: https://github.com/sanity-io/sanity-mcp-server
+endpoints:
+  - url: https://mcp.sanity.io
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: MCPSkillHub
+summary: Search 49,000+ MCP servers by what you need done. For the 10,000+ we've run, see how many tokens each one adds to every turn of your agent's context, plus its security score and an install config, before you connect it. Free, no API key.
+category: search
+tags:
+  - ai-agent
+  - marketplace
+  - search
+  - security
+docs_url: https://mcpskillhub.com
+endpoints:
+  - url: https://mcpskillhub.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,14 @@
+name: VoiceMoat
+summary: 'The personal brand OS for Twitter/X and LinkedIn: score, improve, schedule and publish posts. Requires a VoiceMoat account on the Pro or Enterprise plan.'
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+  - x-twitter
+docs_url: https://github.com/prateeks367/voicemoat-mcp
+endpoints:
+  - url: https://app.voicemoat.com/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: 550W AI Subtitle & Watermark Removal
+summary: Remove video subtitles and video or image watermarks through website OAuth. Processing uses account credits; no API key required.
+category: design
+tags:
+  - design
+  - media
+  - video
+docs_url: https://eraser.550wai.com/agent/
+endpoints:
+  - url: https://www.550wai.cn/mcp/global
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: SuperPost
+summary: 'Connect AI assistants to SuperPost: search saved sources, work with ideas and drafts, review proposals, and configure profile and Autopilot settings through its shared MCP. OAuth and Streamable HTTP.'
+category: marketing
+tags:
+  - ai-agent
+  - content-creation
+  - marketing
+  - social-media
+docs_url: https://superpost.social/ai
+endpoints:
+  - url: https://superpost.social/api/v1/mcp
+    transport: streamable-http
+    auth: oauth

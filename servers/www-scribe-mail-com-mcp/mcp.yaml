@@ -1,0 +1,13 @@
+name: Scribe Mail
+summary: 'Manage company email signatures from an AI agent: author and publish templates, assign teammates, run signature banner campaigns, read views and clicks analytics. OAuth sign-in, no API key.'
+category: marketing
+tags:
+  - analytics
+  - cms
+  - email-automation
+  - marketing
+docs_url: https://www.scribe-mail.com/mcp
+endpoints:
+  - url: https://mcp.scribe-mail.com/mcp
+    transport: streamable-http
+    auth: oauth

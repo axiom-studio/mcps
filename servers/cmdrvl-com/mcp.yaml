@@ -1,0 +1,13 @@
+name: CMD+RVL Receipts
+summary: Free hosted MCP server from CMD+RVL that returns verifiable receipts for data pulled from public filings and public datasets, so agents can show where every number came from. Remote MCP endpoint, no API key needed.
+category: finance
+tags:
+  - compliance
+  - data-analysis
+  - finance
+  - knowledge-retrieval
+docs_url: https://cmdrvl.com
+endpoints:
+  - url: https://receipts.cmdrvl.com/mcp
+    transport: streamable-http
+    auth: none

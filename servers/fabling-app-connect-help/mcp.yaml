@@ -1,0 +1,11 @@
+name: Fabling
+summary: Practice Spanish and French using saved vocabulary, grammar progress, and practice focus. Connected AI assistants can review words and save learning updates with your permission.
+category: other
+tags:
+  - ai-agent
+  - education
+docs_url: https://fabling.app/connect/help
+endpoints:
+  - url: https://fabling.app/api/mcp
+    transport: streamable-http
+    auth: oauth

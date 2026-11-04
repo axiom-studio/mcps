@@ -1,0 +1,12 @@
+name: Vedokrok MCP
+summary: Read-only MCP access to Vedokrok’s public library of methods and ideas. Search and fetch versioned items with sources, use conditions and limits. No authentication or autonomous account access.
+category: search
+tags:
+  - document
+  - knowledge-retrieval
+  - research
+docs_url: https://vedokrok.com/for-ai
+endpoints:
+  - url: https://vedokrok.com/mcp
+    transport: streamable-http
+    auth: none

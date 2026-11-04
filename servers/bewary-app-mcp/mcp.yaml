@@ -1,0 +1,13 @@
+name: 'Bewary: Scam and Phishing Check MCP Server'
+summary: 'Security MCP server for scam, phishing and fraud checks: verifies whether URLs, domains, phone numbers, emails, crypto wallets and IBANs are malicious, each with a verdict and the evidence behind it.'
+category: finance
+tags:
+  - crypto
+  - finance
+  - security
+  - threat-intelligence
+docs_url: https://bewary.app/mcp
+endpoints:
+  - url: https://api.bewary.app/mcp
+    transport: streamable-http
+    auth: unknown

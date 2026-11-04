@@ -1,0 +1,13 @@
+name: Berrys AI
+summary: Give your agent a creative studio. Turn one product photo into on-brand listing images, campaign visuals, and short vertical videos.
+category: design
+tags:
+  - content-creation
+  - design
+  - marketing
+  - media
+docs_url: https://berrys.io/plugins
+endpoints:
+  - url: https://app.berrys.io/api/mcp
+    transport: streamable-http
+    auth: oauth

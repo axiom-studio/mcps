@@ -1,0 +1,14 @@
+name: Company Diligence MCP
+summary: 'Company due diligence from official sources over one remote MCP endpoint: SEC EDGAR, GLEIF LEI, EU VIES VAT, US state registries, UK Companies House, CourtListener, USAspending, SAM.gov and FEC, plus Trustpilot, news and a one-call dossier. 13 tools. Hosted on Apify, pay per result, and a lookup that finds nothing is not billed.'
+category: finance
+tags:
+  - compliance
+  - data-analysis
+  - finance
+  - research
+  - web-research
+docs_url: https://apify.com/themineworks/company-diligence-mcp?utm_source=ranking-site&utm_medium=distribution&utm_campaign=mcpservers-org
+endpoints:
+  - url: https://themineworks--company-diligence-mcp.apify.actor/mcp
+    transport: streamable-http
+    auth: api-key

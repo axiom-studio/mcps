@@ -1,0 +1,12 @@
+name: MermaidDesk
+summary: Validate Mermaid syntax, get error details, and export diagrams through MCP and REST.
+category: development
+tags:
+  - design-to-code
+  - development
+  - documentation
+docs_url: https://www.mermaiddesk.com/developers/mcp
+endpoints:
+  - url: https://www.mermaiddesk.com/api/mcp
+    transport: streamable-http
+    auth: api-key

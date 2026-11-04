@@ -1,0 +1,13 @@
+name: AgentMash
+summary: 'All your bookmarks in one library. Share them with your AI agents through MCP: six read-only tools search saves synced from X, LinkedIn, Instagram and more.'
+category: productivity
+tags:
+  - knowledge-retrieval
+  - productivity
+  - search
+  - social-media
+docs_url: https://agentmash.ai
+endpoints:
+  - url: https://agentmash.ai/mcp
+    transport: streamable-http
+    auth: api-key

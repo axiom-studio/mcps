@@ -1,0 +1,12 @@
+name: Lim ://ServerByLim
+summary: All tools in Lim
+category: other
+tags:
+  - api
+  - development
+  - workflow-automation
+docs_url: https://lim.base44.app
+endpoints:
+  - url: https://lim.base44.app/api/mcp
+    transport: streamable-http
+    auth: unknown

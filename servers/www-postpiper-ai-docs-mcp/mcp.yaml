@@ -1,0 +1,13 @@
+name: PostPiper MCP
+summary: Manage social accounts, create drafts, upload images, and publish or schedule posts on X and LinkedIn through your AI assistant.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - x-twitter
+docs_url: https://www.postpiper.ai/docs/mcp
+endpoints:
+  - url: https://mcp.postpiper.ai/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: 'Recoup: AI agent refund audit'
+summary: 'Remote, read-only MCP server for Recoup, the AI agent refund audit for Shopify and Stripe. It checks the refunds, credits and discounts an AI support agent (Gorgias, Intercom Fin, Zendesk) promised in tickets against what Shopify and Stripe actually did. Tools: get_recoup_overview, get_recoup_pricing, estimate_refund_exposure, list_supported_sources. Streamable HTTP, no auth.'
+category: finance
+tags:
+  - customer-ops
+  - ecommerce
+  - finance
+  - shopify
+  - stripe
+docs_url: https://recoupaudit.com/agents/
+endpoints:
+  - url: https://recoupaudit.com/mcp/
+    transport: streamable-http
+    auth: none

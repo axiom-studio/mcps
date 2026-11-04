@@ -1,0 +1,13 @@
+name: Clypmint
+summary: 'Edit videos with AI from any MCP client: cuts, captions, B-roll and motion graphics in a style you pick or copy from any video link. Make videos from a script, then change anything in plain words.'
+category: design
+tags:
+  - ai-agent
+  - content-creation
+  - media
+  - video
+docs_url: https://clypmint.com/claude
+endpoints:
+  - url: https://clypmint.com/mcp
+    transport: streamable-http
+    auth: oauth

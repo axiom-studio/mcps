@@ -1,0 +1,12 @@
+name: Sessionplan
+summary: Create and revise agenda for almost everything
+category: productivity
+tags:
+  - productivity
+  - task-management
+  - workflow-automation
+docs_url: https://sessionplan.de/mcp.md
+endpoints:
+  - url: https://sessionplan.de/mcp
+    transport: streamable-http
+    auth: none

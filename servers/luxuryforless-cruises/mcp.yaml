@@ -1,0 +1,11 @@
+name: Premium Cruise Fares MCP
+summary: Search for affordable premium and luxury cruise fares
+category: search
+tags:
+  - ecommerce
+  - search
+docs_url: https://luxuryforless.cruises
+endpoints:
+  - url: https://luxuryforless.cruises/mcp
+    transport: streamable-http
+    auth: none

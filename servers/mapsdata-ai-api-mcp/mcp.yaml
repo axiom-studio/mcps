@@ -1,0 +1,13 @@
+name: MapsData
+summary: 'Remote MCP server that builds lead lists from Google Maps: every matching business with its email, phone, website, address and rating, for 4,000+ business types across the US, Canada, UK and Australia. Connect with OAuth or a MapsData API key.'
+category: web-scraping
+tags:
+  - data-analysis
+  - marketing-automation
+  - sales
+  - web-scraping
+docs_url: https://mapsdata.ai/api-mcp
+endpoints:
+  - url: https://mapsdata.ai/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Mynahcast
+summary: 'Remote MCP server: your agent drafts and schedules brand-voice posts to Bluesky, Mastodon, Telegram, Discord and more; a human approves each one.'
+category: marketing
+tags:
+  - communication
+  - marketing-automation
+  - social-media
+  - workflow-automation
+docs_url: https://mynahcast.xyz/docs/mcp
+endpoints:
+  - url: https://api.mynahcast.xyz/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,14 @@
+name: ZoomSphere MCP
+summary: 'Connect AI agents (Claude, ChatGPT, Grok or any MCP client) to ZoomSphere social media management: create, approve and publish posts, manage Ideas, upload media and pull cross-network analytics. Remote server with OAuth, included in every ZoomSphere account at no extra cost.'
+category: marketing
+tags:
+  - analytics
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://www.zoomsphere.com/mcp
+endpoints:
+  - url: https://mcp.zoomsphere.com/mcp
+    transport: streamable-http
+    auth: unknown

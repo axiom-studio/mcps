@@ -1,0 +1,11 @@
+name: SimpleDock
+summary: 'Warehouse dock appointment scheduling: find open slots, book, reschedule, approve, and check in trucks.'
+category: productivity
+tags:
+  - business-operations
+  - workflow-automation
+docs_url: https://github.com/replenysh/simpledock-mcp
+endpoints:
+  - url: https://simpledock.ai/api/v1/mcp
+    transport: streamable-http
+    auth: unknown

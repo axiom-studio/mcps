@@ -1,0 +1,13 @@
+name: Feedlio
+summary: 'Schedule and publish social media posts to Facebook, Instagram, LinkedIn, TikTok and YouTube from Claude, ChatGPT or any MCP client. Draft, schedule, reschedule and cancel posts, add media from a URL, and manage workspaces and connected accounts. Hosted server: https://mcp.feedlio.io/mcp (OAuth sign-in or Bearer token).'
+category: marketing
+tags:
+  - content-creation
+  - marketing-automation
+  - social-media
+  - workflow-automation
+docs_url: https://feedlio.io/en/mcp
+endpoints:
+  - url: https://mcp.feedlio.io/mcp
+    transport: streamable-http
+    auth: oauth

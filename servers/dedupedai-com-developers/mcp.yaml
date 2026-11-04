@@ -1,0 +1,13 @@
+name: Deduped AI use cases
+summary: Daily AI use cases, hot AI repos and AI news as a free read-only remote MCP server. No key, no signup.
+category: development
+tags:
+  - ai-model
+  - news
+  - research
+  - web-research
+docs_url: https://dedupedai.com/developers/
+endpoints:
+  - url: https://dedupedai.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: DocsAutomator
+summary: Your AI agent makes PDF or Word documents from your own Google Docs or Word templates and sends them for one-click acceptance or e-signature. Hosted by DocsAutomator; connect over Streamable HTTP with OAuth or an API key.
+category: productivity
+tags:
+  - document
+  - pdf
+  - productivity
+  - workflow-automation
+docs_url: https://www.docsautomator.co/features/ai-and-agents/
+endpoints:
+  - url: https://mcp.docsautomator.co/mcp
+    transport: streamable-http
+    auth: unknown

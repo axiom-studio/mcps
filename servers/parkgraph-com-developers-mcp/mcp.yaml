@@ -1,0 +1,13 @@
+name: Park Graph
+summary: 'Find, price and book parking. AI agents search Park Graph lots near any location, get a quote, hold a space and extend a session. Park Graph is QR-code parking payments: drivers scan and pay in 30 seconds, no app or gate. Remote streamable-HTTP endpoint: https://parkgraph.com/api/mcp (no key needed for drivers).'
+category: finance
+tags:
+  - ai-agent
+  - marketplace
+  - payment
+  - workflow-automation
+docs_url: https://parkgraph.com/developers/mcp
+endpoints:
+  - url: https://parkgraph.com/api/mcp
+    transport: streamable-http
+    auth: none

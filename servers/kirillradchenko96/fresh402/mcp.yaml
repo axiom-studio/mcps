@@ -1,0 +1,13 @@
+name: Fresh402
+summary: 'Public web intelligence for AI agents: free persistent baselines, Check, bounded Extract, Smart Diff and JSON OpenAPI Contract Diff. REST and MCP; x402 native USDC on Base. Free installation; paid calls $0.005/$0.010/$0.015/$0.020. Optional one-time prepaid packages through REST. No page JavaScript execution or authenticated-page access.'
+category: development
+tags:
+  - api
+  - browser-automation
+  - monitoring
+  - web-scraping
+docs_url: https://github.com/kirillradchenko96/fresh402
+endpoints:
+  - url: https://fresh402.kirilllabs.workers.dev/mcp
+    transport: streamable-http
+    auth: none

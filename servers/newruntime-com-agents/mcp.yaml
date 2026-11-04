@@ -1,0 +1,13 @@
+name: New Runtime archive
+summary: 'Read-only remote MCP server for the New Runtime AI-engineering newsroom archive: search and fetch evidence-linked signals, analyses, patterns and systems; contextualize a URL; submit sources or corrections.'
+category: search
+tags:
+  - knowledge-retrieval
+  - news
+  - research
+  - web-research
+docs_url: https://newruntime.com/agents/
+endpoints:
+  - url: https://newruntime.com/mcp
+    transport: streamable-http
+    auth: unknown

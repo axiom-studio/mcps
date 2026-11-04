@@ -1,0 +1,13 @@
+name: SocialDataX Baidu Tieba MCP
+summary: Search Baidu Tieba posts and users, read thread details and comments, and explore user and forum data. Hosted Streamable HTTP MCP with 19 tools.
+category: marketing
+tags:
+  - marketing
+  - search
+  - social-media
+  - web-research
+docs_url: https://github.com/DevinChen2014/baidu-tieba-mcp
+endpoints:
+  - url: https://mcp.socialdatax.com/baidu-tieba/mcp
+    transport: streamable-http
+    auth: api-key

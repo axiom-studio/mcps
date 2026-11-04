@@ -1,0 +1,13 @@
+name: Betterloop
+summary: Ranked fixes from the real users of your site (rage clicks, dead buttons, JS errors, slow pages) for your coding agent over MCP. Hosted, free plan.
+category: development
+tags:
+  - analytics
+  - coding-agent
+  - debugging
+  - performance
+docs_url: https://betterloopai.com/docs/mcp
+endpoints:
+  - url: https://betterloopai.com/api/mcp
+    transport: streamable-http
+    auth: api-key

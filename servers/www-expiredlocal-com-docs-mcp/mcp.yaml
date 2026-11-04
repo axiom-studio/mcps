@@ -1,0 +1,13 @@
+name: Expired Local MCP
+summary: 'Hosted Streamable HTTP MCP for Expired Local domain intelligence. Search expired, auction, and pending-delete business domains with GMB, social, and SEO signals from Claude, Cursor, or Codex. Docs: https://www.expiredlocal.com/docs/mcp/'
+category: marketing
+tags:
+  - data-analysis
+  - marketing
+  - seo
+  - web-research
+docs_url: https://www.expiredlocal.com/docs/mcp/
+endpoints:
+  - url: https://api.expiredlocal.com/mcp
+    transport: streamable-http
+    auth: unknown

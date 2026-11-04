@@ -1,0 +1,13 @@
+name: LoomaScale – Google Ads & Meta Ads MCP
+summary: 'Manage Google Ads and Meta Ads from ChatGPT or Claude: analyze performance, find wasted spend, build campaigns, and make approved changes.'
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - marketing
+  - marketing-automation
+docs_url: https://ai.loomascale.com/
+endpoints:
+  - url: https://api.loomascale.com/mcp
+    transport: streamable-http
+    auth: oauth

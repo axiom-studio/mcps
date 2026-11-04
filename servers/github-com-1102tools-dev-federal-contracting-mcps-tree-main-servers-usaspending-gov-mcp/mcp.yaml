@@ -1,0 +1,13 @@
+name: USAspending MCP by 1102tools
+summary: 'Free hosted MCP server for USAspending.gov federal award data: contracts, grants, loans, recipients, agencies and subawards. Connect at https://usaspending.1102tools.com/mcp with nothing to install and no API key. Open source (MIT).'
+category: other
+tags:
+  - data-analysis
+  - finance
+  - government
+  - openapi
+docs_url: https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/usaspending-gov-mcp
+endpoints:
+  - url: https://usaspending.1102tools.com/mcp
+    transport: streamable-http
+    auth: none

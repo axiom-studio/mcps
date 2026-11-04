@@ -1,0 +1,13 @@
+name: DomainKit
+summary: DNS records, SSL certificate, WHOIS/RDAP and website tech scan for any domain. Free tier, RapidAPI key.
+category: development
+tags:
+  - api
+  - network-automation
+  - security
+  - web-research
+docs_url: https://rapidapi.com/Olly-1VN9JTXKG/api/domainkit-dns-ssl-whois-website-tech-lookup
+endpoints:
+  - url: https://domainkit-dns-ssl-whois-website-tech-lookup.p.rapidapi.com/mcp
+    transport: streamable-http
+    auth: api-key

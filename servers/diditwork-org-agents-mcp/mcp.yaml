@@ -1,0 +1,12 @@
+name: Did It Work?
+summary: 'Charity evidence for AI agents: cited GiveWell/HLI figures, caveats and an outcome ledger. Read-only, no key.'
+category: other
+tags:
+  - documentation
+  - knowledge-retrieval
+  - research
+docs_url: https://diditwork.org/agents/mcp
+endpoints:
+  - url: https://api.diditwork.org/mcp
+    transport: streamable-http
+    auth: none

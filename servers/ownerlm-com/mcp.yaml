@@ -1,0 +1,14 @@
+name: OwnerLM
+summary: OwnerLM is an AI platform and managed service that gives real estate owners a private brain for their properties, with optional on-site compute that pays them back. It includes a property brain, AI agents, a self-updating CRM, a data room, and managed compute hosting.
+category: other
+tags:
+  - ai-agent
+  - cloud-infrastructure
+  - crm
+  - data-analysis
+  - real-estate
+docs_url: https://ownerlm.com
+endpoints:
+  - url: https://ownerlm.com/api/public/mcp
+    transport: streamable-http
+    auth: api-key

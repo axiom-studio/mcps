@@ -1,0 +1,13 @@
+name: Nyna — AI wedding planner
+summary: 'Nyna plans your wedding in a chat: real vendors around any city, guest list, budget, day-of run sheet. Remote MCP, OAuth 2.1, free directory tools.'
+category: productivity
+tags:
+  - business-operations
+  - calendar
+  - chatbot
+  - productivity
+docs_url: https://nyna.ai/assistants
+endpoints:
+  - url: https://nyna.ai/mcp
+    transport: streamable-http
+    auth: unknown

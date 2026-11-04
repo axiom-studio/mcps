@@ -1,0 +1,13 @@
+name: More AI - ChatGPT & Claude MCP (Fortnox)
+summary: 'Connect ChatGPT and Claude to Fortnox: read your books and propose changes you approve before anything is written.'
+category: finance
+tags:
+  - ai-agent
+  - anthropic
+  - finance
+  - openai
+docs_url: https://accounting.amore.cloud/en/fortnox-mcp/
+endpoints:
+  - url: https://accounting.amore.cloud/mcp
+    transport: streamable-http
+    auth: oauth

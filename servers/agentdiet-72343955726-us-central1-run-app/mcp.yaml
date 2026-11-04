@@ -1,0 +1,13 @@
+name: AgentDiet — Token Diet & Semantic De-bloater
+summary: Strips 85-97% of HTML token bloat for AI agents with 4 modes (skeleton recon, BM25 token budget, Markdown, JSON tables) and HTTP 402 (x402/L402) micropayments.
+category: web-scraping
+tags:
+  - ai-agent
+  - data-analysis
+  - document
+  - web-scraping
+docs_url: https://agentdiet-72343955726.us-central1.run.app
+endpoints:
+  - url: https://agentdiet-72343955726.us-central1.run.app/mcp
+    transport: streamable-http
+    auth: unknown

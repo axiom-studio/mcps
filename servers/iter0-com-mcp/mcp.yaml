@@ -1,0 +1,14 @@
+name: iter0
+summary: iter0 is an AI website builder for tech founders. Talk to the Launch CEO, pick a design, edit it, then export the HTML or open a GitHub pull request.
+category: design
+tags:
+  - ai-agent
+  - design
+  - development
+  - github
+  - web-research
+docs_url: https://iter0.com/mcp
+endpoints:
+  - url: https://iter0.com/api/mcp
+    transport: streamable-http
+    auth: api-key

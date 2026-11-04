@@ -1,0 +1,14 @@
+name: OleaDesk Mail
+summary: OleaDesk Mail connects the email you already have (Gmail, Outlook, any IMAP mailbox) to the AI you already use, through MCP. Your mail stays on your own Windows computer. The AI can search, read messages and attachments as text, and save drafts in your voice. Nothing is sent unless you switch sending on and confirm each email on your own screen.
+category: communication
+tags:
+  - communication
+  - email-automation
+  - gmail
+  - outlook
+  - productivity
+docs_url: https://oleadesk.com/mcp
+endpoints:
+  - url: https://app.oleadesk.com/api/mcp
+    transport: streamable-http
+    auth: oauth

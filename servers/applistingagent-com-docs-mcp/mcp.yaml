@@ -1,0 +1,13 @@
+name: App Listing Agent
+summary: 'Let your AI agent run App Store Connect and Google Play listings: audits, localized metadata, screenshots, icons and custom product pages, applied only after you approve.'
+category: productivity
+tags:
+  - ai-agent
+  - design
+  - mobile
+  - productivity
+docs_url: https://applistingagent.com/docs/mcp?utm_source=mcpservers&utm_medium=directory
+endpoints:
+  - url: https://applistingagent.com/api/mcp
+    transport: streamable-http
+    auth: oauth

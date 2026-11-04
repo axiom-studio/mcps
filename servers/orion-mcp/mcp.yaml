@@ -1,0 +1,18 @@
+name: Orion by Gravity
+summary: Orion by Gravity provides insights from an autonomous AI analyst. Its connector brings analytical context into assistant workflows for asking business questions, exploring findings, and understanding data-backed recommendations.
+description: |-
+  Orion by Gravity provides insights from an autonomous AI analyst. Its connector brings analytical context into assistant workflows for asking business questions, exploring findings, and understanding data-backed recommendations.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/orion)
+category: other
+tags:
+  - other
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/orion
+endpoints:
+  - url: https://g.runorion.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Titleman
+summary: Broker opinions of value, comparables, underwriting, buyer lists and title due diligence for any commercial property, from the chat.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - real-estate
+  - research
+docs_url: https://titleman.ai/docs/claude-connector
+endpoints:
+  - url: https://titleman.ai/_mcp/titleman
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,24 @@
+name: HubSpot
+summary: HubSpot is a customer platform for CRM, marketing, sales, service, and operations teams. Its MCP server connects assistants to HubSpot CRM records. The general-purpose endpoint requires a HubSpot MCP auth app and OAuth with PKCE; configure the client credentials and redirect URL as described in the official documentation.
+description: |-
+  # HubSpot
+
+  HubSpot is a customer platform for CRM, marketing, sales, service, and operations teams. Its MCP server connects assistants to HubSpot CRM records. The general-purpose endpoint requires a HubSpot MCP auth app and OAuth with PKCE; configure the client credentials and redirect URL as described in the official documentation.
+
+  ## Connection
+
+  https://mcp.hubspot.com
+
+  Official documentation specifies this general-purpose endpoint and OAuth PKCE with a registered MCP auth app. The client-specific legacy /anthropic endpoint is not needed for this listing.
+
+  [Official documentation](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-hubspot-mcp-server)
+category: marketing
+tags:
+  - marketing
+  - remote-mcp
+official: true
+docs_url: https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-hubspot-mcp-server
+endpoints:
+  - url: https://mcp.hubspot.com
+    transport: streamable-http
+    auth: oauth

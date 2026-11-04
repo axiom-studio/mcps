@@ -1,0 +1,13 @@
+name: Casafari MCP
+summary: Property data intelligence, built for AI agents. Casafari is the AI agent-native real estate data intelligence platform. Deduplicated, cleaned property graph. Europe's most complete property index.
+category: other
+tags:
+  - ai-agent
+  - data-analysis
+  - knowledge-graph
+  - real-estate
+docs_url: https://developers.casafari.com/docs
+endpoints:
+  - url: https://mcp.casafari.com/
+    transport: streamable-http
+    auth: oauth

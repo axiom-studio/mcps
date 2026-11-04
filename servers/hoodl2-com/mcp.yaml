@@ -1,0 +1,14 @@
+name: HoodL2 Projects
+summary: Search Robinhood Chain ecosystem projects, retrieve project details, and list categories.
+category: finance
+tags:
+  - crypto
+  - defi
+  - finance
+  - knowledge-retrieval
+  - research
+docs_url: https://hoodl2.com
+endpoints:
+  - url: https://hoodl2.com/mcp
+    transport: streamable-http
+    auth: none

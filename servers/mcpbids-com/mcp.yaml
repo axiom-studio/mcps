@@ -1,0 +1,12 @@
+name: MCP Bids
+summary: Search collected public procurement notices from supported US, Canadian and TED sources, read available source documents with block references, and check saved watches through an MCP-compatible AI client; coverage and freshness vary by source.
+category: search
+tags:
+  - document
+  - government
+  - search
+docs_url: https://mcpbids.com
+endpoints:
+  - url: https://mcpbids.com/mcp
+    transport: streamable-http
+    auth: oauth

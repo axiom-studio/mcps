@@ -1,0 +1,13 @@
+name: 'Rankli: AI search readiness'
+summary: Rankli checks whether ChatGPT, Claude, Gemini and Perplexity name your business when buyers ask, and helps you get named. Free checker
+category: marketing
+tags:
+  - ai-agent
+  - marketing
+  - research
+  - seo
+docs_url: https://www.rankli.io/?utm_source=directory&utm_medium=listing&utm_campaign=mcpservers
+endpoints:
+  - url: https://ucvisoclchcinhgeyfkj.supabase.co/functions/v1/mcp
+    transport: streamable-http
+    auth: unknown

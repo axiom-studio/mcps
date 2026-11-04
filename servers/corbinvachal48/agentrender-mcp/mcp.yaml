@@ -1,0 +1,14 @@
+name: AgentRender
+summary: 'ChatGPT sign-in via OAuth at https://api.agentrenderapi.com/mcp — no key to paste. Claude, Cursor and other clients: uvx agentrender-mcp with a free 150-render key. Tools: screenshot, PDF, extract, health.'
+category: web-scraping
+tags:
+  - ai-model
+  - anthropic
+  - identity
+  - llm
+  - security
+docs_url: https://github.com/corbinvachal48/agentrender-mcp
+endpoints:
+  - url: https://api.agentrenderapi.com/mcp
+    transport: streamable-http
+    auth: oauth

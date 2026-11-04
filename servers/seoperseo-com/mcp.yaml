@@ -1,0 +1,13 @@
+name: SeoPerseo
+summary: Chat with SEO in plain language. Research keywords, analyze SERPs, discover competitors, and explore AI search visibility.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+  - web-research
+docs_url: https://seoperseo.com
+endpoints:
+  - url: https://seoperseo.com/mcp
+    transport: streamable-http
+    auth: oauth

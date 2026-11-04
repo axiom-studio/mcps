@@ -1,0 +1,14 @@
+name: Trnch MCP (Robinhood Chain rug checker)
+summary: 'Trnch is the non-custodial trading terminal for Robinhood Chain (chainId 4663). Ask any token address and TIA, the Trnch risk engine, tells you if it is a rug, a honeypot, a scam contract, a copycat or a dumped token. See the best new tokens of the last 24 hours, and trade at the best route across KyberSwap, 1inch, Uniswap, LI.FI and Sushi: every swap is returned as a transaction your own wallet signs; Trnch never holds funds. Every TIA decision is public at trnch.fun/tia.'
+category: finance
+tags:
+  - crypto
+  - defi
+  - finance
+  - security
+  - trading
+docs_url: https://trnch.fun/robinhood-chain/mcp-server
+endpoints:
+  - url: https://trnch.fun/api/mcp
+    transport: streamable-http
+    auth: none

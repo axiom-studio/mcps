@@ -1,0 +1,12 @@
+name: MyBestSim eSIM Comparator
+summary: Compare prepaid travel eSIM plans by destination, data and trip length across 30+ providers, and plan multi-country trips. Read-only, no sign-up.
+category: search
+tags:
+  - search
+official: true
+registry_name: com.mybestsim/esim-comparator
+docs_url: https://mybestsim.com/en/mybestsim-in-chatgpt-and-claude/
+endpoints:
+  - url: https://mcp.mybestsim.com/mcp
+    transport: streamable-http
+    auth: none

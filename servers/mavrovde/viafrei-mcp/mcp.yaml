@@ -1,0 +1,13 @@
+name: ViaFrei
+summary: 'Live German traffic, rail, parking, EV charging, fuel, address and weather data in any AI assistant, from official open sources. No API key, no sign-up. Remote endpoint: https://mcp.viafrei.de/mcp'
+category: other
+tags:
+  - data-analysis
+  - geospatial
+  - knowledge-retrieval
+  - weather
+docs_url: https://github.com/mavrovde/viafrei-mcp
+endpoints:
+  - url: https://mcp.viafrei.de/mcp
+    transport: streamable-http
+    auth: none

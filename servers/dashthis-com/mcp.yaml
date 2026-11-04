@@ -1,0 +1,13 @@
+name: DashThis
+summary: Work with your marketing reports and turn the numbers into client-ready updates.
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - marketing
+docs_url: https://github.com/DashThis/dashthis-mcp-connector
+website_url: https://help.dashthis.com/mcp
+endpoints:
+  - url: https://mcp.dashthis.com
+    transport: streamable-http
+    auth: oauth

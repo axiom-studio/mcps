@@ -1,0 +1,12 @@
+name: Grok Bot Wiki
+summary: Read-only, unofficial directory tools to search Grok Bot templates, read source-linked guides, and find troubleshooting help.
+category: search
+tags:
+  - document
+  - knowledge-retrieval
+  - search
+docs_url: https://www.grokbotwiki.com/mcp
+endpoints:
+  - url: https://www.grokbotwiki.com/api/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Vike Data API
+summary: 'Crypto data for AI agents: on-chain wallets and tokens, Hyperliquid, HL Cohorts and Polymarket.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - defi
+  - trading
+docs_url: https://vike.io/docs/ai/data/
+endpoints:
+  - url: https://data.vike.io/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: OpenMapp
+summary: Find US BJJ gyms with weekly schedules, open mats, and visitor drop-in prices.
+category: search
+tags:
+  - geospatial
+  - search
+  - sports
+docs_url: https://github.com/burmanharry/openmapp
+endpoints:
+  - url: https://www.openmapp.com/mcp
+    transport: streamable-http
+    auth: none

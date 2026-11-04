@@ -1,0 +1,13 @@
+name: LaunchOn.it
+summary: Discover launched startups, live weekly rankings, and submit SaaS, startups or products to LaunchOn.it with AI.
+category: marketing
+tags:
+  - marketing
+  - productivity
+  - research
+  - web-research
+docs_url: https://launchon.it/mcp
+endpoints:
+  - url: https://launchon.it/api/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Ménage Parfait
+summary: Exact prices (VAT incl.) and booking for home cleaning in Paris & Île-de-France. Arrival windows 10:00–16:00, secure Stripe link, card charged after the cleaning. Office and post-construction quotes.
+category: productivity
+tags:
+  - business-operations
+  - payment
+  - productivity
+  - stripe
+docs_url: https://menageparfait.fr/assistant-ia.html
+endpoints:
+  - url: https://menageparfait.fr/mcp
+    transport: streamable-http
+    auth: none

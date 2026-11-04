@@ -1,0 +1,13 @@
+name: LivePublicator
+summary: Write, preview and publish your company's press releases from the chat, with a live link in seconds.
+category: marketing
+tags:
+  - communication
+  - content-creation
+  - marketing
+  - workflow-automation
+docs_url: https://livepublicator.com/publish-from-ai
+endpoints:
+  - url: https://livepublicator.com/api/mcp
+    transport: streamable-http
+    auth: oauth

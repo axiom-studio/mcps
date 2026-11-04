@@ -1,0 +1,13 @@
+name: Was ist MCP? Demo-Server
+summary: German-language demo server that explains MCP to non-technical readers. Search and read the pages of was-ist-mcp.ch from Claude, ChatGPT or Cursor. 8 of 10 tools work without login; the demo login for the other two is public.
+category: other
+tags:
+  - documentation
+  - education
+  - search
+  - web-research
+docs_url: https://was-ist-mcp.ch
+endpoints:
+  - url: https://mcp.was-ist-mcp.ch/mcp
+    transport: streamable-http
+    auth: none

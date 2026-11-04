@@ -1,0 +1,18 @@
+name: Campfire
+summary: Campfire is an enterprise resource planning platform for finance and operations teams. Its remote MCP server lets assistants search projects, contacts, and financials, generate analysis, and prepare decision-ready material from live ERP data.
+description: |-
+  Campfire is an enterprise resource planning platform for finance and operations teams. Its remote MCP server lets assistants search projects, contacts, and financials, generate analysis, and prepare decision-ready material from live ERP data.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://docs.campfire.ai/guides/ai-integration)
+category: finance
+tags:
+  - finance
+  - remote-mcp
+official: true
+docs_url: https://docs.campfire.ai/guides/ai-integration
+endpoints:
+  - url: https://api.meetcampfire.com/mcp
+    transport: streamable-http
+    auth: oauth

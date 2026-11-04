@@ -1,0 +1,12 @@
+name: homeloanscalculator
+summary: Home loan EMI and related calculators for India. Free remote MCP server, no auth.
+category: finance
+tags:
+  - api
+  - finance
+  - payment
+docs_url: https://homeloanscalculator.in/for-ai
+endpoints:
+  - url: https://homeloanscalculator.in/mcp
+    transport: streamable-http
+    auth: none

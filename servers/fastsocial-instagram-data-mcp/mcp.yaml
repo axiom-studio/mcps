@@ -1,0 +1,14 @@
+name: FastSocial Instagram Data
+summary: 'Read-only public Instagram data as JSON: profiles, posts, reels, stories, comments and daily top-accounts charts. Free plan with 50 credits a month.'
+category: web-scraping
+tags:
+  - data-analysis
+  - social-media
+  - web-scraping
+official: true
+registry_name: io.github.FastSocialCo/instagram-data-mcp
+docs_url: https://github.com/FastSocialCo/instagram-data-mcp
+endpoints:
+  - url: https://data.fastsocial.co/mcp
+    transport: streamable-http
+    auth: oauth

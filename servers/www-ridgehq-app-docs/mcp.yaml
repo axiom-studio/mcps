@@ -1,0 +1,14 @@
+name: RidgeHQ
+summary: Remote MCP server for RidgeHQ, a booking and operations platform for dive shops, surf schools and other outdoor and watersports businesses. Lets AI assistants manage sessions and trips, check availability and conditions, assign instructors and participants, track gear and rooms, search customers, and review bookings, revenue and daily operations briefs.
+category: productivity
+tags:
+  - analytics
+  - business-operations
+  - calendar
+  - customer-ops
+  - inventory
+docs_url: https://www.ridgehq.app/docs
+endpoints:
+  - url: https://api.ridgehq.app/mcp
+    transport: streamable-http
+    auth: oauth

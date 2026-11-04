@@ -1,0 +1,14 @@
+name: StockCake MCP
+summary: Find free stock images. Generate images and videos.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - media
+official: true
+docs_url: https://stockcake.com/info/mcp
+endpoints:
+  - url: https://stockcake.com/api/mcp
+    transport: streamable-http
+    auth: oauth

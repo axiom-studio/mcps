@@ -1,0 +1,12 @@
+name: Weather MCP Server by Meteosource
+summary: Forecasts, alerts, air quality, 20-year history, and PV and wind production from Meteosource.
+category: other
+tags:
+  - api
+  - data-analysis
+  - weather
+docs_url: https://mcp.meteosource.com
+endpoints:
+  - url: https://mcp.meteosource.com/mcp
+    transport: streamable-http
+    auth: api-key

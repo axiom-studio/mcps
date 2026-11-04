@@ -1,0 +1,12 @@
+name: ScanLabsAI Security Scanner
+summary: Scan any website for vulnerabilities from inside your AI assistant — OWASP Top 10 for Web, API and LLM applications, CVEs, SSL/TLS and security headers, with plain-English fixes.
+category: other
+tags:
+  - security
+  - testing-qa
+  - web-scraping
+docs_url: https://scanlabsai.com/mcp
+endpoints:
+  - url: https://scanlabsai.com/api/mcp
+    transport: streamable-http
+    auth: api-key

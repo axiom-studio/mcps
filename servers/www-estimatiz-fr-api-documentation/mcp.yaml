@@ -1,0 +1,12 @@
+name: Estimatiz
+summary: French property estimates from DVF sales, with a price range and a shareable report.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - real-estate
+docs_url: https://www.estimatiz.fr/api-documentation
+endpoints:
+  - url: https://www.estimatiz.fr/api/mcp.php
+    transport: streamable-http
+    auth: unknown

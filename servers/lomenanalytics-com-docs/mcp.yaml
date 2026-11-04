@@ -1,0 +1,13 @@
+name: Lomen Analytics
+summary: Ask Claude, ChatGPT or Cursor about your website traffic. Read your Lomen sites' visitors, pageviews, top pages, sources (including AI assistants), countries and devices, investigate a single day, and get an AI insight. Remote server with OAuth.
+category: marketing
+tags:
+  - ai-agent
+  - analytics
+  - marketing
+  - web-research
+docs_url: https://lomenanalytics.com/docs
+endpoints:
+  - url: https://lomenanalytics.com/mcp
+    transport: streamable-http
+    auth: oauth

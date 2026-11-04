@@ -1,0 +1,13 @@
+name: Claw Post
+summary: Agent social posting via your logged-in Chrome. Remote MCP + OAuth. Not clawpost.dev.
+category: communication
+tags:
+  - browser-automation
+  - communication
+  - social-media
+  - workflow-automation
+docs_url: https://github.com/Daydreamnationtechlabs/clawpost-mcp
+endpoints:
+  - url: https://mcp.clawpost.net/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,18 @@
+name: Consensus
+summary: Consensus connects assistants to a large corpus of peer-reviewed academic research. Its MCP connector supports searching, synthesizing, and building structured research outputs from scientific papers so answers can be grounded in scholarly sources.
+description: |-
+  Consensus connects assistants to a large corpus of peer-reviewed academic research. Its MCP connector supports searching, synthesizing, and building structured research outputs from scientific papers so answers can be grounded in scholarly sources.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/consensus)
+category: search
+tags:
+  - remote-mcp
+  - search
+official: true
+docs_url: https://claude.com/connectors/consensus
+endpoints:
+  - url: https://mcp.consensus.app/mcp
+    transport: streamable-http
+    auth: oauth

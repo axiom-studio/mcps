@@ -1,0 +1,11 @@
+name: Chewable Foodie
+summary: Your recipes, family meal plan and shopping list from Foodie, in ChatGPT, Claude and Codex. Search recipes, plan the week, build the grocery list and import recipes from links.
+category: productivity
+tags:
+  - grocery
+  - productivity
+docs_url: https://foodie.chewable.fit/connect
+endpoints:
+  - url: https://foodieapi.chewable.fit/mcp
+    transport: streamable-http
+    auth: oauth

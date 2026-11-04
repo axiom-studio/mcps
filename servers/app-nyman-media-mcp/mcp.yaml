@@ -1,0 +1,13 @@
+name: 'NM Signals MCP server: AI crawler audits'
+summary: 'Audit a webpage''s AI crawler access from an MCP-compatible client. The audit_url tool returns a score and evidence-based findings; get_quota returns the available audit capacity. Remote endpoint: https://app.nyman.media/api/mcp. Transport: Streamable HTTP. Authentication: bearer API key. MCP access: Premium or Partner subscription.'
+category: development
+tags:
+  - ai-agent
+  - analytics
+  - seo
+  - web-research
+docs_url: https://app.nyman.media/mcp
+endpoints:
+  - url: https://app.nyman.media/api/mcp
+    transport: streamable-http
+    auth: api-key

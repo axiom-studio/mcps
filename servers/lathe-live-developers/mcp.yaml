@@ -1,0 +1,14 @@
+name: Lathe
+summary: Your app, database and auth on one dedicated machine, one flat monthly bill. Managed Postgres 17, Redis 8, CouchDB 3 and NATS 2 with backups, TLS, monitoring and updates handled. This MCP server lets an agent provision machines, deploy apps, pull connection strings, create databases and manage streams.
+category: database
+tags:
+  - cloud-infrastructure
+  - database
+  - devops-infrastructure
+  - postgres
+  - redis
+docs_url: https://lathe.live/developers
+endpoints:
+  - url: https://mcp.lathe.live/mcp
+    transport: streamable-http
+    auth: oauth

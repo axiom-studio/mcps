@@ -1,0 +1,13 @@
+name: FilmeeAi
+summary: Make narrated storybook anime videos (1-10 min, 9 narration languages) from one line of text, or add explainer animation and subtitles to a recorded talking-head video. Remote Streamable HTTP endpoint https://filmee.app/mcp with OAuth; free credits on sign-up.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - media
+  - video
+docs_url: https://filmee.app/developers
+endpoints:
+  - url: https://filmee.app/mcp
+    transport: streamable-http
+    auth: oauth

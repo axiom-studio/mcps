@@ -1,0 +1,13 @@
+name: HandlePilot
+summary: Research Instagram competitors, break down reels, plan content and write editable carousels and scripts in your voice.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - research
+  - social-media
+docs_url: https://handlepilot.com/mcp
+endpoints:
+  - url: https://app.handlepilot.com/mcp
+    transport: streamable-http
+    auth: oauth

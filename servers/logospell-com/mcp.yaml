@@ -1,0 +1,12 @@
+name: Logospell
+summary: Generate cohesive image sets, transparent-background sets, and single illustrations for AI agents.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+docs_url: https://logospell.com
+endpoints:
+  - url: https://mcp.logospell.com/mcp
+    transport: streamable-http
+    auth: api-key

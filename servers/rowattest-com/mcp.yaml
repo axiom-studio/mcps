@@ -1,0 +1,10 @@
+name: RowAttest
+summary: Runs an eight-stage isolation test against your staging Supabase and issues a signed attestation.
+category: database
+tags:
+  - database
+docs_url: https://rowattest.com/mcp
+endpoints:
+  - url: https://app.rowattest.com/mcp
+    transport: streamable-http
+    auth: api-key

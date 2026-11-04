@@ -1,0 +1,13 @@
+name: MagicInterview
+summary: Prepare interviews and meetings, manage conversation context, and request coaching. Open MagicInterview for live audio suggestions on what to say next.
+category: productivity
+tags:
+  - ai-agent
+  - communication
+  - meeting-notes
+  - productivity
+docs_url: https://github.com/samihalawa/magicinterview-plugin
+endpoints:
+  - url: https://magicinterview.ai/mcp
+    transport: streamable-http
+    auth: oauth

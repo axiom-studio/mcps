@@ -1,0 +1,10 @@
+name: Veriq
+summary: Contact and fraud intelligence for AI agents. Validate emails and phone numbers, look up IPs and domains, and score sign-up fraud risk, from one API key.
+category: development
+tags:
+  - development
+docs_url: https://veriq-u2at.onrender.com/agents
+endpoints:
+  - url: https://veriq-u2at.onrender.com/mcp/
+    transport: streamable-http
+    auth: api-key

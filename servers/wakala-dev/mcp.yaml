@@ -1,0 +1,12 @@
+name: Wakala
+summary: wakala is an agent-safe, MCP-native task tracker
+category: productivity
+tags:
+  - ai-agent
+  - productivity
+  - task-management
+docs_url: https://wakala.dev/
+endpoints:
+  - url: https://mcp.wakala.dev/mcp
+    transport: streamable-http
+    auth: api-key

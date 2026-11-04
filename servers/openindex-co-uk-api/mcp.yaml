@@ -1,0 +1,13 @@
+name: Open Index
+summary: 'UK public data by area: house prices, recorded crime, deprivation, schools and more, with sources, dates and citation links.'
+category: search
+tags:
+  - data-analysis
+  - government
+  - real-estate
+  - search
+docs_url: https://openindex.co.uk/api#mcp
+endpoints:
+  - url: https://openindex.co.uk/mcp
+    transport: streamable-http
+    auth: none

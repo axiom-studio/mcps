@@ -1,0 +1,14 @@
+name: Widely
+summary: 'Connect your communications to your AI. Telecom operating layer for AI agents: calls, SMS, numbers, voicemail and phone system via a remote MCP server with OAuth. Connecting an AI is free; the user pays for Widely membership and usage. (Resubmission: contact is shmaya@widely-mobile.com, replaces the earlier entry using info@.)'
+category: communication
+tags:
+  - audio
+  - communication
+  - sms
+  - telegram
+  - whatsapp
+docs_url: https://widely-mobile.com/mcp
+endpoints:
+  - url: https://mcp.widely-mobile.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Galley Render
+summary: JSON in, PDF out. Render invoices, certificates, reports and cards from a template and a payload.
+category: productivity
+tags:
+  - document
+  - file-conversion
+  - pdf
+  - productivity
+docs_url: https://galleyrender.com/?utm_source=mcpservers
+endpoints:
+  - url: https://mcp.galleyrender.com/mcp
+    transport: streamable-http
+    auth: none

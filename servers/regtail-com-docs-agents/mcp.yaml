@@ -1,0 +1,10 @@
+name: RegTail
+summary: 'UK used-car checks from a plate or photo: MOT history and defects, mileage checks, cloned-plate signs and viewing advice.'
+category: other
+tags:
+  - api
+docs_url: https://regtail.com/docs/agents
+endpoints:
+  - url: https://regtail.com/mcp
+    transport: streamable-http
+    auth: oauth

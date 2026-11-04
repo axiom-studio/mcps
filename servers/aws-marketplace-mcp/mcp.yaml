@@ -1,0 +1,24 @@
+name: AWS Marketplace
+summary: AWS Marketplace helps software buyers discover, evaluate, compare, and procure cloud solutions from the AWS Marketplace catalog. Its connector brings marketplace search, recommendations, shortlisting, and contextual solution insights into assistant-led buying workflows.
+description: |-
+  # AWS Marketplace
+
+  AWS Marketplace helps software buyers discover, evaluate, compare, and procure cloud solutions from the AWS Marketplace catalog. Its connector brings marketplace search, recommendations, shortlisting, and contextual solution insights into assistant-led buying workflows.
+
+  ## Connection
+
+  https://marketplace-mcp.us-east-1.api.aws/mcp
+
+  AWS publisher documentation explicitly specifies Streamable HTTP without authentication. Only the documented /mcp endpoint is imported; the rejected root URL is not copied.
+
+  [Publisher or official connector listing](https://docs.aws.amazon.com/marketplace/latest/developerguide/marketplace-mcp-server.html)
+category: other
+tags:
+  - other
+  - remote-mcp
+official: true
+docs_url: https://docs.aws.amazon.com/marketplace/latest/developerguide/marketplace-mcp-server.html
+endpoints:
+  - url: https://marketplace-mcp.us-east-1.api.aws/mcp
+    transport: streamable-http
+    auth: none

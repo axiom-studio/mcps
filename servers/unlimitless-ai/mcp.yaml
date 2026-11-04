@@ -1,0 +1,12 @@
+name: Unl, your why agent
+summary: Your why agent, the infra agent for your fleet. Your agents work from what you decided, and why.
+category: productivity
+tags:
+  - ai-agent
+  - productivity
+  - workflow-automation
+docs_url: https://unlimitless.ai
+endpoints:
+  - url: https://api.unlimitless.ai/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: New York LLC Publication
+summary: New York LLC publication rules, county clerk details, notice text and LLC Publishers' price for all 62 counties.
+category: other
+tags:
+  - business-operations
+  - compliance
+  - finance
+  - government
+docs_url: https://www.llcpublishers.com/learn/free-ny-llc-publication-tool-for-ai-assistants
+endpoints:
+  - url: https://mcp.llcpublishers.com/v2
+    transport: streamable-http
+    auth: none

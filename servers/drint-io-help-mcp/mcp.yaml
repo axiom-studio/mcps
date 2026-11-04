@@ -1,0 +1,12 @@
+name: Drint
+summary: 'Packaging design in your AI chat: 3D box and bag mockups, and print-ready FEFCO / ECMA dielines at any size.'
+category: design
+tags:
+  - content-creation
+  - design
+  - document
+docs_url: https://drint.io/help/mcp
+endpoints:
+  - url: https://drint.io/mcp
+    transport: streamable-http
+    auth: oauth

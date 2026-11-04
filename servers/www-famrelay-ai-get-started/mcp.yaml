@@ -1,0 +1,13 @@
+name: FamRelay
+summary: Share approved, expiring details (plans, times, logistics) with family and friends, or between your own AI assistants. Your assistant prepares each share and nothing is sent until you say yes. Remote server at https://api.famrelay.ai/mcp with OAuth 2.1 sign-in.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - privacy
+  - workflow-automation
+docs_url: https://www.famrelay.ai/get-started
+endpoints:
+  - url: https://api.famrelay.ai/mcp
+    transport: streamable-http
+    auth: oauth

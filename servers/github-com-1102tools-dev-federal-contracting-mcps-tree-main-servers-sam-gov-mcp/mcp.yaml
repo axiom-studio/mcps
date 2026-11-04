@@ -1,0 +1,13 @@
+name: SAM.gov MCP by 1102tools
+summary: Free hosted MCP server for SAM.gov contract opportunities, entity registrations, SBA certifications and exclusions. Connect at https://sam.1102tools.com/mcp with nothing to install and no API key. Open source (MIT).
+category: other
+tags:
+  - api
+  - business-operations
+  - government
+  - marketplace
+docs_url: https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/sam-gov-mcp
+endpoints:
+  - url: https://sam.1102tools.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Memlo
+summary: 'Hosted memory for AI agents over MCP. One memory shared by all your agents: Claude Code, Codex, ChatGPT and any MCP client with OAuth. Search, version history with restore, and sharing. Remote server at https://memlo.ai/mcp. Invitation-only beta.'
+category: memory
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - llm
+  - memory
+docs_url: https://memlo.ai/?utm_source=mcpservers-org&utm_medium=directory
+endpoints:
+  - url: https://memlo.ai/mcp
+    transport: streamable-http
+    auth: oauth

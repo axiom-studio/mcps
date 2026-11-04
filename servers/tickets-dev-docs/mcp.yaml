@@ -1,0 +1,13 @@
+name: Tickets.dev
+summary: Live ticket listings, all-in prices and seat maps from Ticketmaster, StubHub, SeatGeek, Vivid Seats, TickPick, Gametime and more. Find events, capture one event on one marketplace per call, and compare prices across marketplaces.
+category: development
+tags:
+  - api
+  - ecommerce
+  - entertainment
+  - marketplace
+docs_url: https://tickets.dev/docs
+endpoints:
+  - url: https://api.tickets.dev/mcp
+    transport: streamable-http
+    auth: oauth

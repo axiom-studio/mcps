@@ -1,0 +1,13 @@
+name: Dynamoi
+summary: Music marketing for AI agents. Connect ChatGPT, Claude, Cursor, and other AI agents to Dynamoi for free Spotify Smart Links, music promotion campaigns, analytics, and distribution. Hosted Streamable HTTP server at https://dynamoi.com/mcp with OAuth 2.1 sign-in.
+category: marketing
+tags:
+  - ai-agent
+  - analytics
+  - marketing
+  - music
+docs_url: https://dynamoi.com/docs/mcp-server
+endpoints:
+  - url: https://dynamoi.com/mcp
+    transport: streamable-http
+    auth: oauth

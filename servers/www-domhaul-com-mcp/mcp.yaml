@@ -1,0 +1,12 @@
+name: domhaul
+summary: Remote MCP server that checks if domain names are really available via live RDAP, with registration prices, brandability scores and estimated resale values.
+category: search
+tags:
+  - marketplace
+  - search
+  - web-research
+docs_url: https://www.domhaul.com/mcp
+endpoints:
+  - url: https://www.domhaul.com/api/mcp/mcp
+    transport: streamable-http
+    auth: none

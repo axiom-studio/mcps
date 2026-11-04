@@ -1,0 +1,14 @@
+name: Atrix AI
+summary: Lets AI agents manage projects, issues, docs, calendar, CRM deals and people in an Atrix workspace, with OAuth scopes that never exceed the user's own permissions.
+category: productivity
+tags:
+  - calendar
+  - collaboration
+  - crm
+  - productivity
+  - project-management
+docs_url: https://atrix.dev/en/developers
+endpoints:
+  - url: https://atrix.dev/api/mcp
+    transport: streamable-http
+    auth: unknown

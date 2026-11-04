@@ -1,0 +1,13 @@
+name: Silicon Floor
+summary: Who's buying NVIDIA? What did the CEO just sell? Which chipmakers are growing fastest? Ask, and get the answer straight from SEC filings, every number linked to its source. 220 AI & chip stocks. Free, no API key.
+category: finance
+tags:
+  - ai-model
+  - data-analysis
+  - finance
+  - research
+docs_url: https://siliconfloor.com/docs/mcp
+endpoints:
+  - url: https://siliconfloor.com/mcp
+    transport: streamable-http
+    auth: none

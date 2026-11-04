@@ -1,0 +1,14 @@
+name: Alcoven
+summary: 'Open your team''s project from the AI you use: search and read its brief, documents, tasks and notes, and write back under your name for everyone on the project.'
+category: memory
+tags:
+  - collaboration
+  - document
+  - knowledge-retrieval
+  - memory
+  - task-management
+docs_url: https://alcoven.co/connect
+endpoints:
+  - url: https://app.alcoven.co/mcp
+    transport: streamable-http
+    auth: oauth

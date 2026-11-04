@@ -1,0 +1,12 @@
+name: Traffic Parrot
+summary: Traffic Parrot simulates APIs and messaging. Request or withdraw a trial, read docs, send feedback.
+category: development
+tags:
+  - api
+  - development
+  - testing-qa
+docs_url: https://trafficparrot.com/ai/agent-trial.html
+endpoints:
+  - url: https://mcp.trafficparrot.com/
+    transport: streamable-http
+    auth: none

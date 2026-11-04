@@ -1,0 +1,12 @@
+name: SportStatsAPI
+summary: Fixtures, live scores, results, tables and match facts for 1,881 competitions in 8 sports.
+category: database
+tags:
+  - data-analysis
+  - database
+  - sports
+docs_url: https://github.com/ownthegame/sportstatsapi-mcp
+endpoints:
+  - url: https://mcp.sportstatsapi.com/mcp
+    transport: streamable-http
+    auth: unknown

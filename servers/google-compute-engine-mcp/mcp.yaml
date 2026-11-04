@@ -1,0 +1,19 @@
+name: Google Compute Engine
+summary: Google Compute Engine provides virtual machines and related infrastructure on Google Cloud. Its remote MCP server lets assistants manage compute resources across deployment and operations using a configured Google Cloud OAuth client.
+description: |-
+  Google Compute Engine provides virtual machines and related infrastructure on Google Cloud. Its remote MCP server lets assistants manage compute resources across deployment and operations using a configured Google Cloud OAuth client.
+
+  Requires a Google Cloud project, enabled service and appropriate IAM permissions.
+
+  [Setup documentation](https://claude.com/connectors/google-compute-engine)
+category: cloud-service
+tags:
+  - cloud-service
+  - remote-mcp
+official: true
+registry_name: com.googleapis.compute/mcp
+docs_url: https://claude.com/connectors/google-compute-engine
+endpoints:
+  - url: https://compute.googleapis.com/mcp
+    transport: streamable-http
+    auth: oauth

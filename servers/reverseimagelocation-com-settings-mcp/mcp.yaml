@@ -1,0 +1,13 @@
+name: GeoSolver — Reverse Image Location
+summary: AI-assisted photo geolocation from visible clues for GeoGuessr-style learning and OSINT hypotheses; authenticated paid analysis and history tools, with results requiring independent verification.
+category: other
+tags:
+  - ai-model
+  - geospatial
+  - research
+  - web-research
+docs_url: https://reverseimagelocation.com/settings/mcp
+endpoints:
+  - url: https://reverseimagelocation.com/mcp
+    transport: streamable-http
+    auth: api-key

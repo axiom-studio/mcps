@@ -1,0 +1,10 @@
+name: GateRoam
+summary: Amadeus flight search, fare pricing and client offers for travel agencies, on their own Amadeus contract.
+category: productivity
+tags:
+  - api
+docs_url: https://gateroam.com/connect-ai?utm_source=mcpservers.org&utm_medium=directory&utm_campaign=mcp-listing
+endpoints:
+  - url: https://gateroam.com/mcp
+    transport: streamable-http
+    auth: unknown

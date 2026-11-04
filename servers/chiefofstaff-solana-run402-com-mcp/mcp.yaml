@@ -1,0 +1,13 @@
+name: chiefofstaff token safety (Solana + Robinhood Chain)
+summary: 'Pre-trade token safety checks for Solana SPL and Robinhood Chain ERC-20 tokens: PASS/FLAG/FAIL verdict with authorities, LP lock, holders, liquidity, honeypot/tax. Pay per call ($0.01 USDC via x402 on Base or Solana); free quote/sample tools.'
+category: development
+tags:
+  - crypto
+  - data-analysis
+  - development
+  - finance
+docs_url: https://chiefofstaff-solana.run402.com/mcp/
+endpoints:
+  - url: https://chiefofstaff-solana.run402.com/mcp/remote
+    transport: streamable-http
+    auth: unknown

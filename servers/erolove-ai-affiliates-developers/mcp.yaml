@@ -1,0 +1,13 @@
+name: EroLove Catalog
+summary: 'Read-only catalog of EroLove, an 18+ AI companion chat: companions and roleplay scenarios with texts in nine languages, photos, videos and page links. Affiliates can also build tagged links. No chat, no signup.'
+category: other
+tags:
+  - advertising
+  - ai-model
+  - chatbot
+  - media
+docs_url: https://erolove.ai/affiliates/developers
+endpoints:
+  - url: https://erolove.ai/mcp
+    transport: streamable-http
+    auth: none

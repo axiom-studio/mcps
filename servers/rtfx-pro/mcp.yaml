@@ -1,0 +1,13 @@
+name: rtfx.pro
+summary: 'Remote MCP server for Claude: publish pages, PDFs and small sites to a private link only the people you choose can open. Share with viewers or editors, see who opened it, roll back versions. OAuth sign-in, free plan, MIT open source.'
+category: productivity
+tags:
+  - document
+  - file-management
+  - privacy
+  - productivity
+docs_url: https://rtfx.pro
+endpoints:
+  - url: https://mcp.rtfx.pro/mcp
+    transport: streamable-http
+    auth: oauth

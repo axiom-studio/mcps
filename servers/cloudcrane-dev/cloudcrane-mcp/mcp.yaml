@@ -1,0 +1,13 @@
+name: CloudCrane
+summary: 'Ask your assistant for an app and it lands on your phone: offline, with what you save kept on the phone.'
+category: productivity
+tags:
+  - deployment
+  - development
+  - mobile
+  - productivity
+docs_url: https://github.com/cloudcrane-dev/cloudcrane-mcp
+endpoints:
+  - url: https://cloudcrane.ai/api/apps/mcp
+    transport: streamable-http
+    auth: oauth

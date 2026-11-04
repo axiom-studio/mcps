@@ -1,0 +1,13 @@
+name: Agent Credit Bureau
+summary: Economic-history and exposure evidence for AI agents on Base, with free discovery and x402-paid reports; provides evidence and limitations, not a credit score or lending recommendation.
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - evm
+  - finance
+docs_url: https://agentcreditdata.com/docs
+endpoints:
+  - url: https://agentcreditdata.com/mcp
+    transport: streamable-http
+    auth: unknown

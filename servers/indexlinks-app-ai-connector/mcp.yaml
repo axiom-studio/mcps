@@ -1,0 +1,13 @@
+name: IndexLinks
+summary: Check how crawlers see a site, send new pages to search engines and AI crawlers, read crawl receipts.
+category: marketing
+tags:
+  - marketing
+  - search
+  - seo
+  - web-scraping
+docs_url: https://indexlinks.app/ai-connector
+endpoints:
+  - url: https://mcp.indexlinks.app/mcp
+    transport: streamable-http
+    auth: unknown

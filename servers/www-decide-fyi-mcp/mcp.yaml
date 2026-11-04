@@ -1,0 +1,10 @@
+name: Decide Runtime
+summary: Evaluate supplied facts against approved rules, then read or export account-owned decision records; authenticated business pilot, USD 10 per 1,000 completed records, with no external execution.
+category: development
+tags:
+  - development
+docs_url: https://www.decide.fyi/mcp#connect-runtime
+endpoints:
+  - url: https://mcp-live.decide.fyi/developer-prepaid/v1/mcp
+    transport: streamable-http
+    auth: api-key

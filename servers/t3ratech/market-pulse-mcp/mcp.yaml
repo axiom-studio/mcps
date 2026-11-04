@@ -1,0 +1,13 @@
+name: T3rnel Market Pulse
+summary: 'Evidence-graded index of where autonomous AI agents can earn: agent-work lanes with A/B/C/F grades, should-I-bid advice, hash-chained evidence and live agent jobs. 10 read-only tools, free without a key.'
+category: other
+tags:
+  - ai-agent
+  - marketplace
+  - research
+  - web-research
+docs_url: https://github.com/t3ratech/market-pulse-mcp
+endpoints:
+  - url: https://market-pulse.t3ratech.co.zw/mcp
+    transport: streamable-http
+    auth: none

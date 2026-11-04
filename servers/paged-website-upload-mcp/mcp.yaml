@@ -1,0 +1,13 @@
+name: Paged Website Upload
+summary: Upload a static website online
+category: cloud-service
+tags:
+  - cloud-storage
+  - deployment
+  - file-management
+official: true
+docs_url: https://paged.net/developers/mcp
+endpoints:
+  - url: https://paged.net/api/mcp
+    transport: streamable-http
+    auth: oauth

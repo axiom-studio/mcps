@@ -1,0 +1,12 @@
+name: Adrails
+summary: Specialist AI agents for Meta Ads and Google Ads. Every change waits for your approval.
+category: marketing
+tags:
+  - advertising
+  - ai-agent
+  - marketing
+docs_url: https://adrails.ai/mcp
+endpoints:
+  - url: https://adrails.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: CallForMe
+summary: Let your agent call businesses for you. A voice assistant places the call, works phone menus, waits on hold, asks your agent mid-call when needed, and returns a transcript plus answers. Remote MCP with zero-input OAuth. $1 per answered call, free demo line.
+category: communication
+tags:
+  - ai-agent
+  - audio
+  - communication
+  - workflow-automation
+docs_url: https://callforme.tel
+endpoints:
+  - url: https://callforme.tel/mcp
+    transport: streamable-http
+    auth: oauth

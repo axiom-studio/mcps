@@ -1,0 +1,13 @@
+name: NormAPI
+summary: Validate and generate German e-invoices (XRechnung, ZUGFeRD) against the official KoSIT rules. Every business-rule finding comes with a plain-language explanation. Validation needs no account; invoices are never stored.
+category: finance
+tags:
+  - compliance
+  - data-analysis
+  - document
+  - finance
+docs_url: https://normapi.com/en/docs/mcp
+endpoints:
+  - url: https://normapi.com/mcp
+    transport: streamable-http
+    auth: oauth

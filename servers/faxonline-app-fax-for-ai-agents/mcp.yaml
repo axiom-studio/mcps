@@ -1,0 +1,13 @@
+name: FaxOnline
+summary: 'Remote MCP server for sending a fax to a US number. Two tools: prepare_fax takes a PDF (up to 10 MiB), the recipient''s fax number and an email, and returns the price and a Stripe checkout link; get_fax_status reports payment and delivery status. $7 per fax, no account or API key. You complete checkout yourself, and the card is only charged after the fax is reported delivered. Endpoint: https://faxonline.app/mcp/fax (Streamable HTTP).'
+category: communication
+tags:
+  - communication
+  - document
+  - payment
+  - stripe
+docs_url: https://faxonline.app/fax-for-ai-agents
+endpoints:
+  - url: https://faxonline.app/mcp/fax
+    transport: streamable-http
+    auth: none

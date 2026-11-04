@@ -1,0 +1,12 @@
+name: klaro.legal Document Explainer
+summary: Explains contracts, official letters and tax assessments clause by clause in plain language, in six languages. Not legal advice.
+category: productivity
+tags:
+  - document
+  - productivity
+  - translation
+docs_url: https://github.com/martinschenk/klaro-legal-mcp
+endpoints:
+  - url: https://klaro.legal/api/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Dial by Aloha Labs
+summary: 'Real US/CA phone numbers for AI agents: OTP codes, texts and AI voice calls over one MCP server.'
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - notifications
+  - sms
+docs_url: https://github.com/perqele/dial-mcp
+endpoints:
+  - url: https://aloha-dial-api.onrender.com/mcp
+    transport: streamable-http
+    auth: unknown

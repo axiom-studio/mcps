@@ -1,0 +1,13 @@
+name: Fettle
+summary: 'Uptime monitoring your AI agent can set up: HTTP, SSL, ping, TCP and DNS monitors from multiple regions, incidents, cron heartbeats, maintenance windows and status pages.'
+category: development
+tags:
+  - devops
+  - monitoring
+  - notifications
+  - observability-incident
+docs_url: https://github.com/fettlesh/monitoring-mcp
+endpoints:
+  - url: https://api.fettle.sh/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: AI Trading Signals
+summary: Live AI-generated crypto trading signals for agents
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - finance
+  - trading
+docs_url: https://signals.x70.ai/mcp-docs
+endpoints:
+  - url: https://signals.x70.ai/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Organize with AI (OwAI)
+summary: Search photos and video moments; manage collections, favorites and duplicates across local folders, Apple Photos and OneDrive. OAuth; paid Cloud Access; hosted inference uses credits.
+category: search
+tags:
+  - ai-model
+  - file-management
+  - media
+  - search
+docs_url: https://organizewith.ai/en/guides/connect-ai-assistants
+endpoints:
+  - url: https://index.organizewith.ai/mcp
+    transport: streamable-http
+    auth: oauth

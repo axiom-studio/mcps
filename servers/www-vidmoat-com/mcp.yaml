@@ -1,0 +1,14 @@
+name: Vidmoat
+summary: 'Hosted AI video editor with an MCP server: agents import footage, run 65+ timeline commands, preview frames and render MP4s. Browser and Telegram too.'
+category: other
+tags:
+  - ai-agent
+  - browser
+  - content-creation
+  - telegram
+  - video
+docs_url: https://www.vidmoat.com
+endpoints:
+  - url: https://api.vidmoat.com/api/mcp
+    transport: streamable-http
+    auth: oauth

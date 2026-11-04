@@ -1,0 +1,12 @@
+name: tab
+summary: 'Time tracking for freelancers who bill hourly: start/stop the timer, log hours, see each client''s unbilled time and who owes you. OAuth, runs inside your own tab account.'
+category: productivity
+tags:
+  - business-operations
+  - finance
+  - productivity
+docs_url: https://github.com/rinohed/tab-mcp
+endpoints:
+  - url: https://app.tabwork.app/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,11 @@
+name: OrionCMD Site Checks
+summary: 'Outside-in domain checks paid per call in USDC on Base: certificate (CT logs + live probe), DNS, email auth (SPF/DMARC/DKIM/MTA-STS), security headers, expiry.'
+category: development
+tags:
+  - monitoring
+  - security
+docs_url: https://orioncmd.com
+endpoints:
+  - url: https://api.orioncmd.com/mcp
+    transport: streamable-http
+    auth: none

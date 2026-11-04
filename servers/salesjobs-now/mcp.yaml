@@ -1,0 +1,12 @@
+name: SalesJobs.Now
+summary: Search open sales jobs (SDR, BDR, account executive, account manager, customer success, sales engineer) with the base and OTE each posting states, read hourly from employers' own hiring systems; plus posted pay by kind of sales work.
+category: search
+tags:
+  - marketplace
+  - sales
+  - search
+docs_url: https://salesjobs.now
+endpoints:
+  - url: https://salesjobs.now/api/mcp
+    transport: streamable-http
+    auth: none

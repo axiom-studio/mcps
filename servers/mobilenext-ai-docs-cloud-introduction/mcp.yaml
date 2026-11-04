@@ -1,0 +1,13 @@
+name: Mobile Next
+summary: 'Let your Agent fix, test and automate native iOS and Android apps on cloud real devices: tap, type, swipe, debug and inspect, no setup needed.'
+category: development
+tags:
+  - ai-agent
+  - browser-automation
+  - mobile
+  - testing-qa
+docs_url: https://mobilenext.ai/docs/cloud/introduction
+endpoints:
+  - url: https://app.mobilenext.ai/mcp
+    transport: streamable-http
+    auth: oauth

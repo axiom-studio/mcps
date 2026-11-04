@@ -1,0 +1,13 @@
+name: kernelCAD
+summary: AI CAD over MCP. Build parametric parts such as brackets, gears, flanges and mounts on an OpenCascade kernel, check the geometry, and export STEP or STL.
+category: design
+tags:
+  - ai-agent
+  - design
+  - development
+  - file-conversion
+docs_url: https://github.com/w1ne/kernelCAD-web
+endpoints:
+  - url: https://mcp.kernelcad.com/mcp
+    transport: streamable-http
+    auth: unknown

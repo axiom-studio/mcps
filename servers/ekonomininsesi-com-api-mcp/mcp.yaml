@@ -1,0 +1,13 @@
+name: Ekonominin Sesi MCP
+summary: Borsa İstanbul hisse hareketleri, küresel piyasa verileri, yatırım fonları, güncel ekonomi haberleri ve gazete manşetlerine yapay zeka entegrasyonu sunan MCP sunucusu.
+category: other
+tags:
+  - data-analysis
+  - finance
+  - news
+  - trading
+docs_url: https://ekonomininsesi.com/api/mcp
+endpoints:
+  - url: https://ekonomininsesi.com/api/mcp
+    transport: streamable-http
+    auth: none

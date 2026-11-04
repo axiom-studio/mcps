@@ -1,0 +1,13 @@
+name: Mureka MCP Server by useapi.net
+summary: 'Mureka AI music: songs, lyrics, stems, sheet music, your own voice as a singer, speech. Third-party, paid ($15/month), runs on your own Mureka account.'
+category: other
+tags:
+  - ai-model
+  - audio
+  - content-creation
+  - music
+docs_url: https://useapi.net/docs/api-mureka-v1/mcp
+endpoints:
+  - url: https://api.useapi.net/v1/mureka/mcp
+    transport: streamable-http
+    auth: api-key

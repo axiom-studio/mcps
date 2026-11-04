@@ -1,0 +1,12 @@
+name: ArcadeIndex
+summary: Find free browser games re-checked playable within 8 days, by genre, mood, age rating and players.
+category: other
+tags:
+  - browser
+  - gaming
+  - search
+docs_url: https://arcadeindex.io/mcp
+endpoints:
+  - url: https://arcadeindex.io/mcp/catalog
+    transport: streamable-http
+    auth: none

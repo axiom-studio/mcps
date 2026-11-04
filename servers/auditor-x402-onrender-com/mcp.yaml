@@ -1,0 +1,14 @@
+name: Base Web3 M2M Infrastructure Hub
+summary: 'Live Base Mainnet on-chain data via MCP: gas, DEX arbitrage, whale tracking, Aave flash loans/yield/health, token security, prices, slippage, contract read/logs. 17 tools, pay per call in USDC via x402. First call per IP every 24h free on basic endpoints.'
+category: finance
+tags:
+  - crypto
+  - defi
+  - evm
+  - finance
+  - trading
+docs_url: https://auditor-x402.onrender.com
+endpoints:
+  - url: https://auditor-x402.onrender.com/mcp/v1
+    transport: streamable-http
+    auth: unknown

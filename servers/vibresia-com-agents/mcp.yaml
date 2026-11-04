@@ -1,0 +1,13 @@
+name: Vibresia Music Visualiser
+summary: 'A music visualiser your agent can write: describe a look, get a live GLSL vibescape that moves with the music, as a link that plays in any browser.'
+category: design
+tags:
+  - browser
+  - content-creation
+  - design
+  - music
+docs_url: https://vibresia.com/agents
+endpoints:
+  - url: https://vibresia.com/mcp
+    transport: streamable-http
+    auth: none

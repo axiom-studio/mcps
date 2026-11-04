@@ -1,0 +1,13 @@
+name: LogBrew
+summary: 'Lets AI coding agents read the errors, logs, and traces of the projects you approve, so they can find what broke in production and check their fix. Hosted, read-only, OAuth. Free plan: 50 GB of logs a month.'
+category: development
+tags:
+  - coding-agent
+  - debugging
+  - log-management
+  - observability-incident
+docs_url: https://docs.logbrew.co/guides/mcp
+endpoints:
+  - url: https://mcp.logbrew.co/mcp
+    transport: streamable-http
+    auth: oauth

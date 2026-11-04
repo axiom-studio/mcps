@@ -1,0 +1,15 @@
+name: Royally
+summary: Run every WordPress site you look after from Claude or ChatGPT. Nothing goes live until you approve it, every change gets a receipt you can undo, and the whole fleet sits in one tamper-evident log.
+category: development
+tags:
+  - ai-agent
+  - cms
+  - wordpress
+  - workflow-automation
+official: true
+registry_name: io.royally/royally
+docs_url: https://royally.io
+endpoints:
+  - url: https://app.royally.io/mcp
+    transport: streamable-http
+    auth: unknown

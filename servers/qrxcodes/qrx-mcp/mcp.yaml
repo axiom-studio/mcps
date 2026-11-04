@@ -1,0 +1,12 @@
+name: QRX
+summary: QRX turns a text prompt and a link into a branded, print-ready QR code that is verified to scan, with a hosted qrx.to short link you can re-point. Remote MCP, free daily allowance.
+category: design
+tags:
+  - content-creation
+  - design
+  - marketing
+docs_url: https://github.com/qrxcodes/qrx-mcp
+endpoints:
+  - url: https://qrx.codes/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: Rafflex
+summary: Create and manage Web3 raffles and allowlists through a hosted OAuth MCP server, with draft previews and explicit approval before publishing.
+category: marketing
+tags:
+  - crypto
+  - ecommerce
+  - marketing
+  - workflow-automation
+docs_url: https://rafflex.xyz/docs/mcp
+endpoints:
+  - url: https://api.rafflex.xyz/mcp
+    transport: streamable-http
+    auth: oauth

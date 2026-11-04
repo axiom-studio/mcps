@@ -1,0 +1,14 @@
+name: Rankwise
+summary: See how often ChatGPT, Claude, Perplexity and Google AI cite your brand, then fix it. Check AI crawler access and a page's citation readiness without an account. With OAuth, track questions and citations, and turn content gaps into briefs and articles.
+category: marketing
+tags:
+  - ai-model
+  - analytics
+  - content-creation
+  - marketing
+  - seo
+docs_url: https://tryrankwise.com/api-docs
+endpoints:
+  - url: https://tryrankwise.com/api/mcp
+    transport: streamable-http
+    auth: oauth

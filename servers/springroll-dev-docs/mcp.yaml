@@ -1,0 +1,13 @@
+name: SpringRoll
+summary: Let coding agents deploy AI-built apps to managed Vercel or Cloudflare and share them with the right teammates through an App Portal.
+category: cloud-service
+tags:
+  - cloudflare
+  - coding-agent
+  - deployment
+  - vercel
+docs_url: https://springroll.dev/docs
+endpoints:
+  - url: https://springroll.dev/api/mcp
+    transport: streamable-http
+    auth: oauth

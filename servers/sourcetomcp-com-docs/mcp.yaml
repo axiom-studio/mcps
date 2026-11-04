@@ -1,0 +1,14 @@
+name: SourcetoMCP
+summary: Connect Claude, ChatGPT and other agents to your Google Ads, Search Console, Analytics, Sheets, TikTok, Pinterest, Reddit, Bing Webmaster, Ahrefs and PostHog accounts to pull reports and make changes.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - data-analysis
+  - google-analytics
+  - marketing
+docs_url: https://sourcetomcp.com/docs
+endpoints:
+  - url: https://sourcetomcp.com/api/mcp
+    transport: streamable-http
+    auth: oauth

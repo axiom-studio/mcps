@@ -1,0 +1,13 @@
+name: Austria Cadastral Parcels (BEV Kataster · Grundstücke)
+summary: Austrian BEV cadastral parcels by KG and Grundstücksnummer or coordinates, with land uses.
+category: other
+tags:
+  - database
+  - geospatial
+  - government
+  - real-estate
+docs_url: https://github.com/BumiAtlas/austria-cadastral-parcels-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/austria
+    transport: streamable-http
+    auth: oauth

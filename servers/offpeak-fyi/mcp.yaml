@@ -1,0 +1,12 @@
+name: Offpeak
+summary: Search US jobs by driving commute, pay, and seniority. Save jobs, preferences, and email alerts.
+category: search
+tags:
+  - knowledge-retrieval
+  - search
+  - web-research
+docs_url: https://offpeak.fyi
+endpoints:
+  - url: https://offpeak.fyi/mcp
+    transport: streamable-http
+    auth: oauth

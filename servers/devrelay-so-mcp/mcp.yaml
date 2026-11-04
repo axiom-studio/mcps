@@ -1,0 +1,13 @@
+name: DevRelay
+summary: Ask what your team shipped, then draft, edit and approve release posts, changelogs and docs updates from Claude, ChatGPT, Claude Code, Cursor or VS Code. Approvals ask you every time.
+category: marketing
+tags:
+  - content-creation
+  - documentation
+  - marketing
+  - workflow-automation
+docs_url: https://devrelay.so/mcp
+endpoints:
+  - url: https://api.devrelay.so/mcp
+    transport: streamable-http
+    auth: oauth

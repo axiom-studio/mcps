@@ -1,0 +1,12 @@
+name: DrinkedIn Night Out
+summary: 'Read-only, free planner for walkable 2–4 stop nights out using only venues validated against the venue''s own site or an official register. No sign-in. Two tools: drinkedin_get_guide and drinkedin_plan_night_out. Hours and prices are never asserted. For adults of legal drinking age where they are. Endpoint: https://ai.drinkedin.net/mcp/night-out'
+category: other
+tags:
+  - entertainment
+  - research
+  - web-research
+docs_url: https://drinkedin.net/docs/night-out
+endpoints:
+  - url: https://ai.drinkedin.net/mcp/night-out
+    transport: streamable-http
+    auth: none

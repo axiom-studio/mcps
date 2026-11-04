@@ -1,0 +1,8 @@
+name: Trade Preflight Gateway
+summary: Pre-transaction cross-border trade preflight for China to US/EU physical goods.
+category: other
+docs_url: https://github.com/yl124915300-dot/trade-preflight-gateway
+endpoints:
+  - url: https://china-sourcing-router.naijunyu.chatgpt.site/api/trade-preflight-mcp
+    transport: streamable-http
+    auth: unknown

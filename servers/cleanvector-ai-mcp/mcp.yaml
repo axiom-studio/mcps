@@ -1,0 +1,14 @@
+name: CleanVector
+summary: Create professional SVG artwork, icons and vector logos from a prompt, or vectorize any image.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - icon-generation
+  - svg
+docs_url: https://cleanvector.ai/mcp
+endpoints:
+  - url: https://cleanvector.ai/api/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,16 @@
+name: superbot.gg
+summary: 'Try superbot free in your browser, no account: superbot.gg/chat. Your own AI agent; its MCP server gives agents one tool for errands: fax, calls, texts, Gmail drafts, calendar, web search.'
+category: productivity
+tags:
+  - ai-agent
+  - calendar
+  - communication
+  - email-automation
+  - web-research
+official: true
+registry_name: gg.superbot/superbot
+docs_url: https://superbot.gg/?utm_source=mcpservers&utm_medium=registry
+endpoints:
+  - url: https://api.superbot.gg/mcp
+    transport: streamable-http
+    auth: oauth

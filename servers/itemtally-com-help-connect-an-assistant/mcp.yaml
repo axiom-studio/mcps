@@ -1,0 +1,13 @@
+name: ItemTally
+summary: 'Ask your inventory anything: stock levels, who has what, what''s running low, and how long stock will last, straight from your ItemTally register.'
+category: productivity
+tags:
+  - business-operations
+  - data-analysis
+  - inventory
+  - productivity
+docs_url: https://itemtally.com/help/connect-an-assistant
+endpoints:
+  - url: https://api.itemtally.com/mcp
+    transport: streamable-http
+    auth: oauth

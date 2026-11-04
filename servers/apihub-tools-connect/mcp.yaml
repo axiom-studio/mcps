@@ -1,0 +1,13 @@
+name: APIhub Video
+summary: Lets your AI agent add captions, cut reels from long videos and dub videos, with a price check before each job.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - media
+  - video
+docs_url: https://apihub.tools/connect
+endpoints:
+  - url: https://apihub.tools/mcp
+    transport: streamable-http
+    auth: oauth

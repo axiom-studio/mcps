@@ -1,0 +1,11 @@
+name: PodPitch
+summary: Find and compare relevant podcasts without an account. Existing customers can connect PodPitch to manage campaigns, drafts, inbox replies and outreach.
+category: marketing
+tags:
+  - marketing
+  - marketing-automation
+docs_url: https://github.com/PodPitch/podpitch-plugins
+endpoints:
+  - url: https://api.podpitch.com/v1/mcp
+    transport: streamable-http
+    auth: unknown

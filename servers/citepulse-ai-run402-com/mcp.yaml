@@ -1,0 +1,13 @@
+name: CitePulse AI
+summary: Audit any URL for ChatGPT, Claude & Perplexity GEO citation readiness, llms.txt & Schema.org.
+category: marketing
+tags:
+  - analytics
+  - content-creation
+  - seo
+  - web-research
+docs_url: https://citepulse-ai.run402.com
+endpoints:
+  - url: https://citepulse-ai.run402.com/api/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: CrakSEO Local SEO MCP
+summary: Google Maps rankings, Google Business Profile ratings and review counts. Hosted Streamable HTTP with OAuth or a scoped API key. Check availability and pricing before paid calls.
+category: search
+tags:
+  - analytics
+  - google-analytics
+  - marketing
+  - seo
+docs_url: https://docs.crakseo.com/mcp-servers/local-seo
+endpoints:
+  - url: https://crakseo.com/mcp/local-seo
+    transport: streamable-http
+    auth: oauth

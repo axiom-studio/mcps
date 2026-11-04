@@ -1,0 +1,12 @@
+name: CaptionPipe
+summary: One call burns captions into your video. Hosted, prepaid, no subscription. MP4 plus SRT and VTT.
+category: other
+tags:
+  - file-conversion
+  - media
+  - video
+docs_url: https://captionpipe.com/docs
+endpoints:
+  - url: https://api.captionpipe.com/mcp
+    transport: streamable-http
+    auth: oauth

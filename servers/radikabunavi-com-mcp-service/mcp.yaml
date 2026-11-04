@@ -1,0 +1,13 @@
+name: Radikabunavi – Japan Stocks (EDINET / TDnet)
+summary: 'Japanese listed-company data from EDINET filings and TDnet earnings releases for about 3,700 companies: fair-value range, 6-axis score, DCF, earnings flash, screening and a personal watchlist.'
+category: finance
+tags:
+  - data-analysis
+  - database
+  - finance
+  - research
+docs_url: https://radikabunavi.com/mcp-service
+endpoints:
+  - url: https://radikabunavi.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Online Malumat MCP
+summary: Borsa İstanbul hisseleri, dünya borsa endeksleri, yatırım fonları, günlük gazete ön sayfaları ve kapsamlı ekonomi/gündem haber akışı sağlayan MCP endpoint'i.
+category: other
+tags:
+  - data-analysis
+  - finance
+  - news
+  - trading
+docs_url: https://onlinemalumat.com/api/mcp
+endpoints:
+  - url: https://onlinemalumat.com/api/mcp
+    transport: streamable-http
+    auth: none

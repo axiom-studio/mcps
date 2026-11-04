@@ -1,0 +1,12 @@
+name: Nexez — Agentic Commerce
+summary: 'Agentic-commerce MCP: search across merchants, fetch structured offer manifests, and dry-run checkout + negotiation before buying.'
+category: finance
+tags:
+  - knowledge-retrieval
+  - search
+docs_url: https://nexez.ai/agents
+website_url: https://nexez.ai
+endpoints:
+  - url: https://nexez.app/mcp
+    transport: streamable-http
+    auth: unknown

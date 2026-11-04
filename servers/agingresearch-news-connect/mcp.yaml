@@ -1,0 +1,13 @@
+name: AgingResearch.News
+summary: Search aging research papers, evidence, clinical trials, grants and news through a hosted MCP server.
+category: search
+tags:
+  - knowledge-retrieval
+  - news
+  - search
+  - web-research
+docs_url: https://agingresearch.news/connect
+endpoints:
+  - url: https://agingresearch.news/api/mcp
+    transport: streamable-http
+    auth: oauth

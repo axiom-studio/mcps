@@ -1,0 +1,13 @@
+name: Vibe Coding Plan
+summary: Turn a project idea into a task plan with estimates, tech stack advice, and saved projects.
+category: development
+tags:
+  - development
+  - productivity
+  - project-management
+  - task-management
+docs_url: https://github.com/EntroSolutions/mcp-server
+endpoints:
+  - url: https://vibecoderplanner.com/mcp
+    transport: streamable-http
+    auth: oauth

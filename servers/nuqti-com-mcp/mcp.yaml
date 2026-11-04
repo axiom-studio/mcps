@@ -1,0 +1,13 @@
+name: Nuqti SEO Data
+summary: 'Free remote MCP for SEO data: backlinks, referring domains, domain history, keyword ideas and site audits (Ahrefs alternative).'
+category: marketing
+tags:
+  - data-analysis
+  - marketing
+  - seo
+  - web-research
+docs_url: https://nuqti.com/mcp
+endpoints:
+  - url: https://nuqti.com/api/public/mcp
+    transport: streamable-http
+    auth: none

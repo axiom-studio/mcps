@@ -1,0 +1,13 @@
+name: Contract Lily
+summary: 'Check UK tenancy and employment rules from the facts you give: deposit caps, notice periods, section 13 rent increase notices, statutory notice, holiday entitlement and the minimum wage, for England, Wales, Scotland and Northern Ireland. Each answer names the law it applies and links to more detail. It can also link you to a full review of your tenancy agreement or employment contract. Read-only, with no account or sign-in. General information, not legal advice.'
+category: productivity
+tags:
+  - compliance
+  - government
+  - productivity
+  - research
+docs_url: https://contractlily.com/
+endpoints:
+  - url: https://api.contractlily.com/mcp
+    transport: streamable-http
+    auth: none

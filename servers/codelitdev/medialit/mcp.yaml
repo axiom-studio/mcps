@@ -1,0 +1,12 @@
+name: MediaLit
+summary: Give your agent somewhere to keep files. Upload, list, share and delete files and get permanent links. OAuth sign-in, free 1 GB.
+category: cloud-storage
+tags:
+  - cloud-storage
+  - file-management
+  - storage
+docs_url: https://github.com/codelitdev/medialit
+endpoints:
+  - url: https://api.medialit.cloud/mcp
+    transport: streamable-http
+    auth: oauth

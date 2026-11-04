@@ -1,0 +1,13 @@
+name: Luxembourg Cadastral Parcels (ACT PCN · Parcelles)
+summary: Luxembourg cadastral parcels (ACT Plan Cadastral Numérisé) by id, lieu-dit and number, or point.
+category: other
+tags:
+  - geospatial
+  - government
+  - real-estate
+  - search
+docs_url: https://github.com/BumiAtlas/luxembourg-cadastral-parcels-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/luxembourg
+    transport: streamable-http
+    auth: oauth

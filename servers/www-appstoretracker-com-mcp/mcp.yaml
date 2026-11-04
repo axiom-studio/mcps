@@ -1,0 +1,15 @@
+name: App Store Tracker
+summary: 'iOS App Store data for AI agents: chart rankings in 114 storefronts, app details, reviews, keywords, ads and revenue estimates for any app. 14 tools.'
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - marketing
+  - research
+official: true
+registry_name: com.appstoretracker/mcp
+docs_url: https://www.appstoretracker.com/mcp
+endpoints:
+  - url: https://www.appstoretracker.com/api/mcp
+    transport: streamable-http
+    auth: api-key

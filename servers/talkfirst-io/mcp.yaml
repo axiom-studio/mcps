@@ -1,0 +1,13 @@
+name: Talkfirst
+summary: 'Speak English, Polish, Lithuanian, Czech (beta): pronunciation, voice chats, quizzes, audio lessons'
+category: other
+tags:
+  - audio
+  - education
+  - text-to-speech
+  - translation
+docs_url: https://talkfirst.io/?utm_source=mcpservers&utm_medium=catalog
+endpoints:
+  - url: https://mcp.talkfirst.io/mcp
+    transport: streamable-http
+    auth: oauth

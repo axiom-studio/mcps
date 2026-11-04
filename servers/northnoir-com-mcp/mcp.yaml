@@ -1,0 +1,13 @@
+name: North Noir
+summary: 'Make AI-drawn video from chat: your LLM draws every frame in code; add narration, music and SFX.'
+category: marketing
+tags:
+  - ai-model
+  - content-creation
+  - media
+  - video
+docs_url: https://northnoir.com/mcp
+endpoints:
+  - url: https://mcp.northnoir.com/mcp
+    transport: streamable-http
+    auth: oauth

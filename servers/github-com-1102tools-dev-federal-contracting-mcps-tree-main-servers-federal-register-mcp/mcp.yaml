@@ -1,0 +1,12 @@
+name: Federal Register MCP by 1102tools
+summary: 'Free hosted MCP server for the Federal Register: proposed and final rules, notices, comment periods and FAR case history. Connect at https://federal-register.1102tools.com/mcp with nothing to install and no API key. Open source (MIT).'
+category: other
+tags:
+  - compliance
+  - government
+  - research
+docs_url: https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/federal-register-mcp
+endpoints:
+  - url: https://federal-register.1102tools.com/mcp
+    transport: streamable-http
+    auth: none

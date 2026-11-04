@@ -1,0 +1,14 @@
+name: SoulStack MCP
+summary: 'Hosted, read-only MCP server that lets Claude Code, Cursor or any MCP client read your SoulStack dashboard: MRR, churn, users, errors and AI costs across every app you run, plus 0 to 100 health scores and ranked alerts. 12 read-only tools including get_stack_overview, list_alerts, compare_apps, get_ai_spend and get_revenue_breakdown.'
+category: development
+tags:
+  - ai-model
+  - analytics
+  - business-operations
+  - data-analysis
+  - monitoring
+docs_url: https://www.soulstack.app
+endpoints:
+  - url: https://www.soulstack.app/api/mcp
+    transport: streamable-http
+    auth: api-key

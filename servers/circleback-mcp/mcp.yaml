@@ -1,0 +1,18 @@
+name: Circleback
+summary: Circleback is an AI meeting assistant that produces structured notes, transcripts, and action items. Its remote MCP server brings that meeting context into assistant workflows so past conversations, decisions, and follow-ups can be searched and referenced.
+description: |-
+  Circleback is an AI meeting assistant that produces structured notes, transcripts, and action items. Its remote MCP server brings that meeting context into assistant workflows so past conversations, decisions, and follow-ups can be searched and referenced.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://support.circleback.ai/en/articles/13249081-circleback-mcp)
+category: other
+tags:
+  - other
+  - remote-mcp
+official: true
+docs_url: https://support.circleback.ai/en/articles/13249081-circleback-mcp
+endpoints:
+  - url: https://circleback.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: INITE Atlas
+summary: 'AI tools catalogue for agents: match a need to tools, compare prices from verified plans, see price and API changes, and pick an MCP server by its daily check (uptime, tool-definition quality, token weight, warning signs). Remote, open without sign-in.'
+category: search
+tags:
+  - ai-agent
+  - marketplace
+  - monitoring
+  - search
+docs_url: https://inite.ai/en/mcp
+endpoints:
+  - url: https://inite.ai/api/mcp/atlas
+    transport: streamable-http
+    auth: none

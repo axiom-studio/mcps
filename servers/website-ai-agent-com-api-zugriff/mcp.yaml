@@ -1,0 +1,13 @@
+name: Website AI Agent
+summary: 'Manage Website AI Agent chatbots from an AI assistant: create bots, maintain the knowledge base, read conversations and ask questions. Remote MCP endpoint with 35 tools, authenticated with an API key (Bearer token), available in every plan.'
+category: communication
+tags:
+  - ai-agent
+  - api
+  - chatbot
+  - knowledge-retrieval
+docs_url: https://website-ai-agent.com/api-zugriff
+endpoints:
+  - url: https://website-ai-agent.com/api/mcp
+    transport: streamable-http
+    auth: api-key

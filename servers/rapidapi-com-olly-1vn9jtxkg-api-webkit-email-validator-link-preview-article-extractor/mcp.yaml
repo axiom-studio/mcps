@@ -1,0 +1,13 @@
+name: WebKit
+summary: Email validation, link previews and article-to-Markdown extraction for AI agents. Free tier, RapidAPI key.
+category: web-scraping
+tags:
+  - content-creation
+  - email-automation
+  - knowledge-retrieval
+  - web-scraping
+docs_url: https://rapidapi.com/Olly-1VN9JTXKG/api/webkit-email-validator-link-preview-article-extractor
+endpoints:
+  - url: https://webkit-email-validator-link-preview-article-extractor.p.rapidapi.com/mcp
+    transport: streamable-http
+    auth: api-key

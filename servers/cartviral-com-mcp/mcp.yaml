@@ -1,0 +1,14 @@
+name: CartViral
+summary: 'AI product videos for e-commerce: import products, generate TikTok/Reels clips, earn per sale.'
+category: marketing
+tags:
+  - content-creation
+  - ecommerce
+  - marketing
+  - social-media
+  - video
+docs_url: https://cartviral.com/mcp
+endpoints:
+  - url: https://app.cartviral.com/mcp
+    transport: streamable-http
+    auth: api-key

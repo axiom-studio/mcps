@@ -1,0 +1,12 @@
+name: D365 Mockup Agent Connector
+summary: Draft Dynamics 365 F&O and Business Central mockups from your AI agent.
+category: development
+tags:
+  - ai-agent
+  - development
+  - document
+docs_url: https://dynastreamline365.com/connect-agent
+endpoints:
+  - url: https://mcp.dynastreamline365.com/mcp
+    transport: streamable-http
+    auth: oauth

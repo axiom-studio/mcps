@@ -1,0 +1,12 @@
+name: Symbioza
+summary: Run a GPU job under a hard dollar cap and collect the files it writes.
+category: development
+tags:
+  - cloud-infrastructure
+  - devops-infrastructure
+  - file-management
+docs_url: https://symbioza.dev/agent
+endpoints:
+  - url: https://symbioza.dev/mcp
+    transport: streamable-http
+    auth: oauth

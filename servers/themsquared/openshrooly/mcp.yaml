@@ -1,0 +1,13 @@
+name: Shroom Labs
+summary: Mushroom grow profiles, timelines and troubleshooting guides for home growers and smart grow chambers.
+category: other
+tags:
+  - education
+  - home-automation
+  - iot
+  - knowledge-retrieval
+docs_url: https://github.com/themsquared/openshrooly
+endpoints:
+  - url: https://api.shroomlabs.io/mcp
+    transport: streamable-http
+    auth: none

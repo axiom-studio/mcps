@@ -1,0 +1,14 @@
+name: anakinio
+summary: Anakin is the web data infrastructure layer for modern AI. Its APIs let teams reliably search, scrape, crawl, monitor, and interact with the live web—powering production-grade AI agents, RAG systems, research products, ML pipelines, and automated data workflows without maintaining browsers, proxies, or scraping infrastructure.
+category: web-scraping
+tags:
+  - ai-agent
+  - browser-automation
+  - data-analysis
+  - knowledge-retrieval
+  - web-scraping
+docs_url: https://github.com/Anakin-Inc/anakin-mcp
+endpoints:
+  - url: https://mcp.anakin.io/mcp
+    transport: streamable-http
+    auth: oauth

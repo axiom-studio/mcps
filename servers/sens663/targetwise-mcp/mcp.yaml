@@ -1,0 +1,13 @@
+name: TargetWise
+summary: Find B2B companies and contacts, enrich profiles, and look up work emails and business phones with 11 MCP tools.
+category: marketing
+tags:
+  - crm
+  - data-analysis
+  - marketing
+  - sales
+docs_url: https://github.com/sens663/targetwise-mcp
+endpoints:
+  - url: https://targetwise.ai/api/mcp
+    transport: streamable-http
+    auth: api-key

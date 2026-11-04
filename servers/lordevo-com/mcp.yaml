@@ -1,0 +1,13 @@
+name: Lordevo Agent Directory
+summary: Remote MCP server that lets AI agents discover Lordevo's pay-per-call SEO and website security services (x402, USDC on Base).
+category: marketing
+tags:
+  - crypto
+  - marketplace
+  - security
+  - seo
+docs_url: https://lordevo.com
+endpoints:
+  - url: https://lordevo.com/mcp
+    transport: streamable-http
+    auth: none

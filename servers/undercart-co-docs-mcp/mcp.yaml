@@ -1,0 +1,14 @@
+name: Undercart
+summary: 'Shopify store intelligence for AI agents: search 700K+ Shopify stores by revenue, installed apps, country and traffic, plus Meta/Google/TikTok ads and marketing emails for researched brands.'
+category: marketing
+tags:
+  - data-analysis
+  - ecommerce
+  - marketing
+  - shopify
+  - web-research
+docs_url: https://undercart.co/docs/mcp
+endpoints:
+  - url: https://undercart.co/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Multi Mail
+summary: Gmail, Outlook.com, Hotmail, Microsoft 365, iCloud and Fastmail - search, read, draft, send, organise, set filters and auto-replies. Reads attachments - PDF, scans, Word, Excel, PowerPoint.
+category: communication
+tags:
+  - communication
+  - email-automation
+  - gmail
+  - outlook
+docs_url: https://lumman.co/mcp/multi-mail
+endpoints:
+  - url: https://mail.lumman.co/mcp
+    transport: streamable-http
+    auth: oauth

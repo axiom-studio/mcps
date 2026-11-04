@@ -1,0 +1,12 @@
+name: disclosedby
+summary: 'Dated quotes of GDPR art. 28 subprocessor lists: who lists whom, what changed, and when.'
+category: other
+tags:
+  - compliance
+  - data-analysis
+  - research
+docs_url: https://disclosedby.com
+endpoints:
+  - url: https://disclosedby.com/api/mcp
+    transport: streamable-http
+    auth: none

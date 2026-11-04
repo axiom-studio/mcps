@@ -1,0 +1,13 @@
+name: Bootify
+summary: Create production-ready Spring Boot applications with Bootify via MCP - best practices included.
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - development
+  - java
+docs_url: https://bootify.io
+endpoints:
+  - url: https://bootify.io/mcp
+    transport: streamable-http
+    auth: unknown

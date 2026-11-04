@@ -1,0 +1,14 @@
+name: SendNow
+summary: 'Share documents as secure, trackable links, build data rooms, and see who viewed what. Email verification, NDA gates, download blocking, watermarks, expiry, and per-viewer analytics. Remote server with OAuth: https://share.sendnow.live/mcp'
+category: productivity
+tags:
+  - analytics
+  - document
+  - file-management
+  - productivity
+  - security
+docs_url: https://sendnow.live
+endpoints:
+  - url: https://share.sendnow.live/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: StalkChain Data
+summary: 'Crypto research for AI agents: what FOMO''s top traders buy, their real wallets and PnL, token holders and buy/sell flow, token safety checks and smart money, across Solana, Robinhood Chain, Base, BNB Chain, Ethereum, Monad and Hyperliquid. Read-only; sign in with OAuth.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - finance
+  - identity
+  - security
+docs_url: https://data.stalkchain.com
+endpoints:
+  - url: https://data.stalkchain.com/mcp
+    transport: streamable-http
+    auth: oauth

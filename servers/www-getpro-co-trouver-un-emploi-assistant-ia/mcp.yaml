@@ -1,0 +1,12 @@
+name: GetPro
+summary: Connectez votre assistant IA à votre espace candidat GetPro pour compléter votre profil, consulter les postes proposés et préparer vos candidatures avec votre accord. MCP distant HTTP avec OAuth.
+category: productivity
+tags:
+  - ai-agent
+  - productivity
+  - workflow-automation
+docs_url: https://www.getpro.co/trouver-un-emploi/assistant-ia
+endpoints:
+  - url: https://candidates.getpro.co/mcp
+    transport: streamable-http
+    auth: oauth

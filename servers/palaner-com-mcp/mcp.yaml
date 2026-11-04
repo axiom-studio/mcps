@@ -1,0 +1,12 @@
+name: Palaner
+summary: Give your agent 250,000+ upcoming events in any city, collected from 90+ sources into one clean database and ranked for the signed-in person. Free to connect.
+category: search
+tags:
+  - data-analysis
+  - search
+  - web-research
+docs_url: https://palaner.com/mcp
+endpoints:
+  - url: https://api.palaner.com/mcp
+    transport: streamable-http
+    auth: oauth

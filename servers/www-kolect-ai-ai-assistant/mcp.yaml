@@ -1,0 +1,13 @@
+name: Kolect Creator Search
+summary: 'Hosted MCP server for influencer marketing: search 300M+ TikTok, Instagram and YouTube creators from a plain-language brief, check fake followers, get contact emails and save shortlists.'
+category: marketing
+tags:
+  - crm
+  - marketing
+  - research
+  - social-media
+docs_url: https://www.kolect.ai/ai-assistant
+endpoints:
+  - url: https://app.kolect.ai/mcp
+    transport: streamable-http
+    auth: api-key

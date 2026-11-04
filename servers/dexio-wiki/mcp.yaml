@@ -1,0 +1,13 @@
+name: Dexio
+summary: 'One wiki for all your agents: pages read and written over MCP, a link graph, and broken-link checks.'
+category: memory
+tags:
+  - document
+  - knowledge-graph
+  - knowledge-retrieval
+  - memory
+docs_url: https://dexio.wiki
+endpoints:
+  - url: https://app.dexio.wiki/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: SpriteFuse MCP
+summary: Create 2D game characters and animations, revise sprites, adjust timing, and export assets through OAuth.
+category: design
+tags:
+  - content-creation
+  - design
+  - game-development
+  - media
+docs_url: https://spritefuse.com/mcp
+endpoints:
+  - url: https://spritefuse.com/api/mcp
+    transport: streamable-http
+    auth: oauth

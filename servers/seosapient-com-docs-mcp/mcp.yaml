@@ -1,0 +1,14 @@
+name: Seosapient — SEO, PPC & Analytics MCP
+summary: Connect Claude and ChatGPT to SEO keyword research, backlinks, Search Console, GA4 and Google/Microsoft Ads. Prepare supported ad changes for owner approval.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - google-analytics
+  - marketing
+  - seo
+docs_url: https://seosapient.com/docs/mcp
+endpoints:
+  - url: https://seosapient.com/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: MAD Synapse (Solana memecoin + pump.fun tools)
+summary: '79 tools for Solana memecoin traders and agents: pump.fun launches and bonding curves, rug and bundle forensics, token risk scores, wallet PnL, live prices, plus web and util tools. Free tier, pay-per-call via x402 USDC/SOL.'
+category: development
+tags:
+  - ai-agent
+  - crypto
+  - defi
+  - finance
+  - trading
+docs_url: https://agent.maddegen.art/hub/docs
+endpoints:
+  - url: https://agent.maddegen.art/hub/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: POPCORN Witness Verifier
+summary: 'Verify POPCORN-WITNESS/2.0 receipts: signature, digest, and witnessed time. Free and read-only.'
+category: development
+tags:
+  - api
+  - development
+  - security
+docs_url: https://github.com/violetclaire/popcorn-temporal-anchor
+endpoints:
+  - url: https://popcorn-tain-verify-mcp-v2.violetherod.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

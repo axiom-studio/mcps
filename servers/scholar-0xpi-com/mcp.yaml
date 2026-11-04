@@ -1,0 +1,13 @@
+name: Scholarize Study Tools
+summary: 'Study tools for students: week-by-week study plans, thesis statement options and citations in APA, MLA, Chicago, Harvard or IEEE (free, needs the student''s email), plus tutor answers, quizzes and flashcards on a connected Scholarize account.'
+category: productivity
+tags:
+  - documentation
+  - education
+  - productivity
+  - research
+docs_url: https://scholar.0xpi.com
+endpoints:
+  - url: https://scholar.0xpi.com/api/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: iutu.be - MCP
+summary: Tools for Youtube.
+category: productivity
+tags:
+  - media
+  - video
+  - youtube
+docs_url: https://iutu.be
+endpoints:
+  - url: https://iutu.be/mcp
+    transport: streamable-http
+    auth: unknown

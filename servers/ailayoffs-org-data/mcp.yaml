@@ -1,0 +1,12 @@
+name: AI Layoffs
+summary: Source-cited register of layoffs linked to AI, plus a live 0-100 AI job-loss index. No key.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+docs_url: https://ailayoffs.org/data#mcp
+endpoints:
+  - url: https://ailayoffs.org/mcp
+    transport: streamable-http
+    auth: none

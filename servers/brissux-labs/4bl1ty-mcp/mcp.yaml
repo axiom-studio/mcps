@@ -1,0 +1,13 @@
+name: 4bl1ty
+summary: 'Hire verified humans for physical-world tasks from your AI agent: post missions, review claims and proof, euro escrow via Stripe.'
+category: other
+tags:
+  - ai-agent
+  - marketplace
+  - payment
+  - workflow-automation
+docs_url: https://github.com/Brissux-Labs/4bl1ty-mcp
+endpoints:
+  - url: https://mcp.4bl1ty.com/mcp
+    transport: streamable-http
+    auth: api-key

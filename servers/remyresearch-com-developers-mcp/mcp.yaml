@@ -1,0 +1,13 @@
+name: Remy Research Ordering MCP
+summary: Search a UAE research-use-only catalog, quote baskets in AED, and prepare buyer-reviewed checkout links. No order submission or payment.
+category: other
+tags:
+  - ecommerce
+  - marketplace
+  - payment
+  - research
+docs_url: https://remyresearch.com/developers/mcp
+endpoints:
+  - url: https://remyresearch.com/mcp
+    transport: streamable-http
+    auth: none

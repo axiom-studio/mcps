@@ -1,0 +1,13 @@
+name: Estuary
+summary: Estuary's MCP server connects AI assistants (Claude, Cursor, VS Code, ChatGPT) to Estuary's live documentation, giving accurate, docs-backed answers about building real-time and batch data pipelines (CDC, streaming, and ETL/ELT) without leaving your editor.
+category: database
+tags:
+  - ai-agent
+  - data-analysis
+  - documentation
+  - knowledge-retrieval
+docs_url: https://docs.estuary.dev/features/mcp-integration
+endpoints:
+  - url: https://estuary.mcp.kapa.ai
+    transport: streamable-http
+    auth: unknown

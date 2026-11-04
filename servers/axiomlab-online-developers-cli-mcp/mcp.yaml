@@ -1,0 +1,13 @@
+name: Axiom Lab
+summary: Turn PDF pitch decks, PPTX slides, product photos, and briefs into QA-checked commercial videos via MCP.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - pdf
+  - video
+docs_url: https://axiomlab.online/developers/cli-mcp
+endpoints:
+  - url: https://axiomlab.online/mcp
+    transport: streamable-http
+    auth: unknown

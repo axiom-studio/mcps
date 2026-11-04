@@ -1,0 +1,13 @@
+name: Instaseer
+summary: Connect AI assistants to authorized saved Instagram reports, compare source-linked evidence, and prepare fresh research for the account owner to review before collection or charges.
+category: marketing
+tags:
+  - marketing
+  - research
+  - social-media
+  - web-research
+docs_url: https://github.com/singaporeandurian/instaseer-mcp
+endpoints:
+  - url: https://www.instaseer.com/mcp
+    transport: streamable-http
+    auth: oauth

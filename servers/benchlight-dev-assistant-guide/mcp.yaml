@@ -1,0 +1,12 @@
+name: Benchlight
+summary: Make small business websites in your chat, save them as private drafts with phone and desktop previews, and publish one free on a benchlight.page address.
+category: productivity
+tags:
+  - content-creation
+  - ecommerce
+  - productivity
+docs_url: https://benchlight.dev/assistant-guide
+endpoints:
+  - url: https://benchlight.dev/mcp
+    transport: streamable-http
+    auth: oauth

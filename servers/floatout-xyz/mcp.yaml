@@ -1,0 +1,15 @@
+name: Floatout
+summary: Read public Floatout guides, pricing and builder-fee research. No account needed.
+category: finance
+tags:
+  - crypto
+  - defi
+  - documentation
+  - finance
+  - research
+docs_url: https://floatout.xyz/auth.md
+website_url: https://floatout.xyz/
+endpoints:
+  - url: https://floatout.xyz/api/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,14 @@
+name: Omniscope
+summary: Build and run data workflows, analyses, reports and dashboards. Inspect and verify every step.
+category: productivity
+tags:
+  - analytics
+  - business-operations
+  - data-analysis
+  - workflow-automation
+docs_url: https://help.visokio.com/support/solutions/articles/42000118534-connect-ai-agents-to-omniscope-with-the-mcp-server
+website_url: https://visokio.com
+endpoints:
+  - url: https://omniscope.visokio.com/_api_/v1/cloudmcp
+    transport: streamable-http
+    auth: oauth

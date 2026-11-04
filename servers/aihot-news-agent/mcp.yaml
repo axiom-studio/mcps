@@ -1,0 +1,13 @@
+name: AIHOT
+summary: Read and search curated AI news in Chinese, hot topics, and daily, weekly and monthly digests.
+category: search
+tags:
+  - content-creation
+  - news
+  - search
+  - web-research
+docs_url: https://aihot.news/agent
+endpoints:
+  - url: https://aihot.news/api/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: fone.me
+summary: 'fone.me is an AI agent that answers calls and WhatsApp messages for businesses and people, and can call or message anyone for you. Its free MCP server (https://www.fone.me/mcp, streamable HTTP, no auth) lets AI assistants find fone.me agents (find_agents), read one (get_agent) and message it (message_agent). fone.me is an Appmo partner, and its AI agents are built on Appmo''s AI platform. iOS app: https://apps.apple.com/us/app/fone-me-ai-call-assistant/id6759304762'
+category: communication
+tags:
+  - ai-agent
+  - chatbot
+  - communication
+  - whatsapp
+docs_url: https://www.fone.me
+endpoints:
+  - url: https://www.fone.me/mcp
+    transport: streamable-http
+    auth: none

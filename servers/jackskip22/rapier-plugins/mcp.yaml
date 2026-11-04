@@ -1,0 +1,13 @@
+name: Rapier
+summary: 'Write, draw and paint with your agent in a shared Markdown editor: documents, editable diagrams and real watercolor. Free, open source, no account.'
+category: productivity
+tags:
+  - collaboration
+  - content-creation
+  - document
+  - productivity
+docs_url: https://github.com/jackskip22/rapier-plugins
+endpoints:
+  - url: https://mcp.rapier.website/door/mcp
+    transport: streamable-http
+    auth: none

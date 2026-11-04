@@ -1,0 +1,13 @@
+name: LIVEAIHELP
+summary: 'Hire a vetted human AI expert, live, from inside your agent. LIVEAIHELP connects AI agents (and people) with human experts over video/chat who can drive the user''s screen (with permission) to finish tasks an agent can''t — configuring tools, fixing files, unblocking workflows. $1/minute billed to account balance; new accounts get 5 free minutes. Tools: hire_human_expert, send_message, read_messages, check_queue, end_session, check_balance.'
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - customer-ops
+  - productivity
+docs_url: https://www.helpai.live
+endpoints:
+  - url: https://www.helpai.live/api/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: TrollWall AI MCP
+summary: TrollWall AI MCP is a remote MCP server for social media comment moderation. Connect Claude, ChatGPT or Lovable to Facebook, Instagram, TikTok and YouTube to auto-hide hate speech and spam, draft replies in your brand voice and report on sentiment.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+official: true
+docs_url: https://trollwall.ai/mcp
+endpoints:
+  - url: https://mcp.trollwall.ai/mcp
+    transport: streamable-http
+    auth: oauth

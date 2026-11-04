@@ -1,0 +1,12 @@
+name: AuctionFinder
+summary: AuctionFinder lists auction houses, online auction platforms, aggregators and government surplus programs by city and by what they sell, with the source of each fact.
+category: search
+tags:
+  - ecommerce
+  - marketplace
+  - search
+docs_url: https://auctionfinder.fyi
+endpoints:
+  - url: https://auctionfinder.fyi/mcp
+    transport: streamable-http
+    auth: none

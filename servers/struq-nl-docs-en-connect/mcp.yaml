@@ -1,0 +1,13 @@
+name: Struq
+summary: 'Cinematic, award-winning web design for coding agents. Struq picks a design direction from a short brief and hands your agent an ordered build plan for an Awwwards-level site: curated palette, type pairing, project shell, GSAP and Lenis motion, and a spec per section. Includes a React and Tailwind audit and a curated library of palettes, type, sections and stock media.'
+category: design
+tags:
+  - coding-agent
+  - design
+  - design-to-code
+  - web-research
+docs_url: https://struq.nl/docs/en/connect
+endpoints:
+  - url: https://struq.nl/api/mcp
+    transport: streamable-http
+    auth: oauth

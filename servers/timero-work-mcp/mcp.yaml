@@ -1,0 +1,13 @@
+name: Timero
+summary: 'Time tracking for agencies: log time, run the timer, check client budgets and pull reports from Claude, ChatGPT or Cursor. 29 tools, OAuth sign-in.'
+category: productivity
+tags:
+  - analytics
+  - business-operations
+  - productivity
+  - task-management
+docs_url: https://timero.work/mcp
+endpoints:
+  - url: https://timero.work/api/mcp
+    transport: streamable-http
+    auth: unknown

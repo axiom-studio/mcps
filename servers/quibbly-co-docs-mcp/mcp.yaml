@@ -1,0 +1,13 @@
+name: Quibbly LinkedIn Inbox MCP
+summary: Connect Claude and ChatGPT to your LinkedIn inbox. Research contacts and draft human-reviewed replies.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - crm
+  - research
+docs_url: https://quibbly.co/docs/mcp
+endpoints:
+  - url: https://server.quibbly.co/mcp
+    transport: streamable-http
+    auth: oauth

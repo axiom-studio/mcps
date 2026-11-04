@@ -1,0 +1,13 @@
+name: Taskpend
+summary: 'Where Claude''s work lands: tasks, boards and docs your team can open, via MCP.'
+category: productivity
+tags:
+  - document
+  - productivity
+  - project-management
+  - task-management
+docs_url: https://taskpend.com/docs/mcp
+endpoints:
+  - url: https://udxtlagxxdaeuajyyalf.supabase.co/functions/v1/mcp
+    transport: streamable-http
+    auth: oauth

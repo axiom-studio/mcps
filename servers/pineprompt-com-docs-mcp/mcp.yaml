@@ -1,0 +1,14 @@
+name: Pineprompt
+summary: 'Ask your AI assistant how your brand shows up in ChatGPT, Gemini, Perplexity, Claude, Google AI Overviews, AI Mode, Grok and Copilot: mentions, citations, share of voice and sentiment.'
+category: marketing
+tags:
+  - ai-model
+  - analytics
+  - marketing
+  - research
+  - seo
+docs_url: https://pineprompt.com/docs/mcp
+endpoints:
+  - url: https://pineprompt.com/mcp
+    transport: streamable-http
+    auth: oauth

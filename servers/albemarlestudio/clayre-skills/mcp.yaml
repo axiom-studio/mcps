@@ -1,0 +1,13 @@
+name: Clayre
+summary: 'Brand strategy and content-calendar context for agents: read the brand profile, reviews, insights and calendar; capture ideas; human-confirmed approval gates.'
+category: marketing
+tags:
+  - content-creation
+  - knowledge-retrieval
+  - marketing
+  - workflow-automation
+docs_url: https://github.com/albemarlestudio/clayre-skills
+endpoints:
+  - url: https://www.clayre.app/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Creator Engine
+summary: Promise extraction and alignment from contracts, NDAs, and legal documents.
+category: productivity
+tags:
+  - compliance
+  - document
+  - knowledge-retrieval
+docs_url: https://github.com/Alex-Dev-Web-C-DE/creator-engine
+endpoints:
+  - url: https://creator-engine.mcpize.run/mcp
+    transport: streamable-http
+    auth: unknown

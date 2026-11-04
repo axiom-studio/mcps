@@ -1,0 +1,13 @@
+name: Umtri
+summary: Give your AI agent a persistent map of your project's structure, dependencies, and bugs.
+category: development
+tags:
+  - development
+  - documentation
+  - knowledge-graph
+  - project-management
+docs_url: https://github.com/bepuljang/umtri-mcp
+endpoints:
+  - url: https://mcp.umtri.io
+    transport: streamable-http
+    auth: api-key

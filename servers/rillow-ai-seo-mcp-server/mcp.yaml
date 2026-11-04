@@ -1,0 +1,13 @@
+name: Rillow
+summary: SEO data, a content plan and rank tracking for your AI agent.
+category: marketing
+tags:
+  - ai-agent
+  - analytics
+  - marketing
+  - seo
+docs_url: https://rillow.ai/seo-mcp-server?ref=mcpservers
+endpoints:
+  - url: https://rillow.ai/mcp
+    transport: streamable-http
+    auth: oauth

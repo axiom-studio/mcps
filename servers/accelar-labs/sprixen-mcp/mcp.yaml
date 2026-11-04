@@ -1,0 +1,14 @@
+name: Sprixen
+summary: Generate consistent game sprites, 2D animation sheets, tiles, maps and music from coding agents, with Godot, Phaser and Unity exports.
+category: development
+tags:
+  - ai-model
+  - audio
+  - content-creation
+  - design
+  - game-development
+docs_url: https://github.com/Accelar-labs/sprixen-mcp
+endpoints:
+  - url: https://api.sprixen.com/v1/mcp
+    transport: streamable-http
+    auth: api-key

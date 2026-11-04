@@ -1,0 +1,13 @@
+name: Promvia
+summary: 'AI search visibility: see whether ChatGPT, Perplexity, Gemini, Claude and Google AI cite your site, which sources they cite, and what AI-referred traffic is worth. 19 tools; OAuth sign-in (Pro or Agency plan), write tools opt-in.'
+category: marketing
+tags:
+  - ai-model
+  - analytics
+  - marketing
+  - seo
+docs_url: https://promvia.app/developers
+endpoints:
+  - url: https://promvia.app/api/mcp
+    transport: streamable-http
+    auth: oauth

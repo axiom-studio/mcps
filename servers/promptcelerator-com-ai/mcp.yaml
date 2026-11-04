@@ -1,0 +1,13 @@
+name: Promptcelerator
+summary: 'Free library of AI video prompts that really worked, each next to the video it produced and credited to its creator. Describe a video in plain words, in any language: your AI finds the prompts that fit, shows the videos and can adapt the best one to your idea. Read only, no account and no key.'
+category: other
+tags:
+  - ai-model
+  - content-creation
+  - search
+  - video
+docs_url: https://promptcelerator.com/ai
+endpoints:
+  - url: https://promptcelerator.com/mcp
+    transport: streamable-http
+    auth: none

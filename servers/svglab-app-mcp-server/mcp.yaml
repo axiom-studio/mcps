@@ -1,0 +1,13 @@
+name: SVG Lab
+summary: 'Gives your AI a design engine: ask Claude, ChatGPT, Codex or Cursor for app screens, icons and illustrations, and SVG Lab builds them as clean SVG on a canvas, with spacing, alignment and typography handled. Remote server at https://svglab.app/mcp with OAuth sign-in, no key needed.'
+category: design
+tags:
+  - ai-agent
+  - content-creation
+  - design
+  - svg
+docs_url: https://svglab.app/mcp-server
+endpoints:
+  - url: https://svglab.app/mcp
+    transport: streamable-http
+    auth: oauth

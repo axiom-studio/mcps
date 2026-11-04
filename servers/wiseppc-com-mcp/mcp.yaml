@@ -1,0 +1,13 @@
+name: WisePPC
+summary: 'Your AI agent works with your Amazon Ads and Seller Central data: ad performance, search terms, profit, inventory and listings. It can propose bid, budget and listing changes that wait for your approval.'
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - business-operations
+  - ecommerce
+docs_url: https://wiseppc.com/mcp/?utm_source=mcpservers&utm_medium=directory&utm_campaign=gtm-2026-10
+endpoints:
+  - url: https://mcp.wiseppc.com/mcp
+    transport: streamable-http
+    auth: oauth

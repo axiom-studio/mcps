@@ -1,0 +1,19 @@
+name: Mem
+summary: Mem is an AI notebook for notes, thoughts, and personal knowledge. Its connector gives assistants notebook context for recalling information, organizing ideas, and building a persistent knowledge workspace.
+description: |-
+  Mem is an AI notebook for notes, thoughts, and personal knowledge. Its connector gives assistants notebook context for recalling information, organizing ideas, and building a persistent knowledge workspace.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/mem)
+category: productivity
+tags:
+  - productivity
+  - remote-mcp
+official: true
+registry_name: io.github.mem-labs/mem
+docs_url: https://claude.com/connectors/mem
+endpoints:
+  - url: https://mcp.mem.ai/mcp
+    transport: streamable-http
+    auth: oauth

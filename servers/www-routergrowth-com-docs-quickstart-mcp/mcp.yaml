@@ -1,0 +1,14 @@
+name: RouterGrowth
+summary: 'GTM data and actions for AI agents: SEO, lead enrichment, social research and outreach through one pay-per-call MCP server.'
+category: marketing
+tags:
+  - marketing
+  - research
+  - sales
+  - seo
+  - social-media
+docs_url: https://www.routergrowth.com/docs/quickstart-mcp
+endpoints:
+  - url: https://api.routergrowth.com/mcp
+    transport: streamable-http
+    auth: oauth

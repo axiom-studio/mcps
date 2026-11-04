@@ -1,0 +1,13 @@
+name: Clypmint B-Roll
+summary: 'B-roll for agents: one search returns real, verified, licensed photos and footage of exactly what a script names. MCP server, REST API, CLI and plugins for Claude Code and Codex.'
+category: search
+tags:
+  - content-creation
+  - media
+  - search
+  - video
+docs_url: https://github.com/Clypmint/clypmint-broll
+endpoints:
+  - url: https://clypmint.com/mcp/broll
+    transport: streamable-http
+    auth: api-key

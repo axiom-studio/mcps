@@ -1,0 +1,13 @@
+name: Deacon
+summary: Your customers tell Deacon's support chat what broke. Claude Code, Cursor or your other coding agent reads it, finds the cause in your code and shows you the fix.
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - customer-ops
+  - debugging
+docs_url: https://heydeacon.com/features/mcp-server
+endpoints:
+  - url: https://heydeacon.com/mcp
+    transport: streamable-http
+    auth: oauth

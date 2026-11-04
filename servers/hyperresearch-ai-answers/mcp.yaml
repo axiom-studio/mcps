@@ -1,0 +1,13 @@
+name: Hyperresearch Answers
+summary: One question, one checked answer for AI agents. ask returns a short answer checked word for word against the quoted sources it rests on, or an honest not-found. search returns ranked raw sources with verbatim passages from the web and ~45 structured sources (filings, statistics, registers, scholarly, books). Remote, OAuth 2.1 or API key. Billed per call from 5 cents; $5 free credit, no card needed.
+category: search
+tags:
+  - knowledge-retrieval
+  - rag
+  - search
+  - web-research
+docs_url: https://hyperresearch.ai/answers?utm_source=mcpservers.org&utm_medium=mcp_directory
+endpoints:
+  - url: https://answers.hyperresearch.ai/mcp
+    transport: streamable-http
+    auth: oauth

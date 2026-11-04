@@ -1,0 +1,13 @@
+name: GoAnyAPI
+summary: SEO & marketing data APIs for developers — one API key and shared credits for traffic, backlinks, keywords, SERP, Trends and ads research. Also available as MCP.
+category: development
+tags:
+  - analytics
+  - api
+  - marketing
+  - seo
+docs_url: https://goanyapi.com/mcp
+endpoints:
+  - url: https://mcp.goanyapi.com/mcp
+    transport: streamable-http
+    auth: oauth

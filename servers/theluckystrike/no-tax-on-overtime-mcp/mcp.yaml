@@ -1,0 +1,12 @@
+name: No Tax on Overtime MCP
+summary: 2025-2028 no tax on overtime, tips and senior deductions (OBBBA) with IRS caps and phase-outs.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - government
+docs_url: https://github.com/theluckystrike/no-tax-on-overtime-mcp
+endpoints:
+  - url: https://no-tax-on-overtime-mcp.lipmichal.workers.dev/mcp
+    transport: streamable-http
+    auth: none

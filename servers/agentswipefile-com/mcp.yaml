@@ -1,0 +1,13 @@
+name: Agent Swipe File
+summary: 'Free directory of 136 creative reference libraries for ads, UGC, email, SMS and web design, with pricing and agent access (MCP/API) noted for each. Remote MCP endpoint: https://agentswipefile.com/mcp (tool: search_resources)'
+category: marketing
+tags:
+  - advertising
+  - design
+  - marketing
+  - search
+docs_url: https://agentswipefile.com/?utm_source=mcpservers&utm_medium=directory&utm_campaign=dir-mcp
+endpoints:
+  - url: https://agentswipefile.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: FileSeen
+summary: Share files as links from your AI assistant and see if they were opened, which pages were read and for how long.
+category: productivity
+tags:
+  - analytics
+  - document
+  - file-management
+  - productivity
+docs_url: https://fileseen.com/solutions/ai-assistants/
+endpoints:
+  - url: https://mcp.fileseen.com/mcp
+    transport: streamable-http
+    auth: api-key

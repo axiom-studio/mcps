@@ -1,0 +1,13 @@
+name: upcoach
+summary: Build coaching and training programs in upcoach, then pull progress reports, check-in responses and inactive participants, all by asking your AI assistant.
+category: productivity
+tags:
+  - ai-agent
+  - analytics
+  - education
+  - productivity
+docs_url: https://upcoach.com/help/settings-and-account/connect-ai-tools-with-mcp
+endpoints:
+  - url: https://v3.upcoach.com/s/mcp/admin
+    transport: streamable-http
+    auth: unknown

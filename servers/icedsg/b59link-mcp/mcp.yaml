@@ -1,0 +1,13 @@
+name: b59.link
+summary: Short links, tracked QR codes and cookie-free page-view trackers for AI agents, with stats pages. Hosted, no key needed to start.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+  - workflow-automation
+docs_url: https://github.com/icedsg/b59link-mcp
+endpoints:
+  - url: https://b59.link/api/mcp
+    transport: streamable-http
+    auth: none

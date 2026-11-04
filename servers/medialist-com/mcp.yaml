@@ -1,0 +1,13 @@
+name: Media List
+summary: Find journalists, editors, producers, podcast hosts and creators to pitch, by beat, outlet and location. Requires a Media List API key.
+category: marketing
+tags:
+  - communication
+  - content-creation
+  - marketing
+  - research
+docs_url: https://medialist.com
+endpoints:
+  - url: https://medialist.com/mcp
+    transport: streamable-http
+    auth: api-key

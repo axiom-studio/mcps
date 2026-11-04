@@ -1,0 +1,13 @@
+name: Prompt Saver
+summary: 'Personal prompt library over MCP: search, read, save and version your prompts from Claude Code. Starred prompts become slash commands. Same library as the // picker in the Chrome extension.'
+category: productivity
+tags:
+  - anthropic
+  - memory
+  - productivity
+  - workflow-automation
+docs_url: https://github.com/VeshRaazThapa/prompt-saver
+endpoints:
+  - url: https://promptsaver.online/api/mcp
+    transport: streamable-http
+    auth: api-key

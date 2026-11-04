@@ -1,0 +1,13 @@
+name: Olia
+summary: 'Practice management for French law firms: matters, time entries, clients and e-invoices from Claude or ChatGPT.'
+category: productivity
+tags:
+  - ai-agent
+  - business-operations
+  - document
+  - productivity
+docs_url: https://olia-app.fr/connecteur-ia
+endpoints:
+  - url: https://mcp.olia-app.fr/api/mcp
+    transport: streamable-http
+    auth: oauth

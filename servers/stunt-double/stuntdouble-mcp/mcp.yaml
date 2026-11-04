@@ -1,0 +1,12 @@
+name: Stunt Double
+summary: AI user personas test your product, prototypes and previews in a real browser and return screenshot evidence.
+category: development
+tags:
+  - ai-agent
+  - browser-automation
+  - testing-qa
+docs_url: https://github.com/stunt-double/stuntdouble-mcp
+endpoints:
+  - url: https://app.stuntdouble.io/api/mcp
+    transport: streamable-http
+    auth: oauth

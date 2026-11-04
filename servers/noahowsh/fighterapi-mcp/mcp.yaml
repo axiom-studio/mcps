@@ -1,0 +1,12 @@
+name: FighterAPI
+summary: 'UFC fights since 2000, plus PFL and Bellator: results, round stats, fighters and odds. REST and MCP.'
+category: other
+tags:
+  - api
+  - data-analysis
+  - sports
+docs_url: https://github.com/noahowsh/fighterapi-mcp
+endpoints:
+  - url: https://mcp.fighterapi.com/mcp
+    transport: streamable-http
+    auth: api-key

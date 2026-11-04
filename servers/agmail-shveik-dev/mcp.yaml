@@ -1,0 +1,13 @@
+name: agmail
+summary: 'Email inboxes for AI agents, by the hour: an address of your choice, one call to wait for a message, the code or link extracted. No account, paid per call with x402 stablecoins.'
+category: communication
+tags:
+  - ai-agent
+  - crypto
+  - email-automation
+  - payment
+docs_url: https://agmail.shveik.dev
+endpoints:
+  - url: https://agmail.shveik.dev/mcp
+    transport: streamable-http
+    auth: unknown

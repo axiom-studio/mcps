@@ -1,0 +1,14 @@
+name: Seyka AI MCP Server
+summary: 'AI SEO toolkit for agents on the Russian web: Yandex search, Wordstat keywords, headless browser, domain diagnostics (WHOIS/SSL/DNS/RKN), IP geo - plus Yandex Metrika, Webmaster, GSC and GA4 analytics. One API key, Bearer auth.'
+category: marketing
+tags:
+  - analytics
+  - browser-automation
+  - marketing
+  - seo
+  - web-research
+docs_url: https://seyka.ru/developers
+endpoints:
+  - url: https://mcp.seyka.ru/mcp
+    transport: streamable-http
+    auth: api-key

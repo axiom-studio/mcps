@@ -1,0 +1,12 @@
+name: Garmin Nutrition
+summary: Nutrition by Pack4Back lets you tell ChatGPT or Claude what you ate and write it to Garmin Connect — for you, or for family members who have granted access.
+category: cloud-service
+tags:
+  - api
+  - fitness
+  - healthcare
+docs_url: https://nutrition.pack4back.com/
+endpoints:
+  - url: https://nutrition.pack4back.com/mcp
+    transport: streamable-http
+    auth: oauth

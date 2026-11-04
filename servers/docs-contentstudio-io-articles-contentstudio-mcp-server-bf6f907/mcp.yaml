@@ -1,0 +1,14 @@
+name: ContentStudio MCP Server
+summary: Official hosted social MCP for agencies. Draft, schedule, publish, approvals, analytics, and inbox across connected networks from Claude, ChatGPT, Cursor, and other MCP clients.
+category: marketing
+tags:
+  - ai-model
+  - anthropic
+  - document
+  - documentation
+  - llm
+docs_url: https://docs.contentstudio.io/articles/contentstudio-mcp-server-bf6f907
+endpoints:
+  - url: https://mcp.contentstudio.io/mcp
+    transport: streamable-http
+    auth: unknown

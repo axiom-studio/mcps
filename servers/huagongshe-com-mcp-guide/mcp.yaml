@@ -1,0 +1,12 @@
+name: 化工社 HGS AIchem
+summary: 'Chemistry MCP: search compounds & reactions, stoichiometry, skills and reaction records.'
+category: other
+tags:
+  - data-analysis
+  - education
+  - research
+docs_url: https://huagongshe.com/mcp-guide
+endpoints:
+  - url: https://huagongshe.com/mcp
+    transport: streamable-http
+    auth: unknown

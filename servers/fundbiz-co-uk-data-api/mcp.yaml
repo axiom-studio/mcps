@@ -1,0 +1,12 @@
+name: FundBiz Lender Index
+summary: Read-only search of UK specialty business finance lenders listed in the FundBiz Lender Index, plus a current rates snapshot. No authentication.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - search
+docs_url: https://fundbiz.co.uk/data/api/
+endpoints:
+  - url: https://fundbiz.co.uk/mcp
+    transport: streamable-http
+    auth: none

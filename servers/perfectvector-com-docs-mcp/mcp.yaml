@@ -1,0 +1,13 @@
+name: PerfectVector
+summary: Convert PNG, JPEG and WebP images into clean, editable SVG files from your AI assistant. Built for logos, icons, stickers and line art. 1 credit per delivered SVG.
+category: design
+tags:
+  - design
+  - file-conversion
+  - icon-generation
+  - svg
+docs_url: https://perfectvector.com/docs/mcp
+endpoints:
+  - url: https://mcp.perfectvector.com/mcp
+    transport: streamable-http
+    auth: oauth

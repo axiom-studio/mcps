@@ -1,0 +1,10 @@
+name: Pinthread
+summary: Website feedback MCP server for AI coding agents. Pin comments on real site elements; your agent reads and resolves them.
+category: design
+tags:
+  - design
+docs_url: https://pinthread.dev/mcp-server/
+endpoints:
+  - url: https://pinthread.dev/mcp
+    transport: streamable-http
+    auth: api-key

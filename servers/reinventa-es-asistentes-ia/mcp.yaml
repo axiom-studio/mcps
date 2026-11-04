@@ -1,0 +1,13 @@
+name: Reinventa
+summary: 'Qué tareas de tu trabajo hará la IA, tarea a tarea: índice de 0 a 100, mapa de tareas y plan para esta semana, con el método público de reinventa.es. Gratis y sin cuenta.'
+category: productivity
+tags:
+  - ai-agent
+  - business-operations
+  - productivity
+  - workflow-automation
+docs_url: https://reinventa.es/asistentes-ia
+endpoints:
+  - url: https://reinventa.es/api/mcp
+    transport: streamable-http
+    auth: none

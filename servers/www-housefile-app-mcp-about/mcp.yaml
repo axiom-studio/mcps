@@ -1,0 +1,12 @@
+name: HouseFile UK property licensing checker
+summary: Checks whether a property in England is in a council's selective or HMO licensing scheme, with the council's source and the date it was checked.
+category: other
+tags:
+  - compliance
+  - government
+  - real-estate
+docs_url: https://www.housefile.app/mcp/about
+endpoints:
+  - url: https://www.housefile.app/mcp
+    transport: streamable-http
+    auth: unknown

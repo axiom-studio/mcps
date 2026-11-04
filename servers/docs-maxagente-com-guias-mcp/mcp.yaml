@@ -1,0 +1,14 @@
+name: Max Agente
+summary: 'Manage Max AI agents for WhatsApp and Instagram from Claude: rules, knowledge, escalations, integrations and chats, published when you confirm.'
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - social-media
+  - whatsapp
+  - workflow-automation
+docs_url: https://docs.maxagente.com/guias/mcp
+endpoints:
+  - url: https://maxagente.com/api/mcp
+    transport: streamable-http
+    auth: oauth

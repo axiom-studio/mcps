@@ -1,0 +1,13 @@
+name: Prolifik
+summary: Generate branded short-form video from a URL and auto-post to Instagram Reels, TikTok and YouTube Shorts.
+category: marketing
+tags:
+  - content-creation
+  - marketing-automation
+  - social-media
+  - video
+docs_url: https://getprolifik.com/docs/
+endpoints:
+  - url: https://app.getprolifik.com/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,14 @@
+name: Sharepa
+summary: 'Turn pages and artifacts built in Claude, ChatGPT or any MCP client into working websites: your own address, forms that collect entries, bookings straight into your Google Calendar, an optional password and visit statistics without cookies.  More than HTML hosting: a landing page with a sign-up form, a booking page for first calls or a password-protected offer for a client, all published and updated from the chat.  sharepa is a hosted, remote MCP server. There is nothing to install or run. Add the server URL to your MCP client, sign in with your email, and ask your chat to publish.'
+category: development
+tags:
+  - analytics
+  - calendar
+  - cms
+  - deployment
+  - workflow-automation
+docs_url: https://github.com/kirnski/sharepa-mcp
+endpoints:
+  - url: https://app.getsharepa.ch/mcp
+    transport: streamable-http
+    auth: oauth

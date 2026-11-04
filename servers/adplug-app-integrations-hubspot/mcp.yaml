@@ -1,0 +1,13 @@
+name: HubSpot MCP by AdPlug
+summary: HubSpot MCP for Claude and ChatGPT. Every client portal on one connector, CRM search and SQL reports, ad spend next to leads and deals, preview before every change.
+category: marketing
+tags:
+  - analytics
+  - crm
+  - hubspot
+  - marketing
+docs_url: https://adplug.app/integrations/hubspot
+endpoints:
+  - url: https://api.adplug.app/mcp/hubspot
+    transport: streamable-http
+    auth: oauth

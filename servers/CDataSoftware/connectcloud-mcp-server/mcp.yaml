@@ -1,0 +1,14 @@
+name: CData Connect Cloud
+summary: Query and manage data through CData Connect Cloud, providing a unified interface to various data sources.
+category: database
+tags:
+  - api
+  - cloud-infrastructure
+  - data-analysis
+  - database
+registry_name: com.cdata/cdata-connect-ai
+docs_url: https://github.com/CDataSoftware/connectcloud-mcp-server
+endpoints:
+  - url: https://mcp.cloud.cdata.com/mcp
+    transport: streamable-http
+    auth: unknown

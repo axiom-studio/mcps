@@ -1,0 +1,13 @@
+name: InsightSocial
+summary: Public profiles, posts, comments, followers and search from 25 social platforms (Instagram, TikTok, LinkedIn, X, YouTube, Reddit and more), priced per call.
+category: web-scraping
+tags:
+  - data-analysis
+  - research
+  - social-media
+  - web-scraping
+docs_url: https://github.com/insightsocial/cli
+endpoints:
+  - url: https://api.insightsocial.app/mcp
+    transport: streamable-http
+    auth: oauth

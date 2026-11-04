@@ -1,0 +1,13 @@
+name: Leadbase
+summary: Research companies, professional contacts, products and public web content with sources, then enrich and edit results in live Leadbase sheets.
+category: marketing
+tags:
+  - crm
+  - marketing
+  - spreadsheet
+  - web-research
+docs_url: https://www.leadbase.io/en/docs/settings/mcp
+endpoints:
+  - url: https://www.leadbase.io/api/mcp
+    transport: streamable-http
+    auth: oauth

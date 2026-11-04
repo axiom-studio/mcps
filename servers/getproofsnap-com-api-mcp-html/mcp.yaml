@@ -1,0 +1,13 @@
+name: ProofSnap
+summary: Capture any public web page as court-ready evidence from Claude, ChatGPT, Grok, Mistral Vibe, GitHub Copilot or any MCP app. Each capture is a signed, timestamped evidence package (screenshot, HTML, page text, metadata, chain of custody, OpenTimestamps proof, optional eIDAS qualified timestamp). The assistant can also verify packages, compare two captures and watch pages for changes. Remote server with OAuth; free sandbox with 50 watermarked test captures.
+category: web-scraping
+tags:
+  - browser-automation
+  - compliance
+  - monitoring
+  - web-scraping
+docs_url: https://getproofsnap.com/api/mcp.html
+endpoints:
+  - url: https://mcp.getproofsnap.com/mcp
+    transport: streamable-http
+    auth: oauth

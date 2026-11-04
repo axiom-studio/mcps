@@ -1,0 +1,13 @@
+name: Sentarys
+summary: AI video editing for podcast clips, narrated faceless videos, and long-form vlogs.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - media
+  - video
+docs_url: https://sentarys.com/docs/mcp
+endpoints:
+  - url: https://api.sentarys.com/v1/mcp
+    transport: streamable-http
+    auth: unknown

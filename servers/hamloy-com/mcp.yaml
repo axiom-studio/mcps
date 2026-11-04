@@ -1,0 +1,13 @@
+name: Hamloy
+summary: 'See what every AI agent is doing and what''s waiting on you: one to-do list for agents and your team'
+category: productivity
+tags:
+  - ai-agent
+  - collaboration
+  - productivity
+  - task-management
+docs_url: https://hamloy.com
+endpoints:
+  - url: https://hamloy.com/mcp
+    transport: streamable-http
+    auth: oauth

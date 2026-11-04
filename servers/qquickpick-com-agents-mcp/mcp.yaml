@@ -1,0 +1,12 @@
+name: QQuickpick
+summary: Search movies and TV shows by mood, genre, score, cast, and awards, filtered to what's streaming near you.
+category: search
+tags:
+  - entertainment
+  - media
+  - search
+docs_url: https://qquickpick.com/agents/mcp
+endpoints:
+  - url: https://qquickpick.com/mcp
+    transport: streamable-http
+    auth: none

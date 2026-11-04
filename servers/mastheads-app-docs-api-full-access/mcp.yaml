@@ -1,0 +1,14 @@
+name: Mastheads
+summary: 'Read and write your own AI newsroom over MCP: articles, their sources, the checks, the editor of record. Read tools free; write and publish need a full-access key.'
+category: marketing
+tags:
+  - ai-agent
+  - content-creation
+  - marketing
+  - news
+  - workflow-automation
+docs_url: https://mastheads.app/docs/api/full-access
+endpoints:
+  - url: https://api.mastheads.app/v1/mcp
+    transport: streamable-http
+    auth: unknown

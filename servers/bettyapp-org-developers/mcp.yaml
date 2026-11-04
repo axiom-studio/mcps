@@ -1,0 +1,12 @@
+name: Bettyapp lecture moments
+summary: Find the moments in university and school lectures that explain a topic, with links that play each lecture from that moment. Read-only, no sign-in.
+category: search
+tags:
+  - education
+  - knowledge-retrieval
+  - search
+docs_url: https://bettyapp.org/developers
+endpoints:
+  - url: https://bettyapp.org/mcp
+    transport: streamable-http
+    auth: none

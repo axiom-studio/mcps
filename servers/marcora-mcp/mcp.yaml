@@ -1,0 +1,22 @@
+name: Marcora
+summary: |-
+  Marcora gives your AI assistant your team's brand and product context for product marketing and sales enablement: brand voice, positioning, messaging, competitive intel and product facts, so what you write stays on-brand and on-message.
+
+  Build your source of truth once: a Brand Foundation (positioning, brand voice and writing style) plus a Reference Library of product docs, buyer personas, competitive analysis and messaging. Any AI tool that supports MCP connections reads it, including Claude, Claude Code, ChatGPT and Codex, so you can start a draft in one tool and finish it in another with its context intact. Update a fact once and every connected tool reads it.
+
+  What you can do: write copy in your tone of voice, following your brand guidelines and style guide; draft battlecards, one-pagers, case studies, press releases, landing pages, blog posts, newsletters, email copy and release notes; generate on-brand content and campaigns from proven Blueprints; keep your messaging framework and ICP in one place; add a campaign's material to a Project so it applies there and stays out of everything else; save what you learn, like a call insight, back as context; fact-check drafts against your sources with Content Grounding; package repeatable work into Workflows and Playbooks. For sales enablement and customer success, publish battlecards, one-pagers, onboarding guides and launch briefs as branded public share pages with view tracking, so sellers and customers open them from one link.
+
+  Context Intelligence runs freshness checks, scans for messaging drift and suggests one-click fixes.
+
+  Built for product marketers (PMMs) and GTM teams at B2B SaaS companies, also used in sales and customer success. 200+ integrations bring in the tools where work lives. Remote server with OAuth sign-in: https://mcp.marcora.ai. You need a Marcora account, and answers draw only on the context your team has added. Reading your context is always free, on every plan.
+category: marketing
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - marketing
+official: true
+docs_url: https://marcora.ai/docs/mcp-overview
+endpoints:
+  - url: https://mcp.marcora.ai
+    transport: streamable-http
+    auth: oauth

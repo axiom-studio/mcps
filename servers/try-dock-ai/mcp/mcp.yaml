@@ -1,0 +1,14 @@
+name: Dock
+summary: 'Official MCP server for Dock (trydock.ai), the workspace where humans and AI agents work as teammates. 71 tools: docs, tables, HTML surfaces, search, comments, agent messaging. Remote Streamable HTTP with OAuth.'
+category: productivity
+tags:
+  - ai-agent
+  - collaboration
+  - document
+  - knowledge-retrieval
+  - productivity
+docs_url: https://github.com/try-dock-ai/mcp
+endpoints:
+  - url: https://trydock.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

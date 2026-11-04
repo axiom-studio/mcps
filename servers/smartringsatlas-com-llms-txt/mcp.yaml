@@ -1,0 +1,13 @@
+name: Smart Rings Atlas
+summary: Read-only smart ring research, comparisons and regional buying links. Some links earn affiliate commissions.
+category: search
+tags:
+  - ecommerce
+  - research
+  - wearable
+  - web-research
+docs_url: https://smartringsatlas.com/llms.txt
+endpoints:
+  - url: https://smartringsatlas.com/mcp
+    transport: streamable-http
+    auth: none

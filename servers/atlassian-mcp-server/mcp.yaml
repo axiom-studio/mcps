@@ -1,0 +1,19 @@
+name: Atlassian MCP Server
+summary: Official Atlassian MCP server for connecting AI agents to Jira, Confluence, Opsgenie, and other Atlassian products.
+category: productivity
+tags:
+  - confluence
+  - devops-infrastructure
+  - jira
+  - observability-incident
+  - project-management
+official: true
+registry_name: com.atlassian/atlassian-mcp-server
+docs_url: https://github.com/atlassian/atlassian-mcp-server
+endpoints:
+  - url: https://mcp.atlassian.com/v1/mcp/authv2
+    transport: streamable-http
+    auth: oauth
+  - url: https://mcp.atlassian.com/v1/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: No Errands Cards
+summary: Mail a real greeting card, handwritten with a pen or printed, to a US address by a date you name. The agent shows the design, message and price and waits for approval. Remote MCP (streamable HTTP), API-key auth.
+category: communication
+tags:
+  - communication
+  - document
+  - workflow-automation
+docs_url: https://noerrands.com/how-to/send-a-birthday-card-with-muse/?ref=mcpservers
+endpoints:
+  - url: https://api.noerrands.com/c/cards/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,11 @@
+name: ask.recipes
+summary: Recipe search, ingredient matching, nutrition filters and a private cookbook for any AI agent.
+category: other
+tags:
+  - knowledge-retrieval
+  - search
+docs_url: https://ask.recipes/docs
+endpoints:
+  - url: https://mcp.ask.recipes/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: TokenSafe by PromptVault
+summary: 'Free limited token risk check for Base/Solana tokens (tokensafe_free) plus info on optional paid x402 endpoints. Remote MCP: https://promptvault-x402.onrender.com/mcp. Rule-based, informational only, not financial advice.'
+category: finance
+tags:
+  - crypto
+  - defi
+  - evm
+  - finance
+docs_url: https://promptvault-x402.onrender.com
+endpoints:
+  - url: https://promptvault-x402.onrender.com/mcp
+    transport: streamable-http
+    auth: unknown

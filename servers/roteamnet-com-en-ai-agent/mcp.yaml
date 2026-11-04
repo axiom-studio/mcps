@@ -1,0 +1,12 @@
+name: roTEAMnet — Global Jobs & CV Assistant
+summary: Search 500,000+ active jobs worldwide, including remote and part-time roles. Compare requirements with confirmed CV facts and prepare reviewed CVs through scoped OAuth. Free job search; AI uses credits.
+category: search
+tags:
+  - productivity
+  - research
+  - search
+docs_url: https://roteamnet.com/en/ai-agent?utm_source=mcpservers&utm_medium=connector_directory
+endpoints:
+  - url: https://roteamnet.com/api/mcp
+    transport: streamable-http
+    auth: oauth

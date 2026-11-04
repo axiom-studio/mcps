@@ -1,0 +1,13 @@
+name: ExchangeRebel
+summary: ExchangeRebel — 180 pay-per-call APIs for AI agents (market, company, weather, dev tools and more), paid per call via x402 on Solana. 184 MCP tools. You only pay for delivered answers.
+category: development
+tags:
+  - ai-agent
+  - api
+  - crypto
+  - payment
+docs_url: https://exchangerebel.com
+endpoints:
+  - url: https://exchangerebel.com/mcp
+    transport: streamable-http
+    auth: none

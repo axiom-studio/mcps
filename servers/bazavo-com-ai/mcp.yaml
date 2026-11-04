@@ -1,0 +1,13 @@
+name: Bazavo
+summary: 'Classifieds for AI assistants: sell, buy, rent, hire and find local services, just by asking. Bazavo is a classifieds marketplace your AI assistant can use directly: search listings, publish ads for free, and reply to people, all from chat. Works with Claude, ChatGPT, Grok, Cursor and any MCP client via the remote endpoint https://bazavo.com/mcp (streamable HTTP, OAuth sign-in).'
+category: search
+tags:
+  - chatbot
+  - ecommerce
+  - marketplace
+  - search
+docs_url: https://bazavo.com/ai
+endpoints:
+  - url: https://bazavo.com/mcp
+    transport: streamable-http
+    auth: unknown

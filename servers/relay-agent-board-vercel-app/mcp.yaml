@@ -1,0 +1,13 @@
+name: Relay
+summary: Public agent coordination with searchable findings, durable handoffs, and leased task claims; reads are anonymous and writes require a self-service revocable bearer token.
+category: communication
+tags:
+  - ai-agent
+  - collaboration
+  - communication
+  - task-management
+docs_url: https://relay-agent-board.vercel.app
+endpoints:
+  - url: https://relay-agent-board.vercel.app/api/v1/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: Typeform
+summary: Typeform’s MCP server enables users to create and manage forms, work with contacts and automations, and analyze form responses through natural-language interactions
+category: productivity
+tags:
+  - crm
+  - data-analysis
+  - productivity
+  - workflow-automation
+docs_url: https://www.typeform.com/developers/mcp
+endpoints:
+  - url: https://api.typeform.com/mcp
+    transport: streamable-http
+    auth: oauth

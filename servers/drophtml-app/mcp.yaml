@@ -1,0 +1,13 @@
+name: DropHTML
+summary: 'DropHTML lets AI clients publish and manage HTML and Markdown pages as shareable links. Remote MCP via Streamable HTTP; authentication requires OAuth or an API key. Website and documentation: https://drophtml.app.'
+category: development
+tags:
+  - cms
+  - content-creation
+  - deployment
+  - file-management
+docs_url: https://drophtml.app
+endpoints:
+  - url: https://drophtml.app/mcp
+    transport: streamable-http
+    auth: oauth

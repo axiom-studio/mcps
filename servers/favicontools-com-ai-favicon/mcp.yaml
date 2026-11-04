@@ -1,0 +1,13 @@
+name: Favicon Tools
+summary: Audit a site's favicons and app icons, and generate a full favicon, Apple touch and PWA icon set.
+category: development
+tags:
+  - design
+  - development
+  - file-conversion
+  - web-scraping
+docs_url: https://favicontools.com/ai-favicon
+endpoints:
+  - url: https://favicontools.com/api/mcp
+    transport: streamable-http
+    auth: none

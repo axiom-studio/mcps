@@ -1,0 +1,14 @@
+name: OperatorNest tools
+summary: Calculate API and subscription costs, shared meeting times, recurring schedules and cron matches.
+category: productivity
+tags:
+  - api
+  - calendar
+  - finance
+  - productivity
+  - workflow-automation
+docs_url: https://github.com/OperatorNest/mcp-tools
+endpoints:
+  - url: https://operatornest.com/mcp
+    transport: streamable-http
+    auth: none

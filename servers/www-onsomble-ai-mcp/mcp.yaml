@@ -1,0 +1,13 @@
+name: Onsomble
+summary: Track how ChatGPT, Claude, Gemini and other AI assistants describe your brand. Run AI visibility scans and review visibility, Share of Voice, sentiment and cited sources from your assistant.
+category: marketing
+tags:
+  - ai-agent
+  - analytics
+  - marketing
+  - research
+docs_url: https://www.onsomble.ai/mcp
+endpoints:
+  - url: https://mcp.onsomble.ai/mcp
+    transport: streamable-http
+    auth: oauth

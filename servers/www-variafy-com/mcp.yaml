@@ -1,0 +1,13 @@
+name: Variafy
+summary: Ad results, CRM revenue and account alerts for AI assistants. Meta ad changes are previewed and need your confirmation; Google Ads, Microsoft Advertising, LinkedIn Ads, GA4 and Search Console are read-only. Free beta by invitation.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - crm
+  - marketing
+docs_url: https://www.variafy.com
+endpoints:
+  - url: https://www.variafy.com/mcp
+    transport: streamable-http
+    auth: unknown

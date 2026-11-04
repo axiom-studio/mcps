@@ -1,0 +1,12 @@
+name: PontoFato
+summary: 'Brazilian addresses for agents: IBGE-geocoded CEP points, radius search and companies by CEP.'
+category: search
+tags:
+  - data-analysis
+  - geospatial
+  - search
+docs_url: https://github.com/wrpbr/pontofato
+endpoints:
+  - url: https://pontofato.com/mcp
+    transport: streamable-http
+    auth: none

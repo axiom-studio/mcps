@@ -1,0 +1,13 @@
+name: CleanAudio MCP
+summary: 'Hosted audio editing MCP: remove background noise and silences, cut and join clips, and text to speech, with no FFmpeg install.'
+category: productivity
+tags:
+  - audio
+  - media
+  - productivity
+  - text-to-speech
+docs_url: https://cleanaudio.app/mcp/docs
+endpoints:
+  - url: https://mcp.cleanaudio.app/mcp
+    transport: streamable-http
+    auth: oauth

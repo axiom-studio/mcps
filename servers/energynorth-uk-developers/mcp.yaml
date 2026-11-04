@@ -1,0 +1,12 @@
+name: Energy North Journal
+summary: Search and read free plain-English guides on electrical safety, EICRs, landlord duties and EV chargers in London. Remote, read-only, no account or key. Endpoint https://energynorth.uk/api/mcp
+category: search
+tags:
+  - document
+  - knowledge-retrieval
+  - research
+docs_url: https://energynorth.uk/developers
+endpoints:
+  - url: https://energynorth.uk/api/mcp
+    transport: streamable-http
+    auth: none

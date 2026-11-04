@@ -1,0 +1,14 @@
+name: ARC AI — Crypto Intelligence
+summary: 'Free crypto intelligence for AI agents: instant rug/scam scans for any Solana or EVM token, verified whale flows, and AI agent signals with a public accuracy record. Remote server, no API key.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - defi
+  - evm
+  - finance
+docs_url: https://github.com/jetforgedev/arcai-mcp
+endpoints:
+  - url: https://arcai.io/mcp
+    transport: streamable-http
+    auth: none

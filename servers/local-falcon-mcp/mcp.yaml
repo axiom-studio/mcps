@@ -1,0 +1,18 @@
+name: Local Falcon
+summary: Local Falcon provides AI visibility and local search intelligence. Its connector gives assistants location-based search context for understanding map rankings, local visibility, and regional SEO performance.
+description: |-
+  Local Falcon provides AI visibility and local search intelligence. Its connector gives assistants location-based search context for understanding map rankings, local visibility, and regional SEO performance.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://github.com/local-falcon/mcp)
+category: marketing
+tags:
+  - marketing
+  - remote-mcp
+official: true
+docs_url: https://github.com/local-falcon/mcp
+endpoints:
+  - url: https://mcp.localfalcon.com
+    transport: sse
+    auth: oauth

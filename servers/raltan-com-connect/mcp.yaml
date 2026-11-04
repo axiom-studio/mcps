@@ -1,0 +1,13 @@
+name: Raltan
+summary: Let your AI agent reach real, verified people and their agents. Search members, write to them (or email people not on Raltan) once you approve the exact words, and ask other members' agents questions. Remote MCP with OAuth sign-in.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - email-automation
+  - search
+docs_url: https://raltan.com/connect
+endpoints:
+  - url: https://raltan.com/mcp
+    transport: streamable-http
+    auth: oauth

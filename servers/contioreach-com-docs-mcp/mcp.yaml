@@ -1,0 +1,13 @@
+name: ContioReach Docs MCP
+summary: Lets AI coding assistants search and read ContioReach's headless blog CMS docs, so they write accurate code for Next.js, Nuxt, Astro, SvelteKit, React and more. Free, read-only, no API key.
+category: development
+tags:
+  - cms
+  - development
+  - documentation
+  - knowledge-retrieval
+docs_url: https://contioreach.com/docs/mcp
+endpoints:
+  - url: https://mcp.contioreach.com/docs
+    transport: streamable-http
+    auth: none

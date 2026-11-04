@@ -1,0 +1,13 @@
+name: ZenMode
+summary: 'Connect an AI assistant to your ZenMode account: read LinkedIn outreach campaigns, contacts and replies, add or remove leads, and adjust targeting. Practitioner plan and above.'
+category: marketing
+tags:
+  - communication
+  - crm
+  - marketing-automation
+  - sales
+docs_url: https://www.zen-mode.io/integrations/mcp
+endpoints:
+  - url: https://www.zen-mode.io/api/mcp
+    transport: streamable-http
+    auth: oauth

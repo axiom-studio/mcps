@@ -1,0 +1,13 @@
+name: Spun WhatsApp MCP
+summary: 'Connect Claude, ChatGPT or any AI to your business WhatsApp: read and search chats, digests, team stats, and sends you approve.'
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - customer-ops
+  - whatsapp
+docs_url: https://spun.com/mcp/
+endpoints:
+  - url: https://api.spun.com/api/mcp
+    transport: streamable-http
+    auth: oauth

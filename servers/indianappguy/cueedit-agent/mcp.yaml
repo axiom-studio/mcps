@@ -1,0 +1,13 @@
+name: CueEdit
+summary: 'Let your AI agent run your Instagram and Facebook Pages: schedule reels, reply to comments, DM everyone who comments LINK, and run comment-to-DM Auto DM rules. Remote MCP (OAuth or API key).'
+category: marketing
+tags:
+  - marketing-automation
+  - notifications
+  - social-media
+  - workflow-automation
+docs_url: https://github.com/IndianAppGuy/cueedit-agent
+endpoints:
+  - url: https://www.cueedit.io/api/mcp/mcp
+    transport: streamable-http
+    auth: unknown

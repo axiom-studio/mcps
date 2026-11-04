@@ -1,0 +1,13 @@
+name: GammaFlip
+summary: 'Options gamma exposure for crypto and US markets inside your AI assistant: gamma flip, gamma peaks, max pain, per-strike GEX and history.'
+category: finance
+tags:
+  - analytics
+  - crypto
+  - finance
+  - trading
+docs_url: https://docs.gammaflip.io/claude-and-chatgpt
+endpoints:
+  - url: https://mcp.gammaflip.io/mcp
+    transport: streamable-http
+    auth: oauth

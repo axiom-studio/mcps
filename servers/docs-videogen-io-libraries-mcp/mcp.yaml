@@ -1,0 +1,14 @@
+name: VideoGen MCP
+summary: Create videos, images, voiceovers, music, and avatars from AI agents through the official VideoGen API.
+category: other
+tags:
+  - ai-model
+  - content-creation
+  - media
+  - text-to-speech
+  - video
+docs_url: https://docs.videogen.io/libraries/mcp
+endpoints:
+  - url: https://mcp.videogen.io/mcp
+    transport: streamable-http
+    auth: oauth

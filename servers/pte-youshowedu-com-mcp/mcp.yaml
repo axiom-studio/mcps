@@ -1,0 +1,12 @@
+name: YoushowPTE
+summary: Read-only MCP server for PTE Academic question types, public sample questions, test format and Australian score thresholds. PTE 学术题库、试卷结构与分数标准，只读，无需 API Key。
+category: other
+tags:
+  - education
+  - knowledge-retrieval
+  - research
+docs_url: https://pte.youshowedu.com/mcp
+endpoints:
+  - url: https://pte.youshowedu.com/api/mcp
+    transport: streamable-http
+    auth: none

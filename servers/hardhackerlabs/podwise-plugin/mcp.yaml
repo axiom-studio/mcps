@@ -1,0 +1,14 @@
+name: Podwise
+summary: 'Podcast knowledge for AI agents: search podcasts and episodes, pull full transcripts, read AI summaries and mind maps, ask questions across episodes, translate episodes, create clips, and export notes as Markdown or SRT. 38 tools. Remote MCP endpoint at https://mcp.podwise.ai/mcp with OAuth sign-in (Pro or Enterprise plan required for tool calls).'
+category: search
+tags:
+  - audio
+  - knowledge-retrieval
+  - media
+  - search
+  - translation
+docs_url: https://github.com/hardhackerlabs/podwise-plugin
+endpoints:
+  - url: https://mcp.podwise.ai/mcp
+    transport: streamable-http
+    auth: oauth

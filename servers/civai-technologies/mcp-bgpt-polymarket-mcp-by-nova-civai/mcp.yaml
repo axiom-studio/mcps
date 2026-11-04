@@ -1,0 +1,13 @@
+name: Polymarket MCP by Nova (CIVAI)
+summary: Browse prediction markets, check odds, and follow big trades.
+category: productivity
+tags:
+  - crypto
+  - finance
+  - marketplace
+  - trading
+docs_url: https://github.com/civai-technologies/mcp-bgpt-polymarket-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-bgpt-polymarket
+    transport: streamable-http
+    auth: api-key

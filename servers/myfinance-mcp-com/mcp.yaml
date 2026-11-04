@@ -1,0 +1,12 @@
+name: MyFinance MCP
+summary: 'Personal finance by chat: expenses, income, budgets and net worth in 150+ currencies; any bank via statement import.'
+category: finance
+tags:
+  - data-analysis
+  - document
+  - finance
+docs_url: https://myfinance-mcp.com
+endpoints:
+  - url: https://myfinance-mcp.com/mcp
+    transport: streamable-http
+    auth: oauth

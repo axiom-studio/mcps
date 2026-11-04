@@ -1,0 +1,13 @@
+name: Companero
+summary: Official MCP server for Companero, the Romanian company data platform (ANAF, ONRC, Monitorul Oficial, SEAP). Search and screen Romanian companies, get company profiles, balance sheets, financial health, ANAF debts, public procurement contracts, ownership networks and B2B prospect lists. Remote Streamable HTTP with OAuth 2.0; free tools work without an account.
+category: finance
+tags:
+  - business-operations
+  - data-analysis
+  - finance
+  - research
+docs_url: https://companero.ro/mcp/connect
+endpoints:
+  - url: https://companero.ro/mcp
+    transport: streamable-http
+    auth: oauth

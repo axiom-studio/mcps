@@ -1,0 +1,13 @@
+name: AcqPath
+summary: Signed source-rights evidence for RAG, AI input, indexing, training and search. Evidence only; not a licence or legal clearance.
+category: development
+tags:
+  - data-analysis
+  - knowledge-retrieval
+  - rag
+  - search
+docs_url: https://github.com/reflectme-source/acqpath-distribution
+endpoints:
+  - url: https://api.getacqpath.com/mcp
+    transport: streamable-http
+    auth: unknown

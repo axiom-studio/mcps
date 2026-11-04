@@ -1,0 +1,11 @@
+name: ASOgenic MCP
+summary: 'App Store Optimization tools for AI agents: research Apple keywords, localize and validate App Store metadata, manage screenshots and releases, and publish safely through App Store Connect.'
+category: marketing
+tags:
+  - marketing
+  - mobile
+docs_url: https://asogenic.com/docs
+endpoints:
+  - url: https://mcp.asogenic.com/mcp
+    transport: streamable-http
+    auth: api-key

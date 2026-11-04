@@ -1,0 +1,15 @@
+name: PostEverywhere
+summary: Social media scheduler for AI agents. Write, schedule and publish posts to Instagram, TikTok, YouTube, LinkedIn, Facebook, X, Threads,    Pinterest, Bluesky, Telegram, Discord and WordPress from Claude, ChatGPT, Cursor or any MCP client. Plan a content calendar, fill a posting    queue, cross-post one video to Reels, Shorts and TikTok, find and retry failed posts, and see how every post performed. Hosted remote server    with OAuth sign-in, no API key needed.
+category: productivity
+tags:
+  - content-creation
+  - marketing-automation
+  - social-media
+  - workflow-automation
+official: true
+registry_name: ai.posteverywhere/mcp
+docs_url: https://posteverywhere.ai
+endpoints:
+  - url: https://mcp.posteverywhere.ai/mcp
+    transport: streamable-http
+    auth: oauth

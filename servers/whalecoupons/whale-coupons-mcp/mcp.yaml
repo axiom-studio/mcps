@@ -1,0 +1,12 @@
+name: Whale Coupons
+summary: 'AI-assistant access to real discount codes from thousands of independent online stores. Look up by store, URL or category. Read-only, no sign-in. Remote MCP server: https://whalecoupons.co/mcp'
+category: other
+tags:
+  - ecommerce
+  - search
+  - web-research
+docs_url: https://github.com/whalecoupons/whale-coupons-mcp
+endpoints:
+  - url: https://whalecoupons.co/mcp
+    transport: streamable-http
+    auth: none

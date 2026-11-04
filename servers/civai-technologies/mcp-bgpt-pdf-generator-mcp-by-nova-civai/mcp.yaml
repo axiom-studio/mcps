@@ -1,0 +1,13 @@
+name: PDF Generator MCP by Nova (CIVAI)
+summary: Create PDF documents from your request. Preview the content first, then download when ready.
+category: productivity
+tags:
+  - content-creation
+  - document
+  - pdf
+  - productivity
+docs_url: https://github.com/civai-technologies/mcp-bgpt-pdf-generator-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-bgpt-pdf-generator
+    transport: streamable-http
+    auth: api-key

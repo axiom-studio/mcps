@@ -1,0 +1,14 @@
+name: Walkie
+summary: Search Walkie meeting transcripts, notes, action items, and speaker-labeled conversations from AI assistants through a read-only MCP server.
+category: productivity
+tags:
+  - knowledge-retrieval
+  - meeting-notes
+  - notes
+  - productivity
+  - search
+docs_url: https://github.com/adamperlis/walkie-mcp
+endpoints:
+  - url: https://mcp.trywalkie.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: Booklet
+summary: Publish Markdown incident reports, ADRs, RFCs and runbooks as web pages, with team spaces.
+category: productivity
+tags:
+  - collaboration
+  - document
+  - documentation
+  - knowledge-retrieval
+  - productivity
+docs_url: https://github.com/AshwinSathian/booklet
+endpoints:
+  - url: https://booklet-mcp.ashwinsathian.com/mcp
+    transport: streamable-http
+    auth: oauth

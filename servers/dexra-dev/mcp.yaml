@@ -1,0 +1,14 @@
+name: Dexra
+summary: 'Solana DeFi checks for AI agents: token launches, holders, wallets, pools, perp markets and swap preflight, each with a verdict and evidence. Free tools plus pay-per-call in USDC via x402.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - defi
+  - evm
+  - finance
+docs_url: https://dexra.dev
+endpoints:
+  - url: https://api.dexra.dev/mcp
+    transport: streamable-http
+    auth: none

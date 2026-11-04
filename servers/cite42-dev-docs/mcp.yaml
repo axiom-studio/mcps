@@ -1,0 +1,14 @@
+name: Cite42 AI Visibility Tracker
+summary: Cite42 is an AI search visibility tracker for monitoring brand rankings, AI citations, and competitor presence across ChatGPT, Claude, Perplexity, Gemini, and Google AI Overviews. Run AI visibility tracking workflows for prompt tracking, AI citation monitoring, SEO keyword research, content opportunities, Reddit and YouTube trends, and scheduled monitoring.
+category: search
+tags:
+  - ai-model
+  - analytics
+  - marketing
+  - research
+  - seo
+docs_url: https://cite42.dev/docs
+endpoints:
+  - url: https://mcp.cite42.dev
+    transport: streamable-http
+    auth: api-key

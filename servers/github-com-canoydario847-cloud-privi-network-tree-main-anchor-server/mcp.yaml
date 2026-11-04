@@ -1,0 +1,12 @@
+name: Privi Anchor
+summary: Hash anchoring and proof-of-existence on chain for AI agents and apps. Free with an API key.
+category: development
+tags:
+  - ai-agent
+  - crypto
+  - security
+docs_url: https://github.com/canoydario847-cloud/Privi-Network/tree/main/anchor-server
+endpoints:
+  - url: https://privi-anchor.onrender.com/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,12 @@
+name: Kaption WhatsApp
+summary: Search and summarize your WhatsApp chats, read voice-note transcripts, and manage labels, reminders and scheduled messages from Claude, ChatGPT or Cursor, through the Kaption extension for WhatsApp Web or the Kaption desktop app.
+category: communication
+tags:
+  - communication
+  - productivity
+  - whatsapp
+docs_url: https://kaptionai.com/mcp/
+endpoints:
+  - url: https://mcp.kaptionai.com/mcp
+    transport: streamable-http
+    auth: unknown

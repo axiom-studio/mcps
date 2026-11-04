@@ -1,0 +1,12 @@
+name: Claude resets
+summary: Read-only MCP for announced Claude Code usage-limit resets, with Codex comparison. Not affiliated with Anthropic.
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - development
+docs_url: https://claude-resets.com
+endpoints:
+  - url: https://claude-resets.com/mcp
+    transport: streamable-http
+    auth: none

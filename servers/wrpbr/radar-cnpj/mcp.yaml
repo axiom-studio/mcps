@@ -1,0 +1,13 @@
+name: Radar CNPJ
+summary: 'Brazilian company registry (Receita Federal) for agents: CNPJ lookup, company search and business-idea evaluation.'
+category: finance
+tags:
+  - api
+  - data-analysis
+  - finance
+  - research
+docs_url: https://github.com/wrpbr/radar-cnpj
+endpoints:
+  - url: https://radar-cnpj.com/mcp
+    transport: streamable-http
+    auth: none

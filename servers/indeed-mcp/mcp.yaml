@@ -1,0 +1,18 @@
+name: Indeed
+summary: Indeed is one of the world's largest job platforms. Its remote MCP server lets assistants search job listings, retrieve detailed descriptions and requirements, and link users directly to relevant openings as part of career and hiring conversations.
+description: |-
+  Indeed is one of the world's largest job platforms. Its remote MCP server lets assistants search job listings, retrieve detailed descriptions and requirements, and link users directly to relevant openings as part of career and hiring conversations.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/indeed)
+category: productivity
+tags:
+  - productivity
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/indeed
+endpoints:
+  - url: https://mcp.indeed.com/claude/mcp
+    transport: streamable-http
+    auth: oauth

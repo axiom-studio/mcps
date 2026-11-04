@@ -1,0 +1,13 @@
+name: Zinc
+summary: Shop Amazon, Walmart, Target, Best Buy and more from Claude or ChatGPT. Search products for free, review the total, pay by card on a Stripe page, and track the order. No account or API key needed, and only your click on the confirmation card can place an order.
+category: other
+tags:
+  - ecommerce
+  - marketplace
+  - payment
+  - web-scraping
+docs_url: https://www.zinc.com/docs/v2/mcp/overview
+endpoints:
+  - url: https://mcp.zinc.com/mcp
+    transport: streamable-http
+    auth: oauth

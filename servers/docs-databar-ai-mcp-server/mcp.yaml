@@ -1,0 +1,14 @@
+name: Databar.ai
+summary: 'B2B data enrichment for AI agents: 100+ data providers, email & phone waterfalls, prospect search and persistent tables behind one MCP server.'
+category: web-scraping
+tags:
+  - crm
+  - data-analysis
+  - email-automation
+  - sales
+  - web-scraping
+docs_url: https://docs.databar.ai/mcp-server
+endpoints:
+  - url: https://mcp.databar.ai/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: pg-aiguide
+summary: Postgres skills and documentation to help AI coding tools generate better PostgreSQL code.
+category: database
+tags:
+  - database
+  - document
+  - documentation
+official: true
+registry_name: io.github.timescale/pg-aiguide
+docs_url: https://github.com/timescale/pg-aiguide
+endpoints:
+  - url: https://mcp.tigerdata.com/docs
+    transport: streamable-http
+    auth: none

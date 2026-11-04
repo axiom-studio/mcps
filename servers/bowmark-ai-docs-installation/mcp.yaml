@@ -1,0 +1,12 @@
+name: Bowmark
+summary: Bowmark turns websites into typed functions an AI agent can call. Read a library, write a short script, get structured data back.
+category: web-scraping
+tags:
+  - ai-agent
+  - browser-automation
+  - web-scraping
+docs_url: https://bowmark.ai/docs/installation
+endpoints:
+  - url: https://api.bowmark.ai/mcp
+    transport: streamable-http
+    auth: unknown

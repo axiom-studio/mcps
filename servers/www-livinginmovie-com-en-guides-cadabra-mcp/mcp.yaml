@@ -1,0 +1,13 @@
+name: Cadabra AI
+summary: 'A hosted AI studio for Claude and ChatGPT: make AI video, images, voiceover, music and songs, and edit shots into finished films. Every paid run shows its price first and runs only after approval; a run with no file is refunded automatically. Remote endpoint: https://mcp.livinginmovie.com/mcp (OAuth, sign in with Google).'
+category: design
+tags:
+  - ai-model
+  - audio
+  - content-creation
+  - video
+docs_url: https://www.livinginmovie.com/en/guides/cadabra-mcp
+endpoints:
+  - url: https://mcp.livinginmovie.com/mcp
+    transport: streamable-http
+    auth: unknown

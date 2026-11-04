@@ -1,0 +1,13 @@
+name: SnapDub
+summary: Turn a long video link (YouTube, Twitch, Kick, podcasts, streams) into vertical clips with captions, scored by virality, and get them back with download links, right from ChatGPT, Claude or any MCP client.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - video
+docs_url: https://snapdub.ai/mcp-server
+endpoints:
+  - url: https://snapdub.ai/mcp
+    transport: streamable-http
+    auth: oauth

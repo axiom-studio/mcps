@@ -1,0 +1,12 @@
+name: ADITUS Developer Portal
+summary: Read-only docs for the ADITUS event-technology APIs (ticketing, access, BI) and Shop Micro Frontend.
+category: development
+tags:
+  - api
+  - development
+  - documentation
+docs_url: https://developers.aditus.com/mcp
+endpoints:
+  - url: https://developers.aditus.com/api/mcp
+    transport: streamable-http
+    auth: unknown

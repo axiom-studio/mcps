@@ -1,0 +1,13 @@
+name: Ellora
+summary: Check drafts against your voice profile and writing brief, and cut the AI slop before you publish.
+category: marketing
+tags:
+  - ai-agent
+  - code-quality
+  - content-creation
+  - marketing
+docs_url: https://github.com/getellora/agent-skills
+endpoints:
+  - url: https://api.getellora.com/v1/external/mcp
+    transport: streamable-http
+    auth: oauth

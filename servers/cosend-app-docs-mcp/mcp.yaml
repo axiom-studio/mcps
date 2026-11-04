@@ -1,0 +1,13 @@
+name: Cosend
+summary: 'WhatsApp Business team inbox as 25 tools: read chats, reply in existing conversations, submit templates to Meta, check and deploy automations. OAuth, every plan including Free.'
+category: communication
+tags:
+  - communication
+  - customer-ops
+  - whatsapp
+  - workflow-automation
+docs_url: https://cosend.app/docs/mcp
+endpoints:
+  - url: https://mcp.cosend.app/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,10 @@
+name: Circadian Page Tools
+summary: 'AI-operated MCP tools for authorized public pages: Markdown extraction and HTML metadata. Free 10 calls/month; Pro $4.99/month for 1,000. MCPize key required. No JavaScript rendering.'
+category: web-scraping
+tags:
+  - web-scraping
+docs_url: https://mcpize.com/mcp/circadian-page-tools
+endpoints:
+  - url: https://circadian-page-tools.mcpize.run/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: Ohmbo
+summary: Design and revise PCBs from plain language, track jobs, and retrieve design artifacts.
+category: design
+tags:
+  - design
+  - design-to-code
+  - development
+docs_url: https://ohmbo.com/docs/mcp
+endpoints:
+  - url: https://mcp.ohmbo.com/mcp
+    transport: streamable-http
+    auth: oauth

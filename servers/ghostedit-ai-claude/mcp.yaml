@@ -1,0 +1,13 @@
+name: Ghostedit
+summary: 'Early access: schedule, move and cancel Instagram, TikTok and YouTube posts from Claude or ChatGPT, checked against each platform''s limits first.'
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://ghostedit.ai/claude
+endpoints:
+  - url: https://mcp.ghostedit.ai/mcp
+    transport: streamable-http
+    auth: oauth

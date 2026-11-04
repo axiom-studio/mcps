@@ -1,0 +1,12 @@
+name: PPT.now MCP Server
+summary: Convert PowerPoint files between PPT, PPTX, PPS, PPSX, POT, POTX and other supported formats from MCP-compatible AI clients.
+category: productivity
+tags:
+  - document
+  - file-conversion
+  - productivity
+docs_url: https://ppt.now/mcp-server
+endpoints:
+  - url: https://ppt.now/mcp
+    transport: streamable-http
+    auth: api-key

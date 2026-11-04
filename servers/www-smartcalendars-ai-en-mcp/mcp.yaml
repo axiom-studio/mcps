@@ -1,0 +1,12 @@
+name: Smart Calendars AI
+summary: Create and update subscription calendars from ChatGPT, Claude, or Codex.
+category: productivity
+tags:
+  - ai-agent
+  - calendar
+  - productivity
+docs_url: https://www.smartcalendars.ai/en/mcp
+endpoints:
+  - url: https://api.smartcalendars.ai/mcp
+    transport: streamable-http
+    auth: oauth

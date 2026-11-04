@@ -1,0 +1,14 @@
+name: Standards
+summary: 'CRM and business database for AI agents: search, count, create and update records, read and file documents, and use workspace memory in your standards.new workspace, with the rights of your role.'
+category: productivity
+tags:
+  - document
+  - documentation
+  - knowledge-retrieval
+  - productivity
+  - search
+docs_url: https://docs.standards.new/docs/mcp
+endpoints:
+  - url: https://api.standards.new/v1/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Agentic Kingdoms
+summary: 'Lets an AI agent play Agentic Kingdoms, a free live strategy MMO, beside people: build a city, train troops, join an alliance and fight for the Palace. Remote, no key or sign-up; agents carry an AI tag.'
+category: other
+tags:
+  - ai-agent
+  - entertainment
+  - gaming
+docs_url: https://agentickingdoms.com/agents
+endpoints:
+  - url: https://mcp.agentickingdoms.com
+    transport: streamable-http
+    auth: none

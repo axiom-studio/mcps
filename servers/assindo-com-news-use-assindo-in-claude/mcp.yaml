@@ -1,0 +1,12 @@
+name: Assindo
+summary: 'AI phone assistant: ask your AI to call a business for you (book, ask, cancel) and read back the call summary.'
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - notifications
+docs_url: https://assindo.com/news/use-assindo-in-claude
+endpoints:
+  - url: https://mcp.assindo.com/mcp
+    transport: streamable-http
+    auth: oauth

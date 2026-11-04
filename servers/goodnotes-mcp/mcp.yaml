@@ -1,0 +1,24 @@
+name: Goodnotes
+summary: Goodnotes helps turn AI insights into documents and notes. Its connector brings note-taking and document context into assistant workflows so users can capture ideas, organize outputs, and move from analysis to written artifacts.
+description: |-
+  # Goodnotes
+
+  Goodnotes helps turn AI insights into documents and notes. Its connector brings note-taking and document context into assistant workflows so users can capture ideas, organize outputs, and move from analysis to written artifacts.
+
+  ## Connection
+
+  none: https://claude-mcp-api.ml.goodnotes.com/mcp
+
+  Publisher documentation linked from its connector listing states no authentication is required to connect. This creates new content, not access to private notes.
+
+  [Official documentation](https://app.notion.com/p/goodnotes-team/Goodnotes-MCP-Server-Documentation-320b740273d28187a23ad52780a37620)
+category: productivity
+tags:
+  - productivity
+  - remote-mcp
+official: true
+docs_url: https://app.notion.com/p/goodnotes-team/Goodnotes-MCP-Server-Documentation-320b740273d28187a23ad52780a37620
+endpoints:
+  - url: https://claude-mcp-api.ml.goodnotes.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Addy - AI Video Ads
+summary: 'Remote MCP server that turns a product URL into 9:16 video ads (UGC, GRWM, anime, news-style and 13 more formats) and posts them to Instagram Reels, TikTok and YouTube Shorts. Tools: create_ad, get_ad, publish_ad, write_ad_concepts, render_concept, list_ads, list_formats, generate_video. OAuth 2.1 or API key. Endpoint: https://use-addy.site/mcp'
+category: marketing
+tags:
+  - advertising
+  - marketing
+  - social-media
+  - video
+docs_url: https://use-addy.site/developers/mcp
+endpoints:
+  - url: https://use-addy.site/mcp
+    transport: streamable-http
+    auth: oauth

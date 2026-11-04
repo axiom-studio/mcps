@@ -1,0 +1,24 @@
+name: Cloudflare Code Mode
+summary: Cloudflare is an application, security, and developer platform spanning Workers, storage, networking, DNS, and account APIs. Its official MCP server gives assistants structured Cloudflare context for inspecting resources, planning infrastructure changes, and working across Cloudflare services.
+description: |-
+  # Cloudflare Code Mode
+
+  Cloudflare is an application, security, and developer platform spanning Workers, storage, networking, DNS, and account APIs. Its official MCP server gives assistants structured Cloudflare context for inspecting resources, planning infrastructure changes, and working across Cloudflare services.
+
+  ## Connection
+
+  https://mcp.cloudflare.com/mcp
+
+  Cloudflare Code Mode, separately maintained in cloudflare/mcp. OAuth is recommended; API tokens also supported. Workers Bindings remains a separate identity and endpoint.
+
+  [Publisher or official connector listing](https://github.com/cloudflare/mcp)
+category: other
+tags:
+  - other
+  - remote-mcp
+official: true
+docs_url: https://github.com/cloudflare/mcp
+endpoints:
+  - url: https://mcp.cloudflare.com/mcp
+    transport: streamable-http
+    auth: oauth

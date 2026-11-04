@@ -1,0 +1,13 @@
+name: Emailit
+summary: 'Official hosted Emailit MCP server: send transactional email, run campaigns and automations, manage contacts and sending domains, and fix deliverability. OAuth sign-in, no API key needed.'
+category: communication
+tags:
+  - communication
+  - email-automation
+  - marketing-automation
+  - notifications
+docs_url: https://emailit.com/docs/mcp/
+endpoints:
+  - url: https://api.emailit.com/mcp
+    transport: streamable-http
+    auth: oauth

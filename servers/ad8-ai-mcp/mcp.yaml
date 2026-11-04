@@ -1,0 +1,13 @@
+name: Ad8
+summary: 'Competitor Meta ad intelligence over MCP: search 100M+ ad records, inspect followed Pages and coverage, retrieve source-linked creative reports (read-only).'
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - marketing
+  - web-research
+docs_url: https://ad8.ai/mcp
+endpoints:
+  - url: https://app.ad8.ai/api/v1/mcp
+    transport: streamable-http
+    auth: api-key

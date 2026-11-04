@@ -1,0 +1,11 @@
+name: CycleCalcs Astronomy
+summary: 'Sun, Moon, planet and eclipse calculations for any place and date: rise and set times, twilight, moon phases, precise positions, dark-sky windows and planet events. Read-only. Needs an API key from the free RapidAPI Basic plan.'
+category: other
+tags:
+  - api
+  - data-analysis
+docs_url: https://www.cyclecalcs.com/api/mcp.html
+endpoints:
+  - url: https://www.cyclecalcs.com/mcp
+    transport: streamable-http
+    auth: api-key

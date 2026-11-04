@@ -1,0 +1,13 @@
+name: A2Z Tools MCP
+summary: 'Hosted, read-only MCP server with 68 website and domain checks: SSL/TLS certificates, DNS records, SPF/DKIM/DMARC email authentication, WHOIS, HTTP and security headers, redirects and more. Remote Streamable HTTP endpoint at https://a2z.tools/mcp, no install; free tier with an optional API key.'
+category: development
+tags:
+  - development
+  - monitoring
+  - security
+  - web-research
+docs_url: https://a2z.tools/developers#mcp
+endpoints:
+  - url: https://a2z.tools/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,14 @@
+name: ReminderIt
+summary: 'Schedule real phone-call reminders from your AI assistant. Your phone rings at the right time with your message in a natural voice, with WhatsApp follow-up if missed. Medication, wake-ups, appointments, and consent-based check-ins on family. Remote endpoint: https://mcp.reminderit.com/mcp (OAuth).'
+category: productivity
+tags:
+  - audio
+  - communication
+  - notifications
+  - productivity
+  - workflow-automation
+docs_url: https://reminderit.com/developers/api
+endpoints:
+  - url: https://mcp.reminderit.com/mcp
+    transport: streamable-http
+    auth: oauth

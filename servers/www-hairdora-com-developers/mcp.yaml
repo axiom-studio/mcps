@@ -1,0 +1,14 @@
+name: HairDora Salon Scheduling
+summary: See your salon's free slots, appointments, stylists, services, clients, quotes and payments.
+category: productivity
+tags:
+  - business-operations
+  - calendar
+  - crm
+  - payment
+  - productivity
+docs_url: https://www.hairdora.com/developers/#mcp
+endpoints:
+  - url: https://mcp.hairdora.com/mcp
+    transport: streamable-http
+    auth: oauth

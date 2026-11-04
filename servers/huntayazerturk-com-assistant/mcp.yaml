@@ -1,0 +1,12 @@
+name: Huntay AzerTürk
+summary: Check Huntay AzerTürk's availability and book a 30-minute intro call (live Cal.com calendar), and look up his software, AI and cloud consulting services, case studies and FAQ. Remote, Streamable HTTP, no authentication.
+category: productivity
+tags:
+  - business-operations
+  - calendar
+  - productivity
+docs_url: https://huntayazerturk.com/assistant
+endpoints:
+  - url: https://huntayazerturk.com/mcp
+    transport: streamable-http
+    auth: none

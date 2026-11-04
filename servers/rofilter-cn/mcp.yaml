@@ -1,0 +1,12 @@
+name: ROFilter - Reverse Osmosis Design
+summary: 'Design RO membrane systems: feed pressure, permeate TDS, energy use, flux and per-stage results. 545 membrane elements, water analysis, LSI/CCPP scaling indices.'
+category: other
+tags:
+  - data-analysis
+  - education
+  - research
+docs_url: https://rofilter.cn
+endpoints:
+  - url: https://rofilter.cn/mcp
+    transport: streamable-http
+    auth: api-key

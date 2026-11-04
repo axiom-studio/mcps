@@ -1,0 +1,13 @@
+name: Shopify Data MCP (MRSLM Data)
+summary: 'MCP server for AI agents: search products, prices, stock and collections in any public Shopify store, detect store tech stack, read Shopify App Store app info, and extract product data from any product page. $5 per 1,000 tool calls via Apify; no store API key.'
+category: web-scraping
+tags:
+  - ecommerce
+  - productivity
+  - shopify
+  - web-scraping
+docs_url: https://apify.com/mrslm_data/shopify-data-mcp-server
+endpoints:
+  - url: https://mrslm-data--shopify-data-mcp-server.apify.actor/mcp
+    transport: streamable-http
+    auth: api-key

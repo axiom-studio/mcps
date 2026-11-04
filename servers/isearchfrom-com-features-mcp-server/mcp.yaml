@@ -1,0 +1,13 @@
+name: iSearchFrom
+summary: 'Free SEO tools for AI agents: Google results from any location, plus rank, ad and AI visibility.'
+category: search
+tags:
+  - marketing
+  - search
+  - seo
+  - web-research
+docs_url: https://isearchfrom.com/features/mcp-server
+endpoints:
+  - url: https://api.isearchfrom.com/mcp
+    transport: streamable-http
+    auth: oauth

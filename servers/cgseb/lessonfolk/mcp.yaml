@@ -1,0 +1,12 @@
+name: LessonFolk
+summary: Allow your AI chat to access and teach you Lessonfolk courses.
+category: other
+tags:
+  - ai-agent
+  - education
+  - knowledge-retrieval
+docs_url: https://github.com/CGSeb/lessonfolk
+endpoints:
+  - url: https://lessonfolk.com/mcp
+    transport: streamable-http
+    auth: oauth

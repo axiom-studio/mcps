@@ -1,0 +1,13 @@
+name: LotsBlog
+summary: Publish and run a blog on your own domain from any AI agent, with hosting and technical SEO built in.
+category: marketing
+tags:
+  - cms
+  - content-creation
+  - marketing
+  - seo
+docs_url: https://www.lotstech.com/mcp/lots-blog
+endpoints:
+  - url: https://api.lots.blog/mcp
+    transport: streamable-http
+    auth: oauth

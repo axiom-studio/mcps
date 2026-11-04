@@ -1,0 +1,12 @@
+name: Tunc Orb
+summary: 'Shared memory for your AI assistants: named records and logs they save to and read from across chats and apps. Remote MCP server with OAuth.'
+category: memory
+tags:
+  - ai-agent
+  - memory
+  - productivity
+docs_url: https://tuncorb.com/docs
+endpoints:
+  - url: https://mcp.tuncorb.com/mcp
+    transport: streamable-http
+    auth: oauth

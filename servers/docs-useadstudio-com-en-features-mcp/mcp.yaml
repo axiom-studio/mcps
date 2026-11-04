@@ -1,0 +1,13 @@
+name: Adstudio
+summary: Connect your Google Ads, Meta Ads and TikTok Ads accounts to any AI assistant. Query performance, browse campaigns, ad groups and ads, and review creatives, read-only via OAuth.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - crm
+  - marketing
+docs_url: https://docs.useadstudio.com/en/features/mcp
+endpoints:
+  - url: https://useadstudio.com/api/mcp
+    transport: streamable-http
+    auth: oauth

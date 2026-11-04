@@ -1,0 +1,13 @@
+name: Kulhad
+summary: 'Manage your Kulhad UPI support page from your AI assistant: approve and reply to supporters, create goals, edit your page and UPI IDs, get share links, QR codes and OBS overlays, and read analytics. Never moves money.'
+category: productivity
+tags:
+  - analytics
+  - content-creation
+  - customer-ops
+  - payment
+docs_url: https://kulhad.co/help/account/connecting-an-ai-assistant
+endpoints:
+  - url: https://kulhad.co/mcp
+    transport: streamable-http
+    auth: oauth

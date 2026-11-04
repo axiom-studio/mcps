@@ -1,0 +1,12 @@
+name: Uptimely MCP
+summary: Manage uptime monitors, incidents and status pages, and read check results, in Uptimely. Remote server with OAuth sign-in.
+category: development
+tags:
+  - api
+  - devops-infrastructure
+  - monitoring
+docs_url: https://getuptimely.com/integrations
+endpoints:
+  - url: https://app.getuptimely.com/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Objective Trust by AgentShare
+summary: Objective Trust ranks remote MCP endpoints before an agent pays them. The caller sets a trust and cost policy, submits candidate endpoints, and receives an ordered shortlist with reasons. The score uses stored health, probe age, and outcomes. Sponsored placement is excluded. Requires X-API-Key.
+category: search
+tags:
+  - ai-agent
+  - api
+  - search
+docs_url: https://agentshare.dev/
+endpoints:
+  - url: https://agentshare.dev/mcp/objective-trust
+    transport: streamable-http
+    auth: api-key

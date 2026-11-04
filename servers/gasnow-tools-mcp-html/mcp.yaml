@@ -1,0 +1,13 @@
+name: GasNow
+summary: 'Live crypto fees for AI assistants: cost to send USDT on 12 networks (Tron, Base, Solana...), exchange withdrawal fees, bridge quotes, gas and Bitcoin fees. Free, no key.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - defi
+  - finance
+docs_url: https://gasnow.tools/mcp.html
+endpoints:
+  - url: https://mcp.gasnow.tools
+    transport: streamable-http
+    auth: none

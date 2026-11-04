@@ -1,0 +1,13 @@
+name: Netherlands Cadastral Parcels (Kadaster BRK · Percelen)
+summary: Dutch Kadaster parcels by kadastrale aanduiding (municipality, section, number) or coordinates.
+category: other
+tags:
+  - geospatial
+  - government
+  - real-estate
+  - search
+docs_url: https://github.com/BumiAtlas/netherlands-cadastral-parcels-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/netherlands
+    transport: streamable-http
+    auth: oauth

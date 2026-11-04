@@ -1,0 +1,14 @@
+name: haggl.ai
+summary: 'Ask a merchant''s haggl.ai sales agent for a personalized offer, then hand it to checkout. Performance marketing for agentic commerce: the offer stays inside the budget the merchant caps.'
+category: marketing
+tags:
+  - ai-agent
+  - customer-ops
+  - ecommerce
+  - marketing
+  - sales
+docs_url: https://www.haggl.ai/protocol
+endpoints:
+  - url: https://www.haggl.ai/api/mcp
+    transport: streamable-http
+    auth: none

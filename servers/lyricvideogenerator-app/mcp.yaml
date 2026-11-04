@@ -1,0 +1,13 @@
+name: LyricVideoGenerator
+summary: 'Hosted remote MCP server: send a song and its lyrics, get a word-synced lyric video project with three style options you can tweak and export.'
+category: design
+tags:
+  - content-creation
+  - design
+  - media
+  - video
+docs_url: https://lyricvideogenerator.app
+endpoints:
+  - url: https://lyricvideogenerator.app/api/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: IndiaCos MCP Server
+summary: 'Indian company, LLP, GST, PAN and director records for AI agents: verify a GSTIN or CIN, check court cases and MCA disqualification flags, and build lead lists by category and city across 3.7M companies and 5.2M GST registrations.'
+category: finance
+tags:
+  - business-operations
+  - data-analysis
+  - finance
+  - research
+docs_url: https://indiacos.com/api
+endpoints:
+  - url: https://indiacos.com/mcp
+    transport: streamable-http
+    auth: oauth

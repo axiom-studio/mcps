@@ -1,0 +1,13 @@
+name: Underlayer
+summary: 'Build, publish and track in-product training courses from your AI assistant: courses, learners, completions and SCORM.'
+category: productivity
+tags:
+  - analytics
+  - content-creation
+  - education
+  - productivity
+docs_url: https://underlayerhq.com/docs/mcp
+endpoints:
+  - url: https://underlayerhq.com/api/mcp
+    transport: streamable-http
+    auth: oauth

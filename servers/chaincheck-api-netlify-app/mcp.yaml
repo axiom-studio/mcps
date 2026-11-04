@@ -1,0 +1,14 @@
+name: Chain Check
+summary: 'Pay-per-call onchain intelligence for AI agents: wallet reports, contract scans, token risk scores, gas snapshots across 7 chains, and ENS/address labels. Paid per call in USDC on Base via x402; free pricing tool.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - evm
+  - payment
+  - security
+docs_url: https://chaincheck-api.netlify.app
+endpoints:
+  - url: https://chaincheck-api.netlify.app/mcp
+    transport: streamable-http
+    auth: unknown

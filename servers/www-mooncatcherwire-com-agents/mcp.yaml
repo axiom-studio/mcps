@@ -1,0 +1,13 @@
+name: Mooncatcher Wire
+summary: 'Free crypto news for AI agents: top stories ranked by market impact, search, topics and an AI market digest. Remote server, no API key or account needed.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - news
+  - web-research
+docs_url: https://www.mooncatcherwire.com/agents/
+endpoints:
+  - url: https://mooncatcherwire.com/mcp
+    transport: streamable-http
+    auth: none

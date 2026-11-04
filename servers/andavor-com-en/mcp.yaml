@@ -1,0 +1,14 @@
+name: Andavor
+summary: 'Read and edit your Andavor store from an MCP client: catalog, product manuals, the sales AI''s instructions and rules, appointment calendar and sales totals. Andavor''s own AI is trained for sales and customer service on WhatsApp, Instagram, Facebook and website chat.'
+category: marketing
+tags:
+  - chatbot
+  - crm
+  - ecommerce
+  - marketing-automation
+  - whatsapp
+docs_url: https://andavor.com/en
+endpoints:
+  - url: https://app.andavor.com/mcp
+    transport: streamable-http
+    auth: oauth

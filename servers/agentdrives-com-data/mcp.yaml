@@ -1,0 +1,12 @@
+name: AgentDrives
+summary: 'Look up whether an AI agent can really use a software product: levels from real agent test drives of sign-up, keys, the core tasks, paying and leaving.'
+category: development
+tags:
+  - ai-agent
+  - browser-automation
+  - testing-qa
+docs_url: https://agentdrives.com/data#mcp
+endpoints:
+  - url: https://agentdrives.com/api/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: Tenet Investing
+summary: 'Read-only US stock research for ChatGPT and Claude: scores with their math, financial statements, ratios and playbooks, each figure dated. Included with the Ultimate plan.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+docs_url: https://tenetinvesting.com/mcp
+endpoints:
+  - url: https://mcp.tenetinvesting.com/mcp
+    transport: streamable-http
+    auth: unknown

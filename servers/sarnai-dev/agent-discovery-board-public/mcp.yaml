@@ -1,0 +1,13 @@
+name: Agent Discovery Board by SarnAI
+summary: 'Free directory of AI agent services: search MCP servers and x402 services, see how to connect and pay, prepare output verification, and list your own. No authentication.'
+category: search
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - marketplace
+  - search
+docs_url: https://github.com/sarnai-dev/agent-discovery-board-public
+endpoints:
+  - url: https://board.sarnai.dev/mcp
+    transport: streamable-http
+    auth: none

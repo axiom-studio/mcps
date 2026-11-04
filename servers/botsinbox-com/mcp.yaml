@@ -1,0 +1,12 @@
+name: BotsInbox
+summary: Free email inboxes for AI agents
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - email-automation
+docs_url: https://botsinbox.com
+endpoints:
+  - url: https://mcp.botsinbox.com/mcp
+    transport: streamable-http
+    auth: api-key

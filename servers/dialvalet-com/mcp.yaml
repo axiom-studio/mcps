@@ -1,0 +1,12 @@
+name: DialValet
+summary: U.S. outbound calls from a verified caller ID for AI agents via CLI/MCP.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - telegram
+docs_url: https://dialvalet.com
+endpoints:
+  - url: https://mcp.dialvalet.com/mcp
+    transport: streamable-http
+    auth: oauth

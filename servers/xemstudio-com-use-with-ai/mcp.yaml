@@ -1,0 +1,13 @@
+name: XEM Studio
+summary: Search real-world engineering geometry, find physical dimensions and mating information, and access STEP/STL CAD files for design, manufacturing, and 3D printing.
+category: design
+tags:
+  - design
+  - development
+  - file-management
+  - search
+docs_url: https://xemstudio.com/use-with-ai/
+endpoints:
+  - url: https://xemstudio.com/mcp
+    transport: streamable-http
+    auth: none

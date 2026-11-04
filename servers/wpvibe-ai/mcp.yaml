@@ -1,0 +1,14 @@
+name: WPVibe
+summary: Connect AI assistants to WordPress to manage content, media, WooCommerce, plugins, and draft themes with approval gates for sensitive actions.
+category: productivity
+tags:
+  - cms
+  - content-creation
+  - ecommerce
+  - wordpress
+  - workflow-automation
+docs_url: https://wpvibe.ai/
+endpoints:
+  - url: https://mcp.wpvibe.ai/mcp
+    transport: streamable-http
+    auth: oauth

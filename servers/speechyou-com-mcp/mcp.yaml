@@ -1,0 +1,13 @@
+name: Speechyou MCP — Voice Notes & Meeting Transcripts
+summary: Search and read Speechyou voice notes and meeting transcripts in Claude and compatible MCP clients, with OAuth sign-in, tag filters, summaries, and read-only access.
+category: productivity
+tags:
+  - audio
+  - meeting-notes
+  - notes
+  - productivity
+docs_url: https://speechyou.com/mcp
+endpoints:
+  - url: https://app.speechyou.com/api/mcp/mcp
+    transport: streamable-http
+    auth: oauth

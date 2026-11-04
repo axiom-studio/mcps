@@ -1,0 +1,13 @@
+name: SolidPing
+summary: 'Uptime monitoring for AI agents: list, create and diagnose checks, read results, manage incidents, maintenance windows and status pages (42 tools). Works over stdio (solidping mcp --stdio) or remote HTTP with OAuth, and on the public demo with no signup. Open source, AGPL-3.0.'
+category: other
+tags:
+  - ai-agent
+  - devops-infrastructure
+  - monitoring
+  - observability-incident
+docs_url: https://github.com/fclairamb/solidping
+endpoints:
+  - url: https://solidping.io/api/v1/mcp
+    transport: streamable-http
+    auth: oauth

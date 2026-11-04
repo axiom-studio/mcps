@@ -1,0 +1,11 @@
+name: Seekrly
+summary: Your career command center
+category: productivity
+tags:
+  - productivity
+  - task-management
+docs_url: https://seekrly.com/docs/mcp
+endpoints:
+  - url: https://seekrly.com/mcp
+    transport: streamable-http
+    auth: oauth

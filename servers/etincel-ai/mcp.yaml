@@ -1,0 +1,12 @@
+name: Etincel
+summary: Deterministic AI-prose linter and writing-voice MCP server for coding assistants.
+category: development
+tags:
+  - ai-model
+  - coding-agent
+  - development
+docs_url: https://etincel.ai
+endpoints:
+  - url: https://etincel.ai/api/mcp
+    transport: streamable-http
+    auth: unknown

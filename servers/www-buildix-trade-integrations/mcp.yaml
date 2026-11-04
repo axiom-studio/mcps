@@ -1,0 +1,13 @@
+name: 'Buildix: Hyperliquid Orderflow'
+summary: 'Read-only Hyperliquid analytics for AI assistants: orderflow (CVD, order book imbalance, VPIN), liquidation levels, whale positioning, funding rates and a market screener. No account or API key.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - finance
+  - trading
+docs_url: https://www.buildix.trade/integrations
+endpoints:
+  - url: https://www.buildix.trade/api/mcp/public
+    transport: streamable-http
+    auth: none

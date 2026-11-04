@@ -1,0 +1,14 @@
+name: Preventionlabs
+summary: 'ee what''s wrong with a live website from the outside, with proof: uptime, HTTPS, DNS, broken pages, browser errors, leaked files, security headers, search visibility, speed and email setup. Read-only, and only on websites you''ve proven are yours. First 2 reports per site free, then A$2 a report.'
+category: other
+tags:
+  - monitoring
+  - security
+  - seo
+  - testing-qa
+  - web-scraping
+docs_url: https://preventionlabs.com.au/agents
+endpoints:
+  - url: https://app.preventionlabs.com.au/mcp
+    transport: streamable-http
+    auth: unknown

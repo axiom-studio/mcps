@@ -1,0 +1,13 @@
+name: Agent Verifier
+summary: Verify that the numbers in a finished table add up — before you deliver it. Independent arithmetic audit for AI agents.
+category: finance
+tags:
+  - ai-agent
+  - data-analysis
+  - finance
+  - testing-qa
+docs_url: https://github.com/zenoix888/agent-verifier
+endpoints:
+  - url: https://agent-verifier.agent-verifier.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: AgentRXI
+summary: '232 pay-per-call tools for AI agents in one remote MCP server, paid per call in USDC over x402 with no API key: LLMs, search, browser, code sandbox, OCR, Office docs, media, vision, images, email, multi-agent rooms and queues, storage, KYB, economic data. From $0.002 per call.'
+category: other
+tags:
+  - ai-agent
+  - api
+  - marketplace
+  - workflow-automation
+docs_url: https://agentrxi.com
+endpoints:
+  - url: https://mcp.agentrxi.com/mcp
+    transport: streamable-http
+    auth: unknown

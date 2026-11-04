@@ -1,0 +1,13 @@
+name: Recolor the Past
+summary: Colorize black-and-white photos and restore old pictures directly from AI assistants. Repair damage, enhance faces, and download restored photos through a remote MCP connection with user-controlled credit limits.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - media
+docs_url: https://recolorthepast.com/en/ai
+endpoints:
+  - url: https://api.recolorthepast.com/mcp
+    transport: streamable-http
+    auth: api-key

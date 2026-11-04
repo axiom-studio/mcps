@@ -1,0 +1,14 @@
+name: Radar noEixo
+summary: 'WhatsApp sales and customer service platform (Brazil) with an AI agent, CRM pipeline, knowledge base, automations and prospecting cadences. Remote MCP server (OAuth 2.0) with 100+ tools: read and answer WhatsApp conversations, manage contacts and deals, products, knowledge base, templates and sequences.'
+category: communication
+tags:
+  - ai-agent
+  - crm
+  - customer-ops
+  - sales
+  - whatsapp
+docs_url: https://radar.noeixodigital.com/mcp
+endpoints:
+  - url: https://radar.noeixodigital.com/api/mcp
+    transport: streamable-http
+    auth: oauth

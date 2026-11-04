@@ -1,0 +1,13 @@
+name: Influence
+summary: Plan, draft, schedule and publish social posts through Influence's hosted MCP server. Review and approval are required before publishing.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://influence.so/publish-from-chatgpt
+endpoints:
+  - url: https://influence.so/api/mcp
+    transport: streamable-http
+    auth: oauth

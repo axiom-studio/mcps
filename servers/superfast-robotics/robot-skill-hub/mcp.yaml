@@ -1,0 +1,12 @@
+name: Robot Skill Hub
+summary: Superfast Robotics' Codex-assisted, read-only discovery of pinned robotics sources, preparation recipes and findings; no robot execution.
+category: search
+tags:
+  - documentation
+  - knowledge-retrieval
+  - research
+docs_url: https://github.com/Superfast-Robotics/robot-skill-hub
+endpoints:
+  - url: https://api.superfastrobotics.com/mcp
+    transport: streamable-http
+    auth: none

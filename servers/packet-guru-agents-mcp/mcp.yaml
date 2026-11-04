@@ -1,0 +1,12 @@
+name: Agent Verifier
+summary: 'Test and debug your AI agent''s Web Bot Auth (RFC 9421) signature: is it valid, and what to fix?'
+category: productivity
+tags:
+  - ai-agent
+  - security
+  - testing-qa
+docs_url: https://packet.guru/agents/mcp
+endpoints:
+  - url: https://fp.packet.guru/api/v1/mcp
+    transport: streamable-http
+    auth: none

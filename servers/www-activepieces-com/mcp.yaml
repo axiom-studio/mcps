@@ -1,0 +1,12 @@
+name: Activepieces
+summary: Build powerful automation with chat
+category: productivity
+tags:
+  - ai-agent
+  - productivity
+  - workflow-automation
+docs_url: https://www.activepieces.com/
+endpoints:
+  - url: https://cloud.activepieces.com/mcp/platform
+    transport: streamable-http
+    auth: oauth

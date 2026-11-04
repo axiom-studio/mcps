@@ -1,0 +1,12 @@
+name: Soxoa
+summary: Estimate illustrative automation ROI and prioritize user-described recurring workflows.
+category: productivity
+tags:
+  - business-operations
+  - productivity
+  - workflow-automation
+docs_url: https://soxoa.com/mcp-guide
+endpoints:
+  - url: https://soxoa.com/mcp
+    transport: streamable-http
+    auth: none

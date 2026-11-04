@@ -1,0 +1,13 @@
+name: Postfleet
+summary: Email infrastructure for AI agents. Inbound is parsed, classified, extracted to your schema, and screened for prompt injection before your agent reads a word.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - email-automation
+  - security
+docs_url: https://github.com/Thestral12/postfleet-mcp
+endpoints:
+  - url: https://api.postfleet.ai/api/mcp
+    transport: streamable-http
+    auth: api-key

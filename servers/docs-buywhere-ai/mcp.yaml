@@ -1,0 +1,12 @@
+name: BuyWhere
+summary: Remote MCP server for shopping and product discovery.
+category: search
+tags:
+  - ecommerce
+  - search
+  - web-research
+docs_url: https://docs.buywhere.ai
+endpoints:
+  - url: https://api.buywhere.ai/mcp
+    transport: streamable-http
+    auth: unknown

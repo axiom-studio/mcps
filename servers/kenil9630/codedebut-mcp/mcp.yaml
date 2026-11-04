@@ -1,0 +1,12 @@
+name: CodeDebut
+summary: Search new software launches on CodeDebut, read product pages, find alternatives and see each day's launches ranked by upvotes. Remote, read-only, no API key.
+category: search
+tags:
+  - marketplace
+  - search
+  - web-research
+docs_url: https://github.com/kenil9630/codedebut-mcp
+endpoints:
+  - url: https://codedebut.com/api/mcp
+    transport: streamable-http
+    auth: none

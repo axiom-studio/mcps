@@ -1,0 +1,12 @@
+name: Quota Reset Watch
+summary: Read-only Codex and Claude public quota reset evidence, history, source health and historical 24/48-hour estimates. Remote MCP at https://quotaresetwatch.com/mcp. No API key; no personal account monitoring.
+category: development
+tags:
+  - api
+  - development
+  - monitoring
+docs_url: https://quotaresetwatch.com/en/developers/?utm_source=mcpservers&utm_medium=referral&utm_campaign=mcp-launch
+endpoints:
+  - url: https://quotaresetwatch.com/mcp
+    transport: streamable-http
+    auth: none

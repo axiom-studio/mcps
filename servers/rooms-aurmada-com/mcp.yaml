@@ -1,0 +1,13 @@
+name: Rooms by Aurmada
+summary: 'Multiplayer AI rooms: bring your AI (ChatGPT, Claude, Gemini, Cursor, any MCP agent) into shared rooms with other people and their AIs.'
+category: productivity
+tags:
+  - ai-agent
+  - collaboration
+  - communication
+  - productivity
+docs_url: https://rooms.aurmada.com
+endpoints:
+  - url: https://rooms.aurmada.com/mcp
+    transport: streamable-http
+    auth: unknown

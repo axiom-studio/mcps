@@ -1,0 +1,13 @@
+name: Auto Poster AI MCP
+summary: Multi-platform social media post creation, scheduling, and publishing across Facebook, Telegram, LinkedIn, X, Instagram, YouTube and more.
+category: productivity
+tags:
+  - content-creation
+  - marketing-automation
+  - social-media
+  - workflow-automation
+docs_url: https://autoposter.ai
+endpoints:
+  - url: https://agent.autoposter.ai/mcp
+    transport: streamable-http
+    auth: api-key

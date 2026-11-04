@@ -1,0 +1,14 @@
+name: TripLedger
+summary: Travel ledger for AI. Log journeys, stays and expenses from booking emails, then get tax-residency day counts, Schengen 90/180 status and your current country from your own travel history.
+category: productivity
+tags:
+  - data-analysis
+  - finance
+  - productivity
+official: true
+registry_name: app.tripledger/tripledger
+docs_url: https://tripledger.app
+endpoints:
+  - url: https://my.tripledger.app/mcp
+    transport: streamable-http
+    auth: oauth

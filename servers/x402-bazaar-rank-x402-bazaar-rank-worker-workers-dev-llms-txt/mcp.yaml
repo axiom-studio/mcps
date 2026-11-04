@@ -1,0 +1,14 @@
+name: P0 Agent Economy Index
+summary: 'Lets AI agents find the paid APIs other agents actually pay for (x402 services ranked by real paying wallets) and buy per-call data: SEC filings, wallet risk and OFAC sanctions screening, EVM chain reads, agent memory, news and domain checks. Remote MCP over Streamable HTTP, no account or API key; paid tools return the exact x402 / MPP payment request.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - evm
+  - finance
+  - research
+docs_url: https://x402-bazaar-rank.x402-bazaar-rank-worker.workers.dev/llms.txt
+endpoints:
+  - url: https://x402-bazaar-rank.x402-bazaar-rank-worker.workers.dev/mcp
+    transport: streamable-http
+    auth: none

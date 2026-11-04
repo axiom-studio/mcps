@@ -1,0 +1,14 @@
+name: ClipSpeed
+summary: Turn a YouTube link, upload or live Twitch, Kick or YouTube stream into scored, captioned 9:16 clips from Claude, ChatGPT or Cursor.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - video
+  - youtube
+docs_url: https://github.com/thestockgoatballs/clipspeed-mcp
+endpoints:
+  - url: https://api.clipspeed.ai/mcp
+    transport: streamable-http
+    auth: oauth

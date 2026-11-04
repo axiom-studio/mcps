@@ -1,0 +1,13 @@
+name: Retokia
+summary: 'AI product photos for fashion shops: remove background and mannequin, ghost mannequin, AI model.'
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - ecommerce
+docs_url: https://retokia.com/developers/mcp/
+endpoints:
+  - url: https://app.retokia.com/mcp
+    transport: streamable-http
+    auth: oauth

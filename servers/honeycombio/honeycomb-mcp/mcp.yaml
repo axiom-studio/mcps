@@ -1,0 +1,14 @@
+name: Honeycomb MCP
+summary: Interact with Honeycomb observability data using the Model Context Protocol.
+category: cloud-service
+tags:
+  - data-analysis
+  - devops-infrastructure
+  - monitoring
+  - observability-incident
+registry_name: io.honeycomb/mcp
+docs_url: https://github.com/honeycombio/honeycomb-mcp
+endpoints:
+  - url: https://mcp.honeycomb.io/mcp
+    transport: streamable-http
+    auth: oauth

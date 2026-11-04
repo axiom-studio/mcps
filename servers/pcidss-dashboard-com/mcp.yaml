@@ -1,0 +1,13 @@
+name: PCIDSS Dashboard
+summary: 'Read-only PCI DSS compliance data for AI assistants: assessment readiness, recurring evidence history, open findings and scope, with links back to the dashboard. For SAQ D, ROC and partner accounts.'
+category: finance
+tags:
+  - compliance
+  - data-analysis
+  - finance
+  - security
+docs_url: https://pcidss-dashboard.com/#ai-assistants
+endpoints:
+  - url: https://pcidss-dashboard.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,19 @@
+name: Wix
+summary: Wix is a website platform spanning sites, ecommerce, bookings, and business management. Its remote MCP server lets assistants manage Wix sites and business data — from content updates to store operations — using the account's existing permissions.
+description: |-
+  Wix is a website platform spanning sites, ecommerce, bookings, and business management. Its remote MCP server lets assistants manage Wix sites and business data — from content updates to store operations — using the account's existing permissions.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp)
+category: development
+tags:
+  - development
+  - remote-mcp
+official: true
+registry_name: com.wix/mcp
+docs_url: https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp
+endpoints:
+  - url: https://mcp.wix.com/mcp
+    transport: streamable-http
+    auth: oauth

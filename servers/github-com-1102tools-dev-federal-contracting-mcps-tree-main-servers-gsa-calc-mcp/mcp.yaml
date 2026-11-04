@@ -1,0 +1,12 @@
+name: GSA CALC+ MCP by 1102tools
+summary: 'Free hosted MCP server for GSA CALC+ (Contract-Awarded Labor Category): awarded labor ceiling rates for pricing proposals and IGCEs. Connect at https://gsa-calc.1102tools.com/mcp with nothing to install and no API key. Open source (MIT).'
+category: other
+tags:
+  - finance
+  - government
+  - research
+docs_url: https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/gsa-calc-mcp
+endpoints:
+  - url: https://gsa-calc.1102tools.com/mcp
+    transport: streamable-http
+    auth: none

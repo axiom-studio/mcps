@@ -1,0 +1,13 @@
+name: CitedBy
+summary: Check a page, AI-crawler access, llms.txt and backlinks of any site. Free, read-only, no account. 40 calls per hour per IP.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+  - web-scraping
+docs_url: https://github.com/resaleiq/citedby-mcp
+endpoints:
+  - url: https://citedby.eu/mcp
+    transport: streamable-http
+    auth: unknown

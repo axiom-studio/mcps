@@ -1,0 +1,13 @@
+name: magento.watch
+summary: Magento, Adobe Commerce and Mage-OS versions, EOL dates, security bulletins and patches. Remote, no auth, free.
+category: development
+tags:
+  - development
+  - documentation
+  - knowledge-retrieval
+  - security
+docs_url: https://magento.watch/mcp
+endpoints:
+  - url: https://magento.watch/mcp/api
+    transport: streamable-http
+    auth: none

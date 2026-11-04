@@ -1,0 +1,13 @@
+name: Sprouts Data
+summary: 'B2B company and people data for AI agents: search, look-alikes, lookups, relationships, research. Search 45M+ companies and 200M+ people, find look-alike companies, map relationships and run multi-step research from any MCP client.'
+category: marketing
+tags:
+  - data-analysis
+  - marketing
+  - research
+  - sales
+docs_url: https://dashboard.sproutsdata.ai/docs
+endpoints:
+  - url: https://dashboard.sproutsdata.ai/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,14 @@
+name: ResponseHub
+summary: Answer security questionnaires and RFPs from your AI knowledge base.
+category: productivity
+tags:
+  - ai-agent
+  - document
+  - knowledge-retrieval
+  - productivity
+  - workflow-automation
+docs_url: https://responsehub.ai/help/mcp/what-is-the-mcp-server/
+endpoints:
+  - url: https://app.responsehub.ai/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: HookPulse
+summary: Heartbeat monitoring for cron jobs, backups and automations — alerts when they stop and when they recover.
+category: development
+tags:
+  - devops
+  - monitoring
+  - notifications
+  - workflow-automation
+docs_url: https://github.com/wrpbr/hookpulse
+endpoints:
+  - url: https://hookpulse.net/mcp
+    transport: streamable-http
+    auth: none

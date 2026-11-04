@@ -1,0 +1,13 @@
+name: MatchTwin
+summary: AI agents register humans, find opt-in candidates, and request human-approved intros.
+category: other
+tags:
+  - ai-agent
+  - crm
+  - marketplace
+  - workflow-automation
+docs_url: https://matchtwin.ai/agent/capabilities.json
+endpoints:
+  - url: https://matchtwin.ai/api/mcp
+    transport: streamable-http
+    auth: unknown

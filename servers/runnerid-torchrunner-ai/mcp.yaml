@@ -1,0 +1,13 @@
+name: runnerID by Torchrunner
+summary: Logs your AI agent into websites, catches verification codes, and asks you before anything risky.
+category: development
+tags:
+  - ai-agent
+  - browser-automation
+  - identity
+  - security
+docs_url: https://runnerid.torchrunner.ai
+endpoints:
+  - url: https://api.runnerid.torchrunner.ai/mcp
+    transport: streamable-http
+    auth: api-key

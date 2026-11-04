@@ -1,0 +1,13 @@
+name: Fin Codes API
+summary: Validate IBANs and bank codes, verify payee names, and screen names against sanctions lists. Hosted MCP with OAuth sign-in.
+category: finance
+tags:
+  - compliance
+  - finance
+  - identity
+  - payment
+docs_url: https://fincodesapi.com/mcp-server
+endpoints:
+  - url: https://mcp.fincodesapi.com/mcp
+    transport: streamable-http
+    auth: oauth

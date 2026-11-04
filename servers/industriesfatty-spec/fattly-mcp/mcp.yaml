@@ -1,0 +1,14 @@
+name: Fattly
+summary: Generate AI images, videos, UGC video ads and voiceovers from 50+ models, plus upscaling, background removal and transcription.
+category: design
+tags:
+  - ai-model
+  - audio
+  - content-creation
+  - design
+  - video
+docs_url: https://github.com/industriesfatty-spec/fattly-mcp
+endpoints:
+  - url: https://fattly.app/api/mcp
+    transport: streamable-http
+    auth: oauth

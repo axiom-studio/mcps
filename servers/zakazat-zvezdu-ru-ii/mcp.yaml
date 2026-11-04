@@ -1,0 +1,11 @@
+name: Zakazat Zvezdu — book pop stars
+summary: 'Book Russian pop stars and celebrities for corporate events, weddings and private parties: search stars by genre and fee, open profiles with descriptions, photos and starting fees, and send a booking request right from the chat.'
+category: search
+tags:
+  - entertainment
+  - search
+docs_url: https://zakazat-zvezdu.ru/ii/
+endpoints:
+  - url: https://zakazat-zvezdu.ru/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: BasePic
+summary: Upload an image from a URL or base64 and get share links, then rotate, crop, resize, compress or convert it. Hosted remote server, no account or API key.
+category: cloud-storage
+tags:
+  - cloud-storage
+  - file-conversion
+  - file-management
+  - media
+docs_url: https://basepic.com/developers
+endpoints:
+  - url: https://basepic.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,14 @@
+name: BananaBanana MCP
+summary: 'Remote MCP server for AI image, video and speech generation: Nano Banana 2/Pro, Veo 3.1, Gemini Omni, Wan 3.0, Grok Imagine, GPT Image. Pay-per-use, no subscription.'
+category: other
+tags:
+  - ai-model
+  - audio
+  - content-creation
+  - media
+  - video
+docs_url: https://bananabanana.pro/mcp
+endpoints:
+  - url: https://bananabanana.pro/api/mcp
+    transport: streamable-http
+    auth: oauth

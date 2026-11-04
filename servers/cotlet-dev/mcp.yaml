@@ -1,0 +1,12 @@
+name: Cotlet
+summary: Cotlet is a hosted MCP server and REST API that lets AI agents use apps with no API, signed in as you.
+category: productivity
+tags:
+  - api
+  - browser-automation
+  - workflow-automation
+docs_url: https://cotlet.dev
+endpoints:
+  - url: https://cotlet.dev/mcp/v1
+    transport: streamable-http
+    auth: api-key

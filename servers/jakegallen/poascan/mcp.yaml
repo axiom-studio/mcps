@@ -1,0 +1,13 @@
+name: POAScan
+summary: 'Read-only Proof of Agent explorer: epochs, rewards, holders, swaps and agent census. No auth.'
+category: finance
+tags:
+  - analytics
+  - crypto
+  - finance
+  - trading
+docs_url: https://github.com/jakegallen/poascan
+endpoints:
+  - url: https://poascan.io/mcp
+    transport: streamable-http
+    auth: none

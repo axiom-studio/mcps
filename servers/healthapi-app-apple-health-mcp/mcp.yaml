@@ -1,0 +1,13 @@
+name: HealthAPI
+summary: 'Remote MCP server for the Apple Health data you sync from your iPhone: sleep, heart rate, HRV, workouts and trends. Read only, approved on your iPhone.'
+category: other
+tags:
+  - fitness
+  - healthcare
+  - privacy
+  - wearable
+docs_url: https://healthapi.app/apple-health-mcp
+endpoints:
+  - url: https://healthapi.app/mcp
+    transport: streamable-http
+    auth: oauth

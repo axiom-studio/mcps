@@ -1,0 +1,11 @@
+name: Staylist World
+summary: 'Hotel search for AI assistants: 77,000+ hotels compared on the same criteria.'
+category: search
+tags:
+  - api
+  - search
+docs_url: https://staylist.world/connect
+endpoints:
+  - url: https://staylist.world/mcp
+    transport: streamable-http
+    auth: none

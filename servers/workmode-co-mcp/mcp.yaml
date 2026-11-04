@@ -1,0 +1,12 @@
+name: Workmode MCP
+summary: Read-only discovery of cafes, coworking spaces and laptop-friendly workspaces with community-measured Wi-Fi through ten tools, with a free hosted endpoint and no authentication.
+category: search
+tags:
+  - geospatial
+  - productivity
+  - search
+docs_url: https://workmode.co/mcp
+endpoints:
+  - url: https://api.workmode.co/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Edgaze
+summary: Browse, try, and pay per run for ready-made AI workflows. Creators maintain the workflows and Edgaze handles the runtime, so you get the outcome without babysitting an agent. No setup, no hosting, no subscription required.
+category: productivity
+tags:
+  - ai-agent
+  - marketplace
+  - payment
+  - workflow-automation
+docs_url: https://www.edgaze.ai/docs/mcp?ref=mcpserversorg
+endpoints:
+  - url: https://mcp.edgaze.ai
+    transport: streamable-http
+    auth: oauth

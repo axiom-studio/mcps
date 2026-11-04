@@ -1,0 +1,12 @@
+name: Marcel Retraite
+summary: 'Calcul fiscal et retraite français, déterministe et sourcé. 11 outils MCP : pension, assurance-vie, PEA, compte-titres, sortie PER, IFI, Dutreil, acheter ou louer, cumul emploi-retraite, comparaison et validation. Accès sans clé. Information, pas de conseil.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - government
+docs_url: https://github.com/marcel-retraite/marcel-mcp
+endpoints:
+  - url: https://marcel-retraite.fr/mcp
+    transport: streamable-http
+    auth: unknown

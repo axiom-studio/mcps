@@ -1,0 +1,12 @@
+name: Charmshots
+summary: Read-only OAuth MCP for your account, existing photoshoots, photo metadata and owner-authenticated download links. Does not generate images or spend credits. https://charmshots.com
+category: design
+tags:
+  - cloud-storage
+  - file-management
+  - media
+docs_url: https://github.com/charmshots/mcp-server
+endpoints:
+  - url: https://mcp.charmshots.com/mcp
+    transport: streamable-http
+    auth: oauth

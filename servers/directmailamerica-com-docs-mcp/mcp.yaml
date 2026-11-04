@@ -1,0 +1,13 @@
+name: DirectMailAmerica
+summary: Quote, review and send approved U.S. letters, Certified Mail and postcards; manage Email to Letter and Email to Postcard rules through a hosted MCP server.
+category: communication
+tags:
+  - business-operations
+  - communication
+  - email-automation
+  - marketing
+docs_url: https://directmailamerica.com/docs/mcp
+endpoints:
+  - url: https://directmailamerica.com/api/mcp
+    transport: streamable-http
+    auth: oauth

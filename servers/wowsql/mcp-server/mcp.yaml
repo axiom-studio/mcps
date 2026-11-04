@@ -1,0 +1,14 @@
+name: WoWSQL
+summary: WoWSQL is a managed Postgres backend. This remote MCP lets Cursor and other clients list projects, inspect tables, run SQL, and search the WoWSQL docs. Sign-in is WoWSQL OAuth. The SQL tool can write.
+category: database
+tags:
+  - cloud-infrastructure
+  - database
+  - postgres
+  - sql
+  - sql-agent
+docs_url: https://github.com/WoWSQL/MCP-Server
+endpoints:
+  - url: https://mcp.wowsql.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: AllyProof Accessibility
+summary: Check public web pages for selected WCAG 2.2 AA failure patterns with a remote MCP server. Public scan_url needs no API key; saved-site tools require eligible account access. Findings require human review and do not establish conformance.
+category: development
+tags:
+  - browser
+  - compliance
+  - testing-qa
+  - web-scraping
+docs_url: https://allyproof.com/docs/mcp
+endpoints:
+  - url: https://allyproof.com/api/mcp
+    transport: streamable-http
+    auth: none

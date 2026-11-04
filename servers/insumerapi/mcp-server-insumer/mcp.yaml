@@ -1,0 +1,14 @@
+name: InsumerAPI
+summary: 'Wallet auth for AI agents: send a blockchain wallet and conditions, get a signed yes or no across 37 chains, never the balance. Hosted at https://api.insumermodel.com/mcp (no key, 10 tools) or run locally with npx -y mcp-server-insumer (27 tools).'
+category: development
+tags:
+  - ai-agent
+  - crypto
+  - evm
+  - identity
+  - security
+docs_url: https://github.com/insumerapi/mcp-server-insumer
+endpoints:
+  - url: https://api.insumermodel.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Rivo Tools
+summary: 'FiveM and GTA V tools: convert, merge, optimize and build resources, and make AI props and liveries.'
+category: development
+tags:
+  - development
+  - file-conversion
+  - game-development
+  - gaming
+docs_url: https://rivo.tools/mcp
+endpoints:
+  - url: https://mcp.rivo.tools/mcp
+    transport: streamable-http
+    auth: oauth

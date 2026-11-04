@@ -1,0 +1,13 @@
+name: Token Risk (x402)
+summary: Pay-per-call rug/honeypot risk check for Base and Solana tokens. Tools check_token and check_token_risk return pass/warn/fail/unknown flags (buy/sell tax sim, owner/proxy/mint/blacklist, Solana mint/freeze authority, liquidity, pair age). $0.0009 USDC per check via x402 on Base, no API key; free preview at /v1/preview.
+category: finance
+tags:
+  - crypto
+  - defi
+  - payment
+  - security
+docs_url: https://token-risk.orbit-builder.workers.dev
+endpoints:
+  - url: https://token-risk.orbit-builder.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

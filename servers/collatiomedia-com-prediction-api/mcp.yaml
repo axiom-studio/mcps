@@ -1,0 +1,12 @@
+name: Collatio Media Prediction
+summary: Free developer MCP for sports match probabilities and short explanations. API key required.
+category: other
+tags:
+  - api
+  - data-analysis
+  - sports
+docs_url: https://collatiomedia.com/prediction-api
+endpoints:
+  - url: https://collatiomedia.com/api/prediction/mcp
+    transport: streamable-http
+    auth: api-key

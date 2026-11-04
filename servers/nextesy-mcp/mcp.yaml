@@ -1,0 +1,13 @@
+name: Nextesy MCP
+summary: Unabhängiger MCP-Server für nextesy. Verbinde deine KI-Agenten mit nextesy, um Buchhaltungs- und Geschäftsdaten zu lesen und zu bearbeiten. Kein offizielles Angebot von nextesy
+category: productivity
+tags:
+  - ai-agent
+  - business-operations
+  - finance
+official: true
+docs_url: https://nextesy-mcp.com/docs/install/
+endpoints:
+  - url: https://nextesy-mcp.com/mcp
+    transport: streamable-http
+    auth: oauth

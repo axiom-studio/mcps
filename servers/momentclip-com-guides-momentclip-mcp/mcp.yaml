@@ -1,0 +1,13 @@
+name: MomentClip
+summary: Search YouTube videos by what's said or shown, find exact moments with timestamps, ask questions with cited answers, and download 1080p clips and transcripts.
+category: search
+tags:
+  - search
+  - video
+  - web-research
+  - youtube
+docs_url: https://momentclip.com/guides/momentclip-mcp
+endpoints:
+  - url: https://momentclip.com/mcp
+    transport: streamable-http
+    auth: unknown

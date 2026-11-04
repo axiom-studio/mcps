@@ -1,0 +1,13 @@
+name: VRAMGlass
+summary: Free remote MCP server for GPU and memory asking prices, price history, VRAM estimates and local LLM hardware planning.
+category: other
+tags:
+  - ai-model
+  - data-analysis
+  - llm
+  - performance
+docs_url: https://vramglass.com/mcp
+endpoints:
+  - url: https://mcp.vramglass.com/mcp
+    transport: streamable-http
+    auth: oauth

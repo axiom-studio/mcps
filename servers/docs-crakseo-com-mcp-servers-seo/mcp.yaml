@@ -1,0 +1,13 @@
+name: CrakSEO SEO Toolkit
+summary: Hosted SEO MCP for SERP, keywords, backlinks, rank tracking and site audits. Streamable HTTP, OAuth or API keys; paid data uses credits.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+  - web-research
+docs_url: https://docs.crakseo.com/mcp-servers/seo
+endpoints:
+  - url: https://crakseo.com/mcp/seo
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Heyo Computer
+summary: Run VM, app and agent workloads on bare metal servers
+category: development
+tags:
+  - cloud-infrastructure
+  - deployment
+  - devops-infrastructure
+docs_url: https://github.com/Heyo-Computer/hws/tree/main/mcp
+endpoints:
+  - url: https://mcp.heyo.work/mcp
+    transport: streamable-http
+    auth: api-key

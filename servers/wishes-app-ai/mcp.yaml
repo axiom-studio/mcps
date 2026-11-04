@@ -1,0 +1,12 @@
+name: Wishes MCP
+summary: Tell your AI what you love and it fills your wishlist with gift ideas
+category: productivity
+tags:
+  - ai-agent
+  - ecommerce
+  - productivity
+docs_url: https://wishes.app/ai
+endpoints:
+  - url: https://api.wishes.app/mcp
+    transport: streamable-http
+    auth: oauth

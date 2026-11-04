@@ -1,0 +1,12 @@
+name: OTPBox
+summary: 'Gives AI agents and test suites a disposable email inbox: create test identities, wait for mail, and extract OTP codes and verification links automatically over REST or MCP.'
+category: development
+tags:
+  - api
+  - email-automation
+  - testing-qa
+docs_url: https://otpbox.io/docs#mcp
+endpoints:
+  - url: https://otpbox.io/mcp
+    transport: streamable-http
+    auth: api-key

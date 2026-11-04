@@ -1,0 +1,13 @@
+name: momo.ai
+summary: Cloud-native meeting scheduling for AI assistants. Check availability, all your calendars at once, rules you set, create scheduling requests, track replies, and reschedule or cancel. Changes are previewed first, and nothing is sent without approval. Runs on EU GDPR compliant infrastructure.
+category: productivity
+tags:
+  - calendar
+  - meeting-notes
+  - productivity
+  - workflow-automation
+docs_url: https://www.momo.ai
+endpoints:
+  - url: https://mcp.momo.ai/mcp
+    transport: streamable-http
+    auth: unknown

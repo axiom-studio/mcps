@@ -1,0 +1,13 @@
+name: bitHuman
+summary: 'Hosted MCP server: bitHuman''s animated AI characters say your words in short talking-video clips, or hold a one-minute live voice chat, inside ChatGPT, Claude and other MCP clients. No account needed.'
+category: other
+tags:
+  - ai-agent
+  - chatbot
+  - content-creation
+  - video
+docs_url: https://www.bithuman.ai/mcp
+endpoints:
+  - url: https://mcp.bithuman.ai/mcp
+    transport: streamable-http
+    auth: none

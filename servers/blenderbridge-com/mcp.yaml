@@ -1,0 +1,12 @@
+name: Blender Bridge
+summary: Connect AI assistants to Blender for 3D modeling, Geometry Nodes, materials, animation, rendering and export.
+category: design
+tags:
+  - ai-agent
+  - content-creation
+  - design
+docs_url: https://blenderbridge.com/
+endpoints:
+  - url: https://mcp.blenderbridge.com/mcp
+    transport: streamable-http
+    auth: oauth

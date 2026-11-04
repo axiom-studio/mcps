@@ -1,0 +1,13 @@
+name: Shareglint
+summary: Render Open Graph and social images from HTML/CSS templates in real Chrome, take website screenshots and build signed og:image URLs from Claude, ChatGPT or Cursor. OAuth or API key; free plan of 100 images a month.
+category: design
+tags:
+  - api
+  - browser-automation
+  - design
+  - icon-generation
+docs_url: https://shareglint.com/en/docs#mcp
+endpoints:
+  - url: https://shareglint.com/mcp
+    transport: streamable-http
+    auth: unknown

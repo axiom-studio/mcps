@@ -1,0 +1,11 @@
+name: SlickTrip
+summary: Search live flight, hotel and seat prices, see the cheapest days on a calendar, and set price-drop and seat alerts. Results link to the seller and to slicktrip.com.
+category: other
+tags:
+  - notifications
+  - search
+docs_url: https://slicktrip.com/connector
+endpoints:
+  - url: https://mcp.slicktrip.com/mcp
+    transport: streamable-http
+    auth: unknown

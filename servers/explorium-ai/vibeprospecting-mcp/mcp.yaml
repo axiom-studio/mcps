@@ -1,0 +1,12 @@
+name: Vibe Prospecting
+summary: Power your chat with live B2B data to create lead lists, research companies, enrich contacts, personalize outreach, and inspect business signals, technology stacks, events, and website changes.
+category: marketing
+tags:
+  - marketing
+  - marketing-automation
+registry_name: io.github.explorium-ai/vibeprospecting
+docs_url: https://github.com/explorium-ai/vibeprospecting-mcp
+endpoints:
+  - url: https://vibeprospecting.explorium.ai/mcp
+    transport: streamable-http
+    auth: oauth

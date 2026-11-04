@@ -1,0 +1,13 @@
+name: Adspy
+summary: Adspy (adspy.sh) is an MCP server for researching brands' public Meta and Google ads and their organic TikTok, YouTube and Instagram posts from Claude, Claude Code or Codex. Answers come with counts and dates, never with spend or ROAS.
+category: marketing
+tags:
+  - advertising
+  - marketing
+  - social-media
+  - web-research
+docs_url: https://www.adspy.sh
+endpoints:
+  - url: https://www.adspy.sh/mcp
+    transport: streamable-http
+    auth: oauth

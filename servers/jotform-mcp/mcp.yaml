@@ -1,0 +1,14 @@
+name: Jotform
+summary: An MCP server which brings Jotform to your AI client or LLM
+category: productivity
+tags:
+  - ai-model
+  - llm
+  - productivity
+official: true
+registry_name: com.jotform/mcp
+docs_url: https://www.jotform.com/developers/mcp/
+endpoints:
+  - url: https://mcp.jotform.com/mcp-app
+    transport: streamable-http
+    auth: oauth

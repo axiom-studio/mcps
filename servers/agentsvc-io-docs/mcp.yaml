@@ -1,0 +1,14 @@
+name: agentsvc.io
+summary: '69 pay-per-call tools for AI agents: web pages to Markdown, screenshots, PDF, OCR, web and discussion search, crypto and market data, Polymarket, DeFi yields, validation, charts. Paid per call in USDC on Base or Solana via x402 inside the MCP tool call. No account, no API key. Free sample on every tool.'
+category: web-scraping
+tags:
+  - crypto
+  - data-analysis
+  - defi
+  - search
+  - web-scraping
+docs_url: https://agentsvc.io/docs
+endpoints:
+  - url: https://agentsvc.io/mcp
+    transport: streamable-http
+    auth: unknown

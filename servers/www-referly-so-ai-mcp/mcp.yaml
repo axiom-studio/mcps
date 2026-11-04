@@ -1,0 +1,13 @@
+name: Referly
+summary: 'Run your Referly affiliate program from any AI client: report on affiliates and sales, manage commissions, coupons and groups, and prepare payouts. Sign in with OAuth; money is never sent from chat.'
+category: marketing
+tags:
+  - business-operations
+  - marketing
+  - payment
+  - sales
+docs_url: https://www.referly.so/ai/mcp
+endpoints:
+  - url: https://mcp.referly.so/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Slack MCP by Nova (CIVAI)
+summary: 'Use Slack from chat: see channels, catch up on messages, post updates, and reply in threads in your signed-in workspace.'
+category: communication
+tags:
+  - chatbot
+  - communication
+  - productivity
+  - slack
+docs_url: https://github.com/civai-technologies/mcp-slack_android-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-slack_android
+    transport: streamable-http
+    auth: api-key

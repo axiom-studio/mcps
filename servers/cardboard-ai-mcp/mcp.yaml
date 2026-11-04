@@ -1,0 +1,14 @@
+name: Cardboard AI
+summary: 'Edit videos by chatting with Claude or ChatGPT: bring in your footage, ask for cuts, captions and titles, then export.'
+category: design
+tags:
+  - ai-agent
+  - content-creation
+  - design
+  - video
+official: true
+docs_url: https://docs.cardboard.ai/mcp
+endpoints:
+  - url: https://mcp.cardboard.ai/mcp
+    transport: streamable-http
+    auth: oauth

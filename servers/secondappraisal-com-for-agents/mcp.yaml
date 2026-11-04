@@ -1,0 +1,11 @@
+name: SecondAppraisal Total-Loss Intake
+summary: Submit a vehicle owner's total loss to SecondAppraisal; preliminary market read; state rules.
+category: finance
+tags:
+  - data-analysis
+  - finance
+docs_url: https://secondappraisal.com/for-agents
+endpoints:
+  - url: https://secondappraisal.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,14 @@
+name: Video Dubbing, Subtitles, Transcription & Audiobooks
+summary: AI video dubbing, subtitles, transcription and audiobook creation. Exact price before any paid job.
+category: productivity
+tags:
+  - audio
+  - content-creation
+  - media
+  - translation
+  - video
+docs_url: https://multivoice.ai/for-agents
+endpoints:
+  - url: https://db.multivoice.ai/mcp
+    transport: streamable-http
+    auth: oauth

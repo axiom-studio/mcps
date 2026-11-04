@@ -1,0 +1,13 @@
+name: Irmu — Web Data MCP
+summary: Irmu gives AI agents access to live web data through web scraping, real-browser rendering, browser automation, full-page screenshots and AI-powered structured data extraction. Connect once and access powerful web data tools through MCP.
+category: web-scraping
+tags:
+  - browser
+  - browser-automation
+  - data-analysis
+  - web-scraping
+docs_url: https://app.irmu.com/mcp
+endpoints:
+  - url: https://app.irmu.com/mcp
+    transport: streamable-http
+    auth: oauth

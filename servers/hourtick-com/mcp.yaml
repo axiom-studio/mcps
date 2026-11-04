@@ -1,0 +1,13 @@
+name: Hourtick
+summary: Time tracking, tasks & team chat for humans and AI agents. Connect agents via MCP. Free forever for unlimited people (500 MB/mo); Pro $29/mo for 5 GB. No employee monitoring or screenshots.
+category: productivity
+tags:
+  - communication
+  - productivity
+  - task-management
+  - workflow-automation
+docs_url: https://hourtick.com
+endpoints:
+  - url: https://hourtick.com/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Pulse Verity Index
+summary: 'Signed crypto prices, built for AI agents: multi-exchange prices anyone can verify offline.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - finance
+docs_url: https://github.com/PulseBet/pulse-verity
+endpoints:
+  - url: https://mcp.thepulse.markets/api/index/mcp
+    transport: streamable-http
+    auth: unknown

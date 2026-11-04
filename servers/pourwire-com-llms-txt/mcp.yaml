@@ -1,0 +1,13 @@
+name: PourWire
+summary: Upcoming US restaurant and bar openings from liquor license and permit filings. Search by metro (NYC, LA, Austin, Houston, DFW, San Antonio), get estimated opening window and a link to the original filing. Remote, no API key for the public tier.
+category: marketing
+tags:
+  - government
+  - real-estate
+  - search
+  - web-research
+docs_url: https://pourwire.com/llms.txt
+endpoints:
+  - url: https://pourwire.com/mcp
+    transport: streamable-http
+    auth: unknown

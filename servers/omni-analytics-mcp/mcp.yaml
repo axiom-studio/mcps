@@ -1,0 +1,18 @@
+name: Omni Analytics
+summary: Omni Analytics lets users query data through a semantic model with natural language. Its connector gives assistants governed analytics context for answering business questions and exploring modeled data.
+description: |-
+  Omni Analytics lets users query data through a semantic model with natural language. Its connector gives assistants governed analytics context for answering business questions and exploring modeled data.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/omni-analytics)
+category: database
+tags:
+  - database
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/omni-analytics
+endpoints:
+  - url: https://callbacks.omniapp.co/callback/mcp
+    transport: streamable-http
+    auth: oauth

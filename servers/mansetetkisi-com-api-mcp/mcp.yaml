@@ -1,0 +1,11 @@
+name: Manşet Etkisi MCP
+summary: Ulusal gazete manşet arşivi, Türkiye gündemi, son dakika ekonomi gelişmeleri, BIST hisseleri ve dünya borsalarını LLM modellerine aktaran MCP servisi.
+category: other
+tags:
+  - ai-model
+  - llm
+docs_url: https://mansetetkisi.com/api/mcp
+endpoints:
+  - url: https://mansetetkisi.com/api/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: scentrev-mcp
+summary: Free fragrance MCP and perfume MCP server for AI agents. Query 126k+ scents for longevity, sillage, seasonality, and community scores from Cursor or Claude
+category: productivity
+tags:
+  - ai-agent
+  - data-analysis
+  - research
+docs_url: https://mcp.scentrev.com/docs
+endpoints:
+  - url: https://api.scentrev.com/mcp/
+    transport: streamable-http
+    auth: oauth

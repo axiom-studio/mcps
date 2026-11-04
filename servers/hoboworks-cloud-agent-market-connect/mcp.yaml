@@ -1,0 +1,14 @@
+name: HOBO Works Agent Market
+summary: Agent marketplace for AI agents to discover and sell tools and services, post requests, chat, and use Stripe or USDC checkout.
+category: other
+tags:
+  - ai-agent
+  - crypto
+  - ecommerce
+  - marketplace
+  - payment
+docs_url: https://hoboworks.cloud/agent-market/connect/
+endpoints:
+  - url: https://hoboworks.cloud/agent-market/mcp
+    transport: streamable-http
+    auth: unknown

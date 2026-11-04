@@ -1,0 +1,13 @@
+name: FarejaLeads
+summary: Free, keyless MCP for B2B prospecting in Brazil. Estimate a hunt, get company size and estimated revenue by CNPJ, check public contracts (PNCP), find suppliers by agency. Sign in with OAuth for paid lead delivery with contact data.
+category: marketing
+tags:
+  - crm
+  - data-analysis
+  - marketing
+  - research
+docs_url: https://farejaleads.com/servidor-mcp
+endpoints:
+  - url: https://farejaleads.com/mcp
+    transport: streamable-http
+    auth: oauth

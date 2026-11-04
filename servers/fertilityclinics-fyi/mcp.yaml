@@ -1,0 +1,12 @@
+name: FertilityClinics
+summary: FertilityClinics lists US fertility and IVF clinics from the CDC register. Search by city and service, open any listing for contact facts and reported success rates, and query the same data through a free API and MCP endpoint.
+category: search
+tags:
+  - api
+  - healthcare
+  - search
+docs_url: https://fertilityclinics.fyi
+endpoints:
+  - url: https://fertilityclinics.fyi/mcp
+    transport: streamable-http
+    auth: none

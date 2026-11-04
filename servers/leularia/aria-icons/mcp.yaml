@@ -1,0 +1,13 @@
+name: Aria Icons
+summary: 340k SVG icons — browser, CLI (writes source), and MCP for Cursor/Claude.
+category: design
+tags:
+  - design
+  - file-management
+  - icon-generation
+  - svg
+docs_url: https://github.com/LeulAria/Aria-Icons
+endpoints:
+  - url: https://icons.leularia.com/api/mcp
+    transport: streamable-http
+    auth: none

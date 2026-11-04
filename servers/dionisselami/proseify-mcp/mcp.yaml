@@ -1,0 +1,13 @@
+name: Proseify
+summary: 'Book-writing pipeline for AI agents: full-text search over a growing library of public-domain classics, per-genre style recipes (theatre, horror, romance, adventure and more) derived from the literary traditions, and a chapter-by-chapter drafting flow — plan the outline, draft each chapter, evaluate and polish the assembled book. Hosted remote server, key-authenticated; companion open agent skill anti-prose-slop.'
+category: productivity
+tags:
+  - ai-agent
+  - content-creation
+  - knowledge-retrieval
+  - workflow-automation
+docs_url: https://github.com/Dionisselami/proseify-mcp
+endpoints:
+  - url: https://mcp.proseify.xyz/mcp
+    transport: streamable-http
+    auth: api-key

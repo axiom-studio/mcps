@@ -1,0 +1,12 @@
+name: Space Mushroom
+summary: 'Read-only engineering materials data: every value comes with its unit, test conditions and source. 11 tools including find_materials, prove_claim and resolve_designation.'
+category: other
+tags:
+  - data-analysis
+  - documentation
+  - research
+docs_url: https://github.com/simulsarker007/space-mushroom-mcp
+endpoints:
+  - url: https://spacemushroom.com/mcp
+    transport: streamable-http
+    auth: none

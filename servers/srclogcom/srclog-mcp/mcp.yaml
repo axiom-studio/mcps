@@ -1,0 +1,13 @@
+name: SrcLog
+summary: Search ~450k open-source GitHub repositories, find alternatives to any project, browse curated topics, and rank top developers and organizations by language and country. Remote, no auth.
+category: development
+tags:
+  - development
+  - github
+  - search
+  - web-research
+docs_url: https://github.com/srclogcom/srclog-mcp
+endpoints:
+  - url: https://srclog.com/mcp
+    transport: streamable-http
+    auth: none

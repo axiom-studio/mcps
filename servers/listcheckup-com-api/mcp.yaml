@@ -1,0 +1,12 @@
+name: ListCheckup Email Verification
+summary: Verify email addresses and whole lists from Claude, Cursor or any MCP client. Price a list before spending, catch-all and unknown results are free.
+category: productivity
+tags:
+  - api
+  - email-automation
+  - productivity
+docs_url: https://listcheckup.com/api
+endpoints:
+  - url: https://listcheckup.com/mcp
+    transport: streamable-http
+    auth: unknown

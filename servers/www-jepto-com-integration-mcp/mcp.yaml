@@ -1,0 +1,13 @@
+name: Jepto MCP
+summary: Give AI access to all of your digital marketing data
+category: marketing
+tags:
+  - analytics
+  - customer-ops
+  - data-analysis
+  - marketing
+docs_url: https://www.jepto.com/integration/mcp
+endpoints:
+  - url: https://mcp.jepto.com
+    transport: streamable-http
+    auth: oauth

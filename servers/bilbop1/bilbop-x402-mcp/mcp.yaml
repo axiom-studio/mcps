@@ -1,0 +1,13 @@
+name: Bilbop x402
+summary: 'Hosted streamable-HTTP MCP for pay-per-call x402 tools: text summarize ($0.01), Solana token brief ($0.01), Solana mint info ($0.01), brand feedback ($0.50), and text-to-speech ($0.025). Unpaid calls return HTTP 402; pay in USDC on Solana and retry with the X-PAYMENT header. Settles on https://api.bilbop.org.'
+category: finance
+tags:
+  - crypto
+  - finance
+  - payment
+  - text-to-speech
+docs_url: https://github.com/bilbop1/bilbop-x402-mcp
+endpoints:
+  - url: https://bilbop-x402-mcp.watchdogsfreak.workers.dev/mcp
+    transport: streamable-http
+    auth: none

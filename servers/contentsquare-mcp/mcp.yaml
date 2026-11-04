@@ -1,0 +1,18 @@
+name: Contentsquare
+summary: Contentsquare is an experience analytics platform that captures and analyzes user behavior across digital products. Its connector gives assistants analytics context for understanding what users do, why patterns emerge, and how product teams can investigate behavior.
+description: |-
+  Contentsquare is an experience analytics platform that captures and analyzes user behavior across digital products. Its connector gives assistants analytics context for understanding what users do, why patterns emerge, and how product teams can investigate behavior.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/contentsquare)
+category: marketing
+tags:
+  - marketing
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/contentsquare
+endpoints:
+  - url: https://api.contentsquare.com/mcp
+    transport: streamable-http
+    auth: oauth

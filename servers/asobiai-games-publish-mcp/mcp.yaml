@@ -1,0 +1,13 @@
+name: Asobiai
+summary: 'Publish browser games made with AI just by asking: your AI uploads, tests and shares the game on Asobiai (leaderboards, comments, online multiplayer, game jams).'
+category: development
+tags:
+  - browser
+  - deployment
+  - game-development
+  - gaming
+docs_url: https://asobiai.games/publish/mcp
+endpoints:
+  - url: https://asobiai.games/mcp
+    transport: streamable-http
+    auth: oauth

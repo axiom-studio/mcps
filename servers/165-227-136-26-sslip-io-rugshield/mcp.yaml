@@ -1,0 +1,14 @@
+name: RugShield — Solana Token Safety Scanner
+summary: 'Scan Solana tokens for rug-pull risk: mint/freeze authority, holder concentration, LP lock, liquidity and composite risk score. Free tier included.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - defi
+  - finance
+  - security
+docs_url: https://165-227-136-26.sslip.io/rugshield/
+endpoints:
+  - url: https://165-227-136-26.sslip.io/shield/mcp
+    transport: streamable-http
+    auth: api-key

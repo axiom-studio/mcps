@@ -1,0 +1,13 @@
+name: Metis Check
+summary: 'Checks the citations in an answer at the registries that issue them (DOI, PubMed, arXiv, LEI, ORCID, ROR, ISBN, SEC CIK and more) and files a signed report anyone can recheck. Each identifier comes back in one of four states: settled true, settled false, not decidable, unreachable. Works inside ChatGPT, Codex, Claude and Claude Code. Free: 5 checks a month.'
+category: productivity
+tags:
+  - compliance
+  - documentation
+  - knowledge-retrieval
+  - research
+docs_url: https://mcp.metisfoundry.com/docs
+endpoints:
+  - url: https://check-api.metisfoundry.com/mcp/check
+    transport: streamable-http
+    auth: oauth

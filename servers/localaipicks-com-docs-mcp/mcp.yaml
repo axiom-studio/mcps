@@ -1,0 +1,12 @@
+name: Local AI Picks
+summary: Find open-weight AI models that fit your hardware, with weight sizes, memory and sources.
+category: development
+tags:
+  - ai-model
+  - research
+  - search
+docs_url: https://localaipicks.com/docs/mcp
+endpoints:
+  - url: https://localaipicks.com/mcp
+    transport: streamable-http
+    auth: none

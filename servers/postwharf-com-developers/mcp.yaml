@@ -1,0 +1,13 @@
+name: PostWharf
+summary: Schedule and publish posts to Instagram, TikTok, X, LinkedIn, YouTube, Facebook, Threads, Pinterest, Bluesky and Telegram from any MCP client, with a delivery receipt per network.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://postwharf.com/developers
+endpoints:
+  - url: https://mcp.postwharf.com/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,11 @@
+name: GlyphGuard
+summary: Find hidden or deceptive Unicode in text (zero-width characters, bidi controls, hidden tag text, mixed scripts and lookalike letters), clean it, and check a name against up to 50 protected names for lookalikes. Free, with no sign-up and no API key; about 60 checks per minute per IP, up to 2,000 UTF-16 code units per text (about 2,000 characters for most text; emoji count as 2). Results are a screening signal, not a security guarantee. Nothing you submit is stored. GlyphGuard is not affiliated with the Unicode Consortium.
+category: development
+tags:
+  - compliance
+  - security
+docs_url: https://glyphguard.mike-tusa.workers.dev/
+endpoints:
+  - url: https://glyphguard.mike-tusa.workers.dev/mcp
+    transport: streamable-http
+    auth: none

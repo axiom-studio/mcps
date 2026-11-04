@@ -1,0 +1,13 @@
+name: beehiiv
+summary: Official hosted beehiiv MCP server. Draft posts, manage subscribers, segments and automations, run podcasts and communities, and read analytics. OAuth sign-in, nothing to install.
+category: marketing
+tags:
+  - analytics
+  - cms
+  - email-automation
+  - marketing
+docs_url: https://github.com/beehiiv/agents
+endpoints:
+  - url: https://mcp.beehiiv.com/mcp
+    transport: streamable-http
+    auth: oauth

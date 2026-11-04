@@ -1,0 +1,12 @@
+name: HProxy MCP
+summary: 'HProxy MCP: free proxy list, proxy checker and IP lookup for AI agents, no key needed. HProxy.com sells residential proxies from $0.44 per GB.'
+category: web-scraping
+tags:
+  - network-automation
+  - security
+  - web-scraping
+docs_url: https://hproxy.com/tools/ai
+endpoints:
+  - url: https://mcp.hproxy.com/mcp
+    transport: streamable-http
+    auth: unknown

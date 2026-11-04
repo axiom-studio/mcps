@@ -1,0 +1,13 @@
+name: Premiss
+summary: Create custom Python trading strategies and backtest crypto, stocks and ETFs in Claude or ChatGPT. Inspect trades, compare with buy and hold, and save research. Premiss account required.
+category: finance
+tags:
+  - ai-agent
+  - data-analysis
+  - finance
+  - trading
+docs_url: https://app.premissai.com/integrations
+endpoints:
+  - url: https://app.premissai.com/api/mcp/claude
+    transport: streamable-http
+    auth: oauth

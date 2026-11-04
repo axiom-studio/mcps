@@ -1,0 +1,15 @@
+name: LinkedIn Ads MCP - DemandSense Intelligence Hub
+summary: 'LinkedIn Ads MCP for B2B teams. Ask Claude or ChatGPT about your LinkedIn ad performance, identified website visitors and CRM pipeline (HubSpot, Salesforce, Attio) in one place: campaign and account-level engagement, influenced revenue, pacing checks and benchmark comparisons. Read-only: it analyzes and recommends, never changes your campaigns. Hosted remote server with OAuth. 30-day free trial, no card required.'
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - crm
+  - marketing
+  - sales
+official: true
+docs_url: https://demandsense.com/mcp-intelligence-hub
+endpoints:
+  - url: https://mcp.demandsense.com/mcp
+    transport: streamable-http
+    auth: oauth

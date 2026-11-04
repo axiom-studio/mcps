@@ -1,0 +1,12 @@
+name: Bilinc
+summary: Hosted, versioned memory for AI agents, with recall, revise, diff and rollback over a remote MCP connector or a local stdio adapter.
+category: memory
+tags:
+  - ai-agent
+  - memory
+  - version-control
+docs_url: https://github.com/ReARCLabs/bilinc
+endpoints:
+  - url: https://mcp.bilinc.space/mcp
+    transport: streamable-http
+    auth: oauth

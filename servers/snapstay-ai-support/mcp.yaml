@@ -1,0 +1,13 @@
+name: Snapstay
+summary: Connect AI assistants to Snapstay to look up hotel reservations, availability, rates, guests, and performance, with access controlled through OAuth.
+category: productivity
+tags:
+  - api
+  - business-operations
+  - crm
+  - customer-ops
+docs_url: https://snapstay.ai/support#assistant-help
+endpoints:
+  - url: https://snapstay.ai/mcp
+    transport: streamable-http
+    auth: oauth

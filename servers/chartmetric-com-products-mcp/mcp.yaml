@@ -1,0 +1,14 @@
+name: Chartmetric MCP
+summary: Access Chartmetric's music industry analytics — artist, track, playlist, and chart data across 18 domains via natural language
+category: search
+tags:
+  - audio
+  - knowledge-retrieval
+  - media
+  - music
+  - search
+docs_url: https://chartmetric.com/products/mcp
+endpoints:
+  - url: https://mcp.chartmetric.com/v1/mcp
+    transport: streamable-http
+    auth: oauth

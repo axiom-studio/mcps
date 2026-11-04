@@ -1,0 +1,12 @@
+name: Fungsi.id MCP
+summary: Read-only MCP access to Indonesian job listings, company details and job-search filters. Free hosted endpoint with no authentication.
+category: search
+tags:
+  - data-analysis
+  - search
+  - web-research
+docs_url: https://fungsi.id/mcp
+endpoints:
+  - url: https://api.fungsi.id/mcp
+    transport: streamable-http
+    auth: none

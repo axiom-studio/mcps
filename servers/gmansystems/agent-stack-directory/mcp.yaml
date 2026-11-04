@@ -1,0 +1,13 @@
+name: Agent Stack Directory
+summary: Search, inspect and compare infrastructure tools for AI agents from a checked directory.
+category: development
+tags:
+  - ai-agent
+  - development
+  - marketplace
+  - search
+docs_url: https://github.com/gmansystems/agent-stack-directory
+endpoints:
+  - url: https://agentstackdirectory.com/mcp
+    transport: streamable-http
+    auth: none

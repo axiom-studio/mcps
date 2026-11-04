@@ -1,0 +1,8 @@
+name: MedBillAnalyzer
+summary: Checks a medical bill against the Explanation of Benefits (EOB) your insurer sent and flags where they disagree. Free scan; $10 per bill unlocks every finding, a dispute letter and a phone script.
+category: finance
+docs_url: https://app.medbillanalyzer.com/mcp/apps?via=mcpservers
+endpoints:
+  - url: https://app.medbillanalyzer.com/mcp/apps
+    transport: streamable-http
+    auth: none

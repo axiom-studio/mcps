@@ -1,0 +1,14 @@
+name: Notifly MCP
+summary: Manage notification workflows, subscribers and topics, and trigger delivery across email, SMS, push, chat and in-app channels with Notifly. Remote server with OAuth sign-in.
+category: communication
+tags:
+  - communication
+  - identity
+  - productivity
+  - security
+  - sms
+docs_url: https://notifly.io/developers
+endpoints:
+  - url: https://api.notifly.io/mcp
+    transport: streamable-http
+    auth: oauth

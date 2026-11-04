@@ -1,0 +1,13 @@
+name: FirmLedger
+summary: Search and access verified, source-backed company and business intelligence through FirmLedger.
+category: search
+tags:
+  - business-operations
+  - data-analysis
+  - research
+  - search
+docs_url: https://firmledger.co.ke/docs/mcp/reference
+endpoints:
+  - url: https://firmledger.co.ke/mcp
+    transport: streamable-http
+    auth: none

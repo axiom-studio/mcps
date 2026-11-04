@@ -1,0 +1,12 @@
+name: Port OS Smart Home
+summary: 'Connect AI to smart home devices: discover, read state and control with approved permissions.'
+category: productivity
+tags:
+  - ai-agent
+  - home-automation
+  - iot
+docs_url: https://portoperatingsystem.com/
+endpoints:
+  - url: https://api.portoperatingsystem.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Blinkbox
+summary: Open-source automation platform (Zapier / Make / n8n alternative) exposed as an MCP server. Agents list, create, run, activate and debug workflows across 250+ integrations, headless Chromium scraping and sandboxed JS nodes; ships a SKILL.md with the node catalog and expression syntax. Hosted (free tier, API key) or self-host.
+category: productivity
+tags:
+  - api
+  - browser-automation
+  - productivity
+  - workflow-automation
+docs_url: https://github.com/blinkboxhq/Blinkbox
+endpoints:
+  - url: https://mcp.blinkbox.net/mcp
+    transport: streamable-http
+    auth: api-key

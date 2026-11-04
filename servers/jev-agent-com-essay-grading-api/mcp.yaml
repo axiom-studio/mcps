@@ -1,0 +1,13 @@
+name: Jagent Graders MCP
+summary: Grade essays with rubrics, check resumes, and return structured scores and decisions to AI agents.
+category: productivity
+tags:
+  - ai-agent
+  - data-analysis
+  - document
+  - education
+docs_url: https://jev-agent.com/essay-grading-api
+endpoints:
+  - url: https://jev-agent.com/api/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,14 @@
+name: AdRecast
+summary: 'Remote MCP server (https://adrecast.com/api/mcp) that remakes proven e-commerce video ads for your product: search templates, upload product images, review and edit the script, estimate cost, generate multi-scene video and export 9:16 / 1:1 / 16:9. 46 tools; spending calls require confirm: true. Auth: API key.'
+category: marketing
+tags:
+  - advertising
+  - content-creation
+  - ecommerce
+  - marketing
+  - video
+docs_url: https://github.com/Nikoismaster/adrecast-mcp
+endpoints:
+  - url: https://adrecast.com/api/mcp
+    transport: streamable-http
+    auth: api-key

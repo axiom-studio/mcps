@@ -1,0 +1,13 @@
+name: SoftSync AI
+summary: 'AI CRM with a hosted MCP server: Claude or ChatGPT can update records, move deals and send email.'
+category: marketing
+tags:
+  - ai-agent
+  - crm
+  - email-automation
+  - sales
+docs_url: https://softsync.ai/agents
+endpoints:
+  - url: https://api.softsync.ai/mcp/softsync
+    transport: streamable-http
+    auth: unknown

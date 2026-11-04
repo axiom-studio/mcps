@@ -1,0 +1,14 @@
+name: datatomcp
+summary: 'Query your CSVs and Google Sheets from any AI agent: filter, group and total rows with exact results. Hosted, OAuth sign-in, read-only, EU-hosted.'
+category: database
+tags:
+  - data-analysis
+  - database
+  - google-sheets
+  - spreadsheet
+  - sql
+docs_url: https://github.com/datatomcp/datatomcp-mcp
+endpoints:
+  - url: https://app.datatomcp.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Swarm MCP
+summary: Connect Swarm to your AI assistant. Ask it where to go, check in without opening the app, and look back through everywhere you have been.
+category: cloud-service
+tags:
+  - geospatial
+  - mobile
+official: true
+docs_url: https://app.foursquare.com/mcp
+endpoints:
+  - url: https://api.foursquare.com/v2/streaming/mcp/swarm-beta
+    transport: streamable-http
+    auth: oauth

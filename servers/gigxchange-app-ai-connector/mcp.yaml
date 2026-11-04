@@ -1,0 +1,13 @@
+name: GigXchange
+summary: 'UK live music: gigs, open mics, venues, musician profiles, GX Index gig rates and member bookings.'
+category: search
+tags:
+  - entertainment
+  - marketplace
+  - music
+  - search
+docs_url: https://gigxchange.app/ai-connector
+endpoints:
+  - url: https://mcp.gigxchange.app/mcp
+    transport: streamable-http
+    auth: none

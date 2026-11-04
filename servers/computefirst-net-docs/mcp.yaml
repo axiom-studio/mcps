@@ -1,0 +1,12 @@
+name: ComputeFirst
+summary: Deterministic calculations, identifier validation, and data transforms; free, no API key.
+category: development
+tags:
+  - data-analysis
+  - development
+  - testing-qa
+docs_url: https://computefirst.net/docs
+endpoints:
+  - url: https://computefirst.net/mcp
+    transport: streamable-http
+    auth: unknown

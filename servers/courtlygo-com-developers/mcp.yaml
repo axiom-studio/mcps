@@ -1,0 +1,13 @@
+name: CourtlyGo
+summary: 'Open database of tennis, pickleball and padel courts from OpenStreetMap (ODbL, © OpenStreetMap contributors). Remote MCP server, read-only, no sign-in: search by city or location, filter by surface, lighting, access and fee.'
+category: search
+tags:
+  - database
+  - geospatial
+  - search
+  - sports
+docs_url: https://courtlygo.com/developers
+endpoints:
+  - url: https://courtlygo.com/mcp
+    transport: streamable-http
+    auth: none

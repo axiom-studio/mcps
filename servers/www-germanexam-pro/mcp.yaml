@@ -1,0 +1,13 @@
+name: GermanExam.pro
+summary: Grades German C1 exam writing (TestDaF, DSH, Goethe C1, telc C1) against the official rubrics, like an experienced examiner.
+category: other
+tags:
+  - ai-model
+  - data-analysis
+  - document
+  - education
+docs_url: https://www.germanexam.pro
+endpoints:
+  - url: https://www.germanexam.pro/api/mcp
+    transport: streamable-http
+    auth: oauth

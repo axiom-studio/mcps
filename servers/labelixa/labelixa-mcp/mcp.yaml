@@ -1,0 +1,13 @@
+name: Labelixa
+summary: 'Render, validate and debug thermal printer labels (ZPL, EPL, TSPL, CPCL): PNG preview, lint, explain, DPI and printer-language conversion, barcodes and label templates.'
+category: development
+tags:
+  - development
+  - document
+  - file-conversion
+  - testing-qa
+docs_url: https://github.com/Labelixa/labelixa-mcp
+endpoints:
+  - url: https://api.labelixa.com/mcp
+    transport: streamable-http
+    auth: none

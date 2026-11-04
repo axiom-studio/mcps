@@ -1,0 +1,13 @@
+name: egrul.org
+summary: 'Проверка организаций, ИП и физлиц по данным ЕГРЮЛ/ЕГРИП ФНС России: санкции, иноагенты, банкротство, финансовая отчётность, мониторинг изменений.'
+category: finance
+tags:
+  - compliance
+  - data-analysis
+  - finance
+  - research
+docs_url: https://egrul.org/#MCP_для_ИИ
+endpoints:
+  - url: https://egrul.org/mcp/
+    transport: streamable-http
+    auth: oauth

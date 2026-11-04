@@ -1,0 +1,13 @@
+name: AdvisorPPC
+summary: AdvisorPPC connects authorized ad accounts to AI assistants for audits, reporting, and approval-gated changes.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - marketing
+  - marketing-automation
+docs_url: https://mcp.advisorppc.com/docs
+endpoints:
+  - url: https://mcp.advisorppc.com/mcp
+    transport: streamable-http
+    auth: oauth

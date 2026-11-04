@@ -1,0 +1,13 @@
+name: MakeViral
+summary: MakeViral finds the latest viral AI video and photo trends on TikTok and Reels and turns your own photos into that trend, or makes any AI image or video from a prompt.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - social-media
+  - video
+docs_url: https://www.makeviral.ai
+endpoints:
+  - url: https://www.makeviral.ai/mcp
+    transport: streamable-http
+    auth: oauth

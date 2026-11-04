@@ -1,0 +1,12 @@
+name: Apologetics Wiki
+summary: Bible verses, cross-references, Greek and Hebrew word studies, and Christian apologetics articles.
+category: other
+tags:
+  - education
+  - knowledge-retrieval
+  - research
+docs_url: https://apologetics.wiki/connect
+endpoints:
+  - url: https://apologetics.wiki/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: EuroVDC MCP Server
+summary: Live EUR hosting catalog, domain search, AI server recommendations, and Phase 1 agent checkout for EuroVDC. Remote HTTP MCP — public tools work without an API key.
+category: cloud-service
+tags:
+  - ai-agent
+  - cloud-infrastructure
+  - ecommerce
+  - marketplace
+docs_url: https://github.com/eurovdceu/eurovdc-mcp
+endpoints:
+  - url: https://www.eurovdc.eu/mcp
+    transport: streamable-http
+    auth: none

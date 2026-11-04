@@ -1,0 +1,13 @@
+name: PapaHR
+summary: 'Ask Claude or ChatGPT about your team in PapaHR: who is away, hiring, probation, eNPS, HR costs.'
+category: productivity
+tags:
+  - analytics
+  - business-operations
+  - chatbot
+  - productivity
+docs_url: https://papahr.com/?utm_source=mcpservers&utm_medium=directory&utm_campaign=mcp
+endpoints:
+  - url: https://papahr.com/mcp
+    transport: streamable-http
+    auth: oauth

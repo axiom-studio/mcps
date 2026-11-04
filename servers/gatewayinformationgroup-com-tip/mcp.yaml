@@ -1,0 +1,13 @@
+name: Gateway Agent Tip Jar
+summary: Read free voluntary USDC support terms on Base. Prepare unpaid quotes and read private receipts using a client-generated capability header. Paying requires separate wallet authorization.
+category: finance
+tags:
+  - crypto
+  - evm
+  - finance
+  - payment
+docs_url: https://gatewayinformationgroup.com/tip
+endpoints:
+  - url: https://gateway-wallet-payments.jerryrnapier.workers.dev/agent-tools
+    transport: streamable-http
+    auth: unknown

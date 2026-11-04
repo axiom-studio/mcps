@@ -1,0 +1,13 @@
+name: appdesigns App Store Screenshots
+summary: 'App Store and Google Play screenshots MCP: your agent captures the app, you edit and export. Free.'
+category: design
+tags:
+  - browser-automation
+  - design
+  - file-conversion
+  - media
+docs_url: https://github.com/haider-nawaz/app-store-screenshots-mcp
+endpoints:
+  - url: https://appdesigns.click/api/mcp
+    transport: streamable-http
+    auth: none

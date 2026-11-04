@@ -1,0 +1,13 @@
+name: Kvartiry-Phuket
+summary: 'Free read-only remote MCP server with Phuket (Thailand) real estate and travel data: property guides, dated asking prices, official condo assessment rates, live weather, climate by month, 25 beaches, webcams and today''s sea state. Russian-language content, source URL in every result, no auth.'
+category: other
+tags:
+  - data-analysis
+  - real-estate
+  - weather
+  - web-research
+docs_url: https://kvartiry-phuket.com/otkrytye-dannye/#english
+endpoints:
+  - url: https://kvartiry-phuket.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Talpy Aya – AI recruiter on WhatsApp
+summary: Aya interviews candidates on WhatsApp in 5 languages; read evidence-backed scores, create jobs and send candidates to interview.
+category: productivity
+tags:
+  - ai-agent
+  - communication
+  - productivity
+  - whatsapp
+docs_url: https://talpy.ai/docs/api#mcp
+endpoints:
+  - url: https://talpy.ai/api/mcp
+    transport: streamable-http
+    auth: api-key

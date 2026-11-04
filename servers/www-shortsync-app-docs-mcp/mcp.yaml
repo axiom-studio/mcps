@@ -1,0 +1,14 @@
+name: ShortSync
+summary: Schedule and publish short-form video, images and text to TikTok, YouTube Shorts, Instagram, X, LinkedIn and more from one upload, and read post analytics.
+category: marketing
+tags:
+  - analytics
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://www.shortsync.app/docs/mcp
+endpoints:
+  - url: https://www.shortsync.app/api/mcp
+    transport: streamable-http
+    auth: oauth

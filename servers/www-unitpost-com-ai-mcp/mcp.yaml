@@ -1,0 +1,13 @@
+name: Unitpost
+summary: Remote MCP server for Unitpost, an email and SMS API. Agents in Cursor, Claude Code, Codex and other MCP clients send transactional email, campaigns and SMS, manage contacts, templates and domains, and read inbound email. Streamable HTTP at https://mcp.unitpost.com/mcp with OAuth 2.1 sign-in or an API key. One tool per API operation. Free plan includes 5,000 emails a month.
+category: communication
+tags:
+  - api
+  - communication
+  - email-automation
+  - sms
+docs_url: https://www.unitpost.com/ai/mcp
+endpoints:
+  - url: https://mcp.unitpost.com/mcp
+    transport: streamable-http
+    auth: unknown

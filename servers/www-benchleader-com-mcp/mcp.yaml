@@ -1,0 +1,13 @@
+name: BenchLeader
+summary: 'Daily LLM leaderboard from independent benchmarks: ranks, scores, prices, speed and comparisons. Ask which model is best for coding, compare two models, or look up a benchmark. Free, no API key; endpoint https://www.benchleader.com/mcp (Streamable HTTP).'
+category: search
+tags:
+  - ai-model
+  - data-analysis
+  - llm
+  - search
+docs_url: https://www.benchleader.com/mcp
+endpoints:
+  - url: https://www.benchleader.com/mcp
+    transport: streamable-http
+    auth: none

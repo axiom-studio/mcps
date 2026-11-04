@@ -1,0 +1,12 @@
+name: Pouch.me and Inkable Label
+summary: 'Custom printed pouches (Pouch.me) and labels (Inkable): specs, quote requests, label prices.'
+category: other
+tags:
+  - business-operations
+  - ecommerce
+  - inventory
+docs_url: https://agents.pouch.me
+endpoints:
+  - url: https://agents.pouch.me/mcp
+    transport: streamable-http
+    auth: none

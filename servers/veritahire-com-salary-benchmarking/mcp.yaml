@@ -1,0 +1,11 @@
+name: VeritaHire Hiring Intelligence
+summary: 'For a role an employer is hiring: the posted pay range nearby, which employers compete for it, how fast they close it and the state hiring market, read daily from 2.5 million+ live postings on 19,000+ employers'' own career sites. Remote endpoint https://veritahire.com/mcp/employers, no key or sign-up.'
+category: productivity
+tags:
+  - business-operations
+  - data-analysis
+docs_url: https://veritahire.com/salary-benchmarking/
+endpoints:
+  - url: https://veritahire.com/mcp/employers
+    transport: streamable-http
+    auth: none

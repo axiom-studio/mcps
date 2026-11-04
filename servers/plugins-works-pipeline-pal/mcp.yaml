@@ -1,0 +1,13 @@
+name: Pipeline Pal
+summary: 'CRM in your AI assistant: leads, customers, deals, pipeline board, follow-ups and a daily brief.'
+category: productivity
+tags:
+  - crm
+  - productivity
+  - sales
+  - task-management
+docs_url: https://plugins.works/pipeline-pal/
+endpoints:
+  - url: https://plugins.works/pipeline-pal/mcp
+    transport: streamable-http
+    auth: oauth

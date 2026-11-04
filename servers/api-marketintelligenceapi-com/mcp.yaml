@@ -1,0 +1,14 @@
+name: Market Intelligence API
+summary: 'Market data for AI agents: token safety and honeypot checks, on-chain order flow, SEC filings and insider trades, Fed and Treasury data, DeFi yields. Pay per call with x402, no account.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - defi
+  - finance
+  - research
+docs_url: https://api.marketintelligenceapi.com
+endpoints:
+  - url: https://api.marketintelligenceapi.com/mcp
+    transport: streamable-http
+    auth: unknown

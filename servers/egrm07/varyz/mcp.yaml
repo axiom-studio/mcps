@@ -1,0 +1,13 @@
+name: Varyz
+summary: Local-first preference service for AI agents. Applies your confirmed rules and past decisions, asks you only the choices that matter, and searches approved project history. Works with Claude Code, Codex and other MCP clients; optional hosted Varyz Cloud.
+category: memory
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - memory
+  - productivity
+docs_url: https://github.com/egrm07/varyz
+endpoints:
+  - url: https://cloud.varyzai.com/mcp/plugin
+    transport: streamable-http
+    auth: oauth

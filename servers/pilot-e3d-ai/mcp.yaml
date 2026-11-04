@@ -1,0 +1,12 @@
+name: E3D Pilot
+summary: Multi-model AI second opinions with a reviewed conclusion, consensus level, and preserved dissent.
+category: development
+tags:
+  - ai-agent
+  - development
+  - llm
+docs_url: https://pilot.e3d.ai
+endpoints:
+  - url: https://pilot.e3d.ai/mcp
+    transport: streamable-http
+    auth: oauth

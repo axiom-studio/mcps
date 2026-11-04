@@ -1,0 +1,12 @@
+name: Bot403 MCP
+summary: 'Invisible bot shield for HTML forms: the browser solves a proof of work and your server checks it.'
+category: development
+tags:
+  - browser
+  - development
+  - security
+docs_url: https://bot403.com/docs
+endpoints:
+  - url: https://bot403.com/mcp
+    transport: streamable-http
+    auth: oauth

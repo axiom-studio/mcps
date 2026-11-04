@@ -1,0 +1,12 @@
+name: The Dose Guy
+summary: Read-only compound reference and vendor comparison for AI assistants, with canonical source links and no authentication required.
+category: other
+tags:
+  - knowledge-retrieval
+  - research
+  - web-research
+docs_url: https://thedoseguy.com
+endpoints:
+  - url: https://thedoseguy.com/api/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,8 @@
+name: landed
+summary: 'Read-after-write receipts for agents: did your write actually land? Free, signed, re-checkable.'
+category: other
+docs_url: https://landed.wirt.ee
+endpoints:
+  - url: https://landed.wirt.ee/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Context.dev
+summary: Live web search, scraping, crawling, answers, brand and people intelligence, and document parsing for AI agents.
+category: search
+tags:
+  - document
+  - search
+  - web-research
+  - web-scraping
+docs_url: https://docs.context.dev/install-mcp
+endpoints:
+  - url: https://mcp.context.dev/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: PHION Agent Services
+summary: Find the best eligible service for an agent task through one task-first MCP tool.
+category: development
+tags:
+  - ai-agent
+  - api
+  - research
+  - web-research
+docs_url: https://phion.systems
+endpoints:
+  - url: https://phion.systems/mcp/task
+    transport: streamable-http
+    auth: unknown

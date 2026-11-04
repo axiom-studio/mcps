@@ -1,0 +1,14 @@
+name: Stele
+summary: Shared memory for AI coding agents. Claude Code, Cursor and Codex read your project's decisions, lessons and tasks before they act.
+category: productivity
+tags:
+  - ai-agent
+  - coding-agent
+  - knowledge-retrieval
+  - memory
+  - productivity
+docs_url: https://stele-ai.dev
+endpoints:
+  - url: https://app.stele-ai.dev/api/mcp
+    transport: streamable-http
+    auth: oauth

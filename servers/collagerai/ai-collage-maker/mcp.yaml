@@ -1,0 +1,12 @@
+name: Photo Mosaic & AI Collage Maker - Collager.ai
+summary: 'Photo mosaic maker and AI photo collage maker: turn your own photos into a photo mosaic or a heart, number or word photo collage in seconds. Remote MCP, no sign-in.'
+category: design
+tags:
+  - content-creation
+  - design
+  - media
+docs_url: https://github.com/collagerai/ai-collage-maker
+endpoints:
+  - url: https://collager.ai/mcp
+    transport: streamable-http
+    auth: none

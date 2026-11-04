@@ -1,0 +1,12 @@
+name: Tera Studio
+summary: 'Remote MCP server for singers: find a song''s key and tempo, move a song up or down by up to 6 semitones (the file stays in the user''s browser), and get the steps to hear a song in your own voice. No sign-in, no API key.'
+category: other
+tags:
+  - audio
+  - file-conversion
+  - music
+docs_url: https://terastudio.co/ai-assistants/
+endpoints:
+  - url: https://terastudio.co/mcp
+    transport: streamable-http
+    auth: none

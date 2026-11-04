@@ -1,0 +1,24 @@
+name: Crypto.com
+summary: Crypto.com provides real-time cryptocurrency price quotes, order books, conversions, candlestick charts, and token-market information. Its connector gives assistants market context for crypto research, comparisons, and trading-oriented questions.
+description: |-
+  # Crypto.com
+
+  Crypto.com provides real-time cryptocurrency price quotes, order books, conversions, candlestick charts, and token-market information. Its connector gives assistants market context for crypto research, comparisons, and trading-oriented questions.
+
+  ## Connection
+
+  none: https://mcp.crypto.com/market-data/mcp
+
+  The publisher states no API keys are needed for this public market-data service.
+
+  [Official documentation](https://mcp.crypto.com/docs)
+category: finance
+tags:
+  - finance
+  - remote-mcp
+official: true
+docs_url: https://mcp.crypto.com/docs
+endpoints:
+  - url: https://mcp.crypto.com/market-data/mcp
+    transport: streamable-http
+    auth: none

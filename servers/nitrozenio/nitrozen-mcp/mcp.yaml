@@ -1,0 +1,12 @@
+name: Nitrozen
+summary: 'Manage Nitrozen.io changelog projects, entries and API tokens from any MCP client. Remote server: https://mcp.nitrozen.io/mcp (Streamable HTTP, OAuth or Bearer token).'
+category: productivity
+tags:
+  - api
+  - productivity
+  - project-management
+docs_url: https://github.com/nitrozenio/nitrozen-mcp
+endpoints:
+  - url: https://mcp.nitrozen.io/mcp
+    transport: streamable-http
+    auth: unknown

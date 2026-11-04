@@ -1,0 +1,13 @@
+name: Swapply
+summary: Swap users, not spam.
+category: marketing
+tags:
+  - advertising
+  - marketing
+  - marketplace
+  - social-media
+docs_url: https://swapply.app
+endpoints:
+  - url: https://swapply.app/mcp
+    transport: streamable-http
+    auth: none

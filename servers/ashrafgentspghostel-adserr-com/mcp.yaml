@@ -1,0 +1,11 @@
+name: Ashraf Gents Hostel
+summary: 'Men''s hostel in Kalamassery, Kochi: hostel facts, local guides, nearby places and WhatsApp availability requests.'
+category: other
+tags:
+  - communication
+  - productivity
+docs_url: https://ashrafgentspghostel.adserr.com
+endpoints:
+  - url: https://hostel-mcp.adserr.com/mcp
+    transport: streamable-http
+    auth: none

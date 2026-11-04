@@ -1,0 +1,13 @@
+name: Kresmion
+summary: 'Read-only market intelligence for AI agents: prediction markets, on-chain and ETF flows, SEC filings, 13F, macro regime.'
+category: finance
+tags:
+  - ai-agent
+  - data-analysis
+  - finance
+  - research
+docs_url: https://kresmion.com/developers
+endpoints:
+  - url: https://kresmion.com/api/mcp
+    transport: streamable-http
+    auth: unknown

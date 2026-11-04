@@ -1,0 +1,12 @@
+name: GeneBe
+summary: 'Annotate and classify human genetic variants with GeneBe: ACMG verdicts, gnomAD, ClinVar. Read-only, research use only.'
+category: other
+tags:
+  - bioinformatics
+  - healthcare
+  - research
+docs_url: https://github.com/genebe-net/genebe-mcp
+endpoints:
+  - url: https://mcp.genebe.net/v1/mcp
+    transport: streamable-http
+    auth: none

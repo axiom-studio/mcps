@@ -1,0 +1,13 @@
+name: Yatmo
+summary: 'Neighbourhood intelligence for real estate: nearest schools, shops and transport with travel times for any address in 25 countries.'
+category: other
+tags:
+  - data-analysis
+  - geospatial
+  - real-estate
+  - research
+docs_url: https://github.com/Yatmo/yatmo-mcp
+endpoints:
+  - url: https://mcp.yatmo.com/mcp/v1
+    transport: streamable-http
+    auth: api-key

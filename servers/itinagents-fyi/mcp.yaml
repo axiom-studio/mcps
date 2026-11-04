@@ -1,0 +1,12 @@
+name: ITINAgents.fyi
+summary: Directory of IRS Certifying Acceptance Agents for ITIN applications.
+category: search
+tags:
+  - government
+  - research
+  - web-research
+docs_url: https://itinagents.fyi
+endpoints:
+  - url: https://itinagents.fyi/mcp
+    transport: streamable-http
+    auth: unknown

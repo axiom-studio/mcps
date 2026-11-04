@@ -1,0 +1,12 @@
+name: NatalChart.AI Astrology
+summary: 'Remote MCP server with Swiss Ephemeris astrology tools: natal charts, transits, synastry, solar returns, best days and city rankings as JSON. Free API key: 10 calls a day.'
+category: other
+tags:
+  - api
+  - data-analysis
+  - research
+docs_url: https://www.natalchart.ai/astrology-mcp-server
+endpoints:
+  - url: https://www.natalchart.ai/mcp
+    transport: streamable-http
+    auth: api-key

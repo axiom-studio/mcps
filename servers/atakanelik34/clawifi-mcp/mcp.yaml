@@ -1,0 +1,13 @@
+name: Clawifi
+summary: Web search, fetch, scrape, site map and crawl tools for AI agents, with a keyless tier and an API key for the full toolset.
+category: web-scraping
+tags:
+  - ai-agent
+  - search
+  - web-research
+  - web-scraping
+docs_url: https://github.com/atakanelik34/clawifi-mcp
+endpoints:
+  - url: https://api.clawifi.dev/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,11 @@
+name: Mortgage Tools by Jenny
+summary: 'Canadian mortgage calculators: renewal offers, extra payments, break-or-stay, debt consolidation.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+docs_url: https://jenny.mortgage/mortgage-tools/
+endpoints:
+  - url: https://mcp.jenny.mortgage/mcp
+    transport: streamable-http
+    auth: none

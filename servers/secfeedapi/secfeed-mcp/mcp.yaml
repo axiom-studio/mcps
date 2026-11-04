@@ -1,0 +1,13 @@
+name: SecFeed
+summary: 'SEC EDGAR data for AI agents: filing and full text search, 10-K sections, insider trades, 13F holdings, 8-K events, XBRL financials, plus SAM.gov and USAspending federal contracts'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - government
+  - search
+docs_url: https://github.com/secfeedapi/secfeed-mcp
+endpoints:
+  - url: https://secfeedapi.com/mcp
+    transport: streamable-http
+    auth: api-key

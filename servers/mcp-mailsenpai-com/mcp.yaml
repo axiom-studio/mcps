@@ -1,0 +1,13 @@
+name: MailSenpai
+summary: 'Manage MailSenpai email marketing from your AI assistant: lists, subscribers, templates and campaigns. Remote server with OAuth, hosted in the EU.'
+category: marketing
+tags:
+  - crm
+  - email-automation
+  - marketing
+  - marketing-automation
+docs_url: https://mcp.mailsenpai.com/
+endpoints:
+  - url: https://mcp.mailsenpai.com/mcp
+    transport: streamable-http
+    auth: unknown

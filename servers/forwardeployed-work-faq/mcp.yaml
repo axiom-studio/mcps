@@ -1,0 +1,12 @@
+name: Forward Deployed
+summary: Research, strategy, financial models and decks inside your AI assistant, priced and approved per job.
+category: productivity
+tags:
+  - document
+  - finance
+  - research
+docs_url: https://forwardeployed.work/faq
+endpoints:
+  - url: https://forwardeployed.work/mcp
+    transport: streamable-http
+    auth: oauth

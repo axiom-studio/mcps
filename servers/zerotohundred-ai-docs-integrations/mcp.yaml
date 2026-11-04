@@ -1,0 +1,13 @@
+name: Zero to Hundred
+summary: Public software search and comparison. Scoped account access for owned drafts; review and publish on the Zero to Hundred website.
+category: development
+tags:
+  - documentation
+  - research
+  - search
+  - web-research
+docs_url: https://zerotohundred.ai/docs/integrations
+endpoints:
+  - url: https://zerotohundred.ai/api/mcp
+    transport: streamable-http
+    auth: unknown

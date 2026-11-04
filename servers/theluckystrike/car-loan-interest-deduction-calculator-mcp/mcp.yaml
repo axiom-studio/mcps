@@ -1,0 +1,12 @@
+name: Car Loan Interest Deduction Calculator MCP
+summary: Car loan interest deduction, SALT cap, child tax credit and 2026 tax brackets for US filers
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - payment
+docs_url: https://github.com/theluckystrike/car-loan-interest-deduction-calculator-mcp
+endpoints:
+  - url: https://car-loan-interest-deduction-calculator-mcp.lipmichal.workers.dev/mcp
+    transport: streamable-http
+    auth: none

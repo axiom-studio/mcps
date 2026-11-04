@@ -1,0 +1,12 @@
+name: ScriptGrain
+summary: Build a voice profile from your own writing, draft new content in that voice, and score any text against it. 41 tools.
+category: marketing
+tags:
+  - ai-model
+  - content-creation
+  - marketing
+docs_url: https://github.com/StovBuilds/scriptgrain-mcp
+endpoints:
+  - url: https://mcp.scriptgrain.com/mcp
+    transport: streamable-http
+    auth: oauth

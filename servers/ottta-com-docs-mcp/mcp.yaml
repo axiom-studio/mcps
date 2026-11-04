@@ -1,0 +1,13 @@
+name: OTTTA MCP
+summary: Let's you talk to your OTTTA logged data & habit trackers.
+category: productivity
+tags:
+  - analytics
+  - data-analysis
+  - healthcare
+  - productivity
+docs_url: https://ottta.com/docs/mcp
+endpoints:
+  - url: https://ottta.com/mcp
+    transport: streamable-http
+    auth: oauth

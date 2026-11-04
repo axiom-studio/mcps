@@ -1,0 +1,10 @@
+name: La Demeure des Dix
+summary: 'Public MCP server for La Demeure des Dix, a privatized holiday house for 10 guests near Rouen, Normandy: property info, dog stays, house rules, booking options, availability, quotes.'
+category: other
+tags:
+  - real-estate
+docs_url: https://demeuredesdix.fr
+endpoints:
+  - url: https://demeuredesdix.fr/mcp
+    transport: streamable-http
+    auth: unknown

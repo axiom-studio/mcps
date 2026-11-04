@@ -1,0 +1,14 @@
+name: Hustle Got Real
+summary: 'Dropshipping for eBay, Amazon and Shopify: find products, manage listings, prices, stock and orders, and run AI listing agents from your AI client.'
+category: other
+tags:
+  - ai-agent
+  - business-operations
+  - ecommerce
+  - inventory
+  - marketplace
+docs_url: https://hustlegotreal.com/mcp/
+endpoints:
+  - url: https://mcp.hustlegotreal.com/
+    transport: streamable-http
+    auth: oauth

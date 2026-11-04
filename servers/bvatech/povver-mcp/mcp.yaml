@@ -1,0 +1,12 @@
+name: Povver
+summary: Read and write access to your own Povver strength-training data (set-level workout history, per-lift trends, muscle volume, routines, plans). Remote, OAuth 2.1, requires a Povver subscription (iOS app, 14-day free trial, then EUR 9.99/month or EUR 79.99/year).
+category: other
+tags:
+  - data-analysis
+  - fitness
+  - healthcare
+docs_url: https://github.com/bvatech/povver-mcp
+endpoints:
+  - url: https://mcp.povver.ai/mcp
+    transport: streamable-http
+    auth: oauth

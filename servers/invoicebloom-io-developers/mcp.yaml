@@ -1,0 +1,14 @@
+name: InvoiceBloom
+summary: 'Create, send and track invoices from Claude, Cursor or any MCP client. Hosted server for InvoiceBloom, a free invoicing app for freelancers and small businesses: find or add clients, draft invoices with line items and tax, email them with a PDF and payment link, mark them paid, list what is overdue.'
+category: finance
+tags:
+  - business-operations
+  - document
+  - email-automation
+  - finance
+  - payment
+docs_url: https://invoicebloom.io/developers
+endpoints:
+  - url: https://invoicebloom.io/mcp
+    transport: streamable-http
+    auth: api-key

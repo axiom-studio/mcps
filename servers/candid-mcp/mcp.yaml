@@ -1,0 +1,18 @@
+name: Candid
+summary: Candid provides nonprofit and funder intelligence for the social sector. Its remote MCP server lets assistants search millions of organizations, discover funding opportunities, and retrieve expert knowledge and sector news in conversation.
+description: |-
+  Candid provides nonprofit and funder intelligence for the social sector. Its remote MCP server lets assistants search millions of organizations, discover funding opportunities, and retrieve expert knowledge and sector news in conversation.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/candid)
+category: other
+tags:
+  - other
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/candid
+endpoints:
+  - url: https://mcp.candid.org/mcp
+    transport: streamable-http
+    auth: oauth

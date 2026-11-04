@@ -1,0 +1,12 @@
+name: Cryptominium
+summary: 'What a crypto position would really sell for: measured exit costs, a monthly liquidity index, and address and transaction lookups. Read-only, free, no account.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - finance
+docs_url: https://cryptominium.com/developers
+endpoints:
+  - url: https://cryptominium.com/mcp
+    transport: streamable-http
+    auth: none

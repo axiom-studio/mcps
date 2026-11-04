@@ -1,0 +1,12 @@
+name: MVisionPro Engineering Tools
+summary: 'Free read-only machine vision calculators: lens and field of view, camera interface bandwidth, line scan settings, sensor data, Hikrobot model lookup and cross-reference from other camera brands.'
+category: other
+tags:
+  - data-analysis
+  - document
+  - research
+docs_url: https://mvisionpro.com/tools/api/
+endpoints:
+  - url: https://mvisionpro.com/tools/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,14 @@
+name: Pangolinfo VOC Insight MCP
+summary: Connect AI agents to voice-of-customer research, social listening, sentiment trends, competitor voice share and source evidence through a hosted MCP service.
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - marketing
+  - research
+  - social-media
+docs_url: https://github.com/Pangolin-spg/voc-insight-mcp
+endpoints:
+  - url: https://voc.pangolinfo.com/mcp
+    transport: streamable-http
+    auth: api-key

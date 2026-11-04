@@ -1,0 +1,12 @@
+name: Boxerbook
+summary: 'Professional boxing data: schedule, results, boxer cards, WBC/WBA/IBF/WBO/Ring/TBRB rankings, forecasts, where to watch. Remote, free, no key.'
+category: other
+tags:
+  - api
+  - data-analysis
+  - sports
+docs_url: https://boxerbook.com/developers
+endpoints:
+  - url: https://mcp.boxerbook.com/mcp
+    transport: streamable-http
+    auth: unknown

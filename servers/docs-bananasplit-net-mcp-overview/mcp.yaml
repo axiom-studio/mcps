@@ -1,0 +1,12 @@
+name: 'BananaSplit: Tracking expenses MCP'
+summary: Groups and personal expenses in one place.
+category: finance
+tags:
+  - finance
+  - payment
+  - productivity
+docs_url: https://docs.bananasplit.net/mcp/overview
+endpoints:
+  - url: https://api.bananasplit.net/mcp
+    transport: streamable-http
+    auth: oauth

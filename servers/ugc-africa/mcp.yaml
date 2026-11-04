@@ -1,0 +1,14 @@
+name: UGC
+summary: Human Ad Network. Create and fund campaigns, discover slots, and check a wallet from chat.
+category: marketing
+tags:
+  - advertising
+  - crypto
+  - marketing
+  - payment
+  - workflow-automation
+docs_url: https://ugc.africa
+endpoints:
+  - url: https://api.ugc.africa/mcp
+    transport: streamable-http
+    auth: unknown

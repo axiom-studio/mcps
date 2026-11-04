@@ -1,0 +1,13 @@
+name: Cobra · Facturación SRI Ecuador
+summary: Issue SRI-authorized e-invoices, credit notes, debit notes and withholding receipts for Ecuador from any AI agent.
+category: finance
+tags:
+  - compliance
+  - finance
+  - payment
+  - workflow-automation
+docs_url: https://github.com/Motivandollc/cobra-mcp
+endpoints:
+  - url: https://facturacobra.com/mcp
+    transport: streamable-http
+    auth: api-key

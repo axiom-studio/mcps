@@ -1,0 +1,13 @@
+name: Buildability
+summary: Buildability scores any U.S. parcel on nine cited factors (zoning, flood, seismic, soil, radon, wildfire, utilities, terrain, lot shape) so land buyers and developers know what they can build before they buy. Free score; paid Property Report.
+category: search
+tags:
+  - data-analysis
+  - geospatial
+  - real-estate
+  - research
+docs_url: https://buildability.us
+endpoints:
+  - url: https://buildability.us/api/mcp
+    transport: streamable-http
+    auth: unknown

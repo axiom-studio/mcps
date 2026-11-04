@@ -1,0 +1,13 @@
+name: 'LifeFrom: Wellness Log MCP (early pilot)'
+summary: Early-pilot remote MCP (OAuth) to read and log meals, sleep, activity, fasting and check-ins, and show trends.
+category: other
+tags:
+  - fitness
+  - healthcare
+  - productivity
+  - wearable
+docs_url: https://lifefrom.ai/connectors
+endpoints:
+  - url: https://lifefrom.ai/mcp
+    transport: streamable-http
+    auth: oauth

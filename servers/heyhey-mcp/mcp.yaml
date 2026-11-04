@@ -1,0 +1,15 @@
+name: heyhey
+summary: Sell online courses and e-books with heyhey. Ask Claude about your sales, orders, contacts, e-mail campaigns and course progress. OAuth, 26 tools.
+category: marketing
+tags:
+  - analytics
+  - crm
+  - ecommerce
+  - email-automation
+  - marketing
+official: true
+docs_url: https://heyhey.pl
+endpoints:
+  - url: https://app.heyhey.pl/mcp
+    transport: streamable-http
+    auth: oauth

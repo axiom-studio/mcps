@@ -1,0 +1,12 @@
+name: Is It Down API
+summary: Is a vendor down right now? Status and incidents for 1,400+ SaaS and cloud vendors, or 25 at once. Paid per call in USDC on Base.
+category: cloud-service
+tags:
+  - api
+  - cloud-infrastructure
+  - monitoring
+docs_url: https://isitdownapi.com
+endpoints:
+  - url: https://api.isitdownapi.com/mcp
+    transport: streamable-http
+    auth: none

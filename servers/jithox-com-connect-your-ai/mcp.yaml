@@ -1,0 +1,13 @@
+name: Jithox E-Invoice
+summary: Prepaid EUR read-only MCP for AI agents — VAT/VIES, Peppol participant preflight, invoice readiness, plus Import/Energy/Sanctions servers. Clear rights, costs, receipts. Not an Access Point; does not send invoices. Trial 25 accepted calls / 14 days.
+category: finance
+tags:
+  - api
+  - compliance
+  - data-analysis
+  - finance
+docs_url: https://jithox.com/connect-your-ai
+endpoints:
+  - url: https://mcp.jithox.com/mcp
+    transport: streamable-http
+    auth: unknown

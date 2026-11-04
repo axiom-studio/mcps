@@ -1,0 +1,13 @@
+name: ATR/BPN Land Parcel Lookup (Indonesia) MCP
+summary: Indonesian ATR/BPN land parcels by certificate number, NIB or coordinates, with overlaps
+category: productivity
+tags:
+  - data-analysis
+  - database
+  - geospatial
+  - government
+docs_url: https://bumiatlas.com/mcp-docs
+endpoints:
+  - url: https://bumiatlas.com/mcp/parcels
+    transport: streamable-http
+    auth: unknown

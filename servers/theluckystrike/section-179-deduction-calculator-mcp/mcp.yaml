@@ -1,0 +1,12 @@
+name: Section 179 Deduction Calculator MCP
+summary: Section 179 deduction, 100% bonus depreciation, heavy SUV limits and equipment loan cost
+category: finance
+tags:
+  - business-operations
+  - finance
+  - inventory
+docs_url: https://github.com/theluckystrike/section-179-deduction-calculator-mcp
+endpoints:
+  - url: https://section-179-deduction-calculator-mcp.lipmichal.workers.dev/mcp
+    transport: streamable-http
+    auth: none

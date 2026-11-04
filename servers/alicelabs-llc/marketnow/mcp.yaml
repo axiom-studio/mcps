@@ -1,0 +1,13 @@
+name: MarketNow
+summary: Search 69k+ indexed MCP servers and skills (GitHub/npm/PyPI), verify Ed25519-signed agent trust cards, and scam-check any URL — trust infrastructure for AI agents.
+category: search
+tags:
+  - ai-agent
+  - search
+  - security
+  - web-research
+docs_url: https://github.com/alicelabs-llc/marketnow
+endpoints:
+  - url: https://www.marketnow.site/api/mcp
+    transport: streamable-http
+    auth: none

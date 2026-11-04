@@ -1,0 +1,12 @@
+name: Cuevr
+summary: 'Read-only tools for buyers: search cuevr.com, compare proposal software, see plans, price a quote, cite sourced sales figures.'
+category: productivity
+tags:
+  - research
+  - sales
+  - web-research
+docs_url: https://www.cuevr.com/ai-agents
+endpoints:
+  - url: https://www.cuevr.com/mcp
+    transport: streamable-http
+    auth: none

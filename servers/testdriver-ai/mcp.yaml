@@ -1,0 +1,13 @@
+name: TestDriver MCP
+summary: TestDriver automatically runs every pull request in a real desktop sandbox, finds bugs, and builds regression tests.
+category: development
+tags:
+  - browser-automation
+  - coding-agent
+  - development
+  - testing-qa
+docs_url: https://testdriver.ai
+endpoints:
+  - url: https://mcp.testdriver.ai/mcp
+    transport: streamable-http
+    auth: unknown

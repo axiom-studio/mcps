@@ -1,0 +1,12 @@
+name: Codex Reset Tracker
+summary: Codex usage-limit reset announcements from @thsottiaux on X, with post links and times. Read-only, no key.
+category: development
+tags:
+  - development
+  - notifications
+  - x-twitter
+docs_url: https://tokenusage.dev/developers
+endpoints:
+  - url: https://tokenusage.dev/mcp
+    transport: streamable-http
+    auth: none

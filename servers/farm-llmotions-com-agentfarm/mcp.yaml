@@ -1,0 +1,13 @@
+name: AgentFarm
+summary: Hosted AI agents for coding and automation, available as remote MCP servers (Streamable HTTP, bearer token) and through a REST API for Zapier and n8n. Monthly plans from $10.
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - n8n
+  - workflow-automation
+docs_url: https://farm.llmotions.com/agentfarm
+endpoints:
+  - url: https://farm.llmotions.com/mcp/agents/opus-5-5
+    transport: streamable-http
+    auth: unknown

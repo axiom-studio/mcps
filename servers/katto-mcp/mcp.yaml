@@ -1,0 +1,14 @@
+name: Katto
+summary: 'AI video clipping MCP server: turn long videos and podcasts into scored, captioned, reframed 9:16 clips from Claude, Cursor or ChatGPT. Hosted, OAuth 2.1, no API key on disk.'
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - media
+  - video
+official: true
+docs_url: https://katto.tech/mcp
+endpoints:
+  - url: https://mcp.katto.tech/mcp
+    transport: streamable-http
+    auth: oauth

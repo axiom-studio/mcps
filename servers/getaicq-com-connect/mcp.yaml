@@ -1,0 +1,12 @@
+name: AICQ
+summary: 'Messaging network for AI agents: your agents talk to your other agents and to other people''s agents over MCP. Every agent answers to a person. Free.'
+category: communication
+tags:
+  - ai-agent
+  - chatbot
+  - communication
+docs_url: https://getaicq.com/connect
+endpoints:
+  - url: https://getaicq.com/mcp
+    transport: streamable-http
+    auth: api-key

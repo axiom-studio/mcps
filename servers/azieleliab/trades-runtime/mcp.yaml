@@ -1,0 +1,12 @@
+name: trades-runtime
+summary: Local shadow MCP for HVAC, plumbing, electrical, and sewer. Read-only public door. Not a hosted company OS.
+category: development
+tags:
+  - business-operations
+  - data-analysis
+  - iot
+docs_url: https://github.com/AzielEliab/trades-runtime
+endpoints:
+  - url: https://trades-runtime.vibelock.workers.dev/mcp
+    transport: streamable-http
+    auth: none

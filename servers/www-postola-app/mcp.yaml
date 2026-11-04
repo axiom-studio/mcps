@@ -1,0 +1,14 @@
+name: POSTOLA AI
+summary: 'Make marketing videos by talking to Claude: product ads, talking AI-presenter videos, virtual try-ons and studio photos from one product photo.'
+category: marketing
+tags:
+  - advertising
+  - ai-model
+  - content-creation
+  - marketing
+  - video
+docs_url: https://www.postola.app/?utm_source=mcpservers-org&utm_medium=listing&utm_campaign=startup-cmo
+endpoints:
+  - url: https://www.postola.app/api/mcp
+    transport: streamable-http
+    auth: unknown

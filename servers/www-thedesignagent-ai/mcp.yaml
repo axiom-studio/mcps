@@ -1,0 +1,13 @@
+name: TheDesignAgent
+summary: 'A design agent in your coding agent''s loop: briefs each screen, reviews UX and visual quality.'
+category: design
+tags:
+  - ai-agent
+  - coding-agent
+  - design
+  - testing-qa
+docs_url: https://www.thedesignagent.ai
+endpoints:
+  - url: https://www.thedesignagent.ai/mcp
+    transport: streamable-http
+    auth: api-key

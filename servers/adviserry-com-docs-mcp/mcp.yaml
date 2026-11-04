@@ -1,0 +1,14 @@
+name: Adviserry
+summary: Adviserry reads the newsletters and YouTube channels you follow and drafts the moves worth making this week.
+category: search
+tags:
+  - content-creation
+  - media
+  - news
+  - research
+  - youtube
+docs_url: https://adviserry.com/docs/mcp
+endpoints:
+  - url: https://adviserry.com/api/mcp
+    transport: streamable-http
+    auth: api-key

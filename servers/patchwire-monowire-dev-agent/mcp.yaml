@@ -1,0 +1,13 @@
+name: Patchwire
+summary: 'Hourly security advisories for JS, AI and web3 packages: ranges, fixes and exploit conditions.'
+category: development
+tags:
+  - compliance
+  - development
+  - news
+  - security
+docs_url: https://patchwire.monowire.dev/agent
+endpoints:
+  - url: https://patchwire.monowire.dev/mcp
+    transport: streamable-http
+    auth: none

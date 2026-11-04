@@ -1,0 +1,13 @@
+name: RelayPDF
+summary: Generate, convert, edit, and extract PDFs from MCP clients. RelayPDF is a PDF and document MCP server. It generates PDFs from HTML, URLs, Markdown, and templates, converts Office files, images, and email, and edits PDFs (merge, split, fill, protect, optimize). It extracts OCR text and JSON. Hosted at https://api.relaypdf.com/mcp or local via npx @relaypdf/cli mcp.
+category: other
+tags:
+  - document
+  - file-conversion
+  - file-management
+  - pdf
+docs_url: https://relaypdf.com/docs/mcp
+endpoints:
+  - url: https://api.relaypdf.com/mcp
+    transport: streamable-http
+    auth: oauth

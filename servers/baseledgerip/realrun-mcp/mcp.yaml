@@ -1,0 +1,12 @@
+name: RealRun
+summary: 'Read-only lookups of independent AI model test results on everyday tasks (inbox triage, meeting scheduling, receipts): scores, model recommendations, and safety warnings.'
+category: search
+tags:
+  - ai-model
+  - data-analysis
+  - research
+docs_url: https://github.com/baseledgerip/realrun-mcp
+endpoints:
+  - url: https://realrun.baseledgerip.com/mcp
+    transport: streamable-http
+    auth: unknown

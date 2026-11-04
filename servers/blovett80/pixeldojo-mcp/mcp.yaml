@@ -1,0 +1,14 @@
+name: PixelDojo
+summary: Generate images, video, audio and short films with 140+ AI models from any MCP client.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - media
+  - video
+docs_url: https://github.com/blovett80/pixeldojo-mcp
+endpoints:
+  - url: https://pixeldojo.ai/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Vibe Shipped
+summary: A daily, sourced directory of real apps built with Cursor, Claude Code, Lovable and more, plus harness comparisons and a free MCP server.
+category: search
+tags:
+  - coding-agent
+  - development
+  - search
+  - web-research
+docs_url: https://github.com/sorindecu/vibeshipped-agent
+endpoints:
+  - url: https://vibeshipped.io/api/mcp
+    transport: streamable-http
+    auth: unknown

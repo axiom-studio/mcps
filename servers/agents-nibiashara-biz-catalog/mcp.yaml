@@ -1,0 +1,14 @@
+name: Ni Biashara Shelves
+summary: Pay-per-call data checks for AI agents, paid over x402. FMCSA carrier and broker authority, SMS BASICs, and a load-vet call that returns TENDER, HOLD or REJECT from public FMCSA fields. Also OFAC name and wallet screens, African FX rates, and Texas license CE checks.
+category: finance
+tags:
+  - api
+  - compliance
+  - data-analysis
+  - finance
+  - research
+docs_url: https://agents.nibiashara.biz/catalog?ref=dir-mcpservers
+endpoints:
+  - url: https://agents.nibiashara.biz/mcp
+    transport: streamable-http
+    auth: unknown

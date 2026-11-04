@@ -1,0 +1,13 @@
+name: Reachkit
+summary: 'Cold email from your AI: find B2B leads with verified emails, write sequences, launch campaigns and answer replies.'
+category: marketing
+tags:
+  - crm
+  - email-automation
+  - marketing-automation
+  - sales
+docs_url: https://reachkit.ai/ai-assistants
+endpoints:
+  - url: https://reachkit.ai/mcp
+    transport: streamable-http
+    auth: oauth

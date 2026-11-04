@@ -1,0 +1,14 @@
+name: Gloom MCP
+summary: Hosted MCP server from Gloom, the open-source Bloomberg-style terminal. Quotes, financials, options, SEC filings, macro and news for Claude, ChatGPT, Cursor and Codex.
+category: finance
+tags:
+  - ai-agent
+  - data-analysis
+  - finance
+  - news
+  - research
+docs_url: https://gloom.sh/docs/mcp
+endpoints:
+  - url: https://api.gloom.sh/mcp
+    transport: streamable-http
+    auth: oauth

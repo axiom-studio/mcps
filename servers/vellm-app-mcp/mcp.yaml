@@ -1,0 +1,12 @@
+name: Vellm MCP
+summary: 通过远程 Streamable HTTP MCP 连接 Vellm，查询视频模板和积分余额、准备照片上传、创建模板视频并查询任务状态。需使用 Vellm 账号通过 OAuth 授权；生成视频消耗付费积分。
+category: design
+tags:
+  - content-creation
+  - media
+  - video
+docs_url: https://vellm.app/mcp
+endpoints:
+  - url: https://api.vellm.app/mcp
+    transport: streamable-http
+    auth: oauth

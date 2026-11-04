@@ -1,0 +1,12 @@
+name: Forever In Our Hearts
+summary: Public MCP server for online memorials, funeral notices and funeral homes. Lets Claude, ChatGPT and other AI assistants search obituaries and funeral services. Free, read-only, no API key.
+category: search
+tags:
+  - government
+  - search
+  - web-research
+docs_url: https://foreverinourhearts.co/mcp
+endpoints:
+  - url: https://mcp.foreverinourhearts.co/mcp
+    transport: streamable-http
+    auth: none

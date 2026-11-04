@@ -1,0 +1,13 @@
+name: FoxEra Calls
+summary: Trigger and manage AI cold calls from your AI assistant. Add leads, create campaigns, approve calls, get transcripts and recordings — all via MCP from ChatGPT, Claude, Cursor or n8n.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - customer-ops
+  - workflow-automation
+docs_url: https://foxera.co.uk/developers/
+endpoints:
+  - url: https://app.foxera.co.uk/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: Postman API
+summary: An MCP server for interacting with the Postman API, requiring an API key.
+category: development
+tags:
+  - api
+  - development
+  - testing-qa
+official: true
+registry_name: com.postman/postman-mcp-server
+docs_url: https://github.com/postmanlabs/postman-api-mcp
+endpoints:
+  - url: https://mcp.postman.com/minimal
+    transport: streamable-http
+    auth: oauth

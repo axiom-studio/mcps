@@ -1,0 +1,13 @@
+name: Telenow — AI Phone Calls & Voice Agents
+summary: 'Let your AI assistant make real phone calls: place calls from your own numbers, get transcripts, build voice agents and run calling campaigns.'
+category: communication
+tags:
+  - ai-agent
+  - audio
+  - communication
+  - telegram
+docs_url: https://github.com/TelenowAI/Telenow-AI-MCP
+endpoints:
+  - url: https://api.telenow.ai/mcp
+    transport: streamable-http
+    auth: oauth

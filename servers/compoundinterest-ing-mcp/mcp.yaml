@@ -1,0 +1,13 @@
+name: Compound Interesting
+summary: 'Source-backed US market data for agents: SEC Form 4 insider trades, House and Senate trade disclosures with committee-jurisdiction overlap, 13F holdings and a cross-signal consensus on 4,600+ tickers. Every record links the filing it came from, so an agent can cite instead of assert. 16 tools; free key, and get_demo_composite works with no key.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - knowledge-retrieval
+  - research
+docs_url: https://compoundinterest.ing/mcp
+endpoints:
+  - url: https://api.compoundinterest.ing/mcp
+    transport: streamable-http
+    auth: api-key

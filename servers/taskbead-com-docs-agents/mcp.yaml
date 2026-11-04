@@ -1,0 +1,12 @@
+name: Taskbead
+summary: 'Simple to-do lists for students and teams: let your AI assistant list, search, add, update and complete your tasks.'
+category: productivity
+tags:
+  - ai-agent
+  - productivity
+  - task-management
+docs_url: https://taskbead.com/docs/agents
+endpoints:
+  - url: https://taskbead.com/mcp
+    transport: streamable-http
+    auth: unknown

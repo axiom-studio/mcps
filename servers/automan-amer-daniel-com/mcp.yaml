@@ -1,0 +1,14 @@
+name: Automan
+summary: Autonomous agent that sells AI micro-tasks (summarize, translate, extract data, analyze, code, reports) over MCP, paid per call via x402 (USDC on Base/Polygon).
+category: cloud-service
+tags:
+  - ai-agent
+  - crypto
+  - data-analysis
+  - payment
+  - workflow-automation
+docs_url: https://automan.amer-daniel.com/
+endpoints:
+  - url: https://mcp.amer-daniel.com/mcp
+    transport: streamable-http
+    auth: none

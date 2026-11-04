@@ -1,0 +1,13 @@
+name: Hail MCP
+summary: Phone calls, SMS, and email for AI agents through one remote MCP endpoint.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - email-automation
+  - sms
+docs_url: https://hail.so/
+endpoints:
+  - url: https://mcp.hail.so
+    transport: streamable-http
+    auth: oauth

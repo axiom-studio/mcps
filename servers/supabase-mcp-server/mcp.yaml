@@ -1,0 +1,16 @@
+name: Supabase MCP
+summary: Official Supabase MCP server for managing Supabase projects, databases, auth, storage, edge functions, and SQL workflows from AI agents.
+category: database
+tags:
+  - cloud-infrastructure
+  - database
+  - sql
+  - supabase
+  - workflow-automation
+official: true
+registry_name: com.supabase/mcp
+docs_url: https://github.com/supabase-community/supabase-mcp
+endpoints:
+  - url: https://mcp.supabase.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Carbon
+summary: Hire skills-assessed data professionals from any MCP host. Post your role free.
+category: productivity
+tags:
+  - business-operations
+  - marketplace
+  - productivity
+docs_url: https://www.carbondatasolutions.com/mcp
+endpoints:
+  - url: https://mcp.carbondatasolutions.com/mcp
+    transport: streamable-http
+    auth: unknown

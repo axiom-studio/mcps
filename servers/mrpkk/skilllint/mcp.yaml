@@ -1,0 +1,13 @@
+name: skilllint
+summary: 'Lints an agent skill before you install it: manifest, declared capabilities and instructions checked for contradictions. Remote MCP server.'
+category: development
+tags:
+  - ai-agent
+  - code-quality
+  - security
+  - testing-qa
+docs_url: https://github.com/mrpkk/skilllint
+endpoints:
+  - url: https://rta.lat/skilllint/mcp
+    transport: streamable-http
+    auth: unknown

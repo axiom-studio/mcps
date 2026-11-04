@@ -1,0 +1,13 @@
+name: Selenios
+summary: 'Connect your AI assistant to Selenios: manage job openings, review candidates and AI scores, read interview transcripts and move your hiring pipeline.'
+category: productivity
+tags:
+  - ai-agent
+  - crm
+  - customer-ops
+  - productivity
+docs_url: https://www.selenios.com/es/blog/mcp-de-selenios-conecta-tu-asistente-de-ia
+endpoints:
+  - url: https://back.selenios.com/api/mcp
+    transport: streamable-http
+    auth: oauth

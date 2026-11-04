@@ -1,0 +1,13 @@
+name: Athmex
+summary: 'Gives Claude or ChatGPT the athlete context it needs to coach you properly: goals, PBs, thresholds, races, injuries and constraints for running, cycling and triathlon. Set up your profile once; the assistant reads it in every conversation and updates it when you ask. Hosted connector with OAuth sign-in. Stores no activity data.'
+category: memory
+tags:
+  - ai-agent
+  - fitness
+  - healthcare
+  - memory
+docs_url: https://www.athmex.com/
+endpoints:
+  - url: https://mcp.athmex.com/mcp
+    transport: streamable-http
+    auth: oauth

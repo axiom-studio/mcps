@@ -1,0 +1,13 @@
+name: Kurodyne Catalog
+summary: Search Kurodyne's Catalog for software, agent skills, spreadsheets, templates, and guides.
+category: search
+tags:
+  - marketplace
+  - productivity
+  - search
+official: true
+docs_url: https://kurodyne.com/mcp
+endpoints:
+  - url: https://mcp.kurodyne.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: SEOReport
+summary: Run full technical SEO audits of any website from your AI agent and get structured, prioritised findings back. Hosted, API key from a SEOReport plan.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+  - web-research
+docs_url: https://github.com/light-merlin-dark/seoreport-mcp
+endpoints:
+  - url: https://seoreport.dev/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: Lead Strategist
+summary: Danish company data (CVR) and annual-report financials for B2B lead research. Read-only remote MCP with OAuth.
+category: marketing
+tags:
+  - crm
+  - data-analysis
+  - marketing
+  - research
+docs_url: https://leadstrategist.dk/en/docs/mcp
+endpoints:
+  - url: https://leadstrategist.dk/mcp
+    transport: streamable-http
+    auth: unknown

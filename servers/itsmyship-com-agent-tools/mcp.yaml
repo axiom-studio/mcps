@@ -1,0 +1,13 @@
+name: itsmyship Agent Tools
+summary: NZ working-day deadlines with the law section cited (OIA, LGOIMA, RTA, Building Act), plus IRD, NZ bank account and ABN checksum validators.
+category: finance
+tags:
+  - api
+  - compliance
+  - finance
+  - government
+docs_url: https://itsmyship.com/agent-tools/
+endpoints:
+  - url: https://itsmyship.com/agent-tools/mcp
+    transport: streamable-http
+    auth: unknown

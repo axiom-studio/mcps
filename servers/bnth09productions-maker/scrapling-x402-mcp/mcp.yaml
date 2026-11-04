@@ -1,0 +1,14 @@
+name: Scrapling x402 Data Store
+summary: 'Remote MCP for crypto, DeFi and stock data: TVL for 880+ protocols on 56 chains, yields, perps funding, meme coins, SEC filings and insiders, Hyperliquid top traders. Free previews; paid calls in USDC via x402.'
+category: finance
+tags:
+  - crypto
+  - defi
+  - finance
+  - payment
+  - trading
+docs_url: https://github.com/bnth09productions-maker/scrapling-x402-mcp
+endpoints:
+  - url: https://scraplingdata.xyz/mcp
+    transport: streamable-http
+    auth: unknown

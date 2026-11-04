@@ -1,0 +1,13 @@
+name: DocuGrip
+summary: Find the right PDF tool, official upload limits and official forms, with the link to do it.
+category: productivity
+tags:
+  - document
+  - file-management
+  - pdf
+  - productivity
+docs_url: https://docugrip.com/mcp-server
+endpoints:
+  - url: https://docugrip.com/api/mcp
+    transport: streamable-http
+    auth: none

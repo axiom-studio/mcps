@@ -1,0 +1,18 @@
+name: LunarCrush
+summary: LunarCrush is a social analytics and market-intelligence platform for brands, companies, stocks, and cryptocurrencies. Its remote MCP server gives assistants real-time social metrics, sentiment, trending topics, and market data for research workflows.
+description: |-
+  LunarCrush is a social analytics and market-intelligence platform for brands, companies, stocks, and cryptocurrencies. Its remote MCP server gives assistants real-time social metrics, sentiment, trending topics, and market data for research workflows.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://lunarcrush.com/en/developers/mcp)
+category: finance
+tags:
+  - finance
+  - remote-mcp
+official: true
+docs_url: https://lunarcrush.com/en/developers/mcp
+endpoints:
+  - url: https://lunarcrush.ai/mcp
+    transport: streamable-http
+    auth: oauth

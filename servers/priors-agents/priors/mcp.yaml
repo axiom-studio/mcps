@@ -1,0 +1,14 @@
+name: Priors
+summary: 'Credit records for AI agents on Robinhood Chain: check an agent''s record, pay x402 APIs in USDG, borrow and repay.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - defi
+  - finance
+  - payment
+docs_url: https://github.com/priors-agents/priors
+endpoints:
+  - url: https://mcp.priors.trade/mcp
+    transport: streamable-http
+    auth: unknown

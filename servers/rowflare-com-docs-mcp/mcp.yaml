@@ -1,0 +1,13 @@
+name: Rowflare MCP
+summary: 'Built-in MCP server of Rowflare, an open-source Airtable alternative: read and write records, create tables and fields, and get grouped totals in your own bases.'
+category: database
+tags:
+  - airtable
+  - database
+  - productivity
+  - spreadsheet
+docs_url: https://rowflare.com/docs/mcp/
+endpoints:
+  - url: https://app.rowflare.com/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,14 @@
+name: Harbor (gethrbr)
+summary: Your team's decisions, served to every coding agent, with counts of which rules each answer cited.
+category: memory
+tags:
+  - ai-agent
+  - coding-agent
+  - collaboration
+  - knowledge-retrieval
+  - memory
+docs_url: https://gethrbr.com/docs/agents
+endpoints:
+  - url: https://mcp.gethrbr.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,24 @@
+name: Aiwyn Tax
+summary: Aiwyn Tax uses Aiwyn tax-engine capabilities to estimate federal and state taxes from user-provided tax documents. Its MCP connector can help produce a 1040-oriented workflow while keeping the description focused on tax estimation rather than broad financial advice.
+description: |-
+  # Aiwyn Tax
+
+  Aiwyn Tax uses Aiwyn tax-engine capabilities to estimate federal and state taxes from user-provided tax documents. Its MCP connector can help produce a 1040-oriented workflow while keeping the description focused on tax estimation rather than broad financial advice.
+
+  ## Connection
+
+  https://mcp.columnapi.com/mcp
+
+  Current official connector listing identifies this publisher and exact endpoint. Authentication is not inferred from the directory sign-in badge. Access and business tools have not been verified.
+
+  [Publisher or official connector listing](https://claude.com/connectors/aiwyn-tax)
+category: other
+tags:
+  - other
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/aiwyn-tax
+endpoints:
+  - url: https://mcp.columnapi.com/mcp
+    transport: streamable-http
+    auth: unknown

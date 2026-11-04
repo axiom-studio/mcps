@@ -1,0 +1,13 @@
+name: Coronium Mobile Proxies
+summary: 'Manage dedicated 4G/5G mobile proxies from an agent: test, rotate and replace lines, compare live plans and stock. Local via npx coronium-proxy-mcp, hosted at https://api.coronium.io/mcp (OAuth). MIT.'
+category: web-scraping
+tags:
+  - api
+  - browser-automation
+  - network-automation
+  - web-scraping
+docs_url: https://github.com/coroniumio/coronium-proxy-mcp
+endpoints:
+  - url: https://api.coronium.io/mcp
+    transport: streamable-http
+    auth: oauth

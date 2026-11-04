@@ -1,0 +1,11 @@
+name: varioroam eSIM configurator
+summary: 'Build-your-own travel eSIM: live quotes by country, GB, days and networks, plus a buy link.'
+category: other
+tags:
+  - ecommerce
+  - payment
+docs_url: https://varioroam.com/llms.txt
+endpoints:
+  - url: https://varioroam.com/wp-json/varioroam/mcp
+    transport: streamable-http
+    auth: unknown

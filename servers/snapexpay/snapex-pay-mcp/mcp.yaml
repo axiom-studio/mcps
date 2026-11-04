@@ -1,0 +1,13 @@
+name: SnapEX Pay
+summary: 'Crypto payments for AI agents: self-serve account, invoices, receiving, payouts, exchange.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - finance
+  - payment
+docs_url: https://github.com/snapexpay/snapex-pay-mcp
+endpoints:
+  - url: https://pay.snapex.pro/mcp
+    transport: streamable-http
+    auth: api-key

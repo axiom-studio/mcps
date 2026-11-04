@@ -1,0 +1,18 @@
+name: Send
+summary: Send helps users create shareable documents, one-pagers, decks, and presentations. Its connector lets assistants turn requested materials into published links, interactive pages, and trackable collateral for recipients.
+description: |-
+  Send helps users create shareable documents, one-pagers, decks, and presentations. Its connector lets assistants turn requested materials into published links, interactive pages, and trackable collateral for recipients.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/send)
+category: other
+tags:
+  - other
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/send
+endpoints:
+  - url: https://www.send.co/mcp
+    transport: streamable-http
+    auth: oauth

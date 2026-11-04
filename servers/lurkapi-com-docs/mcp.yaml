@@ -1,0 +1,13 @@
+name: LurkAPI
+summary: Live public posts, profiles, ads, comments and transcripts from 16 social platforms and the web.
+category: web-scraping
+tags:
+  - advertising
+  - api
+  - social-media
+  - web-scraping
+docs_url: https://lurkapi.com/docs
+endpoints:
+  - url: https://api.lurkapi.com/mcp
+    transport: streamable-http
+    auth: oauth

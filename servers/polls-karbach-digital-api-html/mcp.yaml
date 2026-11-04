@@ -1,0 +1,12 @@
+name: polls.karbach.digital
+summary: 'German, Spanish and French election data: polls, forecasts with 95 percent bands, constituencies, MPs and Bundestag votes.'
+category: other
+tags:
+  - data-analysis
+  - government
+  - research
+docs_url: https://polls.karbach.digital/api.html
+endpoints:
+  - url: https://api.polls.karbach.digital/mcp
+    transport: streamable-http
+    auth: unknown

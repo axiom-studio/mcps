@@ -1,0 +1,13 @@
+name: pdf-text
+summary: PDF URL → extracted text for bots. Free try then prepaid TEST. Sole entry https://pdf.kymac.co/llms.txt
+category: development
+tags:
+  - data-analysis
+  - document
+  - file-conversion
+  - pdf
+docs_url: https://pdf.kymac.co
+endpoints:
+  - url: https://pdf.kymac.co/mcp
+    transport: streamable-http
+    auth: api-key

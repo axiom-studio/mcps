@@ -1,0 +1,13 @@
+name: Demo My Product
+summary: Remote MCP server at https://demomyproduct.com/mcp that lets Claude, Cursor or ChatGPT build and publish interactive product demos (clickable product tours with hotspots, tooltips and branching steps).
+category: marketing
+tags:
+  - ai-agent
+  - content-creation
+  - marketing
+  - productivity
+docs_url: https://demomyproduct.com/help/build-demos-with-ai-agents
+endpoints:
+  - url: https://demomyproduct.com/mcp
+    transport: streamable-http
+    auth: unknown

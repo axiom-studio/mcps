@@ -1,0 +1,13 @@
+name: FactStamp
+summary: Paid verification for AI agents. Check a company, VAT number or sanctions status against public registers and get a cited, dated verdict with a signed receipt that verifies offline.
+category: finance
+tags:
+  - compliance
+  - data-analysis
+  - finance
+  - research
+docs_url: https://agents.factstamp.dev/docs
+endpoints:
+  - url: https://agents.factstamp.dev/mcp
+    transport: streamable-http
+    auth: none

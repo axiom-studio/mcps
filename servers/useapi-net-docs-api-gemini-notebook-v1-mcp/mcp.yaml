@@ -1,0 +1,14 @@
+name: Gemini Notebook (NotebookLM) MCP Server by useapi.net
+summary: 'Google Gemini Notebook (NotebookLM): notebooks, sources, cited chat, podcasts, video, slides, quizzes and research. Third-party, paid ($15/month), runs on your Google AI subscription.'
+category: productivity
+tags:
+  - ai-model
+  - content-creation
+  - notebooklm
+  - productivity
+  - research
+docs_url: https://useapi.net/docs/api-gemini-notebook-v1/mcp
+endpoints:
+  - url: https://api.useapi.net/v1/gemini-notebook/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,14 @@
+name: Munition
+summary: Pay-per-call web search, scraping, Google SERP, HTML to PDF and flight search for agents; no signup, USDC balance.
+category: search
+tags:
+  - file-conversion
+  - payment
+  - pdf
+  - search
+  - web-scraping
+docs_url: https://munition.io/connect.md
+endpoints:
+  - url: https://api.munition.io/mcp
+    transport: streamable-http
+    auth: oauth

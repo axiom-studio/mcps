@@ -1,0 +1,13 @@
+name: TANDIU
+summary: 'No-auth remote MCP server for AI infrastructure data: LLM token prices and evaluations, GPU rental prices, open-model deployment costs, cloud agent tests and AI funding deals. 12 read-only tools, built for AI agents from day one.'
+category: finance
+tags:
+  - ai-model
+  - cloud-infrastructure
+  - data-analysis
+  - finance
+docs_url: https://www.tandiu.cn/en/api
+endpoints:
+  - url: https://www.tandiu.cn/mcp
+    transport: streamable-http
+    auth: none

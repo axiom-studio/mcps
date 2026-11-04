@@ -1,0 +1,13 @@
+name: Awaken Tax
+summary: 'Review crypto transactions, cost basis, gains, income and tax reports in your Awaken Tax account. Hosted server: https://mcp.awaken.tax/mcp (OAuth in ChatGPT, Claude, Cursor, Grok; API key for other clients).'
+category: finance
+tags:
+  - crypto
+  - finance
+  - payment
+  - trading
+docs_url: https://awaken.tax/docs/agents
+endpoints:
+  - url: https://mcp.awaken.tax/mcp
+    transport: streamable-http
+    auth: oauth

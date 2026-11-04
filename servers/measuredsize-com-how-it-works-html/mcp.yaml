@@ -1,0 +1,12 @@
+name: Measured Size
+summary: Bra sizes from measurements, in each brand's own labels, with the confidence behind each. Free, no key, nothing stored.
+category: other
+tags:
+  - api
+  - data-analysis
+  - ecommerce
+docs_url: https://measuredsize.com/how-it-works.html#api
+endpoints:
+  - url: https://api.measuredsize.com/mcp
+    transport: streamable-http
+    auth: unknown

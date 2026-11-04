@@ -1,0 +1,11 @@
+name: WhichTrim Vehicle Records
+summary: 'Look up U.S. vehicle records from NHTSA and EPA: recalls with do-not-drive advisories, manufacturer service bulletins by the number on the letter, OBD-II trouble codes and which vehicles'' records name them, VIN decoding, owner complaints and failure mileage, crash ratings and fuel economy. Seven read-only tools, every answer carries a source URL. Remote endpoint https://whichtrim.com/portal/mcp, no API key.'
+category: search
+tags:
+  - data-analysis
+  - research
+docs_url: https://github.com/BabbagesCabbages/whichtrim-mcp
+endpoints:
+  - url: https://whichtrim.com/portal/mcp
+    transport: streamable-http
+    auth: none

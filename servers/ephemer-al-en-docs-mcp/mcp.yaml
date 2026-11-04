@@ -1,0 +1,12 @@
+name: Ephemeral
+summary: Run AI agent tasks in isolated sandboxes with a cost cap, saved workflows and scoped connections.
+category: development
+tags:
+  - ai-agent
+  - development
+  - workflow-automation
+docs_url: https://ephemer.al/en/docs/mcp
+endpoints:
+  - url: https://app.ephemer.al/mcp
+    transport: streamable-http
+    auth: oauth

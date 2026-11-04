@@ -1,0 +1,13 @@
+name: agbrowser
+summary: 'Hosted browser sessions for agents: navigate, interact, read pages and take screenshots. REST and remote MCP, paid in stablecoins.'
+category: web-scraping
+tags:
+  - ai-agent
+  - browser
+  - browser-automation
+  - web-scraping
+docs_url: https://agbrowser.shveik.dev/docs
+endpoints:
+  - url: https://agbrowser.shveik.dev/mcp
+    transport: streamable-http
+    auth: none

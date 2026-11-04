@@ -1,0 +1,16 @@
+name: Snov.io
+summary: Snov.io MCP covers prospect actions, lead generation, email verification, LinkedIn outreach, tasks and deals, and more. Perfect for full control of your sales, collecting insights into specific leads, and managing your workflow
+category: marketing
+tags:
+  - crm
+  - email-automation
+  - marketing-automation
+  - sales
+official: true
+registry_name: mcp.snov.io/mcp
+docs_url: https://snov.io/knowledgebase/how-to-use-snov-io-mcp-with-your-ai-assistant/
+website_url: https://snov.io/mcp
+endpoints:
+  - url: https://mcp.snov.io/mcp
+    transport: streamable-http
+    auth: oauth

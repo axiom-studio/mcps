@@ -1,0 +1,12 @@
+name: PageWatch
+summary: Extract prices, lists, tables and events from static web pages and watch them for changes (remote MCP).
+category: web-scraping
+tags:
+  - browser-automation
+  - monitoring
+  - web-scraping
+docs_url: https://pagewatch.zenith-ops.workers.dev/llms.txt
+endpoints:
+  - url: https://pagewatch.zenith-ops.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

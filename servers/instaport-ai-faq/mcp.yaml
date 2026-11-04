@@ -1,0 +1,13 @@
+name: Instaport
+summary: 'Read-only access to your own portfolio and watchlists plus Instaport''s public datasets: SEC statements (10-K/10-Q), insider trades (Forms 3/4/5), 13F super-investor holdings, Congress STOCK Act trades, FINRA short interest, earnings calendar, options data and economic calendar. Instaport computes every number deterministically; the agent reads them. No trading path. Remote streamable-http server at https://mcp.instaport.ai/mcp, OAuth sign-in with an Instaport Pro account (30-day free trial with signup).'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+  - trading
+docs_url: https://instaport.ai/faq#ai-assistant
+endpoints:
+  - url: https://mcp.instaport.ai/mcp
+    transport: streamable-http
+    auth: oauth

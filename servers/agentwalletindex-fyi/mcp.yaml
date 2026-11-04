@@ -1,0 +1,13 @@
+name: Agent Wallet Index
+summary: Agent Wallet Index lists agent wallets and payment rails with source-linked facts about custody, fees, protocols and spend controls. Browse by category or query the free API and MCP endpoint.
+category: search
+tags:
+  - ai-agent
+  - crypto
+  - payment
+  - search
+docs_url: https://agentwalletindex.fyi
+endpoints:
+  - url: https://agentwalletindex.fyi/mcp
+    transport: streamable-http
+    auth: none

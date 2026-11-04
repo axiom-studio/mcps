@@ -1,0 +1,12 @@
+name: Agent Output Verifier by SarnAI
+summary: 'Verify an agent''s output before you pay: JSON Schema + rules, signed receipts. Free during launch.'
+category: development
+tags:
+  - ai-agent
+  - development
+  - testing-qa
+docs_url: https://github.com/sarnai-dev/agent-output-verifier
+endpoints:
+  - url: https://verify.sarnai.dev/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,11 @@
+name: RivalSweeper Signals
+summary: 'Competitive intelligence on eCommerce brands for AI agents: competitor prices, live promotions, price-change history, competitor sets and AI-readiness scores. Pay per call, no data = no charge.'
+category: marketing
+tags:
+  - marketing
+  - marketing-automation
+docs_url: https://www.rivalsweeper.com/solutions/signals-api
+endpoints:
+  - url: https://mcp.rivalsweeper.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Navisworks MCP
+summary: 'Free Navisworks Manage plug-in with an MCP server: AI assistants run Clash Detective, check clash matrices, manage sets and viewpoints, write reports.'
+category: design
+tags:
+  - ai-agent
+  - design
+  - document
+  - workflow-automation
+docs_url: https://aecomcps.com/navisworks
+endpoints:
+  - url: https://revit-mcp.pages.dev/mcp/navisworks
+    transport: streamable-http
+    auth: oauth

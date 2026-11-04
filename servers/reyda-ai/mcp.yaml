@@ -1,0 +1,13 @@
+name: Reyda MCP
+summary: Search public tenders and RFPs across the UK, EU and Switzerland, research buyers, suppliers and expiring contracts, and read bid documents and pipeline information from ChatGPT, Claude or other MCP clients through Reyda’s read-only OAuth connection (client pre-registration required).
+category: search
+tags:
+  - business-operations
+  - government
+  - research
+  - search
+docs_url: https://reyda.ai
+endpoints:
+  - url: https://api.reyda.ai/mcp
+    transport: streamable-http
+    auth: oauth

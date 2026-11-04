@@ -1,0 +1,13 @@
+name: RockFlow MCP
+summary: Access stock and options quotes, portfolio data, currency exchange, and paper or live trading through RockFlow’s hosted MCP server.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - trading
+official: true
+docs_url: https://rockflow.ai/mcp
+endpoints:
+  - url: https://mcp.rockflow.ai
+    transport: streamable-http
+    auth: oauth

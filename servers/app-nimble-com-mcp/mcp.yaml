@@ -1,0 +1,14 @@
+name: Nimble CRM
+summary: Connect AI to your Nimble CRM workspace to handle the manual admin work that piles up and gets skipped — logging notes after a call, updating deal stages, creating follow-up tasks, tagging contacts, setting reminders. Tell Nimble MCP what happened and it takes care of the record-keeping immediately, instead of it waiting on someone's memory or to-do list. It can also find contacts, companies, deals, and calendar events, and works within the authenticated user's existing Nimble permissions. Changes and deletions always require confirmation first.
+category: productivity
+tags:
+  - calendar
+  - communication
+  - crm
+  - productivity
+  - task-management
+docs_url: https://app.nimble.com/mcp
+endpoints:
+  - url: https://app.nimble.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Continuity by Ouroboros
+summary: A story bible for fiction writers. Continuity keeps your characters, places, timelines and plot facts consistent while you write, right inside ChatGPT, Claude, Grok or Cursor.
+category: productivity
+tags:
+  - document
+  - knowledge-retrieval
+  - productivity
+docs_url: https://github.com/LAHutchins91/continuity-mcp
+endpoints:
+  - url: https://continuitywriter.com/mcp
+    transport: streamable-http
+    auth: oauth

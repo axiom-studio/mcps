@@ -1,0 +1,14 @@
+name: My Fordyce
+summary: 'A hosted backlog coding agents claim work from: one ticket per agent, finished work back to review.'
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - project-management
+  - task-management
+  - workflow-automation
+docs_url: https://fordycecg.com/products/myfordyce/mcp?utm_source=mcpservers&utm_medium=directory&utm_campaign=v1-launch
+endpoints:
+  - url: https://myfordyce.fordycecg.com/mcp
+    transport: streamable-http
+    auth: oauth

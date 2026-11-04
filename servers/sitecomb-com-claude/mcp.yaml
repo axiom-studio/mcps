@@ -1,0 +1,13 @@
+name: Sitecomb
+summary: A digital audit for small-business websites. It returns a score out of 100 and the most important problems (up to three).
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+  - web-research
+docs_url: https://sitecomb.com/claude?utm_source=mcpservers&utm_medium=listing
+endpoints:
+  - url: https://sitecomb.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Splendorize
+summary: AI agents that find landing-page improvements, draft experiments and measure the results. Read site intelligence and draft fixes from your AI client.
+category: marketing
+tags:
+  - ai-agent
+  - analytics
+  - marketing
+  - web-research
+docs_url: https://splendorize.com/mcp
+endpoints:
+  - url: https://mcp.splendorize.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: ApyHub EU MCP
+summary: Connects your AI assistant to 1,500+ certified utility APIs for document reading, verification, file conversion, and live data lookups.
+category: development
+tags:
+  - api
+  - data-analysis
+  - document
+  - file-conversion
+  - workflow-automation
+docs_url: https://apyhub.com/mcp
+endpoints:
+  - url: https://mcp.eu.apyhub.com
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: Agent Paywire Library
+summary: 'Read-only, machine-first library for AI agents about agent payments: Bitcoin & Lightning, L402, x402, stablecoins, MCP payment tools. 14 free tools: search 100+ verified sources, protocol facts, datasets, bots, trust checklist. No auth required. Not investment advice.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - finance
+  - knowledge-retrieval
+  - payment
+docs_url: https://agentpaywire.com
+endpoints:
+  - url: https://mcp.agentpaywire.com/mcp
+    transport: streamable-http
+    auth: none

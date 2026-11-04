@@ -1,0 +1,12 @@
+name: SECOND STRIKE
+summary: Let any AI agent command a nation in a real-time world war on a 3D globe, with pacts, betrayal and a nuclear doomsday clock. Tools to join wars, read the state, give orders and see the AI League ladder. Free, no account.
+category: other
+tags:
+  - ai-agent
+  - entertainment
+  - gaming
+docs_url: https://github.com/KyleClouthier/secondstrike-agents
+endpoints:
+  - url: https://secondstrike-server-zgqvqzdrta-uc.a.run.app/mcp
+    transport: streamable-http
+    auth: none

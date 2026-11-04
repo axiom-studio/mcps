@@ -1,0 +1,13 @@
+name: Commerce Intelligence
+summary: 'Behavioral-science tools for commerce: diagnose drop-off, fix checkout, optimize pricing, predict churn. Paid: EUR 0.20 per call after 5 free calls.'
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - ecommerce
+  - marketing
+docs_url: https://phoslabs.io/credits
+endpoints:
+  - url: https://mcp.phoslabs.io/mcp
+    transport: streamable-http
+    auth: oauth

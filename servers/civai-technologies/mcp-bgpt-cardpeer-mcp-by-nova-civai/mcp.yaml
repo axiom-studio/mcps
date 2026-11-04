@@ -1,0 +1,13 @@
+name: Cardpeer MCP by Nova (CIVAI)
+summary: Find trading cards, compare listings, and check market prices.
+category: productivity
+tags:
+  - ecommerce
+  - marketplace
+  - search
+  - trading
+docs_url: https://github.com/civai-technologies/mcp-bgpt-cardpeer-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-bgpt-cardpeer
+    transport: streamable-http
+    auth: api-key

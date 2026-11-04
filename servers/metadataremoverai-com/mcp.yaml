@@ -1,0 +1,13 @@
+name: Metadata Remover AI Inspector
+summary: 'Check a public image or video URL for hidden metadata: GPS location, camera, timestamps, C2PA Content Credentials and AI-generator tags (Midjourney, DALL-E, etc.). Read-only, no auth.'
+category: other
+tags:
+  - ai-model
+  - media
+  - privacy
+  - security
+docs_url: https://metadataremoverai.com
+endpoints:
+  - url: https://metadataremoverai.com/mcp
+    transport: streamable-http
+    auth: none

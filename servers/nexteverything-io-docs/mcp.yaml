@@ -1,0 +1,13 @@
+name: Next Everything
+summary: Find electronic parts with live Mouser, DigiKey and JLCPCB stock and prices, check whole BOMs (price breaks, MOQ, JLCPCB extended fees, replacements for out of stock lines) and prepare orders you approve. Remote server, API key from nexteverything.io/signup.
+category: development
+tags:
+  - api
+  - business-operations
+  - ecommerce
+  - inventory
+docs_url: https://nexteverything.io/docs/
+endpoints:
+  - url: https://mcp.nexteverything.io/mcp
+    transport: streamable-http
+    auth: api-key

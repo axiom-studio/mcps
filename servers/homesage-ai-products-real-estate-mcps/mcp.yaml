@@ -1,0 +1,13 @@
+name: Homesage.ai MCP
+summary: Homesage.ai MCP gives AI assistants real estate data on 155M+ US properties, with 30+ tools for property search, estimated values, estimated renovation costs, and Seller Motivation Scores.
+category: finance
+tags:
+  - ai-agent
+  - data-analysis
+  - real-estate
+  - research
+docs_url: https://homesage.ai/products/real-estate-mcps/
+endpoints:
+  - url: https://api.homesage.ai/mcp
+    transport: streamable-http
+    auth: oauth

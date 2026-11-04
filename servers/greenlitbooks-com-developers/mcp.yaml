@@ -1,0 +1,13 @@
+name: Greenlit Books
+summary: Search a catalog of practical AI books, read free chapters, and check a claim against its source.
+category: search
+tags:
+  - document
+  - knowledge-retrieval
+  - research
+  - search
+docs_url: https://greenlitbooks.com/developers
+endpoints:
+  - url: https://greenlitbooks.com/api/mcp
+    transport: streamable-http
+    auth: unknown

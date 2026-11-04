@@ -1,0 +1,14 @@
+name: Acrium
+summary: Lets your AI run Google Ads, post to social media and manage Shopify and inventory. Ad spend waits for owner approval by default. Try free for 14 days. No card needed. Then $9.99/month.
+category: marketing
+tags:
+  - advertising
+  - ecommerce
+  - marketing-automation
+  - shopify
+  - social-media
+docs_url: https://acriumautomated.com/connect
+endpoints:
+  - url: https://acriumautomated.com/mcp
+    transport: streamable-http
+    auth: oauth

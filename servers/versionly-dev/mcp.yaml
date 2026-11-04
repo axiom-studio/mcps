@@ -1,0 +1,13 @@
+name: Versionly
+summary: Monitor third-party API changes; map breaks to files; open reviewable auto-fix PRs.
+category: development
+tags:
+  - api
+  - development
+  - devops
+  - monitoring
+docs_url: https://versionly.dev
+endpoints:
+  - url: https://mcp.versionly.dev/mcp
+    transport: streamable-http
+    auth: oauth

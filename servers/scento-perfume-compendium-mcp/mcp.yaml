@@ -1,0 +1,14 @@
+name: Scento Perfume API (MCP Server)
+summary: 'Scento Perfume Compendium: hundreds of designer and niche perfumes, 300+ raw materials and a family map for AI assistants, over MCP or REST. No key.'
+category: other
+tags:
+  - api
+  - ecommerce
+  - knowledge-retrieval
+  - search
+official: true
+docs_url: https://www.scento.com/developers
+endpoints:
+  - url: https://www.scento.com/mcp
+    transport: streamable-http
+    auth: none

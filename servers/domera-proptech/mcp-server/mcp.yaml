@@ -1,0 +1,13 @@
+name: Domera
+summary: 'Swedish building compliance: which inspections a building needs (OVK, energy declaration, lift, radon, legionella, fire safety), with intervals, legal basis and due dates. Free, read-only, no account.'
+category: other
+tags:
+  - compliance
+  - government
+  - knowledge-retrieval
+  - real-estate
+docs_url: https://github.com/Domera-proptech/mcp-server
+endpoints:
+  - url: https://mcp.domera.se/mcp
+    transport: streamable-http
+    auth: none

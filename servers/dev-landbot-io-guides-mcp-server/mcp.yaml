@@ -1,0 +1,13 @@
+name: Landbot
+summary: Build, test and publish AI agents and chatbots that qualify leads and book meetings on your website and WhatsApp.
+category: marketing
+tags:
+  - ai-agent
+  - chatbot
+  - marketing
+  - whatsapp
+docs_url: https://dev.landbot.io/guides/mcp-server
+endpoints:
+  - url: https://mcp.landbot.io/mcp
+    transport: streamable-http
+    auth: oauth

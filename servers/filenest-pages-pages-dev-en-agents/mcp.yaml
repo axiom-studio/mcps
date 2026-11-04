@@ -1,0 +1,13 @@
+name: FileNest WorkTools MCP
+summary: FileNest WorkTools MCP provides read-only discovery of browser-based file utilities, helping AI assistants identify suitable tools for batch file renaming, image processing, and everyday file tasks. Users complete file selection and processing on the FileNest website.
+category: productivity
+tags:
+  - browser
+  - file-management
+  - productivity
+  - workflow-automation
+docs_url: https://filenest-pages.pages.dev/en/agents
+endpoints:
+  - url: https://filenest-pages.pages.dev/mcp
+    transport: streamable-http
+    auth: unknown

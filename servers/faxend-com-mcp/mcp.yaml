@@ -1,0 +1,13 @@
+name: Faxend
+summary: 'Send real faxes from AI assistants: PDF to any fax number, delivery status, pages left.'
+category: communication
+tags:
+  - communication
+  - document
+  - notifications
+  - pdf
+docs_url: https://faxend.com/mcp/
+endpoints:
+  - url: https://faxend.com/mcp
+    transport: streamable-http
+    auth: api-key

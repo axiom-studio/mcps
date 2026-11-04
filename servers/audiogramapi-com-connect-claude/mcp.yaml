@@ -1,0 +1,12 @@
+name: Audiogram API
+summary: Search published podcasts and retrieve available transcripts through Audiogram API's remote MCP server. I work with Audiogram API; transcript coverage varies by episode.
+category: search
+tags:
+  - audio
+  - knowledge-retrieval
+  - search
+docs_url: https://audiogramapi.com/connect/claude/?utm_source=mcpservers_org&utm_medium=directory&utm_campaign=audiogram_trial_20260926&utm_content=remote_mcp_listing
+endpoints:
+  - url: https://mcp.audiogramapi.com/mcp
+    transport: streamable-http
+    auth: oauth

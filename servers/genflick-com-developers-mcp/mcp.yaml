@@ -1,0 +1,14 @@
+name: GenFlick
+summary: GenFlick is the AI studio for films, series, music videos and ads. Its remote MCP server lets Claude, Codex or ChatGPT plan, write, cast, storyboard, produce and publish work in your GenFlick account, keeping the same cast in every shot. OAuth sign-in, nothing to install.
+category: design
+tags:
+  - advertising
+  - ai-model
+  - content-creation
+  - media
+  - video
+docs_url: https://genflick.com/developers/mcp
+endpoints:
+  - url: https://genflick.com/mcp/studios
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,24 @@
+name: Excalidraw
+summary: Excalidraw creates interactive hand-drawn diagrams from assistant conversations. Its MCP connector gives users a way to turn ideas, flows, and sketches into editable visual diagrams inside Excalidraw.
+description: |-
+  # Excalidraw
+
+  Excalidraw creates interactive hand-drawn diagrams from assistant conversations. Its MCP connector gives users a way to turn ideas, flows, and sketches into editable visual diagrams inside Excalidraw.
+
+  ## Connection
+
+  https://mcp.excalidraw.com/mcp
+
+  Publisher-owned excalidraw/excalidraw-mcp and official connector listing confirm this endpoint. The legacy Vercel alias is not retained as a second connection. Third-party Excalidraw implementations remain separate.
+
+  [Publisher or official connector listing](https://claude.com/connectors/excalidraw-app-demo)
+category: other
+tags:
+  - other
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/excalidraw-app-demo
+endpoints:
+  - url: https://mcp.excalidraw.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: bytEM
+summary: 'Search a public index of DEIDs, check readiness, and exchange for the data behind one. Each DEID is a URL that resolves to a Matrix room serving the data. Remote endpoint: https://bytem.de.cities.app/api/mcp'
+category: other
+tags:
+  - data-analysis
+  - knowledge-retrieval
+  - search
+docs_url: https://bytem.de.cities.app/llms.txt
+endpoints:
+  - url: https://bytem.de.cities.app/api/mcp
+    transport: streamable-http
+    auth: unknown

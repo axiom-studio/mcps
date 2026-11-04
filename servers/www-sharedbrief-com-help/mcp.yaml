@@ -1,0 +1,14 @@
+name: SharedBrief
+summary: Create client proposals, project updates and decision briefs from selected AI work, publish stable links with controlled access, and check reader activity through an OAuth-authenticated remote MCP server.
+category: productivity
+tags:
+  - analytics
+  - collaboration
+  - content-creation
+  - document
+  - productivity
+docs_url: https://www.sharedbrief.com/help
+endpoints:
+  - url: https://www.sharedbrief.com/mcp
+    transport: streamable-http
+    auth: oauth

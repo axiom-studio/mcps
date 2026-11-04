@@ -1,0 +1,11 @@
+name: Quarterly Tax Calculator
+summary: 'Free MCP server for US self-employed quarterly estimated taxes. estimateQuarterlyTax computes federal + state income tax, SE tax, and the 4 per-quarter installments from annual net profit, filing status, state, and tax year (2025/2026, QBI-aware); getPaymentCalendar returns the 4 IRS quarterly due dates, rolled past weekends and IRS holidays. Remote endpoint: https://mcp.quarterlytax.al157.xyz/mcp (Streamable HTTP, no auth). Read-only calculations; no data stored.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+docs_url: https://quarterlytax.al157.xyz
+endpoints:
+  - url: https://mcp.quarterlytax.al157.xyz/mcp
+    transport: streamable-http
+    auth: unknown

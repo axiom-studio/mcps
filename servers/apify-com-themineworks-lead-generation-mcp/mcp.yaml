@@ -1,0 +1,13 @@
+name: Lead Generation MCP
+summary: 'B2B and local leads for AI agents over one remote MCP endpoint: people with work emails, email verification, website contacts, Google Maps and Yellow Pages businesses, and Trustpilot reviews. 8 tools. Hosted on Apify, pay per result, and a search that comes back empty is not billed.'
+category: marketing
+tags:
+  - data-analysis
+  - marketing
+  - sales
+  - web-scraping
+docs_url: https://apify.com/themineworks/lead-generation-mcp?utm_source=ranking-site&utm_medium=distribution&utm_campaign=mcpservers-org
+endpoints:
+  - url: https://themineworks--lead-generation-mcp.apify.actor/mcp
+    transport: streamable-http
+    auth: api-key

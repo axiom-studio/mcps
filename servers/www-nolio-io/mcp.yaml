@@ -1,0 +1,12 @@
+name: Nolio
+summary: 'Official server for the Nolio app: plan, analyze and coach endurance, strength and Hyrox training.'
+category: productivity
+tags:
+  - fitness
+  - healthcare
+  - productivity
+docs_url: https://www.nolio.io
+endpoints:
+  - url: https://mcp.nolio.io/mcp
+    transport: streamable-http
+    auth: oauth

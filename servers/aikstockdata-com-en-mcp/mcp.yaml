@@ -1,0 +1,12 @@
+name: aikstockdata
+summary: Korean stock market data with no auth and no API key. Remote MCP server (12 tools) for KOSPI/KOSDAQ/KONEX T+1 settled closes, DART regulatory filings with receipt timestamps, quarterly and preliminary earnings, a per-stock daily price history starting 2020-01-02 that is not truncated, and post-filing price paths by filing type. Refreshed every trading day at 18:10 KST. Non-commercial use with attribution; commercial redistribution is not permitted.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+docs_url: https://aikstockdata.com/en/mcp
+endpoints:
+  - url: https://mcp.aikstockdata.com/mcp
+    transport: streamable-http
+    auth: unknown

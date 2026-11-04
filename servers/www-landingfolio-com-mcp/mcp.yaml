@@ -1,0 +1,13 @@
+name: Landingfolio MCP
+summary: 'Real landing-page design inspiration for your coding agent: screenshots of hero, pricing, testimonial and feature sections, full pages and OG images from the Landingfolio gallery.'
+category: design
+tags:
+  - coding-agent
+  - design
+  - media
+  - web-research
+docs_url: https://www.landingfolio.com/mcp
+endpoints:
+  - url: https://mcp.landingfolio.com/mcp
+    transport: streamable-http
+    auth: api-key

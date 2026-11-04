@@ -1,0 +1,14 @@
+name: Workspace369
+summary: 'Official remote MCP server for Workspace369: CRM, proposals, e-sign contracts, invoices, projects, calendar and time tracking for client-work businesses. OAuth, Streamable HTTP at https://mcp.workspace369.com/mcp. Sends wait for your approval.'
+category: productivity
+tags:
+  - business-operations
+  - calendar
+  - crm
+  - productivity
+  - project-management
+docs_url: https://workspace369.com/
+endpoints:
+  - url: https://mcp.workspace369.com/mcp
+    transport: streamable-http
+    auth: oauth

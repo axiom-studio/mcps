@@ -1,0 +1,13 @@
+name: Creatify Ad Agent
+summary: Turn a prompt, product link, or reference ad into a finished video ad — plans shots, generates footage, voiceovers and music, then ships the MP4.
+category: marketing
+tags:
+  - advertising
+  - content-creation
+  - marketing
+  - video
+docs_url: https://creatify.ai/mcp
+endpoints:
+  - url: https://api.creatify.ai/ad_agent/mcp
+    transport: streamable-http
+    auth: oauth

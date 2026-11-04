@@ -1,0 +1,12 @@
+name: PdfParse
+summary: Extract PDFs into structured tables, query saved records, and configure document routing and inbox workflows over remote MCP with OAuth.
+category: productivity
+tags:
+  - identity
+  - productivity
+  - security
+docs_url: https://github.com/PabloG6/pdfparse-integrations
+endpoints:
+  - url: https://mcp.pdfparse.net/mcp
+    transport: streamable-http
+    auth: oauth

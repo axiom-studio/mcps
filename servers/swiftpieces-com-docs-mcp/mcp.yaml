@@ -1,0 +1,13 @@
+name: SwiftPieces
+summary: Lets coding agents search and install real SwiftUI components into your iOS app.
+category: development
+tags:
+  - coding-agent
+  - design-to-code
+  - development
+  - mobile
+docs_url: https://swiftpieces.com/docs/mcp
+endpoints:
+  - url: https://swiftpieces.com/api/mcp
+    transport: streamable-http
+    auth: none

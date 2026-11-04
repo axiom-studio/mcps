@@ -1,0 +1,12 @@
+name: Lab4U
+summary: 'Official MCP server of Lab4U, a Russian online medical laboratory: your AI assistant picks lab tests for a goal or a doctor''s list, checks turnaround in the user''s city and builds a cart on lab4u.ru.'
+category: other
+tags:
+  - ai-agent
+  - ecommerce
+  - healthcare
+docs_url: https://mcp.lab4u.ru/
+endpoints:
+  - url: https://mcp.lab4u.ru/mcp
+    transport: streamable-http
+    auth: none

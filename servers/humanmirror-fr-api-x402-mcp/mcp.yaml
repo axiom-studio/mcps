@@ -1,0 +1,14 @@
+name: HumanMirror
+summary: Execution assurance, x402 compatibility checks and trust infrastructure for autonomous agents. Includes free diagnosis, paid Base/USDC compatibility receipts, agent registration and machine-readable discovery.
+category: development
+tags:
+  - ai-agent
+  - evm
+  - identity
+  - payment
+  - security
+docs_url: https://humanmirror.fr/api/x402/mcp/
+endpoints:
+  - url: https://humanmirror.fr/api/x402/mcp/
+    transport: streamable-http
+    auth: unknown

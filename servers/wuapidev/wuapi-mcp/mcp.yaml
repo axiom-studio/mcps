@@ -1,0 +1,13 @@
+name: wuapi
+summary: Link your own WhatsApp numbers by QR or pairing code and send and receive messages over a REST API. TypeScript and Rust SDKs, CLI, webhooks and an MCP server.
+category: communication
+tags:
+  - api
+  - communication
+  - sms
+  - whatsapp
+docs_url: https://github.com/wuapidev/wuapi-mcp
+endpoints:
+  - url: https://wuapi.dev/api/mcp
+    transport: streamable-http
+    auth: unknown

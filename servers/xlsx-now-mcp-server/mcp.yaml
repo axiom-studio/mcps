@@ -1,0 +1,12 @@
+name: XLSX.now MCP Server
+summary: Convert XLSX spreadsheets to XLS, CSV, PDF, JPG, HTML and ODS, or create XLSX files from CSV, XLS and ODS.
+category: productivity
+tags:
+  - file-conversion
+  - productivity
+  - spreadsheet
+docs_url: https://xlsx.now/mcp-server
+endpoints:
+  - url: https://xlsx.now/mcp
+    transport: streamable-http
+    auth: api-key

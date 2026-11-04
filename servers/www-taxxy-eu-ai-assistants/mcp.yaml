@@ -1,0 +1,13 @@
+name: Taxy
+summary: 'Crypto and securities tax data: summaries, positions, lots, transactions; prepare wallet and CSV imports you confirm in Taxy.'
+category: finance
+tags:
+  - crypto
+  - finance
+  - payment
+  - trading
+docs_url: https://www.taxxy.eu/ai-assistants
+endpoints:
+  - url: https://api.taxxy.eu/v1/mcp
+    transport: streamable-http
+    auth: oauth

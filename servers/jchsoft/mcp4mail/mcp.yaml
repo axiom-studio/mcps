@@ -1,0 +1,13 @@
+name: mcp4mail
+summary: 'Your IMAP mailbox as an MCP server: list accounts and folders, search and read mail, attachments, drafts. Write tools only where the mailbox owner allows them, and email is sent only after the owner approves it. OAuth 2.1, hosted at mcp4mail.online, open source (MIT) and self-hostable.'
+category: communication
+tags:
+  - communication
+  - email-automation
+  - productivity
+  - security
+docs_url: https://github.com/jchsoft/mcp4mail
+endpoints:
+  - url: https://mcp4mail.online/mcp
+    transport: streamable-http
+    auth: oauth

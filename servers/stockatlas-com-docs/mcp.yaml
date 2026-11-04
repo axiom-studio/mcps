@@ -1,0 +1,13 @@
+name: Stock Atlas
+summary: 'Query US company data from SEC filings: financial statements, company-reported KPIs, guidance, EPS, dividends and daily prices for about 4,000 companies since 2010, with full SQL.'
+category: finance
+tags:
+  - data-analysis
+  - database
+  - finance
+  - sql
+docs_url: https://stockatlas.com/docs/
+endpoints:
+  - url: https://stockatlas.com/mcp
+    transport: streamable-http
+    auth: oauth

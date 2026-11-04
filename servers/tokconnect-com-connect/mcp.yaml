@@ -1,0 +1,14 @@
+name: 'TokConnect: TikTok Research'
+summary: 'TikTok research for AI agents: search demand and trends, content gaps, videos, creators, comments and captions. 45 tools.'
+category: marketing
+tags:
+  - content-creation
+  - data-analysis
+  - marketing
+  - research
+  - social-media
+docs_url: https://tokconnect.com/connect/
+endpoints:
+  - url: https://mcp.tokconnect.com/mcp
+    transport: streamable-http
+    auth: oauth

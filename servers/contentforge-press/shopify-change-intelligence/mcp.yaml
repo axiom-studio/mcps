@@ -1,0 +1,13 @@
+name: Shopify Change Intelligence
+summary: 'Monitor any public Shopify store: free snapshot, paid change intelligence and reports via x402.'
+category: marketing
+tags:
+  - analytics
+  - ecommerce
+  - monitoring
+  - shopify
+docs_url: https://github.com/contentforge-press/shopify-change-intelligence
+endpoints:
+  - url: https://shopify-intel.contentforge-press.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

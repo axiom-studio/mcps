@@ -1,0 +1,13 @@
+name: GPT-Video MCP
+summary: Remote MCP server for GPT-Video, the AI video editor you direct by chat. Claude, ChatGPT, Cursor and other MCP clients can create a project, find the strong moments in a video you uploaded, caption and reframe them to vertical, and get an MP4 back. Eight tools, edits only (no generated images, video or audio).
+category: other
+tags:
+  - ai-model
+  - content-creation
+  - media
+  - video
+docs_url: https://www.gpt-video.com/docs/mcp
+endpoints:
+  - url: https://www.gpt-video.com/api/mcp
+    transport: streamable-http
+    auth: api-key

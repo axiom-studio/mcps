@@ -1,0 +1,14 @@
+name: Notestack AI
+summary: Notestack, a NotebookLM OSS alternative + Marketing agent
+category: marketing
+tags:
+  - ai-agent
+  - content-creation
+  - marketing
+  - notes
+  - research
+docs_url: https://notestack.ai
+endpoints:
+  - url: https://api.notestack.ai/mcp
+    transport: streamable-http
+    auth: oauth

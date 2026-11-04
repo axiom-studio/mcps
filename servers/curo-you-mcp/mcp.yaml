@@ -1,0 +1,13 @@
+name: Curo Peptide Research MCP
+summary: 'Peptide research for your AI: PepBank study findings plus the curo.you peptide catalog and lot COAs.'
+category: search
+tags:
+  - bioinformatics
+  - healthcare
+  - research
+  - search
+docs_url: https://curo.you/mcp
+endpoints:
+  - url: https://mcp.curo.you
+    transport: streamable-http
+    auth: none

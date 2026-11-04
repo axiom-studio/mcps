@@ -1,0 +1,13 @@
+name: Dibsline Permits
+summary: Newly issued building permits in 10 US cities, with trade tags and job values, daily.
+category: marketing
+tags:
+  - data-analysis
+  - government
+  - marketing
+  - real-estate
+docs_url: https://dibsline.com/docs/permits
+endpoints:
+  - url: https://mcp.dibsline.com/permits/mcp
+    transport: streamable-http
+    auth: unknown

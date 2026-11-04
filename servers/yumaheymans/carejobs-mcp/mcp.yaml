@@ -1,0 +1,11 @@
+name: CareJobs.Now Healthcare Jobs
+summary: Search 170,000+ open US healthcare jobs read daily from 270 employers career sites, with posted pay. Free, read-only, no API key.
+category: search
+tags:
+  - healthcare
+  - search
+docs_url: https://github.com/yumaheymans/carejobs-mcp
+endpoints:
+  - url: https://carejobs.now/api/mcp
+    transport: streamable-http
+    auth: none

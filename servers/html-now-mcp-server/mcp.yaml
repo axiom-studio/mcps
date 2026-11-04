@@ -1,0 +1,13 @@
+name: HTML.now MCP Server
+summary: Convert HTML to PDF, DOCX, JPG, PNG and XML, or create HTML from XML, DOCX, XLSX and XLS.
+category: development
+tags:
+  - development
+  - document
+  - file-conversion
+  - pdf
+docs_url: https://html.now/mcp-server
+endpoints:
+  - url: https://html.now/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: Chargezen CheckoutOS
+summary: 'CheckoutOS helps Shopify stores sell more at checkout and after the sale: post-purchase offers, checkout blocks, bundles, discount functions, cart rules and offer tests, with no per-order fees.'
+category: marketing
+tags:
+  - ecommerce
+  - marketing
+  - shopify
+  - workflow-automation
+docs_url: https://chargezen.com/checkoutos
+endpoints:
+  - url: https://mcp.chargezen.com/mcp/checkoutos
+    transport: streamable-http
+    auth: oauth

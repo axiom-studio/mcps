@@ -1,0 +1,13 @@
+name: PNG.now MCP Server
+summary: Compress PNG images and convert PNG to JPG, WebP, AVIF, PDF, GIF, BMP, TIFF and ICO, or create PNG from JPG, WebP and PDF.
+category: design
+tags:
+  - design
+  - file-conversion
+  - media
+  - pdf
+docs_url: https://png.now/mcp-server
+endpoints:
+  - url: https://png.now/mcp
+    transport: streamable-http
+    auth: api-key

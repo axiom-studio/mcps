@@ -1,0 +1,12 @@
+name: eCourtsIndia
+summary: 'Indian court data for AI agents: cases, orders, cause lists and statutes, Supreme Court to tribunals.'
+category: search
+tags:
+  - data-analysis
+  - research
+  - search
+docs_url: https://github.com/rchtjn2-gif/ecourtsindia-mcp-server
+endpoints:
+  - url: https://mcp.ecourtsindia.com/mcp
+    transport: streamable-http
+    auth: unknown

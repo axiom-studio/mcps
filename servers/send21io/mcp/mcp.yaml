@@ -1,0 +1,13 @@
+name: send21
+summary: 'Crypto pay links and API for people and AI agents. Non-custodial: send21 creates payment drafts and pay links; a person signs in their own wallet. 14 MCP tools. Sign in with OAuth at https://send21.io/mcp/oauth, or use an API key.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - finance
+  - payment
+docs_url: https://github.com/send21io/mcp
+endpoints:
+  - url: https://send21.io/mcp
+    transport: streamable-http
+    auth: unknown

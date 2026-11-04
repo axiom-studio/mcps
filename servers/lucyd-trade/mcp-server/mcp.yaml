@@ -1,0 +1,13 @@
+name: Lucyd mcp
+summary: 'Trade Bitcoin Up/Down prediction markets from your AI agent: browse 5-minute to daily BTC markets, read order books, place orders, track positions and P&L'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - finance
+  - trading
+docs_url: https://github.com/lucyd-trade/mcp-server
+endpoints:
+  - url: https://mcp.lucyd.trade/mcp
+    transport: streamable-http
+    auth: none

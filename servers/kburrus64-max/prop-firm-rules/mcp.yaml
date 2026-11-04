@@ -1,0 +1,13 @@
+name: Prop Firm Rules (FloorGuard)
+summary: 'Sourced prop-firm daily-loss and max-drawdown rules (FTMO, FundedNext, The5ers, E8, FundingPips, Alpha Capital, Blue Guardian, Topstep, Apex) with official source links and last-verified dates, plus a drawdown-room checker. Read-only tools: list_firms, get_rules, check_drawdown. No auth. Hosted at https://floorguard-kappa.vercel.app/api/mcp or run locally via npx.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - knowledge-retrieval
+  - trading
+docs_url: https://github.com/kburrus64-max/prop-firm-rules
+endpoints:
+  - url: https://floorguard-kappa.vercel.app/api/mcp
+    transport: streamable-http
+    auth: none

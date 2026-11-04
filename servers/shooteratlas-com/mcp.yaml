@@ -1,0 +1,12 @@
+name: Shooter Atlas lookup
+summary: Read-only lookup over a site that documents large-scale tactical shooters, returning a page as markdown by id or by question.
+category: other
+tags:
+  - knowledge-retrieval
+  - research
+  - web-research
+docs_url: https://shooteratlas.com
+endpoints:
+  - url: https://shooteratlas.com/mcp
+    transport: streamable-http
+    auth: none

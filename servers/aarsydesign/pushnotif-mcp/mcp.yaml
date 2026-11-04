@@ -1,0 +1,13 @@
+name: PushNotif
+summary: Web Push (VAPID), Android (FCM), iOS (APNs), In-App Popup, Social Proof Toast & Transactional Email OTP engine with 24 native MCP tools.
+category: communication
+tags:
+  - communication
+  - email-automation
+  - mobile
+  - notifications
+docs_url: https://github.com/AarsyDesign/pushnotif-mcp
+endpoints:
+  - url: https://pushnotif.biz.id/mcp
+    transport: streamable-http
+    auth: api-key

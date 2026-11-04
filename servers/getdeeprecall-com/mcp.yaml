@@ -1,0 +1,13 @@
+name: Deep Recall
+summary: Personal memory you own, shared by Claude, ChatGPT and other agents, with sourced recall and full export.
+category: memory
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - memory
+  - privacy
+docs_url: https://getdeeprecall.com
+endpoints:
+  - url: https://api.getdeeprecall.com/mcp
+    transport: streamable-http
+    auth: unknown

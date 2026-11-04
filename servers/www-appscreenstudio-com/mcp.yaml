@@ -1,0 +1,13 @@
+name: AppScreenStudio MCP
+summary: 'Let Claude Code, Cursor, Codex or Gemini CLI design App Store and Google Play screenshots in the live AppScreenStudio editor: edit text, colors, layout, devices and templates, translate, and capture previews.'
+category: design
+tags:
+  - content-creation
+  - design
+  - marketing
+  - mobile
+docs_url: https://www.appscreenstudio.com/
+endpoints:
+  - url: https://www.appscreenstudio.com/api/mcp
+    transport: streamable-http
+    auth: api-key

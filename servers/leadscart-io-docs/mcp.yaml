@@ -1,0 +1,13 @@
+name: Leadscart
+summary: 'Remote MCP server for B2B contact data: search people by title, company, industry, headcount, country and technology, then reveal verified work emails and phone numbers. Tools: people_search, email_find, list_create, list_add, list_export, credits_balance. Streamable HTTP, Bearer API key auth.'
+category: marketing
+tags:
+  - crm
+  - data-analysis
+  - marketing
+  - sales
+docs_url: https://leadscart.io/docs#mcp
+endpoints:
+  - url: https://leadscart.io/api/mcp
+    transport: streamable-http
+    auth: api-key

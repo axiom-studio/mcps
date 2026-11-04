@@ -1,0 +1,13 @@
+name: ListDrop
+summary: Save list-shaped AI answers (itineraries, reading lists, plans, checklists) as lists your user can keep, check off, and share. Keyless or OAuth.
+category: productivity
+tags:
+  - collaboration
+  - content-creation
+  - productivity
+  - task-management
+docs_url: https://www.listdrop.co/ai
+endpoints:
+  - url: https://www.listdrop.co/mcp
+    transport: streamable-http
+    auth: none

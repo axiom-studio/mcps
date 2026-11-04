@@ -1,0 +1,13 @@
+name: Assembli
+summary: React, Tailwind CSS and shadcn/ui components, sections and full landing pages for coding agents. Search and install them over MCP or the shadcn CLI.
+category: design
+tags:
+  - coding-agent
+  - design
+  - design-to-code
+  - development
+docs_url: https://www.assembli.design
+endpoints:
+  - url: https://www.assembli.design/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: CryptoKeyhole
+summary: 'Lets AI assistants query on-chain and market crypto data for Bitcoin, Ethereum and a growing list of coins: list assets and metrics, read each metric''s method and coverage, and fetch time series. Remote and read-only; Free charts need no key.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - finance
+  - marketplace
+docs_url: https://cryptokeyhole.com/mcp/
+endpoints:
+  - url: https://cryptokeyhole.com/api/v1/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: LensUp Browser Tools
+summary: 'Discover LensUp''s free browser-local document and image tools and get the canonical page: scan photos to PDF, remove shadows, compress toward a size limit, ID card copy, passport photo, PDF to scanned PDF, and Image/PDF/DOCX/EPUB to Markdown (OCR only on the Markdown text tools). Remote Streamable HTTP server at https://mcp.lensup.ai/mcp; the MCP never receives or processes files.'
+category: productivity
+tags:
+  - document
+  - file-conversion
+  - pdf
+  - productivity
+docs_url: https://github.com/ppop123/lensup-mcp
+endpoints:
+  - url: https://mcp.lensup.ai/mcp
+    transport: streamable-http
+    auth: none

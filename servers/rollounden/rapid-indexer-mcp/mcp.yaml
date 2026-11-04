@@ -1,0 +1,12 @@
+name: Rapid Indexer
+summary: Rapid Indexer is the fastest Google indexer. MCP server to submit URLs to Googlebot, check index status, and manage traffic campaigns from Claude, Cursor, ChatGPT.
+category: search
+tags:
+  - search
+  - seo
+  - web-research
+docs_url: https://github.com/rollounden/rapid-indexer-mcp
+endpoints:
+  - url: https://mcp.rapid-indexer.com/mcp
+    transport: streamable-http
+    auth: unknown

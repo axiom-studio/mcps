@@ -1,0 +1,18 @@
+name: Aiera
+summary: Aiera is a financial events intelligence platform covering live earnings calls, transcripts, filings, and company publications. Its remote MCP server connects assistants to Aiera's event and document APIs so market-moving information can be searched and analyzed in conversation.
+description: |-
+  Aiera is a financial events intelligence platform covering live earnings calls, transcripts, filings, and company publications. Its remote MCP server connects assistants to Aiera's event and document APIs so market-moving information can be searched and analyzed in conversation.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/aiera)
+category: finance
+tags:
+  - finance
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/aiera
+endpoints:
+  - url: https://mcp-pub.aiera.com/
+    transport: streamable-http
+    auth: oauth

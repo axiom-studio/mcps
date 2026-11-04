@@ -1,0 +1,12 @@
+name: Katalog Artistov — artists for events
+summary: 'Find artists for events in Russia: hosts, cover bands, dancers, shows, magicians and more. Search by genre, city, occasion and fee, open artist profiles with descriptions, photos and starting fees, and send a booking request right from the chat.'
+category: search
+tags:
+  - entertainment
+  - search
+  - web-research
+docs_url: https://katalog-artistov.ru/dlya-neyrosetey/
+endpoints:
+  - url: https://katalog-artistov.ru/mcp
+    transport: streamable-http
+    auth: none

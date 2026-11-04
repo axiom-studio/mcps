@@ -1,0 +1,13 @@
+name: Homeroom
+summary: Homeschool curriculum planning and private change drafts. Parents choose the child in Homeroom, review proposals, preview affected records and Apply in the app. Hosted MCP with OAuth; ChatGPT and Claude setup paths.
+category: productivity
+tags:
+  - ai-agent
+  - education
+  - productivity
+  - workflow-automation
+docs_url: https://homeroom.academy/docs/mcp
+endpoints:
+  - url: https://homeroom.academy/mcp
+    transport: streamable-http
+    auth: oauth

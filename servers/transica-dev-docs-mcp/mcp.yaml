@@ -1,0 +1,13 @@
+name: Transica
+summary: 'Free MCP server, no sign-in: scan a web page for AI-agent readiness, or check a remote MCP server against ChatGPT and Claude directory rules.'
+category: development
+tags:
+  - ai-agent
+  - compliance
+  - testing-qa
+  - web-scraping
+docs_url: https://transica.dev/docs/mcp
+endpoints:
+  - url: https://transica-mcp.transica.dev/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: FlyItalyADSB
+summary: 'Live and historical aircraft positions from a community ADS-B/MLAT network: aircraft near a place, flight history, overflights and notable traffic, with a live map in chat.'
+category: other
+tags:
+  - data-analysis
+  - geospatial
+  - realtime-database
+  - weather
+docs_url: https://flyitalyadsb.com/en/data/mcp/
+endpoints:
+  - url: https://flyitalyadsb.com/mcp
+    transport: streamable-http
+    auth: oauth

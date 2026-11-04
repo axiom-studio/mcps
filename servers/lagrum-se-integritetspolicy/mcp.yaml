@@ -1,0 +1,11 @@
+name: Lagrum
+summary: Lagrum provides access to Swedish laws and regulations, Swedish legislative preparatory works, Swedish case law, EU regulations, EU directives, case law of the Court of Justice of the European Union, and EU treaties.
+category: other
+tags:
+  - knowledge-retrieval
+  - research
+docs_url: https://lagrum.se/integritetspolicy
+endpoints:
+  - url: https://mcp.lagrum.se/mcp
+    transport: streamable-http
+    auth: oauth

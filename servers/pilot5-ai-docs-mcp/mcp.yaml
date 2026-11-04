@@ -1,0 +1,12 @@
+name: Pilot5
+summary: Five AI models debate your decision blind, then give one recommendation and the strongest objection.
+category: productivity
+tags:
+  - ai-agent
+  - ai-model
+  - productivity
+docs_url: https://pilot5.ai/docs/mcp
+endpoints:
+  - url: https://mcp.pilot5.ai/mcp
+    transport: streamable-http
+    auth: oauth

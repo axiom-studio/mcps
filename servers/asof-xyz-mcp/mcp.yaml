@@ -1,0 +1,12 @@
+name: AsOf
+summary: Historical crypto wallet holdings, valuations and CSV exports with recorded evidence; fixed public demo, paid own-wallet scans.
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - finance
+docs_url: https://asof.xyz/mcp
+endpoints:
+  - url: https://mcp.asof.xyz/mcp
+    transport: streamable-http
+    auth: oauth

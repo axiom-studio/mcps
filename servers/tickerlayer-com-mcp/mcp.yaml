@@ -1,0 +1,13 @@
+name: TickerLayer Market Data
+summary: 'Live and historical market data for AI agents: quotes, snapshots, OHLCV history, market hours and bond yields for stocks, forex, crypto, indices, ETFs, commodities and perpetual futures.'
+category: finance
+tags:
+  - crypto
+  - finance
+  - marketplace
+  - trading
+docs_url: https://tickerlayer.com/mcp
+endpoints:
+  - url: https://mcp.tickerlayer.com/mcp
+    transport: streamable-http
+    auth: oauth

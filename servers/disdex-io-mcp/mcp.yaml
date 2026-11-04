@@ -1,0 +1,12 @@
+name: 'disdex: Discord server search'
+summary: Find public Discord servers by topic, language and size, check whether invite links still work, and see member growth. Free, no account, NSFW excluded.
+category: search
+tags:
+  - discord
+  - search
+  - social-media
+docs_url: https://disdex.io/mcp
+endpoints:
+  - url: https://disdex.io/mcp
+    transport: streamable-http
+    auth: none

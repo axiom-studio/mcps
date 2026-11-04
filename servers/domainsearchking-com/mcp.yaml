@@ -1,0 +1,12 @@
+name: Domain Search King
+summary: Domain Search King is a free domain-search and naming tool. Type a keyword or describe your business, and it uses AI to return brandable .com names, each checked live against the registry so taken names never show up. No signup needed.
+category: search
+tags:
+  - ai-model
+  - marketing
+  - search
+docs_url: https://domainsearchking.com
+endpoints:
+  - url: https://domainsearchking.com/api/mcp
+    transport: streamable-http
+    auth: none

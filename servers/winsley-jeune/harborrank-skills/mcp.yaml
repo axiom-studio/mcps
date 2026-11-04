@@ -1,0 +1,13 @@
+name: HarborRank
+summary: 'Remote SEO MCP server: keyword research, live SERPs, ranked keywords, backlinks, site audits, rank tracking, Google Search Console and Google Analytics for Claude, ChatGPT, Cursor and Claude Code. OAuth sign-in.'
+category: marketing
+tags:
+  - google-analytics
+  - marketing
+  - seo
+  - web-research
+docs_url: https://github.com/winsley-jeune/harborrank-skills
+endpoints:
+  - url: https://app.harborrank.com/mcp
+    transport: streamable-http
+    auth: oauth

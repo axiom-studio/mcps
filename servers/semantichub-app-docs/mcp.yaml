@@ -1,0 +1,13 @@
+name: SemanticHub
+summary: Monitor news sources, read clustered articles and generated texts, and manage goals and workflows. Remote server with OAuth 2 or Bearer token; free plan with no card.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - news
+  - workflow-automation
+docs_url: https://semantichub.app/docs
+endpoints:
+  - url: https://mcp.semantichub.app/mcp
+    transport: streamable-http
+    auth: oauth

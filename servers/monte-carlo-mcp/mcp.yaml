@@ -1,0 +1,19 @@
+name: Monte Carlo
+summary: Monte Carlo provides data and AI observability for monitoring data reliability. Its connector gives assistants observability context for investigating data incidents, understanding quality signals, and supporting trusted analytics workflows.
+description: |-
+  Monte Carlo provides data and AI observability for monitoring data reliability. Its connector gives assistants observability context for investigating data incidents, understanding quality signals, and supporting trusted analytics workflows.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://docs.getmontecarlo.com/docs/mcp-server)
+category: other
+tags:
+  - other
+  - remote-mcp
+official: true
+registry_name: io.github.monte-carlo-data/mcp
+docs_url: https://docs.getmontecarlo.com/docs/mcp-server
+endpoints:
+  - url: https://mcp.getmontecarlo.com/mcp
+    transport: streamable-http
+    auth: oauth

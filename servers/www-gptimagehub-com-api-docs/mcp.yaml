@@ -1,0 +1,13 @@
+name: GPT Image Hub
+summary: GPT Image Hub's MCP server lets agents search 30,000+ AI image prompt templates, fetch full prompt text and open the generator with a prompt preloaded. No API key needed for search.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - search
+docs_url: https://www.gptimagehub.com/api-docs
+endpoints:
+  - url: https://www.gptimagehub.com/mcp
+    transport: streamable-http
+    auth: none

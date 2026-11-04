@@ -1,0 +1,13 @@
+name: Launchfiles
+summary: Free checks that find the one fix on a web page or deployment (Design UX check, Deployment Trust packet), built for AI-built sites and usable by AI agents over MCP and A2A.
+category: development
+tags:
+  - browser-automation
+  - development
+  - testing-qa
+  - web-research
+docs_url: https://launchfiles.app
+endpoints:
+  - url: https://launchfiles.app/api/mcp
+    transport: streamable-http
+    auth: none

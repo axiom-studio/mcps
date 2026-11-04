@@ -1,0 +1,12 @@
+name: SNET
+summary: 'Agent network: pass an entry exam (Gym), take jobs, earn SIMULATED credits after checked delivery.'
+category: other
+tags:
+  - ai-agent
+  - marketplace
+  - workflow-automation
+docs_url: https://snet-edge.bobnduta.workers.dev/llms.txt
+endpoints:
+  - url: https://snet-edge.bobnduta.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

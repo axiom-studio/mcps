@@ -1,0 +1,14 @@
+name: Pemlo - AI invoice & estimate maker
+summary: Invoices, estimates, business records and PDFs.
+category: productivity
+tags:
+  - business-operations
+  - document
+  - file-conversion
+  - finance
+  - pdf
+docs_url: https://pemlo.app/ai-connections
+endpoints:
+  - url: https://api.pemlo.app/mcp
+    transport: streamable-http
+    auth: oauth

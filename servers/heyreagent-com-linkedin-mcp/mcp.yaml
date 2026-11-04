@@ -1,0 +1,13 @@
+name: HeyReagent LinkedIn MCP
+summary: A hosted LinkedIn MCP server for your own account. Paste one address into Claude, ChatGPT, Cursor or n8n to read your inbox, send messages and invitations, and search people. Free to start. Not made by LinkedIn.
+category: communication
+tags:
+  - communication
+  - crm
+  - social-media
+  - workflow-automation
+docs_url: https://heyreagent.com/linkedin-mcp?utm_source=mcpservers&utm_medium=listing
+endpoints:
+  - url: https://api.heyreagent.com/mcp
+    transport: streamable-http
+    auth: oauth

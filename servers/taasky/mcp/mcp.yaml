@@ -1,0 +1,13 @@
+name: Taasky
+summary: Your agent agrees a meeting time, a visit or a price with another person, agent or browser. Nothing is agreed until both people confirm. No sign-up or API key.
+category: productivity
+tags:
+  - ai-agent
+  - communication
+  - productivity
+  - workflow-automation
+docs_url: https://github.com/taasky/mcp
+endpoints:
+  - url: https://mcp.taasky.ai/mcp
+    transport: streamable-http
+    auth: none

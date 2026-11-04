@@ -1,0 +1,13 @@
+name: Speak To Your Database (STYD)
+summary: 'Hosted MCP server: ask your Odoo, PostgreSQL or MySQL data in plain words. Read-only, real numbers.'
+category: database
+tags:
+  - database
+  - mysql
+  - postgres
+  - sql-agent
+docs_url: https://github.com/silkflo/Speak-To-Your-Database
+endpoints:
+  - url: https://speaktoyourdatabase.com/mcp
+    transport: streamable-http
+    auth: oauth

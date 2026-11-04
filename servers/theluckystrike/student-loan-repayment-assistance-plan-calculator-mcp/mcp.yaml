@@ -1,0 +1,12 @@
+name: Student Loan RAP Calculator MCP
+summary: Federal student loan Repayment Assistance Plan payments, loan limits and SAVE dates
+category: finance
+tags:
+  - education
+  - finance
+  - government
+docs_url: https://github.com/theluckystrike/student-loan-repayment-assistance-plan-calculator-mcp
+endpoints:
+  - url: https://student-loan-repayment-assistance-plan-calculator-mcp.lipmichal.workers.dev/mcp
+    transport: streamable-http
+    auth: none

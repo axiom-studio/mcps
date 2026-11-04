@@ -1,0 +1,17 @@
+name: AIsa
+summary: 'One key for 950+ data APIs across SEO and AI visibility, finance, social, web search, sales and agent mail. Five tools rather than hundreds: search finds an operation from a plain-language task, get_details gives its contract and price, and use runs it — max_price_usd refuses anything above a cap before any spend. Remote, OAuth, no key to paste.'
+category: marketing
+tags:
+  - api
+  - data-analysis
+  - marketing
+  - sales
+  - web-research
+official: true
+registry_name: one.aisa/mcp
+docs_url: https://mcp.aisa.one/llms-directory.md
+website_url: https://aisa.one/
+endpoints:
+  - url: https://mcp.aisa.one/mcp
+    transport: streamable-http
+    auth: oauth

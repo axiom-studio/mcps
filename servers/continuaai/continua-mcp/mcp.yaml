@@ -1,0 +1,13 @@
+name: Continua AI
+summary: 'Continua MCP Server gives any MCP-compatible client the full investigation engine: cited analysis across your documents, Office and data deliverables, and projects that accumulate reusable knowledge, decisions, and rules.'
+category: productivity
+tags:
+  - data-analysis
+  - document
+  - knowledge-retrieval
+  - productivity
+docs_url: https://github.com/ContinuaAI/continua-mcp
+endpoints:
+  - url: https://app.askcontinua.com/mcp
+    transport: streamable-http
+    auth: oauth

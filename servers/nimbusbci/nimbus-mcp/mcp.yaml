@@ -1,0 +1,13 @@
+name: Nimbus BCI MCP
+summary: 'Hosted MCP for brain-computer interface research: run EEG experiments on public datasets, compare foundation models, and submit to a verified BCI leaderboard. 60 tools, OAuth login, local or remote.'
+category: other
+tags:
+  - ai-model
+  - bioinformatics
+  - healthcare
+  - research
+docs_url: https://github.com/nimbusbci/nimbus-mcp
+endpoints:
+  - url: https://nimbus-mcp.fly.dev/mcp
+    transport: streamable-http
+    auth: oauth

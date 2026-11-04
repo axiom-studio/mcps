@@ -1,0 +1,12 @@
+name: Web2MD — URL to Markdown MCP Server
+summary: 'Convert any public URL to clean Markdown. Free tier: 10 conversions/day. Unlimited conversions via Gumroad license.'
+category: web-scraping
+tags:
+  - document
+  - file-conversion
+  - web-scraping
+docs_url: https://github.com/astra-intelligence/web2md-mcp
+endpoints:
+  - url: https://reasonable-except-include-wilderness.trycloudflare.com/mcp
+    transport: streamable-http
+    auth: unknown

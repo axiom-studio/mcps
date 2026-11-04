@@ -1,0 +1,12 @@
+name: TempJar
+summary: 'Free temporary email for agents and apps: create and read temp inboxes via MCP, REST API, or CLI. Custom handles, password reclaim, 6-month retention, free plan 1,000 emails received per account per month. Receives mail only, not for banking or important accounts.'
+category: development
+tags:
+  - api
+  - development
+  - email-automation
+docs_url: https://tempjar.com/api
+endpoints:
+  - url: https://tempjar.com/api/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: CheckMyVIN
+summary: Free VIN decoder and NHTSA recall lookup for US vehicles. Remote MCP server (Streamable HTTP, no auth) with tools decode_vin and check_recalls, using official NHTSA vPIC and recall data.
+category: other
+tags:
+  - api
+  - data-analysis
+  - government
+docs_url: https://checkmyvin.net/docs/mcp
+endpoints:
+  - url: https://checkmyvin.net/api/mcp
+    transport: streamable-http
+    auth: none

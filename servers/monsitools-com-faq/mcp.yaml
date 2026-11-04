@@ -1,0 +1,13 @@
+name: MonsiTools
+summary: Remote MCP server that lets AI assistants search 769 business, finance, SaaS and ecommerce calculators, read their exact formulas and run them for deterministic results.
+category: finance
+tags:
+  - business-operations
+  - data-analysis
+  - finance
+  - spreadsheet
+docs_url: https://monsitools.com/faq#api
+endpoints:
+  - url: https://monsitools.com/mcp
+    transport: streamable-http
+    auth: api-key

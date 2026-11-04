@@ -1,0 +1,14 @@
+name: Quattr
+summary: 'Connect your AI assistant to your Quattr account and ask in plain English: who gets cited instead of you in AI answers, why organic clicks changed, how you compare with tracked competitors, and which pages need attention next. Every answer comes from your own Quattr data.'
+category: marketing
+tags:
+  - ai-agent
+  - analytics
+  - data-analysis
+  - marketing
+  - seo
+docs_url: https://www.quattr.com/docs/quattr-mcp
+endpoints:
+  - url: https://mcp.quattr.com/mcp
+    transport: streamable-http
+    auth: oauth

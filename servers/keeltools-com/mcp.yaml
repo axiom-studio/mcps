@@ -1,0 +1,12 @@
+name: KeelTools
+summary: 'Search KeelTools AI tools, Skills and prompts: taglines, pricing model, features and FAQ. Read-only.'
+category: search
+tags:
+  - ai-model
+  - knowledge-retrieval
+  - search
+docs_url: https://keeltools.com
+endpoints:
+  - url: https://keeltools.com/mcp
+    transport: streamable-http
+    auth: unknown

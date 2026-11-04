@@ -1,0 +1,12 @@
+name: Fliprofit Fee Calculator
+summary: Reseller fee calculator for eBay, Poshmark, Mercari, Etsy, Whatnot, Depop and more. Calculate fees and profit, compare platforms, and get a log of fee changes. Free, no API key.
+category: finance
+tags:
+  - ecommerce
+  - finance
+  - marketplace
+docs_url: https://www.fliprofit.com/developers
+endpoints:
+  - url: https://mcp.fliprofit.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: Hong Kong Company Registry
+summary: Hong Kong Companies Registry search by English or Chinese name, BRN, company type and address.
+category: database
+tags:
+  - database
+  - knowledge-retrieval
+  - search
+docs_url: https://github.com/TheCompanyAtlas/hong-kong-company-mcp
+endpoints:
+  - url: https://thecompanyatlas.com/mcp/hong-kong
+    transport: streamable-http
+    auth: unknown

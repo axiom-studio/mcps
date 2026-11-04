@@ -1,0 +1,12 @@
+name: Tripmo
+summary: Plan the trip together, with your AI. One plan, on a map, every day, every booking, every cost. Everyone in the group plans with the AI they already use. Tripmo keeps the one plan they all write to.
+category: productivity
+tags:
+  - calendar
+  - collaboration
+  - productivity
+docs_url: https://tripmo.me
+endpoints:
+  - url: https://app.tripmo.me/mcp
+    transport: streamable-http
+    auth: oauth

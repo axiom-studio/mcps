@@ -1,0 +1,13 @@
+name: Octobooks
+summary: 'Double entry accounting run by your own AI for small companies and freelancers in the UK, Germany and Austria: book bank lines and receipts, match payments, draft and issue invoices, prepare VAT return figures and close the month. Remote server with OAuth.'
+category: finance
+tags:
+  - ai-agent
+  - document
+  - finance
+  - workflow-automation
+docs_url: https://octobooks.ai/docs/connector.html
+endpoints:
+  - url: https://mcp.octobooks.ai/octobooks/mcp
+    transport: streamable-http
+    auth: oauth

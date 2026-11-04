@@ -1,0 +1,14 @@
+name: Tiny Plates
+summary: Recipe API and MCP server for structured recipes, semantic search, pantry matching, serving adjustments, and shopping lists.
+category: search
+tags:
+  - document
+  - documentation
+  - embeddings
+  - rag
+  - vector-search
+docs_url: https://www.tinyplates.dev/docs/mcp
+endpoints:
+  - url: https://api.tinyplates.dev/mcp
+    transport: streamable-http
+    auth: oauth

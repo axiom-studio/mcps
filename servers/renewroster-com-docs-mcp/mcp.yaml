@@ -1,0 +1,13 @@
+name: RenewRoster
+summary: 'Track domain and SSL certificate expiry for agency clients from any MCP client. Remote server: https://app.renewroster.com/mcp (Streamable HTTP, Bearer API key).'
+category: development
+tags:
+  - business-operations
+  - monitoring
+  - notifications
+  - security
+docs_url: https://renewroster.com/docs/mcp
+endpoints:
+  - url: https://app.renewroster.com/mcp
+    transport: streamable-http
+    auth: unknown

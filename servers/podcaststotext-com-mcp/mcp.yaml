@@ -1,0 +1,14 @@
+name: PodcastsToText
+summary: 'Podcast & YouTube transcripts in Claude, ChatGPT & Cursor: transcribe Spotify, Apple, YouTube and TikTok links, then make show notes, chapters and translations.'
+category: productivity
+tags:
+  - audio
+  - content-creation
+  - media
+  - translation
+  - video
+docs_url: https://podcaststotext.com/mcp
+endpoints:
+  - url: https://podcaststotext.com/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,16 @@
+name: Railway MCP
+summary: The Railway MCP Server enables natural language interaction with your Railway projects and infrastructure. Ask your IDE or AI assistant to create projects, deploy templates, manage environments, pull variables, redeploy services, and more.
+category: development
+tags:
+  - cloud-infrastructure
+  - deployment
+  - development
+  - devops
+official: true
+registry_name: com.railway/mcp
+docs_url: https://docs.railway.com/ai/mcp-server
+website_url: https://railway.com?referralCode=Svf-3n
+endpoints:
+  - url: https://mcp.railway.com
+    transport: streamable-http
+    auth: oauth

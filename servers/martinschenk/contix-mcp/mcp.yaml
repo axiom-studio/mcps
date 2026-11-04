@@ -1,0 +1,14 @@
+name: contix
+summary: 'Spanish invoicing with Veri*factu from your AI assistant: create and finalize invoices, customers, payments, expenses, recurring invoices and Modelo 303 figures. 63 tools, OAuth 2.1 or API key.'
+category: finance
+tags:
+  - identity
+  - security
+docs_url: https://github.com/martinschenk/contix-mcp
+endpoints:
+  - url: https://api.contix.es/api/v1/mcp/herramientas
+    transport: streamable-http
+    auth: none
+  - url: https://api.contix.es/api/v1/mcp
+    transport: streamable-http
+    auth: oauth

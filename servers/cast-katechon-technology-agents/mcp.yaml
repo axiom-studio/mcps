@@ -1,0 +1,12 @@
+name: Cast
+summary: Turn one line into a one-tap link for a short vertical AI character video (Seedance). Remote, no auth, read-only; first video free.
+category: other
+tags:
+  - ai-model
+  - content-creation
+  - video
+docs_url: https://cast.katechon.technology/agents
+endpoints:
+  - url: https://cast.katechon.technology/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: PtData
+summary: Point-in-time US equity fundamentals, SEC filings and survivorship-free index rosters, as they were known on any past date. Free tier with no API key.
+category: finance
+tags:
+  - api
+  - database
+  - finance
+  - research
+docs_url: https://api.ptdata.io/docs
+endpoints:
+  - url: https://api.ptdata.io/mcp
+    transport: streamable-http
+    auth: none

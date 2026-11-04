@@ -1,0 +1,13 @@
+name: Mudpie Public MCP
+summary: Search Mudpie’s public website, get cited product answers, and assess whether Mudpie fits your requirements.
+category: marketing
+tags:
+  - knowledge-retrieval
+  - marketing
+  - search
+  - web-research
+docs_url: https://mudpie.ai/mcp
+endpoints:
+  - url: https://mudpie.mudpie.ai/mcp/public
+    transport: streamable-http
+    auth: none

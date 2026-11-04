@@ -1,0 +1,13 @@
+name: poster.ly / Posterly MCP
+summary: Live MCP/API so AI agents can draft and schedule Instagram/social posts without a dashboard. AI-native social scheduler. Dubai-based.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://www.poster.ly/mcp
+endpoints:
+  - url: https://www.poster.ly/api/mcp
+    transport: streamable-http
+    auth: api-key

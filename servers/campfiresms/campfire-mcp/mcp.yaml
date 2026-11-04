@@ -1,0 +1,12 @@
+name: Campfire SMS
+summary: Hosted two-way SMS bridge between a phone and coding agents.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - sms
+docs_url: https://github.com/campfiresms/campfire-mcp
+endpoints:
+  - url: https://api.campfiresms.com/mcp
+    transport: streamable-http
+    auth: unknown

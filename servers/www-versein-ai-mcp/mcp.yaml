@@ -1,0 +1,13 @@
+name: VerseIn
+summary: 'Generate product ad images and videos with your VerseIn account: text-to-image, image editing, image-to-video, upscale and relight.'
+category: design
+tags:
+  - advertising
+  - content-creation
+  - media
+  - video
+docs_url: https://www.versein.ai/mcp
+endpoints:
+  - url: https://mcp.versein.ai/mcp
+    transport: streamable-http
+    auth: oauth

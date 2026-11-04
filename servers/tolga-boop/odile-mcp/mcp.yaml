@@ -1,0 +1,13 @@
+name: Odile (Odile Direct + phone lines)
+summary: 'Lets AI agents reach businesses that have no API: look a business up by its phone number, leave it a message or book a time (Odile Direct, lookups free). Also gives an app or agent a real phone line that answers callers and texts the owner (free test line, then 25 cents a minute). Remote, streamable HTTP.'
+category: communication
+tags:
+  - ai-agent
+  - audio
+  - communication
+  - sms
+docs_url: https://github.com/tolga-boop/odile-mcp
+endpoints:
+  - url: https://odilelabs.com/mcp
+    transport: streamable-http
+    auth: none

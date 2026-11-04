@@ -1,0 +1,12 @@
+name: CreceRank
+summary: CreceRank mide y mejora tu ranking en las IAs
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+docs_url: https://www.crecerank.com
+endpoints:
+  - url: https://crecerank.onrender.com/mcp
+    transport: streamable-http
+    auth: oauth

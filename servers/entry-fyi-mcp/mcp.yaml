@@ -1,0 +1,13 @@
+name: Entry
+summary: Official remote MCP server for Entry, a living personal page. Lets your assistant read your Entries, write drafts and propose profile updates for you to approve.
+category: productivity
+tags:
+  - ai-agent
+  - content-creation
+  - notes
+  - productivity
+docs_url: https://entry.fyi/mcp
+endpoints:
+  - url: https://entry.fyi/mcp
+    transport: streamable-http
+    auth: unknown

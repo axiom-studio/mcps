@@ -1,0 +1,10 @@
+name: roamflat eSIM Flat configurator
+summary: 'Unlimited travel eSIMs at 5–50 Mbps: live quotes by country, speed and days, plus a buy link.'
+category: other
+tags:
+  - communication
+docs_url: https://roamflat.com/llms.txt
+endpoints:
+  - url: https://roamflat.com/wp-json/roamflat/mcp
+    transport: streamable-http
+    auth: unknown

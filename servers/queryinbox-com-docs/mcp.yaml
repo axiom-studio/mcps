@@ -1,0 +1,13 @@
+name: QueryInbox
+summary: Read-only Google Search Console and Google Analytics for AI agents. One remote MCP endpoint exposes native GSC, GA4 Data, and GA4 Admin methods.
+category: marketing
+tags:
+  - analytics
+  - google-analytics
+  - marketing
+  - seo
+docs_url: https://queryinbox.com/docs
+endpoints:
+  - url: https://queryinbox.com/mcp
+    transport: streamable-http
+    auth: api-key

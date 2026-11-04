@@ -1,0 +1,13 @@
+name: estudjo
+summary: Turn one product image into studio photos, product videos and descriptions from chat, then download them or publish them to your connected store.
+category: marketing
+tags:
+  - content-creation
+  - ecommerce
+  - marketing
+  - media
+docs_url: https://www.estudjo.com/docs/mcp/overview
+endpoints:
+  - url: https://api.estudjo.com/mcp
+    transport: streamable-http
+    auth: oauth

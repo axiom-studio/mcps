@@ -1,0 +1,13 @@
+name: RigorMed Research MCP
+summary: Research briefs and source-linked literature comparisons via remote MCP. OAuth sign-in; task execution uses RigorMed credits.
+category: productivity
+tags:
+  - documentation
+  - healthcare
+  - knowledge-retrieval
+  - research
+docs_url: https://rigormed.com/en?utm_source=mcpservers&utm_medium=directory&utm_campaign=20261102_overseas_firstbatch
+endpoints:
+  - url: https://rigormed.com/mcp/research
+    transport: streamable-http
+    auth: oauth

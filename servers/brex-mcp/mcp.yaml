@@ -1,0 +1,18 @@
+name: Brex
+summary: Brex is a spend management platform covering corporate cards, expenses, travel, and bill pay. Its remote MCP server gives assistants governed access to company spend data so expenses can be monitored, policies checked, and finance questions answered with live account context.
+description: |-
+  Brex is a spend management platform covering corporate cards, expenses, travel, and bill pay. Its remote MCP server gives assistants governed access to company spend data so expenses can be monitored, policies checked, and finance questions answered with live account context.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://www.brex.com/support/using-brex-in-ai-apps)
+category: finance
+tags:
+  - finance
+  - remote-mcp
+official: true
+docs_url: https://www.brex.com/support/using-brex-in-ai-apps
+endpoints:
+  - url: https://api.brex.com/mcp
+    transport: streamable-http
+    auth: oauth

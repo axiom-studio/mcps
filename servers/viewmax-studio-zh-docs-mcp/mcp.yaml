@@ -1,0 +1,14 @@
+name: ViewMax MCP
+summary: Generate videos, images, music, and audio with ViewMax through a remote MCP server; inspect models, poll tasks, and check credits.
+category: design
+tags:
+  - ai-model
+  - audio
+  - content-creation
+  - media
+  - video
+docs_url: https://viewmax.studio/zh/docs/mcp
+endpoints:
+  - url: https://viewmax.studio/api/mcp
+    transport: streamable-http
+    auth: oauth

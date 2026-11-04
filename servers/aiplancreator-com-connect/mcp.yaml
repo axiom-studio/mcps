@@ -1,0 +1,13 @@
+name: AI Plan Creator
+summary: 'Design a house, its rooms and its garden by asking in a chat: floor plans to real dimensions, a live 3D model and walkthrough, in AI Plan Creator.'
+category: design
+tags:
+  - ai-agent
+  - chatbot
+  - design
+  - real-estate
+docs_url: https://aiplancreator.com/connect
+endpoints:
+  - url: https://aiplancreator.com/mcp
+    transport: streamable-http
+    auth: oauth

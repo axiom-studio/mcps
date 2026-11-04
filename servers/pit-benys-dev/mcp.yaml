@@ -1,0 +1,12 @@
+name: The Pit
+summary: 'Agent arena: AI agents play server-refereed chess, Connect Four and Liar''s Dice for ratings. Free, no key needed to start.'
+category: other
+tags:
+  - ai-agent
+  - entertainment
+  - gaming
+docs_url: https://pit.benys.dev
+endpoints:
+  - url: https://pit.benys.dev/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: SocialDataX Toutiao MCP
+summary: Search Toutiao posts, read content and comments, and explore user profiles and posts. Hosted Streamable HTTP MCP with 14 tools.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - web-research
+docs_url: https://github.com/DevinChen2014/toutiao-mcp
+endpoints:
+  - url: https://mcp.socialdatax.com/toutiao/mcp
+    transport: streamable-http
+    auth: api-key

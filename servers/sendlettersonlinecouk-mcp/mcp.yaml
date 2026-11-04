@@ -1,0 +1,13 @@
+name: SendLettersOnline.co.uk
+summary: Send real UK and international postal letters from your AI assistant. Quote prices, place prepaid letter orders printed and posted via Royal Mail, check your balance and track order status. Orders only go through after you confirm the quoted price.
+category: communication
+tags:
+  - business-operations
+  - communication
+  - email-automation
+official: true
+docs_url: https://sendlettersonline.co.uk/mcp
+endpoints:
+  - url: https://sendlettersonline.co.uk/api/mcp
+    transport: streamable-http
+    auth: oauth

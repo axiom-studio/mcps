@@ -1,0 +1,13 @@
+name: AI Deprecations
+summary: 'Free, sourced calendar of AI model shutdown and deprecation dates across OpenAI, Anthropic, Gemini, Vertex, Azure, Bedrock, Mistral and Cohere. Remote MCP server (streamable HTTP, no auth) with 7 tools: get_shutdown_date, list_upcoming, search_models, get_provider, get_changes_since, subscribe_alerts, unsubscribe. Agents can subscribe to webhook alerts when a model they use gets a retirement date.'
+category: development
+tags:
+  - ai-model
+  - calendar
+  - notifications
+  - research
+docs_url: https://aideprecations.neocities.org
+endpoints:
+  - url: https://aideprecations--89b1777ed29f11f1a12e1607ee4eb77e.web.val.run/mcp
+    transport: streamable-http
+    auth: none

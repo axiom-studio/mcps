@@ -1,0 +1,12 @@
+name: Stay Cost Brain
+summary: Tourist and hotel taxes for 71 places in 18 countries, from each tax authority's own pages, dated and worked out night by night for the dates and guests. Free, no API key, read-only.
+category: other
+tags:
+  - finance
+  - government
+  - research
+docs_url: https://staycostbrain.com/ai/
+endpoints:
+  - url: https://staycostbrain.com/mcp
+    transport: streamable-http
+    auth: none

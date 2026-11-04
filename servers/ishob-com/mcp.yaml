@@ -1,0 +1,14 @@
+name: ISHOB
+summary: 'Pay-per-call data tools for AI agents over remote MCP: open-licence research archive and research briefs, web extraction, screenshots, site audits, company snapshots, location and weather risk, plus crypto token and wallet risk reports, prices, swap routes and transaction simulation. Pay per call in USDC (x402), no signup or API key.'
+category: search
+tags:
+  - crypto
+  - data-analysis
+  - research
+  - web-research
+  - web-scraping
+docs_url: https://ishob.com
+endpoints:
+  - url: https://api.ishob.com/mcp
+    transport: streamable-http
+    auth: none

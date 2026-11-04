@@ -1,0 +1,13 @@
+name: Tenantback CAM Audit
+summary: 'Audit a landlord''s CAM reconciliation against the commercial lease: finds overcharges with clause citations and the math. No API key.'
+category: finance
+tags:
+  - compliance
+  - document
+  - finance
+  - real-estate
+docs_url: https://tenantback.com
+endpoints:
+  - url: https://tenantback.com/mcp
+    transport: streamable-http
+    auth: none

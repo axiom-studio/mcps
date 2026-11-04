@@ -1,0 +1,12 @@
+name: Israel Flower
+summary: Send flowers to anyone in Israel from abroad. Your AI assistant can browse hand-made bouquets from a Tel Aviv florist, check delivery cities and days (no Shabbat deliveries), get an exact quote in US dollars, and place the order. It returns a payment link for the person to pay, then tracks the order. Public remote server, no sign-in.
+category: other
+tags:
+  - ecommerce
+  - payment
+  - workflow-automation
+docs_url: https://israelflower.com
+endpoints:
+  - url: https://israelflower.com/mcp
+    transport: streamable-http
+    auth: none

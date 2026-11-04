@@ -1,0 +1,13 @@
+name: MySpec
+summary: Spec-driven development platform. Lets Cursor, Claude Code and other MCP clients read and write MySpec projects and spec bundles (constitution, requirements, solution, tasks). 31 tools. Requires a MySpec account; free plan available.
+category: development
+tags:
+  - development
+  - documentation
+  - project-management
+  - workflow-automation
+docs_url: https://myspec.dev/mcp-server/?utm_source=mcpservers-org&utm_medium=registry&utm_campaign=mcp-registries-2026q4&utm_content=listing
+endpoints:
+  - url: https://mcp.myspec.dev/mcp
+    transport: streamable-http
+    auth: api-key

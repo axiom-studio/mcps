@@ -1,0 +1,14 @@
+name: Worthbase
+summary: 'Household net worth and portfolio tracker your AI keeps: shares, crypto, metals, super, property, cash and loans, owned by people, trusts or companies. Priced daily, exact cost bases and gains, goals and history; every write is previewed and undoable. OAuth sign-in, no API key.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - identity
+  - real-estate
+  - security
+docs_url: https://worthbase.app/developers/
+endpoints:
+  - url: https://worthbase.app/mcp
+    transport: streamable-http
+    auth: oauth

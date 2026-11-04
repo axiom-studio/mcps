@@ -1,0 +1,12 @@
+name: DomainSpace
+summary: Register .si and other domains, check availability and manage DNS from your AI agent.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - devops
+  - workflow-automation
+docs_url: https://domainspace.si/agents
+endpoints:
+  - url: https://domainspace.si/mcp
+    transport: streamable-http
+    auth: api-key

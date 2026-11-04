@@ -1,0 +1,14 @@
+name: monday.com MCP
+summary: An open framework to connect AI agents into your monday.com work OS, giving them secure access to data and tools to take action.
+category: productivity
+tags:
+  - crm
+  - project-management
+  - task-management
+  - workflow-automation
+registry_name: com.monday/monday.com
+docs_url: https://github.com/mondaycom/mcp
+endpoints:
+  - url: https://mcp.monday.com/mcp
+    transport: streamable-http
+    auth: oauth

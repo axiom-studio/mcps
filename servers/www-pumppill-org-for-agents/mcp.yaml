@@ -1,0 +1,14 @@
+name: PumpPill — token safety and measured outcomes
+summary: Token safety reads, deployer history, whale balances and forward-measured outcomes for Robinhood Chain and Solana. Read-only, no key.
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - defi
+  - finance
+  - research
+docs_url: https://www.pumppill.org/for-agents
+endpoints:
+  - url: https://api.pumppill.org/mcp
+    transport: streamable-http
+    auth: none

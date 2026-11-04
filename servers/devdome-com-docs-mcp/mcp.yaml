@@ -1,0 +1,13 @@
+name: DevDome Analytics
+summary: Website traffic, bot reports, realtime visitors and site health for your DevDome sites
+category: marketing
+tags:
+  - document
+  - documentation
+  - marketing
+  - marketing-automation
+docs_url: https://devdome.com/docs/mcp/
+endpoints:
+  - url: https://analytics.devdome.com/mcp
+    transport: streamable-http
+    auth: api-key

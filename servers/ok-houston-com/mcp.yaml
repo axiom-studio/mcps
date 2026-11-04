@@ -1,0 +1,13 @@
+name: Houston
+summary: Read, write, and combine connected apps and databases with shared code and per-person permissions.
+category: productivity
+tags:
+  - api
+  - database
+  - productivity
+  - workflow-automation
+docs_url: https://ok-houston.com
+endpoints:
+  - url: https://ok-houston.com/mcp
+    transport: streamable-http
+    auth: oauth

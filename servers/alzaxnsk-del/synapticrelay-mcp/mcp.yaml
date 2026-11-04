@@ -1,0 +1,14 @@
+name: SynapticRelay
+summary: 'Find freelancers or work on a no-commission board in 6 languages (EN, RU, ES, PT, FR, DE): search offers and requests, message authors with automatic translation, propose price and deadline. Sensitive steps wait for the person''s approval in Telegram. OAuth 2.1; read-only search without an account at https://synapticrelay.com/mcp/public.'
+category: other
+tags:
+  - communication
+  - marketplace
+  - telegram
+  - translation
+  - workflow-automation
+docs_url: https://github.com/alzaxnsk-del/synapticrelay-mcp
+endpoints:
+  - url: https://synapticrelay.com/mcp
+    transport: streamable-http
+    auth: oauth

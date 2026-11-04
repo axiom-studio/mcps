@@ -1,0 +1,12 @@
+name: Trvlrr
+summary: 'Your travel journal in any AI assistant: trips taken and planned with their flights, stays, activities and expenses, lifetime travel stats (countries, cities, flights, distance) and photo search. Ask about a trip, add a booking by pasting it, or import a trip from anywhere. Remote Streamable HTTP with OAuth 2.1 (DCR + PKCE); free Trvlrr account.'
+category: other
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - productivity
+docs_url: https://trvlrr.app/features/ai-assistant
+endpoints:
+  - url: https://trvlrr.app/mcp
+    transport: streamable-http
+    auth: oauth

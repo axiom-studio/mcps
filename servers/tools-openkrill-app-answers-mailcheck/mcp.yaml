@@ -1,0 +1,12 @@
+name: Domain Mail Check
+summary: Check a domain's SPF, DKIM and DMARC, whether Gmail and Outlook accept its mail, its DNS records and its registration. Free, hosted, no API key.
+category: communication
+tags:
+  - communication
+  - email-automation
+  - security
+docs_url: https://tools.openkrill.app/answers/mailcheck
+endpoints:
+  - url: https://mailcheck.openkrill.app/mcp
+    transport: streamable-http
+    auth: none

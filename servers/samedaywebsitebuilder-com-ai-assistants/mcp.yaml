@@ -1,0 +1,13 @@
+name: Same Day Website Builder
+summary: Builds a free demo website for a trades business (plumbers, septic, electricians and more) right from chat. The owner pays only if they want to keep it.
+category: marketing
+tags:
+  - content-creation
+  - ecommerce
+  - marketing
+  - workflow-automation
+docs_url: https://samedaywebsitebuilder.com/ai-assistants
+endpoints:
+  - url: https://samedaywebsitebuilder.com/mcp
+    transport: streamable-http
+    auth: oauth

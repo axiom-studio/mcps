@@ -1,0 +1,14 @@
+name: Reach MCP
+summary: Operate a real LinkedIn account from your AI agent.
+category: marketing
+tags:
+  - ai-agent
+  - communication
+  - marketing
+  - social-media
+official: true
+docs_url: https://www.reachmcp.com
+endpoints:
+  - url: https://app.reachmcp.com/mcp
+    transport: streamable-http
+    auth: oauth

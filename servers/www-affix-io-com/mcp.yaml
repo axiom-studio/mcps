@@ -1,0 +1,13 @@
+name: AffixIO
+summary: AffixIO lets AI agents generate and verify zero-knowledge proofs with post-quantum ML-DSA-65 attestations, single-use proof IDs and agent trust checks, without exposing personal data. Hosted MCP with OAuth sign-in via AffixIO Studio.
+category: other
+tags:
+  - ai-agent
+  - crypto
+  - identity
+  - security
+docs_url: https://www.affix-io.com
+endpoints:
+  - url: https://www.affix-io.com/mcp/
+    transport: streamable-http
+    auth: oauth

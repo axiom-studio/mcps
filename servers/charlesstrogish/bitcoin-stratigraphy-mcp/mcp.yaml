@@ -1,0 +1,13 @@
+name: Bitcoin Stratigraphy MCP
+summary: An enterprise-grade, L402-gated AI Notary Hub and MCP data server vending thermodynamic Bitcoin telemetry and OpenTimestamps state anchoring.
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - finance
+official: true
+docs_url: https://github.com/CharlesStrogish/bitcoin-stratigraphy-mcp
+endpoints:
+  - url: https://bitcoin-stratigraphy-dashboard.replit.app/mcp
+    transport: streamable-http
+    auth: unknown

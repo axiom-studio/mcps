@@ -1,0 +1,13 @@
+name: SyncSignature Email Signatures
+summary: 'Manage your company''s email signatures from an AI assistant: add teammates, assign templates by group, control banner campaigns and check signature click analytics. Works with Google Workspace and Microsoft 365. Hosted, OAuth sign-in, no API key.'
+category: productivity
+tags:
+  - analytics
+  - business-operations
+  - email-automation
+  - productivity
+docs_url: https://github.com/SyncSignature/mcp
+endpoints:
+  - url: https://mcp.syncsignature.com/mcp
+    transport: streamable-http
+    auth: oauth

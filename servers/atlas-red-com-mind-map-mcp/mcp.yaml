@@ -1,0 +1,13 @@
+name: Atlas Red
+summary: 'Official remote MCP server for Atlas Red. Build, restructure and export real, editable mind maps from Claude, ChatGPT, Cursor or any MCP client: brainstorm, plan projects, organise notes and outlines. 27 tools, OAuth sign-in, free and never metered. Hosted (streamable HTTP) — connect at https://app.atlas-red.com/mcp'
+category: productivity
+tags:
+  - notes
+  - productivity
+  - project-management
+  - workflow-automation
+docs_url: https://atlas-red.com/mind-map-mcp
+endpoints:
+  - url: https://app.atlas-red.com/mcp
+    transport: streamable-http
+    auth: oauth

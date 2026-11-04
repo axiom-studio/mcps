@@ -1,0 +1,14 @@
+name: Spicy API
+summary: 'Uncensored image, image-to-video and chat generation for adult apps (18+). OpenAI-compatible REST API plus 15 MCP tools: model prices, cost estimates, generation with per-spend approval, jobs, usage, top-up links and a monthly spend limit. Prompts are screened before billing and sandbox keys bill nothing.'
+category: development
+tags:
+  - ai-model
+  - api
+  - content-creation
+  - media
+  - payment
+docs_url: https://www.spicyapi.com/docs
+endpoints:
+  - url: https://www.spicyapi.com/api/mcp
+    transport: streamable-http
+    auth: api-key

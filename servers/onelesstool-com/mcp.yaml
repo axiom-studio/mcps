@@ -1,0 +1,14 @@
+name: OneLessTool
+summary: 'Find software subscriptions you can drop using tools you already own, with vendor-verified prices. Remote MCP: https://onelesstool.com/api/mcp (Streamable HTTP, no auth, read-only). Tools: search_catalog, get_tool, find_alternatives, compare_solutions, find_workflows, get_workflow, recommend_stack, estimate_savings, get_pricing.'
+category: productivity
+tags:
+  - business-operations
+  - finance
+  - productivity
+  - research
+  - workflow-automation
+docs_url: https://onelesstool.com
+endpoints:
+  - url: https://onelesstool.com/api/mcp
+    transport: streamable-http
+    auth: none

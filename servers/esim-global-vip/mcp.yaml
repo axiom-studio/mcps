@@ -1,0 +1,12 @@
+name: eSIM-Global.VIP mobile data eSIM Catalog
+summary: 'Search prepaid travel eSIM data plans for 200+ countries — Data Pack, Unlimited Flex and Daily Pack — with live prices, full plan facts and a secure checkout link. Remote MCP server, no API key: https://esim-global.vip/esimshop/wp-json/esimglobal/mcp — tools: search_esim_plans, get_plan_details, start_checkout.'
+category: other
+tags:
+  - ecommerce
+  - marketplace
+  - payment
+docs_url: https://esim-global.vip/
+endpoints:
+  - url: https://esim-global.vip/esimshop/wp-json/esimglobal/mcp
+    transport: streamable-http
+    auth: none

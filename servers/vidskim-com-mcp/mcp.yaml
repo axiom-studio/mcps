@@ -1,0 +1,13 @@
+name: Vidskim YouTube MCP
+summary: 'Remote MCP server that lets Claude, ChatGPT, Claude Code and Cursor read YouTube videos: transcripts with clickable timestamps, chapters, search inside a video, YouTube search and a channel''s latest uploads. OAuth sign-in, no API keys. Free plan: 30 videos a month.'
+category: productivity
+tags:
+  - search
+  - video
+  - web-research
+  - youtube
+docs_url: https://vidskim.com/mcp
+endpoints:
+  - url: https://vidskim.com/api/mcp
+    transport: streamable-http
+    auth: unknown

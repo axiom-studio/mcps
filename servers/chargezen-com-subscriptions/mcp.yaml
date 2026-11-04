@@ -1,0 +1,12 @@
+name: Chargezen Subscriptions
+summary: Chargezen Subscriptions runs subscribe-and-save, prepaid, gift and build-a-box subscriptions for Shopify Advanced and Plus stores, with no commission or per-transaction fees.
+category: finance
+tags:
+  - ecommerce
+  - payment
+  - shopify
+docs_url: https://chargezen.com/subscriptions
+endpoints:
+  - url: https://mcp.chargezen.com/mcp/subscriptions
+    transport: streamable-http
+    auth: oauth

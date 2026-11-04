@@ -1,0 +1,13 @@
+name: SocialFaktory
+summary: Write, generate, schedule and publish a brand's social content, in its own voice, on every channel.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://www.socialfaktory.com/docs/mcp
+endpoints:
+  - url: https://www.socialfaktory.com/mcp
+    transport: streamable-http
+    auth: oauth

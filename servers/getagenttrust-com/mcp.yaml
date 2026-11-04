@@ -1,0 +1,12 @@
+name: AgentTrust (getagenttrust.com)
+summary: 'Check an AI agent endpoint before you call it: check_agent_trust takes an exact endpointUrl and returns a machine-readable trustDecision. Read-only, no API key, never contacts the endpoint.'
+category: development
+tags:
+  - ai-agent
+  - api
+  - security
+docs_url: https://getagenttrust.com
+endpoints:
+  - url: https://getagenttrust.com/api/mcp
+    transport: streamable-http
+    auth: none

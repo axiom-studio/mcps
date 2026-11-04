@@ -1,0 +1,12 @@
+name: 4ai – premium .ai domains
+summary: Search 254 premium .ai domains for sale, get free .ai value estimates and real .ai sales data. Read-only, no API key.
+category: search
+tags:
+  - marketplace
+  - search
+  - web-research
+docs_url: https://4ai.ai/for-ai-agents/
+endpoints:
+  - url: https://4ai.ai/mcp
+    transport: streamable-http
+    auth: none

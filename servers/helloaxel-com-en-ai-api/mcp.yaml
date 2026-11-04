@@ -1,0 +1,12 @@
+name: Axel flight prices
+summary: Live flight prices from Axel beside the airline's own Google Flights price. Read-only, no API key.
+category: search
+tags:
+  - api
+  - search
+  - trading
+docs_url: https://helloaxel.com/en/ai/api
+endpoints:
+  - url: https://helloaxel.com/mcp
+    transport: streamable-http
+    auth: none

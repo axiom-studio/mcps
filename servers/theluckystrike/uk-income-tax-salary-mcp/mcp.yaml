@@ -1,0 +1,12 @@
+name: UK Income Tax Salary MCP
+summary: 'UK income tax and take-home pay 2025/26 and 2026/27: Scottish bands, NI, student loans, pension.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - productivity
+docs_url: https://github.com/theluckystrike/uk-income-tax-salary-mcp
+endpoints:
+  - url: https://uk-income-tax-salary-mcp.lipmichal.workers.dev/mcp
+    transport: streamable-http
+    auth: none

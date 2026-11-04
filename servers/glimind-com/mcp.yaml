@@ -1,0 +1,14 @@
+name: Glimind
+summary: Live reliability, agent-readiness and safety data for every public MCP server. Check whether a tool works before calling it, find a working alternative when it doesn't, and audit your own server.
+category: development
+tags:
+  - ai-agent
+  - development
+  - monitoring
+  - observability-incident
+  - testing-qa
+docs_url: https://glimind.com
+endpoints:
+  - url: https://glimind.com/mcp
+    transport: streamable-http
+    auth: none

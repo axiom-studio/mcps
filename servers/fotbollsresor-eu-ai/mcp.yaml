@@ -1,0 +1,13 @@
+name: Fotbollsresor.eu
+summary: Find football matches and compare ticket-only and hotel offers for Swedish supporters, with starting prices in SEK and the date each offer was checked.
+category: search
+tags:
+  - ecommerce
+  - search
+  - sports
+  - trading
+docs_url: https://fotbollsresor.eu/ai/
+endpoints:
+  - url: https://fotbollsresor.eu/mcp.php
+    transport: streamable-http
+    auth: none

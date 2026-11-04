@@ -1,0 +1,14 @@
+name: Fotor MCP
+summary: Turn ideas into stunning visuals, videos, and audio with Fotor MCP. Generate and edit images, enhance product photos, create videos, and craft voiceovers and music—all through natural conversation with your AI assistant.
+category: design
+tags:
+  - audio
+  - content-creation
+  - design
+  - media
+  - video
+docs_url: https://www.fotor.com/mcp/
+endpoints:
+  - url: https://mcp.fotor.com/mcp
+    transport: streamable-http
+    auth: oauth

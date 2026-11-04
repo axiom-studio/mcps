@@ -1,0 +1,13 @@
+name: HitPay MCP Server
+summary: 'Official HitPay MCP: ask about sales, payouts and balances; create payment links and invoices.'
+category: finance
+tags:
+  - api
+  - ecommerce
+  - finance
+  - payment
+docs_url: https://github.com/hit-pay/cursor-plugin
+endpoints:
+  - url: https://mcp.hit-pay.com/
+    transport: streamable-http
+    auth: unknown

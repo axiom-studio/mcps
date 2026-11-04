@@ -1,0 +1,13 @@
+name: Codice Fiscale Subito
+summary: 'Free Italian codice fiscale API and MCP server: compute, decode, verify, and find the codice catastale of any comune valid on a date. No key.'
+category: finance
+tags:
+  - api
+  - finance
+  - government
+  - identity
+docs_url: https://codicefiscalesubito.it/api-codice-fiscale/
+endpoints:
+  - url: https://codicefiscalesubito.it/api/mcp
+    transport: streamable-http
+    auth: none

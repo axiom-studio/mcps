@@ -1,0 +1,13 @@
+name: Flow Music MCP Server by useapi.net
+summary: 'Google Flow Music (Lyria): songs, lyrics, extend, cover, remix, effects, stems. Third-party, paid ($15/month), runs on your own Flow Music account.'
+category: other
+tags:
+  - ai-model
+  - audio
+  - content-creation
+  - music
+docs_url: https://useapi.net/docs/api-flowmusic-v1/mcp
+endpoints:
+  - url: https://api.useapi.net/v1/flowmusic/mcp
+    transport: streamable-http
+    auth: api-key

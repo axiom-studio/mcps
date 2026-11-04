@@ -1,0 +1,12 @@
+name: OpenPrefs
+summary: Your budgets, favorite spots, usual orders and house rules, shared with every AI agent you use.
+category: memory
+tags:
+  - ai-agent
+  - memory
+  - productivity
+docs_url: https://openprefs.ai
+endpoints:
+  - url: https://mcp.openprefs.ai
+    transport: streamable-http
+    auth: oauth

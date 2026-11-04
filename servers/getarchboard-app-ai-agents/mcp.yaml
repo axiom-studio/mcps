@@ -1,0 +1,13 @@
+name: Archboard
+summary: Create, read and edit architecture, Kubernetes, C4, flowchart and ER diagrams on a live, shared canvas. Remote server with OAuth 2.1.
+category: design
+tags:
+  - collaboration
+  - design
+  - documentation
+  - kubernetes
+docs_url: https://getarchboard.app/ai-agents
+endpoints:
+  - url: https://getarchboard.app/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,18 @@
+name: Thumbtack
+summary: Thumbtack helps users plan home projects and connect with local professionals. Its connector brings repair, maintenance, improvement, recommendation, and hiring context into assistant workflows so users can move from project ideas to qualified pros.
+description: |-
+  Thumbtack helps users plan home projects and connect with local professionals. Its connector brings repair, maintenance, improvement, recommendation, and hiring context into assistant workflows so users can move from project ideas to qualified pros.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/thumbtack)
+category: other
+tags:
+  - other
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/thumbtack
+endpoints:
+  - url: https://mcp.thumbtack.com/mcp
+    transport: streamable-http
+    auth: oauth

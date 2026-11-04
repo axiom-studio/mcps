@@ -1,0 +1,13 @@
+name: KI-Radar24
+summary: Search 2,800+ AI tools, AI agencies and AI freelancers from the German directory KI-Radar24 (Germany, Austria, Switzerland). Find tools by task, free or EU-only, agencies by city, freelancers by skill and hourly rate, and compare entries. Read-only, no login, endpoint https://ki-radar24.de/mcp
+category: search
+tags:
+  - ai-model
+  - marketplace
+  - research
+  - search
+docs_url: https://ki-radar24.de/ki-assistenten/
+endpoints:
+  - url: https://ki-radar24.de/mcp
+    transport: streamable-http
+    auth: none

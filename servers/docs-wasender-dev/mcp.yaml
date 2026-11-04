@@ -1,0 +1,14 @@
+name: WASender (wasender.dev)
+summary: Connect WhatsApp to any AI agent, n8n, Zapier or your own backend. QR scan setup, signed webhooks, hosted MCP server. $4 per number per month.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - n8n
+  - whatsapp
+  - workflow-automation
+docs_url: https://docs.wasender.dev
+endpoints:
+  - url: https://mcp.wasender.dev/mcp
+    transport: streamable-http
+    auth: oauth

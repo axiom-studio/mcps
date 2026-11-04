@@ -1,0 +1,13 @@
+name: genMC
+summary: 'Minecraft studio in the browser: your agent builds Minecraft builds and paints skins live, block by block, and exports .schem (WorldEdit) or .litematic. Free, remote, no API key.'
+category: design
+tags:
+  - ai-agent
+  - browser
+  - design
+  - gaming
+docs_url: https://genmc.app
+endpoints:
+  - url: https://genmc.app/api/mcp
+    transport: streamable-http
+    auth: none

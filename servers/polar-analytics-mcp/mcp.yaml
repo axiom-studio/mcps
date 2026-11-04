@@ -1,0 +1,18 @@
+name: Polar Analytics
+summary: Polar is the trusted data layer for commerce brands. Connect your Shopify, Meta, Google, Klaviyo, and 45+ other data sources into a unified semantic layer with validated metrics, custom business rules, and cross-platform attribution. Connect your data, get answers on ROAS, CAC, top-performing SKUs, profit margins, and more, with answers grounded in consistent, reconciled data instead of raw API pulls. Polar eliminates the "different answer every time" problem by applying your business definitions, exclusions, and attribution logic to every query. Supports multi-store setups and works with major e-commerce integrations.
+description: |-
+  Polar Analytics brings ecommerce and business data into one analytics workspace. Its connector gives assistants connected metrics context for querying performance, analyzing revenue, and understanding multichannel business data.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/polar-analytics)
+category: marketing
+tags:
+  - marketing
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/polar-analytics
+endpoints:
+  - url: https://api.polaranalytics.com/mcp
+    transport: streamable-http
+    auth: oauth

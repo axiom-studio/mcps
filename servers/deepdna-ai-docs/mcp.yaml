@@ -1,0 +1,13 @@
+name: DeepDNA Pharmacogenomics
+summary: 'Pharmacogenomics for AI agents: cited drug–gene, gene and rsID lookups plus a medication screen.'
+category: other
+tags:
+  - bioinformatics
+  - healthcare
+  - knowledge-retrieval
+  - research
+docs_url: https://deepdna.ai/docs/#mcp
+endpoints:
+  - url: https://deepdna.ai/mcp
+    transport: streamable-http
+    auth: none

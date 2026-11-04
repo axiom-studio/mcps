@@ -1,0 +1,13 @@
+name: DocFig
+summary: Bank statement PDFs to checked transactions, plus a free offline check for transaction tables.
+category: finance
+tags:
+  - data-analysis
+  - document
+  - finance
+  - pdf
+docs_url: https://docfig.com/api#mcp
+endpoints:
+  - url: https://mcp.docfig.com/mcp
+    transport: streamable-http
+    auth: unknown

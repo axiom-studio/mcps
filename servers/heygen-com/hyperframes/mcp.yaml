@@ -1,0 +1,13 @@
+name: HyperFrames
+summary: Official HeyGen MCP for HyperFrames, the open-source HTML-to-video framework. Compose, edit and render video projects in your HeyGen account from Claude.ai, ChatGPT and other MCP chat clients.
+category: design
+tags:
+  - ai-agent
+  - content-creation
+  - design
+  - video
+docs_url: https://github.com/heygen-com/hyperframes
+endpoints:
+  - url: https://mcp.heygen.com/mcp/hyperframes/
+    transport: streamable-http
+    auth: oauth

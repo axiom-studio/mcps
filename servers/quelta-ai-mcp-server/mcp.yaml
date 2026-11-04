@@ -1,0 +1,13 @@
+name: Quelta Video Ad Analyzer
+summary: 'Score short vertical video ads by link: hook, story, offer, audience, picture and sound.'
+category: marketing
+tags:
+  - advertising
+  - data-analysis
+  - marketing
+  - video
+docs_url: https://quelta.ai/mcp-server/
+endpoints:
+  - url: https://quelta.ai/mcp
+    transport: streamable-http
+    auth: oauth

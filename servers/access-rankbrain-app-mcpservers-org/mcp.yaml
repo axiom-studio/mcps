@@ -1,0 +1,13 @@
+name: RankBrain AI
+summary: RankBrain AI quietly fixes your website so Google, ChatGPT and Gemini know exactly who you are and what you sell. It gives you the exact fix, applies it after you approve, and plugs into the AI tool you already use. Free for 3 days, then $5 a month.
+category: marketing
+tags:
+  - ai-agent
+  - marketing
+  - seo
+  - web-research
+docs_url: https://access.rankbrain.app/mcpservers-org
+endpoints:
+  - url: https://rankbrain.app/api/mcp
+    transport: streamable-http
+    auth: api-key

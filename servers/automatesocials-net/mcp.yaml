@@ -1,0 +1,13 @@
+name: AutomateSocials MCP
+summary: 'Remote MCP server for AutomateSocials: let AI assistants draft, schedule and publish posts to your connected social accounts (Facebook, Instagram, X, LinkedIn, TikTok), generate post images and videos, and read analytics. Authenticate with an AutomateSocials API key.'
+category: marketing
+tags:
+  - analytics
+  - content-creation
+  - marketing-automation
+  - social-media
+docs_url: https://automatesocials.net
+endpoints:
+  - url: https://automatesocials.net/mcp
+    transport: streamable-http
+    auth: api-key

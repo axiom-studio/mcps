@@ -1,0 +1,13 @@
+name: TwexAPI
+summary: Search public X (Twitter) posts and read profiles, timelines, followers, trends and X Articles.
+category: search
+tags:
+  - search
+  - social-media
+  - web-research
+  - x-twitter
+docs_url: https://twexapi.io/twitter-mcp-server
+endpoints:
+  - url: https://api.twexapi.io/mcp
+    transport: streamable-http
+    auth: api-key

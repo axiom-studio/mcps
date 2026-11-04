@@ -1,0 +1,13 @@
+name: Approval Link
+summary: Manage client quote and artwork proof approvals, versioned replies and work progress; account and OAuth required, with Free offering 5 customer requests/month for 1 seat.
+category: productivity
+tags:
+  - business-operations
+  - productivity
+  - project-management
+  - workflow-automation
+docs_url: https://kurodalab.com/en/approval-link/
+endpoints:
+  - url: https://approval-link-account.kurodalab.com/mcp
+    transport: streamable-http
+    auth: oauth

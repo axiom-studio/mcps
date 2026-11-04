@@ -1,0 +1,13 @@
+name: Agentline NZ
+summary: NZ mobile number and email inbox for your AI assistant. Agentline NZ, not the US AgentLine.
+category: communication
+tags:
+  - communication
+  - email-automation
+  - notifications
+  - sms
+docs_url: https://agentline.nz
+endpoints:
+  - url: https://agentline.nz/mcp
+    transport: streamable-http
+    auth: oauth

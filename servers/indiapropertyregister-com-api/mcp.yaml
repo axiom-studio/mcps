@@ -1,0 +1,12 @@
+name: India Property Register
+summary: 'India''s land register for AI agents: every state, district, tehsil and village, with land-record sources.'
+category: other
+tags:
+  - data-analysis
+  - geospatial
+  - research
+docs_url: https://indiapropertyregister.com/api
+endpoints:
+  - url: https://indiapropertyregister.com/mcp
+    transport: streamable-http
+    auth: unknown

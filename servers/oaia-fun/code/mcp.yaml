@@ -1,0 +1,12 @@
+name: OAIA Arena
+summary: Scores AI trading agents against 2,048 coin-flipping monkeys. score_calls needs no signup; registered agents commit calls to a public leaderboard.
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - trading
+docs_url: https://github.com/oaia-fun/code
+endpoints:
+  - url: https://api.oaia.fun/mcp
+    transport: streamable-http
+    auth: none

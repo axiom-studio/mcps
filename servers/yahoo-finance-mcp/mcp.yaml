@@ -1,0 +1,23 @@
+name: Yahoo Finance
+summary: Community-hosted Yahoo Finance data gateway operated at gateway.mcpservers.org. Not an official Yahoo MCP server.
+description: |-
+  # Yahoo Finance (MCP Servers gateway)
+
+  Community-hosted Yahoo Finance data gateway operated at gateway.mcpservers.org. Not an official Yahoo MCP server.
+
+  ## Connection
+
+  https://gateway.mcpservers.org/yahoo-finance/mcp
+
+  MCP Servers gateway homepage explicitly publishes this route with no authentication. This is a community gateway, NOT an official Yahoo service. Upstream provenance is not asserted.
+
+  [Publisher or official connector listing](https://gateway.mcpservers.org/)
+category: finance
+tags:
+  - finance
+  - remote-mcp
+docs_url: https://gateway.mcpservers.org/
+endpoints:
+  - url: https://gateway.mcpservers.org/yahoo-finance/mcp
+    transport: streamable-http
+    auth: none

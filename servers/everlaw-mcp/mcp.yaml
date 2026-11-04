@@ -1,0 +1,24 @@
+name: Everlaw
+summary: Everlaw supports legal teams working with litigation databases, discovery records, and case materials. Its connector brings Everlaw search and exploration context into assistant workflows for reviewing evidence, finding documents, and understanding case data.
+description: |-
+  # Everlaw
+
+  Everlaw supports legal teams working with litigation databases, discovery records, and case materials. Its connector brings Everlaw search and exploration context into assistant workflows for reviewing evidence, finding documents, and understanding case data.
+
+  ## Connection
+
+  https://api.everlaw.com/v1/mcp
+
+  Official connector listing establishes endpoint and identity. 401 challenge advertises app.everlaw.com metadata whose resource exactly matches api.everlaw.com/v1/mcp.
+
+  [Official documentation](https://support.everlaw.com/hc/en-us/articles/50274473477915)
+category: search
+tags:
+  - remote-mcp
+  - search
+official: true
+docs_url: https://support.everlaw.com/hc/en-us/articles/50274473477915
+endpoints:
+  - url: https://api.everlaw.com/v1/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: mylabelmaker - Free Label Maker
+summary: Make printable labels from chat (text, barcodes, QR codes, Zebra ZPL, DYMO/Brother/Rollo/Avery templates, CSV batches) and get back a preview plus an editor link. Free, no signup, no auth.
+category: productivity
+tags:
+  - document
+  - file-conversion
+  - productivity
+  - workflow-automation
+docs_url: https://mylabelmaker.com/mcp
+endpoints:
+  - url: https://mylabelmaker.com/mcp
+    transport: streamable-http
+    auth: none

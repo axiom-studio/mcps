@@ -1,0 +1,12 @@
+name: YourVisa Travel Visa MCP
+summary: Read-only remote MCP server that lets AI assistants look up visa, eVisa, ETA and ESTA requirements and fees by country and get official application links. API key required.
+category: other
+tags:
+  - documentation
+  - government
+  - web-research
+docs_url: https://www.yourvisa.ai/resources/api-documentation
+endpoints:
+  - url: https://mcp.yourvisa.ai/api/mcp
+    transport: streamable-http
+    auth: api-key

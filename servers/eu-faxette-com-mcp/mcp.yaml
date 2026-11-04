@@ -1,0 +1,12 @@
+name: Faxette EU
+summary: Send faxes to the EU, the UK, Switzerland, Norway, Iceland, Liechtenstein, Monaco, Montenegro, Ukraine and the Isle of Man from any MCP client. €5 + VAT for up to 100 pages, charged only once the fax is delivered. No account needed.
+category: productivity
+tags:
+  - communication
+  - document
+  - productivity
+docs_url: https://eu.faxette.com/mcp
+endpoints:
+  - url: https://mcp.eu.faxette.com/mcp
+    transport: streamable-http
+    auth: oauth

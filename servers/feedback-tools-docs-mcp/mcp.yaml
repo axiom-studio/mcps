@@ -1,0 +1,13 @@
+name: feedback.tools
+summary: 'Customer feedback for your AI assistant: CSAT, NPS and CES scores, response search, AI themes.'
+category: productivity
+tags:
+  - ai-agent
+  - analytics
+  - customer-ops
+  - data-analysis
+docs_url: https://feedback.tools/docs/mcp
+endpoints:
+  - url: https://feedback.tools/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Feeling Search
+summary: 把一句口语描述拆成 762 个感受词与 598 种视觉风格：商业级美术对照表、美术风格大全与 AI 绘画提示词库。
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - icon-generation
+docs_url: https://github.com/xixi048/feeling-search-mcp
+endpoints:
+  - url: https://xiximm.cloud/mcp
+    transport: streamable-http
+    auth: none

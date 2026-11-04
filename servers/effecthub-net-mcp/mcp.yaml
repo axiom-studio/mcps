@@ -1,0 +1,13 @@
+name: EffectHub Catalog MCP
+summary: Search 3,300+ AI tools by name, category or task, read a tool's Effect score, dated pricing and alternatives, and compare two tools side by side. Remote Streamable HTTP server at https://effecthub.net/api/mcp, no API key.
+category: search
+tags:
+  - ai-model
+  - marketplace
+  - research
+  - search
+docs_url: https://effecthub.net/mcp
+endpoints:
+  - url: https://effecthub.net/api/mcp
+    transport: streamable-http
+    auth: none

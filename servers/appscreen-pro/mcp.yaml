@@ -1,0 +1,13 @@
+name: AppScreen
+summary: 'Lets your AI agent design App Store and Google Play screenshots in the AppScreen editor tab you have open: add slides, phones, tablets, text, logos and your app screenshots across one panorama, style backgrounds, gradients and patterns, export a store-ready PNG per slide, manage cloud works and versions, and create share links. Needs AppScreen Pro.'
+category: design
+tags:
+  - content-creation
+  - design
+  - mobile
+  - productivity
+docs_url: https://appscreen.pro
+endpoints:
+  - url: https://appscreen.pro/mcp
+    transport: streamable-http
+    auth: oauth

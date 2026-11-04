@@ -1,0 +1,12 @@
+name: Rollcage
+summary: Check shell commands, files and URLs against Rollcage’s agent guard rules. Free, no sign-in.
+category: productivity
+tags:
+  - development
+  - devops
+  - security
+docs_url: https://rollcage.app
+endpoints:
+  - url: https://rollcage.app/mcp
+    transport: streamable-http
+    auth: none

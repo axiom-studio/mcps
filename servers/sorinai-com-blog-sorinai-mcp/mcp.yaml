@@ -1,0 +1,13 @@
+name: Sorinai
+summary: 'Lets Claude, ChatGPT, Cursor and other MCP clients search your Sorinai meetings, read notes and transcripts, and pull the filled-in answers from your meeting templates. Remote server: https://mcp.sorinai.com/mcp (OAuth sign-in with your Sorinai account).'
+category: productivity
+tags:
+  - knowledge-retrieval
+  - meeting-notes
+  - notes
+  - productivity
+docs_url: https://sorinai.com/blog/sorinai-mcp
+endpoints:
+  - url: https://mcp.sorinai.com/mcp
+    transport: streamable-http
+    auth: oauth

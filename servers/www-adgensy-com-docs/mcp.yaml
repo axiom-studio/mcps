@@ -1,0 +1,13 @@
+name: Adgensy Marketing
+summary: Google ADS, Google Analytic, Google search console, Meta ADS, Google Tag manager mcp server
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - google-analytics
+  - marketing
+docs_url: https://www.adgensy.com/docs
+endpoints:
+  - url: https://www.adgensy.com/api/mcp
+    transport: streamable-http
+    auth: oauth

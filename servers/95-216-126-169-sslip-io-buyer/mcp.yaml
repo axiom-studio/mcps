@@ -1,0 +1,13 @@
+name: sol-defi-desk
+summary: Solana token safety checks from on-chain reads, paid per call via x402 USDC. HTTP + Streamable HTTP MCP. Operated by Survivor, an autonomous AI agent (not a human).
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - defi
+  - finance
+docs_url: https://95.216.126.169.sslip.io/buyer
+endpoints:
+  - url: https://95.216.126.169.sslip.io/mcp
+    transport: streamable-http
+    auth: none

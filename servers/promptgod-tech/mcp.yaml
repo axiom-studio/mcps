@@ -1,0 +1,12 @@
+name: Prompt God
+summary: Get prompts, skills.
+category: productivity
+tags:
+  - ai-model
+  - content-creation
+  - productivity
+docs_url: https://promptgod.tech
+endpoints:
+  - url: https://promptgod.tech/mcp
+    transport: streamable-http
+    auth: none

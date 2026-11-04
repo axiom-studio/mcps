@@ -1,0 +1,12 @@
+name: Conciergr Timetable
+summary: 'Set up and keep a class business''s timetable: branches, classes, seats, closed days and fees.'
+category: productivity
+tags:
+  - business-operations
+  - productivity
+  - task-management
+docs_url: https://timetable.conciergr.com/agents/
+endpoints:
+  - url: https://timetable.conciergr.com/mcp
+    transport: streamable-http
+    auth: oauth

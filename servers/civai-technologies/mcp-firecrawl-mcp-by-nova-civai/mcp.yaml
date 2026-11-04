@@ -1,0 +1,13 @@
+name: Firecrawl by Nova (CIVAI)
+summary: Scrape, crawl, and search the web via Firecrawl’s official hosted MCP.
+category: search
+tags:
+  - firecrawl
+  - search
+  - web-research
+  - web-scraping
+docs_url: https://github.com/civai-technologies/mcp-firecrawl-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-firecrawl
+    transport: streamable-http
+    auth: api-key

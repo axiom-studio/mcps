@@ -1,0 +1,13 @@
+name: Launchscene
+summary: 'Search 240+ reviewed tech launch videos scene by scene: measured timing, on-screen text, camera and sound, plus Remotion and HyperFrames starters for your own launch video.'
+category: design
+tags:
+  - content-creation
+  - design
+  - search
+  - video
+docs_url: https://launchscene.app/mcp
+endpoints:
+  - url: https://launchscene.app/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Invompt
+summary: Turn AI-host work into invoices you review before send. Continue as guest or OAuth via hosted MCP.
+category: finance
+tags:
+  - finance
+  - payment
+  - workflow-automation
+docs_url: https://www.invompt.com
+endpoints:
+  - url: https://mcp.invompt.com/mcp
+    transport: streamable-http
+    auth: oauth

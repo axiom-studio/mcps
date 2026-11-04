@@ -1,0 +1,19 @@
+name: Zoom
+summary: Zoom is a video communications platform for meetings, webinars, and team chat. Its remote MCP server lets assistants search meetings with natural language, retrieve recordings and AI summaries, and work with schedule context from a Zoom account.
+description: |-
+  Zoom is a video communications platform for meetings, webinars, and team chat. Its remote MCP server lets assistants search meetings with natural language, retrieve recordings and AI summaries, and work with schedule context from a Zoom account.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.zoom%2Fzoom-workspace/versions/latest)
+category: productivity
+tags:
+  - productivity
+  - remote-mcp
+official: true
+registry_name: io.github.zoom/zoom-workspace
+docs_url: https://registry.modelcontextprotocol.io/v0.1/servers/io.github.zoom%2Fzoom-workspace/versions/latest
+endpoints:
+  - url: https://mcp.zoom.us/mcp/zoom/streamable
+    transport: streamable-http
+    auth: oauth

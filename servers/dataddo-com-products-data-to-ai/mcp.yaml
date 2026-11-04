@@ -1,0 +1,13 @@
+name: Dataddo Data to AI
+summary: Securely connect AI assistants to your business data from 400+ sources, get fewer confidently wrong answers.
+category: database
+tags:
+  - ai-agent
+  - business-operations
+  - data-analysis
+  - database
+docs_url: https://dataddo.com/products/data-to-ai/?utm_source=mcpservers&utm_medium=mcp-directory
+endpoints:
+  - url: https://headless.dataddo.com/mcp-data
+    transport: streamable-http
+    auth: oauth

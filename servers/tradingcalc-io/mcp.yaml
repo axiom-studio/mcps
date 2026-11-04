@@ -1,0 +1,14 @@
+name: TradingCalc MCP
+summary: Deterministic crypto futures, on-chain risk, and prediction-market math. 31 tools. Not AI estimates.
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - defi
+  - finance
+  - trading
+docs_url: https://tradingcalc.io
+endpoints:
+  - url: https://tradingcalc.io/api/mcp
+    transport: streamable-http
+    auth: unknown

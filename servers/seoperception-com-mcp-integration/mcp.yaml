@@ -1,0 +1,12 @@
+name: SEO Perception
+summary: Search Console, crawl and SEO to-dos, read-only inside Cursor and Claude.
+category: marketing
+tags:
+  - analytics
+  - seo
+  - web-research
+docs_url: https://seoperception.com/mcp-integration
+endpoints:
+  - url: https://seoperception.com/mcp
+    transport: streamable-http
+    auth: oauth

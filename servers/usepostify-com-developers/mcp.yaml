@@ -1,0 +1,14 @@
+name: Postify MCP
+summary: Draft, schedule and publish social media posts to your connected channels, and read post analytics, from your Postify calendar. Remote server with OAuth sign-in.
+category: marketing
+tags:
+  - analytics
+  - content-creation
+  - marketing-automation
+  - social-media
+  - workflow-automation
+docs_url: https://usepostify.com/developers
+endpoints:
+  - url: https://app.usepostify.com/api/mcp
+    transport: streamable-http
+    auth: oauth

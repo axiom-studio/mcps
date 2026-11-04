@@ -1,0 +1,13 @@
+name: TradeGraph
+summary: 'Connect TradeGraph to Claude, ChatGPT, Cursor or any MCP client and plan exports in plain words: markets, buyers, follow-ups, channels and shelf prices.'
+category: marketing
+tags:
+  - business-operations
+  - marketing
+  - sales
+  - workflow-automation
+docs_url: https://tradegraph.rinda.ai
+endpoints:
+  - url: https://tradegraph.rinda.ai/mcp
+    transport: streamable-http
+    auth: none

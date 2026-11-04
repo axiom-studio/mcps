@@ -1,0 +1,13 @@
+name: Seb Labs
+summary: 'Typed AI decisions for agents: classify, route, screen evidence, score and batch-label text.'
+category: development
+tags:
+  - ai-agent
+  - ai-model
+  - data-analysis
+  - workflow-automation
+docs_url: https://seblabs.dev/docs#agent-plugin
+endpoints:
+  - url: https://mcp.seblabs.dev/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: LiteLambda MCP
+summary: Run cron jobs, without the server
+category: development
+tags:
+  - cloud-infrastructure
+  - devops
+  - serverless
+  - workflow-automation
+docs_url: https://litelambda.in/docs/mcp/
+endpoints:
+  - url: https://mcp.litelambda.in/mcp
+    transport: streamable-http
+    auth: api-key

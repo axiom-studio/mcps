@@ -1,0 +1,13 @@
+name: LLM Benchmark
+summary: LLM Benchmark ranks LLMs on public LLM benchmarks for coding, agents, reasoning and math, with API prices and cost per solved task. Updated daily.
+category: development
+tags:
+  - ai-model
+  - analytics
+  - data-analysis
+  - llm
+docs_url: https://llmbenchmark.ai
+endpoints:
+  - url: https://api.llmbenchmark.ai/mcp
+    transport: streamable-http
+    auth: unknown

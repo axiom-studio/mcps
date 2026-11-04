@@ -1,0 +1,11 @@
+name: Glacier Planner — Free Canadian Retirement Calculator
+summary: Free Canadian retirement projections for one person or a couple, with CPP/QPP, OAS and tax. No account or payment for basic calculations.
+category: finance
+tags:
+  - api
+  - finance
+docs_url: https://planner.glacierfinancial.ca/developers
+endpoints:
+  - url: https://planner.glacierfinancial.ca/calculate/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,14 @@
+name: Xunbao (出海寻宝社)
+summary: Chinese-language SEO research workspace and coach. Connect Codex, Claude Code, Grok and Meta Muse via OAuth to save research notes, decisions and website plans. Free core workspace.
+category: marketing
+tags:
+  - ai-agent
+  - marketing
+  - notes
+  - research
+  - seo
+docs_url: https://xunbao.buzz/
+endpoints:
+  - url: https://xunbao.buzz/mcp
+    transport: streamable-http
+    auth: oauth

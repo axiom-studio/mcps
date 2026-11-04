@@ -1,0 +1,13 @@
+name: ConnectMachine
+summary: Your contacts and digital business cards in any AI assistant. Find people by how you remember them (company, event, notes), save new contacts from a conversation, merge duplicates, manage cards, and draft follow-ups. Remote server with OAuth sign-in to your ConnectMachine account.
+category: productivity
+tags:
+  - communication
+  - crm
+  - email-automation
+  - productivity
+docs_url: https://www.connectmachine.ai/docs/mcp/
+endpoints:
+  - url: https://mcp.connectmachine.ai/mcp
+    transport: streamable-http
+    auth: oauth

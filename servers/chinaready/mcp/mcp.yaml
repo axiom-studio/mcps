@@ -1,0 +1,13 @@
+name: Chinaready MCP
+summary: Search China market-entry guides (ICP licensing, app stores, China cloud regions) with source-URL citations; topic catalog and full-guide Markdown retrieval.
+category: search
+tags:
+  - document
+  - knowledge-retrieval
+  - research
+  - web-research
+docs_url: https://github.com/chinaready/mcp
+endpoints:
+  - url: https://mcp.chinaready.co/mcp
+    transport: streamable-http
+    auth: none

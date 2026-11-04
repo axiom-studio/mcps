@@ -1,0 +1,14 @@
+name: Veterical Vet Clinic
+summary: See your vet clinic's free slots, vets, service prices, payments and how busy each day is.
+category: productivity
+tags:
+  - business-operations
+  - calendar
+  - healthcare
+  - payment
+  - productivity
+docs_url: https://www.veterical.com/developers/#mcp
+endpoints:
+  - url: https://mcp.veterical.com/mcp
+    transport: streamable-http
+    auth: oauth

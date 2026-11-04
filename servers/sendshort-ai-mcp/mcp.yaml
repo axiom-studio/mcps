@@ -1,0 +1,13 @@
+name: SendShort
+summary: Turn long videos (YouTube, Twitch, Kick or a direct link) into captioned shorts and music videos, then schedule them to TikTok and YouTube, from your AI assistant. Hosted server with OAuth sign-in; requires a SendShort Professional or Business plan.
+category: marketing
+tags:
+  - content-creation
+  - marketing-automation
+  - social-media
+  - video
+docs_url: https://sendshort.ai/mcp
+endpoints:
+  - url: https://app.sendshort.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

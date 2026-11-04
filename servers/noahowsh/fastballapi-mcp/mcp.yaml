@@ -1,0 +1,12 @@
+name: FastballAPI
+summary: 'MLB since 2015 plus college: pitches, plate appearances, box scores, odds by book. REST and MCP.'
+category: other
+tags:
+  - api
+  - data-analysis
+  - sports
+docs_url: https://github.com/noahowsh/fastballapi-mcp
+endpoints:
+  - url: https://mcp.fastballapi.com/mcp
+    transport: streamable-http
+    auth: api-key

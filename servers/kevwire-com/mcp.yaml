@@ -1,0 +1,13 @@
+name: KEVWire
+summary: Read-only, no-key MCP server for exploited vulnerabilities (CISA KEV), critical CVEs, breaches and AI security incidents. Search records, look up any CVE with EPSS, list recent exploited issues by technology, every claim linked to a primary source.
+category: search
+tags:
+  - compliance
+  - search
+  - security
+  - threat-intelligence
+docs_url: https://kevwire.com/
+endpoints:
+  - url: https://kevwire.com/mcp
+    transport: streamable-http
+    auth: none

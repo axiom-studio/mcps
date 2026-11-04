@@ -1,0 +1,12 @@
+name: LedgerLink (QuickBooks Online for firms)
+summary: 'Hosted QuickBooks Online MCP server for bookkeeping and accounting firms. One connector reaches every client company in Claude or ChatGPT, with per-employee access, a preview-and-approve step before anything posts, and a full activity log. 38 tools: queries, reports, bills, invoices, payments, journal entries and more.'
+category: finance
+tags:
+  - business-operations
+  - finance
+  - workflow-automation
+docs_url: https://ledgerlinkmcp.com/quickbooks-mcp-server
+endpoints:
+  - url: https://ledgerlinkmcp.com/mcp
+    transport: streamable-http
+    auth: oauth

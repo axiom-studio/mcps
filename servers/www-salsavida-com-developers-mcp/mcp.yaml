@@ -1,0 +1,12 @@
+name: Salsa Vida
+summary: Find Salsa and Bachata events, locations, event details, and destination guides worldwide with a rolling year of scheduled dates and canonical source links.
+category: search
+tags:
+  - entertainment
+  - media
+  - search
+docs_url: https://www.salsavida.com/developers/mcp/
+endpoints:
+  - url: https://mcp.salsavida.com/mcp
+    transport: streamable-http
+    auth: none

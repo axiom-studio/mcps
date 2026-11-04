@@ -1,0 +1,14 @@
+name: Sickle
+summary: 'Remote MCP server that gives Claude, Cursor or Codex every mailbox you own: Gmail, Outlook, iCloud, Fastmail, any IMAP. Scoped OAuth, approved sends.'
+category: communication
+tags:
+  - communication
+  - email-automation
+  - gmail
+  - outlook
+  - productivity
+docs_url: https://sickle.app/mcp?utm_source=mcpservers&utm_medium=listing
+endpoints:
+  - url: https://mcp.sickle.app
+    transport: streamable-http
+    auth: oauth

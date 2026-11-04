@@ -1,0 +1,13 @@
+name: Kema Invoice
+summary: 'Compliant e-invoicing (Factur-X, EN 16931) that AI agents operate over MCP: create, issue, send and track invoices, quotes and retainers in  │ │                           │ plain language. Remote server, OAuth 2.1, e-invoices transmitted through an accredited platform.'
+category: finance
+tags:
+  - business-operations
+  - ecommerce
+  - finance
+  - workflow-automation
+docs_url: https://github.com/Kema-Studio/kema-invoice-mcp
+endpoints:
+  - url: https://mcp.kema-studio.com/api/mcp
+    transport: streamable-http
+    auth: oauth

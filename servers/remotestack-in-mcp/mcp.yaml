@@ -1,0 +1,10 @@
+name: RemoteStack
+summary: Search 50,000 live remote jobs, match your resume, get a tailored resume and cover letter.
+category: search
+tags:
+  - search
+docs_url: https://remotestack.in/mcp
+endpoints:
+  - url: https://mcp.remotestack.in/mcp
+    transport: streamable-http
+    auth: unknown

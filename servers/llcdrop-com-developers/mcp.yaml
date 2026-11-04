@@ -1,0 +1,13 @@
+name: LLCDrop
+summary: 'Read-only Florida business filings and owner records over MCP: search LLCs and corporations, owner pages, new filings by county. Paid plans, API key required. Independent, not affiliated with the State of Florida.'
+category: search
+tags:
+  - business-operations
+  - finance
+  - government
+  - search
+docs_url: https://llcdrop.com/developers#mcp
+endpoints:
+  - url: https://api.llcdrop.com/mcp
+    transport: streamable-http
+    auth: api-key

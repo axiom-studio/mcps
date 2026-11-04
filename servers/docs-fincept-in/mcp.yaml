@@ -1,0 +1,13 @@
+name: Fincept MCP
+summary: Fincept Terminal’s markets, research, analytics and statistics as tools for your coding agent.
+category: finance
+tags:
+  - ai-agent
+  - data-analysis
+  - finance
+  - research
+docs_url: https://docs.fincept.in
+endpoints:
+  - url: https://enterprise.fincept.in/mcp
+    transport: streamable-http
+    auth: oauth

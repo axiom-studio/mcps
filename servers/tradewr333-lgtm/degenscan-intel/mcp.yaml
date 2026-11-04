@@ -1,0 +1,13 @@
+name: Degenscan Intel
+summary: 'Pay-per-call market data for AI agents: Hyperliquid funding, liquidations, smart money, options, token risk, gas, LLM prices. x402 USDC, from $0.001.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - payment
+  - trading
+docs_url: https://github.com/tradewr333-lgtm/degenscan-intel
+endpoints:
+  - url: https://intel.degenscan.io/mcp
+    transport: streamable-http
+    auth: none

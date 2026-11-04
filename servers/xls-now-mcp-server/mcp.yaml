@@ -1,0 +1,12 @@
+name: XLS.now MCP Server
+summary: Convert legacy Excel XLS spreadsheets to XLSX, CSV, PDF, JPG, HTML and ODS, or create XLS files from supported formats.
+category: productivity
+tags:
+  - file-conversion
+  - productivity
+  - spreadsheet
+docs_url: https://xls.now/mcp-server
+endpoints:
+  - url: https://xls.now/mcp
+    transport: streamable-http
+    auth: api-key

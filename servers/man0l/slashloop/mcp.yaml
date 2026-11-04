@@ -1,0 +1,12 @@
+name: Slashloop MCP
+summary: 'Remote MCP server (streamable HTTP, OAuth) for Slashloop free TikTok and Instagram creator tools. Install: claude mcp add --transport http slashloop https://mcp.slashloop.dev/mcp'
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+docs_url: https://github.com/man0l/slashloop
+endpoints:
+  - url: https://mcp.slashloop.dev/mcp
+    transport: streamable-http
+    auth: oauth

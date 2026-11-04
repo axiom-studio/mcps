@@ -1,0 +1,14 @@
+name: Paxaver MCP
+summary: Paxaver brings lunch ordering, fundraising, events, communication, and payments together so schools and families can spend less time piecing systems together.
+category: productivity
+tags:
+  - business-operations
+  - communication
+  - payment
+  - productivity
+  - workflow-automation
+docs_url: https://paxaver.com/
+endpoints:
+  - url: https://mcp.paxaver.com/mcp
+    transport: streamable-http
+    auth: oauth

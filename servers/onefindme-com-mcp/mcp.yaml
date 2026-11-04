@@ -1,0 +1,12 @@
+name: OneFindMe
+summary: Search AliExpress in any language and get real listings with price, rating, orders and a link.
+category: search
+tags:
+  - ecommerce
+  - search
+  - web-scraping
+docs_url: https://onefindme.com/mcp
+endpoints:
+  - url: https://onefindme.com/mcp
+    transport: streamable-http
+    auth: none

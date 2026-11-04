@@ -1,0 +1,13 @@
+name: PedalBro
+summary: Guitar pedal specs, new and used prices, 90-day price history, review scores, pedalboard checks and buying guides. Read-only, no account needed.
+category: other
+tags:
+  - data-analysis
+  - ecommerce
+  - marketplace
+  - music
+docs_url: https://pedalbro.com/mcp
+endpoints:
+  - url: https://api.pedalbro.com/mcp
+    transport: streamable-http
+    auth: none

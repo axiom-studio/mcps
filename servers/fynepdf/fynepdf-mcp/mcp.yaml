@@ -1,0 +1,13 @@
+name: FynePDF
+summary: 'PDF tools for agents: compress, merge, split, convert, OCR, redact, sign and create PDFs, and ask questions about them. Remote server with OAuth sign-in or an API key.'
+category: productivity
+tags:
+  - document
+  - file-conversion
+  - pdf
+  - productivity
+docs_url: https://github.com/fynepdf/fynepdf-mcp
+endpoints:
+  - url: https://api.fynepdf.com/mcp
+    transport: streamable-http
+    auth: oauth

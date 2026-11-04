@@ -1,0 +1,13 @@
+name: Bibooks
+summary: 'A free, read-only library of bilingual audiobooks for language learners: search by language and CEFR level, read parallel text sentence by sentence, and get read-along audio links. No auth, Streamable HTTP at https://bibooks.org/mcp.'
+category: other
+tags:
+  - audio
+  - education
+  - search
+  - translation
+docs_url: https://github.com/greysonbmiller/bibooks-mcp
+endpoints:
+  - url: https://bibooks.org/mcp
+    transport: streamable-http
+    auth: none

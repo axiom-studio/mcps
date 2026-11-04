@@ -1,0 +1,13 @@
+name: Digital Garden by Alicia — Notes
+summary: Read-only MCP tools to search and cite Alicia’s English and Chinese notes on Houdini, three.js/WebGPU, glTF, OpenUSD and AI workflows.
+category: memory
+tags:
+  - documentation
+  - knowledge-retrieval
+  - notes
+  - web-research
+docs_url: https://digitalgarden.si/agents/
+endpoints:
+  - url: https://mcp.digitalgarden.si/mcp
+    transport: streamable-http
+    auth: none

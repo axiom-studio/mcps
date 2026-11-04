@@ -1,0 +1,13 @@
+name: khive
+summary: A hosted MCP server that gives your coding agent a memory and a knowledge graph that survive the session, shared by every client on your account.
+category: memory
+tags:
+  - ai-agent
+  - coding-agent
+  - knowledge-graph
+  - memory
+docs_url: https://www.khive.ai/docs/quickstart?utm_source=mcpservers&utm_medium=directory&utm_campaign=launch1
+endpoints:
+  - url: https://khive.ai/v1/mcp
+    transport: streamable-http
+    auth: oauth

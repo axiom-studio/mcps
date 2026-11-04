@@ -1,0 +1,12 @@
+name: VA Jobs by Virtual Assistant International
+summary: Facts about the VA Jobs platform and Virtual Assistant International. Read-only, no login.
+category: other
+tags:
+  - business-operations
+  - research
+  - web-research
+docs_url: https://jobs.virtualassistantinternational.com/about
+endpoints:
+  - url: https://jobs.virtualassistantinternational.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Momentra
+summary: Momentra gives AI assistants access to current local event data from calendars, venues, publishers, and regional sources.
+category: web-scraping
+tags:
+  - calendar
+  - knowledge-retrieval
+  - research
+  - web-scraping
+docs_url: https://momentra.org/agents?tab=docs
+endpoints:
+  - url: https://mcp.momentra.org/mcp
+    transport: streamable-http
+    auth: oauth

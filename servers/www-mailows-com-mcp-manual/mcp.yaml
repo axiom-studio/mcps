@@ -1,0 +1,12 @@
+name: Mailows
+summary: Mailows gives AI agents their own real email inboxes, so they can read and send mail via MCP or API without getting the keys to yours.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - email-automation
+docs_url: https://www.mailows.com/mcp-manual
+endpoints:
+  - url: https://mcp.mailows.com/mcp
+    transport: streamable-http
+    auth: oauth

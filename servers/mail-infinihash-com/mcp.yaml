@@ -1,0 +1,14 @@
+name: Oryah Mail
+summary: 'Governed email and calendar for AI agents: Gmail, Microsoft 365 and IMAP behind one MCP connector, with per-mailbox permissions, a send allowlist, scoped API keys and an audit log.'
+category: communication
+tags:
+  - calendar
+  - communication
+  - email-automation
+  - gmail
+  - outlook
+docs_url: https://mail.infinihash.com
+endpoints:
+  - url: https://mail-mcp.infinihash.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: CloneKit
+summary: 'Expert know-how your AI can run: search and use kits (steps, prompts, tools, checks) from any MCP client.'
+category: memory
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - workflow-automation
+docs_url: https://clonekit.ai
+endpoints:
+  - url: https://clonekit.ai/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: URX
+summary: Manage Smart Links, inspect click analytics and retrieve QR codes from AI assistants. API-key authentication; Pro supports read-only tools, while Growth and Business add link creation and updates. Paid MCP access.
+category: marketing
+tags:
+  - analytics
+  - api
+  - marketing
+docs_url: https://urx.si/docs
+endpoints:
+  - url: https://urx.si/api/mcp
+    transport: streamable-http
+    auth: api-key

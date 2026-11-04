@@ -1,0 +1,13 @@
+name: Transcript Dock
+summary: 'Get transcripts from YouTube, TikTok and Instagram Reel links in one tool call: existing captions or AI transcription, with timing and SRT, VTT, JSON or TXT exports. Hosted with OAuth sign in, or local with npx.'
+category: productivity
+tags:
+  - content-creation
+  - media
+  - translation
+  - youtube
+docs_url: https://github.com/TranscriptDock/transcriptdock-mcp
+endpoints:
+  - url: https://www.transcriptdock.com/mcp
+    transport: streamable-http
+    auth: oauth

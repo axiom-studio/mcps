@@ -1,0 +1,16 @@
+name: Airtable
+summary: Official Airtable MCP server and skills for working with bases, records, workflows, and business operations from AI agents.
+category: database
+tags:
+  - airtable
+  - business-operations
+  - database
+  - spreadsheet
+  - workflow-automation
+official: true
+registry_name: com.airtable/mcp
+docs_url: https://github.com/airtable/skills
+endpoints:
+  - url: https://mcp.airtable.com/mcp
+    transport: streamable-http
+    auth: oauth

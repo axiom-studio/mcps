@@ -1,0 +1,11 @@
+name: Scout Packs
+summary: 'B2B data for AI agents: verified lead lookups ($0.01), email deliverability scoring ($0.03), domain intel, tech-stack detection, SSL checks. Pay-per-call in USDC on Base via x402, no API key.'
+category: marketing
+tags:
+  - marketing
+  - marketing-automation
+docs_url: https://github.com/tigerops-win/scout-packs
+endpoints:
+  - url: https://scout-packs-production.up.railway.app/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Search & Trends
+summary: 谷歌搜索（Serper）+ Google Trends 多后端，14 个只读工具：网页/新闻/图片/学术/地图检索，以及关键词需求热度、增长、实时热搜、地区、相关词/主题分析。
+category: search
+tags:
+  - analytics
+  - data-analysis
+  - search
+  - web-research
+docs_url: https://github.com/wjjnew123/search-trends
+endpoints:
+  - url: https://mcpweb.wjjnew.cn/search-trends/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: AppGoat
+summary: 'App Store + Google Play data API and remote MCP server: apps, reviews, keywords, rankings, top charts and competitors for Claude, ChatGPT and Cursor.'
+category: development
+tags:
+  - analytics
+  - api
+  - mobile
+official: true
+docs_url: https://appgoat.ai
+endpoints:
+  - url: https://api.appgoat.ai/mcp
+    transport: streamable-http
+    auth: oauth

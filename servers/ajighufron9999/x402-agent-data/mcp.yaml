@@ -1,0 +1,14 @@
+name: x402-agent-data
+summary: 'Paid on-chain data for agents over x402: token reports, contract due-diligence signals, pool depth and slippage, wallet activity. USDC per call on Base, no signup and no API key.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - defi
+  - evm
+  - finance
+docs_url: https://github.com/AjiGhufron9999/x402-agent-data
+endpoints:
+  - url: https://x402-agent.majighufron.workers.dev/mcp
+    transport: streamable-http
+    auth: none

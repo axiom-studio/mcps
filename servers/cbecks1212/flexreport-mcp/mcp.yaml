@@ -1,0 +1,13 @@
+name: Flexreport Finance
+summary: Provides real-time equity research to AI Agents, giving them a pulse on the market
+category: finance
+tags:
+  - ai-agent
+  - data-analysis
+  - finance
+  - research
+docs_url: https://github.com/cbecks1212/flexreport-mcp
+endpoints:
+  - url: https://mcp.flexreportfinapi.com/mcp
+    transport: streamable-http
+    auth: oauth

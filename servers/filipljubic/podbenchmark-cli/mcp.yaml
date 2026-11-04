@@ -1,0 +1,12 @@
+name: POD Benchmark
+summary: 'Compare print-on-demand suppliers (Printify, Printful, Gelato, Prodigi, CustomCat, Fourthwall, Inkthreadable): product cost, shipping, delivered total and profit per sale.'
+category: other
+tags:
+  - business-operations
+  - ecommerce
+  - marketplace
+docs_url: https://github.com/FilipLjubic/podbenchmark-cli
+endpoints:
+  - url: https://podbenchmark.com/api/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Advisors AI Service Navigator
+summary: 'Remote MCP server with five tools: list the five public services, get one service''s published scope and packages, return up to two routing suggestions for a described need, check a public website''s basic signals, and prepare the ordinary login/request link for a chosen package. All five tools are marked read-only; the link tool returns a login/request link without creating an order or charging anything. No account or API key needed. Listed in the official MCP Registry as ai.advisorsai/service-navigator.'
+category: marketing
+tags:
+  - business-operations
+  - marketing
+  - research
+  - web-research
+docs_url: https://advisorsai.ai
+endpoints:
+  - url: https://advisorsai.ai/mcp
+    transport: streamable-http
+    auth: none

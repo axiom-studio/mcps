@@ -1,0 +1,12 @@
+name: Search Fragments
+summary: 'Turn half-remembered fragments into a named answer: songs, films, books, TV, people, historical events, inventions, sport moments, places, art and culture. Also checks short factual claims. Every answer cites public sources. Free, no account needed.'
+category: search
+tags:
+  - knowledge-retrieval
+  - search
+  - web-research
+docs_url: https://searchfragments.com
+endpoints:
+  - url: https://searchfragments.com/api/mcp
+    transport: streamable-http
+    auth: none

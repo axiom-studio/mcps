@@ -1,0 +1,14 @@
+name: spacesheep
+summary: Publish pages your agent writes to a private, shareable URL, then read, comment on and update them. Hosted remote MCP server with OAuth; works with Claude, ChatGPT, Codex, Cursor and any MCP client.
+category: productivity
+tags:
+  - collaboration
+  - content-creation
+  - document
+  - productivity
+  - web-research
+docs_url: https://spacesheep.dev
+endpoints:
+  - url: https://mcp.spacesheep.dev/mcp
+    transport: streamable-http
+    auth: oauth

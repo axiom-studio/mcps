@@ -1,0 +1,13 @@
+name: Aide
+summary: 'AI customer service platform: search knowledge, look up orders, read and reply to conversations.'
+category: productivity
+tags:
+  - chatbot
+  - customer-ops
+  - ecommerce
+  - knowledge-retrieval
+docs_url: https://aide.app/mcp
+endpoints:
+  - url: https://app-api.aide.app/mcp
+    transport: streamable-http
+    auth: oauth

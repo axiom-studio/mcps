@@ -1,0 +1,13 @@
+name: EU Business & VAT Checker
+summary: Check an EU VAT number on VIES, look up an LEI, or search a company register.
+category: finance
+tags:
+  - business-operations
+  - compliance
+  - finance
+  - search
+docs_url: https://tools.openkrill.app/tools/eu-business
+endpoints:
+  - url: https://eubusiness.openkrill.app/mcp
+    transport: streamable-http
+    auth: none

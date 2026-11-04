@@ -1,0 +1,24 @@
+name: Codex Resets
+summary: Codex Resets tracks OpenAI Codex usage-limit reset announcements and history so you do not have to watch the feed. Its public remote MCP server lets assistants check the latest reset, review past announcements, and answer when Codex limits were last replenished.
+description: |-
+  # Codex Resets
+
+  Codex Resets tracks OpenAI Codex usage-limit reset announcements and history so you do not have to watch the feed. Its public remote MCP server lets assistants check the latest reset, review past announcements, and answer when Codex limits were last replenished.
+
+  ## Connection
+
+  https://codex-resets.com/mcp
+
+  Publisher site explicitly advertises a free public MCP service and links to this exact legacy MCP page. The same-origin endpoint identifies itself as codex-resets and lists the documented status/history tools. This is a community project, not affiliated with OpenAI.
+
+  [Publisher or official connector listing](https://codex-resets.com/)
+category: other
+tags:
+  - other
+  - remote-mcp
+official: true
+docs_url: https://codex-resets.com/
+endpoints:
+  - url: https://codex-resets.com/mcp
+    transport: streamable-http
+    auth: none

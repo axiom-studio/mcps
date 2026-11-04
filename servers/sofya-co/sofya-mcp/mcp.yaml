@@ -1,0 +1,13 @@
+name: Sofya
+summary: Web search, page fetch, extraction and deep research for AI agents, with full page content and cited reports.
+category: search
+tags:
+  - research
+  - search
+  - web-research
+  - web-scraping
+docs_url: https://github.com/sofya-co/sofya-mcp
+endpoints:
+  - url: https://mcp.sofya.co/mcp
+    transport: streamable-http
+    auth: unknown

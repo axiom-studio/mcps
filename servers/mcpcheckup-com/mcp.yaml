@@ -1,0 +1,13 @@
+name: MCP Checkup
+summary: 'Test any MCP server online in seconds, then monitor it: reachability, protocol and tool/schema drift, published as signed Ed25519 evidence. No account to start.'
+category: development
+tags:
+  - development
+  - monitoring
+  - security
+  - testing-qa
+docs_url: https://mcpcheckup.com
+endpoints:
+  - url: https://mcpcheckup.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,14 @@
+name: Elfsight AI Chatbot
+summary: Let your AI agent read conversations, leads, knowledge base and analytics of your Elfsight AI Chatbot widgets, and add answers to the knowledge base.
+category: communication
+tags:
+  - analytics
+  - chatbot
+  - communication
+  - customer-ops
+  - knowledge-retrieval
+docs_url: https://github.com/elfsight/ai-chatbot-mcp
+endpoints:
+  - url: https://mcp.elfchatbot.com/mcp
+    transport: streamable-http
+    auth: oauth

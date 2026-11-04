@@ -1,0 +1,12 @@
+name: Cutshed
+summary: Free browser tools, Studio prices, and the public clipper quote. Account tools need OAuth.
+category: other
+tags:
+  - browser
+  - browser-automation
+  - productivity
+docs_url: https://cutshed.com/
+endpoints:
+  - url: https://cutshed.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: No Errands Fax
+summary: Send a fax to any US or Canadian number from a PDF. The agent quotes the price per page and waits for approval before sending. Remote MCP (streamable HTTP), API-key auth, US only.
+category: communication
+tags:
+  - communication
+  - document
+  - file-conversion
+docs_url: https://noerrands.com/how-to/send-a-fax-with-muse/?ref=mcpservers
+endpoints:
+  - url: https://api.noerrands.com/c/fax/mcp
+    transport: streamable-http
+    auth: api-key

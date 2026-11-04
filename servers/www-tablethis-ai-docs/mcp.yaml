@@ -1,0 +1,13 @@
+name: TableThis
+summary: 'Shared typed tables and Markdown docs for Claude-built apps and teams, with scoped OAuth access and audited writes. Official icon: https://www.tablethis.ai/images/logo-c39ed0804ac9b212eb3dce23b696a9f2.svg?vsn=d'
+category: database
+tags:
+  - collaboration
+  - database
+  - document
+  - productivity
+docs_url: https://www.tablethis.ai/docs
+endpoints:
+  - url: https://app.tablethis.ai/mcp
+    transport: streamable-http
+    auth: oauth

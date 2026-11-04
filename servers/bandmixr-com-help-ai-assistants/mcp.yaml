@@ -1,0 +1,12 @@
+name: Bandmixr
+summary: 'AI mixing and mastering in Claude: check a song, mix your stems, change the mix in plain words.'
+category: other
+tags:
+  - ai-model
+  - audio
+  - content-creation
+docs_url: https://bandmixr.com/help/ai-assistants
+endpoints:
+  - url: https://bandmixr.com/mcp
+    transport: streamable-http
+    auth: oauth

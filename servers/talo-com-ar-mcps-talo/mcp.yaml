@@ -1,0 +1,12 @@
+name: Talo Pay
+summary: Talo Pay confirma pagos por transferencia bancaria en Argentina. CVU y alias únicos por orden. Comisión desde 0,8% + IVA. Sin contracargos.
+category: finance
+tags:
+  - business-operations
+  - finance
+  - payment
+docs_url: https://talo.com.ar/mcps/talo
+endpoints:
+  - url: https://talo.com.ar/mcp
+    transport: streamable-http
+    auth: unknown

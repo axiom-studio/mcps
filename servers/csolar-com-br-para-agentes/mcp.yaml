@@ -1,0 +1,12 @@
+name: CSolar Energia
+summary: Solar power estimates from the electricity bill, and the service area check, for São Paulo, Brazil.
+category: other
+tags:
+  - business-operations
+  - finance
+  - geospatial
+docs_url: https://csolar.com.br/para-agentes
+endpoints:
+  - url: https://csolar.com.br/mcp
+    transport: streamable-http
+    auth: none

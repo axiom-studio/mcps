@@ -1,0 +1,13 @@
+name: PayCheck
+summary: Free MCP/API that scores a merchant domain, https URL, or 0x wallet before an agent pays (trusted/unknown/suspicious/block). Does not send payments.
+category: finance
+tags:
+  - ai-agent
+  - api
+  - finance
+  - security
+docs_url: https://github.com/toolweather/paycheck
+endpoints:
+  - url: https://paycheck.toolweather.workers.dev/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: SwiftSkills
+summary: Search a catalog of Swift, SwiftUI, Xcode and iOS agent skills and MCP servers with install commands.
+category: development
+tags:
+  - ai-agent
+  - development
+  - documentation
+  - search
+docs_url: https://swiftskills.dev/mcp-server?utm_source=mcpservers&utm_medium=directory
+endpoints:
+  - url: https://swiftskills.dev/mcp
+    transport: streamable-http
+    auth: unknown

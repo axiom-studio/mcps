@@ -1,0 +1,14 @@
+name: Beyond Payday
+summary: Ask Claude or ChatGPT about your household finances. Cash flow, net worth, bills, debts, goals and Monte Carlo retirement plans, calculated by a real planning engine from the numbers you saved.
+category: finance
+tags:
+  - ai-agent
+  - data-analysis
+  - finance
+official: true
+registry_name: com.beyondpayday/mcp
+docs_url: https://beyondpayday.com/mcp
+endpoints:
+  - url: https://beyondpayday.com/api/mcp
+    transport: streamable-http
+    auth: oauth

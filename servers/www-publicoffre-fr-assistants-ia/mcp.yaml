@@ -1,0 +1,13 @@
+name: PublicOffre — French public procurement
+summary: 'French public procurement data: open tenders, who wins public contracts and against how many bidders, company references, local authorities'' finances. Free, no key, read-only.'
+category: search
+tags:
+  - business-operations
+  - finance
+  - government
+  - search
+docs_url: https://www.publicoffre.fr/assistants-ia
+endpoints:
+  - url: https://www.publicoffre.fr/mcp
+    transport: streamable-http
+    auth: none

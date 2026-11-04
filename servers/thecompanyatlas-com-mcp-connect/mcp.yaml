@@ -1,0 +1,13 @@
+name: The Company Atlas
+summary: access to export/import customs shipment records across 36 markets and global company registry
+category: database
+tags:
+  - business-operations
+  - data-analysis
+  - database
+  - research
+docs_url: https://thecompanyatlas.com/mcp/connect
+endpoints:
+  - url: https://thecompanyatlas.com/mcp
+    transport: streamable-http
+    auth: oauth

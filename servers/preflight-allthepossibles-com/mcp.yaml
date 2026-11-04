@@ -1,0 +1,12 @@
+name: Preflight
+summary: Scans an MCP server for security gaps before your agent connects. Free tier, no signup.
+category: development
+tags:
+  - ai-agent
+  - security
+  - testing-qa
+docs_url: https://preflight.allthepossibles.com
+endpoints:
+  - url: https://preflight.allthepossibles.com/mcp
+    transport: streamable-http
+    auth: unknown

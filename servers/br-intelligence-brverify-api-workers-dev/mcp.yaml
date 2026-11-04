@@ -1,0 +1,13 @@
+name: BR Intelligence
+summary: 'Brazilian business and payments data for AI agents. Validate CPF, CNPJ (including the new alphanumeric CNPJ from July 2026), EAN-13, NF-e keys and phones; look up companies by CNPJ with an explainable 0-100 KYB risk score (single or batch); decode and validate boletos and PIX copia-e-cola; look up addresses by CEP and banks by COMPE/ISPB; compute business days; and get Selic, CDI, IPCA and USD/BRL from the Central Bank. Remote MCP (Streamable HTTP) at /mcp. No signup and no API key: pay per call in USDC on Base via x402. Errors are never charged.'
+category: finance
+tags:
+  - api
+  - data-analysis
+  - finance
+  - payment
+docs_url: https://br-intelligence.brverify-api.workers.dev/
+endpoints:
+  - url: https://br-intelligence.brverify-api.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

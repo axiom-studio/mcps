@@ -1,0 +1,14 @@
+name: Cambridge China Bridge — China to UK import tools
+summary: 'Free remote MCP server for importing goods from China into the UK: UK duty rates and landed cost, anti-dumping checks, UK compliance requirements, Chinese New Year order planning, sea vs air on total cost, and China''s import rules for UK exporters. No sign-in or API key.'
+category: other
+tags:
+  - business-operations
+  - compliance
+  - ecommerce
+  - finance
+  - research
+docs_url: https://github.com/bonoxu/camchinabridge-mcp
+endpoints:
+  - url: https://camchinabridge.co.uk/mcp
+    transport: streamable-http
+    auth: none

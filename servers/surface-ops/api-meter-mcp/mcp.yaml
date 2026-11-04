@@ -1,0 +1,13 @@
+name: API Meter
+summary: 'Per-customer API usage analytics for small B2B APIs. Counts requests by customer, endpoint and plan; MCP tools create_account, get_ingest_snippet, get_usage, export_usage. Free tier 250K requests/month. Remote endpoint (Streamable HTTP): https://api-meter-lab.pages.dev/mcp'
+category: development
+tags:
+  - analytics
+  - api
+  - business-operations
+  - development
+docs_url: https://github.com/Surface-ops/api-meter-mcp
+endpoints:
+  - url: https://api-meter-lab.pages.dev/mcp
+    transport: streamable-http
+    auth: unknown

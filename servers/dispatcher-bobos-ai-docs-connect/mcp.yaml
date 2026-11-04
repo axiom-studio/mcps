@@ -1,0 +1,13 @@
+name: Bobos Dispatcher
+summary: 'White-label AI console for agencies and MSPs: client workspaces, roles, MCP tools, approvals and spend.'
+category: productivity
+tags:
+  - ai-agent
+  - business-operations
+  - productivity
+  - workflow-automation
+docs_url: https://dispatcher.bobos.ai/docs/connect
+endpoints:
+  - url: https://dispatcher.bobos.ai/mcp/v1/control
+    transport: streamable-http
+    auth: oauth

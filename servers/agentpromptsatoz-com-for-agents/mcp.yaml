@@ -1,0 +1,13 @@
+name: Agent Prompts A to Z
+summary: 'Read-only catalog of prompt packs and rule files: Cursor, CLAUDE.md, AGENTS.md, SKILL.md.'
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - development
+  - documentation
+docs_url: https://agentpromptsatoz.com/for-agents/
+endpoints:
+  - url: https://agentpromptsatoz.com/mcp
+    transport: streamable-http
+    auth: unknown

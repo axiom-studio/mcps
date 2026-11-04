@@ -1,0 +1,13 @@
+name: StoryCut
+summary: 'StoryCut turns long videos into captioned vertical clips. Remote MCP server (Streamable HTTP, OAuth 2.1 with dynamic client registration) at https://app.storycut.com/mcp. Tools: create_clips, clips_status, my_usage. Free on every plan.'
+category: productivity
+tags:
+  - content-creation
+  - media
+  - productivity
+  - video
+docs_url: https://www.storycut.com/features/mcp-connector
+endpoints:
+  - url: https://app.storycut.com/mcp
+    transport: streamable-http
+    auth: oauth

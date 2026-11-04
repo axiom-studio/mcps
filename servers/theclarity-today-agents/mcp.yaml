@@ -1,0 +1,12 @@
+name: Clarity Today
+summary: 'Today''s tech news, checked: what changed, why it matters, the key figures, and each claim''s verdict with its source.'
+category: search
+tags:
+  - news
+  - research
+  - web-research
+docs_url: https://theclarity.today/agents?utm_source=mcpservers
+endpoints:
+  - url: https://theclarity.today/mcp
+    transport: streamable-http
+    auth: none

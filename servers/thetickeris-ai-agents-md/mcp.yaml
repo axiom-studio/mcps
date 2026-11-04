@@ -1,0 +1,14 @@
+name: thetickeris.ai
+summary: Read-only market data and unsigned buy/sell transactions for $AI on HyperEVM. Never holds keys; contracts are upgradeable, 5% sell fee.
+category: finance
+tags:
+  - crypto
+  - defi
+  - evm
+  - finance
+  - trading
+docs_url: https://thetickeris.ai/agents.md
+endpoints:
+  - url: https://thetickeris.ai/mcp
+    transport: streamable-http
+    auth: unknown

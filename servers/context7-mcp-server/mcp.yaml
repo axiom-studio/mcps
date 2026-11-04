@@ -1,0 +1,15 @@
+name: Context7 MCP
+summary: Official Context7 MCP server that brings up-to-date, version-specific library documentation and code examples into AI coding prompts.
+category: development
+tags:
+  - coding-agent
+  - development
+  - documentation
+  - knowledge-retrieval
+official: true
+registry_name: io.github.upstash/context7
+docs_url: https://github.com/upstash/context7-mcp
+endpoints:
+  - url: https://mcp.context7.com/mcp/oauth
+    transport: streamable-http
+    auth: oauth

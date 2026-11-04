@@ -1,0 +1,12 @@
+name: BLIA — Bank Product Terms
+summary: 'Bank account terms as banks publish them, dated: fees, waivers, offers. Read-only. Canada today.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+docs_url: https://www.bliahub.com/mcp-guide.html
+endpoints:
+  - url: https://mcp.bliahub.com/mcp
+    transport: streamable-http
+    auth: none

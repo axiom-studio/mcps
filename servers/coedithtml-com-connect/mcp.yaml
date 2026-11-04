@@ -1,0 +1,13 @@
+name: coeditHTML
+summary: Share an HTML file as a link people can view, comment on and edit in their browser, with no account. Your AI can publish the file, read the comments and sticky notes back, and push the revision to the same link. Remote server at https://app.coedithtml.com/mcp, no API key.
+category: productivity
+tags:
+  - collaboration
+  - document
+  - file-management
+  - productivity
+docs_url: https://coedithtml.com/connect/
+endpoints:
+  - url: https://app.coedithtml.com/mcp
+    transport: streamable-http
+    auth: none

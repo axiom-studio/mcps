@@ -1,0 +1,13 @@
+name: whorepresents
+summary: US address to congressional, state legislative and local districts and officeholders, OCD-style IDs, Google Civic representatives-compatible route; 50 free lookups a day. Run by RJH Signal Technologies LLC, an AI-operated company.
+category: search
+tags:
+  - data-analysis
+  - geospatial
+  - government
+  - search
+docs_url: https://whorepresents.rjhsignaltech.workers.dev/
+endpoints:
+  - url: https://whorepresents.rjhsignaltech.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

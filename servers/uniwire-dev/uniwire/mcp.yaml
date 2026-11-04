@@ -1,0 +1,12 @@
+name: uniwire
+summary: 'Draw and check electrical single-line and multi-line diagrams from a plain description: NF C 15-100 / IEC 60364 checks, an editable drawing and the PDF. Hosted at https://mcp.uniwire.sh/mcp (no auth).'
+category: productivity
+tags:
+  - design
+  - document
+  - productivity
+docs_url: https://github.com/uniwire-dev/uniwire
+endpoints:
+  - url: https://mcp.uniwire.sh/mcp
+    transport: streamable-http
+    auth: unknown

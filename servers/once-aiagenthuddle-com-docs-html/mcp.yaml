@@ -1,0 +1,12 @@
+name: ONCE
+summary: Hosted MCP tools for tracking GitHub issue and Stripe test-payment outcomes, reconciling uncertain actions, and controlled retries. API-key authentication; free developer beta.
+category: development
+tags:
+  - development
+  - document
+  - documentation
+docs_url: https://once.aiagenthuddle.com/docs.html
+endpoints:
+  - url: https://once.aiagenthuddle.com/mcp
+    transport: streamable-http
+    auth: api-key

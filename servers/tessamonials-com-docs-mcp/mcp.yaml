@@ -1,0 +1,12 @@
+name: Tessamonials
+summary: 'Contextual voice/text customer interviews for specific feedback and testimonials, with scoped campaign/results tools and separate publication. Official icon: https://tessamonials.com/images/favicon-48.png?v=2'
+category: marketing
+tags:
+  - content-creation
+  - customer-ops
+  - marketing
+docs_url: https://tessamonials.com/docs/mcp
+endpoints:
+  - url: https://tessamonials.com/mcp
+    transport: streamable-http
+    auth: oauth

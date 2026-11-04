@@ -1,0 +1,13 @@
+name: LTD Turnaround UK Insolvency Data
+summary: 'Official UK company distress data: monthly company insolvency figures from the Insolvency Service, winding-up petition counts from The Gazette, and a search of the insolvency practitioner register. Read-only, no key needed.'
+category: finance
+tags:
+  - business-operations
+  - finance
+  - government
+  - search
+docs_url: https://ltdturnaround.co.uk/data/api/
+endpoints:
+  - url: https://ltdturnaround.co.uk/mcp
+    transport: streamable-http
+    auth: none

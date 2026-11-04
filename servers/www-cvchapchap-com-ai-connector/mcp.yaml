@@ -1,0 +1,12 @@
+name: CV Chap Chap
+summary: Check a CV, learn how CVs are written in African countries, pick a design, search Tanzania jobs and open the CV in a professional template. No sign-in.
+category: productivity
+tags:
+  - design
+  - document
+  - productivity
+docs_url: https://www.cvchapchap.com/ai-connector
+endpoints:
+  - url: https://www.cvchapchap.com/mcp
+    transport: streamable-http
+    auth: none

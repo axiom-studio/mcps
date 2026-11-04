@@ -1,0 +1,13 @@
+name: SocialRoster
+summary: Schedule finished faceless YouTube videos and Shorts through authorized MCP connections or a web calendar; paid plans with a card-required trial.
+category: productivity
+tags:
+  - social-media
+  - video
+  - workflow-automation
+  - youtube
+docs_url: https://socialroster.dev/docs/connector
+endpoints:
+  - url: https://socialroster.dev/mcp
+    transport: streamable-http
+    auth: oauth

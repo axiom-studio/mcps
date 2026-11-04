@@ -1,0 +1,13 @@
+name: OpenGMB
+summary: OpenGMB manages Google reviews, posts and profile edits for every location. Rules check each change and a person approves it before it goes live.
+category: marketing
+tags:
+  - business-operations
+  - google-analytics
+  - marketing
+  - workflow-automation
+docs_url: https://github.com/synectus/OpenGMB
+endpoints:
+  - url: https://opengmb.synectus.com/mcp
+    transport: streamable-http
+    auth: api-key

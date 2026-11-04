@@ -1,0 +1,11 @@
+name: Fairplug (sandbox)
+summary: Early-pilot MCP server for disclosure-first sponsored offers. search_offers returns offers with terms; get_tracked_link returns a tracked link plus a required disclosure text. Free no-signup sandbox with fictional data. Open-book 10% fee on validated commissions.
+category: marketing
+tags:
+  - advertising
+  - marketing
+docs_url: https://github.com/fairplug/fairplug-mcp
+endpoints:
+  - url: https://fairplug-mcp.fairplughq.workers.dev/sandbox/mcp
+    transport: streamable-http
+    auth: unknown

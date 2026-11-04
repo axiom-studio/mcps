@@ -1,0 +1,13 @@
+name: Aiso
+summary: Connect your Aiso account to inspect AI brand visibility, tracked prompts, competitors, citations and search fan-outs.
+category: marketing
+tags:
+  - ai-model
+  - analytics
+  - marketing
+  - seo
+docs_url: https://getaiso.com
+endpoints:
+  - url: https://app.getaiso.com/api/v1/mcp
+    transport: streamable-http
+    auth: api-key

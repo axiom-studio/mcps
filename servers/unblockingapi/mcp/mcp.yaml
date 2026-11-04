@@ -1,0 +1,13 @@
+name: UnblockingAPI MCP
+summary: UnblockingAPI gives AI agents and scrapers reliable access to public web pages. Its open-source MCP server lets Claude, Cursor, VS Code and Zed fetch bot-protected and JavaScript-heavy pages through a real browser and return rendered HTML, or structured JSON through templates. Billing is one credit per successful request, failed requests are free, and new accounts get 500 free credits with no card.
+category: web-scraping
+tags:
+  - ai-agent
+  - browser
+  - browser-automation
+  - web-scraping
+docs_url: https://github.com/unblockingapi/mcp
+endpoints:
+  - url: https://mcp.unblockingapi.com/mcp
+    transport: streamable-http
+    auth: unknown

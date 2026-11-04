@@ -1,0 +1,13 @@
+name: factureaza.ro
+summary: 'Romanian online invoicing with RO e-Factura, on your own factureaza.ro account: issue and search invoices, proformas and receipts, clients and products, paid and open invoices, sending to e-Factura (SPV) and supplier invoices, e-Transport. 63 tools.'
+category: finance
+tags:
+  - business-operations
+  - compliance
+  - ecommerce
+  - finance
+docs_url: https://factureaza.ro/ajutor/cum-conectez-un-asistent-ai
+endpoints:
+  - url: https://factureaza.ro/mcp/generic
+    transport: streamable-http
+    auth: oauth

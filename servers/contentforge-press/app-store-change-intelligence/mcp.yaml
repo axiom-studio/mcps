@@ -1,0 +1,14 @@
+name: App Store Change Intelligence
+summary: Monitor iOS app reviews, negative-review alerts, rating and version trends on the App Store. Free snapshot; paid review and sentiment intel via x402 USDC.
+category: other
+tags:
+  - analytics
+  - customer-ops
+  - data-analysis
+  - mobile
+  - monitoring
+docs_url: https://github.com/contentforge-press/app-store-change-intelligence
+endpoints:
+  - url: https://app-intel.contentforge-press.workers.dev/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: Ship.com
+summary: Connect AI assistants to Ship.com to manage orders, compare rates, buy labels, schedule pickups, manage customers, and retrieve shipping reports.
+category: productivity
+tags:
+  - business-operations
+  - ecommerce
+  - workflow-automation
+docs_url: https://www.ship.com/api/mcp
+endpoints:
+  - url: https://app.ship.com/mcp
+    transport: streamable-http
+    auth: oauth

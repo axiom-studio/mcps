@@ -1,0 +1,13 @@
+name: Wolfloyee
+summary: Monthly 3-question Team Harmony pulse in Slack DMs. Scores stay anonymous until n≥3. Public beta free; then $1 per employee per month.
+category: communication
+tags:
+  - analytics
+  - communication
+  - productivity
+  - slack
+docs_url: https://wolfloyee.com/connect
+endpoints:
+  - url: https://wolfloyee.com/mcp
+    transport: streamable-http
+    auth: api-key

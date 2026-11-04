@@ -1,0 +1,12 @@
+name: QuickUnits
+summary: Exact unit conversion with the factor and a citable source page for 213 pairs.
+category: productivity
+tags:
+  - data-analysis
+  - education
+  - productivity
+docs_url: https://github.com/Robomupp/quickunits-mcp
+endpoints:
+  - url: https://quickunits.global/mcp
+    transport: streamable-http
+    auth: none

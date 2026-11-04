@@ -1,0 +1,13 @@
+name: Sequential (usesequential.com)
+summary: 'Session replay and product analytics for your agent: the problems users hit (failed requests, JS errors, rage clicks), sessions, funnels, retention.'
+category: development
+tags:
+  - analytics
+  - data-analysis
+  - monitoring
+  - productivity
+docs_url: https://github.com/usesequential/mcp
+endpoints:
+  - url: https://api.usesequential.com/mcp
+    transport: streamable-http
+    auth: api-key

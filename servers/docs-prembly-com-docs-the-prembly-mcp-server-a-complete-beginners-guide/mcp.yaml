@@ -1,0 +1,13 @@
+name: Prembly MCP Server
+summary: Identity verification, KYC/KYB, AML and PEP screening, and fraud checks across 118+ APIs, from your AI assistant.
+category: finance
+tags:
+  - compliance
+  - finance
+  - identity
+  - security
+docs_url: https://docs.prembly.com/docs/the-prembly-mcp-server-a-complete-beginners-guide
+endpoints:
+  - url: https://mcp.prembly.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Ploshadkin — event venues in Russia
+summary: 'Find event venues in Russia: restaurants, banquet halls, lofts, hotel conference halls, country clubs and boats. Search by city, type, capacity and price per guest, open venue profiles with photos and details, and send a booking request right from the chat.'
+category: search
+tags:
+  - business-operations
+  - communication
+  - search
+docs_url: https://ploshadkin.ru/neiroseti/
+endpoints:
+  - url: https://ploshadkin.ru/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,14 @@
+name: Ginta
+summary: 'Build, publish and edit real websites for small businesses from a chat: pages, photos, menus, contact forms, visitor stats and custom domains, live on the web in minutes. Hosted, OAuth sign-in, free tier.'
+category: design
+tags:
+  - analytics
+  - cloud-infrastructure
+  - cms
+  - design
+  - web-scraping
+docs_url: https://github.com/justlinuxnoob/ginta-mcp
+endpoints:
+  - url: https://ginta.app/mcp
+    transport: streamable-http
+    auth: oauth

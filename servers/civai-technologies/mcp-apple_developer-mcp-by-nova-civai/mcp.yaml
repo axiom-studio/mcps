@@ -1,0 +1,13 @@
+name: Apple Developer MCP by Nova (CIVAI)
+summary: Ship a new iOS app from chat. AI runs App Store Connect, builds, release, and submission through Apple review end to end.
+category: productivity
+tags:
+  - ai-agent
+  - deployment
+  - development
+  - mobile
+docs_url: https://github.com/civai-technologies/mcp-apple_developer-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-apple_developer
+    transport: streamable-http
+    auth: api-key

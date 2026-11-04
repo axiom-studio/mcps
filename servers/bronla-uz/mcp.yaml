@@ -1,0 +1,11 @@
+name: BRONLA MCP
+summary: Search and book dachas, villas, cottages and hotels in Uzbekistan, with prices in UZS.
+category: other
+tags:
+  - real-estate
+  - search
+docs_url: https://bronla.uz/
+endpoints:
+  - url: https://mcp.bronla.uz/mcp
+    transport: streamable-http
+    auth: oauth

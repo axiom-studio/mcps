@@ -1,0 +1,13 @@
+name: XOOMAR market data
+summary: 'Free US market data as tools: SEC filings, insider trades, short interest, 13F, COT positioning, Fed liquidity. Hosted at https://xoomar.com/mcp, or run npx xoomar-mcp.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - finance
+  - trading
+docs_url: https://github.com/xoomar-code/xoomar-mcp
+endpoints:
+  - url: https://xoomar.com/mcp
+    transport: streamable-http
+    auth: none

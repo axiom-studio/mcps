@@ -1,0 +1,14 @@
+name: WingmanProtocol Agent Gateway
+summary: 'Remote MCP server: durable agent memory, real headless browser, cited deep research, web search, watches, artifacts and a tool directory. Free tier. iPhone client: Dandelion (https://apps.apple.com/us/app/id6779299470).'
+category: memory
+tags:
+  - ai-agent
+  - browser-automation
+  - memory
+  - web-research
+  - web-scraping
+docs_url: https://wingmanprotocol.com
+endpoints:
+  - url: https://agent.wingmanprotocol.com/mcp
+    transport: streamable-http
+    auth: api-key

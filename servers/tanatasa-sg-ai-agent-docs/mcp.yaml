@@ -1,0 +1,12 @@
+name: Tanatasa
+summary: 'Shop beauty & wellness products in Singapore from your AI agent: search the live catalog (SGD prices, stock, ingredients), build guest carts, quote totals and get a checkout link. Remote Streamable HTTP; no auth needed for catalog and guest carts.'
+category: other
+tags:
+  - ai-agent
+  - ecommerce
+  - payment
+docs_url: https://tanatasa.sg/ai-agent-docs
+endpoints:
+  - url: https://tanatasa.sg/mcp
+    transport: streamable-http
+    auth: none

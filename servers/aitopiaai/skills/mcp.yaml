@@ -1,0 +1,14 @@
+name: AITOPIA
+summary: 'Generate and edit images, video and audio: 300+ AI models, video tools, voice cloning, transcripts.'
+category: design
+tags:
+  - ai-model
+  - audio
+  - content-creation
+  - design
+  - video
+docs_url: https://github.com/AITOPIAai/skills
+endpoints:
+  - url: https://mcp.aitopia.ai/mcp
+    transport: streamable-http
+    auth: unknown

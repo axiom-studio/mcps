@@ -1,0 +1,13 @@
+name: EstimateKit
+summary: Quotes, jobs and invoices for HVAC, plumbing and electrical shops. Check what needs attention today, look up customers and their equipment, and draft good, better, best quotes from your own price book. Drafts only; never sends to customers.
+category: productivity
+tags:
+  - business-operations
+  - crm
+  - inventory
+  - productivity
+docs_url: https://estimatekit.com/ai
+endpoints:
+  - url: https://mcp.estimatekit.com/mcp
+    transport: streamable-http
+    auth: oauth

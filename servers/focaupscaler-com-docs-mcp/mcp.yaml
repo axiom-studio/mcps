@@ -1,0 +1,12 @@
+name: Foca Upscaler
+summary: Upscale images from HTTPS URLs with account credits and retrieve async results.
+category: design
+tags:
+  - design
+  - file-conversion
+  - media
+docs_url: https://focaupscaler.com/docs/mcp
+endpoints:
+  - url: https://focaupscaler.com/api/mcp
+    transport: streamable-http
+    auth: api-key

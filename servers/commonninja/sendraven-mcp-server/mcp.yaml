@@ -1,0 +1,11 @@
+name: SendRaven
+summary: 'Email infrastructure for AI agents: send email, read replies as threads, reply in context, and run campaigns and automations, with per-key send limits and human approval.'
+category: communication
+tags:
+  - communication
+  - productivity
+docs_url: https://github.com/CommonNinja/sendraven-mcp-server
+endpoints:
+  - url: https://mcp.sendraven.ai/mcp
+    transport: streamable-http
+    auth: oauth

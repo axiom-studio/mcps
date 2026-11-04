@@ -1,0 +1,14 @@
+name: AgentKit x402
+summary: Pay-per-call agent utilities (email/DNS checks, URL to Markdown, IBAN, Swedish validators) as remote MCP tools, x402 USDC on Base.
+category: development
+tags:
+  - data-analysis
+  - development
+  - email-automation
+  - payment
+  - web-scraping
+docs_url: https://agentkit-x402.zenith-ops.workers.dev/llms.txt
+endpoints:
+  - url: https://agentkit-x402.zenith-ops.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

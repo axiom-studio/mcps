@@ -1,0 +1,14 @@
+name: Gojiberry AI
+summary: Find high-intent B2B leads from live buying signals, enrich them with verified emails and phones, and run LinkedIn and email outreach campaigns from your AI assistant.
+category: productivity
+tags:
+  - communication
+  - crm
+  - email-automation
+  - marketing-automation
+  - sales
+docs_url: https://help.gojiberry.ai/en/articles/14540015-using-the-gojiberry-mcp-server
+endpoints:
+  - url: https://mcp.gojiberry.ai
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: SubmitCheck
+summary: 'Remote MCP for planning a product launch: find live startup/SaaS/AI launch directories (516 checked Oct 2026) with submit URL and whether the listing is free, badge-only, queued or paid; check if a directory is dead or moved. No auth.'
+category: marketing
+tags:
+  - business-operations
+  - marketing
+  - research
+  - web-research
+docs_url: https://submitcheck.appin60.com/api.html
+endpoints:
+  - url: https://submitcheck.appin60.com/mcp
+    transport: streamable-http
+    auth: unknown

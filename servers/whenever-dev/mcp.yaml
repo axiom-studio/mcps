@@ -1,0 +1,12 @@
+name: Whenever
+summary: Build and publish Whenever workflow automations from your coding agent. Read the SDK and integration catalogue, validate workflow code, and create workflows in your account. OAuth sign-in.
+category: productivity
+tags:
+  - coding-agent
+  - productivity
+  - workflow-automation
+docs_url: https://whenever.dev
+endpoints:
+  - url: https://mcp.whenever.dev
+    transport: streamable-http
+    auth: oauth

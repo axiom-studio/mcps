@@ -1,0 +1,12 @@
+name: Compound Mint Money Calculator
+summary: 'Free educational money calculators for AI assistants: compound interest, rule of 72, FIRE and Coast FIRE, 401(k) match, debt payoff, savings goal and holiday budget. No API key. Not financial advice.'
+category: finance
+tags:
+  - api
+  - education
+  - finance
+docs_url: https://compoundmint.com/money-calculator-api/
+endpoints:
+  - url: https://compoundmint.com/wp-json/mint/v1/mcp
+    transport: streamable-http
+    auth: none

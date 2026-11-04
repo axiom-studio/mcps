@@ -1,0 +1,12 @@
+name: Milestone by Ouroboros Apps
+summary: 'Milestone by Ouroboros Apps: freelance project milestones and acceptance criteria'
+category: productivity
+tags:
+  - productivity
+  - project-management
+  - task-management
+docs_url: https://github.com/LAHutchins91/milestone-mcp
+endpoints:
+  - url: https://milestone-continuity2.vercel.app/mcp
+    transport: streamable-http
+    auth: unknown

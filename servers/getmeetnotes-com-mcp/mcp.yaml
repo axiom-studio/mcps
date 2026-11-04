@@ -1,0 +1,14 @@
+name: MeetNotes
+summary: 'Your MeetNotes meetings inside Claude, ChatGPT or any MCP client: search, read transcripts, list action items, export minutes, send a notetaker.'
+category: productivity
+tags:
+  - communication
+  - document
+  - meeting-notes
+  - productivity
+  - workflow-automation
+docs_url: https://getmeetnotes.com/mcp/?ref=mcpservers
+endpoints:
+  - url: https://getmeetnotes.com/mcp
+    transport: streamable-http
+    auth: unknown

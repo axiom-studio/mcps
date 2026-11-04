@@ -1,0 +1,13 @@
+name: Placestack
+summary: Parcels, owners, assessments, sales, zoning rules, building permits and zoning cases for any U.S. address.
+category: search
+tags:
+  - data-analysis
+  - geospatial
+  - real-estate
+  - search
+docs_url: https://placestack.com/docs/agent
+endpoints:
+  - url: https://mcp.placestack.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: VideoDatabase MCP
+summary: Search tens of thousands of analyzed Instagram Reels and TikToks from ChatGPT, Claude or another MCP client, and read each video's analysis and Video DNA. On VideoDatabase Pro, it also writes hooks, video ideas and scripts in your saved voice. VideoDatabase isn't VideoDB (videodb.io), a separate company that makes a video API for developers.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - video
+docs_url: https://videodatabase.io/mcp/install
+endpoints:
+  - url: https://videodatabase.io/mcp
+    transport: streamable-http
+    auth: oauth

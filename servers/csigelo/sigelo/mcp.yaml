@@ -1,0 +1,12 @@
+name: sigelo
+summary: 'Portable, offline-verifiable identity for AI agents: create a DID, answer a service''s challenge, collect attestations, verify bundles offline.'
+category: other
+tags:
+  - ai-agent
+  - identity
+  - security
+docs_url: https://github.com/csigelo/sigelo
+endpoints:
+  - url: https://sigelo.io/mcp
+    transport: streamable-http
+    auth: none

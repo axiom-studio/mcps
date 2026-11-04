@@ -1,0 +1,13 @@
+name: VIDIA MCP
+summary: Quote, create, track and download AI videos through MCP, with explicit approval before paid production. Connect AI agents to VIDIA through its hosted MCP server or Node.js stdio bridge.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - media
+  - video
+docs_url: https://github.com/lead788/vidia-mcp
+endpoints:
+  - url: https://vidia.kr/mcp
+    transport: streamable-http
+    auth: api-key

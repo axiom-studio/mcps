@@ -1,0 +1,13 @@
+name: TvojeLajky hosted MCP (CZ)
+summary: 'Official hosted MCP for Czech Instagram/TikTok services: public CZK catalog and quotes, with paid prepaid-credit purchases requiring OAuth and a customer-approved budget; private implementation.'
+category: marketing
+tags:
+  - ecommerce
+  - marketing
+  - payment
+  - social-media
+docs_url: https://tvojelajky.cz/developers
+endpoints:
+  - url: https://tvojelajky.cz/mcp
+    transport: streamable-http
+    auth: unknown

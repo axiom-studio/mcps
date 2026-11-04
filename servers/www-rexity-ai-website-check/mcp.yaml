@@ -1,0 +1,14 @@
+name: Rexity Website-Check
+summary: 'Free website check by Rexity Labs. One tool, website_check(url, lang): checks one public website in six areas (speed & technology, findability, readiness for enquiries, trust & legal, website security settings, e-mail domain protection) and returns an overall score and six area scores from 0 to 100 with a one-line verdict per area. Remote server (Streamable HTTP), no key, German and English.'
+category: marketing
+tags:
+  - marketing
+  - performance
+  - security
+  - seo
+  - web-research
+docs_url: https://www.rexity.ai/website-check
+endpoints:
+  - url: https://www.rexity.ai/mcp
+    transport: streamable-http
+    auth: none

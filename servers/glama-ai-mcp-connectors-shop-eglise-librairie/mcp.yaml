@@ -1,0 +1,12 @@
+name: eglise.shop – Christian Bookstore for AI Agents
+summary: 'Official remote MCP connector for eglise.shop, a Christian bookstore of about 5,500 books (French and English catalogs). Agents search books, get prices (EUR by default), build a cart and send the customer a secure checkout link. Endpoint: https://eglise-shop-mcp.padbor.workers.dev/mcp'
+category: search
+tags:
+  - ecommerce
+  - marketplace
+  - search
+docs_url: https://glama.ai/mcp/connectors/shop.eglise/librairie
+endpoints:
+  - url: https://eglise-shop-mcp.padbor.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

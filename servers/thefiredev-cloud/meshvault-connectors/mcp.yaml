@@ -1,0 +1,13 @@
+name: MeshVault Connectors
+summary: 'Remote MCP server with 18 read-only tools: EMS protocol lookup, US judges and courts, NPI registry and openFDA data, GPU fit for open models. OAuth or free API key.'
+category: other
+tags:
+  - api
+  - data-analysis
+  - healthcare
+  - research
+docs_url: https://github.com/thefiredev-cloud/meshvault-connectors
+endpoints:
+  - url: https://thefiredev.com/mcp
+    transport: streamable-http
+    auth: oauth

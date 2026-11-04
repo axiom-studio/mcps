@@ -1,0 +1,14 @@
+name: EditalMD
+summary: 'Brazilian public procurement (PNCP) for agents: search tenders, deadlines, tender documents as Markdown, alerts.'
+category: search
+tags:
+  - document
+  - government
+  - notifications
+  - search
+  - web-research
+docs_url: https://github.com/wrpbr/editalmd
+endpoints:
+  - url: https://editalmd.com/mcp
+    transport: streamable-http
+    auth: none

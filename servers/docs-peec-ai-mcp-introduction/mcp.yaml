@@ -1,0 +1,12 @@
+name: Peec AI
+summary: Monitor and analyze your brand's visibility across AI search engines. Track your visibility, sentiment, and share of voice & compare to competitors.
+category: other
+tags:
+  - analytics
+  - marketing
+  - search
+docs_url: https://docs.peec.ai/mcp/introduction.md
+endpoints:
+  - url: https://api.peec.ai/mcp
+    transport: streamable-http
+    auth: oauth

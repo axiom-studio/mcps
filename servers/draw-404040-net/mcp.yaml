@@ -1,0 +1,12 @@
+name: Super Excalidraw
+summary: Turn AI conversations into editable Excalidraw diagrams. Create and update saved boards through MCP, then refine them in an interactive canvas in MCP Apps hosts. OAuth with Google sign-in; English and Simplified Chinese.
+category: design
+tags:
+  - collaboration
+  - design
+  - document
+docs_url: https://draw.404040.net/
+endpoints:
+  - url: https://draw.404040.net/mcp
+    transport: streamable-http
+    auth: oauth

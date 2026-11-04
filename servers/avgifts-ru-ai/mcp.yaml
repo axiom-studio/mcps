@@ -1,0 +1,12 @@
+name: AVGifts — corporate gifts with logo
+summary: 'Find corporate gifts and branded merchandise in Russia: search the catalog by category, price and stock, get product details and calculate the exact cost of logo printing by method, colors and quantity.'
+category: search
+tags:
+  - business-operations
+  - ecommerce
+  - search
+docs_url: https://avgifts.ru/ai
+endpoints:
+  - url: https://avgifts.ru/mcp
+    transport: streamable-http
+    auth: none

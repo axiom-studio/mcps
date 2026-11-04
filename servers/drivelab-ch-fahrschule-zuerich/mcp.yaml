@@ -1,0 +1,8 @@
+name: DriveLab Booking
+summary: Find Swiss driving lessons and live availability, plus VKU, first aid and WAB courses. Four read-only tools support German and English and return links to complete booking on the existing DriveLab or partner website. No account or API key required.
+category: other
+docs_url: https://drivelab.ch/fahrschule/zuerich/
+endpoints:
+  - url: https://drivelab.ch/wp-json/drivelab-mcp/v1/mcp
+    transport: streamable-http
+    auth: none

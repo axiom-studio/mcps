@@ -1,0 +1,11 @@
+name: Billr
+summary: '53 MCP tools for invoices, time and expenses. Remote MCP server (streamable HTTP, OAuth 2.1) at https://mcp.billr.cc that lets Claude Code, Codex, Cursor or any MCP client log time, track expenses, draft estimates and send invoices with bookkeeper-level permissions. Open source (Apache-2.0): github.com/ethanplusai/billr. Install: claude mcp add --transport http billr https://mcp.billr.cc'
+category: finance
+tags:
+  - finance
+  - workflow-automation
+docs_url: https://billr.cc/?utm_source=mcpservers-org&utm_medium=directory&utm_campaign=billr
+endpoints:
+  - url: https://mcp.billr.cc
+    transport: streamable-http
+    auth: oauth

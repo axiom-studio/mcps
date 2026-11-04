@@ -1,0 +1,13 @@
+name: SPORE x402 Attestation
+summary: 'Six read-only checks for agents that pay per call over x402 v2 in USDC on Base: a signed attestation of a delivery packet, a bounty-packet preflight, token-approval and DNS preflight checks, a Base wallet lens, and an x402 endpoint check that verifies a target endpoint''s 402 challenge before you pay it. Every tool is paid per call (0.002 - 0.01 USDC); an unpaid call returns HTTP 402 with the full challenge, and every answer carries a payment_settlement field reporting whether a USDC transfer to the payTo was verified on Base. Read-only: no keys, no custody, and the server never signs a transaction.'
+category: development
+tags:
+  - crypto
+  - evm
+  - payment
+  - security
+docs_url: https://spore-x402.worker.beacon.host/.well-known/mcp.json?ref=spore
+endpoints:
+  - url: https://spore-x402.worker.beacon.host/mcp
+    transport: streamable-http
+    auth: unknown

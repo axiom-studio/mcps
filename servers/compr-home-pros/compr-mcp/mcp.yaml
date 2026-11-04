@@ -1,0 +1,12 @@
+name: Compr
+summary: 'Remote MCP server for real estate investors: give it an address and get comps, ARV, repair estimate and max offer.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - real-estate
+docs_url: https://github.com/Compr-Home-Pros/compr-mcp
+endpoints:
+  - url: https://thecompr.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

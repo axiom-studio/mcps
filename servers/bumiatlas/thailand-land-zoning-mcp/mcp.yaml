@@ -1,0 +1,13 @@
+name: Thailand Land Parcels, Public Land & Zoning (ที่ดินและผังเมืองรวม)
+summary: Thai DOL land parcels and NSL public land, with DPT and Bangkok comprehensive-plan zoning.
+category: other
+tags:
+  - database
+  - geospatial
+  - government
+  - real-estate
+docs_url: https://github.com/BumiAtlas/thailand-land-zoning-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/thailand
+    transport: streamable-http
+    auth: oauth

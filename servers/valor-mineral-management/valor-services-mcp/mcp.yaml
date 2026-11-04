@@ -1,0 +1,12 @@
+name: Valor Services & Contact
+summary: Valor company information, mineral management and operator services, and user-reviewed contact requests.
+category: other
+tags:
+  - business-operations
+  - communication
+  - crm
+docs_url: https://github.com/valor-mineral-management/valor-services-mcp
+endpoints:
+  - url: https://www.onevalor.com/mcp/services/v1
+    transport: streamable-http
+    auth: none

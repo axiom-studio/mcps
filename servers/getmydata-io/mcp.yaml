@@ -1,0 +1,12 @@
+name: GetMyData
+summary: Ask your AI assistant for public web data as a clean spreadsheet. Free sample first, then one fixed price. No signup, no subscription.
+category: web-scraping
+tags:
+  - data-analysis
+  - spreadsheet
+  - web-scraping
+docs_url: https://getmydata.io/?utm_source=mcpservers&utm_medium=directory&utm_campaign=dir
+endpoints:
+  - url: https://getmydata.io/mcp
+    transport: streamable-http
+    auth: none

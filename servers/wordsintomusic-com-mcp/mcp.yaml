@@ -1,0 +1,12 @@
+name: Words into Music
+summary: Generate songs from prompts or lyrics, check credits, and access your private song library through an OAuth-connected MCP server.
+category: other
+tags:
+  - ai-model
+  - content-creation
+  - music
+docs_url: https://wordsintomusic.com/mcp/
+endpoints:
+  - url: https://mcp.wordsintomusic.com/mcp
+    transport: streamable-http
+    auth: oauth

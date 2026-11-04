@@ -1,0 +1,10 @@
+name: FlyBest
+summary: Book luxury hotels inside Claude or ChatGPT via MCP — live agency rates with perks, side by side with public rates.
+category: other
+tags:
+  - ai-agent
+docs_url: https://flybest.org/en/ai/
+endpoints:
+  - url: https://ai.flybest.org/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: Lingard Vocab
+summary: 'Build your Lingard vocabulary from an AI assistant: topic word collections and complete flashcards with translations, pronunciation and examples.'
+category: productivity
+tags:
+  - ai-agent
+  - education
+  - productivity
+docs_url: https://lingard.app/instruction_mcp
+endpoints:
+  - url: https://lingard.app/mcp
+    transport: streamable-http
+    auth: oauth

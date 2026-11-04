@@ -1,0 +1,13 @@
+name: QRKit
+summary: Generate QR codes (URL, WiFi, vCard) and barcodes as PNG/SVG. Free tier, RapidAPI key.
+category: design
+tags:
+  - design
+  - file-conversion
+  - media
+  - svg
+docs_url: https://rapidapi.com/Olly-1VN9JTXKG/api/qrkit-qr-code-barcode-generator
+endpoints:
+  - url: https://qrkit-qr-code-barcode-generator.p.rapidapi.com/mcp
+    transport: streamable-http
+    auth: api-key

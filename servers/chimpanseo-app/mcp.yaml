@@ -1,0 +1,14 @@
+name: ChimpanSEO
+summary: 'Generate GEO/AEO-optimized articles and publish them to WordPress from your AI agent.  (85 caratteri. Variante per i moduli che chiedono di dire che serve un account, 94 caratteri: "Generate, schedule and publish GEO/AEO-optimized articles to WordPress; tools need an account.")'
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - seo
+  - wordpress
+  - workflow-automation
+docs_url: https://chimpanseo.app
+endpoints:
+  - url: https://chimpanseo.app/api/mcp
+    transport: streamable-http
+    auth: unknown

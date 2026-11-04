@@ -1,0 +1,12 @@
+name: Rus.sh
+summary: 'Make, find, pause and track short links and QR codes from your AI assistant. Hosted remote MCP server (Streamable HTTP) with OAuth 2.1 sign-in: create short links, update or archive them, pause and resume them, archive QR codes, and read click analytics. Every change can be undone; nothing is ever permanently deleted. Works on every plan, including Free.'
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - productivity
+docs_url: https://rus.sh/pages/ai
+endpoints:
+  - url: https://rus.sh/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Brainfile
+summary: 'Brainfile memory layer for Claude Code over MCP: free starter files + weekly freshness feed.'
+category: memory
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - llm
+  - memory
+docs_url: https://brainfile.io/mcp?utm_source=mcpservers.org&utm_medium=directory&utm_campaign=brainfile_mcp
+endpoints:
+  - url: https://brainfile.io/mcp
+    transport: streamable-http
+    auth: unknown

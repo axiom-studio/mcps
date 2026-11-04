@@ -1,0 +1,13 @@
+name: Omnicost
+summary: Construction unit prices with source and date for Spain, the US and the EU. Omnicost gathers unit prices for materials, labor and equipment from 208 sources such as public tenders and supplier catalogs, and keeps the source and observed date on every price. To connect, create an Omnicost workspace and generate an organization API key, then add it to your MCP client config at https://omnicost.com/api/mcp.
+category: search
+tags:
+  - api
+  - data-analysis
+  - finance
+  - search
+docs_url: https://omnicost.com/en?utm_source=mcpservers-org&utm_medium=directory&utm_campaign=listings
+endpoints:
+  - url: https://omnicost.com/api/mcp
+    transport: streamable-http
+    auth: unknown

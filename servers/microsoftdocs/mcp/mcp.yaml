@@ -1,0 +1,14 @@
+name: Microsoft Learn
+summary: Official Microsoft Learn MCP Server and CLI tool – powering LLMs and AI agents with real-time, trusted Microsoft docs & code samples.
+category: development
+tags:
+  - ai-agent
+  - development
+  - documentation
+  - knowledge-retrieval
+registry_name: com.microsoft/microsoft-learn-mcp
+docs_url: https://github.com/microsoftdocs/mcp
+endpoints:
+  - url: https://learn.microsoft.com/api/mcp
+    transport: streamable-http
+    auth: none

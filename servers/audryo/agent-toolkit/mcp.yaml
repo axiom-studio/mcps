@@ -1,0 +1,13 @@
+name: Audryo
+summary: 'Lifecycle email your AI agent runs: audiences, journeys and emails as reviewable drafts. Consent enforced; nothing sends until a human approves.'
+category: marketing
+tags:
+  - ai-agent
+  - compliance
+  - email-automation
+  - marketing-automation
+docs_url: https://github.com/Audryo/agent-toolkit
+endpoints:
+  - url: https://mcp.audryo.com/mcp
+    transport: streamable-http
+    auth: unknown

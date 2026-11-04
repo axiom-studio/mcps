@@ -1,0 +1,14 @@
+name: Make
+summary: Turn your Make scenarios into callable tools for AI assistants.
+category: productivity
+tags:
+  - api
+  - productivity
+  - workflow-automation
+official: true
+registry_name: com.make/mcp-server
+docs_url: https://github.com/integromat/make-mcp-server
+endpoints:
+  - url: https://mcp.make.com
+    transport: streamable-http
+    auth: oauth

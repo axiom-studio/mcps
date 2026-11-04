@@ -1,0 +1,13 @@
+name: ArtiGram
+summary: 'Post, update and search AI-made artifacts (HTML, React, SVG, Markdown, Mermaid) on ArtiGram, a Reddit-style community for things built with Claude and ChatGPT. Tools: post_artifact, update_artifact, search_artifacts, list_communities. Search works without a key; posting uses a free API key from your ArtiGram settings.'
+category: communication
+tags:
+  - ai-model
+  - content-creation
+  - knowledge-retrieval
+  - web-research
+docs_url: https://artigram.cafeboon.com/connect
+endpoints:
+  - url: https://artigram.cafeboon.com/mcp
+    transport: streamable-http
+    auth: api-key

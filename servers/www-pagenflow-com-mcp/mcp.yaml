@@ -1,0 +1,13 @@
+name: Pagenflow MCP
+summary: Build, validate and publish responsive email templates from your AI client. Create projects, manage design systems and reusable components, invite teammates, send test emails and export HTML, React Email or Shopify Liquid — hosted Streamable HTTP, no local install.
+category: marketing
+tags:
+  - content-creation
+  - design
+  - email-automation
+  - marketing
+docs_url: https://www.pagenflow.com/mcp
+endpoints:
+  - url: https://mcp.pagenflow.workers.dev
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,19 @@
+name: Jentic
+summary: Jentic provides a managed connection to more than 1,500 APIs. Its remote MCP server keeps credentials in a central vault and uses just-in-time tooling so assistants fetch only the tools needed for a task, reducing context size and credential exposure.
+description: |-
+  Jentic provides a managed connection to more than 1,500 APIs. Its remote MCP server keeps credentials in a central vault and uses just-in-time tooling so assistants fetch only the tools needed for a task, reducing context size and credential exposure.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://docs.jentic.com/guides/mcp/remote-mcp/)
+category: development
+tags:
+  - development
+  - remote-mcp
+official: true
+registry_name: io.github.jentic/mcp-server
+docs_url: https://docs.jentic.com/guides/mcp/remote-mcp/
+endpoints:
+  - url: https://api.jentic.com/mcp
+    transport: streamable-http
+    auth: oauth

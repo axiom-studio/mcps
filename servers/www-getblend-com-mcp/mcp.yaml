@@ -1,0 +1,13 @@
+name: BLEND Localization MCP
+summary: Let your AI agent order professional human translation from BLEND. Get a quote, place the order, track the linguist's progress, and receive finished files in 120+ languages — without leaving Claude. Remote server, OAuth sign-in, no API key.
+category: productivity
+tags:
+  - content-creation
+  - productivity
+  - translation
+  - workflow-automation
+docs_url: https://www.getblend.com/mcp/
+endpoints:
+  - url: https://app.getblend.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: iDos Games
+summary: 'Configure and ship cross-platform and web3 games on iDos Games: live game config, tokens and NFTs, AI assets, task board and builds. Hosted server with OAuth; a local SDK server serves game modules and skills.'
+category: development
+tags:
+  - ai-model
+  - crypto
+  - deployment
+  - game-development
+  - task-management
+docs_url: https://github.com/iDos-Games/idosgames-mcp
+endpoints:
+  - url: https://site.idosgames.com/api/v2/mcp
+    transport: streamable-http
+    auth: oauth

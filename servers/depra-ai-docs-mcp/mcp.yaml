@@ -1,0 +1,14 @@
+name: Depra AI
+summary: 'Read-only AI visibility data across ChatGPT, Gemini, Google AI Overviews and Perplexity: mentions, competitors and citations. 24 tools; Depra AI token and active trial or plan required.'
+category: marketing
+tags:
+  - ai-model
+  - analytics
+  - marketing
+  - seo
+  - web-research
+docs_url: https://depra.ai/docs/mcp
+endpoints:
+  - url: https://api.depra.ai/mcp
+    transport: streamable-http
+    auth: api-key

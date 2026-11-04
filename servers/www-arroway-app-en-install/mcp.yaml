@@ -1,0 +1,12 @@
+name: Arroway
+summary: The team's shared memory that reaches an AI before it starts work.
+category: memory
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - memory
+docs_url: https://www.arroway.app/en/install
+endpoints:
+  - url: https://www.arroway.app/api/mcp
+    transport: streamable-http
+    auth: oauth

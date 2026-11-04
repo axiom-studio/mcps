@@ -1,0 +1,13 @@
+name: Hyperresearch
+summary: Start cited deep-research runs, read reports, search your source vault, and verify citations.
+category: search
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - research
+  - web-research
+docs_url: https://hyperresearch.ai/docs/mcp?utm_source=mcpservers.org&utm_medium=mcp_directory
+endpoints:
+  - url: https://mcp.hyperresearch.ai/mcp
+    transport: streamable-http
+    auth: oauth

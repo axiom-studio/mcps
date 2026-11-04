@@ -1,0 +1,13 @@
+name: bisibility
+summary: 'Remote MCP server for bisibility, an open-source SEO platform: rank history, keyword and backlink research, and AI visibility, with OAuth sign-in and estimate-first approval for paid calls.'
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+  - web-research
+docs_url: https://github.com/CorgiCorner/bisibility-mcp
+endpoints:
+  - url: https://bisibility.com/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: The Aggregate
+summary: 'LLM rankings fitted across public benchmarks: leaderboard, model profiles with Elo ± SE, head-to-head comparisons and source-linked benchmark scores. Free, no auth.'
+category: development
+tags:
+  - ai-model
+  - development
+  - identity
+  - llm
+  - security
+docs_url: https://theaggregate.ai/mcp
+endpoints:
+  - url: https://theaggregate.ai/mcp
+    transport: streamable-http
+    auth: none

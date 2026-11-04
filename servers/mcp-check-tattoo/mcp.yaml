@@ -1,0 +1,12 @@
+name: 'check.tattoo: tattoo size and placement guide'
+summary: 'Read-only reference tools for planning a tattoo: minimum sizes by kind of design, body-area fade and pain comparison, line-spacing check over time and a pre-booking checklist. No sign-in.'
+category: other
+tags:
+  - design
+  - healthcare
+  - research
+docs_url: https://mcp.check.tattoo/
+endpoints:
+  - url: https://mcp.check.tattoo/mcp
+    transport: streamable-http
+    auth: none

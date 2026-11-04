@@ -1,0 +1,14 @@
+name: Pinlyx CRM MCP Server
+summary: 'Remote MCP server for the Pinlyx CRM: 76 tools, 21 resources and 15 prompts so Claude, Cursor, VS Code or ChatGPT can search contacts, read the omnichannel inbox (Telegram, WhatsApp, Instagram, X, email), draft replies, move deals and run outreach sequences over an authenticated Streamable HTTP endpoint.'
+category: communication
+tags:
+  - communication
+  - crm
+  - customer-ops
+  - sales
+  - workflow-automation
+docs_url: https://pinlyx.com/mcp
+endpoints:
+  - url: https://api.pinlyx.com/mcp
+    transport: streamable-http
+    auth: api-key

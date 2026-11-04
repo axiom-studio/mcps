@@ -1,0 +1,12 @@
+name: IQ Books by ReconcileIQ
+summary: 'IQ Books is an AI-native UK ledger that does the bookkeeping for you: bank lines arrive coded, receipts file themselves, invoices are allocated and the bank reconciled, and you review and sign off. This server lets Claude run it in conversation: ask for profit, VAT or who owes you, or have it raise invoices and code statements, with every change shown as a plan you approve first. Its CodeIQ coding also posts to Xero, QuickBooks, Sage and Pandle. Remote, OAuth sign-in, free demo company to try.'
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - workflow-automation
+docs_url: https://reconcileiq.com/connectors
+endpoints:
+  - url: https://api.reconcileiq.com/mcp
+    transport: streamable-http
+    auth: oauth

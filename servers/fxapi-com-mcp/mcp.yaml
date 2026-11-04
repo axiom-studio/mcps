@@ -1,0 +1,13 @@
+name: fxapi Exchange Rates MCP Server
+summary: 'Live and historical FX rates for AI agents: latest rates, conversion, time series, fluctuation and period averages for 190+ currencies, crypto and metals.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - finance
+  - trading
+docs_url: https://fxapi.com/mcp/
+endpoints:
+  - url: https://api.fxapi.com/mcp
+    transport: streamable-http
+    auth: api-key

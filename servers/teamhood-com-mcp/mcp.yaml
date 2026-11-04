@@ -1,0 +1,13 @@
+name: Teamhood MCP
+summary: 'Teamhood project management for matrix organizations: items, dependencies, time, capacity and teams.'
+category: productivity
+tags:
+  - collaboration
+  - productivity
+  - project-management
+  - task-management
+docs_url: https://teamhood.com/mcp
+endpoints:
+  - url: https://api.teamhood.com/public/v1/mcp
+    transport: streamable-http
+    auth: oauth

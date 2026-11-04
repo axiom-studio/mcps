@@ -1,0 +1,13 @@
+name: Superlaunch
+summary: 'Meta ads automation for marketing: launch creatives, analyze performance, and manage automation rules through your AI assistant.'
+category: marketing
+tags:
+  - advertising
+  - ai-agent
+  - analytics
+  - marketing-automation
+docs_url: https://superlaunch.pro/
+endpoints:
+  - url: https://mcp.superlaunch.pro/mcp
+    transport: streamable-http
+    auth: oauth

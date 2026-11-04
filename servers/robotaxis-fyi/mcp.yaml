@@ -1,0 +1,12 @@
+name: Robotaxis
+summary: Robotaxis lists robotaxi services by city with status, service area, airports, and booking apps. Browse by city or category, and query the same data through a free API and MCP endpoint.
+category: search
+tags:
+  - api
+  - geospatial
+  - search
+docs_url: https://robotaxis.fyi
+endpoints:
+  - url: https://robotaxis.fyi/mcp
+    transport: streamable-http
+    auth: none

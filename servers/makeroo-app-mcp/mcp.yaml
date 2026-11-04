@@ -1,0 +1,13 @@
+name: Makeroo (formerly Shiplist)
+summary: 'Free product launch directory with a remote MCP server: search listings and submit your product from your own AI agent.'
+category: marketing
+tags:
+  - ai-agent
+  - marketing
+  - marketplace
+  - search
+docs_url: https://makeroo.app/mcp?utm_source=mcpservers&utm_medium=listing
+endpoints:
+  - url: https://makeroo.app/mcp
+    transport: streamable-http
+    auth: unknown

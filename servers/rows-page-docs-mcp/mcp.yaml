@@ -1,0 +1,14 @@
+name: rows.page
+summary: 'Push CSV, JSON, JSONL or Parquet from your agent and get a link a human can explore: filters, charts, SQL, pinned findings, diffs between pushes.'
+category: database
+tags:
+  - data-analysis
+  - database
+  - file-management
+  - spreadsheet
+  - sql
+docs_url: https://rows.page/docs/mcp
+endpoints:
+  - url: https://rows.page/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Blossom Research
+summary: Search published psychedelic research papers, clinical trials, stakeholders, patents and editorial overviews with source links. 18 read-only tools; OAuth and a free Blossom account required.
+category: search
+tags:
+  - healthcare
+  - knowledge-retrieval
+  - research
+  - search
+docs_url: https://www.moreblossom.com/connect
+endpoints:
+  - url: https://www.moreblossom.com/mcp
+    transport: streamable-http
+    auth: oauth

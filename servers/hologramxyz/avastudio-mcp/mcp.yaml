@@ -1,0 +1,15 @@
+name: Avastudio for Agents
+summary: Avastudio for Agents gives Claude, ChatGPT, Cursor and Codex a growth team. Your agent finds what's breaking out on TikTok, studies your own best ads, writes briefs with the videos behind every choice, prompts any video model, and produces the ads, inside a budget you set.
+category: marketing
+tags:
+  - advertising
+  - ai-agent
+  - content-creation
+  - marketing
+  - video
+official: true
+docs_url: https://github.com/hologramxyz/avastudio-mcp
+endpoints:
+  - url: https://mcp.avastudio.com/mcp
+    transport: streamable-http
+    auth: oauth

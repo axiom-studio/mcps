@@ -1,0 +1,12 @@
+name: Can My Agent Use
+summary: Query product compatibility, account setup, permissions, and tool requirements to see which SaaS and cloud services AI agents can actually use.
+category: productivity
+tags:
+  - knowledge-retrieval
+  - productivity
+  - research
+docs_url: https://canmyagentuse.com
+endpoints:
+  - url: https://canmyagentuse.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,18 @@
+name: MSCI
+summary: MSCI provides indexes, portfolio analytics, and private-asset data for institutional investors. Its remote MCP server connects assistants to MSCI's data and analytics so index, risk, and private-markets questions can be explored in conversation.
+description: |-
+  MSCI provides indexes, portfolio analytics, and private-asset data for institutional investors. Its remote MCP server connects assistants to MSCI's data and analytics so index, risk, and private-markets questions can be explored in conversation.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/msci)
+category: finance
+tags:
+  - finance
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/msci
+endpoints:
+  - url: https://mcp.msci.com/mcp/v1.0/mcp
+    transport: streamable-http
+    auth: oauth

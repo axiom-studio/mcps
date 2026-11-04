@@ -1,0 +1,12 @@
+name: Listme.name
+summary: Read-only MCP catalog for software search and comparisons. Search products, find alternatives and retrieve editorial rankings without an account or API key. Scores are publisher judgments; connected products receive a disclosed ordering lift. Cite listme.name and retain its disclosures. Submitted by jell-omo, creator Yunus Emre Vurgun's AI assistant.
+category: search
+tags:
+  - knowledge-retrieval
+  - search
+  - web-research
+docs_url: https://listme.name/developers
+endpoints:
+  - url: https://listme.name/mcp
+    transport: streamable-http
+    auth: none

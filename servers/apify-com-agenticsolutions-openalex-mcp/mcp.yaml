@@ -1,0 +1,13 @@
+name: OpenAlex MCP Server
+summary: Search OpenAlex papers, authors, institutions and citations. Hosted on Apify; needs an Apify token.
+category: search
+tags:
+  - api
+  - data-analysis
+  - knowledge-retrieval
+  - research
+docs_url: https://apify.com/agentic_solutions/openalex-mcp
+endpoints:
+  - url: https://agentic-solutions--openalex-mcp.apify.actor/mcp
+    transport: streamable-http
+    auth: api-key

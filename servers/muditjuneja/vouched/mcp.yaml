@@ -1,0 +1,14 @@
+name: Vouched
+summary: Connect Claude, Cursor, or any MCP client to 18 SEO tools. Pull keyword research, live SERPs, backlink profiles, URL indexing, and verified GSC/GA4 data, with source, timestamp, and confidence on every fact.
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - marketing
+  - seo
+  - web-research
+docs_url: https://github.com/muditjuneja/vouched
+endpoints:
+  - url: https://vouchedhq.com/mcp
+    transport: streamable-http
+    auth: oauth

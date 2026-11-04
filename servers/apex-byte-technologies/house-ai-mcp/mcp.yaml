@@ -1,0 +1,13 @@
+name: House AI
+summary: 'AI interior design: redesign any room, house exterior or yard from a photo in 100+ styles, preview wall paint and flooring, and find real furniture and decor to match. Remote server with OAuth sign-in.'
+category: design
+tags:
+  - ai-model
+  - design
+  - ecommerce
+  - real-estate
+docs_url: https://github.com/Apex-Byte-Technologies/house-ai-mcp
+endpoints:
+  - url: https://mcp.houseaiapp.com/mcp
+    transport: streamable-http
+    auth: oauth

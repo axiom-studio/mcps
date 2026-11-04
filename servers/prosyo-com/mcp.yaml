@@ -1,0 +1,14 @@
+name: Prosyo
+summary: Multichannel B2B outbound engine connecting AI agents to LinkedIn automation, cold email sequencing, prospect research, and unified inbox management via 30 native tools.
+category: marketing
+tags:
+  - ai-agent
+  - communication
+  - email-automation
+  - marketing
+  - sales
+docs_url: https://prosyo.com
+endpoints:
+  - url: https://app.prosyo.com/ai
+    transport: streamable-http
+    auth: oauth

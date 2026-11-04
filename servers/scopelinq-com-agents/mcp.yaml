@@ -1,0 +1,13 @@
+name: ScopeLinq
+summary: Reads what was agreed and answers whether a new request is Included, citing only confirmed lines.
+category: productivity
+tags:
+  - document
+  - knowledge-retrieval
+  - productivity
+  - project-management
+docs_url: https://scopelinq.com/agents
+endpoints:
+  - url: https://mcp.scopelinq.com/mcp
+    transport: streamable-http
+    auth: unknown

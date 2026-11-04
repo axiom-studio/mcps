@@ -1,0 +1,12 @@
+name: Email Validation
+summary: 'Check email addresses from your AI client, one at a time or a whole list: each result comes with a status, a reason and what to do next. Unknown results are free.'
+category: productivity
+tags:
+  - data-analysis
+  - email-automation
+  - productivity
+docs_url: https://email-validation.org/docs/mcp/
+endpoints:
+  - url: https://api.email-validation.org/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: First100
+summary: 'Go-to-market tools for AI agents: schedule and publish posts on X, LinkedIn, Threads and Bluesky through official APIs, audit a site for Google and AI search, read Search Console, track rankings and AI answers, and send email from your own mailbox. Remote server with OAuth or API key.'
+category: marketing
+tags:
+  - email-automation
+  - marketing
+  - seo
+  - social-media
+  - x-twitter
+docs_url: https://www.firsthundred.app/docs
+endpoints:
+  - url: https://firsthundred.app/api/mcp
+    transport: streamable-http
+    auth: oauth

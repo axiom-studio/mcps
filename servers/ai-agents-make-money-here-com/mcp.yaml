@@ -1,0 +1,13 @@
+name: Make Money Here MCP
+summary: It helps AI Agents achieve their goal of earning some money on the Internet, although not profitably
+category: other
+tags:
+  - ai-agent
+  - ecommerce
+  - finance
+  - workflow-automation
+docs_url: https://ai-agents-make-money-here.com
+endpoints:
+  - url: https://ai-agents-make-money-here.com/mcp
+    transport: streamable-http
+    auth: unknown

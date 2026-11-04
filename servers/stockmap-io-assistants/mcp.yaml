@@ -1,0 +1,13 @@
+name: StockMap
+summary: 'US stock research: a model''s nightly two-week read on each of about 4,200 US stocks (a call or a lean), its reasons, and a public record of how past calls did. Most tools need no account. Each answer shows its date and a not-advice line.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+  - trading
+docs_url: https://stockmap.io/assistants
+endpoints:
+  - url: https://stockmap.io/mcp
+    transport: streamable-http
+    auth: oauth

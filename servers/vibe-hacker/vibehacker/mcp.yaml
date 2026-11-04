@@ -1,0 +1,12 @@
+name: VibeHacker
+summary: Search, submit, and upvote AI tools on VibeHacker.com from Claude, ChatGPT, or Cursor.
+category: search
+tags:
+  - ai-agent
+  - search
+  - web-research
+docs_url: https://github.com/vibe-hacker/vibehacker
+endpoints:
+  - url: https://vibehacker.com/api/mcp
+    transport: streamable-http
+    auth: none

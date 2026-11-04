@@ -1,0 +1,13 @@
+name: Inboxapp
+summary: Message contacts and manage conversations across X and LinkedIn. (Gmail, Instagram, Telegram soon)
+category: communication
+tags:
+  - communication
+  - crm
+  - social-media
+  - x-twitter
+docs_url: https://inboxapp.com
+endpoints:
+  - url: https://mcp.inboxapp.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Biver
+summary: Build, edit, and publish landing pages, products, orders, and leads from your AI assistant.
+category: marketing
+tags:
+  - cms
+  - ecommerce
+  - marketing
+  - workflow-automation
+docs_url: https://github.com/biver-colony/biver-mcp
+endpoints:
+  - url: https://mcp.biver.id/mcp
+    transport: streamable-http
+    auth: oauth

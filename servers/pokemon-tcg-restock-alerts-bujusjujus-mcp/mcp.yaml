@@ -1,0 +1,15 @@
+name: Pokemon TCG Restock Alerts - bujusjujus
+summary: 'Pokémon TCG restock alerts across US retailers: recent drops, MSRP lookups, restock timing and signed webhooks.'
+category: other
+tags:
+  - ecommerce
+  - inventory
+  - notifications
+  - web-research
+official: true
+registry_name: com.bujusjujus/alerts
+docs_url: https://bujusjujus.com/api
+endpoints:
+  - url: https://bujusjuj.us/mcp
+    transport: streamable-http
+    auth: api-key

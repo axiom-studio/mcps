@@ -1,0 +1,14 @@
+name: LLMIntel Model Lifecycle
+summary: 'Check whether an LLM model id is deprecated, retiring, or retired, and what to migrate to. OpenAI, Anthropic, Azure, Bedrock, Google, Cohere. Read-only, no API key. Remote: https://llmintel.ai/v1/mcp · npm: @llmintel/mcp'
+category: development
+tags:
+  - ai-model
+  - anthropic
+  - azure
+  - llm
+  - openai
+docs_url: https://github.com/hivemindunit/llmintel-mcp
+endpoints:
+  - url: https://llmintel.ai/v1/mcp
+    transport: streamable-http
+    auth: unknown

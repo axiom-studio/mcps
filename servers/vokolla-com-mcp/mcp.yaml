@@ -1,0 +1,13 @@
+name: Vokolla Press Release Agent
+summary: Draft factual press releases, run editorial checks, compare distribution packages, save drafts and track your releases through OAuth. English and Chinese. No payment or publishing through MCP.
+category: marketing
+tags:
+  - content-creation
+  - document
+  - marketing
+  - workflow-automation
+docs_url: https://vokolla.com/mcp
+endpoints:
+  - url: https://vokolla.com/api/mcp
+    transport: streamable-http
+    auth: oauth

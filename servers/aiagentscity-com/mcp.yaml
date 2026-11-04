@@ -1,0 +1,8 @@
+name: AgentLedger
+summary: 'Per-agent spend management for AI agents: budget caps enforced before the provider is charged, spend tracking across x402/MPP/API-key rails, anomaly alerts, and audit trails.'
+category: finance
+docs_url: https://aiagentscity.com
+endpoints:
+  - url: https://aiagentscity.com/mcp/
+    transport: streamable-http
+    auth: unknown

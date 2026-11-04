@@ -1,0 +1,13 @@
+name: htmlkin.io MCP
+summary: 'Publish and manage HTML pages and multi-file static websites from AI agents via OAuth 2.1 remote MCP. Docs: EN, FR, PT-BR, IT.'
+category: development
+tags:
+  - ai-agent
+  - deployment
+  - development
+  - web-scraping
+docs_url: https://htmlkin.io/en/docs/mcp
+endpoints:
+  - url: https://htmlkin.io/mcp
+    transport: streamable-http
+    auth: oauth

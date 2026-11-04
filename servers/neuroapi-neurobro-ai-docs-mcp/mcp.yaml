@@ -1,0 +1,14 @@
+name: NeuroAPI
+summary: Hosted MCP server from Neurobro for AI market research on crypto, stocks, forex and commodities. One tool, ask_neuroapi. API key required.
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - finance
+  - research
+  - trading
+docs_url: https://neuroapi.neurobro.ai/docs/mcp
+endpoints:
+  - url: https://api.neurobro.ai/api/v1/mcp/
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: MyKIFRS MCP
+summary: Search Korean accounting standards (K-IFRS, K-GAAP, auditing, ICFR) and 3,669 official Q&A paragraph by paragraph, so AI answers cite the exact paragraph number and wording.
+category: finance
+tags:
+  - compliance
+  - finance
+  - knowledge-retrieval
+  - research
+docs_url: https://github.com/taesueocpa/mykifrs-mcp
+endpoints:
+  - url: https://mykifrs.eocpa.kr/mcp
+    transport: streamable-http
+    auth: api-key

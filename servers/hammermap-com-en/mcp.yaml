@@ -1,0 +1,13 @@
+name: HammerMap
+summary: Spanish court auctions, State sales and Social Security auctions on one map. Free, no account.
+category: other
+tags:
+  - geospatial
+  - government
+  - marketplace
+  - real-estate
+docs_url: https://hammermap.com/en/
+endpoints:
+  - url: https://hammermap.com/mcp
+    transport: streamable-http
+    auth: none

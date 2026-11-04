@@ -1,0 +1,11 @@
+name: Virtual Assistant International
+summary: Courses, live prices, jobs platform and support info from Virtual Assistant International.
+category: other
+tags:
+  - business-operations
+  - education
+docs_url: https://www.virtualassistantinternational.com/
+endpoints:
+  - url: https://www.virtualassistantinternational.com/mcp
+    transport: streamable-http
+    auth: unknown

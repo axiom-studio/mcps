@@ -1,0 +1,15 @@
+name: PageProofer
+summary: Let Claude Code, Cursor and other agents read your website feedback, fix the code, reply on the note and move it to Review for a person to approve.
+category: development
+tags:
+  - browser-automation
+  - development
+  - testing-qa
+  - workflow-automation
+official: true
+registry_name: com.pageproofer/pageproofer
+docs_url: https://pageproofer.com/help/ai-agents/
+endpoints:
+  - url: https://app.pageproofer.com/mcp
+    transport: streamable-http
+    auth: api-key

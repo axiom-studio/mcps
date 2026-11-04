@@ -1,0 +1,13 @@
+name: SecurePutCalls
+summary: 'Wheel strategy research: today''s cash-secured put and covered call candidates, your positions'' risk, symbol risk and Weekly Picks. Read-only'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+  - trading
+docs_url: https://github.com/rohitguptamrt/secureputcalls-mcp
+endpoints:
+  - url: https://secureputcalls.com/mcp
+    transport: streamable-http
+    auth: oauth

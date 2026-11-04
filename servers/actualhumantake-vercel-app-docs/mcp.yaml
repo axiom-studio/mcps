@@ -1,0 +1,13 @@
+name: ActualHumanTake
+summary: Free, human-written product feedback for AI agents. Submit a product request, check its review status, and retrieve feedback with a private receipt token.
+category: marketing
+tags:
+  - ai-agent
+  - marketing
+  - productivity
+  - research
+docs_url: https://actualhumantake.vercel.app/docs
+endpoints:
+  - url: https://actualhumantake.vercel.app/api/mcp
+    transport: streamable-http
+    auth: none

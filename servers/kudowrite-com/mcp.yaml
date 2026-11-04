@@ -1,0 +1,12 @@
+name: KudoWrite
+summary: 'Lets Claude read and edit your novels in KudoWrite: chapters, beats, the story bible and the book summary. Remote server at https://kudowrite.com/mcp, OAuth sign-in, no key shared.'
+category: productivity
+tags:
+  - content-creation
+  - document
+  - productivity
+docs_url: https://kudowrite.com
+endpoints:
+  - url: https://kudowrite.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: XFINLAB
+summary: Financial market intelligence via MCP — market events, sentiment, technical indicators, and macro data tools for AI agents. Free tier available instantly.
+category: finance
+tags:
+  - ai-agent
+  - data-analysis
+  - finance
+docs_url: https://www.xfinlab.com/intelligence-api.html
+endpoints:
+  - url: https://api.xfinlab.com/api/mcp
+    transport: streamable-http
+    auth: api-key

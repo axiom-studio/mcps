@@ -1,0 +1,13 @@
+name: Brasil Data x402
+summary: Brazil CNPJ, CEP, Selic/IPCA/PTAX, holidays, banks/ISPB for agents. Pay per call in USDC (x402).
+category: finance
+tags:
+  - api
+  - data-analysis
+  - finance
+  - payment
+docs_url: https://brasil-data-x402.wagner-proc.workers.dev/
+endpoints:
+  - url: https://brasil-data-x402.wagner-proc.workers.dev/mcp
+    transport: streamable-http
+    auth: none

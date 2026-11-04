@@ -1,0 +1,13 @@
+name: RecordHTML
+summary: Record HTML5 ads, banners and web pages to MP4, WebM or GIF from a chat. Your assistant writes or finds the creative, records it in a real browser and hands you the video.
+category: marketing
+tags:
+  - advertising
+  - browser-automation
+  - content-creation
+  - video
+docs_url: https://recordhtml.com/docs/mcp
+endpoints:
+  - url: https://mcp.recordhtml.com
+    transport: streamable-http
+    auth: oauth

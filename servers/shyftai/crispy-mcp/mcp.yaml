@@ -1,0 +1,14 @@
+name: Crispy
+summary: 'LinkedIn API and hosted MCP server for AI agents: leads, messaging, inbox and campaigns, with activity limits built in.'
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - crm
+  - marketing-automation
+  - sales
+docs_url: https://github.com/shyftai/crispy-mcp
+endpoints:
+  - url: https://crispy.sh/api/mcp
+    transport: streamable-http
+    auth: api-key

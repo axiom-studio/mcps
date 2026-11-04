@@ -1,0 +1,13 @@
+name: 'QuerySail: Google Analytics MCP'
+summary: 'Ask ChatGPT, Claude, Codex or Cursor about your Google Analytics 4 data. Hosted, read-only MCP server with OAuth: reports by channel, source, page, country and device, period comparisons, realtime users and custom dimensions. No API keys, no install.'
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - google-analytics
+  - marketing
+docs_url: https://querysail.com/google-analytics
+endpoints:
+  - url: https://mcp.querysail.com/ga4/mcp
+    transport: streamable-http
+    auth: oauth

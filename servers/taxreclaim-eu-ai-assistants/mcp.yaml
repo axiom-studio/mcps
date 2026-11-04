@@ -1,0 +1,11 @@
+name: Tax Reclaim
+summary: Estimate dividend withholding-tax refunds, treaty rates and filing deadlines across 98 countries. With sign-in (OAuth), preview and save claims to your Tax Reclaim account and get a link to download the filing PDF.
+category: finance
+tags:
+  - identity
+  - security
+docs_url: https://taxreclaim.eu/ai-assistants
+endpoints:
+  - url: https://api.taxreclaim.eu/api/mcp
+    transport: streamable-http
+    auth: none

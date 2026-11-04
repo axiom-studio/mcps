@@ -1,0 +1,13 @@
+name: Swarmnest
+summary: 'Swarmnest: read-only remote MCP server to search 3,800+ AI tools, APIs, MCP servers and 545 reviewed agent skills, with canonical links. Endpoint https://swarmnest.ai/mcp, no auth.'
+category: search
+tags:
+  - ai-agent
+  - marketplace
+  - search
+  - web-research
+docs_url: https://github.com/swarmnest/swarmnest-mcp
+endpoints:
+  - url: https://swarmnest.ai/mcp
+    transport: streamable-http
+    auth: none

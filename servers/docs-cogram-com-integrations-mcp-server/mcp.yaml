@@ -1,0 +1,12 @@
+name: Cogram Project
+summary: Read-only access to Cogram projects, meetings, email, RFIs and drawings for architects and engineers
+category: productivity
+tags:
+  - document
+  - documentation
+  - productivity
+docs_url: https://docs.cogram.com/integrations/mcp-server
+endpoints:
+  - url: https://mcp.cogram.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,11 @@
+name: LibrePass eSIM
+summary: Countries have borders. You don’t. LibrePass eSIM — privacy-by-design connectivity for travel; VPN and card coming soon. AI agents browse live plans via read-only MCP at https://librepass.co/mcp/
+category: communication
+tags:
+  - communication
+  - privacy
+docs_url: https://librepass.co
+endpoints:
+  - url: https://librepass.co/mcp/
+    transport: streamable-http
+    auth: none

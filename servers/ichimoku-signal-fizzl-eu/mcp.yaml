@@ -1,0 +1,13 @@
+name: Ichimoku Signal
+summary: Ichimoku Cloud trend signals, price levels, market scans and trade setups for crypto trading agents. Free daily trend; paid calls from $0.01 via x402.
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - finance
+  - trading
+docs_url: https://ichimoku-signal.fizzl.eu/
+endpoints:
+  - url: https://ichimoku-signal.fizzl.eu/mcp
+    transport: streamable-http
+    auth: unknown

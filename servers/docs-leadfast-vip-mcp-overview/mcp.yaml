@@ -1,0 +1,13 @@
+name: LeadFast
+summary: Find relevant Reddit threads for your product. Research your website and manage product settings and alerts through OAuth, with approval for changes.
+category: marketing
+tags:
+  - marketing
+  - social-media
+  - web-research
+  - workflow-automation
+docs_url: https://docs.leadfast.vip/mcp/overview
+endpoints:
+  - url: https://leadfast.vip/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: Casus MCP
+summary: 'Casus MCP — French tax and legal corpus for AI assistants. Query French legal sources (tax code articles with version history, BOFiP administrative doctrine, 3.4M+ court decisions, tax treaties, EU law) from Claude, ChatGPT or any MCP client. Every answer links to the official source, and resolve_references checks legal citations. Requires a Casus Starter or Pro subscription. Website: https://wearecasus.co'
+category: other
+tags:
+  - compliance
+  - government
+  - knowledge-retrieval
+  - research
+official: true
+docs_url: https://mcp.wearecasus.com/
+endpoints:
+  - url: https://mcp.wearecasus.com/mcp
+    transport: streamable-http
+    auth: oauth

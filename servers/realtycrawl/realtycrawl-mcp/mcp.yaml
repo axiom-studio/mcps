@@ -1,0 +1,12 @@
+name: RealtyCrawl
+summary: Search source-linked real estate observations with capability discovery and bounded credits.
+category: web-scraping
+tags:
+  - real-estate
+  - search
+  - web-scraping
+docs_url: https://github.com/realtycrawl/realtycrawl-mcp
+endpoints:
+  - url: https://realtycrawl.dev/mcp
+    transport: streamable-http
+    auth: api-key

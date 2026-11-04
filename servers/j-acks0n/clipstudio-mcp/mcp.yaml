@@ -1,0 +1,12 @@
+name: Clip Studio MCP
+summary: 'Clip Studio MCP: add https://clipstudio.ai/api/mcp to Claude, Cursor, ChatGPT, or Grok. Sign in once. Agents generate on the same monthly plan as the website.'
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+docs_url: https://github.com/j-acks0n/clipstudio-mcp
+endpoints:
+  - url: https://clipstudio.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: 402xAgent
+summary: 402xAgent is the check an agent calls before paying any x402 endpoint. It probes the endpoint's 402 without paying and returns a pay / skip / recheck verdict with a reason. Every check leaves a public receipt. It never pays the target.
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - payment
+  - security
+docs_url: https://github.com/withgrokbot/x402-spotcheck
+endpoints:
+  - url: https://api.402xagent.com/mcp
+    transport: streamable-http
+    auth: unknown

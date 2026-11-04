@@ -1,0 +1,18 @@
+name: Ketryx
+summary: Ketryx supports regulated software lifecycle workflows. Its connector gives assistants context for searching and exploring software development, quality, and compliance data used in regulated product environments.
+description: |-
+  Ketryx supports regulated software lifecycle workflows. Its connector gives assistants context for searching and exploring software development, quality, and compliance data used in regulated product environments.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/ketryx)
+category: development
+tags:
+  - development
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/ketryx
+endpoints:
+  - url: https://app.ketryx.com/api/mcp
+    transport: streamable-http
+    auth: oauth

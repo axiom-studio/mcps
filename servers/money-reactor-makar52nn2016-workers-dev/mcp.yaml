@@ -1,0 +1,14 @@
+name: Money Reactor
+summary: 'x402-native micro-APIs as MCP tools: funded crypto bounty feed, GitHub repo honeypot trust scoring, crypto prices, web page reading, crypto news. Pay per call in USDC on Base via the x402 protocol (v1/v2). No accounts, no API keys.'
+category: finance
+tags:
+  - api
+  - crypto
+  - finance
+  - news
+  - web-research
+docs_url: https://money-reactor.makar52nn2016.workers.dev
+endpoints:
+  - url: https://money-reactor.makar52nn2016.workers.dev/mcp
+    transport: streamable-http
+    auth: none

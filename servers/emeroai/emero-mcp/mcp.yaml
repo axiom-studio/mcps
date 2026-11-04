@@ -1,0 +1,13 @@
+name: Emero
+summary: Emero teaches ChatGPT, Claude and other AI assistants to make pro images and video. A second brain built from 6,000+ tested generations and your brand
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - media
+docs_url: https://github.com/EmeroAI/emero-mcp
+endpoints:
+  - url: https://mcp.emero.studio/mcp
+    transport: streamable-http
+    auth: oauth

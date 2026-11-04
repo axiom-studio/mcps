@@ -1,0 +1,12 @@
+name: Keyflight MCP
+summary: Decode Amadeus, Sabre, Galileo and Worldspan PNRs into a readable itinerary, JSON or a ticket PDF.
+category: other
+tags:
+  - data-analysis
+  - document
+  - pdf
+docs_url: https://github.com/Keyflight/keyflight-pnr-mcp
+endpoints:
+  - url: https://keyflight.io/mcp
+    transport: streamable-http
+    auth: api-key

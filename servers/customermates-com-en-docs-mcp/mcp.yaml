@@ -1,0 +1,13 @@
+name: Customermates
+summary: Open-core CRM with native MCP access for contacts, deals and tasks. Self-hostable; external AI clients connect through authenticated Streamable HTTP.
+category: productivity
+tags:
+  - ai-agent
+  - crm
+  - productivity
+  - task-management
+docs_url: https://customermates.com/en/docs/mcp
+endpoints:
+  - url: https://customermates.com/api/v1/mcp
+    transport: streamable-http
+    auth: oauth

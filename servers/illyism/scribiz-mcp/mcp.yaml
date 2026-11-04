@@ -1,0 +1,12 @@
+name: Scribiz
+summary: 'Give your AI agent the context of a video link: transcript, summary, chapters and timestamped answers. Hosted, remote, no account or key needed.'
+category: productivity
+tags:
+  - media
+  - research
+  - video
+docs_url: https://github.com/Illyism/scribiz-mcp
+endpoints:
+  - url: https://scribiz.com/mcp
+    transport: streamable-http
+    auth: none

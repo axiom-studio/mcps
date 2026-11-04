@@ -1,0 +1,12 @@
+name: GroceryPulse Canada
+summary: 'Read-only Canadian grocery-list comparisons: dated chain prices in 16 cities, a cheapest store only when coverage is complete, and links to each store''s own pages. No account or key.'
+category: other
+tags:
+  - data-analysis
+  - grocery
+  - marketplace
+docs_url: https://grocerypulse.ca/agents
+endpoints:
+  - url: https://grocerypulse.ca/api/shopper/mcp
+    transport: streamable-http
+    auth: none

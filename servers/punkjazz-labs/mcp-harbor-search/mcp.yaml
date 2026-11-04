@@ -1,0 +1,12 @@
+name: MCP Harbor (mcp-harbor-search)
+summary: 'Remote MCP server for searching and discovering MCP servers. Endpoint: https://mcpharbor.app/mcp'
+category: search
+tags:
+  - knowledge-retrieval
+  - search
+  - web-research
+docs_url: https://github.com/punkjazz-labs/mcp-harbor-search
+endpoints:
+  - url: https://mcpharbor.app/mcp
+    transport: streamable-http
+    auth: unknown

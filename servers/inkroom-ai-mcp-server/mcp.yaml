@@ -1,0 +1,12 @@
+name: InkRoom
+summary: Generate, edit and upscale images with references, batch jobs, cost previews and original downloads. Connect AI agents to InkRoom using your own MCP Token.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+docs_url: https://inkroom.ai/mcp-server
+endpoints:
+  - url: https://mcp.inkroom.ai
+    transport: streamable-http
+    auth: api-key

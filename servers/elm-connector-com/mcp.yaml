@@ -1,0 +1,13 @@
+name: IBM ELM Connector
+summary: Access to all data of your IBM Engineering Lifecycle Management (ELM) System. Including DOORS Next, Test Management (ETM),  Workflow Management (EWM)
+category: development
+tags:
+  - development
+  - document
+  - project-management
+  - testing-qa
+docs_url: https://elm-connector.com
+endpoints:
+  - url: https://elm-connector.com/mcp
+    transport: streamable-http
+    auth: oauth

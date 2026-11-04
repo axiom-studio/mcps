@@ -1,0 +1,13 @@
+name: DotMoose MCP
+summary: Discover DotMoose hosting and domains, run public internet diagnostics, and securely manage existing hosting services through OAuth.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - deployment
+  - devops-infrastructure
+  - security
+docs_url: https://github.com/dotmoosehosting/dotmoose-mcp
+endpoints:
+  - url: https://mcp.dotmoose.com/public/mcp
+    transport: streamable-http
+    auth: none

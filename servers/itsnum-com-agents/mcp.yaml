@@ -1,0 +1,12 @@
+name: NUM
+summary: Search 2.7M+ real travel places (restaurants, bars, hotels, spas, tours) in 39 countries, and submit a business or promotion for human review.
+category: productivity
+tags:
+  - business-operations
+  - marketplace
+  - search
+docs_url: https://itsnum.com/agents/
+endpoints:
+  - url: https://itsnum.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,11 @@
+name: worldwide eSIM — one eSIM for the whole world
+summary: 'One travel eSIM for 98 countries: live quotes by continent and GB, country check, plus a buy link.'
+category: other
+tags:
+  - communication
+  - ecommerce
+docs_url: https://worldwideesim.com/llms.txt
+endpoints:
+  - url: https://worldwideesim.com/wp-json/worldwideesim/mcp
+    transport: streamable-http
+    auth: none

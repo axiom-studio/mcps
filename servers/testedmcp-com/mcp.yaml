@@ -1,0 +1,13 @@
+name: TestedMCP
+summary: 'We install and test MCP servers: handshake, tool count, context cost and deprecation status for 187 servers. Read-only remote MCP server included.'
+category: development
+tags:
+  - code-quality
+  - development
+  - monitoring
+  - testing-qa
+docs_url: https://testedmcp.com
+endpoints:
+  - url: https://testedmcp.com/mcp
+    transport: streamable-http
+    auth: unknown

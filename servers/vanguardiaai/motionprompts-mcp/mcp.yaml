@@ -1,0 +1,13 @@
+name: motionprompts
+summary: MCP server over a catalog of production-grade GSAP and WebGL motion components. Your agent can plan a page's sections, pick a mechanic for each one, get composition rules so animations don't fight each other, and fetch build prompts validated against live demos. Hosted at motionprompts.dev/mcp or local with npx motionprompts-mcp.
+category: design
+tags:
+  - ai-agent
+  - code-quality
+  - design
+  - development
+docs_url: https://github.com/VanguardiaAI/motionprompts-mcp
+endpoints:
+  - url: https://motionprompts.dev/mcp
+    transport: streamable-http
+    auth: none

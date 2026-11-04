@@ -1,0 +1,24 @@
+name: Function Health
+summary: Function Health is a health-testing membership that tracks biomarkers across heart, hormone, thyroid, liver, kidney, nutrient, and immune health. Its remote MCP server lets members securely view lab results, ask health questions, and create nutrition plans.
+description: |-
+  # Function Health
+
+  Function Health is a health-testing membership that tracks biomarkers across heart, hormone, thyroid, liver, kidney, nutrient, and immune health. Its remote MCP server lets members securely view lab results, ask health questions, and create nutrition plans.
+
+  ## Connection
+
+  https://services.functionhealth.com/ai-chat/mcp
+
+  Publisher documents Streamable HTTP and OAuth 2.0 with Auth0/PKCE. Requires a Function Health membership and completed labs. Anonymous access was blocked; no health data accessed.
+
+  [Publisher or official connector listing](https://services.functionhealth.com/auth0/acul/claude_connector_docs.html)
+category: other
+tags:
+  - other
+  - remote-mcp
+official: true
+docs_url: https://services.functionhealth.com/auth0/acul/claude_connector_docs.html
+endpoints:
+  - url: https://services.functionhealth.com/ai-chat/mcp
+    transport: streamable-http
+    auth: oauth

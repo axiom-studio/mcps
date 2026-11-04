@@ -1,0 +1,13 @@
+name: Reeling MCP
+summary: Open-source MCP adapter for Reeling social video scheduling, delivery-status checks and available analytics. Runs locally or over hosted Streamable HTTP; requires a Reeling API key and eligible connected channels.
+category: marketing
+tags:
+  - analytics
+  - marketing-automation
+  - social-media
+  - video
+docs_url: https://github.com/yomariano/reeling-mcp
+endpoints:
+  - url: https://mcp.reeling.app/mcp
+    transport: streamable-http
+    auth: api-key

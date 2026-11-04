@@ -1,0 +1,13 @@
+name: ASOClimb
+summary: 'Remote MCP server for ASOClimb: App Store and Google Play keyword ranks and history, keyword research, autocomplete, niche analysis, top charts and competitor keyword gaps. OAuth. Free plan; Pro $10/mo includes MCP and API access.'
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - marketplace
+  - seo
+docs_url: https://asoclimb.com/docs/mcp
+endpoints:
+  - url: https://asoclimb.com/mcp
+    transport: streamable-http
+    auth: oauth

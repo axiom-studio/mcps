@@ -1,0 +1,12 @@
+name: CurrencyKit
+summary: 'Official ECB exchange rates: latest, any date since 1999, time series and currency conversion. Free tier, RapidAPI key.'
+category: finance
+tags:
+  - api
+  - data-analysis
+  - finance
+docs_url: https://rapidapi.com/Olly-1VN9JTXKG/api/currencykit-ecb-exchange-rates-currency-converter
+endpoints:
+  - url: https://currencykit-ecb-exchange-rates-currency-converter.p.rapidapi.com/mcp
+    transport: streamable-http
+    auth: api-key

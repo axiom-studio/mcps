@@ -1,0 +1,12 @@
+name: Lasso
+summary: Find unpaid Amazon links, dry-run higher-rate hops, and report clicks for one site.
+category: marketing
+tags:
+  - analytics
+  - ecommerce
+  - marketing
+docs_url: https://getlasso.co/mcp
+endpoints:
+  - url: https://lasso.link/mcp
+    transport: streamable-http
+    auth: api-key

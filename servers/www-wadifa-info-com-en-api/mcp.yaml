@@ -1,0 +1,13 @@
+name: 'Wadifa Info: Morocco Public Jobs'
+summary: 'Moroccan public-sector jobs data: search open recruitment exams (concours) with deadlines and official notices, past exam papers, civil-service net salaries by grade, public and school holidays. Remote, no key, CC BY 4.0.'
+category: search
+tags:
+  - education
+  - government
+  - research
+  - search
+docs_url: https://www.wadifa-info.com/en/api
+endpoints:
+  - url: https://www.wadifa-info.com/mcp
+    transport: streamable-http
+    auth: none

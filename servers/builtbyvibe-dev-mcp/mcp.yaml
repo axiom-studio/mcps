@@ -1,0 +1,13 @@
+name: BuiltByVibe MCP
+summary: Search and discover vibe-coded applications, AI tech stacks, and prompt-built projects directly inside Claude, Cursor, and AI coding agents.
+category: search
+tags:
+  - ai-agent
+  - coding-agent
+  - search
+  - web-research
+docs_url: https://builtbyvibe.dev/mcp
+endpoints:
+  - url: https://builtbyvibe.dev/api/mcp
+    transport: streamable-http
+    auth: none

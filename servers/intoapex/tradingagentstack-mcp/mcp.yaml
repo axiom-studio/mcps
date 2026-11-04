@@ -1,0 +1,13 @@
+name: TradingAgentStack
+summary: Read-only lookup of sourced facts on AI trading tools and broker MCP servers, including which ones can place live orders.
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - marketplace
+  - trading
+docs_url: https://github.com/intoApex/tradingagentstack-mcp
+endpoints:
+  - url: https://tradingagentstack.com/api/mcp
+    transport: streamable-http
+    auth: unknown

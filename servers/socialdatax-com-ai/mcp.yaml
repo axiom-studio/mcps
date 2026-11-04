@@ -1,0 +1,12 @@
+name: SocialDataX 敏感词检测 Sensitive Text Check MCP
+summary: Check text for sensitive words and view SocialDataX credit balance. Hosted MCP with your own API Key; checks consume credits.
+category: other
+tags:
+  - compliance
+  - content-creation
+  - security
+docs_url: https://socialdatax.com/ai?from=mcpservers
+endpoints:
+  - url: https://mcp.socialdatax.com/sensitive-check/mcp
+    transport: streamable-http
+    auth: api-key

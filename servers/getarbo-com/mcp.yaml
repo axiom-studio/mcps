@@ -1,0 +1,13 @@
+name: Arbo
+summary: Plan your client's site structure with AI, get sign-off from a link, keep URLs and export the redirect plan.
+category: design
+tags:
+  - ai-agent
+  - design
+  - document
+  - workflow-automation
+docs_url: https://getarbo.com
+endpoints:
+  - url: https://getarbo.com/api/mcp
+    transport: streamable-http
+    auth: api-key

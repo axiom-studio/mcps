@@ -1,0 +1,13 @@
+name: AppSigma — App Store ASO for AI agents
+summary: Track App Store keyword rankings, competitors and reviews of your apps, and let your AI agent improve them.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - mobile
+  - seo
+docs_url: https://appsigma.io/agent
+endpoints:
+  - url: https://appsigma.io/mcp
+    transport: streamable-http
+    auth: oauth

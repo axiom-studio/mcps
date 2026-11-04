@@ -1,0 +1,13 @@
+name: ShopAIReady
+summary: Read-only MCP tools that check if a small online store and its product feed are ready for ChatGPT shopping and Google Shopping/AI Mode, and draft a supplemental-feed CSV of fixes.
+category: marketing
+tags:
+  - ecommerce
+  - marketing
+  - productivity
+  - seo
+docs_url: https://shopaiready.com/?utm_source=mcpservers&utm_medium=directory&utm_campaign=shopai_dir&utm_content=dir_mcpservers
+endpoints:
+  - url: https://mcp.shopaiready.com/mcp
+    transport: streamable-http
+    auth: unknown

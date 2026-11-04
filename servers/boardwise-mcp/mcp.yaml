@@ -1,0 +1,24 @@
+name: BoardWise
+summary: BoardWise is a read-only educational MCP server for licensed professionals facing state licensing-board matters. It helps assistants find jurisdiction-specific deadlines, outline responses, and surface curated educational resources while avoiding legal-advice claims.
+description: |-
+  # BoardWise
+
+  BoardWise is a read-only educational MCP server for licensed professionals facing state licensing-board matters. It helps assistants find jurisdiction-specific deadlines, outline responses, and surface curated educational resources while avoiding legal-advice claims.
+
+  ## Connection
+
+  https://uakozrqrztgrgwoywxkx.supabase.co/functions/v1/mcp-server
+
+  Current official connector listing identifies this publisher and exact endpoint. Authentication is not inferred from the directory sign-in badge. Access and business tools have not been verified.
+
+  [Publisher or official connector listing](https://claude.com/connectors/boardwise)
+category: other
+tags:
+  - other
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/boardwise
+endpoints:
+  - url: https://uakozrqrztgrgwoywxkx.supabase.co/functions/v1/mcp-server
+    transport: streamable-http
+    auth: unknown

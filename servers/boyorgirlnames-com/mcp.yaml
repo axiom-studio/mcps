@@ -1,0 +1,12 @@
+name: Boy or Girl Names
+summary: Find boy or girl names for your baby
+category: search
+tags:
+  - content-creation
+  - research
+  - search
+docs_url: https://boyorgirlnames.com/
+endpoints:
+  - url: https://boyorgirlnames.com/mcp
+    transport: streamable-http
+    auth: none

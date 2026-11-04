@@ -1,0 +1,12 @@
+name: Dievio
+summary: Search B2B contacts, preview target audiences, look up LinkedIn profile URLs, and manage lead lists from compatible AI assistants. Dievio provides a hosted Streamable HTTP MCP server with OAuth sign-in. Available fields vary by record; exports and enrichment may use credits.
+category: marketing
+tags:
+  - crm
+  - marketing
+  - sales
+docs_url: https://dievio.com/mcp
+endpoints:
+  - url: https://dievio.com/api/mcp
+    transport: streamable-http
+    auth: oauth

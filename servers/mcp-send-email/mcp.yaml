@@ -1,0 +1,13 @@
+name: Resend Email
+summary: Send emails directly from your editor using the Resend API.
+category: communication
+tags:
+  - api
+  - communication
+  - email-automation
+official: true
+docs_url: https://github.com/resend/mcp-send-email
+endpoints:
+  - url: https://mcp.resend.com/mcp
+    transport: streamable-http
+    auth: oauth

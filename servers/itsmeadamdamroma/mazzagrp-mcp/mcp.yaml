@@ -1,0 +1,14 @@
+name: Mazza Group AI APIs
+summary: '23 AI APIs with x402 pay-per-call (USDC on Base): AI agents, RAG, text-to-SQL, negotiation advisor, workflow automation. No API keys or subscriptions - agents pay per request. Free demo tool.'
+category: other
+tags:
+  - ai-agent
+  - payment
+  - rag
+  - sql-agent
+  - workflow-automation
+docs_url: https://github.com/itsmeadamdamroma/mazzagrp-mcp
+endpoints:
+  - url: https://mazzagrp.com/mcp
+    transport: streamable-http
+    auth: none

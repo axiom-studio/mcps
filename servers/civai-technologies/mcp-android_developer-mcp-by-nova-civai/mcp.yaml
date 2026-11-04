@@ -1,0 +1,13 @@
+name: Android Developer MCP by Nova (CIVAI)
+summary: Ship a new Android app from chat. AI runs Google Play Console listings, screenshots, releases, uploads, and reviews.
+category: productivity
+tags:
+  - deployment
+  - marketplace
+  - mobile
+  - workflow-automation
+docs_url: https://github.com/civai-technologies/mcp-android_developer-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-android_developer
+    transport: streamable-http
+    auth: api-key

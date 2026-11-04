@@ -1,0 +1,12 @@
+name: Locus
+summary: Read reviewed location evidence and permitted saved Locus work through an authenticated, read-only MCP connection.
+category: other
+tags:
+  - api
+  - geospatial
+  - knowledge-retrieval
+docs_url: https://www.locusintel.io/docs/api
+endpoints:
+  - url: https://www.locusintel.io/api/mcp/data
+    transport: streamable-http
+    auth: oauth

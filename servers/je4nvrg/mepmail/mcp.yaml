@@ -1,0 +1,12 @@
+name: MepMail
+summary: 'Transactional and marketing email with a Resend-compatible API: send emails, broadcasts, domains, contacts and templates from AI assistants.'
+category: communication
+tags:
+  - communication
+  - email-automation
+  - marketing-automation
+docs_url: https://github.com/JE4NVRG/mepmail
+endpoints:
+  - url: https://api-mepmail.je4ndev.com/mcp
+    transport: streamable-http
+    auth: oauth

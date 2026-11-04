@@ -1,0 +1,13 @@
+name: Store API
+summary: 'One key for 58 models — GPT, Claude, Gemini, DeepSeek, Grok, Qwen, GLM — plus image generation, billed from a prepaid balance. Tools: list_models, ask_model, generate_image, balance.'
+category: development
+tags:
+  - ai-model
+  - api
+  - content-creation
+  - llm
+docs_url: https://store-api.com/mcp-guide
+endpoints:
+  - url: https://store-api.com/mcp
+    transport: streamable-http
+    auth: api-key

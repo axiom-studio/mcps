@@ -1,0 +1,13 @@
+name: Meta Ads MCP by Markifact
+summary: 'Meta Ads MCP server for Facebook and Instagram ads in Claude, ChatGPT, Codex, Cursor and any MCP client: reports with breakdowns, campaigns, ad sets, ads, creatives, audiences and catalogs, with approval on every write. Hosted by Markifact, OAuth login, nothing to install locally.'
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - crm
+  - marketing
+docs_url: https://www.markifact.com/meta-ads-mcp
+endpoints:
+  - url: https://api.markifact.com/mcp/meta-ads
+    transport: streamable-http
+    auth: oauth

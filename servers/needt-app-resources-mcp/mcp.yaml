@@ -1,0 +1,14 @@
+name: Needt
+summary: Remote MCP server (streamable HTTP, OAuth) that lets AI assistants like Claude and ChatGPT read and create tasks, calendar events and docs in Needt, a planner with an AI agent.
+category: productivity
+tags:
+  - ai-agent
+  - calendar
+  - document
+  - productivity
+  - task-management
+docs_url: https://needt.app/resources/mcp/
+endpoints:
+  - url: https://mcp.needt.app/mcp
+    transport: streamable-http
+    auth: oauth

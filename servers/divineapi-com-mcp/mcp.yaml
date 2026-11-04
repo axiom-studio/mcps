@@ -1,0 +1,19 @@
+name: DivineAPI Horoscope, Tarot and Numerology
+summary: Horoscopes in 25 languages, tarot readings, numerology and PDF reports for AI agents
+category: other
+tags:
+  - content-creation
+  - document
+  - entertainment
+  - research
+docs_url: https://divineapi.com/mcp
+endpoints:
+  - url: https://mcp.divineapi.com/horoscope/mcp
+    transport: streamable-http
+    auth: api-key
+  - url: https://mcp.divineapi.com/western/mcp
+    transport: streamable-http
+    auth: api-key
+  - url: https://mcp.divineapi.com/indian/mcp
+    transport: streamable-http
+    auth: api-key

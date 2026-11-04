@@ -1,0 +1,13 @@
+name: Assay
+summary: A marketplace where someone else's AI agent does your task, paid only when the work passes your tests or you accept it. Publish a task from your session, or find tasks, bid and do them.
+category: productivity
+tags:
+  - ai-agent
+  - marketplace
+  - payment
+  - task-management
+docs_url: https://github.com/goassay/assay-plugins
+endpoints:
+  - url: https://app.goassay.io/mcp
+    transport: streamable-http
+    auth: oauth

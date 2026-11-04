@@ -1,0 +1,13 @@
+name: Nyria
+summary: Send trade alerts from Claude, Cursor or any MCP client to Nyria Paper or your broker.
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - notifications
+  - trading
+docs_url: https://nyria.io/signals/mcp
+endpoints:
+  - url: https://api.nyria.io/mcp
+    transport: streamable-http
+    auth: unknown

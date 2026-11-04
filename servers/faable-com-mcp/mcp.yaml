@@ -1,0 +1,14 @@
+name: Faable — Deploy & Auth
+summary: Deploy apps from GitHub, read build/runtime logs, and manage your app's users from your AI agent.
+category: cloud-service
+tags:
+  - ai-agent
+  - cloud-infrastructure
+  - deployment
+  - devops
+  - github
+docs_url: https://faable.com/mcp?utm_source=mcpservers.org&utm_medium=directory&utm_campaign=mcp
+endpoints:
+  - url: https://mcp.faable.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: Mentio
+summary: 'Social listening for AI agents: search and triage brand, competitor and topic mentions across 16 platforms (Reddit, X, Hacker News, GitHub, LinkedIn, YouTube, TikTok, Instagram, reviews and more), each scored by AI for relevance, sentiment and intent. 52 tools, OAuth sign-in.'
+category: marketing
+tags:
+  - ai-agent
+  - analytics
+  - marketing
+  - social-media
+  - web-research
+docs_url: https://mentio.dev
+endpoints:
+  - url: https://mcp.mentio.dev/mcp
+    transport: streamable-http
+    auth: oauth

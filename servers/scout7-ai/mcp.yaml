@@ -1,0 +1,14 @@
+name: Scout7
+summary: Run a week of organic marketing on loop from your AI agent — Scout7 plans your week, makes the content, schedules it, and reports what moved. You approve before anything goes live.
+category: marketing
+tags:
+  - analytics
+  - content-creation
+  - marketing-automation
+  - social-media
+  - workflow-automation
+docs_url: https://scout7.ai/?utm_source=mcpservers&utm_medium=listing&utm_campaign=mcp-directories&ref=mcpservers
+endpoints:
+  - url: https://mcp.scout7.ai/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: Altcoin Chasers HQ
+summary: 'AI crypto research for agents from Altcoin Chasers HQ: rug and token-security checks, smart-money flows, launch and surge scanners, daily picks, wallet forensics, market sentiment/regime, Polymarket and Hyperliquid perps context, research jobs and exact-contract monitors (22 tools). Remote streamable HTTP at https://altcoinchasershq.app/mcp. Research only, not financial advice.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - research
+  - security
+  - trading
+docs_url: https://altcoinchasershq.app/agents
+endpoints:
+  - url: https://altcoinchasershq.app/mcp
+    transport: streamable-http
+    auth: unknown

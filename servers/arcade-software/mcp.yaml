@@ -1,0 +1,13 @@
+name: Arcade
+summary: Create polished, on-brand product videos directly from ChatGPT with Arcade. Turn a prompt, product brief, screenshots, or meeting notes into a finished video with custom visuals, animations, and narration. Use Arcade to create product launches, feature walkthroughs, sales demos, and marketing videos without leaving your conversation. Connect Arcade with apps like Figma, Notion, Granola, and Slack to turn your existing work into videos, from initial idea to finished result.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - productivity
+  - video
+docs_url: https://arcade.software
+endpoints:
+  - url: https://mcp.arcade.software/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: OpenBtoB
+summary: HS code lookup in English, Vietnamese, Chinese and more, duty by route into the US, EU, China and Vietnam, sanctions screening, buyer search, with sources.
+category: finance
+tags:
+  - compliance
+  - data-analysis
+  - finance
+  - research
+docs_url: https://openbtob.com/mcp
+endpoints:
+  - url: https://mcp.openbtob.com/mcp
+    transport: streamable-http
+    auth: api-key

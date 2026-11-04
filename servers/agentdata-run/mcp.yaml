@@ -1,0 +1,12 @@
+name: AgentData (agentdata.run)
+summary: 'Free company data for AI agents: company profiles, tech stacks with evidence and first/last-seen dates, email formats and recent tool switches for any business website. Hosted remote server, no sign-in, no card.'
+category: marketing
+tags:
+  - data-analysis
+  - marketing
+  - research
+docs_url: https://agentdata.run
+endpoints:
+  - url: https://mcp.agentdata.run/mcp
+    transport: streamable-http
+    auth: none

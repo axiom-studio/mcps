@@ -1,0 +1,13 @@
+name: Misar.Blog MCP Server
+summary: Write, publish, and grow a blog from an AI assistant. 23 tools, 8 prompts, 5 resources. Works with Claude, Cursor, VS Code, Windsurf & any MCP client.
+category: marketing
+tags:
+  - cms
+  - content-creation
+  - marketing
+  - workflow-automation
+docs_url: https://github.com/Misar-AI/misarblog-mcp
+endpoints:
+  - url: https://www.misar.blog/api/mcp
+    transport: streamable-http
+    auth: unknown

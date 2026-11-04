@@ -1,0 +1,13 @@
+name: ModernCV Resume MCP
+summary: 'Free no-sign-up resume builder with remote MCP for agents. 40 templates (16 ATS-friendly), JSON Resume, vector PDF. Data stays in browser. MCP: https://genedai.cv/mcp'
+category: productivity
+tags:
+  - ai-agent
+  - document
+  - pdf
+  - productivity
+docs_url: https://genedai.cv
+endpoints:
+  - url: https://genedai.cv/mcp
+    transport: streamable-http
+    auth: none

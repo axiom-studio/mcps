@@ -1,0 +1,13 @@
+name: SunsetDiff
+summary: AI model shutdown dates, replacements, and migration diffs for OpenAI, Anthropic, Google and more. Free, no API key.
+category: development
+tags:
+  - ai-model
+  - anthropic
+  - development
+  - openai
+docs_url: https://sunsetdiff.com/mcp/
+endpoints:
+  - url: https://sunsetdiff-api.onrender.com/mcp
+    transport: streamable-http
+    auth: unknown

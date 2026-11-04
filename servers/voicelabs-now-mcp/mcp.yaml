@@ -1,0 +1,12 @@
+name: VoiceLabs
+summary: Text-to-speech, voice cloning and transcription for AI assistants, over a hosted OAuth MCP server.
+category: other
+tags:
+  - ai-agent
+  - audio
+  - text-to-speech
+docs_url: https://voicelabs.now/mcp
+endpoints:
+  - url: https://app.voicelabs.now/api/mcp
+    transport: streamable-http
+    auth: unknown

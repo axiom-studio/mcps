@@ -1,0 +1,13 @@
+name: STEADYWRK
+summary: Keyless storefront readiness probe for AI shopping agents, with a Store Guard audit link, plus dispatch estimates.
+category: other
+tags:
+  - ai-agent
+  - analytics
+  - ecommerce
+  - testing-qa
+docs_url: https://steadywrk.app/developers/mcp?utm_source=mcpservers-org&utm_medium=directory&utm_campaign=mcp-listing
+endpoints:
+  - url: https://steadywrk.app/api/mcp
+    transport: streamable-http
+    auth: none

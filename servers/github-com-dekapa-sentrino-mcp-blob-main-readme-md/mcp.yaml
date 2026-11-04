@@ -1,0 +1,13 @@
+name: Sentrino-mcp
+summary: Agentic AI pipeline that searches financial news, scores sentiment, and delivers an interactive price-volume-sentiment score dashboard — triggered by a single command inside Claude.
+category: finance
+tags:
+  - ai-agent
+  - data-analysis
+  - finance
+  - news
+docs_url: https://github.com/dekapa/sentrino-mcp/blob/main/Readme.md
+endpoints:
+  - url: https://sentrino-mcp.onrender.com/mcp
+    transport: streamable-http
+    auth: api-key

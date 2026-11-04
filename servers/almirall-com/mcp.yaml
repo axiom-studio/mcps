@@ -1,0 +1,13 @@
+name: Almirall MCP Official
+summary: Official Almirall MCP server for intelligent search and retrieval of indexed website content, including pages, sources, products, and embedded assets.
+category: marketing
+tags:
+  - content-creation
+  - knowledge-retrieval
+  - search
+  - web-research
+docs_url: https://almirall.com
+endpoints:
+  - url: https://mcp.almirall.com/mcp
+    transport: streamable-http
+    auth: unknown

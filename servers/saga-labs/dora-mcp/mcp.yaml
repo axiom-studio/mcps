@@ -1,0 +1,13 @@
+name: Dora AI Video
+summary: 'AI video and image generation for any MCP client: Veo, Kling, Seedance and Grok through one OAuth login. Turn text or a photo into a video from Claude, ChatGPT, Cursor or any agent.'
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - video
+docs_url: https://github.com/Saga-Labs/dora-mcp
+endpoints:
+  - url: https://doravideo.com/mcp
+    transport: streamable-http
+    auth: oauth

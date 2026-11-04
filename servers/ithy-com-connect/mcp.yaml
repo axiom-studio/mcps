@@ -1,0 +1,13 @@
+name: Ithy Research Library
+summary: Find explanations and worked examples in Ithy’s public article library. Search by topic and language, read relevant passages, and follow links to the original sources. Read-only; no account or API key required.
+category: search
+tags:
+  - knowledge-retrieval
+  - research
+  - search
+  - web-research
+docs_url: https://ithy.com/connect
+endpoints:
+  - url: https://ithy.com/mcp
+    transport: streamable-http
+    auth: none

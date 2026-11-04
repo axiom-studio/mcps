@@ -1,0 +1,13 @@
+name: SolidInvoice MCP
+summary: Create and send invoices and quotes, manage clients, record payments, and check what's overdue in SolidInvoice, all from your AI assistant.
+category: finance
+tags:
+  - business-operations
+  - finance
+  - payment
+  - productivity
+docs_url: https://solidinvoice.co/docs/ai/mcp-server/
+endpoints:
+  - url: https://solidinvoice.app/_mcp
+    transport: streamable-http
+    auth: oauth

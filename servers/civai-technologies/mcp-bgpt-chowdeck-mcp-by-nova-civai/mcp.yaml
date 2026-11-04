@@ -1,0 +1,12 @@
+name: ChowDeck MCP by Nova (CIVAI)
+summary: 'Order food on ChowDeck: browse restaurants, set your delivery address, build a cart, and check out when you are ready.'
+category: productivity
+tags:
+  - ecommerce
+  - productivity
+  - workflow-automation
+docs_url: https://github.com/civai-technologies/mcp-bgpt-chowdeck-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-bgpt-chowdeck
+    transport: streamable-http
+    auth: api-key

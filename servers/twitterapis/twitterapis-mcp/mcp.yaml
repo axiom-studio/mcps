@@ -1,0 +1,14 @@
+name: TwitterAPIs MCP
+summary: 112 Twitter/X endpoints (68 reads, 44 writes) behind one hosted key or an MCP server for Claude and Cursor. $0.50 free credits at signup, no card needed.
+category: communication
+tags:
+  - api
+  - communication
+  - social-media
+  - x-twitter
+registry_name: io.github.TwitterAPIs/twitterapis-mcp
+docs_url: https://github.com/TwitterAPIs/twitterapis-mcp
+endpoints:
+  - url: https://api.twitterapis.com/mcp
+    transport: streamable-http
+    auth: oauth

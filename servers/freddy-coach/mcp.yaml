@@ -1,0 +1,13 @@
+name: freddy
+summary: 'freddy connects Garmin, Apple Health, Health Connect and 100+ sources to your own AI: ChatGPT, Claude, Grok or any MCP client. Your AI does the analysis.'
+category: other
+tags:
+  - ai-agent
+  - fitness
+  - healthcare
+  - wearable
+docs_url: https://freddy.coach
+endpoints:
+  - url: https://freddy.coach/mcp
+    transport: streamable-http
+    auth: unknown

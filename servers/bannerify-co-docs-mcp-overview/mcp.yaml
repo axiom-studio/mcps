@@ -1,0 +1,13 @@
+name: Bannerify
+summary: Generate images and PDFs from your Bannerify templates, or compose a one-off image from shapes. Remote server with OAuth sign-in.
+category: design
+tags:
+  - content-creation
+  - design
+  - icon-generation
+  - pdf
+docs_url: https://bannerify.co/docs/mcp/overview
+endpoints:
+  - url: https://api.bannerify.co/mcp
+    transport: streamable-http
+    auth: unknown

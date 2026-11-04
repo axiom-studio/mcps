@@ -1,0 +1,13 @@
+name: Kizunatap
+summary: 'Digital business card (NFC tag or QR) with a remote MCP server at https://kizunatap.com/mcp (HTTP transport, API key as Bearer token). Claude Code and Codex can search exchanged contacts, add notes and build the card page. Write tools run only with confirm: true.'
+category: productivity
+tags:
+  - api
+  - business-operations
+  - crm
+  - productivity
+docs_url: https://kizunatap.com/integrations
+endpoints:
+  - url: https://kizunatap.com/mcp
+    transport: streamable-http
+    auth: api-key

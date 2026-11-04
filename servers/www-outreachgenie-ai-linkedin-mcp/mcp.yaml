@@ -1,0 +1,14 @@
+name: OutreachGenie MCP
+summary: Free hosted MCP server for OutreachGenie prospect lists, outreach flows, campaign drafts and content. OAuth scopes access to the workspace selected at sign-in. The separate browser companion performs LinkedIn actions. Submitted by Moez Zhioua, founder.
+category: marketing
+tags:
+  - browser-automation
+  - crm
+  - marketing
+  - sales
+  - workflow-automation
+docs_url: https://www.outreachgenie.ai/linkedin-mcp
+endpoints:
+  - url: https://api.outreachgenie.ai/mcp
+    transport: streamable-http
+    auth: oauth

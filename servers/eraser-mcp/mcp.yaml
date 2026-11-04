@@ -1,0 +1,19 @@
+name: Eraser
+summary: Eraser helps teams generate, manage, and update diagrams and technical files. Its connector lets assistants create and revise visual system artifacts so architecture, product, and engineering ideas can be captured from conversation.
+description: |-
+  Eraser helps teams generate, manage, and update diagrams and technical files. Its connector lets assistants create and revise visual system artifacts so architecture, product, and engineering ideas can be captured from conversation.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://docs.eraser.io/mcp)
+category: development
+tags:
+  - development
+  - remote-mcp
+official: true
+registry_name: io.eraser/eraser
+docs_url: https://docs.eraser.io/mcp
+endpoints:
+  - url: https://app.eraser.io/api/mcp
+    transport: streamable-http
+    auth: oauth

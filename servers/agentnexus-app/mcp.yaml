@@ -1,0 +1,13 @@
+name: Agent Nexus
+summary: Agent-native registry of APIs, MCP servers and CLIs with live health checks.
+category: development
+tags:
+  - api
+  - development
+  - knowledge-retrieval
+  - marketplace
+docs_url: https://agentnexus.app
+endpoints:
+  - url: https://agentnexus.app/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Productify
+summary: Create, write and publish Printify products from chat, after a preview you approve.
+category: productivity
+tags:
+  - content-creation
+  - ecommerce
+  - productivity
+  - workflow-automation
+docs_url: https://www.useproductify.com/mcp
+endpoints:
+  - url: https://www.useproductify.com/api/mcp
+    transport: streamable-http
+    auth: oauth

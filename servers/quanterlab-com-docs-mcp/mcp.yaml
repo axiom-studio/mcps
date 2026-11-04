@@ -1,0 +1,13 @@
+name: QuanterLab
+summary: Backtest trading rules and read registered finance studies from Claude or ChatGPT, on point-in-time data.
+category: finance
+tags:
+  - ai-agent
+  - data-analysis
+  - finance
+  - trading
+docs_url: https://quanterlab.com/docs/mcp
+endpoints:
+  - url: https://quanterlab.com/mcp
+    transport: streamable-http
+    auth: oauth

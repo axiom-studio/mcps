@@ -1,0 +1,12 @@
+name: Teletype MCP
+summary: Connect AI assistants to Teletype to read customer conversations, manage contacts, and send replies across messaging channels.
+category: communication
+tags:
+  - communication
+  - crm
+  - customer-ops
+docs_url: https://github.com/Teletype-App/teletype-mcp-server
+endpoints:
+  - url: https://mcp.teletype.app/mcp
+    transport: streamable-http
+    auth: api-key

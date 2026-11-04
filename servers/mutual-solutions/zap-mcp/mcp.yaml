@@ -1,0 +1,12 @@
+name: Zap! KiCad autorouter
+summary: 'Route a placed KiCad board (.kicad_pcb) on the hosted Zap! auto-router and get it back with tracks, vias and copper pours, plus a JSON report: missing connections, DRC errors, shorts, JLCPCB capability and copper heat. Free trial for small boards with no key.'
+category: development
+tags:
+  - design-to-code
+  - development
+  - workflow-automation
+docs_url: https://github.com/mutual-solutions/zap-mcp
+endpoints:
+  - url: https://zap.mutual.solutions/mcp
+    transport: streamable-http
+    auth: oauth

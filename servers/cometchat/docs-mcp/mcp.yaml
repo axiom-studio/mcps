@@ -1,0 +1,14 @@
+name: CometChat Docs
+summary: 'CometChat docs search + implementation bundles: add chat, voice, video & moderation to your app.'
+category: communication
+tags:
+  - communication
+  - content-creation
+  - document
+  - documentation
+  - video
+docs_url: https://github.com/cometchat/docs-mcp
+endpoints:
+  - url: https://mcp.cometchat.com/mcp
+    transport: streamable-http
+    auth: none

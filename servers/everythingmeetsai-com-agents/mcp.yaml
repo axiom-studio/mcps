@@ -1,0 +1,12 @@
+name: EverythingMeetsAI
+summary: 'AI''s impact on real-world sectors, as a structured record for agents: source-linked headlines placed in one of 18 sectors (healthcare, law, retail, government, defense and more), with outlet, country and time, since June 2026. No article text.'
+category: search
+tags:
+  - news
+  - research
+  - web-research
+docs_url: https://everythingmeetsai.com/agents
+endpoints:
+  - url: https://everythingmeetsai.com/mcp
+    transport: streamable-http
+    auth: none

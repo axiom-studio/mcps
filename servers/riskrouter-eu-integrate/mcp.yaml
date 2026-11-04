@@ -1,0 +1,13 @@
+name: RiskRouter evidence log
+summary: Hosted MCP endpoint for a tamper-evident evidence log. Without a key, read signed heads, inclusion and consistency proofs and checkpoints; with one, record the salted SHA-256 of a decision record. The record itself never leaves you.
+category: development
+tags:
+  - compliance
+  - data-analysis
+  - document
+  - security
+docs_url: https://riskrouter.eu/integrate#mcp
+endpoints:
+  - url: https://api.riskrouter.eu/mcp
+    transport: streamable-http
+    auth: unknown

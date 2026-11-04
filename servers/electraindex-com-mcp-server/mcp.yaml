@@ -1,0 +1,12 @@
+name: Electra Index
+summary: 'Find MCP servers and AI agents: live-tested status, use-case rankings and verified agent prices. Read-only, free tools, no key needed. Endpoint: https://electraindex.com/api/mcp'
+category: database
+tags:
+  - ai-agent
+  - marketplace
+  - search
+docs_url: https://electraindex.com/mcp-server
+endpoints:
+  - url: https://electraindex.com/api/mcp
+    transport: streamable-http
+    auth: none

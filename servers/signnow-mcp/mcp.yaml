@@ -1,0 +1,18 @@
+name: SignNow
+summary: SignNow is an e-signature platform for sending, signing, and managing documents. Its remote MCP server connects assistants to signing workflows so documents can be prepared, sent for signature, and tracked without switching tools.
+description: |-
+  SignNow is an e-signature platform for sending, signing, and managing documents. Its remote MCP server connects assistants to signing workflows so documents can be prepared, sent for signature, and tracked without switching tools.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://docs.signnow.com/docs/mcp-server)
+category: productivity
+tags:
+  - productivity
+  - remote-mcp
+official: true
+docs_url: https://docs.signnow.com/docs/mcp-server
+endpoints:
+  - url: https://mcp-server.signnow.com/mcp
+    transport: streamable-http
+    auth: oauth

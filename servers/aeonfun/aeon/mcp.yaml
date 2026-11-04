@@ -1,0 +1,12 @@
+name: Aeon
+summary: 'Run and manage your Aeon autonomous agent from chat: skills, runs, memory, strategy, packs and settings.'
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - workflow-automation
+docs_url: https://github.com/aeonfun/aeon
+endpoints:
+  - url: https://www.aeon.fun/connect/mcp
+    transport: streamable-http
+    auth: oauth

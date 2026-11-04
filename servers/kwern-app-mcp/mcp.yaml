@@ -1,0 +1,12 @@
+name: Kwern
+summary: Remote MCP server for Kwern's approval feed and connectors
+category: marketing
+tags:
+  - business-operations
+  - marketing
+  - workflow-automation
+docs_url: https://kwern.app/mcp
+endpoints:
+  - url: https://api.kwern.app/mcp
+    transport: streamable-http
+    auth: oauth

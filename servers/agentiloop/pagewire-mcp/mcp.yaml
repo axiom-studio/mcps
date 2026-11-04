@@ -1,0 +1,13 @@
+name: PageWire
+summary: 'Read any public web page as clean Markdown, get page metadata (OpenGraph, Twitter, JSON-LD), or read a page plus up to 4 same-site pages. Pay per call in USDC via x402 or MPP, no account or API key. Remote MCP: https://pagewire.dev/mcp'
+category: web-scraping
+tags:
+  - browser-automation
+  - content-creation
+  - research
+  - web-scraping
+docs_url: https://github.com/AgentiLoop/pagewire-mcp
+endpoints:
+  - url: https://pagewire.dev/mcp
+    transport: streamable-http
+    auth: none

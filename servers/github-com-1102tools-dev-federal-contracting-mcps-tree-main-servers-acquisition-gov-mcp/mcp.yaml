@@ -1,0 +1,12 @@
+name: Acquisition.gov MCP by 1102tools
+summary: 'Free hosted MCP server for Acquisition.gov: FAR Overhaul model text, posted agency deviations and guidance. Connect at https://acquisition-gov.1102tools.com/mcp with nothing to install and no API key. Open source (MIT).'
+category: other
+tags:
+  - compliance
+  - government
+  - knowledge-retrieval
+docs_url: https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/acquisition-gov-mcp
+endpoints:
+  - url: https://acquisition-gov.1102tools.com/mcp
+    transport: streamable-http
+    auth: none

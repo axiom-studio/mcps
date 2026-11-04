@@ -1,0 +1,13 @@
+name: TrackForge
+summary: 'Check a catalogue against The MLC: which recordings have no linked work or an unclaimed share. See a song''s writers, publishers, ISWC and IPI numbers. Validate CWR files before you send them.'
+category: other
+tags:
+  - compliance
+  - data-analysis
+  - database
+  - music
+docs_url: https://trackforge.studio/mcp
+endpoints:
+  - url: https://api.trackforge.studio/api/v1/mcp
+    transport: streamable-http
+    auth: none

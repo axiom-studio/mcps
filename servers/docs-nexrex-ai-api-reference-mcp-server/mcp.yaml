@@ -1,0 +1,13 @@
+name: NexRex
+summary: 'Running training and coaching: activities, plans, recovery, rosters and plan drafts.'
+category: productivity
+tags:
+  - fitness
+  - healthcare
+  - productivity
+  - sports
+docs_url: https://docs.nexrex.ai/api-reference/mcp-server
+endpoints:
+  - url: https://mcp.nexrex.ai/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: MRR Ledger
+summary: Sourced revenue data on real AI-agent businesses. Every figure links to its source. Read-only API + MCP, no key.
+category: other
+tags:
+  - api
+  - data-analysis
+  - finance
+  - research
+docs_url: https://mrrledger.com/for-agents/
+endpoints:
+  - url: https://mrrledger.com/mcp
+    transport: streamable-http
+    auth: none

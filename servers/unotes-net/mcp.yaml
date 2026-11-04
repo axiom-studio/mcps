@@ -1,0 +1,13 @@
+name: uNotes
+summary: Search university course materials, your flashcards, quizzes, study streak and quota from your AI assistant. All tools read-only.
+category: productivity
+tags:
+  - education
+  - notes
+  - productivity
+  - search
+docs_url: https://unotes.net
+endpoints:
+  - url: https://unotes.net/api/mcp
+    transport: streamable-http
+    auth: oauth

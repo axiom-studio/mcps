@@ -1,0 +1,13 @@
+name: Youth4work Public MCP
+summary: 'Read-only public MCP for Youth4work, the Indian talent assessment and careers platform: search public profiles, live jobs, mock tests and colleges; every result links to its page.'
+category: search
+tags:
+  - education
+  - marketplace
+  - research
+  - search
+docs_url: https://www.youth4work.com/
+endpoints:
+  - url: https://mcp.youth4work.com/public/mcp
+    transport: streamable-http
+    auth: none

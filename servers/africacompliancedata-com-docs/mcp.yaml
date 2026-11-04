@@ -1,0 +1,13 @@
+name: Africa Compliance Data
+summary: Public holidays, business days, VAT, withholding tax, tax treaties, tax ID formats and filing deadlines for 54 African countries. Every value cites its source.
+category: finance
+tags:
+  - compliance
+  - database
+  - finance
+  - government
+docs_url: https://africacompliancedata.com/docs
+endpoints:
+  - url: https://api.africacompliancedata.com/mcp
+    transport: streamable-http
+    auth: api-key

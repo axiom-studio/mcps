@@ -1,0 +1,14 @@
+name: PageToVid
+summary: 'Turn any web page into a narrated video: films the real site, writes the script, voices it in 13 languages, captions it and renders an MP4. Also animates your own content. Remote server, OAuth.'
+category: marketing
+tags:
+  - browser-automation
+  - content-creation
+  - marketing
+  - text-to-speech
+  - video
+docs_url: https://pagetovid.com/assistants
+endpoints:
+  - url: https://pagetovid.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,11 @@
+name: TuringCorp Decider
+summary: A decision model for the calls that don't have a right answer. The better option, with a reason.
+category: productivity
+tags:
+  - ai-model
+  - productivity
+docs_url: https://github.com/TuringCorp-net/MCP
+endpoints:
+  - url: https://mcp.turingcorp.net/mcp
+    transport: streamable-http
+    auth: api-key

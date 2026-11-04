@@ -1,0 +1,11 @@
+name: OpenStays.AI
+summary: Public property data for AI travel agents
+category: search
+tags:
+  - api
+  - search
+docs_url: https://openstays.ai/developers
+endpoints:
+  - url: https://openstays.ai/api/mcp
+    transport: streamable-http
+    auth: none

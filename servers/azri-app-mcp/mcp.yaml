@@ -1,0 +1,13 @@
+name: Azri Flashcards
+summary: Save flashcards from your AI chats to Azri, the spaced repetition (FSRS) app for iPhone and iPad, and search the cards you already have.
+category: productivity
+tags:
+  - education
+  - mobile
+  - notes
+  - productivity
+docs_url: https://azri.app/mcp/
+endpoints:
+  - url: https://mcp.azri.app/v1/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: CodexPluginStats
+summary: Search Codex plugins, inspect archived files and changes through remote MCP. Account and OAuth required.
+category: search
+tags:
+  - knowledge-retrieval
+  - search
+  - web-research
+docs_url: https://codex-plugin-stats.com/docs/mcp
+endpoints:
+  - url: https://codex-plugin-stats.com/mcp
+    transport: streamable-http
+    auth: oauth

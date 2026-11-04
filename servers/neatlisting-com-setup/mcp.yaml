@@ -1,0 +1,13 @@
+name: NeatListing
+summary: 'Free hosted MCP server that lets Claude, ChatGPT, Codex or any agent edit Google Business Profiles (Google My Business): hours, holiday hours, posts, photos, review replies, menus and 18 months of performance data. Owners sign in with Google once; no Google API approval needed. Name and address stay locked, risky edits wait for approval, every change can be undone.'
+category: marketing
+tags:
+  - business-operations
+  - google-sheets
+  - marketing
+  - productivity
+docs_url: https://neatlisting.com/setup
+endpoints:
+  - url: https://app.neatlisting.com/mcp
+    transport: streamable-http
+    auth: oauth

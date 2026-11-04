@@ -1,0 +1,14 @@
+name: Coil Live
+summary: 'Stock and crypto market reads for AI agents: the market regime, a ranked buy list and stock and sector reads on 650+ US stocks and ETFs, BTC/ETH trend gates and an 81-coin crypto map. Free tools need no sign-in (one market day delayed); live intraday reads with Coil Live, or per read over x402. Read-only research, not advice.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - finance
+  - marketplace
+  - trading
+docs_url: https://coil.trade/agents
+endpoints:
+  - url: https://mcp.coil.trade/mcp
+    transport: streamable-http
+    auth: oauth

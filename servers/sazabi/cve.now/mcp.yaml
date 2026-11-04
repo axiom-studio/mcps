@@ -1,0 +1,13 @@
+name: cve.now
+summary: 'Free vulnerability lookup for coding agents: any CVE, GHSA or OSV id, filtered feeds, and lockfile checks. No login.'
+category: development
+tags:
+  - coding-agent
+  - development
+  - security
+  - threat-intelligence
+docs_url: https://github.com/sazabi/cve.now
+endpoints:
+  - url: https://mcp.cve.now/mcp
+    transport: streamable-http
+    auth: none

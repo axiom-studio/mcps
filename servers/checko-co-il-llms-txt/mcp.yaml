@@ -1,0 +1,10 @@
+name: Checko — travel insurance comparison
+summary: Compare travel insurance for trips abroad from Israel on Checko (checko.co.il). Takes trip details only (destination, dates, travellers' ages, optional extras) and returns a trip card with a link that continues the comparison on checko.co.il. No prices or personal data in the chat.
+category: finance
+tags:
+  - finance
+docs_url: https://checko.co.il/llms.txt
+endpoints:
+  - url: https://checko.co.il/mcp
+    transport: streamable-http
+    auth: unknown

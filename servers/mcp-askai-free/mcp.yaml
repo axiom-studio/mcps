@@ -1,0 +1,12 @@
+name: ASKAI Media Workspace
+summary: Securely browse and organize images, videos, GIFs, and active media jobs in your private ASKAI workspace.
+category: productivity
+tags:
+  - file-management
+  - media
+  - productivity
+docs_url: https://mcp.askai.free/
+endpoints:
+  - url: https://mcp.askai.free
+    transport: streamable-http
+    auth: oauth

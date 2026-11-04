@@ -1,0 +1,12 @@
+name: SniffPup
+summary: 'Free passive security scan of a live site you own: leaked keys, exposed .env/.git, source maps, open database access, security headers. One no-auth tool (scan_site); paid plans add more tools with a token.'
+category: other
+tags:
+  - compliance
+  - security
+  - web-scraping
+docs_url: https://sniffpup.com/docs/mcp
+endpoints:
+  - url: https://sniffpup.com/api/mcp
+    transport: streamable-http
+    auth: unknown

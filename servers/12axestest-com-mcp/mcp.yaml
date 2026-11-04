@@ -1,0 +1,12 @@
+name: 12axestest
+summary: 'Take the 12 Axes political test inside Claude, ChatGPT, Cursor or VS Code: score it, match 195 countries, look up figures and ideologies. Free, no key.'
+category: other
+tags:
+  - data-analysis
+  - geospatial
+  - research
+docs_url: https://12axestest.com/mcp/
+endpoints:
+  - url: https://12axestest.com/api/mcp
+    transport: streamable-http
+    auth: none

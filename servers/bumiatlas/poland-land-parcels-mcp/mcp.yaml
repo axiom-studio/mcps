@@ -1,0 +1,13 @@
+name: Poland Land Parcels & Sale Prices (EGiB · RCN · Działki)
+summary: Polish EGiB cadastral parcels by id_działki or coordinates, with RCN sale prices.
+category: other
+tags:
+  - database
+  - geospatial
+  - government
+  - real-estate
+docs_url: https://github.com/BumiAtlas/poland-land-parcels-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/poland
+    transport: streamable-http
+    auth: oauth

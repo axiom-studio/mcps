@@ -1,0 +1,13 @@
+name: AI Minecraft Skins & Builds MCP
+summary: Allows you to generate Minecraft skins, builds, texture packs and more.
+category: development
+tags:
+  - ai-model
+  - content-creation
+  - gaming
+  - icon-generation
+docs_url: https://app.photo2skin.com/agents
+endpoints:
+  - url: https://mcp.photo2skin.com/mcp
+    transport: streamable-http
+    auth: oauth

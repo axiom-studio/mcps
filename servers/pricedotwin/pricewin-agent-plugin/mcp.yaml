@@ -1,0 +1,11 @@
+name: PriceWin
+summary: Compare live hotel and flight prices across Booking.com, Agoda, Trip.com and Traveloka, in USD, with links to book at the source. Hosted remote server, no account or API key.
+category: search
+tags:
+  - search
+  - web-research
+docs_url: https://github.com/PriceDotWin/pricewin-agent-plugin
+endpoints:
+  - url: https://mcp.price.win/mcp
+    transport: streamable-http
+    auth: none

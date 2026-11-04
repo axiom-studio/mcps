@@ -1,0 +1,13 @@
+name: KeepBal
+summary: 'KeepBal: one API key and prepaid wallet for 2500+ agent tools and models. Inspect pricing free; pay only for successful runs. No subscription.'
+category: development
+tags:
+  - ai-agent
+  - ai-model
+  - api
+  - payment
+docs_url: https://keepbal.com
+endpoints:
+  - url: https://keepbal.com/mcp
+    transport: streamable-http
+    auth: api-key

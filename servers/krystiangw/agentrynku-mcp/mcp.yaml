@@ -1,0 +1,12 @@
+name: Agent Rynku (Warsaw Stock Exchange / GPW)
+summary: 'Warsaw Stock Exchange (GPW) data for AI agents: quotes, ESPI/EBI filings with an assessment of each one, quarterly KPIs from company reports, earnings forecasts with a track record, and portfolio analytics in PLN. 93 tools, hosted, free account.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+docs_url: https://github.com/krystiangw/agentrynku-mcp
+endpoints:
+  - url: https://agentrynku.pl/api/mcp
+    transport: streamable-http
+    auth: api-key

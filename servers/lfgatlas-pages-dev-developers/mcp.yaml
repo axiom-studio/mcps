@@ -1,0 +1,12 @@
+name: LFG Atlas
+summary: Find live looking-for-group posts for 28+ games and post an LFG for the user. Free, no account.
+category: other
+tags:
+  - gaming
+  - marketplace
+  - social-media
+docs_url: https://lfgatlas.pages.dev/developers/
+endpoints:
+  - url: https://lfgatlas-bot.jonsimm36.workers.dev/mcp
+    transport: streamable-http
+    auth: none

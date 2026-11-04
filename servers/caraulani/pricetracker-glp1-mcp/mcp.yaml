@@ -1,0 +1,12 @@
+name: PriceTracker GLP-1 MCP
+summary: Read-only MCP server for GLP-1 (semaglutide, tirzepatide) cash prices, price history and price index from PriceTracker GLP-1. No API key required.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - healthcare
+docs_url: https://github.com/caraulani/pricetracker-glp1-mcp
+endpoints:
+  - url: https://pricetrackerglp1.com/api/mcp
+    transport: streamable-http
+    auth: none

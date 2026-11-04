@@ -1,0 +1,14 @@
+name: Gastrosync MCP
+summary: Connect AI assistants to Gastrosync for catering and event management. Turn email inquiries into event and quote drafts, prepare kitchen briefings, and track open offers and unpaid invoices.
+category: productivity
+tags:
+  - business-operations
+  - crm
+  - email-automation
+  - productivity
+official: true
+docs_url: https://gastrosync.com/
+endpoints:
+  - url: https://gastrosync.com/mcp
+    transport: streamable-http
+    auth: oauth

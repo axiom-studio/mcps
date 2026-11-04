@@ -1,0 +1,14 @@
+name: AISkills402
+summary: Search tested AI agent skill files (SKILL.md) for free; buy a file once over x402 in USDC on Base and keep it.
+category: development
+tags:
+  - ai-agent
+  - crypto
+  - knowledge-retrieval
+  - marketplace
+  - payment
+docs_url: https://aiskills402.com
+endpoints:
+  - url: https://mcp.aiskills402.com/mcp
+    transport: streamable-http
+    auth: none

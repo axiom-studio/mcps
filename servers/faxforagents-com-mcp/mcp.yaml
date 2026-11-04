@@ -1,0 +1,12 @@
+name: Fax for Agents
+summary: Fax API, hosted MCP server and SDKs built so AI agents can send and receive faxes.
+category: communication
+tags:
+  - ai-agent
+  - api
+  - communication
+docs_url: https://faxforagents.com/mcp/
+endpoints:
+  - url: https://mcp.faxforagents.com/mcp/
+    transport: streamable-http
+    auth: unknown

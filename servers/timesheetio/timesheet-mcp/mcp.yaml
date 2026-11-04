@@ -1,0 +1,13 @@
+name: Timesheet
+summary: 'Track time in Timesheet: run timers, log work, manage projects and absences, and pull reports.'
+category: productivity
+tags:
+  - analytics
+  - productivity
+  - project-management
+  - task-management
+docs_url: https://github.com/timesheetIO/timesheet-mcp
+endpoints:
+  - url: https://mcp.timesheet.io
+    transport: streamable-http
+    auth: oauth

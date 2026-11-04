@@ -1,0 +1,13 @@
+name: AIData.Broker
+summary: Sourced prices, market rates, buyers, licensing deals and court rulings for AI training data, plus a valuation from public prices. Free, read-only, no key.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - marketplace
+  - research
+docs_url: https://aidata.broker/mcp-server
+endpoints:
+  - url: https://aidata.broker/mcp
+    transport: streamable-http
+    auth: unknown

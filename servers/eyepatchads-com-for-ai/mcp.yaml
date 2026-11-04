@@ -1,0 +1,12 @@
+name: Eyepatch
+summary: Free library of 1,010 long-running nutrition ads, tagged by angle, avatar, offer and format.
+category: marketing
+tags:
+  - advertising
+  - content-creation
+  - marketing
+docs_url: https://eyepatchads.com/for-ai
+endpoints:
+  - url: https://eyepatchads.com/mcp
+    transport: streamable-http
+    auth: oauth

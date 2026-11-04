@@ -1,0 +1,13 @@
+name: MACH Base
+summary: Read-only Base mainnet data for autonomous agents over MCP, paid per call with USDC x402.
+category: development
+tags:
+  - crypto
+  - data-analysis
+  - evm
+  - finance
+docs_url: https://github.com/TheAliphant/mach-base
+endpoints:
+  - url: https://api.mach.gallery/mcp
+    transport: streamable-http
+    auth: none

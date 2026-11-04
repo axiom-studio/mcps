@@ -1,0 +1,14 @@
+name: Clipping Alpha
+summary: Find the most profitable clipping and UGC campaigns. Live paid creator campaigns from every major board, ranked by the Alpha Score, with pay, budget left, the best moments to clip and alerts.
+category: marketing
+tags:
+  - advertising
+  - content-creation
+  - marketing
+  - research
+  - social-media
+docs_url: https://clippingalpha.com/agents
+endpoints:
+  - url: https://clippingalpha.com/mcp
+    transport: streamable-http
+    auth: oauth

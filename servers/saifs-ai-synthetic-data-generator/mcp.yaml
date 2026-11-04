@@ -1,0 +1,13 @@
+name: Synthetic Data Generator - Saifs AI
+summary: Synthetic Data Generator MCP creates realistic synthetic datasets, mimics real-world data patterns, and helps businesses generate safe, privacy-friendly data for testing, analytics, and AI model development.
+category: marketing
+tags:
+  - ai-model
+  - data-analysis
+  - privacy
+  - testing-qa
+docs_url: https://saifs.ai/synthetic-data-generator
+endpoints:
+  - url: https://synthetic-mint-mcp.saifs.ai/mcp
+    transport: streamable-http
+    auth: oauth

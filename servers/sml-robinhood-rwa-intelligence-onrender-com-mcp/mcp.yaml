@@ -1,0 +1,13 @@
+name: Robinhood RWA
+summary: Robinhood Chain stock-token and prediction-market intelligence MCP from ScriptMasterLabs. Evidence-first, read-only; no trade execution.
+category: finance
+tags:
+  - crypto
+  - finance
+  - marketplace
+  - trading
+docs_url: https://sml-robinhood-rwa-intelligence.onrender.com/mcp
+endpoints:
+  - url: https://sml-robinhood-rwa-intelligence.onrender.com/mcp
+    transport: streamable-http
+    auth: none

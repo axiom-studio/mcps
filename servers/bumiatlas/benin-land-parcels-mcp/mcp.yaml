@@ -1,0 +1,13 @@
+name: Benin Land Parcels (ANDF Cadastre · Parcelles)
+summary: Beninese ANDF cadastral parcels by NUP, titre foncier or coordinates, with declared zones.
+category: other
+tags:
+  - database
+  - geospatial
+  - government
+  - real-estate
+docs_url: https://github.com/BumiAtlas/benin-land-parcels-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/benin
+    transport: streamable-http
+    auth: oauth

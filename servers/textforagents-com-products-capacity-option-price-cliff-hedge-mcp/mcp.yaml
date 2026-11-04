@@ -1,0 +1,12 @@
+name: 'Capacity Option: price-cliff hedge for agent fleets'
+summary: Hedges capacity price cliffs for agent fleets — 4% premium + 10% commission
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - trading
+docs_url: https://textforagents.com/products/capacity-option-price-cliff-hedge/mcp
+endpoints:
+  - url: https://textforagents.com/products/capacity-option-price-cliff-hedge/mcp
+    transport: streamable-http
+    auth: unknown

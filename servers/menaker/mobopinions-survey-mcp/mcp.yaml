@@ -1,0 +1,12 @@
+name: MobOpinions Survey Light
+summary: 'Build, target, launch and analyse consumer surveys with real panel respondents from your AI assistant: 71 tools, remote Streamable HTTP server, OAuth 2.1 sign-in, no API key.'
+category: marketing
+tags:
+  - data-analysis
+  - marketing
+  - research
+docs_url: https://github.com/menaker/mobopinions-survey-mcp
+endpoints:
+  - url: https://surveys.mobopinions.com/light-api/mcp
+    transport: streamable-http
+    auth: oauth
