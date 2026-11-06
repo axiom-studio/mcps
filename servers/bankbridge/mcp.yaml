@@ -1,0 +1,15 @@
+name: BankBridge
+summary: Works in any MCP agent, including local models. Read-only access to your own US bank, credit card and investment accounts. Paid, $5/mo per connected bank.
+category: finance
+tags:
+  - finance
+  - banking
+  - remote-mcp
+official: true
+registry_name: money.bankbridge/server
+docs_url: https://bankbridge.money/docs
+website_url: https://bankbridge.money
+endpoints:
+  - url: https://bankbridge.money/api/mcp
+    transport: streamable-http
+    auth: oauth
