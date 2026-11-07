@@ -1,0 +1,13 @@
+name: Mestre Prático & NutriPreço — Brazil Retail & Fuel Price Intelligence
+summary: Servidor soberano de inteligência de preços reais e auditados de combustíveis (ANP) e cesta básica (NFC-e SEFAZ) cobrindo todos os 27 estados e mais de 417 cidades do Brasil. Zero alucinação para agentes de IA e tomadores de decisão econômica.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+  - web-research
+docs_url: https://mestrepratico.com.br/developers
+endpoints:
+  - url: https://mestrepratico.com.br/mcp/v1
+    transport: streamable-http
+    auth: none

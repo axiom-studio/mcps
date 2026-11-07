@@ -1,0 +1,13 @@
+name: BuzzSearch MCP
+summary: BuzzSearch provides advanced social media scraping capabilities to fetch customer comments from TikTok, YouTube, Reddit, and Facebook.
+category: marketing
+tags:
+  - marketing
+  - research
+  - social-media
+  - web-scraping
+docs_url: https://buzzsearch.ai/mcp
+endpoints:
+  - url: https://buzzsearch.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

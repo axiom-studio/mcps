@@ -1,0 +1,13 @@
+name: MyZucoins
+summary: Search and read public Zucoin and Splitchain guides, wallet help, developer tutorials and ecosystem news, with source links and dates.
+category: other
+tags:
+  - crypto
+  - documentation
+  - knowledge-retrieval
+  - search
+docs_url: https://myzucoins.org/mcp-api-docs
+endpoints:
+  - url: https://myzucoins.org/mcp
+    transport: streamable-http
+    auth: none

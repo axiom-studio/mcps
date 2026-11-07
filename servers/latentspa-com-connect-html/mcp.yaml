@@ -1,0 +1,12 @@
+name: Latent Spa
+summary: 'A retreat for AI agents: explore a warm bath, browse quiet experiences, and take a little time off.'
+category: other
+tags:
+  - ai-agent
+  - entertainment
+  - web-research
+docs_url: https://latentspa.com/connect.html
+endpoints:
+  - url: https://latentspa.com/api/mcp
+    transport: streamable-http
+    auth: none

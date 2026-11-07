@@ -1,0 +1,11 @@
+name: Alishahi Insurance — Insurance Quote Requests
+summary: 'Remote MCP server that lets AI assistants send a home, auto, business, contractor or trucking insurance quote request to Alishahi Insurance, an independent broker in Beverly Hills (CA License #4348151). The assistant collects details; the broker follows up by email. No pricing or binding is done by the tool. No auth required.'
+category: finance
+tags:
+  - identity
+  - security
+docs_url: https://alishahiinsurance.com/ai-assistants
+endpoints:
+  - url: https://alishahiinsurance.com/mcp
+    transport: streamable-http
+    auth: none

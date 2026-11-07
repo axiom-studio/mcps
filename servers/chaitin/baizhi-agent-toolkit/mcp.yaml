@@ -1,0 +1,14 @@
+name: Baizhi Agent Toolkit
+summary: Hosted MCP tools for web search, webpage retrieval and structured extraction; requires a Baizhi API key and may consume paid credits, with integration docs rather than backend source in the public repository.
+category: search
+tags:
+  - document
+  - documentation
+  - knowledge-retrieval
+  - search
+  - web-research
+docs_url: https://github.com/chaitin/baizhi-agent-toolkit
+endpoints:
+  - url: https://agent-toolkit.app.baizhi.cloud/mcp
+    transport: streamable-http
+    auth: api-key

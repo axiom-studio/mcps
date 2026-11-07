@@ -1,0 +1,14 @@
+name: Outcrawl
+summary: 'Web infrastructure for AI agents: scrape pages to markdown, crawl sites, search the web, run cloud browsers and agent tasks. 29 tools, hosted, OAuth.'
+category: web-scraping
+tags:
+  - ai-agent
+  - browser
+  - browser-automation
+  - search
+  - web-scraping
+docs_url: https://outcrawl.ai/docs/mcp/overview
+endpoints:
+  - url: https://api.outcrawl.ai/mcp
+    transport: streamable-http
+    auth: oauth

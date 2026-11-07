@@ -1,0 +1,12 @@
+name: ReplacementHQ 3D Printer Parts Register
+summary: 3D printer materials and wear parts for Bambu Lab and Prusa printers. Each answer quotes the maker's own page, with its address and the date read. Checking is not physical testing. Read-only, no key needed.
+category: other
+tags:
+  - ecommerce
+  - inventory
+  - research
+docs_url: https://replacementhq.co.uk/data-api/
+endpoints:
+  - url: https://replacementhq.co.uk/mcp
+    transport: streamable-http
+    auth: none

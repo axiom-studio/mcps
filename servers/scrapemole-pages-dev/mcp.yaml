@@ -1,0 +1,14 @@
+name: ScrapeMole Onchain
+summary: 'Pay-per-call x402 onchain/blockchain lookup MCP for AI agents (USDC on Base). Public non-personal data only. Remote: https://onchain.scrapemole.workers.dev/mcp . Also: reader, domains, companies, wiki .scrapemole.workers.dev/mcp'
+category: web-scraping
+tags:
+  - ai-agent
+  - crypto
+  - evm
+  - payment
+  - web-scraping
+docs_url: https://scrapemole.pages.dev
+endpoints:
+  - url: https://onchain.scrapemole.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

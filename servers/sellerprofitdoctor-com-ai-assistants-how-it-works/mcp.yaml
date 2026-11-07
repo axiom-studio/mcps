@@ -1,0 +1,13 @@
+name: Seller Profit Doctor
+summary: 'Free fee and profit calculators for Etsy, Shopify and Amazon sellers: fees, break-even ad spend, shipping gaps and price for a target margin, each with dated sources. No sign-up.'
+category: finance
+tags:
+  - analytics
+  - ecommerce
+  - finance
+  - shopify
+docs_url: https://sellerprofitdoctor.com/ai-assistants/how-it-works
+endpoints:
+  - url: https://sellerprofitdoctor.com/api/mcp
+    transport: streamable-http
+    auth: none

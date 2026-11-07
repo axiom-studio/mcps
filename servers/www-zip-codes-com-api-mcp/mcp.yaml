@@ -1,0 +1,13 @@
+name: Zip-Codes.com ZIP & Postal Code MCP
+summary: 'Give your agent real US postal data instead of guesses. Zip-Codes.com validates a US address to its ZIP+4 from current USPS data, updated monthly, and adds location intelligence: 14 years of normalized Census ACS data across Census geographies, districts, schools and ZIP boundary overlaps. Canadian postal codes too. Keyless demo or a free key.'
+category: other
+tags:
+  - api
+  - data-analysis
+  - geospatial
+  - government
+docs_url: https://www.zip-codes.com/api/mcp
+endpoints:
+  - url: https://mcp.zip-codes.com/mcp
+    transport: streamable-http
+    auth: none

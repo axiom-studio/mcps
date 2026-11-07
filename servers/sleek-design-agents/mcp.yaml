@@ -1,0 +1,13 @@
+name: Sleek Design
+summary: Design your mobile app UI with AI, then have your coding agent build the real app from it.
+category: design
+tags:
+  - ai-model
+  - coding-agent
+  - design
+  - mobile
+docs_url: https://sleek.design/agents
+endpoints:
+  - url: https://sleek.design/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Voidpay MCP
+summary: MCP server for Voidpay, an agent services marketplace. Agents find services and storefronts and prepare owner-approved checkout links; it never signs or pays.
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - marketplace
+  - payment
+docs_url: https://github.com/voidly-ai/pay-mcp
+endpoints:
+  - url: https://api.voidly.ai/mcp/voidpay
+    transport: streamable-http
+    auth: none

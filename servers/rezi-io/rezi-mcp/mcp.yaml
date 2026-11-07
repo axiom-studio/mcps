@@ -1,0 +1,13 @@
+name: Rezi Resume MCP
+summary: Connect your Rezi account to AI tools like Claude, Codex, Cursor, and Gemini to tailor resumes to job descriptions, create new resumes, and search jobs in plain English.
+category: productivity
+tags:
+  - ai-agent
+  - document
+  - productivity
+  - search
+docs_url: https://github.com/rezi-io/rezi-mcp
+endpoints:
+  - url: https://api.rezi.ai/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: Wiro AI
+summary: Run image, video, audio and LLM models on Wiro AI straight from your AI assistant. Search the Wiro catalog, check a model's inputs and price, run it, and follow the task until the output is ready.
+category: cloud-service
+tags:
+  - ai-model
+  - audio
+  - llm
+  - media
+  - video
+docs_url: https://github.com/wiroai/Wiro-MCP
+endpoints:
+  - url: https://mcp.wiro.ai/v1
+    transport: streamable-http
+    auth: api-key

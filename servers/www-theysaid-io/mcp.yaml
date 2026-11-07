@@ -1,0 +1,13 @@
+name: TheySaid
+summary: Search customer feedback, analyze research projects, and run AI usability tests on any URL or design.
+category: productivity
+tags:
+  - ai-agent
+  - customer-ops
+  - research
+  - testing-qa
+docs_url: https://www.theysaid.io
+endpoints:
+  - url: https://ai.theysaid.io/api/mcp
+    transport: streamable-http
+    auth: oauth

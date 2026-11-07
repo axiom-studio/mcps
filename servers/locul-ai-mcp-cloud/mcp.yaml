@@ -1,0 +1,13 @@
+name: Locul Cloud Memory
+summary: A second brain for your AI that builds itself from your notes and stays current. Remote MCP (OAuth) exposing recall_memories, search, search_notes, get_entity_profile, get_memory_source and create_memory for Claude, ChatGPT, Cursor, VS Code.
+category: memory
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - memory
+  - notes
+docs_url: https://locul.ai/mcp/cloud/
+endpoints:
+  - url: https://team-api.locul.ai/mcp
+    transport: streamable-http
+    auth: unknown

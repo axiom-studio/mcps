@@ -1,0 +1,13 @@
+name: Zephira Company Intelligence
+summary: Search official company records and retrieve officers, shareholders, corporate group structures and financial statements with source provenance through six read-only MCP tools.
+category: database
+tags:
+  - business-operations
+  - database
+  - knowledge-retrieval
+  - research
+docs_url: https://zephira.ai/developers/mcp/
+endpoints:
+  - url: https://dashboard.zephira.ai/api/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,12 @@
+name: FinTarget
+summary: Connect ChatGPT, Claude, Gemini, Cursor, Grok or any MCP app to your own FinTarget account. Ask about holdings with live prices, trades, dividends, income, expenses, budgets, super, gift cards, fixed deposits and net worth.
+category: finance
+tags:
+  - ai-agent
+  - data-analysis
+  - finance
+docs_url: https://www.fintarget.app/docs
+endpoints:
+  - url: https://www.fintarget.app/api/mcp
+    transport: streamable-http
+    auth: oauth

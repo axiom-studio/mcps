@@ -1,0 +1,14 @@
+name: Codebase
+summary: Build websites and apps with your AI agent. Preview, ask for changes, keep the source, and publish when you allow it. Publishing requires deploy permission.
+category: development
+tags:
+  - browser-automation
+  - cloud-infrastructure
+  - coding-agent
+  - deployment
+  - development
+docs_url: https://codebase.design/agents
+endpoints:
+  - url: https://codebase.design/api/mcp
+    transport: streamable-http
+    auth: oauth

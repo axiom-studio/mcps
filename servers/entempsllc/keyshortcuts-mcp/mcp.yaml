@@ -1,0 +1,13 @@
+name: KeyShortcuts
+summary: Verified keyboard shortcuts for Windows, macOS, Linux, ChromeOS, iOS, Android and 45+ apps (VS Code, Cursor, Excel, Figma, Photoshop, Slack, Vim and more). Search by action, look up what a key combo does, and translate shortcuts between Windows and Mac. Every record links its official source. Free remote server, no API key.
+category: productivity
+tags:
+  - documentation
+  - knowledge-retrieval
+  - productivity
+  - search
+docs_url: https://github.com/entempsllc/keyshortcuts-mcp
+endpoints:
+  - url: https://keyshortcuts.net/api/mcp
+    transport: streamable-http
+    auth: none

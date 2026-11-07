@@ -1,0 +1,12 @@
+name: Alion
+summary: 'Live data on millions of companies: funding, tech stack, growth, lookalikes, jobs and pay stats.'
+category: search
+tags:
+  - business-operations
+  - data-analysis
+  - research
+docs_url: https://github.com/alion-io/alion-mcp
+endpoints:
+  - url: https://alion.io/mcp
+    transport: streamable-http
+    auth: oauth

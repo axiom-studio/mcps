@@ -1,0 +1,12 @@
+name: MyClawn Desktop
+summary: 'Hand a job to an always-on cloud desktop: a real Linux machine with Chrome, logins that persist, files and its own email address. The user watches the screen live and can take over at any moment.'
+category: cloud-service
+tags:
+  - browser-automation
+  - cloud-infrastructure
+  - workflow-automation
+docs_url: https://www.myclawn.com/docs/mcp-tools
+endpoints:
+  - url: https://www.myclawn.com/mcp/desktop
+    transport: streamable-http
+    auth: unknown

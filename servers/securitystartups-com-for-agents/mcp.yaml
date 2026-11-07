@@ -1,0 +1,13 @@
+name: Security Startups
+summary: Curated directory of young security companies, each with a dated proof-of-life signal
+category: search
+tags:
+  - research
+  - search
+  - security
+  - threat-intelligence
+docs_url: https://securitystartups.com/for-agents
+endpoints:
+  - url: https://securitystartups.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: IGU Languages
+summary: 'Language-learning tools: word meanings and CEFR level, the official proficiency level a visa or exam requires (with source and date), CV check for international jobs, a time-to-goal estimate, and a 5-question vocabulary game. English, Spanish, French, German, Portuguese. No API key.'
+category: productivity
+tags:
+  - education
+  - productivity
+  - research
+docs_url: https://iguapp.com
+endpoints:
+  - url: https://iguapp.com/mcp
+    transport: streamable-http
+    auth: none

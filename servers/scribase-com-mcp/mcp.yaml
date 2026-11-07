@@ -1,0 +1,14 @@
+name: Scribase
+summary: 'Hosted Postgres backend for coding agents: schema, previews, backups and logs, with RLS proven before any schema change is applied.'
+category: database
+tags:
+  - coding-agent
+  - database
+  - devops-infrastructure
+  - postgres
+  - sql-agent
+docs_url: https://scribase.com/mcp
+endpoints:
+  - url: https://api.scribase.com/mcp
+    transport: streamable-http
+    auth: oauth

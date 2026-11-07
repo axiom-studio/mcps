@@ -1,0 +1,15 @@
+name: Statable
+summary: 'Query cookieless, EU-hosted web analytics: visitors, sources, countries, goals, funnels and live traffic.'
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - marketing
+  - privacy
+official: true
+registry_name: com.statable/analytics
+docs_url: https://statable.com
+endpoints:
+  - url: https://mcp.statable.com/mcp
+    transport: streamable-http
+    auth: oauth

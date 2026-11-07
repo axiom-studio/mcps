@@ -1,0 +1,13 @@
+name: FlashCrafter Growth Briefs
+summary: Connect authorized FlashCrafter business reports to AI conversations, explore marketing priorities, and save private draft growth plans. A FlashCrafter account and business access are required.
+category: marketing
+tags:
+  - ai-agent
+  - business-operations
+  - marketing
+  - productivity
+docs_url: https://briefs.flashcrafter.ai/chatgpt
+endpoints:
+  - url: https://briefs.flashcrafter.ai/mcp
+    transport: streamable-http
+    auth: unknown

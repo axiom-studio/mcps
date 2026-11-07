@@ -1,0 +1,13 @@
+name: getpeppr
+summary: 'Peppol e-invoicing API for developers, as a hosted MCP server (https://api.getpeppr.dev/mcp). Without an account: plan your Peppol integration, search the docs, check a test invoice against the Peppol rules, look up a Peppol receiver. With a free account: send sandbox test invoices and follow their delivery. Sandbox only.'
+category: finance
+tags:
+  - api
+  - compliance
+  - documentation
+  - finance
+docs_url: https://getpeppr.dev/docs/mcp/
+endpoints:
+  - url: https://api.getpeppr.dev/mcp
+    transport: streamable-http
+    auth: oauth

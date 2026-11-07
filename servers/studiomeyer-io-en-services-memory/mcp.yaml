@@ -1,0 +1,14 @@
+name: StudioMeyer Memory
+summary: EU-hosted AI memory as a service with 56 MCP tools, OAuth authentication, semantic search, knowledge graph, and persistent context across AI assistants.
+category: memory
+tags:
+  - ai-agent
+  - knowledge-graph
+  - memory
+  - privacy
+  - semantic-web
+docs_url: https://studiomeyer.io/en/services/memory
+endpoints:
+  - url: https://memory.studiomeyer.io/mcp
+    transport: streamable-http
+    auth: oauth

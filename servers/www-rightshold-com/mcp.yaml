@@ -1,0 +1,13 @@
+name: Rightshold
+summary: Rightshold is a trust and rights-verification service for the agent economy — agent identity verification (RS-KYA), a public registry and ledger, rights receipts, and a remote MCP server at https://www.rightshold.com/mcp so agents can check resources and record proofs.
+category: development
+tags:
+  - ai-agent
+  - compliance
+  - identity
+  - security
+docs_url: https://www.rightshold.com
+endpoints:
+  - url: https://www.rightshold.com/mcp
+    transport: streamable-http
+    auth: unknown

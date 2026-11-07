@@ -1,0 +1,13 @@
+name: DNS-DATA Remote MCP
+summary: Use AI assistants to access your authorized Windows and macOS computers through OAuth-secured remote MCP for file operations, system information and permitted terminal commands.
+category: development
+tags:
+  - development
+  - file-management
+  - macos
+  - security
+docs_url: https://github.com/DNSDATA/dns-data-mcp
+endpoints:
+  - url: https://mcp.dns-data.com/mcp
+    transport: streamable-http
+    auth: oauth

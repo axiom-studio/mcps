@@ -1,0 +1,13 @@
+name: Pageform
+summary: Remote MCP server for Pageform data rooms. Store documents, build AI-structured data rooms, review gaps, create share links and read engagement analytics from Claude or any MCP client.
+category: productivity
+tags:
+  - analytics
+  - document
+  - file-management
+  - productivity
+docs_url: https://pageform.io/docs/integrations/claude
+endpoints:
+  - url: https://mcp.pageform.io/mcp
+    transport: streamable-http
+    auth: oauth

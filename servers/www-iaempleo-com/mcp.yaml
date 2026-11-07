@@ -1,0 +1,12 @@
+name: IAempleo MCP
+summary: Search active job opportunities across Spain using AI assistants. IAempleo provides regularly updated job listings, structured employment information and a public MCP server with no authentication required.
+category: search
+tags:
+  - ai-agent
+  - marketplace
+  - search
+docs_url: https://www.iaempleo.com
+endpoints:
+  - url: https://mcp.iaempleo.com/mcp
+    transport: streamable-http
+    auth: none

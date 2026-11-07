@@ -1,0 +1,11 @@
+name: Agora Merit Role Assessment
+summary: Assess job responsibilities for unclear scope and ownership. Free findings, report quotes, and private human review links through MCP.
+category: productivity
+tags:
+  - business-operations
+  - productivity
+docs_url: https://agoramerit.com/agents
+endpoints:
+  - url: https://agoramerit.com/mcp
+    transport: streamable-http
+    auth: none

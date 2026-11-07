@@ -1,0 +1,13 @@
+name: Playground AI
+summary: Generate, edit and upscale designs with Playground AI, one at a time or twelve at once, and push them straight to your store.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - ecommerce
+docs_url: https://playgroundai.com/
+endpoints:
+  - url: https://playgroundai.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Formstep
+summary: Collect verified customer information with one request
+category: productivity
+tags:
+  - crm
+  - customer-ops
+  - data-analysis
+  - workflow-automation
+docs_url: https://github.com/formstep/formstep-mcp
+endpoints:
+  - url: https://api.formstep.io/api/mcp
+    transport: streamable-http
+    auth: oauth

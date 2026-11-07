@@ -1,0 +1,13 @@
+name: Dealio - Belgian deals
+summary: 'Today''s promotions from 50+ Belgian retailers (supermarkets, drugstores, DIY, electronics, fashion), each discount worked out per item, plus appliance buying guides, store campaigns, consumer news and meal ideas. Read-only, no key needed: https://dealio.be/mcp'
+category: search
+tags:
+  - ecommerce
+  - grocery
+  - news
+  - search
+docs_url: https://dealio.be/mcp-server/
+endpoints:
+  - url: https://dealio.be/mcp
+    transport: streamable-http
+    auth: none

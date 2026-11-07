@@ -1,0 +1,14 @@
+name: Tanod
+summary: 'Remote MCP server with 42 pay-per-call tools for agents: Solidity contract scans (Slither plus custom DeFi detectors), a pre-transaction address risk check for Ethereum and Base, OFAC SDN crypto-address screening, a scan of MCP server and agent skill packages before install, plus web page, PDF, DNS/RDAP and chain reads. Small free daily tier, then pay per call with x402 (USDC on Base)'
+category: development
+tags:
+  - defi
+  - evm
+  - security
+  - smart-contracts
+  - web-scraping
+docs_url: https://tanod.dev
+endpoints:
+  - url: https://tanod.dev/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,19 @@
+name: Supermetrics
+summary: Supermetrics is a marketing data platform that unifies advertising, analytics, CRM, and ecommerce data from over 150 sources. Its remote MCP server gives assistants direct access to that cross-channel data for reporting and performance analysis.
+description: |-
+  Supermetrics is a marketing data platform that unifies advertising, analytics, CRM, and ecommerce data from over 150 sources. Its remote MCP server gives assistants direct access to that cross-channel data for reporting and performance analysis.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/supermetrics)
+category: marketing
+tags:
+  - marketing
+  - remote-mcp
+official: true
+registry_name: com.supermetrics/supermetrics
+docs_url: https://claude.com/connectors/supermetrics
+endpoints:
+  - url: https://mcp.supermetrics.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: AgentTask Atlas
+summary: 'Free, read-only remote MCP server (no auth) over the AgentTask Atlas catalog: MCP servers and Agent Skills organized by dev task, each with a one-line practical verdict, install command, credentials and source link. Tools: search_catalog, get_entry, list_categories.'
+category: development
+tags:
+  - development
+  - documentation
+  - knowledge-retrieval
+  - search
+docs_url: https://agenttaskatlas.com/mcp
+endpoints:
+  - url: https://agenttaskatlas.com/api/mcp
+    transport: streamable-http
+    auth: none

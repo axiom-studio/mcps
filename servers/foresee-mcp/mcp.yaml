@@ -1,0 +1,13 @@
+name: Foresee
+summary: Foresee enables AI assistants to compare home and auto insurance across every carrier and coverage option, by providing instant, accurate, detailed quote estimates.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+official: true
+docs_url: https://go-foresee.com/docs
+endpoints:
+  - url: https://agents.go-foresee.com/mcp
+    transport: streamable-http
+    auth: none

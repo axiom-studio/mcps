@@ -1,0 +1,14 @@
+name: Reach Google Business Profile MCP
+summary: Connect AI assistants to Google Business Profile for reviews, profile insights, performance, local rankings and recommendations, with approval-based changes.
+category: marketing
+tags:
+  - analytics
+  - business-operations
+  - crm
+  - customer-ops
+  - marketing
+docs_url: https://reach.locus-intelligence.com/google-business-profile-mcp
+endpoints:
+  - url: https://reach.locus-intelligence.com/api/mcp
+    transport: streamable-http
+    auth: oauth

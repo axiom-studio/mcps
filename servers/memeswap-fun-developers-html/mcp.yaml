@@ -1,0 +1,13 @@
+name: MemeSwap MCP
+summary: Research reads, route quotes, and unsigned swap construction for memecoins. No custody. Fee 0.85%. NFA.
+category: finance
+tags:
+  - crypto
+  - defi
+  - finance
+  - trading
+docs_url: https://memeswap.fun/developers.html
+endpoints:
+  - url: https://mcp.memeswap.fun/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: own-words
+summary: 'Turns notes into a study deck: the reader answers each card in their own words, then compares with the prepared answer and marks it. Remote, no auth, one tool: create_deck.'
+category: productivity
+tags:
+  - education
+  - notes
+  - productivity
+docs_url: https://github.com/alexslkgit/own-words
+endpoints:
+  - url: https://own-words-mcp.alexslkmain.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

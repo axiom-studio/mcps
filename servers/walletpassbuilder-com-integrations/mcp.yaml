@@ -1,0 +1,13 @@
+name: WalletPassBuilder
+summary: Create, update and message Apple Wallet and Google Wallet passes, and run loyalty stamp cards, from Claude, ChatGPT or any MCP client. Remote server with OAuth sign-in.
+category: marketing
+tags:
+  - communication
+  - customer-ops
+  - marketing
+  - notifications
+docs_url: https://walletpassbuilder.com/integrations
+endpoints:
+  - url: https://walletpassbuilder.com/api/mcp
+    transport: streamable-http
+    auth: oauth

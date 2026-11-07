@@ -1,0 +1,12 @@
+name: StrategyTune
+summary: 'Backtest trading strategies from your AI: write indicators, signals and strategies, run them tick-by-tick on real historical market data in a sandboxed cloud, read full reports and control your open chart. 37 tools, OAuth 2.1 with Dynamic Client Registration, a free StrategyTune account is enough.'
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - trading
+docs_url: https://strategytune.com/docs/connected-ai/capabilities
+endpoints:
+  - url: https://strategytune.com/mcp
+    transport: streamable-http
+    auth: oauth

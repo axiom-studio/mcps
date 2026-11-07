@@ -1,0 +1,13 @@
+name: Chalk Golf
+summary: 'Ask Claude or ChatGPT about your own golf: rounds, hole-by-hole scorecards, stats, club-by-club misses, handicap record and swing analyses from the Chalk Golf app. Read-only, OAuth sign-in.'
+category: other
+tags:
+  - ai-agent
+  - analytics
+  - fitness
+  - sports
+docs_url: https://www.chalkgolfapp.com/golf-mcp-server
+endpoints:
+  - url: https://api.chalkgolfapp.com/mcp
+    transport: streamable-http
+    auth: oauth

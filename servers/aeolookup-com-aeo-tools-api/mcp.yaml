@@ -1,0 +1,13 @@
+name: AEO Lookup
+summary: Free public-page checks for AI crawler access, JSON-LD, llms.txt and answer readiness. Remote MCP, no API key.
+category: marketing
+tags:
+  - ai-model
+  - marketing
+  - seo
+  - web-scraping
+docs_url: https://aeolookup.com/aeo-tools/api/
+endpoints:
+  - url: https://aeolookup.com/mcp
+    transport: streamable-http
+    auth: none

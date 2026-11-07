@@ -1,0 +1,13 @@
+name: Web Content & URL Tools
+summary: 'Remote MCP server with 26 tools: web pages to Markdown, metadata, tech stack, SSL, security headers, SEO, WHOIS/DNS, email auth (SPF/DMARC/DKIM) and SSO checks.'
+category: web-scraping
+tags:
+  - research
+  - security
+  - seo
+  - web-scraping
+docs_url: https://github.com/avaloncompany/web-content-mcp-server
+endpoints:
+  - url: https://avalonai--web-content-url-tools-mcp.apify.actor/mcp
+    transport: streamable-http
+    auth: api-key

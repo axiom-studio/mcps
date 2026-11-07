@@ -1,0 +1,12 @@
+name: Goshen Email
+summary: 'AI agent email inboxes, messages, threads, send, and reply. Hosted endpoint https://api.goshenemail.com/mcp requires an account key via Authorization: Bearer; available tools depend on key scopes.'
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - email-automation
+docs_url: https://goshenemail.com/docs/mcp
+endpoints:
+  - url: https://api.goshenemail.com/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: LasVegasTonight.com — Las Vegas Nightlife & VIP Pricing
+summary: Compare 85 Las Vegas nightclubs, pool parties, evening shows, strip clubs & audited Nevada 9% LET + 8.375% tax VIP table splits.
+category: search
+tags:
+  - entertainment
+  - finance
+  - marketplace
+  - search
+docs_url: https://lasvegastonight.com/docs
+endpoints:
+  - url: https://lasvegastonight.com/mcp
+    transport: streamable-http
+    auth: none

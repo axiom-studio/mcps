@@ -1,0 +1,14 @@
+name: Dutify
+summary: 'One remote MCP server for the whole Dutify suite: Hub call recordings, transcripts and Lens chat, project management, Codexum wiki and Roadmarq feature requests.'
+category: productivity
+tags:
+  - communication
+  - document
+  - knowledge-retrieval
+  - productivity
+  - project-management
+docs_url: https://github.com/dutifyai/dutify-cloud-ai-skill
+endpoints:
+  - url: https://mcp.dutify.ai
+    transport: streamable-http
+    auth: api-key

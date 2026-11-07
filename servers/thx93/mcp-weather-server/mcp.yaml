@@ -1,0 +1,11 @@
+name: NWS Weather
+summary: 'US National Weather Service data for agents: active alerts by two-letter state code and five-period forecasts by latitude/longitude. Discovery is free; each call is paid in USDC on Base over x402. US locations only.'
+category: other
+tags:
+  - api
+  - weather
+docs_url: https://github.com/Thx93/mcp-weather-server
+endpoints:
+  - url: https://agent-evidence.thx93.dev/weather/mcp
+    transport: streamable-http
+    auth: none

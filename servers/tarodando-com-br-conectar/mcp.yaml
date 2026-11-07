@@ -1,0 +1,12 @@
+name: Tá Rodando
+summary: 'Remote MCP server for Tá Rodando: create HTTP uptime monitors, check what is down, wire alert channels (Telegram, Slack, Discord, email) and manage a public status page from chat. OAuth login.'
+category: development
+tags:
+  - api
+  - monitoring
+  - notifications
+docs_url: https://tarodando.com.br/conectar
+endpoints:
+  - url: https://tarodando.com.br/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Social media studio
+summary: Draft, schedule, and publish social posts, manage connected accounts and media, and read analytics through a hosted MCP server.
+category: marketing
+tags:
+  - analytics
+  - content-creation
+  - marketing-automation
+  - social-media
+docs_url: https://so-me.studio
+endpoints:
+  - url: https://api.so-me.studio/mcp/posting
+    transport: streamable-http
+    auth: oauth

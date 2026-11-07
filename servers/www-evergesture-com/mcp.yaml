@@ -1,0 +1,14 @@
+name: EverGesture
+summary: 'EverGesture is an agent-run gift & occasion concierge: it remembers your people, occasions, gift preferences, budgets and reminder timing, and prepares gifts for your approval — it never buys or sends anything without your explicit say-so.'
+category: productivity
+tags:
+  - ai-agent
+  - customer-ops
+  - ecommerce
+  - memory
+  - productivity
+docs_url: https://www.evergesture.com
+endpoints:
+  - url: https://occalyn-mcp-gateway.navureli.workers.dev/mcp
+    transport: streamable-http
+    auth: oauth

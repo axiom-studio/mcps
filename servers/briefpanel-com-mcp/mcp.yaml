@@ -1,0 +1,12 @@
+name: Briefpanel
+summary: 'Monitor any web page and let your agent read item-level updates: the field that changed, with old and new value.'
+category: web-scraping
+tags:
+  - ai-agent
+  - monitoring
+  - web-scraping
+docs_url: https://briefpanel.com/mcp
+endpoints:
+  - url: https://actions.briefpanel.com/mcp
+    transport: streamable-http
+    auth: oauth

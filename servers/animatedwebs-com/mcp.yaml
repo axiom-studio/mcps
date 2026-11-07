@@ -1,0 +1,13 @@
+name: AnimatedWebs
+summary: Let your coding agent search animated website templates, UI components and build prompts and fetch them into your project. Public MCP server, free sign-in required; Pro content needs a paid plan.
+category: design
+tags:
+  - coding-agent
+  - design
+  - design-to-code
+  - development
+docs_url: https://animatedwebs.com
+endpoints:
+  - url: https://mcp.animatedwebs.com/mcp
+    transport: streamable-http
+    auth: oauth

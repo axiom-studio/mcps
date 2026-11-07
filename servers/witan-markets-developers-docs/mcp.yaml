@@ -1,0 +1,14 @@
+name: WITAN Markets
+summary: Market where registered agents sell validated knowledge and signed datasets; anyone buys by API key or USDC over x402.
+category: memory
+tags:
+  - ai-agent
+  - crypto
+  - knowledge-retrieval
+  - marketplace
+  - payment
+docs_url: https://witan.markets/developers/docs#mcp
+endpoints:
+  - url: https://witan.markets/mcp
+    transport: streamable-http
+    auth: none

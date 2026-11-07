@@ -1,0 +1,12 @@
+name: Probative legal-marketing data
+summary: 'Read-only MCP server and open API (CC BY 4.0): US lawyer advertising rules by state, bar ad filing, ethics opinions, ad-platform policies, attorney fee caps, MDL dockets and California court filings by county.'
+category: marketing
+tags:
+  - api
+  - compliance
+  - marketing
+docs_url: https://probativegrowth.com/resources/rules-api/
+endpoints:
+  - url: https://probativegrowth.com/mcp
+    transport: streamable-http
+    auth: none

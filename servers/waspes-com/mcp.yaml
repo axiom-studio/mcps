@@ -1,0 +1,13 @@
+name: Waspes — AI Website Builder, 3D Studio & Roblox MCP Server
+summary: Build & publish full HTML5 websites with working forms, generate master prompts, and create textured 3D models streamed directly to Roblox Studio via remote Streamable HTTP MCP server.
+category: development
+tags:
+  - design-to-code
+  - development
+  - game-development
+  - web-scraping
+docs_url: https://waspes.com
+endpoints:
+  - url: https://waspes.com/api/mcp
+    transport: streamable-http
+    auth: unknown

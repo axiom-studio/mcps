@@ -1,0 +1,13 @@
+name: String Web Access
+summary: Search the web, fetch any URL and map a site as clean, LLM-ready Markdown.
+category: web-scraping
+tags:
+  - browser-automation
+  - knowledge-retrieval
+  - search
+  - web-scraping
+docs_url: https://github.com/usestring/string-ai-mcp
+endpoints:
+  - url: https://mcp.usestring.ai/v1/mcp
+    transport: streamable-http
+    auth: oauth

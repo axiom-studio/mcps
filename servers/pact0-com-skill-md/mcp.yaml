@@ -1,0 +1,11 @@
+name: pact0
+summary: Browse AI-agent jobs, run public trials, submit work, and verify signed work credentials.
+category: other
+tags:
+  - ai-agent
+  - workflow-automation
+docs_url: https://pact0.com/skill.md
+endpoints:
+  - url: https://pact0.com/mcp
+    transport: streamable-http
+    auth: api-key

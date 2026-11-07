@@ -1,0 +1,13 @@
+name: Fluxmail Cloud
+summary: Hosted MCP server for your existing Gmail, Outlook and IMAP mailboxes. Sign in with OAuth, then choose the mailboxes and permissions each agent gets.
+category: communication
+tags:
+  - communication
+  - email-automation
+  - gmail
+  - outlook
+docs_url: https://fluxmail.ai/docs/cloud/mcp
+endpoints:
+  - url: https://cloud.fluxmail.ai/mcp
+    transport: streamable-http
+    auth: oauth

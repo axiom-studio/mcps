@@ -1,0 +1,13 @@
+name: TONNode MCP
+summary: 'MCP server for TON over native ADNL liteservers: balances, jettons, transaction history, get-methods, non-custodial DEX and cross-chain swap building, wallet generation.'
+category: finance
+tags:
+  - crypto
+  - defi
+  - finance
+  - trading
+docs_url: https://github.com/tonnode/mcp
+endpoints:
+  - url: https://mcp.tonnode.io/mcp
+    transport: streamable-http
+    auth: api-key

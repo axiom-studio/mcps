@@ -1,0 +1,12 @@
+name: NYCfoodie
+summary: Structured editorial NYC restaurant recommendations for AI agents — 5,767 venues, 929 ranked guides, 381 tags from The Infatuation, queryable over MCP.
+category: search
+tags:
+  - data-analysis
+  - knowledge-retrieval
+  - search
+docs_url: https://github.com/tireniajilore/nycfoodie
+endpoints:
+  - url: https://nycfoodie-production.up.railway.app/mcp
+    transport: streamable-http
+    auth: none

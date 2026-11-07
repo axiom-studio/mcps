@@ -1,0 +1,12 @@
+name: Spillmark
+summary: Free Amazon and Meta ads calculators. No brand data and no key.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - marketing
+docs_url: https://spillmark.com/agents
+endpoints:
+  - url: https://spillmark.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: AgentWeb
+summary: Web search, local places and 130M+ business records through hosted MCP. Free API key for protected calls; freshness varies. Owner-authorized AI submission.
+category: search
+tags:
+  - business-operations
+  - search
+  - web-research
+docs_url: https://agentweb.live/install.md
+endpoints:
+  - url: https://api.agentweb.live/mcp
+    transport: streamable-http
+    auth: api-key

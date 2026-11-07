@@ -1,0 +1,13 @@
+name: Toolbox
+summary: 'Five small tools for agent builders: AI-writing tells, tools/list token cost, CLAUDE.md lint, install snippets, AI crawler check.'
+category: development
+tags:
+  - ai-agent
+  - development
+  - documentation
+  - web-scraping
+docs_url: https://toolbox.allthepossibles.com
+endpoints:
+  - url: https://toolbox.allthepossibles.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: LifeClaw
+summary: Call you for decisions, relay approved messages to people, or call businesses to book and inquire.
+category: communication
+tags:
+  - ai-agent
+  - audio
+  - communication
+docs_url: https://lifeclaw.agentese.ai/mcp
+endpoints:
+  - url: https://api-v2.lifeclaw.agentese.ai/mcp
+    transport: streamable-http
+    auth: api-key

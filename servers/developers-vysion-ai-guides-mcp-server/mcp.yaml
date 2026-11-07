@@ -1,0 +1,13 @@
+name: Vysion MCP
+summary: Vysion MCP Server connects AI assistants directly to Vysion’s cyber threat intelligence platform. It enables users to investigate cyber threats using natural language, without writing code or making API calls.
+category: search
+tags:
+  - ai-agent
+  - search
+  - security
+  - threat-intelligence
+docs_url: https://developers.vysion.ai/guides/mcp-server/
+endpoints:
+  - url: https://mcp.vysion.ai/mcp
+    transport: streamable-http
+    auth: api-key

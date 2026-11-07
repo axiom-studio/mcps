@@ -1,0 +1,13 @@
+name: ServGhost
+summary: 'Rent offshore VPS, dedicated, RDP and GPU servers: catalogue, quote, crypto top-up and ordering, no KYC.'
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - crypto
+  - devops-infrastructure
+  - payment
+docs_url: https://servghost.com/agents
+endpoints:
+  - url: https://servghost.com/mcp
+    transport: streamable-http
+    auth: unknown

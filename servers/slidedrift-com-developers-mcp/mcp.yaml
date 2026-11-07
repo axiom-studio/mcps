@@ -1,0 +1,14 @@
+name: SlideDrift
+summary: Turn articles, notes and ideas into on-brand LinkedIn carousels, export them as PDF or PNG, and schedule them to LinkedIn.
+category: marketing
+tags:
+  - content-creation
+  - file-conversion
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://slidedrift.com/developers/mcp
+endpoints:
+  - url: https://slidedrift.com/mcp
+    transport: streamable-http
+    auth: oauth

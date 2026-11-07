@@ -1,0 +1,14 @@
+name: betterimage
+summary: 'MCP server for social cards: an OG image from any page URL, 100+ designs, link preview checks for X, Slack and Discord, meta tags. No API key needed.'
+category: design
+tags:
+  - content-creation
+  - design
+  - marketing
+  - seo
+  - social-media
+docs_url: https://betterimage.io/mcp
+endpoints:
+  - url: https://betterimage.io/mcp
+    transport: streamable-http
+    auth: unknown

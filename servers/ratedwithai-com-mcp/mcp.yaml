@@ -1,0 +1,13 @@
+name: RatedWithAI Accessibility Checker
+summary: 'Remote MCP server that scans a public web page with axe-core and reports WCAG 2.1/2.2 AA issues: score, grade and failing rules, plus plain-language fix guidance per rule. Read-only, no auth. Streamable HTTP endpoint: https://ratedwithai.com/api/mcp'
+category: development
+tags:
+  - compliance
+  - development
+  - testing-qa
+  - web-scraping
+docs_url: https://ratedwithai.com/mcp
+endpoints:
+  - url: https://ratedwithai.com/api/mcp
+    transport: streamable-http
+    auth: none

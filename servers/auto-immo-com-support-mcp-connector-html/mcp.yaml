@@ -1,0 +1,12 @@
+name: Auto-Immo MCP
+summary: Read room measurements, photos, floor plans and quotes from your surveyed Auto-Immo properties.
+category: productivity
+tags:
+  - data-analysis
+  - document
+  - file-management
+docs_url: https://auto-immo.com/support/mcp-connector.html
+endpoints:
+  - url: https://client.auto-immo.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Pro UPI QR
+summary: UPI payment links and QR codes, UPI error help, and GST, MSMED and MDR calculators for India. Remote, no auth; nothing moves money.
+category: finance
+tags:
+  - ecommerce
+  - finance
+  - payment
+docs_url: https://www.proupiqr.in/mcp-server/
+endpoints:
+  - url: https://www.proupiqr.in/mcp/
+    transport: streamable-http
+    auth: unknown

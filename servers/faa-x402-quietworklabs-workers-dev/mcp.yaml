@@ -1,0 +1,11 @@
+name: FAA Airport Status
+summary: Live US airport delay and ground-stop status from FAA data, plus a national disruptions summary. 5 free calls/day, then pay-per-call in USDC (x402).
+category: other
+tags:
+  - data-analysis
+  - weather
+docs_url: https://faa-x402.quietworklabs.workers.dev
+endpoints:
+  - url: https://faa-x402.quietworklabs.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

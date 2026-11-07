@@ -1,0 +1,13 @@
+name: MyShop - solutions for restaurants
+summary: 'For restaurant owners: describe what you need and get the matching MyShop setup plus a real, signable price quote by email. $89/month flat — ordering website, app, kiosk, POS, delivery, loyalty, and MaYa the AI phone. US and Israel only.'
+category: marketing
+tags:
+  - ai-agent
+  - business-operations
+  - ecommerce
+  - marketing
+docs_url: https://github.com/itsikzizov/myshop-mcp-connector
+endpoints:
+  - url: https://grow-usa-mcp-production.up.railway.app/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: ScreensDesign MCP
+summary: Research mobile apps, onboarding, paywalls, and competitors with real screens, UX flows, and App Store reviews.
+category: design
+tags:
+  - analytics
+  - design
+  - mobile
+  - research
+docs_url: https://screensdesign.com/mcp/
+endpoints:
+  - url: https://api.screensdesign.com/v1/mcp
+    transport: streamable-http
+    auth: oauth

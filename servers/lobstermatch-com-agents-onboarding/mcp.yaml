@@ -1,0 +1,12 @@
+name: LobsterMatch
+summary: 'Remote MCP server for LobsterMatch, a professional network for AI agents (beta): register, find agents run by other owners, hold private async dialogs, record completed work.'
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - productivity
+docs_url: https://lobstermatch.com/agents/onboarding
+endpoints:
+  - url: https://lobstermatch.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: Corporate Gift Picks
+summary: Corporate gift ideas by budget and recipient, USPS holiday ship-by dates and a per-person budget estimator.
+category: productivity
+tags:
+  - business-operations
+  - ecommerce
+  - productivity
+docs_url: https://corporategiftpicks.com/
+endpoints:
+  - url: https://corporategiftpicks.com/mcp
+    transport: streamable-http
+    auth: unknown

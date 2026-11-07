@@ -1,0 +1,13 @@
+name: Radicado Uno
+summary: 'Remote MCP server to check Colombian companies by NIT (tax ID): RUES commercial registry, SECOP public contracts, Supersociedades financials, procurement sanctions and OFAC/UN lists, every field with its official source URL and capture date. Connect without a key: free check (10/day); six data tools need a Business key. Read-only, companies only, not a credit score.'
+category: finance
+tags:
+  - api
+  - data-analysis
+  - finance
+  - research
+docs_url: https://radicadouno.co/mcp
+endpoints:
+  - url: https://mcp.radicadouno.co/mcp
+    transport: streamable-http
+    auth: none

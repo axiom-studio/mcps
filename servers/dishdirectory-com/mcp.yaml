@@ -1,0 +1,11 @@
+name: DishDirectory.com
+summary: Directory of dishes and the restaurants that serve them, by city.
+category: search
+tags:
+  - search
+  - web-research
+docs_url: https://dishdirectory.com
+endpoints:
+  - url: https://dishdirectory.com/mcp
+    transport: streamable-http
+    auth: unknown

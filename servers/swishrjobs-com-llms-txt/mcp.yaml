@@ -1,0 +1,13 @@
+name: SwishrJobs
+summary: Deterministic digital jobs with independently verified deliverables. 32 data and code capabilities (CSV validation, JSON schema checks, GTIN checks, Python module generation) executed in a confined sandbox; every deliverable is independently re-verified before delivery. MCP over Streamable HTTP, plus A2A and OpenAPI. Capability discovery accepts tasks in English, Arabic, Spanish, French, German, Portuguese, Chinese and Japanese; discovery only, deliverables are produced in English.
+category: development
+tags:
+  - code-quality
+  - development
+  - testing-qa
+  - workflow-automation
+docs_url: https://swishrjobs.com/llms.txt
+endpoints:
+  - url: https://swishrjobs.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: Radu Stoian MCP
+summary: Answers questions about Radu Stoian, Technical Director at Enhance Media.
+category: other
+tags:
+  - knowledge-retrieval
+  - research
+  - web-research
+docs_url: https://radustoian.com/
+endpoints:
+  - url: https://radustoian.com/mcp
+    transport: streamable-http
+    auth: none

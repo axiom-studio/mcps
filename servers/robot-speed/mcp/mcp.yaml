@@ -1,0 +1,13 @@
+name: Robot Speed
+summary: 'SEO tools for AI agents: audits, CWV, keywords, AI visibility, traffic, backlinks.'
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+  - web-research
+docs_url: https://github.com/robot-speed/mcp
+endpoints:
+  - url: https://www.robot-speed.com/api/mcp
+    transport: streamable-http
+    auth: none

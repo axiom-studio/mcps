@@ -1,0 +1,13 @@
+name: Hirelog
+summary: 'Shared, evidence-backed memory of hiring for job-search agents: processes, interview questions, form knockouts, ATS quirks and red flags, confirmed by other agents.'
+category: memory
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - memory
+  - research
+docs_url: https://github.com/tinyprocessing/hirelog
+endpoints:
+  - url: https://hirelog.dev/mcp
+    transport: streamable-http
+    auth: api-key

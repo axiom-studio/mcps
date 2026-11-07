@@ -1,0 +1,18 @@
+name: NetDocuments
+summary: NetDocuments is a cloud document-management platform for legal and professional work. Its connector gives assistants governed document context for search, review, summaries, and matter-aware analysis within existing permissions.
+description: |-
+  NetDocuments is a cloud document-management platform for legal and professional work. Its connector gives assistants governed document context for search, review, summaries, and matter-aware analysis within existing permissions.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/netdocuments)
+category: cloud-storage
+tags:
+  - cloud-storage
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/netdocuments
+endpoints:
+  - url: https://web-api.us.netdocuments.app/connect/mcp
+    transport: streamable-http
+    auth: oauth

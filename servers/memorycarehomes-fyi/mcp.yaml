@@ -1,0 +1,13 @@
+name: MemoryCareHomes.fyi
+summary: 'Memory care facilities directory: locations, services, contacts by city.'
+category: search
+tags:
+  - geospatial
+  - healthcare
+  - real-estate
+  - search
+docs_url: https://memorycarehomes.fyi
+endpoints:
+  - url: https://memorycarehomes.fyi/mcp
+    transport: streamable-http
+    auth: unknown

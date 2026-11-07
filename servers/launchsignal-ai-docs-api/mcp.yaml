@@ -1,0 +1,14 @@
+name: LaunchSignal
+summary: Public, no-auth Streamable HTTP MCP server for browsing approved product launches, retrieving product details, and submitting products for review.
+category: marketing
+tags:
+  - document
+  - documentation
+  - identity
+  - marketing-automation
+  - security
+docs_url: https://launchsignal.ai/docs/api
+endpoints:
+  - url: https://launchsignal.ai/mcp
+    transport: streamable-http
+    auth: none

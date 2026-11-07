@@ -1,0 +1,13 @@
+name: 3D Texel
+summary: Search and download 7,000+ PBR materials, HDRIs, decals and 3D assets (1,650+ CC0) and generate seamless PBR materials and HDRI skyboxes.
+category: design
+tags:
+  - content-creation
+  - design
+  - file-management
+  - media
+docs_url: https://github.com/Gatyh/3dtexel-mcp
+endpoints:
+  - url: https://3dtexel.com/wp-json/3dtexel-api/v1/mcp
+    transport: streamable-http
+    auth: api-key

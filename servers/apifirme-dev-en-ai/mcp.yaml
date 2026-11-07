@@ -1,0 +1,13 @@
+name: apifirme
+summary: 'Romanian company data from the official registers (ONRC, ANAF, Ministry of Finance, BNR): look up a company by CUI or name, check VAT and e-Factura before invoicing, financial statements, changes, new registrations, BNR rates. Free plan.'
+category: finance
+tags:
+  - business-operations
+  - compliance
+  - finance
+  - government
+docs_url: https://apifirme.dev/en/ai
+endpoints:
+  - url: https://api.apifirme.dev/mcp
+    transport: streamable-http
+    auth: oauth

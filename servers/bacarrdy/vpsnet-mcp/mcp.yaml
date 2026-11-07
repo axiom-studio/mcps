@@ -1,0 +1,13 @@
+name: VPSnet
+summary: 'Manage your VPSnet cloud: KVM and Firecracker VPS, applications, Functions, software-defined networks, DNS, domains and TLS certificates. You choose the permissions and which servers the connection can access.'
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - devops-infrastructure
+  - network-automation
+  - security
+docs_url: https://github.com/bacarrdy/vpsnet-mcp
+endpoints:
+  - url: https://mcp.vpsnet.com/mcp
+    transport: streamable-http
+    auth: oauth

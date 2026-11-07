@@ -1,0 +1,14 @@
+name: Liquid Compute GPU Test (GCAT)
+summary: 'Run GPU acceptance tests on NVIDIA GPU nodes you administer, from your AI agent: DCGM diagnostics, CUTLASS GEMM, HBM/PCIe bandwidth and NCCL over SSH, reported against per-profile thresholds.'
+category: cloud-service
+tags:
+  - ai-agent
+  - cloud-infrastructure
+  - devops-infrastructure
+  - ssh
+  - testing-qa
+docs_url: https://github.com/Liquid-Compute/gcat
+endpoints:
+  - url: https://api.liquidcompute.co/mcp
+    transport: streamable-http
+    auth: oauth

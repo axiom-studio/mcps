@@ -1,0 +1,11 @@
+name: Verant
+summary: Find spelling, grammar, and placeholder errors on live web pages and sites, with a fix for each.
+category: productivity
+tags:
+  - content-creation
+  - web-research
+docs_url: https://verant.ai/ai
+endpoints:
+  - url: https://verant.ai/mcp
+    transport: streamable-http
+    auth: oauth

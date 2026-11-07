@@ -1,0 +1,13 @@
+name: Raven Wallet
+summary: 'Run all your Solana wallets from your AI: send, swap, split, consolidate and clean up. Keys stay locked in your browser.'
+category: finance
+tags:
+  - browser
+  - crypto
+  - payment
+  - trading
+docs_url: https://ravenwallet.pro/docs/ai
+endpoints:
+  - url: https://app.ravenwallet.pro/mcp
+    transport: streamable-http
+    auth: oauth

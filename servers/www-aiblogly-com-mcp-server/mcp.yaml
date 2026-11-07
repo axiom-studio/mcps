@@ -1,0 +1,12 @@
+name: AIblogly AI Models
+summary: Prices, context windows, release dates, licences and LMArena ranks for published AI models, with source pages.
+category: other
+tags:
+  - ai-model
+  - knowledge-retrieval
+  - research
+docs_url: https://www.aiblogly.com/mcp-server
+endpoints:
+  - url: https://www.aiblogly.com/mcp
+    transport: streamable-http
+    auth: none

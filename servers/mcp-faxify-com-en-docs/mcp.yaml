@@ -1,0 +1,14 @@
+name: Faxify MCP
+summary: Send, receive and track real faxes in the US and Canada from Claude, ChatGPT or Cursor.
+category: communication
+tags:
+  - ai-model
+  - anthropic
+  - document
+  - documentation
+  - llm
+docs_url: https://mcp.faxify.com/en/docs
+endpoints:
+  - url: https://mcp.faxify.com/api/v1/mcp
+    transport: streamable-http
+    auth: oauth

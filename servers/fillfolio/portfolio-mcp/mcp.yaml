@@ -1,0 +1,13 @@
+name: Fillfolio
+summary: Read stored portfolios, stocks, ETFs, funds, crypto, cash, spending and budgets. Hosted OAuth service; paid account and accepted client required.
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - database
+  - finance
+docs_url: https://github.com/fillfolio/portfolio-mcp
+endpoints:
+  - url: https://fillfolio.com/api/mcp
+    transport: streamable-http
+    auth: oauth

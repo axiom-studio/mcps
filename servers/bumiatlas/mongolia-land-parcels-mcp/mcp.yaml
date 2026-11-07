@@ -1,0 +1,13 @@
+name: Mongolia Land Parcels (eGazar · Газрын нэгж талбар)
+summary: Mongolian eGazar land parcels by parcel id, Cyrillic address or coordinates, with land use.
+category: other
+tags:
+  - geospatial
+  - government
+  - real-estate
+  - search
+docs_url: https://github.com/BumiAtlas/mongolia-land-parcels-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/mongolia
+    transport: streamable-http
+    auth: oauth

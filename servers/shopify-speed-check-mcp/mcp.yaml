@@ -1,0 +1,15 @@
+name: Shopify Speed Check
+summary: Check any Shopify store's PageSpeed and Core Web Vitals, find the apps and scripts slowing it down, compare Shopify plan fees, and get a headless estimate.
+category: development
+tags:
+  - ecommerce
+  - performance
+  - seo
+  - shopify
+official: true
+registry_name: com.skaidigital/shopify-speed-check
+docs_url: https://www.skaidigital.com/tools/shopify-speed-test
+endpoints:
+  - url: https://tools.skaidigital.com/mcp
+    transport: streamable-http
+    auth: none

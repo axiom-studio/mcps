@@ -1,0 +1,13 @@
+name: AdAce Ads
+summary: 'Remote MCP server that connects Claude and ChatGPT to Google Ads and Meta (Facebook & Instagram) Ads: live reports, wasted spend, anomalies, and change proposals that run only after your approval. Microsoft Advertising and LinkedIn Ads in early access. Free plan available.'
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - crm
+  - marketing
+docs_url: https://ads.adace.website/en
+endpoints:
+  - url: https://ads.adace.website/mcp
+    transport: streamable-http
+    auth: oauth

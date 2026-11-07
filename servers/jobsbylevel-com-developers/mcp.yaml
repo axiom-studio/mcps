@@ -1,0 +1,12 @@
+name: Level
+summary: Search live job listings rated by how central AI is to the role, from Little AI to Builds AI. Free, read-only, no sign-in.
+category: search
+tags:
+  - ai-agent
+  - search
+  - web-research
+docs_url: https://jobsbylevel.com/developers
+endpoints:
+  - url: https://jobsbylevel.com/mcp
+    transport: streamable-http
+    auth: none

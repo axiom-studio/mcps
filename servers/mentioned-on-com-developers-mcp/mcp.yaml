@@ -1,0 +1,13 @@
+name: MentionedOn
+summary: Review supplied AI-discovery evidence and prioritize visibility improvements.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - research
+  - seo
+docs_url: https://mentioned-on.com/developers/mcp
+endpoints:
+  - url: https://mentioned-on.com/mcp
+    transport: streamable-http
+    auth: none

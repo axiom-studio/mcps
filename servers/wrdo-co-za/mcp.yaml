@@ -1,0 +1,12 @@
+name: WRDO
+summary: 'Connect any AI assistant to WRDO: local businesses, menus and price lists in the Western Cape, South Africa.'
+category: other
+tags:
+  - geospatial
+  - marketplace
+  - search
+docs_url: https://wrdo.co.za
+endpoints:
+  - url: https://api.wrdo.co.za/mcp
+    transport: streamable-http
+    auth: none

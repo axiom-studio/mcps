@@ -1,0 +1,18 @@
+name: Privacy.com
+summary: Privacy.com helps users manage virtual cards and track spending patterns. Its connector gives assistants payment-card and transaction context for reviewing spend, understanding card usage, and managing financial controls.
+description: |-
+  Privacy.com helps users manage virtual cards and track spending patterns. Its connector gives assistants payment-card and transaction context for reviewing spend, understanding card usage, and managing financial controls.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://developers.privacy.com/docs/mcp-server)
+category: finance
+tags:
+  - finance
+  - remote-mcp
+official: true
+docs_url: https://developers.privacy.com/docs/mcp-server
+endpoints:
+  - url: https://mcp.privacy.com
+    transport: streamable-http
+    auth: oauth

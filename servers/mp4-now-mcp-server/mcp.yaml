@@ -1,0 +1,13 @@
+name: MP4.now MCP Server
+summary: Convert MP4 video to MP3, WebM, MOV, AVI, GIF, WAV and JPG, or create MP4 files from MOV, AVI, WebM and MKV.
+category: design
+tags:
+  - audio
+  - file-conversion
+  - media
+  - video
+docs_url: https://mp4.now/mcp-server
+endpoints:
+  - url: https://mp4.now/mcp
+    transport: streamable-http
+    auth: api-key

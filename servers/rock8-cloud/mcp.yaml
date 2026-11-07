@@ -1,0 +1,14 @@
+name: Rock8Cloud
+summary: Deploy apps, provision Postgres and Redis, run coding agents and read logs from any MCP client.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - coding-agent
+  - devops
+  - postgres
+  - redis
+docs_url: https://rock8.cloud
+endpoints:
+  - url: https://app.rock8.cloud/mcp
+    transport: streamable-http
+    auth: oauth

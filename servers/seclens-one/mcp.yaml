@@ -1,0 +1,11 @@
+name: SecLens.ONE
+summary: Anonymous MCP server that checks a domain's SPF, DKIM, DMARC and DNSSEC from public DNS and returns fix steps.
+category: other
+tags:
+  - email-automation
+  - security
+docs_url: https://seclens.one
+endpoints:
+  - url: https://seclens.one/mcp
+    transport: streamable-http
+    auth: none

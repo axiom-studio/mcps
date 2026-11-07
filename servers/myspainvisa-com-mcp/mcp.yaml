@@ -1,0 +1,11 @@
+name: My Spain Visa
+summary: Spain visa rules for 2026 (non-lucrative, digital nomad, student, family), a Schengen 90/180 calculator and real consulate processing times, from a Barcelona immigration law firm. Free, no account.
+category: other
+tags:
+  - government
+  - research
+docs_url: https://myspainvisa.com/mcp/
+endpoints:
+  - url: https://myspainvisa.com/api/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: Maison Éclaire
+summary: 'Read-only catalogue, gift ideas and delivery terms of a handmade candle shop in Morocco. Tools: search_products, get_product, list_categories, get_shop_info, get_gift_ideas. Streamable HTTP, no auth. Website: https://www.maisoneclaire.co/mcp'
+category: other
+tags:
+  - ecommerce
+  - marketplace
+  - productivity
+docs_url: https://github.com/jaeel29/maison-eclaire-agent
+endpoints:
+  - url: https://www.maisoneclaire.co/mcp
+    transport: streamable-http
+    auth: unknown

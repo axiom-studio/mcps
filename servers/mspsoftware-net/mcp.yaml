@@ -1,0 +1,12 @@
+name: MSP Software
+summary: 'Read-only access to an independent directory of MSP software: search listings, get pricing reported by MSPs, compare two products and list alternatives.'
+category: search
+tags:
+  - business-operations
+  - marketplace
+  - search
+docs_url: https://mspsoftware.net
+endpoints:
+  - url: https://mspsoftware.net/mcp
+    transport: streamable-http
+    auth: none

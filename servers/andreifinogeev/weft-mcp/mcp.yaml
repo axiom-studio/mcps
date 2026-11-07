@@ -1,0 +1,13 @@
+name: Weft
+summary: 'One board for every AI you use: agents claim tasks and finish with proof you accept or return. Hosted MCP server with OAuth — Claude, ChatGPT, Cursor, Codex and Gemini work from the same task board: claim a task so no two agents duplicate it, report progress, ask you only what you must decide, and hand work back with evidence.'
+category: productivity
+tags:
+  - ai-agent
+  - collaboration
+  - task-management
+  - workflow-automation
+docs_url: https://github.com/AndreiFinogeev/weft-mcp
+endpoints:
+  - url: https://letsweft.com/api/mcp
+    transport: streamable-http
+    auth: oauth

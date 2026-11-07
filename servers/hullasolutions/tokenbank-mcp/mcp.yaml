@@ -1,0 +1,14 @@
+name: TokenBank
+summary: Read-only data on 4,500+ tokenized real-world assets (treasuries, yield stablecoins, gold, real estate, tokenized stocks) plus the Hyperliquid perps on the same stocks. Compare every token and perp on one security by issuer, structure, KYC gates, custody, chain, fees and funding. No API key.
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - defi
+  - finance
+  - research
+docs_url: https://github.com/HULLAsolutions/tokenbank-mcp
+endpoints:
+  - url: https://mcp.tokenbank.world
+    transport: streamable-http
+    auth: none

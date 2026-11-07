@@ -1,0 +1,13 @@
+name: Outcome-verified watchdog for scheduled agents
+summary: Verifies scheduled agents actually did their work — $0.002/check, Operator $4.75, Fleet $20 /mo
+category: productivity
+tags:
+  - ai-agent
+  - monitoring
+  - productivity
+  - workflow-automation
+docs_url: https://textforagents.com/products/scheduled-agent-outcome-verification/mcp
+endpoints:
+  - url: https://textforagents.com/products/scheduled-agent-outcome-verification/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: CreditUnions
+summary: CreditUnions lists federally insured credit unions from the NCUA register. Each listing shows charter, field of membership, assets and members. Browse by city or query the free API and MCP endpoint.
+category: search
+tags:
+  - finance
+  - government
+  - search
+docs_url: https://creditunions.fyi
+endpoints:
+  - url: https://creditunions.fyi/mcp
+    transport: streamable-http
+    auth: none

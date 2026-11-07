@@ -1,0 +1,14 @@
+name: GTD Brain
+summary: 'Getting Things Done board that ChatGPT, Claude, Cursor, Gemini CLI and other MCP clients can run for you: capture to Inbox, next actions by context, projects, waiting-for and a weekly review. 16 tools and 4 prompts, OAuth 2.1 sign-in with an email code, no API key. Same board as the GTD Brain web, iOS and Android apps.'
+category: productivity
+tags:
+  - ai-model
+  - anthropic
+  - identity
+  - llm
+  - security
+docs_url: https://gtdbrain.com/connect
+endpoints:
+  - url: https://mcp.gtdbrain.com/api/gtdbrain/v1/mcp
+    transport: streamable-http
+    auth: oauth

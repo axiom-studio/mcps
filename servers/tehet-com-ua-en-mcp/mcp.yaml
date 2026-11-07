@@ -1,0 +1,12 @@
+name: TEHET — Ukrainian car insurance prices
+summary: Live indicative prices of Ukrainian compulsory motor liability (OSCPV) and Green Card from real insurers, plus fuel prices and service status. Six read-only tools (incl. search/fetch), no sign-in, no personal data; every answer has a date and a link to buy on tehet.com.ua.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - web-research
+docs_url: https://tehet.com.ua/en/mcp
+endpoints:
+  - url: https://mcp.tehet.com.ua/mcp
+    transport: streamable-http
+    auth: none

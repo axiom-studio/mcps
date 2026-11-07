@@ -1,0 +1,16 @@
+name: Visual Sandbox
+summary: Generate image, video, audio, 3D and vector media with 100+ AI models. Pay per generation, no subscription.
+category: design
+tags:
+  - ai-model
+  - audio
+  - content-creation
+  - design
+  - media
+official: true
+registry_name: com.visualsandbox/visual-sandbox
+docs_url: https://visualsandbox.com/mcp-server/
+endpoints:
+  - url: https://visualsandbox.com/mcp
+    transport: streamable-http
+    auth: unknown

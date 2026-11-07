@@ -1,0 +1,12 @@
+name: DiffMint by Harlo
+summary: 'Diff two texts by line, word or char: unified diff, HTML redline, patch apply, similarity.'
+category: development
+tags:
+  - development
+  - document
+  - text-to-speech
+docs_url: https://diffmint.mike-tusa.workers.dev/
+endpoints:
+  - url: https://diffmint.mike-tusa.workers.dev/mcp
+    transport: streamable-http
+    auth: none

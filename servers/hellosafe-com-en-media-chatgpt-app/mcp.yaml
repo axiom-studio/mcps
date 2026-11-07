@@ -1,0 +1,10 @@
+name: HelloSafe Travel Insurance
+summary: Compare travel insurance and check your credit card's travel coverage inside ChatGPT.
+category: finance
+tags:
+  - finance
+docs_url: https://hellosafe.com/en/media/chatgpt-app
+endpoints:
+  - url: https://hellosafe.com/api/mcp-travel
+    transport: streamable-http
+    auth: none

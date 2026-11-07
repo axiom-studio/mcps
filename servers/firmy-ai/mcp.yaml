@@ -1,0 +1,13 @@
+name: firmy.ai
+summary: 'Polish companies and people: KRS, CEIDG, financials, boards, VAT, sanctions. Free, no API key.'
+category: finance
+tags:
+  - business-operations
+  - compliance
+  - finance
+  - government
+docs_url: https://firmy.ai
+endpoints:
+  - url: https://firmy.ai/mcp
+    transport: streamable-http
+    auth: none

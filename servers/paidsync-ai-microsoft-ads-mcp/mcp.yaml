@@ -1,0 +1,13 @@
+name: PaidSync Microsoft Ads MCP Server
+summary: 'Microsoft Advertising (Bing Ads) in Claude and ChatGPT: 155 tools for reports, keywords, campaigns, audiences and conversions. Part of PaidSync.'
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - crm
+  - marketing
+docs_url: https://paidsync.ai/microsoft-ads-mcp
+endpoints:
+  - url: https://mcp.paidsync.ai/mcp
+    transport: streamable-http
+    auth: oauth

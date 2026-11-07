@@ -1,0 +1,13 @@
+name: LotsTeam
+summary: Collect feature requests and support messages, turn them into tasks and publish what shipped.
+category: productivity
+tags:
+  - customer-ops
+  - productivity
+  - task-management
+  - workflow-automation
+docs_url: https://www.lotstech.com/mcp/lots-team
+endpoints:
+  - url: https://api.lots.team/mcp
+    transport: streamable-http
+    auth: oauth

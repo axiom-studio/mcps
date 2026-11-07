@@ -1,0 +1,16 @@
+name: DemandBird
+summary: Write, schedule and publish social posts in your own voice, and read your analytics, from Claude, ChatGPT or any MCP client. Hosted, with OAuth sign-in.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - social-media
+  - workflow-automation
+official: true
+registry_name: com.demandbird.app/demandbird
+docs_url: https://demandbird.com/docs/mcp/
+website_url: https://demandbird.com
+endpoints:
+  - url: https://app.demandbird.com/mcp
+    transport: streamable-http
+    auth: oauth

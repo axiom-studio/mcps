@@ -1,0 +1,13 @@
+name: ValuEdge — Stock Valuation & Portfolio Research
+summary: 'Read-only stock research: valuations, fundamentals, comparisons and bounded screening, free without sign-in. Private portfolio, watchlist and Smart Alerts require a paid ValuEdge Unlimited account and authentication. No trade execution.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+  - trading
+docs_url: https://valuedge.app/connect
+endpoints:
+  - url: https://valuedge.app/mcp
+    transport: streamable-http
+    auth: none

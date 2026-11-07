@@ -1,0 +1,13 @@
+name: STEM by Awase
+summary: Persistent memory for selected context across compatible AI assistants, with account-scoped OAuth and tools to save, recall, connect, explore, and delete memories.
+category: memory
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - memory
+  - productivity
+docs_url: https://awase.dev/agents
+endpoints:
+  - url: https://awase.dev/stem
+    transport: streamable-http
+    auth: oauth

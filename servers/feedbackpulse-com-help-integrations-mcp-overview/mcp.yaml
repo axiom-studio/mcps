@@ -1,0 +1,12 @@
+name: FeedbackPulse
+summary: Ask Claude or ChatGPT about your FeedbackPulse survey results, eNPS, performance reviews, recognition and employees. Remote MCP server with OAuth and 19 tools.
+category: productivity
+tags:
+  - analytics
+  - data-analysis
+  - productivity
+docs_url: https://feedbackpulse.com/help/integrations/mcp-overview/
+endpoints:
+  - url: https://app.feedbackpulse.com/mcp
+    transport: streamable-http
+    auth: oauth

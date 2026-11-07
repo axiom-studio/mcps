@@ -1,0 +1,13 @@
+name: BUMIT
+summary: Verify Swiss companies by UID or name using official register, sanctions and FINMA authorisation data, with structured outcomes, source provenance and data freshness. No account or API key required.
+category: finance
+tags:
+  - compliance
+  - finance
+  - government
+  - identity
+docs_url: https://bumit.ai/docs
+endpoints:
+  - url: https://bumit.ai/mcp
+    transport: streamable-http
+    auth: unknown

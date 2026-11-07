@@ -1,0 +1,13 @@
+name: PinBridge MCP
+summary: Publish and schedule pins to pinterest
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://www.pinbridge.io/mcp
+endpoints:
+  - url: https://mcp.pinbridge.io/mcp
+    transport: streamable-http
+    auth: oauth

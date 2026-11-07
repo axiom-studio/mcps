@@ -1,0 +1,13 @@
+name: Meniscus
+summary: 'Liquid glass design system for AI coding agents: specs, tested values and build code for web, SwiftUI, Flutter, React Native and Figma.'
+category: design
+tags:
+  - ai-agent
+  - coding-agent
+  - design
+  - development
+docs_url: https://meniscus.site
+endpoints:
+  - url: https://meniscus.site/mcp
+    transport: streamable-http
+    auth: oauth

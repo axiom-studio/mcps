@@ -1,0 +1,13 @@
+name: CrakSEO AI Search Visibility MCP
+summary: Brand mentions in ChatGPT and Perplexity plus Google AI Overview citations. Hosted Streamable HTTP with OAuth or a scoped API key. Check availability and pricing before paid calls.
+category: search
+tags:
+  - ai-model
+  - analytics
+  - seo
+  - web-research
+docs_url: https://docs.crakseo.com/mcp-servers/ai-visibility
+endpoints:
+  - url: https://crakseo.com/mcp/ai-visibility
+    transport: streamable-http
+    auth: oauth

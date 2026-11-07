@@ -1,0 +1,13 @@
+name: AppSigma App Store Data
+summary: Metadata, reviews, ratings, chart history and prices of any iOS app. 22 read-only tools, demo key available.
+category: development
+tags:
+  - analytics
+  - data-analysis
+  - marketplace
+  - mobile
+docs_url: https://github.com/appsigma-io/appsigma-mcp
+endpoints:
+  - url: https://api.appsigma.io/mcp
+    transport: streamable-http
+    auth: oauth

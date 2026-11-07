@@ -1,0 +1,13 @@
+name: WhiteboardAnimation.ai
+summary: Turn any picture into a hand-drawn whiteboard animation video from ChatGPT, Claude, Cursor or any MCP client. Remote, OAuth.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - video
+docs_url: https://whiteboardanimation.ai/mcp
+endpoints:
+  - url: https://mcp.whiteboardanimation.ai/mcp
+    transport: streamable-http
+    auth: oauth

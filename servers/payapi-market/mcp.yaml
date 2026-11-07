@@ -1,0 +1,13 @@
+name: PayAPI Market
+summary: Free MCP server for an x402 marketplace for AI agents. Search and read pay-per-call APIs, then pay each provider in USDC on Base, Solana or Algorand with no API key. Free to list, providers keep 100%.
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - marketplace
+  - payment
+docs_url: https://payapi.market
+endpoints:
+  - url: https://payapi.market/mcp
+    transport: streamable-http
+    auth: unknown

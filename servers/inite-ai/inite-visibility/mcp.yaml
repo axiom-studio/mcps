@@ -1,0 +1,13 @@
+name: INITE Visibility
+summary: 'How ChatGPT, Claude, Gemini and Perplexity read a site: a free check of AI crawler access, identity files, schema and agent surface, a fix plan, side-by-side comparison with rivals, history, and a weekly watch. Remote, open without sign-in.'
+category: marketing
+tags:
+  - ai-model
+  - analytics
+  - marketing
+  - seo
+docs_url: https://github.com/inite-ai/inite-visibility
+endpoints:
+  - url: https://inite.ai/api/mcp/analyzer
+    transport: streamable-http
+    auth: none

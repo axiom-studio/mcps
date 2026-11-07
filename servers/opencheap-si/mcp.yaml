@@ -1,0 +1,13 @@
+name: OpenCheap
+summary: Call 860+ AI models (Claude, GPT, Gemini, DeepSeek) at up to 90% below list price, and manage keys, budgets and usage from your agent.
+category: development
+tags:
+  - ai-agent
+  - ai-model
+  - api
+  - llm
+docs_url: https://opencheap.si
+endpoints:
+  - url: https://app.opencheap.si/api/v1/mcp
+    transport: streamable-http
+    auth: unknown

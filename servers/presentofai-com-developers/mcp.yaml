@@ -1,0 +1,13 @@
+name: Present of AI
+summary: Free read-only data on about 4,900 AI companies, open AI jobs and dated AI news, with source links.
+category: search
+tags:
+  - ai-model
+  - knowledge-retrieval
+  - research
+  - web-research
+docs_url: https://presentofai.com/developers
+endpoints:
+  - url: https://presentofai.com/mcp
+    transport: streamable-http
+    auth: unknown

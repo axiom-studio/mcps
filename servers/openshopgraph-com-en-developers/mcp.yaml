@@ -1,0 +1,13 @@
+name: OpenShopGraph
+summary: 'Neutral, source-dated facts about online shops: return windows, shipping, payment methods and trust signals. Read-only remote MCP; coupons only as an extra.'
+category: other
+tags:
+  - ecommerce
+  - knowledge-retrieval
+  - marketplace
+  - research
+docs_url: https://openshopgraph.com/en/developers/
+endpoints:
+  - url: https://api.openshopgraph.com/mcp
+    transport: streamable-http
+    auth: none

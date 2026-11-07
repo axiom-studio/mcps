@@ -1,0 +1,12 @@
+name: Gig Logistics MCP by Nova (CIVAI)
+summary: Track your Gig Logistics parcels and shipments.
+category: productivity
+tags:
+  - ecommerce
+  - inventory
+  - productivity
+docs_url: https://github.com/civai-technologies/mcp-bgpt-giglogistics-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-bgpt-giglogistics
+    transport: streamable-http
+    auth: api-key

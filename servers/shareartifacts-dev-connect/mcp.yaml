@@ -1,0 +1,13 @@
+name: share/artifacts
+summary: Publish agent-created HTML reports, presentations, briefs, and explainers to stable URLs with controlled access; update existing artifacts through hosted MCP with OAuth.
+category: productivity
+tags:
+  - content-creation
+  - document
+  - file-management
+  - productivity
+docs_url: https://shareartifacts.dev/connect
+endpoints:
+  - url: https://shareartifacts.dev/api/mcp
+    transport: streamable-http
+    auth: oauth

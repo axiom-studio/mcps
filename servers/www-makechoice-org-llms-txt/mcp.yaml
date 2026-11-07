@@ -1,0 +1,8 @@
+name: MakeChoice Personality Test and Giving
+summary: Log in, save a 70-question personality result, and start a donation checkout. The person still confirms and pays.
+category: other
+docs_url: https://www.makechoice.org/llms.txt
+endpoints:
+  - url: https://www.makechoice.org/mcp/
+    transport: streamable-http
+    auth: unknown

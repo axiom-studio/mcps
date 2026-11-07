@@ -1,0 +1,14 @@
+name: JackHamr
+summary: 'Hand work to your AI dev team from Claude, ChatGPT or Cursor: specialist agents that build, test, review and ship, each on its own cloud machine.'
+category: development
+tags:
+  - ai-agent
+  - cloud-infrastructure
+  - coding-agent
+  - development
+  - workflow-automation
+docs_url: https://www.jackhamr.ai/docs/mcp
+endpoints:
+  - url: https://api.jackhamr.ai/mcp
+    transport: streamable-http
+    auth: unknown

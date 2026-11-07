@@ -1,0 +1,13 @@
+name: Vid Kraken
+summary: 'Hosted MCP server for downloading YouTube videos as MP4 or MP3, fetching video metadata and creating clips. Lets AI agents download and process YouTube video without running yt-dlp. Requires a Vid Kraken API key; free tier available. Remote streamable HTTP endpoint: https://vidkraken.com/api/mcp/mcp. Docs: https://vidkraken.com/docs'
+category: other
+tags:
+  - file-conversion
+  - media
+  - video
+  - youtube
+docs_url: https://vidkraken.com
+endpoints:
+  - url: https://vidkraken.com/api/mcp/mcp
+    transport: streamable-http
+    auth: api-key

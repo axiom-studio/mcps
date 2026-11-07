@@ -1,0 +1,13 @@
+name: FirmLens
+summary: FirmLens builds searchable directories that have been generated using web data and AI.
+category: search
+tags:
+  - ai-model
+  - knowledge-retrieval
+  - search
+  - web-research
+docs_url: https://firmlens.io/mcp
+endpoints:
+  - url: https://mcp.firmlens.io/mcp
+    transport: streamable-http
+    auth: oauth

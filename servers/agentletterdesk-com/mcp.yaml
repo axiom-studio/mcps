@@ -1,0 +1,12 @@
+name: Agent Letter Desk
+summary: 'Send a real paper letter from your AI chat. Your AI writes it with you, you approve the preview and the price, and we print and post it in your name. Opening soon: letters are not mailed yet, and nothing is charged. Only invited testers can create an account.'
+category: communication
+tags:
+  - communication
+  - document
+  - workflow-automation
+docs_url: https://agentletterdesk.com
+endpoints:
+  - url: https://agentletterdesk.com/mcp
+    transport: streamable-http
+    auth: oauth

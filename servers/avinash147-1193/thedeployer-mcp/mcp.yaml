@@ -1,0 +1,14 @@
+name: The Deployer
+summary: 'Deploy and run apps in your own AWS, Google Cloud, Azure or DigitalOcean account from any AI agent: check a repo, launch with a priced plan you approve, fix failed deployments, read logs, and manage domains, scaling and databases. Remote server with OAuth sign-in at https://app.thedploy.com/mcp.'
+category: cloud-service
+tags:
+  - ai-agent
+  - aws
+  - cloud-infrastructure
+  - deployment
+  - devops
+docs_url: https://github.com/Avinash147-1193/thedeployer-mcp
+endpoints:
+  - url: https://app.thedploy.com/mcp
+    transport: streamable-http
+    auth: oauth

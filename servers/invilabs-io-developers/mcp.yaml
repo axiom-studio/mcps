@@ -1,0 +1,13 @@
+name: Invi Labs iPhone MCP
+summary: Hosted MCP server that puts real iPhones in your AI agent's hands. It takes screenshots, taps, swipes, types and opens apps, and reads the screen with its own model.
+category: development
+tags:
+  - ai-agent
+  - browser-automation
+  - mobile
+  - testing-qa
+docs_url: https://invilabs.io/developers
+endpoints:
+  - url: https://api.invilabs.io/mcp
+    transport: streamable-http
+    auth: api-key

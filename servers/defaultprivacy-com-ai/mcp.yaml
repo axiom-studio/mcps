@@ -1,0 +1,13 @@
+name: Default Privacy
+summary: 'Sourced privacy answers: how private an app is, tool picks, app swaps, de-Googling, breaches.'
+category: search
+tags:
+  - privacy
+  - search
+  - security
+  - web-research
+docs_url: https://defaultprivacy.com/ai
+endpoints:
+  - url: https://mcp.defaultprivacy.com
+    transport: streamable-http
+    auth: none

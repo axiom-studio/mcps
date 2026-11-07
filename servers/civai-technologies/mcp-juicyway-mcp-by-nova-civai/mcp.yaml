@@ -1,0 +1,13 @@
+name: Juicyway by Nova (CIVAI)
+summary: 'Manage your Juicyway business account from chat: check balances and movements, send bank payouts, view FX rates, and referrals — sign in once in the browser when prompted.'
+category: productivity
+tags:
+  - browser-automation
+  - business-operations
+  - finance
+  - payment
+docs_url: https://github.com/civai-technologies/mcp-juicyway-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-juicyway
+    transport: streamable-http
+    auth: api-key

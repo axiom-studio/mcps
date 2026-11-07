@@ -1,0 +1,14 @@
+name: Symvanta
+summary: Hosted code graph MCP server for exact symbols, callers, dependencies, blast radius, semantic search, and branch-aware context across GitHub repositories.
+category: development
+tags:
+  - code-quality
+  - development
+  - github
+  - knowledge-graph
+  - search
+docs_url: https://symvanta.com/mcp
+endpoints:
+  - url: https://mcp.symvanta.com/mcp
+    transport: streamable-http
+    auth: oauth

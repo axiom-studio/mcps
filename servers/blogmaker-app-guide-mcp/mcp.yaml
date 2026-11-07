@@ -1,0 +1,13 @@
+name: Blogmaker
+summary: Write and publish blog content, manage design and settings, and read analytics in Blogmaker.
+category: productivity
+tags:
+  - analytics
+  - cms
+  - content-creation
+  - productivity
+docs_url: https://blogmaker.app/guide/mcp
+endpoints:
+  - url: https://editor.blogmaker.app/api/mcp
+    transport: streamable-http
+    auth: oauth

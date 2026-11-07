@@ -1,0 +1,13 @@
+name: SV MCP
+summary: Give Claude and Cursor 15 SEO and GEO tools with one URL
+category: marketing
+tags:
+  - data-analysis
+  - marketing
+  - seo
+  - web-research
+docs_url: https://seovendor.co/api/mcp
+endpoints:
+  - url: https://mcp.seovendor.co
+    transport: streamable-http
+    auth: oauth

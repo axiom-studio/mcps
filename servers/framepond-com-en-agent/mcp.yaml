@@ -1,0 +1,12 @@
+name: FramePond
+summary: Search bilingual image prompts, upload reference images, and generate and download images from your AI agent. OAuth sign-in; generation uses paid subscription credits.
+category: design
+tags:
+  - ai-agent
+  - design
+  - icon-generation
+docs_url: https://framepond.com/en/agent?utm_source=agent_directory&utm_campaign=agent_launch
+endpoints:
+  - url: https://framepond.com/mcp
+    transport: streamable-http
+    auth: oauth

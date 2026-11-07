@@ -1,0 +1,13 @@
+name: Statuz
+summary: Let your AI agent draft, schedule and publish posts and threads on X, Bluesky, Mastodon, LinkedIn and Reddit. Remote server at https://api.statuz.cloud/mcp (OAuth or API key), or run it locally with `statuz mcp`.
+category: marketing
+tags:
+  - ai-agent
+  - marketing-automation
+  - social-media
+  - x-twitter
+docs_url: https://statuz.app
+endpoints:
+  - url: https://api.statuz.cloud/mcp
+    transport: streamable-http
+    auth: oauth

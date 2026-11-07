@@ -1,0 +1,13 @@
+name: RemoveDuplicates.org
+summary: Remove duplicate lines or CSV/TSV rows (e.g. rows copied from Excel or Google Sheets) via one remove_duplicates tool. Free remote Streamable HTTP server at https://removeduplicates.org/mcp, no API key; stateless, text is never stored.
+category: productivity
+tags:
+  - data-analysis
+  - file-conversion
+  - productivity
+  - spreadsheet
+docs_url: https://removeduplicates.org/
+endpoints:
+  - url: https://removeduplicates.org/mcp
+    transport: streamable-http
+    auth: none

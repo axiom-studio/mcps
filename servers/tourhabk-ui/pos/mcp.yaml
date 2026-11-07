@@ -1,0 +1,13 @@
+name: Vedar — Kamchatka travel
+summary: 'Remote MCP server for Kamchatka (Russia) travel: search tours, accommodation, transfers and gear, live volcano status, weather and safety alerts, and send booking requests to local operators. Streamable HTTP, no auth. Endpoint: https://vedarai.ru/api/mcp'
+category: other
+tags:
+  - communication
+  - search
+  - weather
+docs_url: https://vedarai.ru/mcp
+website_url: https://vedarai.ru
+endpoints:
+  - url: https://vedarai.ru/api/mcp
+    transport: streamable-http
+    auth: none

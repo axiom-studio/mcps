@@ -1,0 +1,13 @@
+name: StartupPerks
+summary: Find the startup credits, perks and deals a company qualifies for, across 1,000+ source-cited programs (AWS Activate, Google for Startups, NVIDIA Inception and more). Free, read-only, no API key.
+category: finance
+tags:
+  - business-operations
+  - cloud-infrastructure
+  - finance
+  - research
+docs_url: https://startupperks.co/mcp-server
+endpoints:
+  - url: https://startupperks.co/mcp
+    transport: streamable-http
+    auth: unknown

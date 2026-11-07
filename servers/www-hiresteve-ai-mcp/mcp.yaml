@@ -1,0 +1,13 @@
+name: Steve (hiresteve.ai)
+summary: 'Live competitive intelligence for Claude and other MCP clients: competitors'' news, reviews, website changes, and Google and Meta ads.'
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - marketing
+  - web-scraping
+docs_url: https://www.hiresteve.ai/mcp
+endpoints:
+  - url: https://app.hiresteve.ai/api/agent/mcp
+    transport: streamable-http
+    auth: api-key

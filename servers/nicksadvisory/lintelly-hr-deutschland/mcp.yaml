@@ -1,0 +1,13 @@
+name: Lintelly HR Deutschland
+summary: 'German employment law for small companies, like an HR department: notice periods, employer costs, sick pay, contracts, workflows, with calculation and source. Germany only, no sign-in.'
+category: productivity
+tags:
+  - business-operations
+  - compliance
+  - documentation
+  - productivity
+docs_url: https://github.com/NicksAdvisory/lintelly-hr-deutschland
+endpoints:
+  - url: https://hr.lintelly.com/mcp
+    transport: streamable-http
+    auth: none

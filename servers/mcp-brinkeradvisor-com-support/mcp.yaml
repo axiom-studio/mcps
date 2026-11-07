@@ -1,0 +1,12 @@
+name: BrinkerAdvisor Rates
+summary: Explore public CD, money-market and Treasury records with data dates and source links; compare rates and build illustrative fixed-income ladders.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+docs_url: https://mcp.brinkeradvisor.com/support
+endpoints:
+  - url: https://mcp.brinkeradvisor.com/mcp
+    transport: streamable-http
+    auth: none

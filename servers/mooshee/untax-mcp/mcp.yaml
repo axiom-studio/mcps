@@ -1,0 +1,13 @@
+name: Untax
+summary: Remote MCP server for property tax assessment lookups, parcel appeal deadlines, VA facility and form directories, and veteran property tax exemption requirements.
+category: finance
+tags:
+  - compliance
+  - finance
+  - government
+  - real-estate
+docs_url: https://github.com/mooshee/untax-mcp
+endpoints:
+  - url: https://untax.io/mcp
+    transport: streamable-http
+    auth: oauth

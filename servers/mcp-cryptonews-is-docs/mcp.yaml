@@ -1,0 +1,12 @@
+name: cryptonews.is
+summary: Live crypto news from 1,000+ sources, grouped into stories, in 28 languages, with news sentiment.
+category: finance
+tags:
+  - crypto
+  - finance
+  - news
+docs_url: https://mcp.cryptonews.is/docs
+endpoints:
+  - url: https://mcp.cryptonews.is/mcp
+    transport: streamable-http
+    auth: unknown

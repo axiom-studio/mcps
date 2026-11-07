@@ -1,0 +1,25 @@
+name: GraphOS MCP Tools
+summary: GraphOS MCP Tools, now called GraphOS MCP Server, connects assistants to Apollo documentation and graph-building tools. Documentation tools can be used without authentication. Tools that access your graph require a GraphOS API key in the x-api-key header. This is not an OAuth connector; see the official setup examples before using account-specific tools.
+description: |-
+  # GraphOS MCP Tools
+
+  GraphOS MCP Tools, now called GraphOS MCP Server, connects assistants to Apollo documentation and graph-building tools. Documentation tools can be used without authentication. Tools that access your graph require a GraphOS API key in the x-api-key header. This is not an OAuth connector; see the official setup examples before using account-specific tools.
+
+  ## Connection
+
+  https://mcp.apollographql.com
+
+  Official documentation explicitly documents public tools plus optional x-api-key for graph-specific tools; not OAuth. Registry domain/publisher and hosted product were verified in the original inventory.
+
+  [Official documentation](https://www.apollographql.com/docs/graphos/platform/graphos-mcp-tools)
+category: development
+tags:
+  - development
+  - remote-mcp
+official: true
+registry_name: io.github.apollographql/graphos-mcp-server
+docs_url: https://www.apollographql.com/docs/graphos/platform/graphos-mcp-tools
+endpoints:
+  - url: https://mcp.apollographql.com
+    transport: streamable-http
+    auth: api-key

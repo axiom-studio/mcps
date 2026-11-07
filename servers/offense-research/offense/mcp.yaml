@@ -1,0 +1,13 @@
+name: Offense
+summary: 'Security tools for coding agents: dependency advisory audits and structured remediation evidence via MCP, CLI and HTTP.'
+category: development
+tags:
+  - code-quality
+  - coding-agent
+  - development
+  - security
+docs_url: https://github.com/offense-research/offense
+endpoints:
+  - url: https://offense.sh/mcp
+    transport: streamable-http
+    auth: none

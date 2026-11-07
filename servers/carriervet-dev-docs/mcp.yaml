@@ -1,0 +1,12 @@
+name: CarrierVet
+summary: 'Vet US motor carriers by MC or USDOT: PASS/REVIEW/FAIL verdict, risk signals, history, receipts.'
+category: other
+tags:
+  - business-operations
+  - compliance
+  - finance
+docs_url: https://carriervet.dev/docs
+endpoints:
+  - url: https://carriervet.dev/mcp
+    transport: streamable-http
+    auth: api-key

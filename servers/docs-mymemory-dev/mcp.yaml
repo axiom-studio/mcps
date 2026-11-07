@@ -1,0 +1,14 @@
+name: mymemory.dev
+summary: Long-term memory for AI assistants. Save and search your notes, links and documents from Claude, ChatGPT or Cursor.
+category: memory
+tags:
+  - ai-agent
+  - document
+  - knowledge-retrieval
+  - memory
+  - notes
+docs_url: https://docs.mymemory.dev
+endpoints:
+  - url: https://api.mymemory.dev/v1/mcp
+    transport: streamable-http
+    auth: unknown

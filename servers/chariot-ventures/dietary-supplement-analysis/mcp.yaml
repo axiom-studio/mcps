@@ -1,0 +1,13 @@
+name: Dietary Supplement Analysis (NIH data)
+summary: 'Checks a supplement routine against NIH data: finds each product''s label (by name, barcode or NIH ID), totals every vitamin and mineral per day, and flags amounts above NIH upper limits, medication interactions from the NIH fact sheets, herbs with NIH safety signals, and FDA recalls, with a plain-language summary (English or Spanish) and a source for every number. Free trial, no key needed.'
+category: other
+tags:
+  - data-analysis
+  - healthcare
+  - knowledge-retrieval
+  - research
+docs_url: https://github.com/chariot-ventures/dietary-supplement-analysis
+endpoints:
+  - url: https://agents.trackmysupplement.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,14 @@
+name: Spacebring
+summary: Spacebring MCP server. Look up members, bookings, invoices, subscriptions, events and more from MCP-compatible AI assistants that support remote servers with OAuth.
+category: productivity
+tags:
+  - document
+  - documentation
+  - identity
+  - productivity
+  - security
+docs_url: https://www.spacebring.com/docs/ai-agents/mcp-server
+endpoints:
+  - url: https://mcp.spacebring.com/mcp
+    transport: streamable-http
+    auth: oauth

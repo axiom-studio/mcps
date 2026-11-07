@@ -1,0 +1,13 @@
+name: Otis
+summary: 'Free client billing for AI assistants: hours, expenses, timers, invoices and payments.'
+category: finance
+tags:
+  - business-operations
+  - finance
+  - payment
+  - productivity
+docs_url: https://otisbase.com
+endpoints:
+  - url: https://mcp.otisbase.com/mcp
+    transport: streamable-http
+    auth: oauth

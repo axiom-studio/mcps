@@ -1,0 +1,14 @@
+name: wawesome MCP
+summary: Deploy JavaScript Functions and static sites, read logs, and roll back on wawesome.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - deployment
+  - devops
+  - log-management
+  - serverless
+docs_url: https://wawesome.io/docs
+endpoints:
+  - url: https://api.wawesome.io/v1/mcp
+    transport: streamable-http
+    auth: oauth

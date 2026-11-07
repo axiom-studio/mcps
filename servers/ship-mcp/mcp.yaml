@@ -1,0 +1,16 @@
+name: SHIP
+summary: Assign Linear, Jira or GitHub issues to an AI coding agent team that plans, builds, reviews and tests pull requests.
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - github
+  - jira
+  - project-management
+official: true
+registry_name: ai.letsship/ship
+docs_url: https://letsship.ai
+endpoints:
+  - url: https://mcp.letsship.ai/mcp
+    transport: streamable-http
+    auth: oauth

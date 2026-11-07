@@ -1,0 +1,13 @@
+name: RoboPartPicker
+summary: 'Source-linked robotics projects, bills of materials and components for AI agents: search 2,445 open robotics projects, inspect BOMs with per-line evidence state, compare parts, and validate RPPS documents.'
+category: search
+tags:
+  - ai-agent
+  - data-analysis
+  - knowledge-retrieval
+  - research
+docs_url: https://robopartpicker.com/developers
+endpoints:
+  - url: https://robopartpicker.com/mcp
+    transport: streamable-http
+    auth: unknown

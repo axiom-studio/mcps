@@ -1,0 +1,12 @@
+name: MaxiBestOf
+summary: Search curated website designs, fonts, color palettes, UI sections, profiles, and saved references. Requires Pro access and OAuth.
+category: design
+tags:
+  - content-creation
+  - design
+  - search
+docs_url: https://maxibestof.one/mcp
+endpoints:
+  - url: https://maxibestof.one/mcp-server
+    transport: streamable-http
+    auth: oauth

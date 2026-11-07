@@ -1,0 +1,13 @@
+name: Callejear France
+summary: Search 2.19 million French street records and compare IRIS-level amenities and commune-level risk codes with five read-only tools.
+category: search
+tags:
+  - data-analysis
+  - geospatial
+  - search
+  - web-research
+docs_url: https://callejear.fr/mcp/
+endpoints:
+  - url: https://callejear.fr/api/mcp
+    transport: streamable-http
+    auth: none

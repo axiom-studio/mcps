@@ -1,0 +1,12 @@
+name: Moflow
+summary: 'Net worth tracker: ask your AI what you''re worth, and have it update your ledger.'
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - productivity
+docs_url: https://moflow.app/help/connect-ai
+endpoints:
+  - url: https://moflow.app/mcp
+    transport: streamable-http
+    auth: oauth

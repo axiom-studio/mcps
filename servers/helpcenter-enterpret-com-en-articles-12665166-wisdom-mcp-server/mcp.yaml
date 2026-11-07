@@ -1,0 +1,13 @@
+name: Enterpret
+summary: Enterpret's Wisdom MCP Server brings customer intelligence directly into your favorite AI tools.
+category: productivity
+tags:
+  - ai-agent
+  - analytics
+  - customer-ops
+  - data-analysis
+docs_url: https://helpcenter.enterpret.com/en/articles/12665166-wisdom-mcp-server
+endpoints:
+  - url: https://wisdom-api.enterpret.com/server/mcp
+    transport: streamable-http
+    auth: oauth

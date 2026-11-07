@@ -1,0 +1,12 @@
+name: 'IVFcost.co: US IVF prices, coverage and grants'
+summary: Read-only data on what US fertility clinics post for IVF (by state or city), a cited IVF cost estimate, state IVF insurance laws, IVF grants open now and employer IVF coverage. Every answer links its source and the date it was read.
+category: other
+tags:
+  - data-analysis
+  - healthcare
+  - research
+docs_url: https://ivfcost.co/mcp-server
+endpoints:
+  - url: https://ivfcost.co/api/mcp
+    transport: streamable-http
+    auth: none

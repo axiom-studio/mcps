@@ -1,0 +1,13 @@
+name: Waveleta Market Data
+summary: 'Read-only market data for AI assistants: crypto tickers, ranked signals, FX, commodities, US equities history. Tools: get_crypto_tickers, get_crypto_meta, get_radar_signals, get_equity_history, get_fx_rates, get_commodities, list_sources. Endpoint https://api.waveleta.com/mcp (Streamable HTTP, Bearer API key). Works with Cursor/Claude; ChatGPT limited (OAuth). Pricing: €2 free starter credit, then €0.002 per successful call.'
+category: finance
+tags:
+  - crypto
+  - finance
+  - marketplace
+  - trading
+docs_url: https://waveleta.com/developer/mcp
+endpoints:
+  - url: https://api.waveleta.com/mcp
+    transport: streamable-http
+    auth: api-key

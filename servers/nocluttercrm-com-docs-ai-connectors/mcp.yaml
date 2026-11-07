@@ -1,0 +1,13 @@
+name: NoClutterCRM
+summary: Search and update contacts, companies, deals and tasks through a remote MCP connection with OAuth and workspace-scoped permissions; MCP access must be enabled.
+category: productivity
+tags:
+  - crm
+  - productivity
+  - sales
+  - task-management
+docs_url: https://nocluttercrm.com/docs/ai-connectors
+endpoints:
+  - url: https://nocluttercrm.com/mcp/nocluttercrm
+    transport: streamable-http
+    auth: oauth

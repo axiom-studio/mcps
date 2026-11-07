@@ -1,0 +1,11 @@
+name: Cruise Itinerary
+summary: Cruise sailings, itineraries, weekly fare history, monthly port capacity and the Cruise Price Index for AI assistants.
+category: other
+tags:
+  - data-analysis
+  - research
+docs_url: https://github.com/BigBalli/cruise-itinerary-mcp
+endpoints:
+  - url: https://cruise-itinerary.com/mcp
+    transport: streamable-http
+    auth: oauth

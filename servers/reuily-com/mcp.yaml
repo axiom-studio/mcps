@@ -1,0 +1,12 @@
+name: Reuily MCP
+summary: Free form builder with no limits.
+category: productivity
+tags:
+  - cms
+  - productivity
+  - workflow-automation
+docs_url: https://reuily.com/
+endpoints:
+  - url: https://reuily.com/api/mcp
+    transport: streamable-http
+    auth: oauth

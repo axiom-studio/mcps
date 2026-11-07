@@ -1,0 +1,14 @@
+name: BRONTIR Research
+summary: Remote MCP server for web research across search, Reddit, YouTube, local businesses, reviews, ad libraries and more, with line-numbered citations.
+category: search
+tags:
+  - advertising
+  - search
+  - social-media
+  - video
+  - web-research
+docs_url: https://brontir.com/docs
+endpoints:
+  - url: https://research.brontir.com/api/mcp
+    transport: streamable-http
+    auth: oauth

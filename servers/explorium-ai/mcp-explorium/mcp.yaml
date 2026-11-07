@@ -1,0 +1,12 @@
+name: Explorium API
+summary: Interact with the Explorium API to access external data for machine learning.
+category: development
+tags:
+  - api
+  - data-analysis
+registry_name: ai.explorium/mcp-explorium
+docs_url: https://github.com/explorium-ai/mcp-explorium
+endpoints:
+  - url: https://mcp.explorium.ai/mcp
+    transport: streamable-http
+    auth: oauth

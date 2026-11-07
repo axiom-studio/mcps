@@ -1,0 +1,13 @@
+name: JBlanked MCP
+summary: Build and share MicroPython "Picoware" apps for supported devices, and pull market-calendar and backtesting data
+category: development
+tags:
+  - development
+  - finance
+  - marketplace
+  - trading
+docs_url: https://www.jblanked.com
+endpoints:
+  - url: https://www.jblanked.com/mcp
+    transport: streamable-http
+    auth: unknown

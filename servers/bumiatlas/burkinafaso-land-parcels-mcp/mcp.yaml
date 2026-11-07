@@ -1,0 +1,13 @@
+name: Burkina Faso Land Parcels (DGI eCadastre · Parcelles)
+summary: Burkinabè DGI eCadastre parcels by commune, section, îlot and parcel, or coordinates.
+category: other
+tags:
+  - database
+  - geospatial
+  - government
+  - real-estate
+docs_url: https://github.com/BumiAtlas/burkinafaso-land-parcels-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/burkinafaso
+    transport: streamable-http
+    auth: oauth

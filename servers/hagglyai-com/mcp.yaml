@@ -1,0 +1,13 @@
+name: Hagglyai
+summary: Compare paid agent endpoints (x402 + MCP) on price, uptime and real usage before you pay.
+category: development
+tags:
+  - ai-agent
+  - analytics
+  - api
+  - research
+docs_url: https://hagglyai.com
+endpoints:
+  - url: https://hagglyai.com/mcp
+    transport: streamable-http
+    auth: none

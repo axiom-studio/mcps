@@ -1,0 +1,12 @@
+name: localscreenshot
+summary: 'Screenshot API for AI agents: capture any public page from 227 countries, with cookie banners and ads hidden, in one request. 50 free credits, no card.'
+category: development
+tags:
+  - development
+  - document
+  - documentation
+docs_url: https://docs.localscreenshot.com/overview
+endpoints:
+  - url: https://api.localscreenshot.com/mcp/free
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,14 @@
+name: Leads Discovery Agent by Nova (CIVAI)
+summary: I discover new leads from WhatsApp/Telegram groups, Instagram post commenters, and X thread repliers — then import them into your Support Agent CRM
+category: search
+tags:
+  - communication
+  - crm
+  - social-media
+  - telegram
+  - whatsapp
+docs_url: https://github.com/civai-technologies/leads-discovery-agent-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/leads-discovery-agent
+    transport: streamable-http
+    auth: api-key

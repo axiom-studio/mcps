@@ -1,0 +1,13 @@
+name: Layrcake
+summary: Hosted MCP server for B2B lead search, work-email verification, buying signals and human-approved email campaigns.
+category: marketing
+tags:
+  - crm
+  - email-automation
+  - marketing-automation
+  - sales
+docs_url: https://github.com/Layrcake-dev/layrcake-mcp
+endpoints:
+  - url: https://mcp.layrcake.dev/mcp
+    transport: streamable-http
+    auth: oauth

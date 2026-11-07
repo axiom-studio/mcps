@@ -1,0 +1,14 @@
+name: HutchDB
+summary: 'Shared database for teams and AI agents: store, query, and update structured records over MCP.'
+category: database
+tags:
+  - ai-agent
+  - collaboration
+  - data-analysis
+  - database
+  - sql
+docs_url: https://github.com/ExpeditedProjects/hutchdb
+endpoints:
+  - url: https://app.hutchdb.com/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,18 @@
+name: Blackbaud
+summary: Blackbaud provides fundraising, nonprofit, and education software. Its remote MCP server brings live constituent, event, and donation data from Blackbaud's SKY API into assistant workflows for natural-language exploration and analysis.
+description: |-
+  Blackbaud provides fundraising, nonprofit, and education software. Its remote MCP server brings live constituent, event, and donation data from Blackbaud's SKY API into assistant workflows for natural-language exploration and analysis.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/blackbaud)
+category: other
+tags:
+  - other
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/blackbaud
+endpoints:
+  - url: https://mcp.sky.blackbaud.com/
+    transport: streamable-http
+    auth: oauth

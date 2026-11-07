@@ -1,0 +1,13 @@
+name: Usilitel Signala
+summary: 'Cellular signal booster shop in Moscow: catalog, live prices and stock, equipment picks, order link'
+category: search
+tags:
+  - ecommerce
+  - inventory
+  - marketplace
+  - search
+docs_url: https://github.com/ostrovit201/usilitel-signala-mcp-server-manifest
+endpoints:
+  - url: https://mcp.usilitel-signala.ru/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Vythos MCP
+summary: Gives Claude, Cursor or any MCP client your agency’s rules (rate card, terms, brand voice, client rules) before it drafts, and checks drafts against them, citing the rule broken. Hosted. Needs a Vythos account; the Free plan works.
+category: memory
+tags:
+  - compliance
+  - document
+  - knowledge-retrieval
+  - memory
+docs_url: https://doc.vythos.tech/ai-tools/connect
+endpoints:
+  - url: https://api.vythos.tech/api/mcp/sse
+    transport: streamable-http
+    auth: api-key

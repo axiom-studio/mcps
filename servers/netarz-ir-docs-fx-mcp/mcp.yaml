@@ -1,0 +1,12 @@
+name: NetArz FX Rates
+summary: 'Live Iranian rial/toman exchange rates (~30 currencies), conversion, daily history and gold prices. Remote server at https://netarz.ir/api/fx/mcp: free tier needs no key (15 min delay, 1 year history); full history is Pro only.'
+category: finance
+tags:
+  - api
+  - finance
+  - trading
+docs_url: https://netarz.ir/docs/fx/mcp
+endpoints:
+  - url: https://netarz.ir/api/fx/mcp
+    transport: streamable-http
+    auth: none

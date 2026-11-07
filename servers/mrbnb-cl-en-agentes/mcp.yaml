@@ -1,0 +1,11 @@
+name: Mr BnB Santiago
+summary: Search availability, get a price quote and a booking link for furnished short-stay apartments in Santiago, Chile. Remote MCP at https://mrbnb.cl/mcp (Streamable HTTP), read-only, no login.
+category: other
+tags:
+  - marketplace
+  - real-estate
+docs_url: https://mrbnb.cl/en/agentes
+endpoints:
+  - url: https://mrbnb.cl/mcp
+    transport: streamable-http
+    auth: none

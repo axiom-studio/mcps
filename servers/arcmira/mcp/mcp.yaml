@@ -1,0 +1,12 @@
+name: 'Arcmira: YouTube Transcript Search'
+summary: 'Search YouTube and podcast transcripts: mentions, momentum, sponsors, organic recommendations, and full transcripts.'
+category: search
+tags:
+  - media
+  - search
+  - video
+docs_url: https://github.com/arcmira/mcp
+endpoints:
+  - url: https://mcp.arcmira.com/mcp
+    transport: streamable-http
+    auth: oauth

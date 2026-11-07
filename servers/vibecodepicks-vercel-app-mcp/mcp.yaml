@@ -1,0 +1,13 @@
+name: VibeCodePicks
+summary: 'Remote no-auth MCP that recommends and compares vibe coding tools and AI coding agents: fit, pricing, free tiers, alternatives, demo videos.'
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - development
+  - research
+docs_url: https://vibecodepicks.vercel.app/mcp/
+endpoints:
+  - url: https://vibecodepicks.vercel.app/api/mcp
+    transport: streamable-http
+    auth: unknown

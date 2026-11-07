@@ -1,0 +1,13 @@
+name: Dibatto
+summary: Review saved podcast rundowns and transcripts, and prepare private episode drafts.
+category: communication
+tags:
+  - communication
+  - content-creation
+  - media
+  - notes
+docs_url: https://dibatto.com/developers
+endpoints:
+  - url: https://dibatto.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: CARDZ MCP
+summary: Free, read-only MCP server for graded TCG card data. PSA 10 prices, population, market cap and daily history for Pokémon and One Piece, no login required.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - gaming
+  - marketplace
+docs_url: https://mcp.cardz.game/
+endpoints:
+  - url: https://mcp.cardz.game/mcp
+    transport: streamable-http
+    auth: unknown

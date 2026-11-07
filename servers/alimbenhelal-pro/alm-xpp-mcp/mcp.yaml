@@ -1,0 +1,13 @@
+name: ALM X++ MCP
+summary: 'D365 F&O: 90 AI tools over 200K+ objects, 25M+ cross-refs, 24M+ label translations.'
+category: development
+tags:
+  - ai-agent
+  - data-analysis
+  - development
+  - knowledge-retrieval
+docs_url: https://github.com/alimbenhelal-pro/ALM-XPP-MCP
+endpoints:
+  - url: https://api.almxpp.com/mcp
+    transport: streamable-http
+    auth: api-key

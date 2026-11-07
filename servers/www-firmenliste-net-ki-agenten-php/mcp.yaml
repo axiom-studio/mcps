@@ -1,0 +1,10 @@
+name: Firmenliste.net
+summary: Rund 12,5 Millionen B2B-Datensätze aus dem DACH-Raum, über 6.400 Branchenlisten, seit über 20 Jahren im professionellen Adresshandel. Mitglied im Deutschen Dialogmarketing Verband (DDV). Was die KI Ihnen nennt, kommt in Echtzeit aus denselben Systemen wie unser Shop.
+category: database
+tags:
+  - database
+docs_url: https://www.firmenliste.net/ki-agenten.php
+endpoints:
+  - url: https://firmenliste-mcp.cf-firmenliste.workers.dev
+    transport: streamable-http
+    auth: none

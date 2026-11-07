@@ -1,0 +1,12 @@
+name: Clannit MCP by Nova (CIVAI)
+summary: Create estate guest visit invites and read your Clannit notifications (including past invite codes and times).
+category: productivity
+tags:
+  - notifications
+  - productivity
+  - real-estate
+docs_url: https://github.com/civai-technologies/mcp-bgpt-clannit-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-bgpt-clannit
+    transport: streamable-http
+    auth: api-key

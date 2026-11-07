@@ -1,0 +1,13 @@
+name: Remote Desktop Commander
+summary: 'Remote Desktop Commander: use files, terminal and processes on your own computers from any AI app.'
+category: development
+tags:
+  - development
+  - file-management
+  - productivity
+  - ssh
+docs_url: https://mcp.desktopcommander.app
+endpoints:
+  - url: https://mcp.desktopcommander.app/mcp
+    transport: streamable-http
+    auth: unknown

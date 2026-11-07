@@ -1,0 +1,13 @@
+name: Bankrolled.ai Agent Hub
+summary: Free, sourced money facts and scheme lookups for US/UK/CA/AU/NZ. Every answer cites bankrolled.com.
+category: finance
+tags:
+  - finance
+  - knowledge-retrieval
+  - research
+  - web-research
+docs_url: https://github.com/Bankrolled/bankrolled-ai-docs
+endpoints:
+  - url: https://bankrolled.ai/mcp
+    transport: streamable-http
+    auth: unknown

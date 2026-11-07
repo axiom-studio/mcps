@@ -1,0 +1,13 @@
+name: wordradar
+summary: 'Live keyword radar for indie SEO: a million-word suggest ledger, HN launch radar and proxy-KD difficulty scores, served over MCP and REST.'
+category: search
+tags:
+  - analytics
+  - search
+  - seo
+  - web-research
+docs_url: https://www.wordradar.dev
+endpoints:
+  - url: https://www.wordradar.dev/mcp
+    transport: streamable-http
+    auth: unknown

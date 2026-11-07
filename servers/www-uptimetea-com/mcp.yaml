@@ -1,0 +1,13 @@
+name: UptimeTea
+summary: Uptime monitoring you run from your AI assistant. Create monitors, handle incidents and update status pages from Claude, Codex or VS Code. Free for 50 monitors.
+category: development
+tags:
+  - ai-agent
+  - devops
+  - monitoring
+  - observability-incident
+docs_url: https://www.uptimetea.com/
+endpoints:
+  - url: https://mcp.uptimetea.com/sse
+    transport: streamable-http
+    auth: api-key

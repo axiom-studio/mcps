@@ -1,0 +1,12 @@
+name: 'Context crossmatch: compatibility typing for context ingestion'
+summary: Compatibility-typing for ingested context — Solo $9, Fleet $19 /mo + $0.005/check
+category: development
+tags:
+  - context7
+  - development
+  - knowledge-retrieval
+docs_url: https://textforagents.com/products/context-crossmatch-compatibility-typing/mcp
+endpoints:
+  - url: https://textforagents.com/products/context-crossmatch-compatibility-typing/mcp
+    transport: streamable-http
+    auth: unknown

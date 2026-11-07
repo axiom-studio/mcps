@@ -1,0 +1,13 @@
+name: Monitly MCP
+summary: 'Gives AI agents official statistics and economic indicators from Eurostat, World Bank, OECD, IMF, WHO and national statistical offices for 150+ countries: dataset search, time series, CSV export.'
+category: search
+tags:
+  - data-analysis
+  - knowledge-retrieval
+  - research
+  - web-research
+docs_url: https://github.com/ContentWriterco/Monitly-MCP
+endpoints:
+  - url: https://monit.ly/api/mcp
+    transport: streamable-http
+    auth: api-key

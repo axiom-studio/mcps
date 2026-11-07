@@ -1,0 +1,14 @@
+name: Taskhold
+summary: 'Taskhold is a hosted task list shared by a person and their coding agents. Claude Code, Cursor, Codex, Windsurf and any MCP client connect to https://taskhold.com/api/mcp (Streamable HTTP, bearer API key) and use 19 tools: pick up the next task, break it into steps (taskhold_plan), report progress (taskhold_progress), block with a question, read the person''s replies (taskhold_updates) and complete with a summary. The person watches a live board updated over server-sent events. $12/month or $120/year, 7-day trial.'
+category: productivity
+tags:
+  - ai-agent
+  - collaboration
+  - productivity
+  - task-management
+docs_url: https://taskhold.com
+website_url: https://taskhold.com
+endpoints:
+  - url: https://taskhold.com/api/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,12 @@
+name: ElectionsMCP
+summary: 'Model and map any 2028 U.S. race down to the precinct: scenarios, swing, turnout, and roll-ups.'
+category: other
+tags:
+  - data-analysis
+  - geospatial
+  - research
+docs_url: https://www.electionsmcp.com
+endpoints:
+  - url: https://www.electionsmcp.com/mcp
+    transport: streamable-http
+    auth: none

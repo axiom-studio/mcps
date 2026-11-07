@@ -1,0 +1,13 @@
+name: FrontMCP Docs
+summary: Search and read FrontMCP's documentation, pinned to the FrontMCP version a project uses.
+category: development
+tags:
+  - development
+  - documentation
+  - knowledge-retrieval
+  - search
+docs_url: https://frontmcp.dev/learn/docs-for-your-agent
+endpoints:
+  - url: https://mcp.frontmcp.dev
+    transport: streamable-http
+    auth: none

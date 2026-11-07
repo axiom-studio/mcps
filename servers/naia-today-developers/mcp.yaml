@@ -1,0 +1,14 @@
+name: naia GEO Autopilot
+summary: Execute análises de visibilidade em IA, consulte relatórios GEO, gere e edite conteúdo e crie planos de execução pela Naia.
+category: marketing
+tags:
+  - ai-agent
+  - analytics
+  - content-creation
+  - marketing
+  - seo
+docs_url: https://naia.today/developers
+endpoints:
+  - url: https://naia.today/api/v1/mcp
+    transport: streamable-http
+    auth: oauth

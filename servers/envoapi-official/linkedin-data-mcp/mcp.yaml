@@ -1,0 +1,13 @@
+name: LinkedIn Data MCP
+summary: Look up people, companies, jobs and posts, and find and verify work emails.
+category: web-scraping
+tags:
+  - data-analysis
+  - research
+  - web-scraping
+official: true
+docs_url: https://github.com/envoapi-official/linkedin-data-mcp
+endpoints:
+  - url: https://api.envoapi.com/mcp
+    transport: streamable-http
+    auth: oauth

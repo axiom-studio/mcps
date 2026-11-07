@@ -1,0 +1,15 @@
+name: 'AskOne: Live Q&A and Polls'
+summary: 'Run free live audience Q&A and polls from your agent: start an AskOne room, add and launch a poll, approve or hide questions and mark them answered, close the room, then read the questions as a FAQ draft and get the results. Free AI moderation (optional). Uses an organization API token from askone.org'
+category: communication
+tags:
+  - communication
+  - customer-ops
+  - meeting-notes
+  - workflow-automation
+official: true
+registry_name: io.github.phuryn/askone
+docs_url: https://askone.org
+endpoints:
+  - url: https://github.com/phuryn/askone
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,14 @@
+name: Floot
+summary: 'Build, deploy and host full-stack web and mobile apps from Claude or ChatGPT: database, auth, payments, custom domains.'
+category: development
+tags:
+  - cloud-infrastructure
+  - database
+  - deployment
+  - development
+  - payment
+docs_url: https://github.com/floothq/mcp
+endpoints:
+  - url: https://mcp.floot.com/mcp
+    transport: streamable-http
+    auth: oauth

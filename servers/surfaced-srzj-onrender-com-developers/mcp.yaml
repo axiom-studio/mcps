@@ -1,0 +1,13 @@
+name: 'Surfaced: AI Shopping Readiness'
+summary: 'Free remote MCP server: ask your AI assistant to score any Shopify store 0-100 for AI shopping readiness and list the top fixes. Tools: check_store_ai_readiness, explain_issue, get_surfaced_plans. Streamable HTTP endpoint https://surfaced-srzj.onrender.com/mcp, no auth.'
+category: marketing
+tags:
+  - ecommerce
+  - marketing
+  - seo
+  - shopify
+docs_url: https://surfaced-srzj.onrender.com/developers
+endpoints:
+  - url: https://surfaced-srzj.onrender.com/mcp
+    transport: streamable-http
+    auth: unknown

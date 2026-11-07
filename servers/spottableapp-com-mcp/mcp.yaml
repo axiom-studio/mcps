@@ -1,0 +1,13 @@
+name: Spottable Marketplace MCP
+summary: Search Facebook Marketplace by item, location and budget. Inspect listing details and photos, and analyze price, condition and possible red flags. Hosted remote MCP with OAuth. Requires paid Spottable Pro or Max; uses shared credits. Read-only.
+category: search
+tags:
+  - ecommerce
+  - marketplace
+  - search
+  - web-scraping
+docs_url: https://spottableapp.com/mcp/
+endpoints:
+  - url: https://api.spottableapp.com/v1/mcp
+    transport: streamable-http
+    auth: oauth

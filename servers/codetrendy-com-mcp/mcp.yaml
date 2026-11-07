@@ -1,0 +1,12 @@
+name: CodeTrendy
+summary: 'Lets AI agents find SaaS, AI and developer tools and their alternatives in the CodeTrendy directory: keyword search, alternatives to a product, listing profiles, categories, trending and Site of the Day. Remote streamable HTTP at https://codetrendy.com/api/mcp. Free, read-only, no API key.'
+category: search
+tags:
+  - development
+  - marketplace
+  - search
+docs_url: https://codetrendy.com/mcp
+endpoints:
+  - url: https://codetrendy.com/api/mcp
+    transport: streamable-http
+    auth: none

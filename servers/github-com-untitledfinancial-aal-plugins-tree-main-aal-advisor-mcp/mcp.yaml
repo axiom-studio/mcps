@@ -1,0 +1,14 @@
+name: Alternative Asset Literacy — Advisor
+summary: 'Client-education toolkit for financial advisors: DeFi, art, tokenized real-world assets, PE/VC secondaries, and gender-lens investing as full tracks, plus a beyond-GDP framework found nowhere else, real computation (Monte Carlo, illiquidity pacing), a Reg BI-aware compliance check, and a free SEC/FINRA lookup.'
+category: finance
+tags:
+  - compliance
+  - data-analysis
+  - defi
+  - finance
+  - research
+docs_url: https://github.com/untitledfinancial/aal-plugins/tree/main/aal-advisor-mcp
+endpoints:
+  - url: https://alternativeassetliteracy.com/mcp
+    transport: streamable-http
+    auth: api-key

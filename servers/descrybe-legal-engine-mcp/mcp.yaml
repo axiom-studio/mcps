@@ -1,0 +1,18 @@
+name: Descrybe Legal Engine
+summary: Descrybe Legal Engine provides structured U.S. primary-law context for legal work. Its connector helps assistants ground legal research in clean source material, supporting searches, summaries, and analysis across U.S. legal documents.
+description: |-
+  Descrybe Legal Engine provides structured U.S. primary-law context for legal work. Its connector helps assistants ground legal research in clean source material, supporting searches, summaries, and analysis across U.S. legal documents.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/descrybe)
+category: search
+tags:
+  - remote-mcp
+  - search
+official: true
+docs_url: https://claude.com/connectors/descrybe
+endpoints:
+  - url: https://mcp.descrybe.com/mcp
+    transport: streamable-http
+    auth: oauth

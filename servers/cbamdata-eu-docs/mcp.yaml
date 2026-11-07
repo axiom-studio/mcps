@@ -1,0 +1,13 @@
+name: CBAM Data
+summary: 'EU CBAM engine (Reg (EU) 2023/956): scope, default emissions, certificates and cost per CN code.'
+category: finance
+tags:
+  - compliance
+  - database
+  - finance
+  - government
+docs_url: https://cbamdata.eu/docs
+endpoints:
+  - url: https://cbamdata.eu/mcp
+    transport: streamable-http
+    auth: api-key

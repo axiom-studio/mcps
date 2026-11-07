@@ -1,0 +1,14 @@
+name: Exa MCP
+summary: Search Engine made for AIs by Exa
+category: search
+tags:
+  - ai-agent
+  - search
+  - web-research
+official: true
+registry_name: ai.exa/exa
+docs_url: https://github.com/exa-labs/exa-mcp-server
+endpoints:
+  - url: https://mcp.exa.ai/mcp
+    transport: streamable-http
+    auth: none

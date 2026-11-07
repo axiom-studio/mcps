@@ -1,0 +1,12 @@
+name: ApplyToVolunteer
+summary: Upload the volunteer application you already use and get a short, mobile-friendly online form. Host it or embed it on your site.
+category: productivity
+tags:
+  - business-operations
+  - productivity
+  - workflow-automation
+docs_url: https://applytovolunteer.com/ai
+endpoints:
+  - url: https://applytovolunteer.com/mcp
+    transport: streamable-http
+    auth: unknown

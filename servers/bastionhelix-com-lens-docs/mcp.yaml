@@ -1,0 +1,13 @@
+name: Bastion Helix Agent Lens
+summary: 'Free, no key: check a web page before your AI agent uses it (robots.txt and AI rules, which browser it needs, prompt-injection warnings). Paid tools, launching soon, return the page as Markdown, JSON or a screenshot. Read-only, and it never bypasses bot checks.'
+category: web-scraping
+tags:
+  - ai-agent
+  - browser
+  - security
+  - web-scraping
+docs_url: https://bastionhelix.com/lens/docs
+endpoints:
+  - url: https://lens.bastionhelix.com/mcp
+    transport: streamable-http
+    auth: unknown

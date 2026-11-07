@@ -1,0 +1,13 @@
+name: FineVoice MCP
+summary: Create Expressive AI Voices in Seconds — Clone, Design, and Customize for Every Style and Scenario.
+category: productivity
+tags:
+  - ai-model
+  - audio
+  - content-creation
+  - text-to-speech
+docs_url: https://finevoice.ai/
+endpoints:
+  - url: https://mcp.finevoice.ai/v1/mcp
+    transport: streamable-http
+    auth: oauth

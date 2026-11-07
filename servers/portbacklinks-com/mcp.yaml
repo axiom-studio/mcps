@@ -1,0 +1,13 @@
+name: PortBacklinks MCP
+summary: Let AI assistants search free backlink submission directories and get step-by-step submission checklists and guides for each platform.
+category: marketing
+tags:
+  - knowledge-retrieval
+  - marketing
+  - seo
+  - web-research
+docs_url: https://portbacklinks.com
+endpoints:
+  - url: https://portbacklinks.com/api/mcp
+    transport: streamable-http
+    auth: none

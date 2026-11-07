@@ -1,0 +1,13 @@
+name: 'Holofy: London Property MCP'
+summary: 'Free remote MCP connector that lets Claude, ChatGPT or Grok search London property: listings (Holofy agency video tours first, then live results from major portals and agents), sold prices, area profiles and trends, commute times, buying costs and stamp duty, rental yield. No sign-in needed.'
+category: search
+tags:
+  - finance
+  - real-estate
+  - search
+  - web-research
+docs_url: https://www.holofy.io
+endpoints:
+  - url: https://www.holofy.io/mcp
+    transport: streamable-http
+    auth: none

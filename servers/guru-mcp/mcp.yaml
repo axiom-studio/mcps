@@ -1,0 +1,19 @@
+name: Guru
+summary: Guru is a company knowledge platform that captures verified internal information as searchable cards. Its remote MCP server connects assistants to that trusted knowledge layer so team questions can be answered with sourced, up-to-date company content.
+description: |-
+  Guru is a company knowledge platform that captures verified internal information as searchable cards. Its remote MCP server connects assistants to that trusted knowledge layer so team questions can be answered with sourced, up-to-date company content.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://help.getguru.com/docs/connecting-gurus-mcp-server)
+category: productivity
+tags:
+  - productivity
+  - remote-mcp
+official: true
+registry_name: com.getguru/mcp-server
+docs_url: https://help.getguru.com/docs/connecting-gurus-mcp-server
+endpoints:
+  - url: https://mcp.api.getguru.com/mcp
+    transport: streamable-http
+    auth: oauth

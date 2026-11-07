@@ -1,0 +1,13 @@
+name: SoldCount
+summary: 'Ask your AI assistant how the TikTok Shop listings you watch are selling. SoldCount answers with measured figures: sold in the last 24 hours, 7 days and 30 days, price against the same product from other sellers, and who is undercutting you. When we do not have enough history yet, it says so.'
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - ecommerce
+  - marketing
+docs_url: https://soldcount.com/claude
+endpoints:
+  - url: https://mcp.soldcount.com/mcp
+    transport: streamable-http
+    auth: oauth

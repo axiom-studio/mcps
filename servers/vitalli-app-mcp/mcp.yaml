@@ -1,0 +1,12 @@
+name: Vitalli
+summary: Connect your own Vitalli health records (lab values, symptoms, fasting, supplements and food log) to your AI assistant. Read and record entries in Vora, Still, Stackwell and Joiva.
+category: productivity
+tags:
+  - ai-agent
+  - healthcare
+  - productivity
+docs_url: https://vitalli.app/mcp
+endpoints:
+  - url: https://mcp.vitalli.app
+    transport: streamable-http
+    auth: oauth

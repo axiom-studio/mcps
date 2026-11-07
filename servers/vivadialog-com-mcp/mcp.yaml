@@ -1,0 +1,14 @@
+name: VivaDialog MCP
+summary: 'Read and manage your VivaDialog unified inbox from your AI client: Facebook, Instagram, Threads, Telegram, email and YouTube conversations, analytics and automations.'
+category: communication
+tags:
+  - analytics
+  - communication
+  - email-automation
+  - social-media
+  - workflow-automation
+docs_url: https://vivadialog.com/mcp/
+endpoints:
+  - url: https://api.vivadialog.com/mcp
+    transport: streamable-http
+    auth: oauth

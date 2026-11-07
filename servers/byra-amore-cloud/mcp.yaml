@@ -1,0 +1,12 @@
+name: MoreAI - Byrå ChatGPT & Claude (Fortnox)
+summary: 'Fortnox MCP server for accounting firms: connect ChatGPT, Claude or Grok to your clients'' Fortnox companies. Every consultant reaches every client company, read-only or with each change approved first. More at byra.amore.cloud'
+category: finance
+tags:
+  - ai-model
+  - anthropic
+  - llm
+docs_url: https://byra.amore.cloud/
+endpoints:
+  - url: https://byra.amore.cloud/mcp
+    transport: streamable-http
+    auth: oauth

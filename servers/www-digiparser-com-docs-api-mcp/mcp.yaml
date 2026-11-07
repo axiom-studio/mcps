@@ -1,0 +1,13 @@
+name: DigiParser
+summary: 'Connect AI assistants to DigiParser document workflows: find parsers, process documents, inspect extracted fields and line items, manage reviews, and export data. Hosted Streamable HTTP with OAuth and US/EU endpoints; a qualifying DigiParser plan is required.'
+category: productivity
+tags:
+  - data-analysis
+  - document
+  - productivity
+  - workflow-automation
+docs_url: https://www.digiparser.com/docs/api/mcp
+endpoints:
+  - url: https://mcp.digiparser.com/mcp
+    transport: streamable-http
+    auth: oauth

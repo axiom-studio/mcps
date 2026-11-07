@@ -1,0 +1,13 @@
+name: 'readygpu: hardware for local AI'
+summary: Live UK, Germany, Canada and US prices for GPUs and Macs that run open AI models. No sign-up.
+category: search
+tags:
+  - ai-model
+  - finance
+  - marketplace
+  - search
+docs_url: https://readygpu.com
+endpoints:
+  - url: https://readygpu.com/api/mcp
+    transport: streamable-http
+    auth: unknown

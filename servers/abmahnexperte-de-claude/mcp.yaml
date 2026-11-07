@@ -1,0 +1,12 @@
+name: Abmahnexperte.de
+summary: Guides on German Abmahnungen (cease and desist letters); a form passes yours to a lawyer for a free first assessment.
+category: other
+tags:
+  - compliance
+  - document
+  - government
+docs_url: https://abmahnexperte.de/claude/
+endpoints:
+  - url: https://mein.abmahnexperte.de/mcp
+    transport: streamable-http
+    auth: none

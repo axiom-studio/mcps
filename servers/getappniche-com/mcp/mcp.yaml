@@ -1,0 +1,14 @@
+name: GetAppNiche
+summary: 'Live App Store and Google Play data for AI agents: app discovery, revenue and download estimates, ASO keywords, and reviews.'
+category: development
+tags:
+  - analytics
+  - data-analysis
+  - marketing
+  - mobile
+  - research
+docs_url: https://github.com/getappniche-com/mcp
+endpoints:
+  - url: https://api.getappniche.com/mcp
+    transport: streamable-http
+    auth: unknown

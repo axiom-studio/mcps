@@ -1,0 +1,12 @@
+name: EasyGerber
+summary: AI PCB design, layout, and routing
+category: design
+tags:
+  - ai-agent
+  - design
+  - development
+docs_url: https://github.com/EasyGerber/easygerber-agent-plugin
+endpoints:
+  - url: https://www.easygerber.com/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Returnolio
+summary: 'Read-only stock research: company scores, the monthly Top 10, the screener and your own portfolio, for about 1,000 public companies.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+docs_url: https://returnolio.com/docs/features/mcp
+endpoints:
+  - url: https://mcp.returnolio.com/mcp
+    transport: streamable-http
+    auth: unknown

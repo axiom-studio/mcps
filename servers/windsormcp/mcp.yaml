@@ -1,0 +1,15 @@
+name: Windsor
+summary: Windsor MCP enables your LLM to query, explore, and analyze your full-stack business data integrated into Windsor.ai with zero SQL writing or custom scripting.
+category: development
+tags:
+  - analytics
+  - business-operations
+  - data-analysis
+  - marketing
+official: true
+registry_name: ai.windsor/windsor-mcp
+docs_url: https://github.com/windsor-ai/windsor_mcp
+endpoints:
+  - url: https://mcp.windsor.ai
+    transport: streamable-http
+    auth: oauth

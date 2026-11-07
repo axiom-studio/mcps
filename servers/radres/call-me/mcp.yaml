@@ -1,0 +1,13 @@
+name: Call Me
+summary: Your AI rings your iPhone, speaks its question, and gets your spoken answer back as text.
+category: communication
+tags:
+  - ai-agent
+  - audio
+  - communication
+  - telegram
+docs_url: https://github.com/radres/call-me
+endpoints:
+  - url: https://callmemcp.com/mcp
+    transport: streamable-http
+    auth: none

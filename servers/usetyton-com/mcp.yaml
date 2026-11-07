@@ -1,0 +1,13 @@
+name: Tyton MCP
+summary: Tyton helps your AI agent audit and set up Meta Pixel and Conversions API tracking.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - api
+  - marketing
+docs_url: https://usetyton.com
+endpoints:
+  - url: https://mcp.usetyton.com/audit
+    transport: streamable-http
+    auth: none

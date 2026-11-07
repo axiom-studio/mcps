@@ -1,0 +1,13 @@
+name: G Maps Crawl
+summary: Search Google Maps businesses by keyword and location through a remote MCP server. Receive up to 20 businesses per search using an API workspace key.
+category: search
+tags:
+  - business-operations
+  - geospatial
+  - search
+  - web-scraping
+docs_url: https://gmapscrawl.com/google-maps-scraper-mcp
+endpoints:
+  - url: https://gmapscrawl.com/api/mcp
+    transport: streamable-http
+    auth: api-key

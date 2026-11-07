@@ -1,0 +1,12 @@
+name: LONG Events
+summary: Event, artist, and conference-week data over streamable HTTP. Discovery is free; tool calls are x402 or an API key.
+category: search
+tags:
+  - knowledge-retrieval
+  - search
+  - web-research
+docs_url: https://long.events
+endpoints:
+  - url: https://long.events/functions/v1/mcp-server/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: BackPoW PoW Oracle
+summary: 'Live Proof-of-Work mining data for AI agents: difficulty, hashrate, solo-mining odds, cost of production and hardware profitability across 126+ networks. Read-only, no API key.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - data-analysis
+  - finance
+docs_url: https://github.com/BackpowCom/backpow-mcp-server
+endpoints:
+  - url: https://mcp.backpow.com/mcp
+    transport: streamable-http
+    auth: none

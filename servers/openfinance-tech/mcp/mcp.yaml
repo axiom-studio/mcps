@@ -1,0 +1,13 @@
+name: OpenFinance — Easy Trading
+summary: 'Easy trading for AI agents: crypto and stock perps on Hyperliquid, Polymarket prediction markets, swaps and bridges across 40+ chains, memecoins and token launches. One hosted URL, OAuth sign-in, no install.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - defi
+  - trading
+docs_url: https://github.com/openfinance-tech/mcp
+endpoints:
+  - url: https://api.openfinance.tech/agent/mcp
+    transport: streamable-http
+    auth: oauth

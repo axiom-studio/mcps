@@ -1,0 +1,12 @@
+name: BingeTube
+summary: Search and recommend short drama series on BingeTube (binge.tube), with watch links. Remote server, no sign-in.
+category: search
+tags:
+  - entertainment
+  - media
+  - search
+docs_url: https://binge.tube/
+endpoints:
+  - url: https://binge.tube/mcp
+    transport: streamable-http
+    auth: none

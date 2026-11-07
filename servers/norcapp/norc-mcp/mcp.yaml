@@ -1,0 +1,13 @@
+name: norc
+summary: Manage cron jobs, machines and run history in your norc account from any AI chat.
+category: development
+tags:
+  - devops
+  - monitoring
+  - task-management
+  - workflow-automation
+docs_url: https://github.com/norcapp/norc-mcp
+endpoints:
+  - url: https://mcp.norc.app/mcp
+    transport: streamable-http
+    auth: unknown

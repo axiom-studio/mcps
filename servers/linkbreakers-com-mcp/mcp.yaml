@@ -1,0 +1,11 @@
+name: Linkbreakers
+summary: Create, track and manage dynamic QR codes and short links from your AI agent, with live scan analytics, routing by device, country or time, and lead capture forms.
+category: marketing
+tags:
+  - analytics
+  - marketing
+docs_url: https://linkbreakers.com/mcp
+endpoints:
+  - url: https://mcp.linkbreakers.com
+    transport: streamable-http
+    auth: oauth

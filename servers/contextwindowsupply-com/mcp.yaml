@@ -1,0 +1,13 @@
+name: Context Window Supply
+summary: Browse merch for AI builders, get US shipping quotes, and create Stripe checkout links.
+category: other
+tags:
+  - ecommerce
+  - marketplace
+  - payment
+  - stripe
+docs_url: https://contextwindowsupply.com
+endpoints:
+  - url: https://contextwindowsupply.com/mcp
+    transport: streamable-http
+    auth: none

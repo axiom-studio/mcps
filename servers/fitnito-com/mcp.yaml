@@ -1,0 +1,12 @@
+name: Fitnito
+summary: Fitnito is affordable management and scheduling software for gyms, studios, dojos, and training classes. Built for shops that want to coach more and wrestle admin less.
+category: other
+tags:
+  - business-operations
+  - fitness
+  - workflow-automation
+docs_url: https://fitnito.com
+endpoints:
+  - url: https://mcp.fitnito.com
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Sudokumax
+summary: Generate verified Sudoku puzzles, printable worksheet packs with answer sheets, and playable collections through AI assistants.
+category: other
+tags:
+  - content-creation
+  - education
+  - gaming
+docs_url: https://sudokumax.com/developers/mcp
+endpoints:
+  - url: https://sudokumax.com/api/mcp
+    transport: streamable-http
+    auth: api-key

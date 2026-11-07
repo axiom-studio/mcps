@@ -1,0 +1,13 @@
+name: transcript1
+summary: Turns audio and video into text. Give it a YouTube, X, TikTok or Instagram link, or a file, and get back a transcript with timestamps and speaker labels. Under 1 cent a minute.
+category: other
+tags:
+  - audio
+  - media
+  - translation
+  - video
+docs_url: https://transcript1.com
+endpoints:
+  - url: https://api.transcript1.com/mcp
+    transport: streamable-http
+    auth: unknown

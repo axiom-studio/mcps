@@ -1,0 +1,12 @@
+name: SelfBadge
+summary: Look up verified people on SelfBadge and tell them apart from namesakes. Read-only, no sign-up needed.
+category: search
+tags:
+  - identity
+  - privacy
+  - search
+docs_url: https://selfbadge.com/developers
+endpoints:
+  - url: https://selfbadge.com/mcp
+    transport: streamable-http
+    auth: none

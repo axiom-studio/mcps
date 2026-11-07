@@ -1,0 +1,10 @@
+name: JustBacked Startup Jobs
+summary: Search and track open roles at venture-backed startups that raised in the last six months. Filter by role, city, remote, salary and funding stage, read the full job post and application questions, and keep a list of applications from Claude, ChatGPT or Cursor.
+category: productivity
+tags:
+  - productivity
+docs_url: https://justbacked.com/developers
+endpoints:
+  - url: https://justbacked.com/api/mcp
+    transport: streamable-http
+    auth: api-key

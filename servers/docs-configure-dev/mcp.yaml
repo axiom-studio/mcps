@@ -1,0 +1,12 @@
+name: Configure Memory
+summary: Bring user-chosen project context and preferences into your AI tools. A persistent, searchable memory profile with OAuth, imports and explicit saves.
+category: memory
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - memory
+docs_url: https://docs.configure.dev
+endpoints:
+  - url: https://mcp.configure.dev/
+    transport: streamable-http
+    auth: oauth

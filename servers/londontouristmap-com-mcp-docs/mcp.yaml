@@ -1,0 +1,12 @@
+name: London Tourist Map
+summary: 'Free curated London sights, hidden gems, opening hours, ticket prices, Tube stations, and day-trip planner for AI agents. Remote MCP: https://londontouristmap.com/mcp'
+category: other
+tags:
+  - entertainment
+  - geospatial
+  - web-research
+docs_url: https://londontouristmap.com/mcp-docs/
+endpoints:
+  - url: https://londontouristmap.com/mcp
+    transport: streamable-http
+    auth: unknown

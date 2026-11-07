@@ -1,0 +1,12 @@
+name: StockDrifts
+summary: Rated 13F funds with average buy prices, company KPIs, Japan investor ratings, Korea insider buys.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+docs_url: https://www.stockdrifts.io/api-docs
+endpoints:
+  - url: https://mcp.stockdrifts.io/mcp/
+    transport: streamable-http
+    auth: api-key

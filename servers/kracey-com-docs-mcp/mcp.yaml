@@ -1,0 +1,12 @@
+name: Kracey
+summary: Free, read-only MCP connector for intervals.icu and HYROX training data. Connect Claude, Claude Code or ChatGPT to your own Kracey training data.
+category: other
+tags:
+  - data-analysis
+  - fitness
+  - healthcare
+docs_url: https://kracey.com/docs/mcp
+endpoints:
+  - url: https://mcp.kracey.com/mcp
+    transport: streamable-http
+    auth: oauth

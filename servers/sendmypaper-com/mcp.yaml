@@ -1,0 +1,12 @@
+name: Sendpaper
+summary: Physical mail for AI agents
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - workflow-automation
+docs_url: https://sendmypaper.com
+endpoints:
+  - url: https://sendmypaper.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: DokiDepo Public Warehouse Tools
+summary: Five read-only tools help Russian-speaking small businesses find safe public inventory, procurement, warehouse setup and embeddable tools. No access to private stock data.
+category: productivity
+tags:
+  - business-operations
+  - inventory
+  - productivity
+  - research
+docs_url: https://dokidepo.ru/mcp/
+endpoints:
+  - url: https://dokidepo.ru/api/mcp
+    transport: streamable-http
+    auth: none

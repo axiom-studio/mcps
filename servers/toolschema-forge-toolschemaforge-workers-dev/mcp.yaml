@@ -1,0 +1,13 @@
+name: ToolSchema Forge
+summary: Convert, lint and generate LLM tool schemas across OpenAI, Anthropic, Gemini and MCP. Free tier (5 calls/hour), then pay per call via x402 (USDC on Base). Built with AI assistance.
+category: development
+tags:
+  - anthropic
+  - development
+  - llm
+  - openai
+docs_url: https://toolschema-forge.toolschemaforge.workers.dev/
+endpoints:
+  - url: https://toolschema-forge.toolschemaforge.workers.dev/mcp
+    transport: streamable-http
+    auth: none

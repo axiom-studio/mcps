@@ -1,0 +1,14 @@
+name: SerpKite
+summary: Google search, news, maps, scholar, shopping and public webpages for AI agents, with compact JSON or Markdown results.
+category: search
+tags:
+  - ecommerce
+  - geospatial
+  - news
+  - search
+  - web-research
+docs_url: https://serpkite.com/docs/mcp
+endpoints:
+  - url: https://api.serpkite.com/v1/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,14 @@
+name: MeroFoundry MCP
+summary: 'Build and publish full-stack apps from your coding agent: models, rules, pages, auth, per-app MCP.'
+category: development
+tags:
+  - ai-agent
+  - cloud-infrastructure
+  - coding-agent
+  - deployment
+  - development
+docs_url: https://docs.merofoundry.app
+endpoints:
+  - url: https://platform.merofoundry.com/mcp
+    transport: streamable-http
+    auth: oauth

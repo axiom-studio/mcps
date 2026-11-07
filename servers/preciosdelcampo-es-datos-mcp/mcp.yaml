@@ -1,0 +1,12 @@
+name: Precios del Campo
+summary: 'Precios agrarios de España con su fuente oficial y su fecha: los precios en origen que publica cada semana la Generalitat Valenciana (cítricos, frutas y hortalizas, desde 2017), las medias nacionales del Ministerio de Agricultura y el gasóleo agrícola de cada día por provincia. Servidor remoto (https://preciosdelcampo.es/mcp), gratis y sin clave, con herramientas que solo leen.'
+category: other
+tags:
+  - data-analysis
+  - finance
+  - government
+docs_url: https://preciosdelcampo.es/datos/mcp/
+endpoints:
+  - url: https://preciosdelcampo.es/mcp
+    transport: streamable-http
+    auth: none

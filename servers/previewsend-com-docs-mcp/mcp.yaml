@@ -1,0 +1,13 @@
+name: PreviewSend
+summary: Deploy a built website ZIP from your coding agent and get one client review link where clients comment on the page.
+category: development
+tags:
+  - collaboration
+  - deployment
+  - file-management
+  - web-research
+docs_url: https://previewsend.com/docs/mcp
+endpoints:
+  - url: https://previewsend.com/api/mcp
+    transport: streamable-http
+    auth: api-key

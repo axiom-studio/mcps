@@ -1,0 +1,14 @@
+name: Corsair
+summary: 'Use the apps you connect to Corsair (Gmail, Slack, GitHub, Linear, Notion and about 400 more) from your agent: search synced data, read and act in them, and set up automations.'
+category: productivity
+tags:
+  - github
+  - gmail
+  - productivity
+  - slack
+  - workflow-automation
+docs_url: https://docs.corsair.dev/cloud/mcp
+endpoints:
+  - url: https://mcp.corsair.dev/mcp
+    transport: streamable-http
+    auth: oauth

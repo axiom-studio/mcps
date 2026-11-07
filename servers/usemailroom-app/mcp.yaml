@@ -1,0 +1,11 @@
+name: Mailroom
+summary: Hosted MCP connector for the mailbox you already have. Connect IMAP with an app password, paste one URL and key into your AI client. Sends need confirm.
+category: communication
+tags:
+  - communication
+  - productivity
+docs_url: https://usemailroom.app/
+endpoints:
+  - url: https://usemailroom.app/mcp
+    transport: streamable-http
+    auth: api-key

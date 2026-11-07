@@ -1,0 +1,13 @@
+name: ipoallotment
+summary: Indian IPO allotment status by PAN via registrar records, plus IPO calendar, details and listing gains. PAN never stored. Free, no auth.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - marketplace
+  - trading
+docs_url: https://ipoallotmentcheck.com/for-ai
+endpoints:
+  - url: https://ipoallotmentcheck.com/mcp
+    transport: streamable-http
+    auth: none

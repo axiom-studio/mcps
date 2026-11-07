@@ -1,0 +1,11 @@
+name: Foodzilla
+summary: Plan meals and run their nutrition practice
+category: other
+tags:
+  - healthcare
+  - workflow-automation
+docs_url: https://foodzilla.com/autopilot
+endpoints:
+  - url: https://api.foodzilla.io/mcp
+    transport: streamable-http
+    auth: oauth

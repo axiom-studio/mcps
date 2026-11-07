@@ -1,0 +1,10 @@
+name: StoriesIG Instagram MCP Server
+summary: View and download public Instagram posts, reels, stories, highlights, followers, comments, no login
+category: web-scraping
+tags:
+  - web-scraping
+docs_url: https://storiesig.info/en/mcp/
+endpoints:
+  - url: https://api-wh.storiesig.info/instagram/mcp
+    transport: streamable-http
+    auth: oauth

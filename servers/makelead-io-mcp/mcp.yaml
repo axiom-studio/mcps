@@ -1,0 +1,14 @@
+name: Makelead MCP
+summary: 'Remote MCP server for Makelead, a LinkedIn and X prospecting tool. From Claude or ChatGPT: search and import LinkedIn prospects, create outreach campaigns, write LinkedIn posts in your own voice, and read account stats. OAuth, no install.'
+category: marketing
+tags:
+  - ai-agent
+  - communication
+  - crm
+  - marketing
+  - social-media
+docs_url: https://makelead.io/mcp
+endpoints:
+  - url: https://makelead.io/api/mcp
+    transport: streamable-http
+    auth: unknown

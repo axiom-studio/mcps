@@ -1,0 +1,13 @@
+name: Systra Tools
+summary: Remote MCP server for a library of animated React and Tailwind CSS sections. Coding agents can search by category or keyword, fetch a component's source as a single file, apply an extracted brand style and pull complete page recipes. Free sample components work without a key; the full library needs a Premium key.
+category: design
+tags:
+  - coding-agent
+  - content-creation
+  - design
+  - development
+docs_url: https://systra.tools/mcp
+endpoints:
+  - url: https://systra.tools/api/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,18 @@
+name: Carta
+summary: Carta connects cap table, investor, fund, accounting, and company financial data to AI-assisted private-capital workflows. Its MCP connector helps assistants analyze ownership, valuations, pro-forma rounds, exit scenarios, investment metrics, and fund performance without switching systems.
+description: |-
+  Carta connects cap table, investor, fund, accounting, and company financial data to AI-assisted private-capital workflows. Its MCP connector helps assistants analyze ownership, valuations, pro-forma rounds, exit scenarios, investment metrics, and fund performance without switching systems.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/carta)
+category: finance
+tags:
+  - finance
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/carta
+endpoints:
+  - url: https://mcp.app.carta.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: HalloFelix
+summary: 'Official remote MCP server for HalloFelix, the AI phone and WhatsApp assistant for insurance brokers (DACH). Read calls with transcripts and summaries, manage customers and outbound call campaigns, tune the voice and WhatsApp assistants, and work the WhatsApp inbox (chats, messages, notes, labels, templates). Endpoint: https://app.hallofelix.de/api/mcp (OAuth or API token).'
+category: communication
+tags:
+  - audio
+  - communication
+  - crm
+  - customer-ops
+  - whatsapp
+docs_url: https://github.com/timgutberlet/hallofelix-mcp
+endpoints:
+  - url: https://app.hallofelix.de/api/mcp
+    transport: streamable-http
+    auth: oauth

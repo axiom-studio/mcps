@@ -1,0 +1,14 @@
+name: Orisu
+summary: Remote MCP server for Orisu, a node-based workflow builder for AI images, video and voice. Your assistant can build workflows from a plain description, run them with dozens of image, video and voice models, wait for results, apply a brand kit, and share or publish workflows as apps. OAuth or API key.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - media
+  - workflow-automation
+docs_url: https://docs.orisu.ai/mcp/overview
+endpoints:
+  - url: https://api.orisu.ai/mcp
+    transport: streamable-http
+    auth: oauth

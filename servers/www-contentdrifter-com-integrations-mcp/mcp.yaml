@@ -1,0 +1,13 @@
+name: Content Drifter
+summary: Write social posts in your Brand Kit voice, save them as drafts on your calendar, and publish only when you confirm. Works with nine networks.
+category: marketing
+tags:
+  - calendar
+  - content-creation
+  - marketing
+  - social-media
+docs_url: https://www.contentdrifter.com/integrations/mcp
+endpoints:
+  - url: https://www.contentdrifter.com/api/mcp
+    transport: streamable-http
+    auth: oauth

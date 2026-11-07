@@ -1,0 +1,13 @@
+name: HackerNews Mention Intelligence
+summary: Monitor brand, product and keyword mentions, discussions and momentum on Hacker News. Free snapshot; paid mention-intel via x402 USDC.
+category: other
+tags:
+  - analytics
+  - monitoring
+  - news
+  - web-research
+docs_url: https://github.com/contentforge-press/hackernews-mention-intelligence
+endpoints:
+  - url: https://hn-intel.contentforge-press.workers.dev/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Placepoint MCP
+summary: 'Norwegian property and company data in your AI assistant: owners, tenants, sales, land register, zoning plans and maps, with links back to Placepoint Fusion.'
+category: other
+tags:
+  - data-analysis
+  - geospatial
+  - knowledge-retrieval
+  - real-estate
+docs_url: https://docs.placepoint.no/en/ai/placepoint-ai
+endpoints:
+  - url: https://mcp.placepoint.no
+    transport: streamable-http
+    auth: oauth

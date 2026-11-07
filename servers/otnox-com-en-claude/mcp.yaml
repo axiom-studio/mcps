@@ -1,0 +1,13 @@
+name: Otnox
+summary: Public procurement intelligence across 89 markets (EU, UK, Africa, Asia incl. Taiwan). Search live and awarded tenders, open buyer profiles and competition signals, and ask whether a specific bid is worth pursuing.
+category: search
+tags:
+  - business-operations
+  - government
+  - search
+  - web-research
+docs_url: https://otnox.com/en/claude
+endpoints:
+  - url: https://mcp.otnox.com/mcp
+    transport: streamable-http
+    auth: oauth

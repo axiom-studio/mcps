@@ -1,0 +1,13 @@
+name: whoisbrowsing
+summary: 'See who is on a website right now: an agent adds live visitor cursors to any site (create a site, get the install snippet, check it''s live). No signup needed.'
+category: development
+tags:
+  - analytics
+  - browser
+  - development
+  - realtime-database
+docs_url: https://whoisbrowsing.com/for-agents
+endpoints:
+  - url: https://whoisbrowsing.com/mcp
+    transport: streamable-http
+    auth: none

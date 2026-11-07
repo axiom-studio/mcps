@@ -1,0 +1,12 @@
+name: Agency Search Tool
+summary: Find professional agencies worldwide by service and location, with editorial ratings, customer ratings, contact details and published pricing where available.
+category: search
+tags:
+  - business-operations
+  - marketplace
+  - search
+docs_url: https://agencysearchtool.com/
+endpoints:
+  - url: https://agencysearchtool.com/mcp.php
+    transport: streamable-http
+    auth: none

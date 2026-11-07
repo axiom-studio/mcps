@@ -1,0 +1,13 @@
+name: Vivere
+summary: Heartbeat and cron job monitoring. Agents can create monitors, check in when a run starts, succeeds or fails, and list monitors with their status. Calls need a Vivere API key; tools/list works without one.
+category: development
+tags:
+  - api
+  - devops
+  - monitoring
+  - workflow-automation
+docs_url: https://vivere.dev/docs/mcp
+endpoints:
+  - url: https://vivere.dev/mcp
+    transport: streamable-http
+    auth: api-key

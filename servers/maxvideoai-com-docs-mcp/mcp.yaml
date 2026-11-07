@@ -1,0 +1,13 @@
+name: MaxVideoAI MCP
+summary: Generate AI video and images through a hosted MCP server. Discover current model capabilities, prepare an exact quote, approve paid generation and retrieve results. Pay-as-you-go credits; MaxVideoAI account required, no MaxVideoAI subscription. OAuth authentication. Official submission by the founder.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - media
+  - video
+docs_url: https://maxvideoai.com/docs/mcp
+endpoints:
+  - url: https://api.maxvideoai.com/mcp
+    transport: streamable-http
+    auth: oauth

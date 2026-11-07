@@ -1,0 +1,12 @@
+name: Muslim Prayer Reminder MCP
+summary: Free, open-source prayer-time MCP with regional calculation methods, next-prayer countdowns, and explicit calculation-method disclosure.
+category: productivity
+tags:
+  - calendar
+  - notifications
+  - productivity
+docs_url: https://github.com/tareq7/muslim-prayer-mcp
+endpoints:
+  - url: https://muslim-prayer-mcp.najetareqz.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

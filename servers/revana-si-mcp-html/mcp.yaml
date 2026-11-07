@@ -1,0 +1,13 @@
+name: Revana
+summary: 'Remote MCP server for AI video and image generation: Seedance 2.5, Kling, Veo, Nano Banana, GPT Image and more through one API key, pay as you go.'
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - media
+  - video
+docs_url: https://revana.si/mcp.html
+endpoints:
+  - url: https://revana.si/api/mcp
+    transport: streamable-http
+    auth: unknown

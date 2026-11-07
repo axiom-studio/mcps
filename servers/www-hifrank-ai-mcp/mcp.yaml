@@ -1,0 +1,13 @@
+name: Frank
+summary: AI-moderated voice and chat interviews with your customers, returning themes with verbatim evidence.
+category: marketing
+tags:
+  - ai-agent
+  - customer-ops
+  - marketing
+  - research
+docs_url: https://www.hifrank.ai/mcp
+endpoints:
+  - url: https://api.hifrank.ai/mcp
+    transport: streamable-http
+    auth: oauth

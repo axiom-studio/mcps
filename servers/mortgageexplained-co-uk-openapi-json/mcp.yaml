@@ -1,0 +1,13 @@
+name: MortgageExplained Data
+summary: 'UK mortgage reference data: an indicative lender criteria index by borrower scenario (not any named lender''s policy) and HM Land Registry house prices by region. Information only, not advice.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - government
+  - real-estate
+docs_url: https://mortgageexplained.co.uk/openapi.json
+endpoints:
+  - url: https://mortgageexplained.co.uk/mcp
+    transport: streamable-http
+    auth: none

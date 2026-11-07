@@ -1,0 +1,13 @@
+name: Zaptu
+summary: Connects people with independent local home-service contractors across the US. AI assistants can look up which services are live and, for plumbing, get a number for the person to dial themselves. Other services are collected as requests.
+category: productivity
+tags:
+  - ai-agent
+  - business-operations
+  - customer-ops
+  - marketplace
+docs_url: https://zaptu.ai/agents/
+endpoints:
+  - url: https://api.zaptu.ai/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: BabyData Pregnancy Calculators
+summary: 'UK baby and pregnancy calculators that show their working: due date, ovulation and fertile window, weeks pregnant, and UK Statutory Maternity Pay. Each answer includes the rule it used. Read-only, no key needed. Information only, not medical advice.'
+category: other
+tags:
+  - api
+  - education
+  - healthcare
+docs_url: https://babydata.co.uk/api/
+endpoints:
+  - url: https://babydata.co.uk/mcp
+    transport: streamable-http
+    auth: none

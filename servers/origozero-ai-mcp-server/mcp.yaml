@@ -1,0 +1,13 @@
+name: ZeroMind (OrigoZero game engine)
+summary: 'Hosted MCP server for the Zero 3D game engine: Claude Code, Cursor or Codex search and install published content, build and run worlds live in the browser, execute Luau, capture screenshots, and publish playable games.'
+category: development
+tags:
+  - ai-agent
+  - browser-automation
+  - development
+  - game-development
+docs_url: https://origozero.ai/mcp-server
+endpoints:
+  - url: https://origozero.ai/mcp
+    transport: streamable-http
+    auth: oauth

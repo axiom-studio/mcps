@@ -1,0 +1,13 @@
+name: Tapetide — Indian Stock Market (NSE & BSE)
+summary: '55 tools for Indian stocks: live NSE/BSE quotes, financials, technicals, 326-ratio screener, FII/DII flows, option chains & IV, parsed filings, IPOs and portfolio tracking.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+  - trading
+docs_url: https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp
+endpoints:
+  - url: https://mcp.tapetide.com/mcp
+    transport: streamable-http
+    auth: unknown

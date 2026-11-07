@@ -1,0 +1,12 @@
+name: RestaurantDoctorAI Profit Check
+summary: 'Free, read-only MCP server: runs a 12-question restaurant profit check and returns a grade, the biggest money leak and the first fix. No sign-in; answers aren''t stored.'
+category: other
+tags:
+  - analytics
+  - business-operations
+  - data-analysis
+docs_url: https://restaurantdoctorai.com/ai-assistants
+endpoints:
+  - url: https://restaurantdoctorai.com/api/mcp
+    transport: streamable-http
+    auth: unknown

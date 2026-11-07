@@ -1,0 +1,13 @@
+name: Placement API
+summary: Search SEO link placements, compare vendor prices for the same domain, and plan purchases within a budget through a hosted MCP server; ordering requires a separate order-scoped API key and credits.
+category: marketing
+tags:
+  - marketing
+  - research
+  - seo
+  - web-research
+docs_url: https://placementapi.com/agents
+endpoints:
+  - url: https://api.placementapi.com/mcp
+    transport: streamable-http
+    auth: api-key

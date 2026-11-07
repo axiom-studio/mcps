@@ -1,0 +1,12 @@
+name: Tradetron
+summary: Build, backtest and diagnose algo trading strategies in your own Tradetron account in plain English.
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - trading
+docs_url: https://tradetron.tech/mcp
+endpoints:
+  - url: https://mcp.tradetron.tech/mcp
+    transport: streamable-http
+    auth: oauth

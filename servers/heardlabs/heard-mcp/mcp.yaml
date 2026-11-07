@@ -1,0 +1,14 @@
+name: Heard MCP
+summary: 'Heard (heard.dev), the voice layer for coding agents: cloud agents (Claude, ChatGPT, Devin, Copilot coding agent) send progress updates that the Heard macOS app reads aloud. Submitted by the Heard team.'
+category: development
+tags:
+  - audio
+  - coding-agent
+  - communication
+  - macos
+  - notifications
+docs_url: https://github.com/heardlabs/heard-mcp
+endpoints:
+  - url: https://api.heard.dev/v1/mcp/agent
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,14 @@
+name: Signado MCP
+summary: 'LinkedIn warm-lead discovery: list leads, find emails, and draft outreach from your AI tools.'
+category: marketing
+tags:
+  - communication
+  - crm
+  - email-automation
+  - marketing-automation
+  - sales
+docs_url: https://github.com/19Ash82/signado-mcp
+endpoints:
+  - url: https://mcp.signado.io/mcp
+    transport: streamable-http
+    auth: unknown

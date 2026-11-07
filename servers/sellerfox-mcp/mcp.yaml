@@ -1,0 +1,14 @@
+name: sellerfox MCP
+summary: Connect Claude, ChatGPT or another MCP client to sellerfox and analyze your Amazon sales, profit, keywords, ratings, Best Seller Rank (BSR) and Search Query Performance in chat. Read-only access that you approve in sellerfox.
+category: marketing
+tags:
+  - analytics
+  - ecommerce
+  - marketing
+  - sales
+official: true
+docs_url: https://sellerfox.com/en/mcp/
+endpoints:
+  - url: https://api.sellerfox.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: SpiritFacts
+summary: Look up calories, sugar, carbs, ABV, gluten status, congeners and a Hangover Index for 222 alcoholic drinks. Free, read-only, no API key.
+category: other
+tags:
+  - database
+  - healthcare
+  - research
+docs_url: https://spiritfacts.com/mcp-server
+endpoints:
+  - url: https://spiritfacts.com/mcp
+    transport: streamable-http
+    auth: unknown

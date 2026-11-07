@@ -1,0 +1,16 @@
+name: ListeningMind
+summary: 'Gives AI agents intent intelligence: search paths, intent clusters and why people buy, from real searches in Korea, Japan and the US (alpha).'
+category: marketing
+tags:
+  - advertising
+  - content-creation
+  - marketing
+  - search
+docs_url: https://github.com/listeningmind/listeningmind-mcp
+endpoints:
+  - url: https://daas-naming.listeningmind.ai/mcp
+    transport: streamable-http
+    auth: unknown
+  - url: https://daas-creative.listeningmind.ai/mcp
+    transport: streamable-http
+    auth: unknown

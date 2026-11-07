@@ -1,0 +1,13 @@
+name: Ecommerce Data API
+summary: Amazon sales estimates, keyword search volume, reverse ASIN, reviews and market data for AI agents.
+category: other
+tags:
+  - data-analysis
+  - ecommerce
+  - research
+  - web-research
+docs_url: https://github.com/ecommercedataapi/ecommerce-data-api
+endpoints:
+  - url: https://ecommercedataapi.com/mcp
+    transport: streamable-http
+    auth: unknown

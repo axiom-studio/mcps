@@ -1,0 +1,13 @@
+name: Agent Deals
+summary: Find the cheapest working paid API for a task, and check any x402 payment before paying (GO / CAUTION / STOP on price, service health and wallet safety). Remote MCP, free checks.
+category: finance
+tags:
+  - api
+  - finance
+  - payment
+  - research
+docs_url: https://agent-deals.gm-tools.workers.dev
+endpoints:
+  - url: https://agent-deals.gm-tools.workers.dev/mcp
+    transport: streamable-http
+    auth: none

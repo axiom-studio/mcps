@@ -1,0 +1,14 @@
+name: Jellypod
+summary: Create podcasts, videos & shorts from Claude/Cursor via Jellypod’s remote MCP.
+category: marketing
+tags:
+  - ai-agent
+  - audio
+  - content-creation
+  - media
+  - video
+docs_url: https://www.jellypod.com/mcp
+endpoints:
+  - url: https://mcp.jellypod.com/mcp
+    transport: streamable-http
+    auth: unknown

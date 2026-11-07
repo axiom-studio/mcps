@@ -1,0 +1,13 @@
+name: LogNorm
+summary: Hosted MCP server that hands SEO/GEO growth backlog (audits, fixes, content, AI visibility) to Claude Code, Codex and Cursor.
+category: marketing
+tags:
+  - ai-agent
+  - content-creation
+  - marketing
+  - seo
+docs_url: https://github.com/lognorm/lognorm-mcp
+endpoints:
+  - url: https://lognorm.com/api/mcp
+    transport: streamable-http
+    auth: oauth

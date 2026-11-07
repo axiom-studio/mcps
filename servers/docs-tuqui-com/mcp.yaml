@@ -1,0 +1,13 @@
+name: Tuqui
+summary: Hosted MCP server for Odoo. Connect Odoo 16 to 20 (Online, Odoo.sh or on-prem) to Claude or ChatGPT with per-user OAuth, read-only by default, nothing to install.
+category: productivity
+tags:
+  - business-operations
+  - crm
+  - productivity
+  - workflow-automation
+docs_url: https://docs.tuqui.com
+endpoints:
+  - url: https://tuqui.com/mcp
+    transport: streamable-http
+    auth: oauth

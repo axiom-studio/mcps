@@ -1,0 +1,13 @@
+name: 'The Agent Forge: AI agent trap Arena and tool checks'
+summary: See which AI models fall for planted traps on everyday business jobs (refunds, invoices, bookings), refereed with replays; run your own agent through the Gauntlet for a trap card; and check a skill, MCP server or package before install (scan, advisories, field reports). Free, no account.
+category: development
+tags:
+  - ai-agent
+  - llm
+  - security
+  - testing-qa
+docs_url: https://theagentforge.io/connect
+endpoints:
+  - url: https://theagentforge.io/mcp/public
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: QuasarUI
+summary: Find Quasar Framework (Vue) UI Components and paste their source. Free Components need no key.
+category: development
+tags:
+  - design
+  - development
+  - documentation
+docs_url: https://github.com/quasarui/quasarui-mcp
+endpoints:
+  - url: https://www.quasarui.com/mcp
+    transport: streamable-http
+    auth: api-key

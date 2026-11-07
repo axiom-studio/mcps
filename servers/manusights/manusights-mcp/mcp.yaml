@@ -1,0 +1,12 @@
+name: Manusights
+summary: Check if references exist or were retracted, look up journal AI policies, and preview manuscripts.
+category: other
+tags:
+  - document
+  - knowledge-retrieval
+  - research
+docs_url: https://github.com/Manusights/manusights-mcp
+endpoints:
+  - url: https://manusights.com/mcp
+    transport: streamable-http
+    auth: oauth

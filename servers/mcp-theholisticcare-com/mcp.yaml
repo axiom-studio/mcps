@@ -1,0 +1,12 @@
+name: THC Open Mindfulness MCP
+summary: Read-only mindfulness resources and research metadata over the Model Context Protocol.
+category: other
+tags:
+  - healthcare
+  - knowledge-retrieval
+  - research
+docs_url: https://mcp.theholisticcare.com/
+endpoints:
+  - url: https://mcp.theholisticcare.com/mcp
+    transport: streamable-http
+    auth: none

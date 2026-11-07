@@ -1,0 +1,12 @@
+name: DealScore
+summary: 'Used-car price check for AI agents: grade an asking price against live US dealer comps. OAuth 2.1 sign-in; API key fallback. Tools: score_deal, explain_grade, health.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+docs_url: https://cardealscore.com/agents
+endpoints:
+  - url: https://cardealscore.com/api/mcp
+    transport: streamable-http
+    auth: unknown

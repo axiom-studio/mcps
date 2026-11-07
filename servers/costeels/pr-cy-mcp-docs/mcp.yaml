@@ -1,0 +1,13 @@
+name: PR-CY MCP
+summary: 69 tools for keyword demand, SERP, rank tracking, site audits, search analytics and content workflows; users supply their own PR-CY API key.
+category: marketing
+tags:
+  - analytics
+  - content-creation
+  - marketing
+  - seo
+docs_url: https://github.com/costeels/pr-cy-mcp-docs
+endpoints:
+  - url: https://mcp-server.pr-cy.ru
+    transport: streamable-http
+    auth: api-key

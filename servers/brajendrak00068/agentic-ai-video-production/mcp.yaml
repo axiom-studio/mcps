@@ -1,0 +1,13 @@
+name: Levea AI Video Editor
+summary: 'Prompt-first autonomous AI video editor: viral clips, word-by-word captions, 9:16 reframe, chroma key, B-roll, voiceover, music and MP4 export from a plain-language brief.'
+category: design
+tags:
+  - ai-agent
+  - content-creation
+  - media
+  - video
+docs_url: https://github.com/brajendrak00068/agentic-ai-video-production
+endpoints:
+  - url: https://api.livecore.ai/api/v1/misc/mcp
+    transport: streamable-http
+    auth: api-key

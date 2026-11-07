@@ -1,0 +1,13 @@
+name: Pinpal Projects
+summary: 'Simple projects you and your AI share: numbered tickets with a status and a thread, for code and everyday projects, on iPhone, iPad and Mac. You write a ticket, your AI fixes it.'
+category: productivity
+tags:
+  - ai-agent
+  - productivity
+  - project-management
+  - task-management
+docs_url: https://mypinpal.com/projects/connect
+endpoints:
+  - url: https://projects.mypinpal.com/mcp
+    transport: streamable-http
+    auth: oauth

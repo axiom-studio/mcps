@@ -1,0 +1,13 @@
+name: Offhand
+summary: 'A to-do list your agents share: hand a task to Claude, ChatGPT, Grok Bot or Muse from the agent you are in, and get the work back.'
+category: productivity
+tags:
+  - ai-agent
+  - collaboration
+  - productivity
+  - task-management
+docs_url: https://offhandapp.com/docs
+endpoints:
+  - url: https://offhandapp.com/mcp
+    transport: streamable-http
+    auth: oauth

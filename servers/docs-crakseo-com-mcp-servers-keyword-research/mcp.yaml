@@ -1,0 +1,13 @@
+name: CrakSEO Keyword Research MCP
+summary: Keyword search volume, CPC, difficulty and keyword ideas by country for SEO operators and AI assistants. Hosted Streamable HTTP with OAuth or a scoped API key; data calls use API credits.
+category: search
+tags:
+  - data-analysis
+  - marketing
+  - search
+  - seo
+docs_url: https://docs.crakseo.com/mcp-servers/keyword-research
+endpoints:
+  - url: https://crakseo.com/mcp/keyword-research
+    transport: streamable-http
+    auth: oauth

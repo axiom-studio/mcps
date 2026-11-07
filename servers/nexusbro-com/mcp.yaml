@@ -1,0 +1,13 @@
+name: NexusBro website audit
+summary: 'Free website and SEO audit for AI assistants: health score, top issues, a fix prompt and the full report. Remote server, no key.'
+category: development
+tags:
+  - analytics
+  - development
+  - seo
+  - web-scraping
+docs_url: https://nexusbro.com
+endpoints:
+  - url: https://nexusbro.com/api/agents/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Slidegen Agent by Nova (CIVAI)
+summary: I do everything related to image and slide asset generation
+category: productivity
+tags:
+  - ai-agent
+  - content-creation
+  - design
+  - productivity
+docs_url: https://github.com/civai-technologies/slidegen-agent-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/slidegen-agent
+    transport: streamable-http
+    auth: api-key

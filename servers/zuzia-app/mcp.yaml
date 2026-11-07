@@ -1,0 +1,13 @@
+name: zuzia.app
+summary: The official Model Context Protocol (MCP) server for Zuzia.app, providing AI agents with seamless access to server monitoring metrics, uptime statuses, and remote command execution.
+category: other
+tags:
+  - devops
+  - monitoring
+  - observability-incident
+  - ssh
+docs_url: https://zuzia.app
+endpoints:
+  - url: https://my.zuzia.app/mcp
+    transport: streamable-http
+    auth: api-key

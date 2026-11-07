@@ -1,0 +1,13 @@
+name: FLUX 3
+summary: 'Generate images and videos with FLUX 3 credits from Claude, ChatGPT, Cursor and other MCP clients. Docs: https://flux3.video/developers'
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - video
+docs_url: https://flux3.video
+endpoints:
+  - url: https://flux3.video/mcp
+    transport: streamable-http
+    auth: oauth

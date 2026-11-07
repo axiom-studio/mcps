@@ -1,0 +1,14 @@
+name: Vextorium
+summary: '509 pay-per-call data tools for AI agents: on-chain (30+ chains), DeFi, markets, official stats, compliance. No API keys: pay per call in USDC via x402.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - defi
+  - evm
+  - finance
+docs_url: https://github.com/bru1noia/vextorium-mcp
+endpoints:
+  - url: https://api.vextorium.com/mcp
+    transport: streamable-http
+    auth: unknown

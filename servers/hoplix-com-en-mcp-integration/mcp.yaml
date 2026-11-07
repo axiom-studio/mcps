@@ -1,0 +1,13 @@
+name: Hoplix Print on Demand
+summary: 'Print-on-demand from your AI assistant: browse products and base costs, create campaigns with your designs, quote and place orders that Hoplix prints and ships worldwide, and track them.'
+category: other
+tags:
+  - business-operations
+  - ecommerce
+  - marketplace
+  - workflow-automation
+docs_url: https://hoplix.com/en/mcp-integration
+endpoints:
+  - url: https://api.hoplix.com/mcp
+    transport: streamable-http
+    auth: oauth

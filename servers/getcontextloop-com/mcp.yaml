@@ -1,0 +1,14 @@
+name: Contextloop
+summary: Serves your team's metric definitions to data agents, turns user corrections into approved rules, and tracks SQL answer accuracy weekly.
+category: database
+tags:
+  - analytics
+  - data-analysis
+  - database
+  - knowledge-retrieval
+  - sql
+docs_url: https://getcontextloop.com
+endpoints:
+  - url: https://getcontextloop.com/mcp
+    transport: streamable-http
+    auth: api-key

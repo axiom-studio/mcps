@@ -1,0 +1,13 @@
+name: Upcheck MCP
+summary: Website monitoring from any MCP client. Ask what is down, why a certificate alert fired, or add the hostname you just deployed. Manage uptime, SSL, DNS, domain, keyword, page-change and port checks and their alert rules with one organization API key.
+category: development
+tags:
+  - cloud-infrastructure
+  - devops-infrastructure
+  - monitoring
+  - observability-incident
+docs_url: https://upcheck.so/mcp
+endpoints:
+  - url: https://mcp.upcheck.so/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,12 @@
+name: SanctionsKit developer MCP
+summary: Sanctions API docs and request validation, with account-linked synthetic sandbox testing.
+category: development
+tags:
+  - api
+  - compliance
+  - testing-qa
+docs_url: https://www.sanctionskit.com/resources/mcp
+endpoints:
+  - url: https://www.sanctionskit.com/mcp
+    transport: streamable-http
+    auth: oauth

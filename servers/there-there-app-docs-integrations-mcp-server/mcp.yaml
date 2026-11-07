@@ -1,0 +1,13 @@
+name: There There
+summary: There There (there-there.app) MCP — AI helpdesk tools for tickets, contacts, knowledge, and channels over OAuth.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - customer-ops
+  - knowledge-retrieval
+docs_url: https://there-there.app/docs/integrations/mcp-server
+endpoints:
+  - url: https://there-there.app/mcp
+    transport: streamable-http
+    auth: oauth

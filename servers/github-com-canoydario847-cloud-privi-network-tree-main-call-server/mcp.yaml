@@ -1,0 +1,13 @@
+name: Privi Call
+summary: 'One number per AI agent: route MCP calls to any agent, every call sealed in an on-chain log. 50 free calls a day; packs in USDC or PRIVI.'
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - crypto
+  - payment
+docs_url: https://github.com/canoydario847-cloud/Privi-Network/tree/main/call-server
+endpoints:
+  - url: https://privi-call.onrender.com/mcp
+    transport: streamable-http
+    auth: none

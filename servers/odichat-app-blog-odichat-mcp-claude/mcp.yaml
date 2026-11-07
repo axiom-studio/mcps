@@ -1,0 +1,14 @@
+name: Odichat MCP
+summary: Manage your Odichat WhatsApp, Instagram, and Facebook business inbox from Claude — search conversations, update your sales pipeline, and automate follow-ups.
+category: communication
+tags:
+  - communication
+  - crm
+  - customer-ops
+  - social-media
+  - whatsapp
+docs_url: https://odichat.app/blog/odichat-mcp-claude
+endpoints:
+  - url: https://mcp.odichat.app/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: India Land Parcels (Khasra & Survey Numbers · भूमि अभिलेख)
+summary: Indian khasra and survey parcels in five states by coordinates, ULPIN or number in a village.
+category: other
+tags:
+  - database
+  - geospatial
+  - government
+  - real-estate
+docs_url: https://github.com/BumiAtlas/india-land-parcels-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/india
+    transport: streamable-http
+    auth: oauth

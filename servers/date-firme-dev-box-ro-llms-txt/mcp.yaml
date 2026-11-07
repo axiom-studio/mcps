@@ -1,0 +1,8 @@
+name: date-firme
+summary: 'Romanian company data for AI agents (ONRC/ANAF): CUI lookup, profile, financials, CAEN benchmark and KYB risk score. Pay per call in USDC via x402.'
+category: finance
+docs_url: https://date-firme.dev-box.ro/llms.txt
+endpoints:
+  - url: https://date-firme.dev-box.ro/mcp
+    transport: streamable-http
+    auth: unknown

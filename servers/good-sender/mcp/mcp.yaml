@@ -1,0 +1,11 @@
+name: GoodSender
+summary: 'Official GoodSender MCP server: publish blog posts, send newsletters and consent-based or transactional email from Claude, Claude Code, Codex and ChatGPT. Hosted (OAuth) or local.'
+category: communication
+tags:
+  - communication
+  - productivity
+docs_url: https://github.com/good-sender/mcp
+endpoints:
+  - url: https://mcp.goodsender.com/
+    transport: streamable-http
+    auth: oauth

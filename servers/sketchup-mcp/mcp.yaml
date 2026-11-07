@@ -1,0 +1,18 @@
+name: Trimble SketchUp
+summary: Trimble SketchUp turns conversational descriptions into 3D model concepts for SketchUp. Its connector helps users generate, refine, and share room additions, furniture ideas, site concepts, and other models without needing modeling experience to start.
+description: |-
+  Trimble SketchUp turns conversational descriptions into 3D model concepts for SketchUp. Its connector helps users generate, refine, and share room additions, furniture ideas, site concepts, and other models without needing modeling experience to start.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/sketchup)
+category: design
+tags:
+  - design
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/sketchup
+endpoints:
+  - url: https://api.sketchup.com/mcp/v1/sketchup/mcp
+    transport: streamable-http
+    auth: oauth

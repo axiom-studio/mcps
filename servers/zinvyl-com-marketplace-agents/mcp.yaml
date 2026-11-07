@@ -1,0 +1,13 @@
+name: Zinvyl Marketplace Agent Gateway
+summary: Discover and purchase fixed-scope Zinvyl software, data, workflow, freight, venture, and machine-validation services with exact prices, inputs, exclusions, acceptance tests, and authority-gated purchase routes.
+category: productivity
+tags:
+  - business-operations
+  - marketplace
+  - payment
+  - workflow-automation
+docs_url: https://zinvyl.com/marketplace/agents
+endpoints:
+  - url: https://zinvyl.com/marketplace/agent-mcp
+    transport: streamable-http
+    auth: none

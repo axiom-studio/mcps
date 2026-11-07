@@ -1,0 +1,12 @@
+name: Youanai Docs
+summary: Search and read public youanai.com pages on pricing, products and guides. No sign-in needed.
+category: search
+tags:
+  - documentation
+  - search
+  - web-research
+docs_url: https://youanai.com/developers#docs-mcp
+endpoints:
+  - url: https://youanai.com/api/mcp/docs
+    transport: streamable-http
+    auth: none

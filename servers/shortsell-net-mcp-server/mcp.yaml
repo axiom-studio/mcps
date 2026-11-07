@@ -1,0 +1,13 @@
+name: Stock Short Selling & Short Interest Data
+summary: Stock short selling data, short interest analytics and net short positions for EU-listed companies (European short selling registers, EU Regulation 236/2012) and US stocks (FINRA short interest). Per-company short positions with holder names, top short selling lists, 7/28-day short interest trends and stock price history.
+category: finance
+tags:
+  - analytics
+  - data-analysis
+  - finance
+  - trading
+docs_url: https://shortsell.net/mcp-server/
+endpoints:
+  - url: https://shortsell.net/mcp
+    transport: streamable-http
+    auth: none

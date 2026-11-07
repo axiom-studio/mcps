@@ -1,0 +1,13 @@
+name: Brainy Prices — UAE Cost of Living
+summary: 'Source-backed UAE costs: groceries, schools, housing, transport, utilities, telecom and relocation. Read-only; every answer carries its source and date.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+  - web-research
+docs_url: https://prices.brainy.ae/developers.html
+endpoints:
+  - url: https://prices.brainy.ae/mcp/v2
+    transport: streamable-http
+    auth: none

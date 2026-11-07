@@ -1,0 +1,13 @@
+name: Synap by Linkrra
+summary: 'Remote MCP server for Linkrra''s OpenAI-compatible inference API for open-weight models. Agents can list models with live per-token prices, estimate the cost of a job, and run chat completions. Listing models and pricing needs no key. Streamable HTTP endpoint: https://pool.linkrra.com/mcp'
+category: development
+tags:
+  - ai-model
+  - api
+  - development
+  - llm
+docs_url: https://synap.linkrra.com/docs
+endpoints:
+  - url: https://pool.linkrra.com/mcp
+    transport: streamable-http
+    auth: api-key

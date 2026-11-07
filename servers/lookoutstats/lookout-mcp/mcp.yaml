@@ -1,0 +1,13 @@
+name: lookout-mcp
+summary: 'Ask Claude or Cursor about your Vercel Web Analytics: visitors, page views, top pages and referrers across all your projects.'
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - vercel
+  - web-research
+docs_url: https://github.com/lookoutstats/lookout-mcp
+endpoints:
+  - url: https://mcp.lookoutstats.com
+    transport: streamable-http
+    auth: unknown

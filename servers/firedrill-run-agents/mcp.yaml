@@ -1,0 +1,13 @@
+name: Firedrill
+summary: Simulate AI agents with synthetic tools and data. Coding agents prepare scenarios and inspect saved outcomes and evidence on your behalf. Free to use; browser OAuth required.
+category: development
+tags:
+  - ai-agent
+  - browser-automation
+  - development
+  - testing-qa
+docs_url: https://firedrill.run/agents
+endpoints:
+  - url: https://mcp.firedrill.run/mcp
+    transport: streamable-http
+    auth: oauth

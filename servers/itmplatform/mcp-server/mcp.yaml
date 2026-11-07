@@ -1,0 +1,13 @@
+name: ITM Platform
+summary: 'Connect AI assistants to ITM Platform project and portfolio management: search projects and services, review budgets, risks, issues and team workload, and create or update tasks, progress and time entries using your own ITM Platform permissions.'
+category: productivity
+tags:
+  - business-operations
+  - productivity
+  - project-management
+  - task-management
+docs_url: https://github.com/itmplatform/mcp-server
+endpoints:
+  - url: https://api.itmplatform.com/v2/_/mcp/
+    transport: streamable-http
+    auth: oauth

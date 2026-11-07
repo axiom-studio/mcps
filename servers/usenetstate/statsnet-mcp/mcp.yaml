@@ -1,0 +1,13 @@
+name: Statsnet
+summary: 'Search companies in Kazakhstan, Uzbekistan, and Kyrgyzstan: registration details, executives, government contracts, courts, and finances.'
+category: search
+tags:
+  - business-operations
+  - data-analysis
+  - research
+  - search
+docs_url: https://github.com/usenetstate/statsnet-mcp
+endpoints:
+  - url: https://statsnet.co/mcp
+    transport: streamable-http
+    auth: none

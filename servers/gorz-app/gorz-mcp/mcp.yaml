@@ -1,0 +1,13 @@
+name: GORZ
+summary: 'GORZ checks Solana memecoins from on-chain data and returns a plain safety grade (Safer, Caution or Risky) with the reasons behind it: dev holdings and sells, snipers in the first slots, bundled launches, top-10 holder share, the creator’s past coins, and repeat “rug farm” wallet groups.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - security
+  - trading
+docs_url: https://github.com/GORZ-APP/gorz-mcp
+endpoints:
+  - url: https://gorz.app/mcp
+    transport: streamable-http
+    auth: unknown

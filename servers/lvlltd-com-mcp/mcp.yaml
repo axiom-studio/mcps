@@ -1,0 +1,13 @@
+name: LVL Skill Market (lvlltd.com)
+summary: 'Remote MCP server for the LVL agent skill market: search, quote and install agent skills. Checkout: an agent starts an ACP checkout (https://lvlltd.com/.well-known/acp.json) and a person pays on Stripe''s hosted page.'
+category: other
+tags:
+  - ai-agent
+  - marketplace
+  - payment
+  - workflow-automation
+docs_url: https://lvlltd.com/mcp
+endpoints:
+  - url: https://lvlltd.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Lacuna Research MCP
+summary: 'MCP server for Lacuna, a research map for machine learning: search directions, papers, authors, venues, and AI-generated research proposals.'
+category: search
+tags:
+  - ai-model
+  - knowledge-retrieval
+  - research
+  - search
+docs_url: https://github.com/tiptreesystems/lacuna-research-mcp
+endpoints:
+  - url: https://lacuna.tiptreesystems.com/api/mcp
+    transport: streamable-http
+    auth: none

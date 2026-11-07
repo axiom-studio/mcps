@@ -1,0 +1,13 @@
+name: VidFlux MCP
+summary: Let Claude, Cursor and Codex create videos with Veo 3.1, Kling 3.0, Seedance 2.5 and Hailuo H3.
+category: marketing
+tags:
+  - ai-model
+  - content-creation
+  - marketing
+  - video
+docs_url: https://vidflux.ai/mcp
+endpoints:
+  - url: https://vidflux.ai/api/mcp
+    transport: streamable-http
+    auth: api-key

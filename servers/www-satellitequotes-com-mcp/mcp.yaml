@@ -1,0 +1,13 @@
+name: SatelliteQuotes
+summary: Measure any property from satellite imagery and price the job across 24 trades - roofing, fencing, paving, turf, siding, solar and more (roof pitch multiplier applied for you). Also installs an instant-quote widget on a contractor's website and verifies the install on the live page. Read-only, no API key.
+category: marketing
+tags:
+  - business-operations
+  - ecommerce
+  - geospatial
+  - marketing
+docs_url: https://www.satellitequotes.com/mcp
+endpoints:
+  - url: https://www.satellitequotes.com/api/mcp
+    transport: streamable-http
+    auth: none

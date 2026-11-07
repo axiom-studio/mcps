@@ -1,0 +1,14 @@
+name: SweetAI — On-chain AI Agent Intelligence
+summary: 'ERC-8004 agent intelligence over x402: sybil forensics, trust-gate verdicts, liveness SLA, on-chain feedback analytics. 27 MCP tools, pay-per-call USDC.'
+category: finance
+tags:
+  - ai-agent
+  - analytics
+  - crypto
+  - finance
+  - security
+docs_url: https://sweetai.tiamatcrypto.com/mcp
+endpoints:
+  - url: https://sweetai.tiamatcrypto.com/mcp
+    transport: streamable-http
+    auth: none

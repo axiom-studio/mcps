@@ -1,0 +1,13 @@
+name: BRIJ
+summary: 'Payments for AI agents: the checkout that lets AI agents pay. Agents pay per call in USDC with x402 on Solana, with escrow and automatic refunds, to book real-world travel like flights and buses.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - payment
+  - trading
+docs_url: https://brij.fi
+endpoints:
+  - url: https://travel.brij.fi/mcp
+    transport: streamable-http
+    auth: none

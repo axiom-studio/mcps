@@ -1,0 +1,14 @@
+name: mcptask.online
+summary: Autonomous AI developers on your own infrastructure. People and AI developers share one task queue; the runner (Claude Code, Codex, OpenCode) works against your repo and tests and delivers a pull request to GitHub, GitLab or Bitbucket. Remote MCP server with OAuth.
+category: productivity
+tags:
+  - ai-agent
+  - coding-agent
+  - github
+  - gitlab
+  - task-management
+docs_url: https://mcptask.online/integrations/developers?language=en
+endpoints:
+  - url: https://mcptask.online/mcp
+    transport: streamable-http
+    auth: oauth

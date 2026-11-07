@@ -1,0 +1,13 @@
+name: Dockhold
+summary: Deploy the project you are working on to a live HTTPS URL from your AI tool, then read logs, set variables and resize apps.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - deployment
+  - devops
+  - monitoring
+docs_url: https://github.com/dockhold/mcp
+endpoints:
+  - url: https://api.dockhold.eu/mcp
+    transport: streamable-http
+    auth: api-key

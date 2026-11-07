@@ -1,0 +1,13 @@
+name: Mandate Office
+summary: 'Free MCP server for AI agents: EU and national law links for all 27 member states, live company register lookups, VIES and GLEIF, and company formation guides. Every answer cites its official source.'
+category: other
+tags:
+  - compliance
+  - finance
+  - government
+  - research
+docs_url: https://github.com/mandateoffice/mandate-mcp
+endpoints:
+  - url: https://mandateoffice.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,11 @@
+name: PlaceCall
+summary: Places real phone calls to US businesses for bookings, inquiries and quotes; returns outcome and transcript
+category: communication
+tags:
+  - audio
+  - communication
+docs_url: https://github.com/voygr-tech/placecall
+endpoints:
+  - url: https://api.voygr.tech/mcp
+    transport: streamable-http
+    auth: oauth

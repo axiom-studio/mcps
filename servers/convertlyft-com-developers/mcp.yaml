@@ -1,0 +1,14 @@
+name: Convertlyft
+summary: 'Web analytics that names the fix: funnels, replays, rage clicks, forms, errors, speed and SEO.'
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - marketing
+  - performance
+  - seo
+docs_url: https://convertlyft.com/developers
+endpoints:
+  - url: https://mcp.convertlyft.com/mcp
+    transport: streamable-http
+    auth: oauth

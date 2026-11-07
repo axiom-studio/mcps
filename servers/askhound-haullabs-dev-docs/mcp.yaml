@@ -1,0 +1,13 @@
+name: AskHound
+summary: Find people publicly asking for, complaining about, or seeking alternatives to a product, live from Stack Exchange and Bluesky official APIs. Your agent drafts honest, disclosed replies.
+category: marketing
+tags:
+  - customer-ops
+  - marketing
+  - research
+  - social-media
+docs_url: https://askhound.haullabs.dev/docs
+endpoints:
+  - url: https://askhound.haullabs.dev/api/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: VerifyMCP
+summary: Independent trust scores, tool surfaces and change history for MCP servers.
+category: search
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - search
+docs_url: https://verifymcp.io
+endpoints:
+  - url: https://mcp.verifymcp.io
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,14 @@
+name: FeedShine Google Shopping Feed
+summary: Grow sales on Google and beyond. Fix your Shopify product feeds and optimize every field in chat.
+category: marketing
+tags:
+  - data-analysis
+  - ecommerce
+  - google-sheets
+  - marketing
+  - shopify
+docs_url: https://feedshine.app/help/connect-ai-assistants
+endpoints:
+  - url: https://feedshine.app/mcp
+    transport: streamable-http
+    auth: oauth

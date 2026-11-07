@@ -1,0 +1,10 @@
+name: Youth4work MCP Server
+summary: 'Indian jobs and talent for AI agents: job seekers build a profile, apply to jobs and take skill tests; employers post jobs free, find assessed talent and run assessments. 62 tools, OAuth, plus a free public endpoint.'
+category: productivity
+tags:
+  - productivity
+docs_url: https://mcp.youth4work.com
+endpoints:
+  - url: https://mcp.youth4work.com/mcp
+    transport: streamable-http
+    auth: oauth

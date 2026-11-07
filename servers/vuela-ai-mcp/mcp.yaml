@@ -1,0 +1,14 @@
+name: Vuela
+summary: 'Vuela''s hosted MCP server: generate and clone AI videos, images, voiceovers and articles, and find viral Shorts, straight from Claude, ChatGPT or Cursor. About 98 tools: AI video (text, image or video to video), video cloning and translation, avatars, explainer and motion-graphics animation, image generation and editing, text to speech, voice cloning, music, SEO articles, brand kits, Meta and Google ad research and a Viral Finder. Remote connector at https://mcp.vuela.ai/mcp with OAuth (no API key).'
+category: marketing
+tags:
+  - advertising
+  - content-creation
+  - marketing
+  - text-to-speech
+  - video
+docs_url: https://vuela.ai/mcp
+endpoints:
+  - url: https://mcp.vuela.ai/mcp
+    transport: streamable-http
+    auth: oauth

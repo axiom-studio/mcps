@@ -1,0 +1,13 @@
+name: Cofounderbase
+summary: Find and compare 960+ AI automation agencies ranked on evidence. Search by service, country and budget, get agency details and published prices, and request intros, from Claude, ChatGPT or Cursor.
+category: search
+tags:
+  - ai-agent
+  - business-operations
+  - marketplace
+  - search
+docs_url: https://github.com/Rupesh7128/cofounderbase-mcp
+endpoints:
+  - url: https://cofounderbase.com/api/mcp/
+    transport: streamable-http
+    auth: unknown

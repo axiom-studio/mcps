@@ -1,0 +1,14 @@
+name: gtm.help
+summary: gtm.help turns your website into a ranked go-to-market plan. Its MCP server lets Claude, ChatGPT, Cursor and other agents read your plan, work through growth plays, draft replies to buyer conversations and update progress, plus a free analyze_site tool.
+category: marketing
+tags:
+  - ai-agent
+  - business-operations
+  - marketing
+  - web-research
+  - workflow-automation
+docs_url: https://gtm.help/for-agents
+endpoints:
+  - url: https://gtm.help/mcp
+    transport: streamable-http
+    auth: oauth

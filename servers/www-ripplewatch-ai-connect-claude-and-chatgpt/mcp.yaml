@@ -1,0 +1,13 @@
+name: Ripplewatch
+summary: Competitive analyst inside Claude or ChatGPT. Momentum scores and signals checked against your own won and lost deals.
+category: marketing
+tags:
+  - ai-agent
+  - analytics
+  - marketing
+  - sales
+docs_url: https://www.ripplewatch.ai/connect/claude-and-chatgpt
+endpoints:
+  - url: https://www.ripplewatch.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

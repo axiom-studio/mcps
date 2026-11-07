@@ -1,0 +1,13 @@
+name: SongUp AI
+summary: Find AI songs in 24 languages with audio links, start a custom song on SongUp AI, and find browser audio tools (stem separator, vocal remover, mashups).
+category: other
+tags:
+  - ai-model
+  - audio
+  - content-creation
+  - music
+docs_url: https://www.songupai.com/mcp-server
+endpoints:
+  - url: https://www.songupai.com/mcp/agents
+    transport: streamable-http
+    auth: none

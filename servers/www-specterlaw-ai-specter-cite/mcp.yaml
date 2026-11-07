@@ -1,0 +1,12 @@
+name: Specter Cite
+summary: 'German and EU law for Claude, ChatGPT and other AI assistants: statutes and court decisions in their current wording, with a link to the official source.'
+category: search
+tags:
+  - knowledge-retrieval
+  - research
+  - search
+docs_url: https://www.specterlaw.ai/specter-cite
+endpoints:
+  - url: https://cite.specterlaw.ai/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: The Drive AI
+summary: 'Let AI agents search, read, organize and write your company files across Google Drive, OneDrive, SharePoint and Dropbox, with every change previewed and undoable. Remote server: https://mcp.thedrive.ai/mcp'
+category: cloud-storage
+tags:
+  - cloud-storage
+  - file-management
+  - google-drive
+  - productivity
+docs_url: https://docs.thedrive.ai/integrations/mcp-server
+endpoints:
+  - url: https://mcp.thedrive.ai/mcp
+    transport: streamable-http
+    auth: oauth

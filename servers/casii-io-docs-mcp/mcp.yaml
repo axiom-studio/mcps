@@ -1,0 +1,15 @@
+name: Casii MCP
+summary: Casii brings online lead tools, a shared lead library and multi-account WhatsApp outreach into one workspace — every region on its own account, in your customer’s language.
+category: marketing
+tags:
+  - crm
+  - data-analysis
+  - marketing
+  - social-media
+  - web-scraping
+docs_url: https://casii.io/docs/mcp/
+website_url: https://casii.io/#mcp
+endpoints:
+  - url: https://api.casii.io/mcp/
+    transport: streamable-http
+    auth: api-key

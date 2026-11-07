@@ -1,0 +1,13 @@
+name: PeopleSearch.im
+summary: 'Find professionals and their verified work emails from Claude, ChatGPT or any MCP client: plain-English people search, work email finder, email verifier and company lookup.'
+category: search
+tags:
+  - crm
+  - data-analysis
+  - email-automation
+  - search
+docs_url: https://peoplesearch.im/mcp
+endpoints:
+  - url: https://peoplesearch.im/api/mcp
+    transport: streamable-http
+    auth: unknown

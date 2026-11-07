@@ -1,0 +1,13 @@
+name: TuneWorks
+summary: Motorsports workspace for managing vehicles, setups, sessions, data logs, maintenance, modifications, shop lists, and race-engineering workflows through AI assistants.
+category: productivity
+tags:
+  - ai-agent
+  - business-operations
+  - data-analysis
+  - workflow-automation
+docs_url: https://tuneworks.ai
+endpoints:
+  - url: https://tuneworks.ai/mcp
+    transport: streamable-http
+    auth: oauth

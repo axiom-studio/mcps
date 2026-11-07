@@ -1,0 +1,13 @@
+name: Hacker News MCP by Nova (CIVAI)
+summary: 'Browse Hacker News from chat: top stories, search, read comment threads, and post or upvote when you are signed in.'
+category: productivity
+tags:
+  - news
+  - productivity
+  - social-media
+  - web-research
+docs_url: https://github.com/civai-technologies/mcp-hacker_news-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-hacker_news
+    transport: streamable-http
+    auth: api-key

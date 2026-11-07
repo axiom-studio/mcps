@@ -1,0 +1,12 @@
+name: Swervie
+summary: 'Cross-retailer product catalog for shopping questions: one consolidated, scored answer per product with live prices, comparable specs, review evidence and buy links. Remote, no auth.'
+category: search
+tags:
+  - ecommerce
+  - marketplace
+  - search
+docs_url: https://github.com/Swervie/swervie-mcp
+endpoints:
+  - url: https://us-central1-swervie-prod.cloudfunctions.net/mcp
+    transport: streamable-http
+    auth: none

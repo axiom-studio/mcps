@@ -1,0 +1,13 @@
+name: HowToRomania
+summary: 'Remote MCP server for Romanian public data: company lookup by CUI (ANAF), financial statements, ONRC representatives, KYB risk report, court cases, e-Factura validate/generate/parse/PDF and legislation in force. Streamable HTTP at https://api.howtoromania.io/mcp. Pay per call, 100 free credits, demo key htr_demo.'
+category: finance
+tags:
+  - compliance
+  - document
+  - finance
+  - government
+docs_url: https://howtoromania.io/romania-mcp-server
+endpoints:
+  - url: https://api.howtoromania.io/mcp
+    transport: streamable-http
+    auth: unknown

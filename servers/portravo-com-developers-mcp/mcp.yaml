@@ -1,0 +1,12 @@
+name: Portravo
+summary: Review construction plan takeoffs and download estimates after review and pricing.
+category: design
+tags:
+  - design
+  - document
+  - file-management
+docs_url: https://portravo.com/developers/mcp
+endpoints:
+  - url: https://portravo.com/mcp
+    transport: streamable-http
+    auth: oauth

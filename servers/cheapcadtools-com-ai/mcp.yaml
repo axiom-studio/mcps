@@ -1,0 +1,12 @@
+name: CheapCADTools
+summary: 'Pulleys, sprockets, spur, worm, bevel and planetary gears to ISO, DIN, AGMA and ASME: STL or STEP.'
+category: design
+tags:
+  - design
+  - ecommerce
+  - file-conversion
+docs_url: https://cheapcadtools.com/ai/
+endpoints:
+  - url: https://cheapcadtools.com/mcp
+    transport: streamable-http
+    auth: unknown

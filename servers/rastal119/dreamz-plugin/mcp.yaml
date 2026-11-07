@@ -1,0 +1,17 @@
+name: Dreamz Studios
+summary: A film studio inside your own Claude, better every day. The Dreamz connector (a remote MCP server) and Claude Code plugin plan, write, make, check and finish films, pictures, voices and music with you, on your own provider keys.
+category: other
+tags:
+  - ai-agent
+  - audio
+  - content-creation
+  - media
+  - video
+docs_url: https://github.com/rastal119/dreamz-plugin
+endpoints:
+  - url: https://dreamz-studios.com/mcphttps://dreamz-studios.com/mcp
+    transport: streamable-http
+    auth: oauth
+  - url: https://dreamz-studios.com/mcp
+    transport: streamable-http
+    auth: oauth

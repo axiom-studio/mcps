@@ -1,0 +1,13 @@
+name: AI Setups That Work
+summary: 'Search step-by-step AI setups for small business, work and home: steps, copy-paste prompts, sources and Claude skills where available. Tested setups first. Read-only, no auth.'
+category: productivity
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - productivity
+  - research
+docs_url: https://www.aisetupsthatwork.com/
+endpoints:
+  - url: https://www.aisetupsthatwork.com/api/mcp
+    transport: streamable-http
+    auth: unknown

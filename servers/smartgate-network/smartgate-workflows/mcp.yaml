@@ -1,0 +1,13 @@
+name: SmartGate
+summary: 'Hosted MCP: search, fetch, compress, dedup, budget, memory, pipelines. Not an LLM proxy.'
+category: search
+tags:
+  - memory
+  - search
+  - web-research
+  - workflow-automation
+docs_url: https://github.com/smartgate-network/smartgate-workflows
+endpoints:
+  - url: https://smartgate.network/api/mcp
+    transport: streamable-http
+    auth: unknown

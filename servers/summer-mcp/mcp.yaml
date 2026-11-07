@@ -1,0 +1,14 @@
+name: Summer
+summary: Connect AI agents to Summer to set up and manage telehealth support and operations.
+category: communication
+tags:
+  - ai-agent
+  - business-operations
+  - communication
+  - healthcare
+official: true
+docs_url: https://gosummer.ai/docs/agent-setup
+endpoints:
+  - url: https://api.gosummer.ai/mcp
+    transport: streamable-http
+    auth: oauth

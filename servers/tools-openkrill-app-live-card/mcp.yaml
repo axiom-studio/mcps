@@ -1,0 +1,13 @@
+name: Live Card
+summary: Turn a cover and a short HTML animation into an Apple Live Photo, an MP4 and a GIF. Free, hosted, no API key.
+category: design
+tags:
+  - content-creation
+  - design
+  - file-conversion
+  - media
+docs_url: https://tools.openkrill.app/live-card
+endpoints:
+  - url: https://livecard.openkrill.app/mcp
+    transport: streamable-http
+    auth: none

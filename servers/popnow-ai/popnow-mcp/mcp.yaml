@@ -1,0 +1,15 @@
+name: PopNow
+summary: 'Official PopNow MCP server for generating and editing images, videos, music and voiceovers from Claude, ChatGPT, Cursor and other MCP clients.'
+category: design
+tags:
+  - ai-model
+  - audio
+  - content-creation
+  - media
+  - video
+official: true
+docs_url: https://popnow.ai
+endpoints:
+  - url: https://api.popnow.ai/mcp
+    transport: streamable-http
+    auth: oauth

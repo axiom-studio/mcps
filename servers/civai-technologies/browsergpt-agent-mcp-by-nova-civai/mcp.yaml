@@ -1,0 +1,12 @@
+name: Browser Automation Agent by Nova (CIVAI)
+summary: I do everything related to Browser Automation & Management
+category: development
+tags:
+  - browser
+  - browser-automation
+  - testing-qa
+docs_url: https://github.com/civai-technologies/browsergpt-agent-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/browsergpt-agent
+    transport: streamable-http
+    auth: api-key

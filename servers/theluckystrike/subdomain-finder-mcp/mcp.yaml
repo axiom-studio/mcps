@@ -1,0 +1,13 @@
+name: Subdomain Finder MCP
+summary: Passive subdomain enumeration from certificate transparency logs and DNS
+category: development
+tags:
+  - development
+  - network-automation
+  - security
+  - web-scraping
+docs_url: https://github.com/theluckystrike/subdomain-finder-mcp
+endpoints:
+  - url: https://subdomain-finder-mcp.lipmichal.workers.dev/mcp
+    transport: streamable-http
+    auth: none

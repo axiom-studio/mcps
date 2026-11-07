@@ -1,0 +1,13 @@
+name: Vendwiser
+summary: 'Run your eMAG Marketplace Romania shop and Oblio invoicing from any AI assistant: offers, prices, stock, orders, AWB, returns and campaigns. Every change is a preview you approve.'
+category: finance
+tags:
+  - business-operations
+  - ecommerce
+  - finance
+  - workflow-automation
+docs_url: https://vendwiser.ai/docs/
+endpoints:
+  - url: https://app.vendwiser.ai/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,18 @@
+name: Spotify
+summary: Spotify helps users discover music and podcasts based on personal taste, activity, mood, or topic. Its connector gives assistants music-discovery context for recommending songs, artists, albums, playlists, podcasts, and listening experiences.
+description: |-
+  Spotify helps users discover music and podcasts based on personal taste, activity, mood, or topic. Its connector gives assistants music-discovery context for recommending songs, artists, albums, playlists, podcasts, and listening experiences.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/spotify)
+category: other
+tags:
+  - other
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/spotify
+endpoints:
+  - url: https://mcp-gateway-external-pilot.spotify.net/mcp
+    transport: streamable-http
+    auth: oauth

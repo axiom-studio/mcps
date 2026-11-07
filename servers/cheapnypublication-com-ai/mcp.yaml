@@ -1,0 +1,12 @@
+name: 'Cheap NY Publication: New York LLC filings'
+summary: 'Look up any New York LLC on the state register: its publication deadline, county and price. Quotes for NY LLC formation and filings.'
+category: productivity
+tags:
+  - business-operations
+  - document
+  - research
+docs_url: https://cheapnypublication.com/ai
+endpoints:
+  - url: https://cheapnypublication.com/mcp
+    transport: streamable-http
+    auth: none

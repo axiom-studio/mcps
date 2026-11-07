@@ -1,0 +1,24 @@
+name: Taskrabbit Booking Assistance
+summary: Taskrabbit Booking Assistance checks local service availability and pricing, then guides users through scoping questions for home-service needs. Its connector brings location-based pricing, service details, and booking links into assistant workflows.
+description: |-
+  # Taskrabbit Booking Assistance
+
+  Taskrabbit Booking Assistance checks local service availability and pricing, then guides users through scoping questions for home-service needs. Its connector brings location-based pricing, service details, and booking links into assistant workflows.
+
+  ## Connection
+
+  https://mcp.taskrabbit.com/mcp
+
+  Current official connector listing identifies this publisher and exact endpoint. Authentication is not inferred from the directory sign-in badge. Access and business tools have not been verified.
+
+  [Publisher or official connector listing](https://claude.com/connectors/taskrabbit)
+category: other
+tags:
+  - other
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/taskrabbit
+endpoints:
+  - url: https://mcp.taskrabbit.com/mcp
+    transport: streamable-http
+    auth: unknown

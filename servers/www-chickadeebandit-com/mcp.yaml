@@ -1,0 +1,13 @@
+name: Chickadee Bandit
+summary: Connect Claude or another AI assistant to your Chickadee Bandit household, so it can read your calendar and tasks and act inside the apps you allow.
+category: productivity
+tags:
+  - ai-agent
+  - calendar
+  - productivity
+  - task-management
+docs_url: https://www.chickadeebandit.com
+endpoints:
+  - url: https://chickadeebandit.com/api/mcp
+    transport: streamable-http
+    auth: oauth

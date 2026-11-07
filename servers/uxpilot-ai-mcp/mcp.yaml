@@ -1,0 +1,13 @@
+name: UX Pilot
+summary: 'Design agent for your AI tools: on-brand UI from your design system, UX reviews, accessibility fixes and React prototypes'
+category: design
+tags:
+  - ai-agent
+  - design
+  - design-to-code
+  - development
+docs_url: https://uxpilot.ai/mcp
+endpoints:
+  - url: https://mcp.uxpilot.net/mcp
+    transport: streamable-http
+    auth: oauth

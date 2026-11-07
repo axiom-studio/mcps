@@ -1,0 +1,12 @@
+name: WhatAreYouBuilding.AI
+summary: Free directory of indie AI, SaaS and dev products. The public MCP at https://whatareyoubuilding.ai/api/mcp lets an agent search products, communities and the leaderboard. Reads need no key. It is a product catalogue, not a registry of MCP servers.
+category: search
+tags:
+  - marketplace
+  - search
+  - web-research
+docs_url: https://whatareyoubuilding.ai/mcp
+endpoints:
+  - url: https://whatareyoubuilding.ai/api/mcp
+    transport: streamable-http
+    auth: unknown

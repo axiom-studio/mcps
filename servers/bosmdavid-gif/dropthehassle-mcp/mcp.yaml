@@ -1,0 +1,13 @@
+name: DropTheHassle
+summary: MCP server and CLI that let Claude Code, Cursor or Windsurf publish a static site to a free HTTPS link or your own domain. Your AI can never spend money.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - deployment
+  - devops
+  - serverless
+docs_url: https://github.com/bosmdavid-gif/dropthehassle-mcp
+endpoints:
+  - url: https://dropthehassle.com/mcp
+    transport: streamable-http
+    auth: unknown

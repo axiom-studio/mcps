@@ -1,0 +1,13 @@
+name: Close Knit
+summary: 'Evidence about London neighbourhoods and homes for choosing where to live: sale prices, rents, crime, schools, flood risk, commute and more, from official open data (HM Land Registry, ONS, police.uk, Ofsted/DfE, Environment Agency, TfL, OpenStreetMap). Every answer carries value, confidence, evidence, sources with licences and caveats. Remote server, free, no auth.'
+category: other
+tags:
+  - geospatial
+  - government
+  - real-estate
+  - research
+docs_url: https://github.com/bmsdave/close-knit-mcp
+endpoints:
+  - url: https://getcloseknit.com/mcphttps://getcloseknit.com/mcp
+    transport: streamable-http
+    auth: none

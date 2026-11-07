@@ -1,0 +1,14 @@
+name: MedicineData MCP (医药数据社)
+summary: 中文医药产业数据库 MCP：21 个只读工具覆盖药品、靶点、适应症、临床试验、公司、BD 交易、投融资、专利、会议摘要与药品销量。远程 Streamable HTTP，按次计费，新用户送 100 次，适合医药研发与投研的数据查询。
+category: database
+tags:
+  - bioinformatics
+  - database
+  - finance
+  - healthcare
+  - research
+docs_url: https://medicine.shanchuangkj.com/mcp
+endpoints:
+  - url: https://medicine.shanchuangkj.com/mcp
+    transport: streamable-http
+    auth: api-key

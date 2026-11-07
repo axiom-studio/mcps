@@ -1,0 +1,14 @@
+name: Uppercut Merchant MCP
+summary: Run your B2B SaaS affiliate program from Claude, Cursor or any MCP client. Uppercut's Merchant MCP gives 18 tools over OAuth 2.1 to manage campaigns, review and approve sales, check tracking and manage affiliates. Uppercut is free affiliate software (tracking, recurring commissions, Stripe Connect payouts) that also recruits publishers for you.
+category: marketing
+tags:
+  - business-operations
+  - crm
+  - marketing
+  - payment
+  - workflow-automation
+docs_url: https://uppercut.co/mcp
+endpoints:
+  - url: https://app.uppercut.co/mcp
+    transport: streamable-http
+    auth: oauth

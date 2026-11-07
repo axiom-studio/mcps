@@ -1,0 +1,11 @@
+name: ce-net
+summary: 'Real-world manufacturing for your AI: find factories and public digital twins anywhere on Earth, request a build, get introduced. No sign-in.'
+category: other
+tags:
+  - business-operations
+  - research
+docs_url: https://ce-net.com/mcp
+endpoints:
+  - url: https://ce-net.com/mcp
+    transport: streamable-http
+    auth: unknown

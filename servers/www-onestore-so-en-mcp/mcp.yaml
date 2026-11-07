@@ -1,0 +1,13 @@
+name: OneStore
+summary: 'Manage App Store and Google Play apps from your assistant: listings, screenshots, builds, releases, reviews and metrics. Remote server, OAuth; read-only by default, store writes wait for approval.'
+category: development
+tags:
+  - analytics
+  - deployment
+  - mobile
+  - project-management
+docs_url: https://www.onestore.so/en/mcp
+endpoints:
+  - url: https://www.onestore.so/api/mcp
+    transport: streamable-http
+    auth: oauth

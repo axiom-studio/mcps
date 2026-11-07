@@ -1,0 +1,13 @@
+name: Pyxmark
+summary: 'Vendor checks: sanctions lists, SEC filings, domain age and a due-diligence report with sources.'
+category: finance
+tags:
+  - compliance
+  - finance
+  - research
+  - security
+docs_url: https://pyxmark.com
+endpoints:
+  - url: https://mcp.pyxmark.com/mcp
+    transport: streamable-http
+    auth: unknown

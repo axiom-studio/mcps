@@ -1,0 +1,13 @@
+name: 'Atlas of Plant Based: PCT data'
+summary: 'Read-only Pacific Crest Trail data: the 26 legs by trail mile, towns, passes and lakes, and vegan resupply at 64 stops with the date each was last checked.'
+category: other
+tags:
+  - data-analysis
+  - document
+  - geospatial
+  - research
+docs_url: https://github.com/Norcalnappy/atlasofplantbased-mcp
+endpoints:
+  - url: https://atlasofplantbased.com/mcp
+    transport: streamable-http
+    auth: none

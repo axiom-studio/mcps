@@ -1,0 +1,13 @@
+name: Calculadoras PY/EC · BlueliftAI
+summary: 'Paraguay and Ecuador labor and tax calculators: IVA, severance, overtime, payroll (IPS/IESS), income tax, withholdings, late-filing fines, AML fines and RUC/CDC validation, with official sources. Free, no auth.'
+category: finance
+tags:
+  - business-operations
+  - compliance
+  - finance
+  - government
+docs_url: https://github.com/blueliftai/mcp-calculadoras-py-ec
+endpoints:
+  - url: https://www.blueliftai.tech/mcp
+    transport: streamable-http
+    auth: none

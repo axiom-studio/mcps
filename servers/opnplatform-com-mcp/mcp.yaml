@@ -1,0 +1,13 @@
+name: PackIndex
+summary: Live packaging pricing from raw materials, semi-finished and finished packaging. Design, optimize, price and source from 10K suppliers locally and globally.
+category: database
+tags:
+  - business-operations
+  - database
+  - ecommerce
+  - research
+docs_url: https://opnplatform.com/mcp
+endpoints:
+  - url: https://opnplatform.com/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Recipe library
+summary: 'Read-only AI-agent recipe library: search 29 Hebrew recipes and retrieve exact text, with six full English companions. Public Streamable HTTP; no API key.'
+category: productivity
+tags:
+  - documentation
+  - knowledge-retrieval
+  - productivity
+  - search
+docs_url: https://ofershap.github.io/agent-success-hub/mcp-connect.md
+endpoints:
+  - url: https://recipes.gitshow.dev/mcp
+    transport: streamable-http
+    auth: none

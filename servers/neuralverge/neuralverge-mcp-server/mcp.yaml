@@ -1,0 +1,14 @@
+name: NeuralVerge
+summary: 'Data layer for agentic AI with 342 tools: web search, URL-to-JSON extraction against a caller-supplied schema, and structured data from 300+ sources (company registries, marketplaces, product reviews, funding data, contact enrichment).'
+category: search
+tags:
+  - data-analysis
+  - knowledge-retrieval
+  - search
+  - web-research
+  - web-scraping
+docs_url: https://github.com/neuralverge/neuralverge-mcp-server
+endpoints:
+  - url: https://api.neuralverge.ai/functions/v1/mcp-server
+    transport: streamable-http
+    auth: api-key

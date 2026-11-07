@@ -1,0 +1,13 @@
+name: Dubai Data — Dubai Real Estate (DLD)
+summary: 'Read-only Dubai property statistics from registered Dubai Land Department transactions: prices, price per sq ft, rents, yields, projects. Updated daily.'
+category: finance
+tags:
+  - analytics
+  - data-analysis
+  - finance
+  - real-estate
+docs_url: https://datadubai.ae/mcp/
+endpoints:
+  - url: https://mcp.datadubai.ae/mcp
+    transport: streamable-http
+    auth: none

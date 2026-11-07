@@ -1,0 +1,14 @@
+name: Todoist MCP
+summary: Manage your Todoist tasks and projects directly from your LLM.
+category: productivity
+tags:
+  - productivity
+  - project-management
+  - task-management
+official: true
+registry_name: net.todoist/mcp
+docs_url: https://github.com/Doist/todoist-mcp
+endpoints:
+  - url: https://ai.todoist.net/mcp
+    transport: streamable-http
+    auth: oauth

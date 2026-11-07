@@ -1,0 +1,12 @@
+name: PredixLab
+summary: US stock signals, screeners and options analysis over MCP. Not investment advice.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - trading
+docs_url: https://predixlab.com/docs/mcp/
+endpoints:
+  - url: https://api.predixlab.com/mcp/
+    transport: streamable-http
+    auth: api-key

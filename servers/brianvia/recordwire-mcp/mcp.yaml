@@ -1,0 +1,13 @@
+name: Recordwire
+summary: U.S. business-registry data and change events from official state sources, for agents.
+category: finance
+tags:
+  - business-operations
+  - data-analysis
+  - finance
+  - research
+docs_url: https://github.com/BrianVia/recordwire-mcp
+endpoints:
+  - url: https://api.recordwirehq.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: Tempi
+summary: Find open times and book, reschedule or cancel meetings on anyone's Tempi link. No account needed.
+category: productivity
+tags:
+  - calendar
+  - productivity
+  - workflow-automation
+docs_url: https://meettempi.com/ai
+endpoints:
+  - url: https://meettempi.com/mcp
+    transport: streamable-http
+    auth: none

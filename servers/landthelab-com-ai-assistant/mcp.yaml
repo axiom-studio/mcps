@@ -1,0 +1,14 @@
+name: Land the Lab
+summary: 'Prep for OpenAI, Anthropic and other top AI lab interviews inside your AI assistant: each company''s interview loop round by round, recently asked coding, system design and behavioral questions, and worked answers (sign in with OAuth; answers need an unlock or a plan). Remote server: https://landthelab.com/mcp'
+category: productivity
+tags:
+  - ai-model
+  - anthropic
+  - education
+  - openai
+  - research
+docs_url: https://landthelab.com/ai-assistant
+endpoints:
+  - url: https://landthelab.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Unitlab AI
+summary: Create projects, upload data, and automate data annotation directly through your AI assistant with Unitlab MCP.
+category: cloud-service
+tags:
+  - ai-model
+  - data-analysis
+  - workflow-automation
+official: true
+docs_url: https://unitlab.ai/en/mcp
+endpoints:
+  - url: https://api.unitlab.ai/mcp
+    transport: streamable-http
+    auth: oauth

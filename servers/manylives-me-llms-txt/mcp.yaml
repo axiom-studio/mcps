@@ -1,0 +1,14 @@
+name: ManyLives
+summary: 'Pay-per-call tools for AI agent builders: live web search and page contents, a prompt-injection check (with a memory mode), company profiles, quick AI, point-in-time crypto market data for backtests and verified strategy track records. Remote MCP, no account; 3 free calls a day.'
+category: search
+tags:
+  - ai-agent
+  - crypto
+  - data-analysis
+  - security
+  - web-research
+docs_url: https://manylives.me/llms.txt
+endpoints:
+  - url: https://api.manylives.me/mcp
+    transport: streamable-http
+    auth: none

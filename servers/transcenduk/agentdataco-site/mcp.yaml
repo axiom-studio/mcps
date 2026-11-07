@@ -1,0 +1,14 @@
+name: Agent Data Co.
+summary: 'Daily AI-ecosystem data for agents: trending GitHub AI-agent repos, Show HN AI launches, MCP server registry, LLM and AI-tool pricing, Hugging Face trending, with history and trends. Free sample tools, no key needed.'
+category: search
+tags:
+  - ai-agent
+  - data-analysis
+  - knowledge-retrieval
+  - research
+  - web-research
+docs_url: https://github.com/TranscendUK/agentdataco-site
+endpoints:
+  - url: https://agentdataco.com/mcp
+    transport: streamable-http
+    auth: none

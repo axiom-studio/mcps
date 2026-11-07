@@ -1,0 +1,14 @@
+name: Hookbird
+summary: 'Make and publish social content from your AI agent: read a brand, find the competitor ads and hooks that work, generate AI UGC, hook and slideshow videos, and schedule posts to 30+ networks (TikTok, Instagram, YouTube, LinkedIn, X…). Remote server with OAuth.'
+category: marketing
+tags:
+  - advertising
+  - content-creation
+  - marketing
+  - social-media
+  - video
+docs_url: https://hookbird.ai/agents
+endpoints:
+  - url: https://app.hookbird.ai/mcp-oauth-dynamic
+    transport: streamable-http
+    auth: oauth

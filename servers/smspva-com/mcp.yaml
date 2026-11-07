@@ -1,0 +1,12 @@
+name: SMSPVA Documentation
+summary: 'Official SMSPVA documentation MCP: search Activation V2, Rental and Private Email API guides and get code examples in English, Spanish and Chinese.'
+category: development
+tags:
+  - api
+  - documentation
+  - sms
+docs_url: https://smspva.com/
+endpoints:
+  - url: https://mcp.smspva.com/docs
+    transport: streamable-http
+    auth: none

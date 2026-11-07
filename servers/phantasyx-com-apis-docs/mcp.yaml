@@ -1,0 +1,13 @@
+name: Kempt Horizon Data Toolkit
+summary: Web pages to clean Markdown, email/phone/CSV cleaning, and live SEC EDGAR, Federal Register, USAspending and Grants.gov data. 17 read-only tools, hosted, OAuth.
+category: web-scraping
+tags:
+  - data-analysis
+  - finance
+  - government
+  - web-scraping
+docs_url: https://phantasyx.com/apis/docs
+endpoints:
+  - url: https://kempt-horizon-data-toolkit.mcpize.run/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: SuperMailbox
+summary: Search and read connected email, prepare drafts, send when requested, and manage mail rules through permission-controlled MCP tools.
+category: communication
+tags:
+  - communication
+  - email-automation
+  - productivity
+docs_url: https://supermailbox.app
+endpoints:
+  - url: https://api.supermailbox.app/mcp
+    transport: streamable-http
+    auth: oauth

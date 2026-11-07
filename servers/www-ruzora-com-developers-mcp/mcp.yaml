@@ -1,0 +1,11 @@
+name: Ruzora
+summary: 'Hiring tools for teams working with LATAM engineers: browse open roles, search vetted engineers, build interview kits, lint job posts, and request a shortlist from Ruzora.'
+category: productivity
+tags:
+  - business-operations
+  - productivity
+docs_url: https://www.ruzora.com/developers/mcp
+endpoints:
+  - url: https://mcp.ruzora.com/mcp
+    transport: streamable-http
+    auth: none

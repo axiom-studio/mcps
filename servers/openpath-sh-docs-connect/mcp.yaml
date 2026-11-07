@@ -1,0 +1,11 @@
+name: Openpath
+summary: 'Search live jobs from employers'' own job boards (Austin, TX and remote), each with the employer''s Apply link, and local businesses around Austin, TX. Remote server, no sign-in or API key: https://openpath.sh/mcp/search'
+category: search
+tags:
+  - search
+  - web-research
+docs_url: https://openpath.sh/docs/connect
+endpoints:
+  - url: https://openpath.sh/mcp/search
+    transport: streamable-http
+    auth: none

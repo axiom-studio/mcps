@@ -1,0 +1,13 @@
+name: Distributed Risk
+summary: 'Read-only access to Distributed Risk''s desk notes and the official US record: consolidated screening lists, OFAC recent actions, CISA KEV, Federal Register, travel advisories, reference rates and Treasury yields.'
+category: finance
+tags:
+  - compliance
+  - finance
+  - government
+  - threat-intelligence
+docs_url: https://www.distributedrisk.com/agents
+endpoints:
+  - url: https://www.distributedrisk.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,14 @@
+name: Zestio MCP
+summary: 'MCP server for real-estate agents: listings, CRM, German market data and AI media tools.'
+category: productivity
+tags:
+  - ai-agent
+  - content-creation
+  - crm
+  - data-analysis
+  - real-estate
+docs_url: https://www.zestio.de/products/api
+endpoints:
+  - url: https://www.zestio.de/api/mcp
+    transport: streamable-http
+    auth: api-key

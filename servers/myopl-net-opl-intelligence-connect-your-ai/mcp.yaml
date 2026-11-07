@@ -1,0 +1,12 @@
+name: MYOPL Pickleball Public Knowledge
+summary: Read-only pickleball rules, MYOPL help, published player ratings, and court, club and open play discovery via remote MCP.
+category: other
+tags:
+  - knowledge-retrieval
+  - research
+  - sports
+docs_url: https://myopl.net/opl-intelligence/connect-your-ai/
+endpoints:
+  - url: https://pickleball.myopl.net/api/v1/public/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Village
+summary: 'Relationship intelligence for AI assistants: search people and companies, discover warm introduction paths through your network, and request introductions.'
+category: search
+tags:
+  - ai-agent
+  - crm
+  - knowledge-retrieval
+  - search
+docs_url: https://village.ai
+endpoints:
+  - url: https://mcp.village.ai/mcp
+    transport: streamable-http
+    auth: oauth

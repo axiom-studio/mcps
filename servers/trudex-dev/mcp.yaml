@@ -1,0 +1,13 @@
+name: Trudex
+summary: 'Verified Texas business context for AI agents: legal entities, affiliates, licenses, new openings.'
+category: database
+tags:
+  - ai-agent
+  - business-operations
+  - database
+  - knowledge-retrieval
+docs_url: https://trudex.dev
+endpoints:
+  - url: https://trudex.dev/api/mcp
+    transport: streamable-http
+    auth: oauth

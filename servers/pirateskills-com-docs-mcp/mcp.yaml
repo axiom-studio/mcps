@@ -1,0 +1,12 @@
+name: Pirate Skills
+summary: 'Growth marketing and building software with AI, for founders: search the free Growth Codex, Builder Codex and Insights guides, list upcoming online and Cologne events with the event card, and – after signing in – register for free events, see your pass and bookings, and get a checkout link.'
+category: marketing
+tags:
+  - content-creation
+  - knowledge-retrieval
+  - marketing
+docs_url: https://pirateskills.com/docs/mcp
+endpoints:
+  - url: https://pirateskills.com/mcp
+    transport: streamable-http
+    auth: oauth

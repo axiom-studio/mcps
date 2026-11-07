@@ -1,0 +1,13 @@
+name: VibeCodePicks
+summary: 'Ask which AI coding tool fits your goal: rankings from recent X and Hacker News sentiment, pricing, free tiers and alternatives.'
+category: development
+tags:
+  - ai-model
+  - coding-agent
+  - research
+  - web-research
+docs_url: https://vibecodepicks.com/mcp/
+endpoints:
+  - url: https://vibecodepicks.com/api/mcp
+    transport: streamable-http
+    auth: unknown

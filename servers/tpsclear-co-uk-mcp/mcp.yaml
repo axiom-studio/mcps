@@ -1,0 +1,13 @@
+name: TPSClear
+summary: Screen UK phone numbers against the TPS and CTPS registers before a sales call, wash Australian numbers against the Do Not Call Register, and find dead mobiles. Licensed UK list cleaner.
+category: marketing
+tags:
+  - communication
+  - compliance
+  - marketing
+  - telegram
+docs_url: https://tpsclear.co.uk/mcp
+endpoints:
+  - url: https://tpsclear.co.uk/api/mcp
+    transport: streamable-http
+    auth: api-key

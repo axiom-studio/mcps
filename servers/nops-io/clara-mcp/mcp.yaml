@@ -1,0 +1,14 @@
+name: Clara by nOps
+summary: 'FinOps assistant: query AWS, GCP and Azure cost, commitments, budgets and reports.'
+category: productivity
+tags:
+  - aws
+  - azure
+  - cloud-infrastructure
+  - finance
+  - google-cloud
+docs_url: https://github.com/nops-io/clara-mcp
+endpoints:
+  - url: https://mcp.nops.io
+    transport: streamable-http
+    auth: oauth

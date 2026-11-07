@@ -1,0 +1,12 @@
+name: AIS Trail
+summary: 'Live AIS ship positions worldwide: find ships by name, MMSI or IMO, list ships in an area or near a point, and look up ports. Archive history, port calls, events and sanctions flags with an API key.'
+category: other
+tags:
+  - api
+  - geospatial
+  - trading
+docs_url: https://aistrail.com/docs/mcp/
+endpoints:
+  - url: https://api.aistrail.com/mcp
+    transport: streamable-http
+    auth: unknown

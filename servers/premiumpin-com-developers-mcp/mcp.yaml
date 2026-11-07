@@ -1,0 +1,13 @@
+name: PremiumPin Property Records
+summary: Flat-rate US property data for AI agents (MCP + x402). Search/export US parcels; Google OAuth. $79/mo or $790/yr.
+category: other
+tags:
+  - data-analysis
+  - database
+  - geospatial
+  - real-estate
+docs_url: https://premiumpin.com/developers/mcp/
+endpoints:
+  - url: https://api.premiumpin.com/mcp
+    transport: streamable-http
+    auth: oauth

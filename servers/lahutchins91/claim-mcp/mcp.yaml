@@ -1,0 +1,13 @@
+name: Claim by Ouroboros Apps
+summary: 'Claim by Ouroboros Apps: approved brand claims, offers, and banned phrases for marketing copy'
+category: marketing
+tags:
+  - compliance
+  - content-creation
+  - knowledge-retrieval
+  - marketing
+docs_url: https://github.com/LAHutchins91/claim-mcp
+endpoints:
+  - url: https://claim-continuity2.vercel.app/mcp
+    transport: streamable-http
+    auth: unknown

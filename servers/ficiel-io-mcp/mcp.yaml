@@ -1,0 +1,14 @@
+name: Ficiel
+summary: 'AI inbox for coaches and setters: read and search Instagram, WhatsApp and LinkedIn DMs, find prospects left unanswered, prepare follow-ups you approve.'
+category: communication
+tags:
+  - communication
+  - knowledge-retrieval
+  - productivity
+  - search
+  - whatsapp
+docs_url: https://ficiel.io/mcp/
+endpoints:
+  - url: https://bridge.ficiel.io/mcp
+    transport: streamable-http
+    auth: oauth

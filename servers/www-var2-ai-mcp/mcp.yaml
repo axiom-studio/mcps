@@ -1,0 +1,14 @@
+name: VAR2.ai
+summary: Remote MCP server for AI image generation and editing, video, music, voiceovers, 3D assets and creative workflows. Connect via OAuth at https://www.var2.ai/api/mcp. Generation uses VAR2 credits.
+category: design
+tags:
+  - ai-model
+  - audio
+  - content-creation
+  - design
+  - media
+docs_url: https://www.var2.ai/mcp
+endpoints:
+  - url: https://www.var2.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

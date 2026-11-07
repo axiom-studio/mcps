@@ -1,0 +1,13 @@
+name: PartsPlan
+summary: Manufacturer datasheet pages, tables, graphs and drawings for AI circuit design, cited by page.
+category: search
+tags:
+  - ai-model
+  - document
+  - knowledge-retrieval
+  - search
+docs_url: https://partsplanai.com/en
+endpoints:
+  - url: https://worker.partsplanai.com/mcp
+    transport: streamable-http
+    auth: oauth

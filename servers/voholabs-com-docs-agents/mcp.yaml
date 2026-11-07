@@ -1,0 +1,14 @@
+name: Voholabs Studio
+summary: Schedule, draft, edit and analyse social media posts across LinkedIn, X, Instagram, Facebook, Threads, TikTok and YouTube from your AI assistant. Free plan with unlimited channels and scheduled posts.
+category: marketing
+tags:
+  - analytics
+  - content-creation
+  - marketing-automation
+  - social-media
+  - workflow-automation
+docs_url: https://voholabs.com/docs/agents
+endpoints:
+  - url: https://studio.voholabs.com/api/mcp
+    transport: streamable-http
+    auth: api-key

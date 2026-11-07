@@ -1,0 +1,13 @@
+name: SkillAgent
+summary: Remote MCP server and directory for ~3,500 AI agent skills, rules files and MCP servers indexed hourly from GitHub; search, rank and get install steps.
+category: development
+tags:
+  - ai-agent
+  - development
+  - knowledge-retrieval
+  - search
+docs_url: https://skillagent.dev
+endpoints:
+  - url: https://skillagent.dev/mcp
+    transport: streamable-http
+    auth: none

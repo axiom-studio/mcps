@@ -1,0 +1,12 @@
+name: DeepChamp for Agents
+summary: Free sports slate and matchup research tools for AI agents, over MCP and REST, no signup. Research only; 21+.
+category: other
+tags:
+  - api
+  - research
+  - sports
+docs_url: https://deepchampai.com/docs/agents
+endpoints:
+  - url: https://deepchampai.com/mcp
+    transport: streamable-http
+    auth: none

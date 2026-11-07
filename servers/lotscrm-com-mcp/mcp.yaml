@@ -1,0 +1,13 @@
+name: LotsCRM
+summary: 'The CRM your AI agent keeps up to date: contacts, companies, deals, pipelines and follow-ups.'
+category: productivity
+tags:
+  - ai-agent
+  - crm
+  - productivity
+  - sales
+docs_url: https://lotscrm.com/mcp
+endpoints:
+  - url: https://api.lotscrm.com/mcp
+    transport: streamable-http
+    auth: oauth

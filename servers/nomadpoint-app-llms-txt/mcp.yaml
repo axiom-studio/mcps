@@ -1,0 +1,11 @@
+name: NomadPoint Travel Facts
+summary: 'No-auth: save a planned route as an itinerary the traveller keeps, visa rules per passport, Schengen 90/180'
+category: other
+tags:
+  - document
+  - research
+docs_url: https://nomadpoint.app/llms.txt
+endpoints:
+  - url: https://gxhdcvoveufbkthhendf.supabase.co/functions/v1/mcp-public
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: URLpipe
+summary: 'Hosted MCP server that renders pages in real Chrome: Markdown, screenshots, metadata, console errors and Lighthouse'
+category: web-scraping
+tags:
+  - browser-automation
+  - performance
+  - testing-qa
+  - web-scraping
+docs_url: https://urlpipe.dev/mcp-server
+endpoints:
+  - url: https://urlpipe.dev/mcp
+    transport: streamable-http
+    auth: api-key

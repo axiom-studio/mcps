@@ -1,0 +1,13 @@
+name: BankingMCP
+summary: Der MCP-Server für deine Bankkonten
+category: finance
+tags:
+  - finance
+  - payment
+official: true
+registry_name: com.banking-mcp/banking
+docs_url: https://banking-mcp.com/
+endpoints:
+  - url: https://banking-mcp.com/api/mcp
+    transport: streamable-http
+    auth: api-key

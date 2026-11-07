@@ -1,0 +1,12 @@
+name: aft.page
+summary: Deploy HTML, a folder, or a public GitHub repo to a live HTTPS URL. No account needed; claim the site to keep the same URL across updates.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - deployment
+  - github
+docs_url: https://aft.page/mcp
+endpoints:
+  - url: https://mcp.aft.page/mcp
+    transport: streamable-http
+    auth: unknown

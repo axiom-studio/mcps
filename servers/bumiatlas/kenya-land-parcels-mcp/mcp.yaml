@@ -1,0 +1,13 @@
+name: Kenya Land Parcels (Nairobi · Block & LR numbers)
+summary: Nairobi land parcels by registration block number, old LR number or coordinates.
+category: other
+tags:
+  - geospatial
+  - government
+  - real-estate
+  - search
+docs_url: https://github.com/BumiAtlas/kenya-land-parcels-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/kenya
+    transport: streamable-http
+    auth: oauth

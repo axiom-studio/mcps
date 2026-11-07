@@ -1,0 +1,13 @@
+name: Skydropx
+summary: Quote, buy, track and cancel shipments with Mexico's carriers through your Skydropx account
+category: productivity
+tags:
+  - business-operations
+  - ecommerce
+  - inventory
+  - workflow-automation
+docs_url: https://mcp.skydropx.com/docs
+endpoints:
+  - url: https://mcp.skydropx.com/
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: Leadpages MCP
+summary: Leadpages MCP connects AI assistants like ChatGPT, Claude, and Cursor to Leadpages, enabling users to create, edit, and publish landing pages, websites, and sales funnels using natural language. Built for developers, marketers, and founders, it supports lead generation, marketing automation, landing page SEO, and conversion optimization through AI-powered workflows.
+category: development
+tags:
+  - cms
+  - content-creation
+  - marketing
+  - marketing-automation
+  - seo
+docs_url: https://leadpages.com/developers/docs/mcp-server
+endpoints:
+  - url: https://mcp.leadpages.com/mcp
+    transport: streamable-http
+    auth: oauth

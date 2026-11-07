@@ -1,0 +1,13 @@
+name: GitHubCard
+summary: Create GitHub profile and repository cards for READMEs, link previews and social posts.
+category: development
+tags:
+  - content-creation
+  - development
+  - github
+  - icon-generation
+docs_url: https://github.com/ghcardhq/githubcard-mcp
+endpoints:
+  - url: https://githubcard.com/mcp
+    transport: streamable-http
+    auth: api-key

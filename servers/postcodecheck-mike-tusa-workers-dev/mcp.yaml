@@ -1,0 +1,12 @@
+name: PostCode Check
+summary: 'Validate and normalize postal codes for 252 countries and territories over MCP and REST. Tools: validate_postcode and list_countries. Format check only — it does not verify that an address exists or is deliverable. Free tier 2,000 calls/month; Basic $9/month for 50,000; Pro $29/month for 500,000.'
+category: development
+tags:
+  - api
+  - data-analysis
+  - development
+docs_url: https://postcodecheck.mike-tusa.workers.dev/
+endpoints:
+  - url: https://postcodecheck.mike-tusa.workers.dev/mcp
+    transport: streamable-http
+    auth: none

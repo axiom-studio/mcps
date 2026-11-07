@@ -1,0 +1,13 @@
+name: SitePatent
+summary: 'Lets AI agents find newly launched startups, SaaS, AI and developer tools and their alternatives in the SitePatent directory: keyword search, alternatives to a product, listing profiles, categories, trending and Site of the Day. Remote streamable HTTP at https://sitepatent.com/api/mcp. Free, read-only, no API key.'
+category: search
+tags:
+  - ai-agent
+  - marketplace
+  - search
+  - web-research
+docs_url: https://sitepatent.com/mcp
+endpoints:
+  - url: https://sitepatent.com/api/mcp
+    transport: streamable-http
+    auth: none

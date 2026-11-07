@@ -1,0 +1,15 @@
+name: Hubity
+summary: 'Month-end billing for consulting, architecture and engineering firms: your AI assistant previews each invoice from approved time, retainers and progress billing, then drafts them for your review.'
+category: finance
+tags:
+  - ai-agent
+  - document
+  - finance
+  - workflow-automation
+official: true
+registry_name: io.hubity/hubity
+docs_url: https://hubity.io/integrations/mcp
+endpoints:
+  - url: https://hubity.io/api/mcp
+    transport: streamable-http
+    auth: oauth

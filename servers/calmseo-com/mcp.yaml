@@ -1,0 +1,13 @@
+name: CalmSEO
+summary: Free Google Search Console analytics, plus credit-based keyword research, SERPs, and page audits. Hosted MCP with OAuth.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+  - web-research
+docs_url: https://calmseo.com
+endpoints:
+  - url: https://mcp.calmseo.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Spytrend MCP
+summary: Meta and TikTok advertising analytics with ads, creatives, advertisers, rankings and six workflows.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - marketing
+  - social-media
+docs_url: https://github.com/Spytrend/spytrend-mcp
+endpoints:
+  - url: https://mcp.spytrend.com/mcp
+    transport: streamable-http
+    auth: oauth

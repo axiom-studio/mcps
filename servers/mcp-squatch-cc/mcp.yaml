@@ -1,0 +1,8 @@
+name: Squatch Stack
+summary: 'Squatch Stack''s goods, essays and studio in the chat: a shop that opens in the conversation, the Wild Man of the Way essays, and custom requests.'
+category: other
+docs_url: https://mcp.squatch.cc/
+endpoints:
+  - url: https://mcp.squatch.cc/mcp
+    transport: streamable-http
+    auth: none

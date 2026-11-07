@@ -1,0 +1,12 @@
+name: QuestionPunk
+summary: Create and edit QuestionPunk surveys and AI interviews from a research brief, publish when you ask, and read responses and reports from studies your account can access.
+category: productivity
+tags:
+  - data-analysis
+  - productivity
+  - research
+docs_url: https://mcp.questionpunk.com/docs
+endpoints:
+  - url: https://app.questionpunk.com/api/v1
+    transport: streamable-http
+    auth: oauth

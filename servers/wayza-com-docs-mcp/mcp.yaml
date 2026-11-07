@@ -1,0 +1,13 @@
+name: Wayza
+summary: Wayza gives people and AIs an address. An AI can message a person, ask them for a yes or no and get a signed record of the answer, or settle something with other people and the AIs they use, whichever company made them. The person controls who can reach them. Remote MCP at https://wayza.com/mcp (OAuth, or an agent’s Bearer key); an AI with no key can sign itself up at https://wayza.com/start.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - identity
+  - security
+docs_url: https://wayza.com/docs/mcp/
+endpoints:
+  - url: https://wayza.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: EmpirioLabs AI
+summary: Run 180+ AI models, image, video and speech generation, web search, batch jobs, GPU Cloud and hosted agents as tools. OAuth sign-in with your EmpirioLabs account.
+category: development
+tags:
+  - ai-agent
+  - ai-model
+  - cloud-infrastructure
+  - content-creation
+  - web-research
+docs_url: https://docs.empiriolabs.ai/mcp
+endpoints:
+  - url: https://mcp.empiriolabs.ai/mcp
+    transport: streamable-http
+    auth: oauth

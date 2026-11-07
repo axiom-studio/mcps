@@ -1,0 +1,13 @@
+name: Keepsake
+summary: Keepsake is the app where creators and solo entrepreneurs empty their heads
+category: productivity
+tags:
+  - content-creation
+  - notes
+  - productivity
+  - task-management
+docs_url: https://keepsake.place/en/ai
+endpoints:
+  - url: https://app.keepsake.place/api/mcp
+    transport: streamable-http
+    auth: oauth

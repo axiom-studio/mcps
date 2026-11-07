@@ -1,0 +1,11 @@
+name: foundtofind
+summary: 'Your foundtofind sales agent inside Claude, ChatGPT or any MCP client: get warm LinkedIn leads with the buying signal behind each one, research accounts, draft messages and run campaigns from your own LinkedIn.'
+category: marketing
+tags:
+  - marketing-automation
+  - sales
+docs_url: https://foundtofind.com/mcp
+endpoints:
+  - url: https://app.foundtofind.com/mcp
+    transport: streamable-http
+    auth: oauth

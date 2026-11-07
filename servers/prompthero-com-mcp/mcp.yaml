@@ -1,0 +1,12 @@
+name: PromptHero
+summary: 'Create AI images and videos from your AI assistant with your PromptHero account: find models and credit estimates, check your credits, generate, and get the link to each result. Remote server with OAuth, no API key. Currently in closed beta (invited accounts).'
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+docs_url: https://prompthero.com/mcp
+endpoints:
+  - url: https://prompthero.com/api/mcp
+    transport: streamable-http
+    auth: oauth

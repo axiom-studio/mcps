@@ -1,0 +1,13 @@
+name: Calibration Court
+summary: 'Calibration Court MCP from ScriptMasterLabs: model-calibration leaderboard, per-model reports, and verification of a hash-chained calibration ledger. Paid recalibration endpoints settle in USDC on Base via x402 ($0.01 / $0.05).'
+category: development
+tags:
+  - ai-model
+  - analytics
+  - crypto
+  - payment
+docs_url: https://calibration-court.onrender.com/mcp
+endpoints:
+  - url: https://calibration-court.onrender.com/mcp
+    transport: streamable-http
+    auth: none

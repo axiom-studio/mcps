@@ -1,0 +1,13 @@
+name: doc2json
+summary: Turn PDFs and photos into typed JSON with your own schema. Missing values come back null.
+category: productivity
+tags:
+  - data-analysis
+  - document
+  - file-conversion
+  - pdf
+docs_url: https://doc2json.manoonlabs.com
+endpoints:
+  - url: https://doc2json.manoonlabs.com/mcp
+    transport: streamable-http
+    auth: unknown

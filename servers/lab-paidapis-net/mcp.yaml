@@ -1,0 +1,14 @@
+name: x402 Toolbox
+summary: 'Free, read-only MCP tools exposing 14 of x402 Toolbox''s cheap data endpoints: market snapshot, gas data, ETH price, transaction verification, address enrichment, attestation log and more. The full catalog of 28 pay-per-call x402 endpoints (USDC on Base) is at lab.paidapis.net.'
+category: finance
+tags:
+  - api
+  - crypto
+  - data-analysis
+  - evm
+  - finance
+docs_url: https://lab.paidapis.net
+endpoints:
+  - url: https://lab.paidapis.net/mcp
+    transport: streamable-http
+    auth: none

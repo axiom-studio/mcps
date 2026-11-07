@@ -1,0 +1,13 @@
+name: OSS RDTR Zoning (Indonesia)
+summary: 'Indonesian OSS RDTR zoning: zone and sub-zone at a point, special provisions, area summaries.'
+category: other
+tags:
+  - data-analysis
+  - geospatial
+  - government
+  - real-estate
+docs_url: https://github.com/BumiAtlas/oss-rdtr-zoning-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/zoning
+    transport: streamable-http
+    auth: oauth

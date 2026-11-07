@@ -1,0 +1,12 @@
+name: Driving Schools
+summary: Driving Schools lists driving schools by city with addresses, phone numbers and published lesson prices. Search by place and vehicle type, and query the same data through a free API and MCP endpoint.
+category: search
+tags:
+  - api
+  - education
+  - search
+docs_url: https://drivingschools.fyi
+endpoints:
+  - url: https://drivingschools.fyi/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: SuperCheap
+summary: Discover products and variants, manage selected cart lines, get delivery quotes, and complete payment on SuperCheap through a Stripe link; OAuth is required.
+category: productivity
+tags:
+  - ecommerce
+  - payment
+  - productivity
+  - stripe
+docs_url: https://github.com/hardtab/supercheap-mcp
+endpoints:
+  - url: https://supercheap.market/mcp
+    transport: streamable-http
+    auth: oauth

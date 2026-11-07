@@ -1,0 +1,12 @@
+name: BurnerCheck
+summary: 'Disposable email checker: disposable, role, free-mail and look-alike flags. List-based, no MX.'
+category: development
+tags:
+  - data-analysis
+  - email-automation
+  - security
+docs_url: https://burnercheck.mike-tusa.workers.dev/
+endpoints:
+  - url: https://burnercheck.mike-tusa.workers.dev/mcp
+    transport: streamable-http
+    auth: none

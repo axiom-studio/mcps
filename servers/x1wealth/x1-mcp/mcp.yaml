@@ -1,0 +1,13 @@
+name: X1 Wealth
+summary: Ask about your trusts, entities, policies and documents. Every answer cites a page or declines.
+category: finance
+tags:
+  - document
+  - finance
+  - knowledge-retrieval
+  - search
+docs_url: https://github.com/x1wealth/x1-mcp
+endpoints:
+  - url: https://mcp.x1wealth.com/mcp
+    transport: streamable-http
+    auth: unknown

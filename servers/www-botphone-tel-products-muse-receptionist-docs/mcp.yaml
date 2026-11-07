@@ -1,0 +1,14 @@
+name: BotPhone
+summary: Give your Muse a phone number. BotPhone is an AI receptionist that answers your business line and reports every call back to your Muse with a structured summary.
+category: communication
+tags:
+  - ai-agent
+  - audio
+  - communication
+  - customer-ops
+  - workflow-automation
+docs_url: https://www.botphone.tel/products/muse-receptionist/docs
+endpoints:
+  - url: https://auth.botphone.tel/mcp
+    transport: streamable-http
+    auth: oauth

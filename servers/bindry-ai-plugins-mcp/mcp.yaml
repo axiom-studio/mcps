@@ -1,0 +1,12 @@
+name: Bindry
+summary: Access versioned skills and Binders from AI assistants. Requires a Bindry account and workspace API key.
+category: development
+tags:
+  - ai-agent
+  - api
+  - knowledge-retrieval
+docs_url: https://bindry.ai/plugins/mcp
+endpoints:
+  - url: https://api.bindry.ai/api/mcp
+    transport: streamable-http
+    auth: api-key

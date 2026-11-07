@@ -1,0 +1,12 @@
+name: Commerce for Agents
+summary: 'Price comparison for AI agents: US home internet providers by address, US mobile phone plans, and German electricity and gas tariffs. Remote, no API key.'
+category: search
+tags:
+  - data-analysis
+  - search
+  - web-research
+docs_url: https://commerceforagents.com/
+endpoints:
+  - url: https://mcp.commerceforagents.com/mcp
+    transport: streamable-http
+    auth: none

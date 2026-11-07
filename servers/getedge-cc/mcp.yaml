@@ -1,0 +1,13 @@
+name: Edge
+summary: Gives your agent the right public skill for each task and loads it on demand. Searches 100,000+ security-screened public skills, picks the best fit, and loads a pinned version.
+category: productivity
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - productivity
+  - search
+docs_url: https://getedge.cc/
+endpoints:
+  - url: https://getedge.cc/mcp
+    transport: streamable-http
+    auth: none

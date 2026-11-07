@@ -1,0 +1,13 @@
+name: LiqSonar
+summary: 'Live crypto futures market data for AI assistants: order-flow signals, detected pumps and dumps, estimated liquidation levels, large order book walls and a cross-exchange verdict on whether price moves with or against the order flow. Remote Streamable HTTP server with OAuth sign-in or a Pro API key.'
+category: finance
+tags:
+  - crypto
+  - finance
+  - marketplace
+  - trading
+docs_url: https://liqsonar.com/api-docs#mcp
+endpoints:
+  - url: https://liqsonar.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Dream Pixel Forge
+summary: Create and edit on-brand images and videos, reuse character and product references, and organize results on a Studio board. Uses your DPF account and credits.
+category: design
+tags:
+  - content-creation
+  - design
+  - file-management
+  - media
+docs_url: https://www.dreampixelforge.com/cli
+endpoints:
+  - url: https://www.dreampixelforge.com/api/mcp
+    transport: streamable-http
+    auth: api-key

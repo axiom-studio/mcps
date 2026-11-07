@@ -1,0 +1,12 @@
+name: CrakSEO Backlink Checker MCP
+summary: Backlink summaries, top backlinks, referring domains and anchor text research. Hosted Streamable HTTP with OAuth or a scoped API key. Check availability and pricing before paid calls.
+category: search
+tags:
+  - analytics
+  - seo
+  - web-research
+docs_url: https://docs.crakseo.com/mcp-servers/backlinks
+endpoints:
+  - url: https://crakseo.com/mcp/backlinks
+    transport: streamable-http
+    auth: oauth

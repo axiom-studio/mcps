@@ -1,0 +1,13 @@
+name: Well Prepped Life Booking
+summary: 'Check availability and book a free 15-minute consultation for chef-cooked meal-prep delivery for seniors and disabled adults in the SF Bay Area. Remote Streamable HTTP, no auth: https://wellpreppedlife.com/api/mcp'
+category: other
+tags:
+  - calendar
+  - communication
+  - ecommerce
+  - healthcare
+docs_url: https://wellpreppedlife.com/llms.txt
+endpoints:
+  - url: https://wellpreppedlife.com/api/mcp
+    transport: streamable-http
+    auth: unknown

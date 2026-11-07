@@ -1,0 +1,13 @@
+name: SACS.ai MCP — California School District Financial Data
+summary: Public California school district financial data, CDE filings, comparisons, sourced district briefings, and SACS accounting guidance for AI agents.
+category: finance
+tags:
+  - data-analysis
+  - education
+  - finance
+  - government
+docs_url: https://sacs.ai/developers
+endpoints:
+  - url: https://mcp.sacs.ai/mcp
+    transport: streamable-http
+    auth: none

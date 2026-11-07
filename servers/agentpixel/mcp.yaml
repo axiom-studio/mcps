@@ -1,0 +1,15 @@
+name: AgentPixel
+summary: Consent-first website pixel for AI agents. Visitors accept "identify this visit" before anything runs; your agent installs the tag and reads consented contacts.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - privacy
+  - web-scraping
+official: true
+registry_name: io.agentpixel/agentpixel
+docs_url: https://agentpixel.io/connect
+endpoints:
+  - url: https://agentpixel.io/mcp
+    transport: streamable-http
+    auth: api-key

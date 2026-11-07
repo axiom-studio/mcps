@@ -1,0 +1,12 @@
+name: Hivex
+summary: Find unregistered .si domain names, and look up DNS records and WHOIS (RDAP) data for any domain. Free, no key.
+category: development
+tags:
+  - api
+  - search
+  - web-research
+docs_url: https://hivex.si/api
+endpoints:
+  - url: https://hivex.si/mcp
+    transport: streamable-http
+    auth: unknown

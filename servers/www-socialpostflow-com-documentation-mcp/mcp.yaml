@@ -1,0 +1,14 @@
+name: Social Post Flow
+summary: Schedule and publish social media posts from your AI assistant to Facebook, X (Twitter), LinkedIn, Instagram, Threads, Pinterest, TikTok, Bluesky, Mastodon, Telegram and Google Business Profile.
+category: marketing
+tags:
+  - marketing-automation
+  - productivity
+  - social-media
+  - telegram
+  - x-twitter
+docs_url: https://www.socialpostflow.com/documentation/mcp/
+endpoints:
+  - url: https://app.socialpostflow.com/mcp
+    transport: streamable-http
+    auth: oauth

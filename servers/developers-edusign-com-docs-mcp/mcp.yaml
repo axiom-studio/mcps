@@ -1,0 +1,13 @@
+name: Edusign
+summary: Connect AI assistants to Edusign attendance, courses, learners, documents, and API docs via OAuth.
+category: productivity
+tags:
+  - api
+  - document
+  - education
+  - productivity
+docs_url: https://developers.edusign.com/docs/mcp
+endpoints:
+  - url: https://mcp.edusign.com
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: UGC Agent
+summary: 'Find Instagram and TikTok UGC creators with public emails from Claude, ChatGPT or Cursor: run creator searches from a brief, analyze creators and research brands.'
+category: marketing
+tags:
+  - ai-model
+  - anthropic
+  - llm
+  - marketing
+  - marketing-automation
+docs_url: https://ugcagent.app/features/ugc-agent-mcp/
+endpoints:
+  - url: https://mcp.ugcagent.app/mcp
+    transport: streamable-http
+    auth: api-key

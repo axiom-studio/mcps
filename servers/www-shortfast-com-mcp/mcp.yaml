@@ -1,0 +1,14 @@
+name: ShortFast
+summary: Generate, schedule and publish faceless and AI UGC short videos from Claude, Cursor or any MCP client.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - video
+  - workflow-automation
+docs_url: https://www.shortfast.com/mcp
+endpoints:
+  - url: https://app.shortfast.com/mcp
+    transport: streamable-http
+    auth: api-key

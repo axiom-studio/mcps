@@ -1,0 +1,14 @@
+name: SuprSend (Hosted)
+summary: 'Official hosted SuprSend MCP server: manage notification workflows, templates, users, preferences and tenants, and debug delivery logs across email, SMS, push, in-app inbox, WhatsApp and Slack. OAuth sign-in, no API key needed.'
+category: communication
+tags:
+  - communication
+  - email-automation
+  - notifications
+  - sms
+  - workflow-automation
+docs_url: https://github.com/suprsend/mcp
+endpoints:
+  - url: https://mcp.suprsend.com/mcp
+    transport: streamable-http
+    auth: oauth

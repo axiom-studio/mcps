@@ -1,0 +1,13 @@
+name: InstaBids
+summary: 'InstaBids is an AI-run marketplace for homeowners and property managers: describe a home job once, by chat or through your own AI assistant, add photos, and get multiple written quotes on the same scope, compared apples to apples, with no phone calls or home visits before you pick.'
+category: other
+tags:
+  - ai-agent
+  - chatbot
+  - marketplace
+  - real-estate
+docs_url: https://github.com/Instabidsai/instabids-claude-plugin
+endpoints:
+  - url: https://instabids.ai/api/agent/mcp
+    transport: streamable-http
+    auth: oauth

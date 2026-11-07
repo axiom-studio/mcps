@@ -1,0 +1,14 @@
+name: a-un — Agent Upgrade Network
+summary: 'Verified pay-per-call x402 services for AI agents (USDC on Base), never charged if they don''t deliver: web search + read, web page reader, tool-call audits, planning benchmark, memory health check, x402 endpoint check and Base on-chain lookups from $0.001 per call. Free tools: list_products, check_tool_schemas, scan_memory_secrets, get_agent_credential. Remote MCP: https://a-upgradenet.com/mcp (no auth).'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - payment
+  - security
+  - web-research
+docs_url: https://a-upgradenet.com
+endpoints:
+  - url: https://a-upgradenet.com/mcp
+    transport: streamable-http
+    auth: none

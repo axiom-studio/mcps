@@ -1,0 +1,13 @@
+name: 'Proxy (useproxy.dev): Ad Library MCP'
+summary: 'Hosted ad library MCP: live Meta, Google, LinkedIn and TikTok (EU) ads for competitor research in ChatGPT, Claude, Cursor and Codex. Video transcripts and competitor discovery included. OAuth, no API keys, free 20 credits a day.'
+category: marketing
+tags:
+  - advertising
+  - marketing
+  - research
+  - web-scraping
+docs_url: https://useproxy.dev
+endpoints:
+  - url: https://mcp.useproxy.dev/mcp
+    transport: streamable-http
+    auth: oauth

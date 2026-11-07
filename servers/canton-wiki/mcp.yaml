@@ -1,0 +1,13 @@
+name: Canton Wiki Projects
+summary: Search Canton Network ecosystem projects, retrieve project details, and list categories.
+category: finance
+tags:
+  - finance
+  - knowledge-retrieval
+  - research
+  - web-research
+docs_url: https://canton.wiki
+endpoints:
+  - url: https://canton.wiki/mcp
+    transport: streamable-http
+    auth: none

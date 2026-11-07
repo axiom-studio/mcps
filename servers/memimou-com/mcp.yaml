@@ -1,0 +1,12 @@
+name: Memimou
+summary: 'Gift ideas MCP: recommends physical gifts from a catalog by person and occasion, upcoming gift dates by country, price variation by category, and creates free watermarked previews of digital gifts made from the person''s photos. No API key.'
+category: other
+tags:
+  - content-creation
+  - ecommerce
+  - marketing
+docs_url: https://memimou.com
+endpoints:
+  - url: https://memimou.com/mcp
+    transport: streamable-http
+    auth: none

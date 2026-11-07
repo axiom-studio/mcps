@@ -1,0 +1,11 @@
+name: Modebase
+summary: https://www.modebase.co
+category: productivity
+tags:
+  - productivity
+  - workflow-automation
+docs_url: https://www.modebase.co
+endpoints:
+  - url: https://www.modebase.co/api/mcp
+    transport: streamable-http
+    auth: oauth

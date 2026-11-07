@@ -1,0 +1,14 @@
+name: Cleve
+summary: 'Gives any AI agent access to your team''s Cleve workspace: search and cite docs, save conversations as new docs, edit docs in place, organise folders, comment on passages, manage sharing and use Cleve skills. Hosted remote server (streamable HTTP) with OAuth sign-in; no API key needed.'
+category: productivity
+tags:
+  - collaboration
+  - document
+  - knowledge-retrieval
+  - productivity
+  - workflow-automation
+docs_url: https://github.com/cleve-ai/mcp
+endpoints:
+  - url: https://app.cleve.ai/mcp
+    transport: streamable-http
+    auth: oauth

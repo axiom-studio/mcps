@@ -1,0 +1,13 @@
+name: Priorivo Website Check
+summary: Evidence-based website audit for technical SEO and indexing. Browser evidence, prioritized fixes and next steps. EUR 9.90 per check via MPP.
+category: search
+tags:
+  - analytics
+  - browser
+  - seo
+  - web-scraping
+docs_url: https://getpriorivo.com/developers/agents/
+endpoints:
+  - url: https://getpriorivo.com/mcp
+    transport: streamable-http
+    auth: none

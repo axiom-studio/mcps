@@ -1,0 +1,12 @@
+name: TLDers Domain Prices
+summary: Live domain prices from 145+ registrars and 1,100+ TLDs. Find where a domain is cheapest to register, renew or transfer, compare extensions, get promo codes and check availability.
+category: database
+tags:
+  - database
+  - ecommerce
+  - research
+docs_url: https://github.com/TLDers/tlders-mcp
+endpoints:
+  - url: https://www.tlders.com/api/mcp
+    transport: streamable-http
+    auth: api-key

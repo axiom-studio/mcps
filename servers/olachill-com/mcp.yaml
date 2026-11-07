@@ -1,0 +1,10 @@
+name: OlaChill Japan Travel
+summary: Search and price Japan tours, tickets, ryokan, airport transfers, charter buses, cars with driver, helicopter flights, golf and eSIM.
+category: other
+tags:
+  - search
+docs_url: https://olachill.com
+endpoints:
+  - url: https://olachill.com/mcp
+    transport: streamable-http
+    auth: none

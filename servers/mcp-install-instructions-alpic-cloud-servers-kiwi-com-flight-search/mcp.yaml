@@ -1,0 +1,11 @@
+name: Kiwi Travel MCP
+summary: Search Flights Without Leaving Your AI Chat
+category: productivity
+tags:
+  - api
+  - search
+docs_url: https://mcp-install-instructions.alpic.cloud/servers/kiwi-com-flight-search
+endpoints:
+  - url: https://mcp.kiwi.com
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: HotRepo
+summary: GitHub Trending boards, AI-written project reviews, and trending history for AI assistants. Search open-source projects by topic and access monthly reports through six tools. Free API key available.
+category: development
+tags:
+  - development
+  - github
+  - search
+  - web-research
+docs_url: https://hotrepo.ai/mcp-server
+endpoints:
+  - url: https://hotrepo.ai/mcp
+    transport: streamable-http
+    auth: api-key

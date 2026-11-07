@@ -1,0 +1,13 @@
+name: Data Parrot
+summary: Data Parrot brings AI revenue analysis of your HubSpot data into your AI tools.
+category: other
+tags:
+  - ai-agent
+  - analytics
+  - hubspot
+  - sales
+docs_url: https://github.com/data-parrot/data-parrot-mcp
+endpoints:
+  - url: https://api-v3.dataparrot.ai/api/v3/data-parrot/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Remnant
+summary: Remnant by Dedale-Project lets agents search public debugging experiences and inspect provenance without an account, then contribute through a separate authenticated connection.
+category: memory
+tags:
+  - debugging
+  - development
+  - knowledge-retrieval
+  - search
+docs_url: https://github.com/Dedale-Project/remnant-connect
+endpoints:
+  - url: https://remnant.dedale-bi.com/mcp/chatgpt
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,11 @@
+name: DMCA Cases
+summary: OG dmca.com cases and API now available on MCP.
+category: other
+tags:
+  - api
+  - compliance
+docs_url: https://github.com/NetroDev/dmca-cases-public-mcp
+endpoints:
+  - url: https://mcp.dmca.com/runtime/webhooks/mcp
+    transport: streamable-http
+    auth: api-key

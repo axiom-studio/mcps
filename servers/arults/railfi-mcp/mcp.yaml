@@ -1,0 +1,13 @@
+name: RailFi Payout Plans
+summary: 'Free, non-custodial MCP server: validate bounded USDC/USDT payout plans, look up public transfers (read-only), and reconcile payouts. Never holds funds or keys.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - finance
+  - payment
+docs_url: https://github.com/arults/railfi-mcp
+endpoints:
+  - url: https://railfi.xyz/api/mcp
+    transport: streamable-http
+    auth: unknown

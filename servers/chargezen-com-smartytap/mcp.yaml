@@ -1,0 +1,12 @@
+name: Chargezen SmartyTap
+summary: 'SmartyTap email marketing flows: build an automated customer email, preview it, save it as a draft and turn it on, from triggers like new orders or order tags.'
+category: marketing
+tags:
+  - email-automation
+  - marketing-automation
+  - workflow-automation
+docs_url: https://chargezen.com/smartytap
+endpoints:
+  - url: https://mcp.chargezen.com/mcp/smartytap
+    transport: streamable-http
+    auth: oauth

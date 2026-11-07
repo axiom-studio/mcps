@@ -1,0 +1,13 @@
+name: Use This Skill
+summary: See what a Claude, Codex or Cursor skill actually changes, side by side, and scan it for risky patterns before you install it. Free.
+category: development
+tags:
+  - ai-agent
+  - code-quality
+  - development
+  - security
+docs_url: https://usethisskill.com
+endpoints:
+  - url: https://usethisskill.com/mcp
+    transport: streamable-http
+    auth: none

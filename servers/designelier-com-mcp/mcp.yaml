@@ -1,0 +1,12 @@
+name: Designelier
+summary: Generate matching icon sets, spot illustrations and transparent design assets for websites and apps. See the exact quote first, generate after you confirm.
+category: design
+tags:
+  - content-creation
+  - design
+  - icon-generation
+docs_url: https://designelier.com/mcp
+endpoints:
+  - url: https://mcp.designelier.com/mcp
+    transport: streamable-http
+    auth: oauth

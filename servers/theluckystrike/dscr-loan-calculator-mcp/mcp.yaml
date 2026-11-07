@@ -1,0 +1,12 @@
+name: DSCR Loan Calculator MCP
+summary: 'DSCR loan math: debt service coverage ratio, max loan, rent needed, scenarios and amortization.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - real-estate
+docs_url: https://github.com/theluckystrike/dscr-loan-calculator-mcp
+endpoints:
+  - url: https://dscr-loan-calculator-mcp.lipmichal.workers.dev/mcp
+    transport: streamable-http
+    auth: none

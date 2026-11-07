@@ -1,0 +1,12 @@
+name: 出口单 chukoudan
+summary: '出口单 (chukoudan) turns the everyday maths of Chinese exporters into tools an AI assistant can call: export tax refund (trading companies and manufacturers), FOB/CFR/CIF quotes and profit, container loading, CBM and volumetric weight, FX conversion cost, unit conversion and shipping marks. Read-only, no key; exact decimal results with the steps, the dataset versions and their source dates. Not an official source; for reference only. Hosted at https://chukoudan.com/mcp (streamable HTTP).'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - trading
+docs_url: https://chukoudan.com/mcp/
+endpoints:
+  - url: https://chukoudan.com/mcp
+    transport: streamable-http
+    auth: none

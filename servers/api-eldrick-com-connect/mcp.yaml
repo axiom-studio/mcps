@@ -1,0 +1,12 @@
+name: ELDRICK
+summary: Golf club fitting for drivers, woods, hybrids, irons and wedges, matched to real heads, shafts and grips. Search, compare and score clubs.
+category: other
+tags:
+  - ecommerce
+  - search
+  - sports
+docs_url: https://api.eldrick.com/connect
+endpoints:
+  - url: https://api.eldrick.com/mcp
+    transport: streamable-http
+    auth: oauth

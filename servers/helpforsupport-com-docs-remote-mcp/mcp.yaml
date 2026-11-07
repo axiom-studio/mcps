@@ -1,0 +1,13 @@
+name: Caisey
+summary: Caisey is an AI support co-pilot for MSP technicians. Connect it from any MCP client to list devices, read session transcripts, and send prompts to a Caisey session on a specific PC, with technician approval on every command and a full audit log.
+category: productivity
+tags:
+  - ai-agent
+  - customer-ops
+  - productivity
+  - security
+docs_url: https://helpforsupport.com/docs/remote-mcp
+endpoints:
+  - url: https://helpforsupport.com/mcp
+    transport: streamable-http
+    auth: unknown

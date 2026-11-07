@@ -1,0 +1,12 @@
+name: foto foto
+summary: Turn your photos or a public iCloud Shared Album into a printed hardcover photo book.
+category: other
+tags:
+  - content-creation
+  - ecommerce
+  - media
+docs_url: https://github.com/nternet-company/fotofoto-mcp
+endpoints:
+  - url: https://fotofoto.app/mcp
+    transport: streamable-http
+    auth: none

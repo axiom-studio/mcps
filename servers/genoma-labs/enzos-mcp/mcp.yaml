@@ -1,0 +1,12 @@
+name: Enzo's
+summary: 'Natural-language US real-estate home search: find for-sale homes by style, features, budget and location, get an honest good-buy verdict, and surface below-market deals, each with a link to the source listing.'
+category: search
+tags:
+  - real-estate
+  - search
+  - web-research
+docs_url: https://github.com/genoma-labs/enzos-mcp
+endpoints:
+  - url: https://enzos.ai/mcp
+    transport: streamable-http
+    auth: none

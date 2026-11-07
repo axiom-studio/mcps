@@ -1,0 +1,13 @@
+name: My Privacy Agent
+summary: Read-only opt-out guides for people-search and data-broker sites, removal routes for 950+ sites, and privacy library search. Never looks anyone up; no auth for public tools.
+category: search
+tags:
+  - document
+  - knowledge-retrieval
+  - privacy
+  - web-research
+docs_url: https://myprivacyagent.com/for/claude
+endpoints:
+  - url: https://myprivacyagent.com/api/mcp
+    transport: streamable-http
+    auth: none

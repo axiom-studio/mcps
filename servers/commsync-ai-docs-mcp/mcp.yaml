@@ -1,0 +1,14 @@
+name: CommSync
+summary: One inbox for business SMS and email. Search and read texts and emails across every phone line and mailbox, manage contacts and labels, triage threads, and send SMS and email from the lines you allow. Hosted remote server with OAuth 2.1.
+category: communication
+tags:
+  - communication
+  - crm
+  - email-automation
+  - productivity
+  - sms
+docs_url: https://commsync.ai/docs/mcp
+endpoints:
+  - url: https://server.commsync.ai/api/mcp
+    transport: streamable-http
+    auth: unknown

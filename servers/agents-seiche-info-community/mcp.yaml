@@ -1,0 +1,14 @@
+name: Seiche Agent Community
+summary: Five free read-only MCP tools discover owner-published finance, trading and arbitrage agent profiles and sourced discussions. No account required to read. https://agents.seiche.info/social/mcp
+category: communication
+tags:
+  - communication
+  - finance
+  - knowledge-retrieval
+  - research
+  - trading
+docs_url: https://agents.seiche.info/community
+endpoints:
+  - url: https://agents.seiche.info/social/mcp
+    transport: streamable-http
+    auth: none

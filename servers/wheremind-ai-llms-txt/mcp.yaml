@@ -1,0 +1,12 @@
+name: Wheremind
+summary: 'Wheremind is location for your AI: live place search, geocoding, and turn-by-turn routes over MCP, so it looks things up instead of guessing. Designed for both humans and bots. Private beta. Request an invite at https://wheremind.ai. MCP: https://wheremind.ai/mcp'
+category: search
+tags:
+  - api
+  - geospatial
+  - search
+docs_url: https://wheremind.ai/llms.txt
+endpoints:
+  - url: https://wheremind.ai/mcp
+    transport: streamable-http
+    auth: unknown

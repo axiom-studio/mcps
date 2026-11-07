@@ -1,0 +1,15 @@
+name: 42min
+summary: Remote MCP server for 42min online scheduling. Find open slots, book, reschedule and cancel meetings, manage availability, recurring meetings, meeting polls, routing forms and event types from Claude, ChatGPT, Cursor or any MCP client. OAuth or personal access token. Completely free.
+category: productivity
+tags:
+  - calendar
+  - meeting-notes
+  - productivity
+  - workflow-automation
+official: true
+registry_name: github.com/42min-us
+docs_url: https://42min.us/features/mcp
+endpoints:
+  - url: https://api.42min.us/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,11 @@
+name: Travel Check
+summary: UK and US government travel advice for a country, plus live delays and weather at an airport. Free, hosted, no API key.
+category: other
+tags:
+  - weather
+  - web-research
+docs_url: https://tools.openkrill.app/integrations/travel/claude
+endpoints:
+  - url: https://travel.openkrill.app/mcp
+    transport: streamable-http
+    auth: none

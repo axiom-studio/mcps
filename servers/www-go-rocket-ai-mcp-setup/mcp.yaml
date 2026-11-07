@@ -1,0 +1,14 @@
+name: Go Rocket
+summary: 'Turn any website URL into a 9:16 AI video ad: a blurred sample in the chat, then a checkout link for the finished video with a photoreal presenter in 21 languages. Remote, no auth: https://www.go-rocket.ai/mcp/'
+category: marketing
+tags:
+  - advertising
+  - ai-model
+  - content-creation
+  - marketing
+  - video
+docs_url: https://www.go-rocket.ai/mcp-setup/
+endpoints:
+  - url: https://www.go-rocket.ai/mcp/
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: status.live
+summary: 'Live status of outdoor places from the source: ski lifts at 260+ resorts, theme park rides and waits, national park alerts and campgrounds, surf buoys and tides. Free, no auth.'
+category: search
+tags:
+  - geospatial
+  - search
+  - weather
+docs_url: https://status.live
+endpoints:
+  - url: https://status.live/mcp
+    transport: streamable-http
+    auth: unknown

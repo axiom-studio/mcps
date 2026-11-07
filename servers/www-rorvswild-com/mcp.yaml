@@ -1,0 +1,13 @@
+name: RoRvsWild MCP
+summary: 'Read-only access to your Ruby on Rails applications'' monitoring data: requests performance, background jobs, errors, deployments, and server metrics.'
+category: development
+tags:
+  - development
+  - monitoring
+  - observability-incident
+  - performance
+docs_url: https://www.rorvswild.com
+endpoints:
+  - url: https://www.rorvswild.com/mcp
+    transport: streamable-http
+    auth: api-key

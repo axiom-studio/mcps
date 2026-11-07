@@ -1,0 +1,12 @@
+name: Jobven
+summary: Search job postings and employers collected from company career sites. Each result includes the REST call that produced it, ready for your code.
+category: search
+tags:
+  - data-analysis
+  - search
+  - web-research
+docs_url: https://jobven.com/docs/mcp
+endpoints:
+  - url: https://api.jobven.com/mcp
+    transport: streamable-http
+    auth: api-key

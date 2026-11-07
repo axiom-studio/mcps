@@ -1,0 +1,8 @@
+name: Corporary
+summary: 'French company data from official public registers (INSEE Sirene, INPI national business register, BODACC legal notices, financial ratios, labels). Tools: search_companies, get_company, get_financials, get_changes, get_group, get_attachments, get_score. API key in an Authorization Bearer header, free plan of 1,000 calls a month.'
+category: finance
+docs_url: https://corporary.com/en/api
+endpoints:
+  - url: https://corporary.com/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,14 @@
+name: Faceless MCP server
+summary: 'Create, render and auto-post AI faceless videos from Claude, ChatGPT, Cursor or any MCP client: scripts, voiceover, visuals, captions, series and scheduling to YouTube, TikTok, Instagram and 4 more.'
+category: marketing
+tags:
+  - content-creation
+  - marketing-automation
+  - social-media
+  - video
+  - youtube
+docs_url: https://faceless.so/developers/docs/mcp
+endpoints:
+  - url: https://faceless.so/api/v1/mcp
+    transport: streamable-http
+    auth: api-key

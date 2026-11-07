@@ -1,0 +1,13 @@
+name: switch402
+summary: 'One API for agents that need web data: page to markdown, search, screenshots, PDF to text, site maps and metadata. Pay per call, no signup or API key.'
+category: web-scraping
+tags:
+  - api
+  - pdf
+  - search
+  - web-scraping
+docs_url: https://switch402.com/guides/add-web-scraping-to-claude-desktop-mcp
+endpoints:
+  - url: https://api.switch402.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: Oncast
+summary: 'Fact-checked news stories from Oncast''s live AI radio: verified claims with source links.'
+category: search
+tags:
+  - news
+  - research
+  - search
+docs_url: https://oncast.fm/developers
+endpoints:
+  - url: https://oncast.fm/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: quickS3
+summary: 'Give AI agents scoped access to S3-compatible storage (S3, R2, B2, Wasabi, Spaces, Azure): list, upload, download, and share files without handing over access keys.'
+category: cloud-storage
+tags:
+  - aws
+  - cloud-infrastructure
+  - cloud-storage
+  - file-management
+docs_url: https://quicks3.com/s3-mcp-server/
+endpoints:
+  - url: https://quicks3.com/mcp
+    transport: streamable-http
+    auth: oauth

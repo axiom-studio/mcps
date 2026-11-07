@@ -1,0 +1,12 @@
+name: memecub
+summary: Search reaction memes, GIFs and Chinese 表情包 by feeling, and auto-place fitting memes into articles as Markdown, with license info per image.
+category: other
+tags:
+  - content-creation
+  - media
+  - search
+docs_url: https://github.com/liyupi/memecub
+endpoints:
+  - url: https://memecub.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Powietrze PL (powietrze-mcp)
+summary: 'Air quality in Poland for AI agents: live measurements from the official GIOŚ stations (PM2.5, PM10, NO2, O3, SO2) with the Polish air quality index, smog warnings, and a 3-day Copernicus CAMS forecast of particulate matter and pollen. Free, no API key.'
+category: other
+tags:
+  - data-analysis
+  - government
+  - research
+  - weather
+docs_url: https://github.com/ContentWriterco/powietrze-mcp
+endpoints:
+  - url: https://powietrze.compabase.com/mcp
+    transport: streamable-http
+    auth: none

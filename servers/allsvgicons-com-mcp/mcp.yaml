@@ -1,0 +1,13 @@
+name: All SVG Icons
+summary: Search 379,000+ free SVG icons, brand logos, emoji and flags from hundreds of open-source sets and get clean SVG markup for code or design.
+category: design
+tags:
+  - design
+  - icon-generation
+  - search
+  - svg
+docs_url: https://allsvgicons.com/mcp/
+endpoints:
+  - url: https://i.allsvgicons.com/mcp
+    transport: streamable-http
+    auth: oauth

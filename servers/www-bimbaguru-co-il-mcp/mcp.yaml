@@ -1,0 +1,11 @@
+name: Bimba Guru
+summary: 'Israeli car data & parts savings: plate/VIN lookup, vehicle history, recalls, and parts price links. Free, read-only remote MCP server, no API key.'
+category: other
+tags:
+  - data-analysis
+  - marketplace
+docs_url: https://www.bimbaguru.co.il/mcp
+endpoints:
+  - url: https://www.bimbaguru.co.il/mcp
+    transport: streamable-http
+    auth: none

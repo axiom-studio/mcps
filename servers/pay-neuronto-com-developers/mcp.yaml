@@ -1,0 +1,14 @@
+name: Neuronto Payments
+summary: 'x402 payment facilitator: verify and settle USDC payments on Base, find payable resources, and get working integration code.'
+category: finance
+tags:
+  - api
+  - crypto
+  - evm
+  - finance
+  - payment
+docs_url: https://pay.neuronto.com/developers
+endpoints:
+  - url: https://pay.neuronto.com/mcp
+    transport: streamable-http
+    auth: none

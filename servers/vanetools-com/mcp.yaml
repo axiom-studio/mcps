@@ -1,0 +1,13 @@
+name: VaneTools AI Directory
+summary: 'Bilingual AI directory: search 34k+ AI tools, MCP servers, prompts, agent skills, plugins and learning resources via MCP.'
+category: search
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - marketplace
+  - search
+docs_url: https://vanetools.com
+endpoints:
+  - url: https://vanetools.com/mcp
+    transport: streamable-http
+    auth: unknown

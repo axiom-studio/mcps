@@ -1,0 +1,13 @@
+name: GSC Magic
+summary: Connect Google Search Console, Bing Webmaster Tools and GA4 data to your AI agent.
+category: marketing
+tags:
+  - analytics
+  - google-analytics
+  - marketing
+  - seo
+docs_url: https://gscmagic.com/docs
+endpoints:
+  - url: https://mcp.gscmagic.com/mcp
+    transport: streamable-http
+    auth: oauth

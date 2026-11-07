@@ -1,0 +1,13 @@
+name: LeapMemory
+summary: Permanent memory for Grok Bot, Claude, Cursor and any MCP client. Your own physically isolated store. Memories never expire.
+category: memory
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - llm
+  - memory
+docs_url: https://leapmemory.com/docs/overview
+endpoints:
+  - url: https://api.leapmemory.com/mcp
+    transport: streamable-http
+    auth: unknown

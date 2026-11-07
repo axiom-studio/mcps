@@ -1,0 +1,13 @@
+name: Block402
+summary: Bitcoin blockchain reads for AI agents. Seven MCP tools; pay per call with x402 USDC on Base mainnet. Free discovery; paid tools require an x402-aware client.
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - payment
+  - trading
+docs_url: https://block402.xyz/agents/
+endpoints:
+  - url: https://api.block402.xyz/mcp
+    transport: streamable-http
+    auth: unknown

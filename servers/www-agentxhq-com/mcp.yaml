@@ -1,0 +1,13 @@
+name: AgentX
+summary: Connect your AI assistant to AgentX, a cloud console for a fleet of AI coding agents that run on your own machines. OAuth.
+category: development
+tags:
+  - ai-agent
+  - cloud-infrastructure
+  - coding-agent
+  - development
+docs_url: https://www.agentxhq.com/
+endpoints:
+  - url: https://www.agentxhq.com/mcp
+    transport: streamable-http
+    auth: oauth

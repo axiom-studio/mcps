@@ -1,0 +1,13 @@
+name: Stride
+summary: 'Hosted MCP server with OAuth sign-in, and plugins for Claude Code, Codex and Cursor: coding agents read each story''s acceptance criteria, designs and tests from Stride and update it as they work.'
+category: development
+tags:
+  - coding-agent
+  - development
+  - project-management
+  - task-management
+docs_url: https://www.stride.page/integrations/claude-code
+endpoints:
+  - url: https://www.stride.page/api/mcp/stride
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Ricuicui
+summary: Ricuicui est navigateur web qui orchestre des outils
+category: productivity
+tags:
+  - browser
+  - browser-automation
+  - productivity
+docs_url: https://ricuicui.com/documentation/mcp
+endpoints:
+  - url: https://ricuicui.com/mcp
+    transport: streamable-http
+    auth: unknown

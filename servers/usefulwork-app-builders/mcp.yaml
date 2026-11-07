@@ -1,0 +1,13 @@
+name: Useful Work
+summary: 'Find and fix mistakes on your live website: typos, wrong facts, broken links, slow pages, and expiring certificates and domains. Your coding assistant gets the fix list, edits your code and asks for a re-check.'
+category: development
+tags:
+  - code-quality
+  - development
+  - monitoring
+  - testing-qa
+docs_url: https://usefulwork.app/builders#mcp
+endpoints:
+  - url: https://usefulwork.app/mcp
+    transport: streamable-http
+    auth: api-key

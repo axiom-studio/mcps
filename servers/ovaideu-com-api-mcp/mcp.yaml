@@ -1,0 +1,13 @@
+name: Ovaideu
+summary: Ovaideu writes ad copy, builds creative, and launches and optimizes Google Ads and Meta Ads campaigns inside scoped account access. No card needed to start.
+category: marketing
+tags:
+  - advertising
+  - content-creation
+  - marketing
+  - marketing-automation
+docs_url: https://ovaideu.com/api-mcp
+endpoints:
+  - url: https://ovaideu.com/api/mcp
+    transport: streamable-http
+    auth: api-key

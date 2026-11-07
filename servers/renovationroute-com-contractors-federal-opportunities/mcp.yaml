@@ -1,0 +1,13 @@
+name: RenovationRoute
+summary: Search open US federal construction bids from SAM.gov by state, NAICS code or keyword. Public remote server, no login or API key.
+category: search
+tags:
+  - data-analysis
+  - government
+  - search
+  - web-research
+docs_url: https://renovationroute.com/contractors/federal-opportunities
+endpoints:
+  - url: https://mcp.renovationroute.com/mcp
+    transport: streamable-http
+    auth: none

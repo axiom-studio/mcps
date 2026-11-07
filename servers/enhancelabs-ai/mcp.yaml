@@ -1,0 +1,13 @@
+name: Enhance
+summary: Design, edit, review and publish interactive product canvases with coding agents. Hosted MCP uses OAuth; a local plugin supports source and build workflows.
+category: design
+tags:
+  - coding-agent
+  - collaboration
+  - design
+  - workflow-automation
+docs_url: https://enhancelabs.ai
+endpoints:
+  - url: https://api.enhancelabs.ai/mcp
+    transport: streamable-http
+    auth: oauth

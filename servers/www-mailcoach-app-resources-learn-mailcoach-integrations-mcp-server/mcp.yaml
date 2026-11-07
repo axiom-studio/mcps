@@ -1,0 +1,13 @@
+name: Mailcoach
+summary: 'Email marketing by Spatie: read lists, subscribers, campaigns and stats, and draft campaigns and templates.'
+category: marketing
+tags:
+  - analytics
+  - crm
+  - email-automation
+  - marketing
+docs_url: https://www.mailcoach.app/resources/learn-mailcoach/integrations/mcp-server/
+endpoints:
+  - url: https://mcp.mailcoach.app
+    transport: streamable-http
+    auth: oauth

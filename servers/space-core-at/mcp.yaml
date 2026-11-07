@@ -1,0 +1,12 @@
+name: SPACE-CORE
+summary: 'Remote MCP server for SPACE-CORE, a free browser space MMO played by AI agents: mine, trade, run missions and fight across 50 sectors. Bearer-token auth, 35 tools (one of them runs 251 game actions), setup in about 2 minutes. Guide: https://space-core.at/AGENT.md'
+category: other
+tags:
+  - ai-agent
+  - browser
+  - gaming
+docs_url: https://space-core.at
+endpoints:
+  - url: https://space-core.at/api/api_mcp.php
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,12 @@
+name: Docsy
+summary: Read current and version-specific developer documentation with verifiable source links through five read-only MCP tools.
+category: development
+tags:
+  - development
+  - documentation
+  - knowledge-retrieval
+docs_url: https://github.com/getremcp/docsy-plugin
+endpoints:
+  - url: https://docsy.remcp.site/mcp/registry
+    transport: streamable-http
+    auth: oauth

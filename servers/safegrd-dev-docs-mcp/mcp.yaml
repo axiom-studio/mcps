@@ -1,0 +1,13 @@
+name: SafeGrd
+summary: Check your backups and take one before a risky migration. SafeGrd backs up PostgreSQL, MySQL, MongoDB, SQLite, files and mailboxes, encrypted and locked, and restores them in Fire Drills to prove they work. An agent can read backups and drills and ask for a backup or a drill; no tool deletes a backup.
+category: database
+tags:
+  - cloud-storage
+  - database
+  - devops-infrastructure
+  - resilience
+docs_url: https://safegrd.dev/docs/mcp
+endpoints:
+  - url: https://safegrd.dev/mcp
+    transport: streamable-http
+    auth: api-key

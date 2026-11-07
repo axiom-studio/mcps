@@ -1,0 +1,13 @@
+name: Feedback1
+summary: Customer feedback and public roadmap MCP for B2B SaaS — query feedback, roadmap, changelog, and CRM context from Claude or Cursor.
+category: productivity
+tags:
+  - crm
+  - customer-ops
+  - knowledge-retrieval
+  - productivity
+docs_url: https://feedback1.ai/integrations/mcp
+endpoints:
+  - url: https://app.feedback1.ai/api/mcp
+    transport: streamable-http
+    auth: unknown

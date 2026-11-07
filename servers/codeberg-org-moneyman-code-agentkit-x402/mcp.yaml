@@ -1,0 +1,14 @@
+name: AgentKit x402
+summary: 'Pay-per-call utility API for agents over x402 (USDC on Base): email/domain checks, DMARC audit, site audit, URL to markdown, IBAN validators.'
+category: web-scraping
+tags:
+  - data-analysis
+  - email-automation
+  - payment
+  - security
+  - web-scraping
+docs_url: https://codeberg.org/moneyman-code/agentkit-x402
+endpoints:
+  - url: https://agentkit-x402.erikssonanton2001.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

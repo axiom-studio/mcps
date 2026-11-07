@@ -1,0 +1,13 @@
+name: AllNewsAPI
+summary: Live news search, top headlines, and API usage via AllNewsAPI, with AI sentiment and entity filtering
+category: search
+tags:
+  - knowledge-retrieval
+  - news
+  - search
+  - web-research
+docs_url: https://github.com/AllNewsAPI/mcp-server
+endpoints:
+  - url: https://mcp.allnewsapi.com/mcp
+    transport: streamable-http
+    auth: api-key

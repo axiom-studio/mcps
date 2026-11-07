@@ -1,0 +1,12 @@
+name: Storewake
+summary: Hosted MCP for iOS keyword rankings, competitors, Apple Ads, App Store Connect and RevenueCat.
+category: development
+tags:
+  - analytics
+  - marketing
+  - mobile
+docs_url: https://storewake.com/mcp
+endpoints:
+  - url: https://api.storewake.com/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,18 @@
+name: WordPress.com
+summary: WordPress.com lets users manage and create site content through an assistant conversation. Its connector gives permission-scoped access to posts, stats, drafts, pages, and comments while keeping site access limited to approved resources.
+description: |-
+  WordPress.com lets users manage and create site content through an assistant conversation. Its connector gives permission-scoped access to posts, stats, drafts, pages, and comments while keeping site access limited to approved resources.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://developer.wordpress.com/docs/mcp/)
+category: development
+tags:
+  - development
+  - remote-mcp
+official: true
+docs_url: https://developer.wordpress.com/docs/mcp/
+endpoints:
+  - url: https://public-api.wordpress.com/wpcom/v2/mcp/v1
+    transport: streamable-http
+    auth: oauth

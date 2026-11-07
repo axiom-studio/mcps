@@ -1,0 +1,13 @@
+name: Screvi
+summary: Your reading library inside any AI assistant. Search Kindle, Kobo, article and podcast highlights by meaning, read saved articles, and save, tag and organize your library. Remote server with OAuth, 23 tools.
+category: productivity
+tags:
+  - knowledge-retrieval
+  - notes
+  - productivity
+  - search
+docs_url: https://screvi.com/mcp
+endpoints:
+  - url: https://api.screvi.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Unlock Pulse
+summary: Token unlock calendar for the next 60 days, rated by size vs circulating supply, with the price history of past unlocks. Free, no key.
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - finance
+  - trading
+docs_url: https://billibo6.github.io/unlockpulse/ai.html
+endpoints:
+  - url: https://unlockpulse-mcp.unlockpulse.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

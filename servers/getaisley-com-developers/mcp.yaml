@@ -1,0 +1,13 @@
+name: Aisley
+summary: Aisley is an AI wedding planner for UK couples that works inside ChatGPT and Claude. Describe the venue you want, get real venues and a shortlist, send enquiries from your Gmail once you confirm, and let Aisley read replies, chase quiet venues and track the budget. £10/month per wedding, free trial.
+category: productivity
+tags:
+  - ai-agent
+  - email-automation
+  - gmail
+  - productivity
+docs_url: https://getaisley.com/developers
+endpoints:
+  - url: https://getaisley.com/mcp
+    transport: streamable-http
+    auth: oauth

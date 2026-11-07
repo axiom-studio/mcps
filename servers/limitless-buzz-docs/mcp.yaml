@@ -1,0 +1,12 @@
+name: Limitless
+summary: Solana token discovery, live bonding-curve quotes and unsigned buy/sell transactions. Creator listing tools share the website backend. Agents keep their own keys.
+category: finance
+tags:
+  - crypto
+  - defi
+  - trading
+docs_url: https://limitless.buzz/docs
+endpoints:
+  - url: https://mcp.limitless.buzz/mcp
+    transport: streamable-http
+    auth: none

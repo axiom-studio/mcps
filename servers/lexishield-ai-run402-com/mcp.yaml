@@ -1,0 +1,12 @@
+name: LexiShield AI
+summary: Run deterministic SaaS contract redlining, GDPR Art. 28 DPA & EU AI Act compliance audits.
+category: cloud-service
+tags:
+  - ai-model
+  - compliance
+  - document
+docs_url: https://lexishield-ai.run402.com
+endpoints:
+  - url: https://lexishield-ai.run402.com/api/mcp
+    transport: streamable-http
+    auth: none

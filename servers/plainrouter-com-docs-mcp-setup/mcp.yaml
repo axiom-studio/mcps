@@ -1,0 +1,13 @@
+name: Plainrouter Sandbox
+summary: Test Meta advertising account, signal-health, and performance tools with synthetic data through a public MCP endpoint; no credentials required.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - marketing
+  - testing-qa
+docs_url: https://plainrouter.com/docs/mcp/setup
+endpoints:
+  - url: https://plainrouter.com/mcp/sandbox
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: AI Calorie Counter by BodyPal
+summary: Count calories and macros for any meal you describe (by weight, count or portion, in 19 languages). Returns a nutrition card with calories, protein, carbs, fat, fiber, sugar and salt per food, looked up in the BodyPal food database (USDA data and product labels). Remote HTTP server, read-only, no auth. Live in the ChatGPT app directory.
+category: other
+tags:
+  - data-analysis
+  - healthcare
+  - research
+docs_url: https://bodypalapp.com/claude/
+endpoints:
+  - url: https://bodypalapp.com/api/mcp.php
+    transport: streamable-http
+    auth: none

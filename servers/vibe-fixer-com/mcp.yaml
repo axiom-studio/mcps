@@ -1,0 +1,13 @@
+name: VibeFix
+summary: An AI agent that signs up to your live app like a new person. For each problem it confirms, it tells your AI tool what to fix. Every app gets one free check.
+category: development
+tags:
+  - ai-agent
+  - browser-automation
+  - debugging
+  - testing-qa
+docs_url: https://vibe-fixer.com
+endpoints:
+  - url: https://vibe-fixer.com/mcp
+    transport: streamable-http
+    auth: unknown

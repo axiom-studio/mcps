@@ -1,0 +1,13 @@
+name: BrandMov
+summary: Track your clients' competitors' Meta ads, get alerts on new creatives, and build and audit Meta campaigns from Claude, ChatGPT or Cursor.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - marketing
+  - social-media
+docs_url: https://brandmov.com/mcp/
+endpoints:
+  - url: https://api.brandmov.com/mcp
+    transport: streamable-http
+    auth: oauth

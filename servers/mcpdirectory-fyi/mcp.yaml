@@ -1,0 +1,12 @@
+name: MCPDirectory
+summary: Find and compare 1,614 MCP servers by use case, transport, licence and repo activity.
+category: search
+tags:
+  - development
+  - marketplace
+  - search
+docs_url: https://mcpdirectory.fyi
+endpoints:
+  - url: https://mcpdirectory.fyi/mcp
+    transport: streamable-http
+    auth: none

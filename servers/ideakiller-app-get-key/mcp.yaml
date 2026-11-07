@@ -1,0 +1,13 @@
+name: IdeaKiller
+summary: 'Validates startup and product ideas with live web research: a GO / PIVOT / NO_GO verdict, the weakest point, evidence and one first test. Also finds free domain names.'
+category: productivity
+tags:
+  - business-operations
+  - productivity
+  - research
+  - web-research
+docs_url: https://ideakiller.app/get-key/
+endpoints:
+  - url: https://api.ideakiller.app/mcp
+    transport: streamable-http
+    auth: unknown

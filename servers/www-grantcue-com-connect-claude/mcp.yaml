@@ -1,0 +1,13 @@
+name: GrantCue
+summary: Search US grants and foundation giving records. Public data, read-only, no account required.
+category: search
+tags:
+  - finance
+  - government
+  - research
+  - search
+docs_url: https://www.grantcue.com/connect/claude
+endpoints:
+  - url: https://www.grantcue.com/api/v1/mcp
+    transport: streamable-http
+    auth: none

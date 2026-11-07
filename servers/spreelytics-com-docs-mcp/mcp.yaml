@@ -1,0 +1,12 @@
+name: Spreelytics
+summary: Read your Spreelytics web, product and revenue analytics from any MCP client, and create goals, funnels, segments and dashboards. Works on the Free plan.
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - marketing
+docs_url: https://spreelytics.com/docs/mcp
+endpoints:
+  - url: https://mcp.spreelytics.com/mcp
+    transport: streamable-http
+    auth: api-key

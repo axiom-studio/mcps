@@ -1,0 +1,18 @@
+name: Attio
+summary: Attio is a flexible, data-driven CRM for managing contacts, companies, deals, and workflows. Its remote MCP server gives assistants direct access to CRM records, notes, and tasks so customer context can be looked up, logged, and updated from conversation.
+description: |-
+  Attio is a flexible, data-driven CRM for managing contacts, companies, deals, and workflows. Its remote MCP server gives assistants direct access to CRM records, notes, and tasks so customer context can be looked up, logged, and updated from conversation.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://docs.attio.com/mcp/overview)
+category: marketing
+tags:
+  - marketing
+  - remote-mcp
+official: true
+docs_url: https://docs.attio.com/mcp/overview
+endpoints:
+  - url: https://mcp.attio.com/mcp
+    transport: streamable-http
+    auth: oauth

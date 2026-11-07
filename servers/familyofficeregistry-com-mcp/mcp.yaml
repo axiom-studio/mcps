@@ -1,0 +1,12 @@
+name: Family Office Registry
+summary: Sourced, dated records of family offices in Switzerland, Liechtenstein, Austria, Germany and Dubai. Every record cites its sources and carries its last-verified date; the open tier needs no key.
+category: finance
+tags:
+  - database
+  - finance
+  - research
+docs_url: https://familyofficeregistry.com/mcp
+endpoints:
+  - url: https://familyofficeregistry.com/api/mcp
+    transport: streamable-http
+    auth: none

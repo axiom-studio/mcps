@@ -1,0 +1,13 @@
+name: Notiero
+summary: Lets ChatGPT, Claude and other MCP clients save notes into a dedicated AI folder in the user's Notiero notebook, and search or read that folder when the user allows it. Hosted, remote. Official MCP Registry name com.notiero/notiero, npm package notiero-mcp.
+category: memory
+tags:
+  - knowledge-retrieval
+  - memory
+  - notes
+  - productivity
+docs_url: https://notiero.com/for-your-ai/
+endpoints:
+  - url: https://notiero.com/mcp
+    transport: streamable-http
+    auth: unknown

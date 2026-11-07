@@ -1,0 +1,12 @@
+name: FraudKit
+summary: Fraud risk score for signups and orders from email, IP, phone and user-agent. Free tier, RapidAPI key.
+category: finance
+tags:
+  - api
+  - finance
+  - security
+docs_url: https://rapidapi.com/Olly-1VN9JTXKG/api/fraudkit-fraud-risk-score-for-signups-orders
+endpoints:
+  - url: https://fraudkit-fraud-risk-score-for-signups-orders.p.rapidapi.com/mcp
+    transport: streamable-http
+    auth: api-key

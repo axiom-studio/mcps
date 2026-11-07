@@ -1,0 +1,13 @@
+name: MCP Ads
+summary: 'Manage Google Ads, Meta Ads, TikTok, LinkedIn and Microsoft Ads plus GA4, Search Console and Tag Manager from Claude or ChatGPT: performance reports, audits and campaign edits (new campaigns start paused). Open source (MIT) or hosted with OAuth.'
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - marketing-automation
+  - seo
+docs_url: https://github.com/RoyAzran/mcp-ads
+endpoints:
+  - url: https://mcp-ads.com/mcp-slim
+    transport: streamable-http
+    auth: oauth

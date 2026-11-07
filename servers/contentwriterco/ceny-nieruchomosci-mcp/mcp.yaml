@@ -1,0 +1,13 @@
+name: Ceny nieruchomości PL (ceny-nieruchomosci-mcp)
+summary: 'Real sale prices of Polish flats, houses and building plots from notarial deeds (official RCN register, GUGiK): median price per m², breakdown by rooms, primary vs secondary market, yearly trend and recent sales near any address. Free public endpoint, no API key.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - government
+  - real-estate
+docs_url: https://github.com/ContentWriterco/ceny-nieruchomosci-mcp
+endpoints:
+  - url: https://ceny.compabase.com/mcp
+    transport: streamable-http
+    auth: none

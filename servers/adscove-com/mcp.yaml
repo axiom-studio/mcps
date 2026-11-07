@@ -1,0 +1,14 @@
+name: AdsCove
+summary: AdsCove is a hosted remote MCP server that connects AI agents to Shopify, Meta Ads and Google Ads for diagnosis, reporting and approval-gated changes.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - marketing
+  - shopify
+  - workflow-automation
+docs_url: https://adscove.com/
+endpoints:
+  - url: https://adscove.com/api/mcp
+    transport: streamable-http
+    auth: oauth

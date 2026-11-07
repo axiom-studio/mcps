@@ -1,0 +1,13 @@
+name: Sendly MCP
+summary: Send transactional email, run campaigns, and manage contacts, lists and segments in Sendly. Remote server with OAuth sign-in.
+category: communication
+tags:
+  - communication
+  - crm
+  - email-automation
+  - marketing-automation
+docs_url: https://docs.sendly.now/guides/mcp
+endpoints:
+  - url: https://app.sendly.now/api/mcp
+    transport: streamable-http
+    auth: oauth

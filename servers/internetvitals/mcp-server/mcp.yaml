@@ -1,0 +1,13 @@
+name: InternetVitals
+summary: Ask your AI agent "is AWS down?" Real-time status, incidents and an overall health score for 41 backbone services. Hosted, free, no API key.
+category: development
+tags:
+  - aws
+  - cloud-infrastructure
+  - monitoring
+  - observability-incident
+docs_url: https://github.com/internetvitals/mcp-server
+endpoints:
+  - url: https://internetvitals.com/mcp
+    transport: streamable-http
+    auth: none

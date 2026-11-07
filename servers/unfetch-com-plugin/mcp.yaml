@@ -1,0 +1,12 @@
+name: google ads mcp
+summary: google ads remote mcp
+category: marketing
+tags:
+  - advertising
+  - google-analytics
+  - marketing
+docs_url: https://unfetch.com/plugin
+endpoints:
+  - url: https://unfetch.com/api/mcp
+    transport: streamable-http
+    auth: oauth

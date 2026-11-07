@@ -1,0 +1,14 @@
+name: UpRank
+summary: Research, draft, score and publish cited articles for your own site; every claim traced to a source and hard quality gates enforced.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - research
+  - seo
+  - web-research
+docs_url: https://uprank.devino.ca/agent-setup
+endpoints:
+  - url: https://uprank.devino.ca/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,11 @@
+name: Dovetail
+summary: Connect AI tools to the Dovetail API for user research and customer feedback analysis.
+category: productivity
+tags:
+  - productivity
+official: true
+docs_url: https://github.com/dovetail/dovetail-mcp
+endpoints:
+  - url: https://dovetail.com/api/mcp
+    transport: streamable-http
+    auth: oauth

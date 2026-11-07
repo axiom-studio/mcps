@@ -1,0 +1,13 @@
+name: looot
+summary: 'Search, price and run 2,500+ data endpoints from 90+ providers with one key and one prepaid balance: work emails, phones, company and people search, Google results, web pages and news. Price shown before every run.'
+category: search
+tags:
+  - api
+  - data-analysis
+  - search
+  - web-research
+docs_url: https://github.com/loootai/looot-mcp
+endpoints:
+  - url: https://api.looot.ai/mcp
+    transport: streamable-http
+    auth: oauth

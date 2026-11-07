@@ -1,0 +1,13 @@
+name: Kite
+summary: Agent-first design tool with full Figma-class editing. Humans + agents on one canvas. Hosted MCP.
+category: design
+tags:
+  - ai-agent
+  - collaboration
+  - design
+  - figma
+docs_url: https://kite.new
+endpoints:
+  - url: https://kite.new/api/mcp
+    transport: streamable-http
+    auth: unknown

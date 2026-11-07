@@ -1,0 +1,14 @@
+name: ClosedLoop AI
+summary: 'Ask your AI assistant what customers need: search product insights from sales calls, support tickets and Slack, see ranked product opportunities, and look up any customer. Read-only.'
+category: productivity
+tags:
+  - analytics
+  - customer-ops
+  - knowledge-retrieval
+  - productivity
+official: true
+docs_url: https://closedloop.sh
+endpoints:
+  - url: https://mcp.closedloop.sh/
+    transport: streamable-http
+    auth: oauth

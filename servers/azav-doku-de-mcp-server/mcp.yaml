@@ -1,0 +1,13 @@
+name: AZAV-Doku AVGS Tools
+summary: 'Read-only tools for German AVGS coaching providers (§ 45 SGB III): B-DKS 2026 cost rates, AVGS deadlines with public holidays per state, official BA forms, glossary. Remote, no auth, no personal data.'
+category: productivity
+tags:
+  - compliance
+  - documentation
+  - government
+  - productivity
+docs_url: https://azav-doku.de/mcp-server
+endpoints:
+  - url: https://azav-doku.de/mcp
+    transport: streamable-http
+    auth: unknown

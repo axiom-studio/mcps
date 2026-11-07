@@ -1,0 +1,12 @@
+name: GOES Health
+summary: 'Current outdoor health risks and 48-hour hourly / 8-day daily forecasts by location. Free, no API key. Shared limit: 1,000 calls/day; 10 calls/minute per user.'
+category: other
+tags:
+  - geospatial
+  - healthcare
+  - weather
+docs_url: https://goes.health
+endpoints:
+  - url: https://api.goes.health/mcp
+    transport: streamable-http
+    auth: none

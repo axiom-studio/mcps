@@ -1,0 +1,12 @@
+name: PestPin
+summary: Check a US pest control license or phone number against 35 state regulators' records, find licensed companies by city, see typical prices, and get a free request link.
+category: search
+tags:
+  - business-operations
+  - data-analysis
+  - search
+docs_url: https://pestpin.com/developers#mcp
+endpoints:
+  - url: https://pestpin.com/mcp
+    transport: streamable-http
+    auth: none

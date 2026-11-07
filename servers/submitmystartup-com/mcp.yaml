@@ -1,0 +1,12 @@
+name: SubmitMyStartup
+summary: 'Where to submit your startup: a free list of startup directories, launch sites and Product Hunt alternatives, with real submission results. Remote, read-only, no sign-in: https://submitmystartup.com/mcp. Also in the official MCP Registry as com.submitmystartup/mcp.'
+category: productivity
+tags:
+  - marketplace
+  - research
+  - web-research
+docs_url: https://submitmystartup.com/
+endpoints:
+  - url: https://submitmystartup.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: OptimistFi
+summary: 'Live perpetual futures data on 40 venues for AI assistants: funding on every venue, open interest, liquidation levels, whale trades and the net position of Hyperliquid''s largest accounts. Plus 21 perps prop firms'' rules and prices, and sourced theses on 6,100+ US stocks. Public, read-only, no key.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - finance
+  - trading
+docs_url: https://optimistfi.com/mcp
+endpoints:
+  - url: https://mcp.optimistfi.com/mcp
+    transport: streamable-http
+    auth: none

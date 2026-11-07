@@ -1,0 +1,13 @@
+name: capsulam
+summary: Human-reviewed digests on AI, the EU AI Act and cybersecurity, every fact linked to its source.
+category: other
+tags:
+  - compliance
+  - news
+  - research
+  - security
+docs_url: https://capsulam.es/en/conectar.html
+endpoints:
+  - url: https://capsulam.es/mcp
+    transport: streamable-http
+    auth: unknown

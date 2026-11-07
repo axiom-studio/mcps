@@ -1,0 +1,13 @@
+name: agproxy
+summary: Pay-per-call residential proxy traffic and raw fetch for AI agents, with country targeting and sticky sessions. No API key, paid per call with x402 stablecoins.
+category: web-scraping
+tags:
+  - ai-agent
+  - browser-automation
+  - crypto
+  - web-scraping
+docs_url: https://agproxy.shveik.dev
+endpoints:
+  - url: https://agproxy.shveik.dev/mcp
+    transport: streamable-http
+    auth: unknown

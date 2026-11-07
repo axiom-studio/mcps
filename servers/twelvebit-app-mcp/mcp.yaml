@@ -1,0 +1,12 @@
+name: twelvebit Analytics
+summary: 'Web and revenue analytics for your agent: traffic, goals, funnels, visitor journeys and revenue by source. Remote server with OAuth sign-in, read-only by default.'
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - marketing
+docs_url: https://twelvebit.app/mcp
+endpoints:
+  - url: https://twelvebit.app/api/mcp
+    transport: streamable-http
+    auth: oauth

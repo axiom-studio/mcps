@@ -1,0 +1,12 @@
+name: Car Rental Brain
+summary: 'The real cost of car hire for AI assistants: second-driver fees, deposits, debit cards, desk hours and desk excess cover vs full coverage, measured at 120+ airports, plus a link to live prices ranked by the total a person will pay. Free, no key.'
+category: search
+tags:
+  - ecommerce
+  - finance
+  - search
+docs_url: https://carrentalbrain.com/ai/
+endpoints:
+  - url: https://app.carrentalbrain.com/mcp
+    transport: streamable-http
+    auth: none

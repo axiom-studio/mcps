@@ -1,0 +1,11 @@
+name: Cork & Curve wine travel
+summary: Verified vineyards, tasting rooms, wine bars and cellars across 37 European wine regions with provenance and hours, wine festivals with resolved dates, bookable tours and stays. Public remote MCP server, no key.
+category: search
+tags:
+  - data-analysis
+  - search
+docs_url: https://corkandcurve.com/agents/
+endpoints:
+  - url: https://corkandcurve.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Shuffll Engage
+summary: Connect AI agents to Shuffll Engage through MCP and API. Access authorized organizations, branding, templates, assets, campaigns, recipients, results and analytics. Paid subscription and organization-enabled access required. MCP rendering uses fixed content; recipient personalization and delivery are excluded.
+category: marketing
+tags:
+  - analytics
+  - api
+  - crm
+  - marketing
+docs_url: https://engage.shuffll.com/
+endpoints:
+  - url: https://engage.shuffll.com/mcp
+    transport: streamable-http
+    auth: oauth

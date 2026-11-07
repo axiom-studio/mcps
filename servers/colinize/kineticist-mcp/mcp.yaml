@@ -1,0 +1,12 @@
+name: Kineticist
+summary: Pinball news, games and editions, designers, places to play and the Hype Index from Kineticist. Hosted, free, no key needed.
+category: search
+tags:
+  - gaming
+  - news
+  - search
+docs_url: https://github.com/colinize/kineticist-mcp
+endpoints:
+  - url: https://www.kineticist.com/api/mcp
+    transport: streamable-http
+    auth: none

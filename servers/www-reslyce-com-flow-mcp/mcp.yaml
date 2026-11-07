@@ -1,0 +1,13 @@
+name: Reslyce Flow MCP
+summary: 'Read-only options flow data from Reslyce: 0-2 DTE flow by ticker and minute for 100 tracked stocks and ETFs, $1M+ prints and open interest by strike. No orders.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - marketplace
+  - trading
+docs_url: https://www.reslyce.com/flow-mcp
+endpoints:
+  - url: https://www.reslyce.com/mcp
+    transport: streamable-http
+    auth: unknown

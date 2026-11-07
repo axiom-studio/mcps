@@ -1,0 +1,13 @@
+name: PM Career Desk
+summary: 'Interview practice and resume checks for program, project, PMO and TPM managers in Claude: interview questions from your resume and a job posting, a check of each practice answer, resume and LinkedIn review. Free tools need no account.'
+category: productivity
+tags:
+  - ai-agent
+  - document
+  - education
+  - productivity
+docs_url: https://github.com/pmcareerdesk/pm-career-desk
+endpoints:
+  - url: https://app.pmcareerdesk.com/mcp
+    transport: streamable-http
+    auth: unknown

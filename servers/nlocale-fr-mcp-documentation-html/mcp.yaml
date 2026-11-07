@@ -1,0 +1,12 @@
+name: NLocale
+summary: Find sourced events, places, restaurants, stays and local guides in Aisne, France through 10 public read-only tools, with no account or API key required.
+category: search
+tags:
+  - geospatial
+  - search
+  - web-research
+docs_url: https://nlocale.fr/mcp/documentation.html
+endpoints:
+  - url: https://nlocale.fr/mcp
+    transport: streamable-http
+    auth: none

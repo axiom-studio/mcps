@@ -1,0 +1,13 @@
+name: Goldsky Docs
+summary: 'Search and read Goldsky docs: wallet Feeds APIs, prebuilt onchain datasets, Turbo pipelines, subgraphs, and Edge RPC across 150+ chains.'
+category: development
+tags:
+  - crypto
+  - database
+  - documentation
+  - web-research
+docs_url: https://docs.goldsky.com/mcp-server
+endpoints:
+  - url: https://docs.goldsky.com/mcp
+    transport: streamable-http
+    auth: none

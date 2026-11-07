@@ -1,0 +1,19 @@
+name: Amplitude
+summary: Amplitude is a behavior analytics and experimentation platform for product teams. Its MCP connector lets assistants search and analyze charts, dashboards, experiments, feature flags, and metrics so product data can inform trends, workflows, and decisions from conversation.
+description: |-
+  Amplitude is a behavior analytics and experimentation platform for product teams. Its MCP connector lets assistants search and analyze charts, dashboards, experiments, feature flags, and metrics so product data can inform trends, workflows, and decisions from conversation.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://amplitude.com/docs/amplitude-ai/amplitude-mcp)
+category: marketing
+tags:
+  - marketing
+  - remote-mcp
+official: true
+registry_name: com.amplitude/mcp-server
+docs_url: https://amplitude.com/docs/amplitude-ai/amplitude-mcp
+endpoints:
+  - url: https://mcp.amplitude.com/mcp
+    transport: streamable-http
+    auth: oauth

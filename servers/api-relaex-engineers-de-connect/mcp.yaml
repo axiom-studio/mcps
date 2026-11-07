@@ -1,0 +1,14 @@
+name: Boring API
+summary: 'Deterministic data tools for business tables: supplier price list diff, PDF table extraction, product feed validation (Google, Shopify, Meta), product data mapping to Shopify/Google/WooCommerce import files, and a diff for any two versions of a table. Read-only, no sign-up.'
+category: productivity
+tags:
+  - data-analysis
+  - document
+  - ecommerce
+  - file-conversion
+  - spreadsheet
+docs_url: https://api.relaex-engineers.de/connect
+endpoints:
+  - url: https://api.relaex-engineers.de/mcp
+    transport: streamable-http
+    auth: unknown

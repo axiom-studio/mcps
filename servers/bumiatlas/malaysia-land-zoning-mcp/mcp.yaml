@@ -1,0 +1,13 @@
+name: Malaysia Land Lots & Local Plan Zoning
+summary: Malaysian JUPEM land lots by UPI, lot number or coordinates, with PLANMalaysia local-plan zoning.
+category: other
+tags:
+  - geospatial
+  - government
+  - real-estate
+  - search
+docs_url: https://github.com/BumiAtlas/malaysia-land-zoning-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/malaysia
+    transport: streamable-http
+    auth: oauth

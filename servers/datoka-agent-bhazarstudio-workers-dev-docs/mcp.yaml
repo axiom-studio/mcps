@@ -1,0 +1,14 @@
+name: Datoka Agent
+summary: Signed receipts for declared AI-agent workflow steps. Hash files locally; prepare and verify for free. Issue a receipt for 0.002 USDC via x402 on Base. HTTP, MCP and A2A.
+category: development
+tags:
+  - ai-agent
+  - crypto
+  - finance
+  - payment
+  - workflow-automation
+docs_url: https://datoka-agent.bhazarstudio.workers.dev/docs
+endpoints:
+  - url: https://datoka-agent.bhazarstudio.workers.dev/mcp
+    transport: streamable-http
+    auth: none

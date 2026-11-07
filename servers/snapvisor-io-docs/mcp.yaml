@@ -1,0 +1,11 @@
+name: SnapVisor MCP
+summary: Review visual regression builds, approve or reject screenshot changes, and manage SnapVisor projects. Remote server with OAuth sign-in.
+category: development
+tags:
+  - browser-automation
+  - testing-qa
+docs_url: https://snapvisor.io/docs
+endpoints:
+  - url: https://mcp.snapvisor.io/
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: brainattic
+summary: EU-hosted knowledge base for AI agents with semantic search, versioned documents, and permission-controlled reading and editing via MCP.
+category: productivity
+tags:
+  - document
+  - knowledge-retrieval
+  - memory
+  - productivity
+docs_url: https://brainattic.ai
+endpoints:
+  - url: https://app.brainattic.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: GhostKey
+summary: 'GhostKey from ScriptMasterLabs: scoped browser session delegation — short-lived, origin-scoped sessions into a browser the user authenticated themselves.'
+category: development
+tags:
+  - browser
+  - browser-automation
+  - identity
+  - security
+docs_url: https://squeezeos-api.onrender.com/mcp/ghostkey
+endpoints:
+  - url: https://squeezeos-api.onrender.com/mcp/ghostkey
+    transport: streamable-http
+    auth: none

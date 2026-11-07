@@ -1,0 +1,12 @@
+name: YarnGPT MCP by Nova (CIVAI)
+summary: Turn text into speech with Nigerian and African-accented voices.
+category: productivity
+tags:
+  - ai-model
+  - audio
+  - text-to-speech
+docs_url: https://github.com/civai-technologies/mcp-bgpt-yarngpt-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-bgpt-yarngpt
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: ScreenWeaver
+summary: 'Official ScreenWeaver server: write and edit your screenplay, import Final Draft, Fountain or PDF scripts, and turn scenes, director''s notes or comic pages into storyboard shots. OAuth sign-in, 22 tools.'
+category: design
+tags:
+  - content-creation
+  - design
+  - document
+  - media
+docs_url: https://www.screenweaver.ai/mcp
+endpoints:
+  - url: https://app.screenweaver.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

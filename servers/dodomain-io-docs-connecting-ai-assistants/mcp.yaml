@@ -1,0 +1,14 @@
+name: DoDomain MCP
+summary: 'Connect customers'' custom domains to your product: guided DNS setup, verification and certificates, managed from DoDomain. Remote server with OAuth sign-in.'
+category: development
+tags:
+  - development
+  - document
+  - documentation
+  - identity
+  - security
+docs_url: https://dodomain.io/docs/connecting-ai-assistants
+endpoints:
+  - url: https://app.dodomain.io/api/mcp
+    transport: streamable-http
+    auth: oauth

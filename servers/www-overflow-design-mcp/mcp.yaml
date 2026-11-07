@@ -1,0 +1,13 @@
+name: Overflow Design
+summary: Hand-drawn icons, illustrations and isometric drawings, searched by meaning and fetched as SVG, JSX or a file.
+category: design
+tags:
+  - design
+  - file-conversion
+  - icon-generation
+  - svg
+docs_url: https://www.overflow.design/mcp/
+endpoints:
+  - url: https://www.overflow.design/api/mcp/
+    transport: streamable-http
+    auth: none

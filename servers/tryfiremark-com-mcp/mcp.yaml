@@ -1,0 +1,14 @@
+name: Firemark AI
+summary: Firemark is the most agent-native AI visibility tool on the market. Firemark measures how often ChatGPT, Perplexity, Gemini and Google AI name your brand, its rivals and its sources. Hosted remote MCP server with OAuth. Track AI-answer visibility, review answers prompt by prompt, and propose changes to your prompt basket from Claude, ChatGPT or any MCP client.
+category: marketing
+tags:
+  - ai-agent
+  - analytics
+  - marketing
+  - research
+  - seo
+docs_url: https://tryfiremark.com/mcp
+endpoints:
+  - url: https://app.tryfiremark.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Scoopkit
+summary: Scoopkit gives your agents AI-industry news it can actually use. When a model ships or a lab raises money, dozens of outlets cover it. Scoopkit merges that coverage into one event, with sources. Ask "what did Anthropic ship this week?" or "list every funding round in the last month" and you get each story once instead of 40 overlapping headlines.
+category: search
+tags:
+  - ai-model
+  - news
+  - research
+  - web-research
+docs_url: https://scoopkit.dev
+endpoints:
+  - url: https://api.scoopkit.dev/mcp
+    transport: streamable-http
+    auth: none

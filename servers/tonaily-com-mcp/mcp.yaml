@@ -1,0 +1,13 @@
+name: Tonaily
+summary: A free server for any public site. Kira MCP, the account server included from Growth, for your keywords, your sequences and your AI visibility.
+category: marketing
+tags:
+  - ai-model
+  - analytics
+  - marketing
+  - seo
+docs_url: https://tonaily.com/mcp/
+endpoints:
+  - url: https://app.tonaily.com/mcp/tools
+    transport: streamable-http
+    auth: none

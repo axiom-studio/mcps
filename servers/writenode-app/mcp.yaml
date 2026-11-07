@@ -1,0 +1,13 @@
+name: writenode
+summary: A browser extension that eliminates tab-switching friction by organizing captured notes into an associative web of ideas. Includes a live MCP connector so AI assistants like Claude can read and write your notes across sessions.
+category: productivity
+tags:
+  - browser
+  - memory
+  - notes
+  - productivity
+docs_url: https://writenode.app
+endpoints:
+  - url: https://writenode-backend.onrender.com/mcp
+    transport: streamable-http
+    auth: unknown

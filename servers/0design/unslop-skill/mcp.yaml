@@ -1,0 +1,12 @@
+name: UNSLOP canon
+summary: Read-only MCP resources serve a versioned design and copy rule canon for UI audits; the UNSLOP plugin supplies the detector and audit workflow.
+category: design
+tags:
+  - design
+  - documentation
+  - knowledge-retrieval
+docs_url: https://github.com/0design/unslop-skill
+endpoints:
+  - url: https://oleg.design/unslop/mcp
+    transport: streamable-http
+    auth: none

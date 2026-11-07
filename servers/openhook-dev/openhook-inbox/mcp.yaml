@@ -1,0 +1,12 @@
+name: Openhook
+summary: Self-hostable webhook, email, and DNS inboxes that let AI agents capture callbacks, inspect payloads, and forward events to local handlers.
+category: development
+tags:
+  - development
+  - testing-qa
+  - workflow-automation
+docs_url: https://github.com/openhook-dev/openhook-inbox
+endpoints:
+  - url: https://openhook.dev/mcp
+    transport: streamable-http
+    auth: none

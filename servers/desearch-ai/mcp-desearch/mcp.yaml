@@ -1,0 +1,12 @@
+name: Desearch
+summary: AI search, X search and web search for AI agents.
+category: search
+tags:
+  - knowledge-retrieval
+  - search
+  - web-research
+docs_url: https://github.com/Desearch-ai/mcp-desearch
+endpoints:
+  - url: https://mcp.desearch.ai/mcp
+    transport: streamable-http
+    auth: unknown

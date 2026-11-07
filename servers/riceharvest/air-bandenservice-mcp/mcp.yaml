@@ -1,0 +1,12 @@
+name: AIR Bandenservice
+summary: Search car tyres by size, get all-in prices, book fitting and order from AIR Bandenservice in Haarlem (NL). The customer pays on a Mollie page; nothing is ordered before payment.
+category: other
+tags:
+  - ecommerce
+  - inventory
+  - payment
+docs_url: https://github.com/riceharvest/air-bandenservice-mcp
+endpoints:
+  - url: https://www.airbandenservice.com/mcp
+    transport: streamable-http
+    auth: none

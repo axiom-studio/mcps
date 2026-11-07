@@ -1,0 +1,15 @@
+name: BugHerd
+summary: 'Official BugHerd MCP server. Website feedback for coding agents: screenshots, console logs, replay.'
+category: development
+tags:
+  - browser
+  - debugging
+  - development
+  - testing-qa
+official: true
+registry_name: com.bugherd/mcp
+docs_url: https://bugherd.com/feature/mcp
+endpoints:
+  - url: https://mcp.bugherd.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: TickerMint
+summary: Daily trading card prices, price history since February 2024, all-time highs and movers for Pokémon, One Piece, Lorcana, Yu-Gi-Oh, Riftbound and Gundam. Public, no key needed.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - gaming
+  - trading
+docs_url: https://tickermint.cards/developers
+endpoints:
+  - url: https://api.tickermint.cards/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: Cashflow Calendar MCP
+summary: 通过 MCP 查询现金流余额和收支、管理交易与循环计划。需 Pro 账户及用户自己的 API Key，文档说明接入 Claude、Cursor 等客户端的方法。
+category: finance
+tags:
+  - ai-agent
+  - data-analysis
+  - finance
+docs_url: https://cashflowcalendar.online/blog/mcp-ai-integration-cash-flow
+endpoints:
+  - url: https://yfwfwdspbgtsexakcvhx.supabase.co/functions/v1/mcp-server
+    transport: streamable-http
+    auth: api-key

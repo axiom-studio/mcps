@@ -1,0 +1,12 @@
+name: Naano
+summary: Search vetted B2B LinkedIn creators, run creator campaigns and read campaign results from Claude, ChatGPT, Cursor or any MCP client. OAuth 2.1, no API key.
+category: marketing
+tags:
+  - crm
+  - marketing
+  - social-media
+docs_url: https://naano.com/mcp
+endpoints:
+  - url: https://naano.com/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Quantplay
+summary: 'Connect Claude, ChatGPT or Cursor to Indian broker accounts (Zerodha, Upstox, Angel One + 7 more): positions, holdings, P&L, option chains, orders if allowed. Hosted, OAuth.'
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - payment
+  - trading
+docs_url: https://www.quantplay.tech/ai-agents
+endpoints:
+  - url: https://mcp.quantplay.tech/mcp
+    transport: streamable-http
+    auth: oauth

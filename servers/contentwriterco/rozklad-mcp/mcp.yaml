@@ -1,0 +1,12 @@
+name: Rozkład PKP/PKS (rozklad-mcp)
+summary: 'Polish train, bus and city transit timetables: journey planning with changes, departures, live delays and fares.'
+category: other
+tags:
+  - geospatial
+  - productivity
+  - research
+docs_url: https://github.com/ContentWriterco/rozklad-mcp
+endpoints:
+  - url: https://rozklad.compabase.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: SwiftNodes MCP
+summary: 'Blockchain RPC for AI agents across 125+ chains: endpoint URLs, method support, endpoint probing, and RPC calls with your API key.'
+category: development
+tags:
+  - ai-agent
+  - api
+  - finance
+docs_url: https://github.com/swiftnodes/swiftnodes-mcp
+endpoints:
+  - url: https://rpc.swiftnodes.io/mcp
+    transport: streamable-http
+    auth: api-key

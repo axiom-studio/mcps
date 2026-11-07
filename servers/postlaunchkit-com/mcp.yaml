@@ -1,0 +1,12 @@
+name: PostLaunchKit Directory
+summary: Search a human-reviewed directory of free tools and projects, read entries and categories, run a website launch check, and suggest a product for review.
+category: search
+tags:
+  - productivity
+  - search
+  - web-research
+docs_url: https://postlaunchkit.com
+endpoints:
+  - url: https://postlaunchkit.com/mcp
+    transport: streamable-http
+    auth: none

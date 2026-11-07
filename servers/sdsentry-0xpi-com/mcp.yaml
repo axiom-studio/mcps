@@ -1,0 +1,13 @@
+name: SDSentry SDS Lookup
+summary: Finds manufacturer safety data sheets (SDS) by product name, one at a time or for a whole chemical inventory list. Also explains GHS pictograms and returns OSHA HazCom 2024 compliance dates and a readiness checklist. Free, no API key.
+category: search
+tags:
+  - business-operations
+  - compliance
+  - document
+  - search
+docs_url: https://sdsentry.0xpi.com
+endpoints:
+  - url: https://sdsentry.0xpi.com/mcp
+    transport: streamable-http
+    auth: none

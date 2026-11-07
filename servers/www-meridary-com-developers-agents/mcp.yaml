@@ -1,0 +1,12 @@
+name: Meridary for Agents
+summary: 'US retirement modeling through MCP: year-by-year projections, scenario comparisons, and retirement-age analysis. Remote Streamable HTTP with OAuth. Paid analyses require a separate Agent subscription.'
+category: finance
+tags:
+  - ai-agent
+  - data-analysis
+  - finance
+docs_url: https://www.meridary.com/developers/agents
+endpoints:
+  - url: https://www.meridary.com/mcp
+    transport: streamable-http
+    auth: oauth

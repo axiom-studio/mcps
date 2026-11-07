@@ -1,0 +1,8 @@
+name: BotSharper
+summary: 'Facts on any pump.fun wallet or token (Solana), from on-chain data. Free remote MCP server, no key. botsharper_releve: where a public Solana address ranks among 463,434 pump.fun operators scored on 13.0 million closed positions (percentile, quintile, share of winning positions, share of total losses, average multiple). botsharper_jeton: what happened on a pump.fun token since launch (launch-block buyers, first-second buyers, creator buys and sells, migration, buyer ranks). botsharper_reperes: quintile benchmarks. Past facts only, no forecasts, no advice.'
+category: finance
+docs_url: https://botsharper.com/en/
+endpoints:
+  - url: https://botsharper.com/mcp
+    transport: streamable-http
+    auth: none

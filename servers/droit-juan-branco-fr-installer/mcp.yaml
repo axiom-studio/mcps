@@ -1,0 +1,11 @@
+name: BRANCO - Droit français
+summary: 'Recherche juridique française depuis votre IA : textes, jurisprudence et contrôle des citations. Connexion OAuth à votre compte BRANCO ; démonstration distincte sans compte.'
+category: search
+tags:
+  - knowledge-retrieval
+  - search
+docs_url: https://droit.juan-branco.fr/installer
+endpoints:
+  - url: https://droit.juan-branco.fr/api/mcp/oauth
+    transport: streamable-http
+    auth: oauth

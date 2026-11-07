@@ -1,0 +1,14 @@
+name: PostHog MCP
+summary: Integrates with PostHog for feature flag management and error tracking.
+category: development
+tags:
+  - analytics
+  - development
+  - monitoring
+official: true
+registry_name: io.github.PostHog/mcp
+docs_url: https://github.com/PostHog/mcp
+endpoints:
+  - url: https://mcp.posthog.com/mcp
+    transport: streamable-http
+    auth: oauth

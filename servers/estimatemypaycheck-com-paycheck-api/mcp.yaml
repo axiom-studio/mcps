@@ -1,0 +1,11 @@
+name: Estimate My Paycheck
+summary: 'Free US paycheck API and MCP server: take-home pay after federal, FICA and state taxes for all 50 states and DC. No key.'
+category: finance
+tags:
+  - api
+  - finance
+docs_url: https://estimatemypaycheck.com/paycheck-api/
+endpoints:
+  - url: https://estimatemypaycheck.com/api/mcp
+    transport: streamable-http
+    auth: none

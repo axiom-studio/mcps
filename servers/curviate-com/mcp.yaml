@@ -1,0 +1,13 @@
+name: Curviate
+summary: The LinkedIn interface built for AI agents.
+category: development
+tags:
+  - ai-agent
+  - browser-automation
+  - communication
+  - social-media
+docs_url: https://curviate.com/
+endpoints:
+  - url: https://app.curviate.com/mcp
+    transport: streamable-http
+    auth: oauth

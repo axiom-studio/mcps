@@ -1,0 +1,12 @@
+name: WhatsMCP
+summary: MCP for WhatsApp, SIP Trunk
+category: communication
+tags:
+  - communication
+  - sms
+  - whatsapp
+docs_url: https://whatsmcp.com/docs
+endpoints:
+  - url: https://api.whatsmcp.com/mcp
+    transport: streamable-http
+    auth: oauth

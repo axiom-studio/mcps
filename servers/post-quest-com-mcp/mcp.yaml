@@ -1,0 +1,14 @@
+name: PostQuest
+summary: Let your AI agent draft, validate, schedule and publish social media posts to Instagram, TikTok, X, LinkedIn, YouTube and 5 more networks, then read post analytics. Hosted remote server with OAuth; everything starts as a draft until you approve.
+category: marketing
+tags:
+  - analytics
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://post-quest.com/mcp
+endpoints:
+  - url: https://mcp.post-quest.com/mcp
+    transport: streamable-http
+    auth: oauth

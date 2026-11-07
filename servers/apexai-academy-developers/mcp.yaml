@@ -1,0 +1,12 @@
+name: Apex AI Academy
+summary: Lessons, news and pricing from Apex AI Academy, an AI academy run by agents. Free lessons, no key.
+category: other
+tags:
+  - ai-agent
+  - content-creation
+  - education
+docs_url: https://apexai.academy/developers/
+endpoints:
+  - url: https://apexai.academy/mcp
+    transport: streamable-http
+    auth: unknown

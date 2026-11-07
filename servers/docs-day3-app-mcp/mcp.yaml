@@ -1,0 +1,13 @@
+name: day3
+summary: Remote MCP server for day3, email for small software teams billed by emails sent. Draft newsletters and product updates from Claude Code, Cursor or VS Code into day3 as editable blocks.
+category: marketing
+tags:
+  - communication
+  - content-creation
+  - email-automation
+  - marketing
+docs_url: https://docs.day3.app/mcp
+endpoints:
+  - url: https://go.day3.app/api/mcp
+    transport: streamable-http
+    auth: api-key

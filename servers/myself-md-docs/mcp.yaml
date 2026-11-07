@@ -1,0 +1,14 @@
+name: myself.md
+summary: Connect AI agents to owner-approved health, screen-time and recorded location data through connected phones and shared cloud exports.
+category: productivity
+tags:
+  - cloud-storage
+  - data-analysis
+  - healthcare
+  - iot
+  - privacy
+docs_url: https://myself.md/docs
+endpoints:
+  - url: https://myself.md/mcp
+    transport: streamable-http
+    auth: oauth

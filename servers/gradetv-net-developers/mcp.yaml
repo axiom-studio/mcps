@@ -1,0 +1,13 @@
+name: GradeTV
+summary: 'Free-to-air TV channels and program guide for agents: search channels, today''s schedule, favorites.'
+category: other
+tags:
+  - entertainment
+  - media
+  - search
+  - video
+docs_url: https://gradetv.net/developers
+endpoints:
+  - url: https://gradetv.net/mcp
+    transport: streamable-http
+    auth: none

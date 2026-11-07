@@ -1,0 +1,12 @@
+name: ImmigrationHelp
+summary: ImmigrationHelp lists DOJ-authorized immigration legal providers by US city. Search by place and provider type, open any listing for contact facts, and query the same data through a free API and MCP endpoint.
+category: search
+tags:
+  - api
+  - government
+  - search
+docs_url: https://immigrationhelp.fyi
+endpoints:
+  - url: https://immigrationhelp.fyi/mcp
+    transport: streamable-http
+    auth: none

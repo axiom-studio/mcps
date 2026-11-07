@@ -1,0 +1,13 @@
+name: Plug and Ship
+summary: Search 22k+ MCP servers, agent skills and plugins with GitHub stars and copy-ready install commands.
+category: search
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - marketplace
+  - search
+docs_url: https://github.com/plugandship/plugandship-mcp
+endpoints:
+  - url: https://plugandship.dev/mcp
+    transport: streamable-http
+    auth: unknown

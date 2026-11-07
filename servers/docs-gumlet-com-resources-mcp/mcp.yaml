@@ -1,0 +1,12 @@
+name: Gumlet MCP
+summary: Video and image streaming infrastructure
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - media
+  - video
+docs_url: https://docs.gumlet.com/resources/mcp
+endpoints:
+  - url: https://mcp.gumlet.com/mcp/v1
+    transport: streamable-http
+    auth: api-key

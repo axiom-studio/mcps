@@ -1,0 +1,14 @@
+name: Underanchor
+summary: Search your own PDF library and write LaTeX with every claim anchored to the exact paragraph of its source PDF. Cites with a link to the highlighted paragraph, flags unsupported sentences and lets your supervisor review text and sources side by side. OAuth sign-in, read-only or read-and-write.
+category: productivity
+tags:
+  - document
+  - knowledge-retrieval
+  - pdf
+  - productivity
+  - research
+docs_url: https://underanchor.com/docs/connect-ai/
+endpoints:
+  - url: https://underanchor.com/mcp
+    transport: streamable-http
+    auth: oauth

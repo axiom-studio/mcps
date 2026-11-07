@@ -1,0 +1,14 @@
+name: Ownkube
+summary: ▎ Hosted MCP server for Ownkube, a cloud for personal software. Deploy apps, workers, scheduled jobs, managed Postgres and Valkey from your coding agent, each app on its own HTTPS hostname. Sign-in happens in the browser over OAuth, so there is no API key to paste.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - coding-agent
+  - database
+  - deployment
+  - devops
+docs_url: https://ownkube.io/agents
+endpoints:
+  - url: https://app.ownkube.io/api/mcp
+    transport: streamable-http
+    auth: oauth

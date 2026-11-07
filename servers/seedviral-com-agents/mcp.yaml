@@ -1,0 +1,13 @@
+name: SeedViral
+summary: 'Make and manage short videos from your AI assistant: faceless videos, dramas, songs and clips, with a price shown before anything is spent.'
+category: design
+tags:
+  - ai-agent
+  - content-creation
+  - media
+  - video
+docs_url: https://seedviral.com/agents
+endpoints:
+  - url: https://seedviral.com/mcp
+    transport: streamable-http
+    auth: oauth

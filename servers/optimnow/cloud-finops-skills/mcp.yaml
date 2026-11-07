@@ -1,0 +1,14 @@
+name: Cloud FinOps by OptimNow
+summary: 'Read-only MCP server that serves a Cloud FinOps reference library to AI agents: billing mechanics, commitments, allocation and chargeback for AWS, Azure, GCP and AI providers, plus waste-pattern runbooks with detection queries.'
+category: cloud-service
+tags:
+  - aws
+  - azure
+  - cloud-infrastructure
+  - finance
+  - google-cloud
+docs_url: https://github.com/OptimNow/cloud-finops-skills
+endpoints:
+  - url: https://mcp.optimnow.io/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: CrakSEO URL Indexing MCP
+summary: Submit URLs through Google and Bing routes, IndexNow, and check index status. Paid indexing requires owner-approved quotes; indexing is not guaranteed. Hosted Streamable HTTP with OAuth or a scoped API key. Check availability and pricing before paid calls.
+category: search
+tags:
+  - api
+  - search
+  - seo
+docs_url: https://docs.crakseo.com/mcp-servers/url-indexing
+endpoints:
+  - url: https://crakseo.com/mcp/url-indexing
+    transport: streamable-http
+    auth: oauth

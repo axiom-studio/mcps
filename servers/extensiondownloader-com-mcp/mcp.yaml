@@ -1,0 +1,13 @@
+name: Chrome Extension Downloader
+summary: Chrome extension metadata, reviews, trends, comparisons, and permission analysis via MCP.
+category: development
+tags:
+  - browser
+  - data-analysis
+  - research
+  - web-scraping
+docs_url: https://extensiondownloader.com/mcp
+endpoints:
+  - url: https://extensiondownloader.com/api/mcp
+    transport: streamable-http
+    auth: api-key

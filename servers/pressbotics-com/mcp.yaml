@@ -1,0 +1,13 @@
+name: PressBotics
+summary: 'Hosted WordPress MCP server. Your AI agent (Claude, ChatGPT, Cursor) drafts and publishes posts straight to your WordPress site, with a human approval step before anything goes live. Free plan: 1 site, no card.'
+category: productivity
+tags:
+  - ai-agent
+  - cms
+  - content-creation
+  - wordpress
+docs_url: https://pressbotics.com
+endpoints:
+  - url: https://mcp.pressbotics.com/mcp
+    transport: streamable-http
+    auth: oauth

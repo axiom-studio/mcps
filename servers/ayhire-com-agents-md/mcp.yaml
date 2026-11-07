@@ -1,0 +1,12 @@
+name: AyHire
+summary: Hire engineers by what they shipped. Describe a role and AyHire finds developers from their public GitHub work, judges each against your criteria with links to the evidence, says who is open to work, and keeps your roles and shortlist. Remote server with OAuth sign-in.
+category: search
+tags:
+  - ai-agent
+  - github
+  - web-research
+docs_url: https://ayhire.com/agents.md
+endpoints:
+  - url: https://ayhire.com/mcp
+    transport: streamable-http
+    auth: unknown

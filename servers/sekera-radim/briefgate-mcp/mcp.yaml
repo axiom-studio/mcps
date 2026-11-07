@@ -1,0 +1,13 @@
+name: BriefGate
+summary: 'Client intake for AI agents: request files, copy and logins from a client through a no-account portal with automatic reminders, then read typed results back.'
+category: productivity
+tags:
+  - communication
+  - file-management
+  - productivity
+  - workflow-automation
+docs_url: https://github.com/sekera-radim/briefgate-mcp
+endpoints:
+  - url: https://mcp.briefgate.dev/mcp
+    transport: streamable-http
+    auth: api-key

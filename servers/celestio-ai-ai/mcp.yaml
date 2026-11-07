@@ -1,0 +1,12 @@
+name: Celestio
+summary: Celestio's remote MCP server lets AI assistants calculate a birth chart for any date from 1900 to 2100 and any place in the world, with optional birth time, and return a personal AI-written astrology reading. It is published by Cuesta Technologies LTD (Bulgaria), the maker of celestio.ai. Astrology is offered as interpretation and entertainment, not scientific fact.
+category: other
+tags:
+  - ai-model
+  - entertainment
+  - research
+docs_url: https://celestio.ai/ai
+endpoints:
+  - url: https://celestio.ai/mcp
+    transport: streamable-http
+    auth: unknown

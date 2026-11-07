@@ -1,0 +1,12 @@
+name: Daydream
+summary: Make original instrumental songs from words, each with stems. Redo one stem, download MP3, WAV and FLAC. Royalty-free.
+category: other
+tags:
+  - audio
+  - content-creation
+  - music
+docs_url: https://gen.daydream.live/docs#mcp
+endpoints:
+  - url: https://gen.daydream.live/mcp
+    transport: streamable-http
+    auth: unknown

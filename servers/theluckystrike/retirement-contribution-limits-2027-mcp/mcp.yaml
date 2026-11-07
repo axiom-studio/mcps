@@ -1,0 +1,12 @@
+name: Retirement Contribution Limits 2027 MCP
+summary: 401(k), IRA and HSA limits, age 60-63 catch-up and the 2027 Social Security COLA from IRS and SSA notices
+category: finance
+tags:
+  - finance
+  - government
+  - knowledge-retrieval
+docs_url: https://github.com/theluckystrike/retirement-contribution-limits-2027-mcp
+endpoints:
+  - url: https://retirement-contribution-limits-2027-mcp.lipmichal.workers.dev/mcp
+    transport: streamable-http
+    auth: none

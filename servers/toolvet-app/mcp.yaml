@@ -1,0 +1,13 @@
+name: ToolVet
+summary: Find paid x402 APIs and MCP servers that are up right now. ToolVet live-checks 75,000+ services on a schedule and gives each a 0–100 trust score, uptime, latency and the real price; agents can search, get recommendations for a task, and preflight-check any x402 URL before paying it. Paid tools cost $0.002–$0.01 per call in USDC via x402, no API keys; categories, status and the MCP scanner are free.
+category: search
+tags:
+  - ai-agent
+  - api
+  - marketplace
+  - search
+docs_url: https://toolvet.app
+endpoints:
+  - url: https://toolvet.app/mcp
+    transport: streamable-http
+    auth: none

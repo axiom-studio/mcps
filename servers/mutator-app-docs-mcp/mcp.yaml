@@ -1,0 +1,13 @@
+name: Mutator
+summary: Draft and test-run formats that turn a product photo or website into TikTok and Instagram videos, and read results. Cannot publish.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - video
+docs_url: https://mutator.app/docs/mcp
+endpoints:
+  - url: https://mutator.app/mcp
+    transport: streamable-http
+    auth: oauth

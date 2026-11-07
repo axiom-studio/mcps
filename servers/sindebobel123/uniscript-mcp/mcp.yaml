@@ -1,0 +1,14 @@
+name: Uniscript
+summary: Create TikTok and Instagram carousels from a topic, your photos or a video, edit any layer (hide, move, recolor, rewrite, swap images) and export layered PSD and SVG for Photoshop and Figma.
+category: marketing
+tags:
+  - content-creation
+  - design
+  - file-conversion
+  - marketing
+  - social-media
+docs_url: https://github.com/sindebobel123/uniscript-mcp
+endpoints:
+  - url: https://us-central1-contentum-97362.cloudfunctions.net/carousel/mcp
+    transport: streamable-http
+    auth: api-key

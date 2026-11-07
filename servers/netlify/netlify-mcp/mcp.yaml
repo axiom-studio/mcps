@@ -1,0 +1,14 @@
+name: Netlify
+summary: Create, build, deploy, and manage Netlify resources using natural language.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - deployment
+  - devops
+  - serverless
+official: true
+docs_url: https://github.com/netlify/netlify-mcp
+endpoints:
+  - url: https://netlify-mcp.netlify.app/mcp
+    transport: streamable-http
+    auth: oauth

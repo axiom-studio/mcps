@@ -1,0 +1,13 @@
+name: Sengi
+summary: Sengi is an AI candidate sourcing tool for recruiters, inside Claude or ChatGPT. It searches 30+ people-data providers and checks every must-have with proof.
+category: search
+tags:
+  - ai-agent
+  - business-operations
+  - research
+  - search
+docs_url: https://sengi.ai/
+endpoints:
+  - url: https://mcp.sengi.ai/mcp
+    transport: streamable-http
+    auth: oauth

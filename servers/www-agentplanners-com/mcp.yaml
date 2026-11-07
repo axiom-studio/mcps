@@ -1,0 +1,14 @@
+name: Agent Planners
+summary: AI agent that runs ads, analytics & SEO across 29 platforms 24/7 — every write waits for your approval.
+category: marketing
+tags:
+  - advertising
+  - ai-agent
+  - analytics
+  - marketing-automation
+  - seo
+docs_url: https://www.agentplanners.com
+endpoints:
+  - url: https://www.agentplanners.com/api/mcp
+    transport: streamable-http
+    auth: oauth

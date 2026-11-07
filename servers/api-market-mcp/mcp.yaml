@@ -1,0 +1,14 @@
+name: API.market MCP Gateway
+summary: Connect AI agents to 580+ APIs for image and video generation, web search, maps, data and more through one hosted MCP gateway with OAuth or API-key authentication; API pricing varies.
+category: development
+tags:
+  - content-creation
+  - identity
+  - search
+  - security
+  - video
+docs_url: https://api.market/mcp
+endpoints:
+  - url: https://api.market/api/mcp/gateway
+    transport: streamable-http
+    auth: oauth

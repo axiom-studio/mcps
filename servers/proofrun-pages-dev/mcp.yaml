@@ -1,0 +1,10 @@
+name: ProofRun
+summary: 'ProofRun: bounded HTTP acceptance checks for agent deployments. $0.01 USDC per pack.'
+category: development
+tags:
+  - development
+docs_url: https://proofrun.pages.dev/
+endpoints:
+  - url: https://proofrun.pages.dev/mcp
+    transport: streamable-http
+    auth: unknown

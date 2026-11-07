@@ -1,0 +1,13 @@
+name: Indonesia HGU Plantation Concessions
+summary: 'Indonesian HGU plantation land rights: holder, area, land use, expiry and decree numbers.'
+category: other
+tags:
+  - database
+  - geospatial
+  - government
+  - real-estate
+docs_url: https://github.com/BumiAtlas/hgu-concession-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/hgu
+    transport: streamable-http
+    auth: oauth

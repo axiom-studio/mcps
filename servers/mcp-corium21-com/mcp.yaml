@@ -1,0 +1,12 @@
+name: Corium 21 Skin Tools
+summary: Decode skincare ingredient labels (1% line, % ranges, what each does) and get US dry skin forecasts.
+category: other
+tags:
+  - data-analysis
+  - healthcare
+  - weather
+docs_url: https://mcp.corium21.com/
+endpoints:
+  - url: https://mcp.corium21.com/mcp
+    transport: streamable-http
+    auth: none

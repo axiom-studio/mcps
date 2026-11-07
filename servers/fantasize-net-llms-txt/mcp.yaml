@@ -1,0 +1,11 @@
+name: Fantasize Cruise Finder
+summary: 'Find the best-value cruise for someone in one call: every sailing of 23 cruise lines (~30,000), priced nightly, each fare judged low/typical/high against its own usual price, with itineraries, port guides and a link to book. Free, no key.'
+category: search
+tags:
+  - data-analysis
+  - search
+docs_url: https://fantasize.net/llms.txt
+endpoints:
+  - url: https://fantasize.net/mcp
+    transport: streamable-http
+    auth: none

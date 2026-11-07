@@ -1,0 +1,13 @@
+name: TakeMeUp – CV & Resume Builder
+summary: 'CV & resume builder: country formats in 14 languages, ATS checks, cover letters, job tracker.'
+category: productivity
+tags:
+  - content-creation
+  - document
+  - productivity
+  - task-management
+docs_url: https://github.com/dsdev-d/takemeup-mcp
+endpoints:
+  - url: https://takemeup.cv/api/mcp
+    transport: streamable-http
+    auth: oauth

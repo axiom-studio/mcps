@@ -1,0 +1,13 @@
+name: AgentBeacon
+summary: 'AgentBeacon lets anyone create a live beacon about what they have or need, and any AI agent can find it and message them. Remote server, no sign-in or API key: https://api.agentbeacon.sh/mcp/search. This replaces the old Openpath entry (openpath-sh-docs-connect); please remove that one.'
+category: search
+tags:
+  - ai-agent
+  - communication
+  - marketplace
+  - search
+docs_url: https://agentbeacon.sh/docs/connect
+endpoints:
+  - url: https://api.agentbeacon.sh/mcp/search
+    transport: streamable-http
+    auth: unknown

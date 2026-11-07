@@ -1,0 +1,13 @@
+name: SpiderLook
+summary: SpiderLook collects your rivals' social posts, ads and website changes daily and lets your AI assistant answer what changed, why it matters and what to do next.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - social-media
+  - web-scraping
+docs_url: https://spiderlook.com/mcp
+endpoints:
+  - url: https://api.spiderlook.com/mcp
+    transport: streamable-http
+    auth: oauth

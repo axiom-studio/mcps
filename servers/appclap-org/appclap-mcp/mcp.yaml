@@ -1,0 +1,13 @@
+name: AppClap
+summary: AppClap finds the web app that fits your need, from 8,600+ apps including small and often cheaper ones, with current prices and features from each vendor’s own site, ranked purely by fit and filterable by free, open-source or self-hosted. Unlike asking AI (months-old memory, big names) or Google (ads and SEO), you see every option, not just the famous ones, with facts you can check. Free, no key needed.
+category: search
+tags:
+  - marketplace
+  - productivity
+  - search
+  - web-research
+docs_url: https://github.com/AppClap-Org/appclap-mcp
+endpoints:
+  - url: https://mcp.app-clap.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: ConnectorReport
+summary: 'Ask whether an MCP connector actually works before your agent tries it. Dated, hands-on test results (pass rate, sign-in method, gotchas, fix recipes) for 35 tested remote MCP servers. Read-only, no sign-in. Server URL: https://connectorreport.com/api/mcp'
+category: development
+tags:
+  - knowledge-retrieval
+  - research
+  - testing-qa
+docs_url: https://connectorreport.com/mcp
+endpoints:
+  - url: https://connectorreport.com/api/mcp
+    transport: streamable-http
+    auth: none

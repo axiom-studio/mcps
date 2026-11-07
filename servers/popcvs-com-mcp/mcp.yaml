@@ -1,0 +1,13 @@
+name: PopCVs Resume MCP
+summary: 'Remote MCP server for resumes: import a resume, run an ATS resume check, match it to a job description, tailor it (a truth check blocks invented experience), write a cover letter and export an ATS-friendly PDF. OAuth sign-in with Google; works in Claude, ChatGPT and Cursor.'
+category: productivity
+tags:
+  - ai-agent
+  - document
+  - pdf
+  - productivity
+docs_url: https://popcvs.com/mcp
+endpoints:
+  - url: https://popcvs.com/api/mcp
+    transport: streamable-http
+    auth: oauth

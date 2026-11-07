@@ -1,0 +1,12 @@
+name: Untap
+summary: Checks whether you are owed money for a delayed UK train (Delay Repay), a disrupted flight (UK261 and EU261) or a TfL overcharge, with the amount, the deadline and the operator's own claim link. Seven tools need no sign-in.
+category: finance
+tags:
+  - finance
+  - research
+  - web-research
+docs_url: https://untap.money/connect/docs
+endpoints:
+  - url: https://untap.money/api/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,14 @@
+name: Speakeroo speaking coach
+summary: 'AI speaking coach: feedback on speeches from text or audio, plus topics, pronunciation and rubrics.'
+category: productivity
+tags:
+  - ai-agent
+  - audio
+  - communication
+  - content-creation
+  - education
+docs_url: https://speakeroo.app/mcp
+endpoints:
+  - url: https://mcp.speakeroo.app/mcp
+    transport: streamable-http
+    auth: unknown

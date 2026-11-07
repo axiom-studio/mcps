@@ -1,0 +1,13 @@
+name: OpenPost
+summary: Create drafts, review social posts, and inspect publishing results through authenticated OpenPost tools.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://openpo.st/docs/mcp
+endpoints:
+  - url: https://app.openpo.st/mcp
+    transport: streamable-http
+    auth: oauth

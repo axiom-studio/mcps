@@ -1,0 +1,13 @@
+name: Zono Support
+summary: 'Work your Zono Support help desk from any AI client: read, search, answer and route support tickets, see who bought what, and get cited answers from your knowledge base. Remote server with OAuth 2.1 sign-in.'
+category: productivity
+tags:
+  - customer-ops
+  - knowledge-retrieval
+  - productivity
+  - zendesk
+docs_url: https://zono.support/developers/mcp
+endpoints:
+  - url: https://zono.support/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: TimeToPost
+summary: 'Official TimeToPost MCP: schedule to X, Bluesky, Mastodon, Tumblr, Telegram, WordPress, Ghost & more. Free, OAuth, no API keys.'
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - seo
+  - social-media
+  - x-twitter
+docs_url: https://github.com/MelMayssonOwen/timetopost-mcp
+endpoints:
+  - url: https://api.timetopost.co/mcp
+    transport: streamable-http
+    auth: oauth

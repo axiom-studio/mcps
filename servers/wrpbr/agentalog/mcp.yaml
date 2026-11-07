@@ -1,0 +1,13 @@
+name: Meta Agent Tools (Agentalog)
+summary: Catalog of MCP servers, agent skills and A2A agents with security checks and change alerts.
+category: development
+tags:
+  - knowledge-retrieval
+  - marketplace
+  - notifications
+  - security
+docs_url: https://github.com/wrpbr/agentalog
+endpoints:
+  - url: https://agentalog.com/mcp
+    transport: streamable-http
+    auth: none

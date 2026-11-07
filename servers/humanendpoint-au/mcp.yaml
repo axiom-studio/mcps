@@ -1,0 +1,8 @@
+name: HumanEndpoint
+summary: Human execution infrastructure for autonomous agents with capability discovery, policy preflight, human-reviewed quotes, job tracking, x402 USDC payment on Base mainnet, and private evidence with SHA-256 integrity hashes.
+category: other
+docs_url: https://humanendpoint.au/
+endpoints:
+  - url: https://humanendpoint.au/mcp
+    transport: streamable-http
+    auth: unknown

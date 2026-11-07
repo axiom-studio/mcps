@@ -1,0 +1,14 @@
+name: ViralDecoder
+summary: 'Why short videos go viral, and a script for yours: hook score, why an Instagram Reel, YouTube Short or TikTok spread, a script built on the same structure, and a trend feed by niche.'
+category: marketing
+tags:
+  - analytics
+  - content-creation
+  - marketing
+  - social-media
+  - video
+docs_url: https://viraldecoder.online/claude
+endpoints:
+  - url: https://viraldecoder.online/mcp
+    transport: streamable-http
+    auth: oauth

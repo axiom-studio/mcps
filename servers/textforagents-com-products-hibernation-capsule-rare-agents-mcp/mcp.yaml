@@ -1,0 +1,12 @@
+name: Hibernation capsule for rarely-run agents
+summary: Preserves agent state across long sleeps — $9/wake + $0.10/capsule/mo, Fleet $19
+category: memory
+tags:
+  - ai-agent
+  - memory
+  - workflow-automation
+docs_url: https://textforagents.com/products/hibernation-capsule-rare-agents/mcp
+endpoints:
+  - url: https://textforagents.com/products/hibernation-capsule-rare-agents/mcp
+    transport: streamable-http
+    auth: unknown

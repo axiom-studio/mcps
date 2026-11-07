@@ -1,0 +1,13 @@
+name: Müvezzi MCP
+summary: Günlük gazete ön sayfaları, haber akışı, Borsa İstanbul, fon piyasası ve küresel borsa endekslerine salt okunur erişim sağlayan hafif ve hızlı MCP sunucusu.
+category: other
+tags:
+  - data-analysis
+  - finance
+  - news
+  - trading
+docs_url: https://muvezzi.com/api/mcp
+endpoints:
+  - url: https://muvezzi.com/api/mcp
+    transport: streamable-http
+    auth: none

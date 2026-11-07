@@ -1,0 +1,12 @@
+name: Ghostedit
+summary: Post everywhere from Claude or ChatGPT. Schedule posts to Instagram, TikTok, YouTube, Threads, LinkedIn, Bluesky and Mastodon, check each post against platform rules first, see what's working, and run Instagram comment-to-DM.
+category: marketing
+tags:
+  - ai-agent
+  - marketing-automation
+  - social-media
+docs_url: https://ghostedit.ai/docs
+endpoints:
+  - url: https://mcp.ghostedit.ai
+    transport: streamable-http
+    auth: oauth

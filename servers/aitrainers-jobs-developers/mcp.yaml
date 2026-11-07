@@ -1,0 +1,13 @@
+name: 'aitrainers.jobs: AI training jobs search'
+summary: Search open paid AI training jobs (AI tutor, trainer, rater, evaluator, annotator, voice work) from 72 platforms, by country, kind of work, language, minimum hourly pay and experience. Each result has its pay, where it is open and a link to the role. Free, no key needed.
+category: search
+tags:
+  - ai-model
+  - marketplace
+  - research
+  - search
+docs_url: https://aitrainers.jobs/developers
+endpoints:
+  - url: https://aitrainers.jobs/mcp
+    transport: streamable-http
+    auth: none

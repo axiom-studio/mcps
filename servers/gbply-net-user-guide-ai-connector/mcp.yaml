@@ -1,0 +1,12 @@
+name: GBPly
+summary: 'Connect AI assistants to GBPly for Google Business Profile management: read profiles, reviews and insights, draft replies, and request changes. OAuth sign-in and a GBPly account are required.'
+category: marketing
+tags:
+  - business-operations
+  - google-analytics
+  - marketing
+docs_url: https://gbply.net/user-guide/ai-connector
+endpoints:
+  - url: https://mcp.gbply.net/v1
+    transport: streamable-http
+    auth: oauth

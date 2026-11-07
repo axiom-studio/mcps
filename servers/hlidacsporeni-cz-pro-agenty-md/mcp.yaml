@@ -1,0 +1,12 @@
+name: Hlídač spoření
+summary: 'Czech savings accounts and term deposits verified daily: effective rate for your amount, net yield after tax and conditions. Read-only, no login.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - web-research
+docs_url: https://hlidacsporeni.cz/pro-agenty.md
+endpoints:
+  - url: https://hlidacsporeni.cz/mcp
+    transport: streamable-http
+    auth: none

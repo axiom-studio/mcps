@@ -1,0 +1,12 @@
+name: Dreamwork
+summary: 'Job search for AI assistants: browse jobs, tailor resumes and cover letters, apply, and track applications. Public browsing needs no account; account tools follow your Dreamwork plan.'
+category: productivity
+tags:
+  - knowledge-retrieval
+  - productivity
+  - search
+docs_url: https://github.com/dreamworkhq/mcp
+endpoints:
+  - url: https://mcp.dreamworkhq.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: Invoice by Ouroboros Apps
+summary: 'Invoice by Ouroboros Apps: freelance invoice line items, rates, due dates, and late terms'
+category: finance
+tags:
+  - document
+  - file-conversion
+  - finance
+docs_url: https://github.com/LAHutchins91/invoice-mcp
+endpoints:
+  - url: https://invoice-continuity2.vercel.app/mcp
+    transport: streamable-http
+    auth: unknown

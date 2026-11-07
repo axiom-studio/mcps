@@ -1,0 +1,12 @@
+name: Zero-Trust Physics
+summary: 'Deterministic physics runtime with a proof on every answer: 61 models, open and keyless over MCP.'
+category: development
+tags:
+  - ai-agent
+  - development
+  - research
+docs_url: https://zerotrustphysics.com
+endpoints:
+  - url: https://mcp.zerotrustphysics.com/mcp
+    transport: streamable-http
+    auth: none

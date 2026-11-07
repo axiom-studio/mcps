@@ -1,0 +1,13 @@
+name: Recall
+summary: 'Long-term memory for AI agents: learns dated facts about each person, closes facts that change, and answers with sources.'
+category: memory
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - llm
+  - memory
+docs_url: https://github.com/recallmem/recall
+endpoints:
+  - url: https://api.recallmem.dev/mcp
+    transport: streamable-http
+    auth: oauth

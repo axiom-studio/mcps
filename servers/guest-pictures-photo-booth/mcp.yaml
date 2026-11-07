@@ -1,0 +1,13 @@
+name: Guest Pictures Photo Booth
+summary: 'Free browser photo booth for parties: pick an effect, layout and caption in a chat card, then open the booth. Plus tips for collecting guest photos via QR code. No auth.'
+category: other
+tags:
+  - communication
+  - entertainment
+  - media
+docs_url: https://guest-pictures.com/mcp-help
+website_url: https://guest-pictures.com/mcp-help
+endpoints:
+  - url: https://guest-pictures.com/mcp
+    transport: streamable-http
+    auth: none

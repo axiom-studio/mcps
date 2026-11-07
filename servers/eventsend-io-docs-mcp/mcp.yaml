@@ -1,0 +1,14 @@
+name: EventSend
+summary: 'Read-only MCP server for EventSend: search your product events, follow one customer''s timeline, and find out why a Slack, Discord or webhook notification failed.'
+category: development
+tags:
+  - analytics
+  - debugging
+  - discord
+  - notifications
+  - slack
+docs_url: https://eventsend.io/docs/mcp
+endpoints:
+  - url: https://eventsend.io/mcp
+    transport: streamable-http
+    auth: oauth

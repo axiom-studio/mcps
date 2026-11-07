@@ -1,0 +1,12 @@
+name: Robozukan (ロボ図鑑)
+summary: 'Japanese catalog of physical devices AI agents can control: connectivity ratings, APIs, sources.'
+category: search
+tags:
+  - documentation
+  - iot
+  - research
+docs_url: https://robozukan.com/mcp
+endpoints:
+  - url: https://robozukan.com/api/mcp
+    transport: streamable-http
+    auth: none

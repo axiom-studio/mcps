@@ -1,0 +1,10 @@
+name: Udora
+summary: Flowers, cakes, gifts with local delivery
+category: other
+tags:
+  - ecommerce
+docs_url: https://get.udora.ai/
+endpoints:
+  - url: https://get.udora.ai/mcp
+    transport: streamable-http
+    auth: none

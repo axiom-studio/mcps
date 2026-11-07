@@ -1,0 +1,13 @@
+name: Isto Intents
+summary: 'Ask an independent local listing portal to keep looking for a used car or a home that is not on offer today. The wish goes to a portal in the user''s country that asked to receive wishes (open Isto Intents protocol); the user confirms on that portal''s own page, contact stays with the portal. Remote, no auth. Today: Slovakia and Czechia.'
+category: search
+tags:
+  - marketplace
+  - real-estate
+  - search
+  - workflow-automation
+docs_url: https://istointents.com/assistants/
+endpoints:
+  - url: https://istointents.com/mcp
+    transport: streamable-http
+    auth: none

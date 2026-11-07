@@ -1,0 +1,13 @@
+name: Renor
+summary: 'Private memory for your AI agents: save and recall facts and notes across Claude Code, Codex, Cursor and ChatGPT.'
+category: memory
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - memory
+  - notes
+docs_url: https://renor.cloud
+endpoints:
+  - url: https://mcp.renor.cloud/mcp
+    transport: streamable-http
+    auth: oauth

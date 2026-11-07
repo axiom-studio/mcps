@@ -1,0 +1,13 @@
+name: How It Spread
+summary: Viral marketing precedents with dated, sourced spread timelines and a Spread Score. No sign-in.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - research
+  - web-research
+docs_url: https://howitspread.com/mcp
+endpoints:
+  - url: https://howitspread.com/api/mcp
+    transport: streamable-http
+    auth: none

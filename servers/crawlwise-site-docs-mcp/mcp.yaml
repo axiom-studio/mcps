@@ -1,0 +1,13 @@
+name: Crawlwise
+summary: 'Hosted SEO, AEO and GEO MCP on crawlwise.site: page audits, site crawls, AI-crawler reachability (GPTBot, ClaudeBot, Google-Extended), schema and vitals tools. Production endpoint: https://crawlwise.site/mcp (streamable HTTP, OAuth).'
+category: development
+tags:
+  - analytics
+  - data-analysis
+  - seo
+  - web-research
+docs_url: https://crawlwise.site/docs/mcp
+endpoints:
+  - url: https://crawlwise.site/mcp
+    transport: streamable-http
+    auth: oauth

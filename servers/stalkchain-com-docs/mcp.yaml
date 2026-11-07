@@ -1,0 +1,15 @@
+name: StalkChain
+summary: 'Social-trading and on-chain crypto data for AI agents: trader positions, PnL, leaderboards and KOL holdings from FOMO.family, plus Solana token intelligence, wallet analytics and multichain DeFi data. Remote, OAuth.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - defi
+  - finance
+  - trading
+official: true
+docs_url: https://stalkchain.com/docs
+endpoints:
+  - url: https://data.stalkchain.com/
+    transport: streamable-http
+    auth: oauth

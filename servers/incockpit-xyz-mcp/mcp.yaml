@@ -1,0 +1,14 @@
+name: Cockpit
+summary: 'Live crypto market intelligence for AI assistants: news, whale transfers, perp funding and open interest, Hyperliquid positioning, stablecoin flows and prices. Free accounts get 100 tool calls a day.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - defi
+  - finance
+  - news
+docs_url: https://incockpit.xyz/mcp
+endpoints:
+  - url: https://app.incockpit.xyz/api/mcp
+    transport: streamable-http
+    auth: api-key

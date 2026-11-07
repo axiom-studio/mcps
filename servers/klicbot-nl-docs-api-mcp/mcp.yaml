@@ -1,0 +1,13 @@
+name: Klicbot
+summary: Klicbot handles Dutch KLIC-meldingen (underground utility map requests). Free API and remote MCP server (OAuth) so AI agents can request and read KLIC data.
+category: other
+tags:
+  - api
+  - geospatial
+  - government
+  - workflow-automation
+docs_url: https://klicbot.nl/docs/api/mcp
+endpoints:
+  - url: https://klicbot.nl/mcp
+    transport: streamable-http
+    auth: oauth

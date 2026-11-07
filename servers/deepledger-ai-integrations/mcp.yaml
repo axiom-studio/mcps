@@ -1,0 +1,13 @@
+name: DeepLedger — QuickBooks Online MCP Server
+summary: Hosted QuickBooks Online MCP server built by two accountants, a CPA and a Chartered Accountant. Works with Claude, ChatGPT, Copilot, Gemini, Grok, Perplexity, Cursor, Codex, Ollama, LangChain, CrewAI and any MCP client. Record transactions, review bank feeds, run reports and manage multiple companies from one connection. Also supports Intuit Enterprise Suite. Nothing to install.
+category: finance
+tags:
+  - ai-model
+  - finance
+official: true
+registry_name: ai.deepledger/mcp
+docs_url: https://deepledger.ai/blog/quickbooks-mcp-server-guide
+endpoints:
+  - url: https://mcp.deepledger.ai/mcp
+    transport: streamable-http
+    auth: oauth

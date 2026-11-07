@@ -1,0 +1,14 @@
+name: LinkedIn MCP
+summary: The safest LinkedIn MCP for your agents
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - social-media
+official: true
+registry_name: io.github.CoolSapiens/linkedin-mcp
+docs_url: https://github.com/CoolSapiens/linkedin-mcp
+endpoints:
+  - url: https://api.talktohumans.app/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Conjointly
+summary: 'The Conjointly MCP server lets AI assistants work with your Conjointly data. Once connected, you can ask about your experiments in plain language: list your studies, read reports and analysis results, check respondent quality, start analyses and request exports, without writing any code.'
+category: marketing
+tags:
+  - api
+  - data-analysis
+  - marketing
+  - research
+docs_url: https://conjointly.com/api/mcp/
+endpoints:
+  - url: https://api.conjoint.ly/mcp
+    transport: streamable-http
+    auth: oauth

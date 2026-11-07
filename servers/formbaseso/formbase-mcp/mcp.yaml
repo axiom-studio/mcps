@@ -1,0 +1,10 @@
+name: formbase (formbase.so)
+summary: formbase.so collects and verifies information from customers for workflows and AI agents
+category: productivity
+tags:
+  - productivity
+docs_url: https://github.com/formbaseso/formbase-mcp
+endpoints:
+  - url: https://api.formbase.so/api/mcp
+    transport: streamable-http
+    auth: oauth

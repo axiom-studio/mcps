@@ -1,0 +1,13 @@
+name: Cito CS2 API MCP
+summary: 'Live CS2 esports data for AI assistants: Counter-Strike 2 live scores to the round, results, player stats, rankings and skin prices, plus LoL, Dota 2, CoD and UFC. Hosted remote server, free API key.'
+category: other
+tags:
+  - api
+  - data-analysis
+  - gaming
+  - sports
+docs_url: https://citoapi.com/cs2-api/
+endpoints:
+  - url: https://api.citoapi.com/mcp
+    transport: streamable-http
+    auth: api-key

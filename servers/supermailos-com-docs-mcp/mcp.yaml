@@ -1,0 +1,12 @@
+name: SuperMailOS
+summary: Read, search, organize, draft and send business email from your SuperMailOS mailboxes on your own domains. Hosted remote server at https://supermailos.com/mcp with OAuth sign-in or API keys.
+category: communication
+tags:
+  - communication
+  - email-automation
+  - productivity
+docs_url: https://supermailos.com/docs/mcp
+endpoints:
+  - url: https://supermailos.com/mcp
+    transport: streamable-http
+    auth: oauth

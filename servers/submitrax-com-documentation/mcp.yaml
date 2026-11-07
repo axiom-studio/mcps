@@ -1,0 +1,14 @@
+name: SubmitraX MCP
+summary: Form backend for static sites and JAMstack apps. Create and edit forms, generate them with AI, read and manage submissions, set up webhooks and export data — all from Claude, Cursor or n8n. Submissions route to email, Slack, Discord or webhooks with no backend code.
+category: productivity
+tags:
+  - cms
+  - discord
+  - email-automation
+  - slack
+  - workflow-automation
+docs_url: https://submitrax.com/documentation#mcp-setup
+endpoints:
+  - url: https://mcp.submitrax.com/mcp
+    transport: streamable-http
+    auth: api-key

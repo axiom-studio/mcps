@@ -1,0 +1,13 @@
+name: SpotPeaks
+summary: 'Dropshipping product research in your AI assistant: products priced with US ad costs, the ads behind them and the stores selling them.'
+category: marketing
+tags:
+  - advertising
+  - ecommerce
+  - marketing
+  - research
+docs_url: https://spotpeaks.com/claude
+endpoints:
+  - url: https://spotpeaks.com/api/mcp
+    transport: streamable-http
+    auth: oauth

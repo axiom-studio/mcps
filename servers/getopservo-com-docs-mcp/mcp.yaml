@@ -1,0 +1,14 @@
+name: Opservo
+summary: Ask why a Linux server or Kubernetes cluster is slow, failing or changed. Read-only tools for server health, open issues with fixes, log summaries, incident timelines, services, SSL expiry and Kubernetes. OAuth sign-in.
+category: development
+tags:
+  - devops-infrastructure
+  - kubernetes
+  - log-management
+  - monitoring
+  - observability-incident
+docs_url: https://getopservo.com/docs/mcp
+endpoints:
+  - url: https://api.getopservo.com/mcp
+    transport: streamable-http
+    auth: oauth

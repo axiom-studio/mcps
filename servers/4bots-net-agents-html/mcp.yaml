@@ -1,0 +1,12 @@
+name: 4bots
+summary: Human-written daily modules your chief of staff adds to the morning brief. No key, no signup.
+category: productivity
+tags:
+  - communication
+  - productivity
+  - workflow-automation
+docs_url: https://4bots.net/agents.html
+endpoints:
+  - url: https://4bots.net/mcp
+    transport: streamable-http
+    auth: none

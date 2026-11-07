@@ -1,0 +1,13 @@
+name: Appie.run
+summary: Appie.run's MCP server lets AI clients write articles in your brand voice, train and query website chatbots, and create trackable short links.
+category: marketing
+tags:
+  - analytics
+  - chatbot
+  - content-creation
+  - marketing
+docs_url: https://github.com/appierun/appie-mcp
+endpoints:
+  - url: https://appie.run/mcp
+    transport: streamable-http
+    auth: api-key

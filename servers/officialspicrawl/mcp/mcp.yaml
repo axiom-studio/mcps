@@ -1,0 +1,13 @@
+name: Spicrawl
+summary: Web scraping MCP server with 24 tools. Reads a URL as Markdown, HTML, text, JSON or PDF, renders JavaScript, extracts structured data, runs batch jobs, takes screenshots and keeps browser sessions.
+category: web-scraping
+tags:
+  - browser-automation
+  - data-analysis
+  - document
+  - web-scraping
+docs_url: https://github.com/OfficialSpicrawl/mcp
+endpoints:
+  - url: https://mcp.spicrawl.com/mcp
+    transport: streamable-http
+    auth: api-key

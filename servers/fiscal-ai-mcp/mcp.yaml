@@ -1,0 +1,18 @@
+name: Fiscal.ai
+summary: Fiscal.ai provides clean public-equity fundamental data for financial research. Its connector gives assistants structured company and market context for analysis, comparison, and investment-oriented questions grounded in financial datasets.
+description: |-
+  Fiscal.ai provides clean public-equity fundamental data for financial research. Its connector gives assistants structured company and market context for analysis, comparison, and investment-oriented questions grounded in financial datasets.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://docs.fiscal.ai/docs/guides/mcp-integration)
+category: finance
+tags:
+  - finance
+  - remote-mcp
+official: true
+docs_url: https://docs.fiscal.ai/docs/guides/mcp-integration
+endpoints:
+  - url: https://api.fiscal.ai/mcp/sse
+    transport: sse
+    auth: oauth

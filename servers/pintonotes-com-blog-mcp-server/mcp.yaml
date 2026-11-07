@@ -1,0 +1,13 @@
+name: Pinto Notes
+summary: Hosted MCP server for Pinto Notes (formerly Amber Notes), an encrypted notes app for Mac and iPhone. ChatGPT, Claude, Claude Code and Codex can search, read and edit your notes, with OAuth and your approval. Replaces the listing ambernotes-app-blog-mcp-server.
+category: productivity
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - notes
+  - productivity
+docs_url: https://pintonotes.com/blog/mcp-server
+endpoints:
+  - url: https://mcp.pintonotes.com
+    transport: streamable-http
+    auth: oauth

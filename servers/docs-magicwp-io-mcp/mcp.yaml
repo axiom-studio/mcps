@@ -1,0 +1,13 @@
+name: MagicWP MCP Server
+summary: Manage your MagicWP WordPress hosting from any AI assistant.
+category: development
+tags:
+  - cloud-infrastructure
+  - cms
+  - deployment
+  - wordpress
+docs_url: https://docs.magicwp.io/mcp
+endpoints:
+  - url: https://mcp.magicwp.io/mcp
+    transport: streamable-http
+    auth: oauth

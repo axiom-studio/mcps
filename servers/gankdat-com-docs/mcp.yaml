@@ -1,0 +1,13 @@
+name: gankdat
+summary: UK & EU tenders, UK planning, UK sanctions, US exclusions, UK insolvency   and company data as clean JSON — REST + MCP + x402
+category: search
+tags:
+  - api
+  - business-operations
+  - data-analysis
+  - search
+docs_url: https://gankdat.com/docs
+endpoints:
+  - url: https://gankdat.com/mcp
+    transport: streamable-http
+    auth: oauth

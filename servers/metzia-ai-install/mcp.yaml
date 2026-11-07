@@ -1,0 +1,13 @@
+name: Metzia
+summary: Ask your agent for a managed Postgres host, auth provider, monitoring, or hosting. Metzia compares the options, explains how it ranked them, and links to the seller's own checkout. Works with Claude Code, Cursor, and other MCP clients.
+category: development
+tags:
+  - deployment
+  - marketplace
+  - monitoring
+  - postgres
+docs_url: https://metzia.ai/install
+endpoints:
+  - url: https://metzia.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

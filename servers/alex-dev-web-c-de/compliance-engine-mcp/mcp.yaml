@@ -1,0 +1,13 @@
+name: Compliance Engine
+summary: Sanctions screening (OFAC/UK/EU/UN) + PEP + GLEIF entities. 77K+ compliance records via MCP.
+category: finance
+tags:
+  - compliance
+  - data-analysis
+  - finance
+  - knowledge-retrieval
+docs_url: https://github.com/Alex-Dev-Web-C-DE/compliance-engine-mcp
+endpoints:
+  - url: https://compliance-engine-mcp.mcpize.run/mcp
+    transport: streamable-http
+    auth: unknown

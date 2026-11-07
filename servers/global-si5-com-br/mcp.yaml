@@ -1,0 +1,12 @@
+name: SI5 Global
+summary: Catálogo de 4 milhões de produtos por código de barras GS1, com marca, foto, NCM e CEST.
+category: database
+tags:
+  - database
+  - ecommerce
+  - productivity
+docs_url: https://global.si5.com.br
+endpoints:
+  - url: https://global.si5.com.br/api/mcp
+    transport: streamable-http
+    auth: none

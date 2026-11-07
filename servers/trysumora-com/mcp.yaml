@@ -1,0 +1,14 @@
+name: Sumora
+summary: 'Shopify for AI agents. Run Sumora''s approval-first B2B outreach agent: find leads against an ICP, run LinkedIn and Instagram campaigns with enforced send limits, and approve every queued message.'
+category: marketing
+tags:
+  - ai-agent
+  - marketing-automation
+  - sales
+  - shopify
+  - social-media
+docs_url: https://trysumora.com
+endpoints:
+  - url: https://mcp.trysumora.com/workspace/mcp
+    transport: streamable-http
+    auth: unknown

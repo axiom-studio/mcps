@@ -1,0 +1,13 @@
+name: Store MCP
+summary: Connect AI to store products, inventory and orders with scoped access and browser approvals. Start read-only; supported actions and channel availability vary.
+category: productivity
+tags:
+  - business-operations
+  - ecommerce
+  - inventory
+  - productivity
+docs_url: https://store-mcp.com/docs
+endpoints:
+  - url: https://store-mcp.com/mcp
+    transport: streamable-http
+    auth: oauth

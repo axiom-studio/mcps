@@ -1,0 +1,12 @@
+name: AI Skill Directory
+summary: Search and fetch 370+ curated AI agent skills, prompts and MCP servers (read-only, public).
+category: other
+tags:
+  - ai-agent
+  - marketplace
+  - search
+docs_url: https://aiskilldir.com/connect
+endpoints:
+  - url: https://aiskilldir.com/mcp
+    transport: streamable-http
+    auth: unknown

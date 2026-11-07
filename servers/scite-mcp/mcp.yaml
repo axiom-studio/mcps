@@ -1,0 +1,15 @@
+name: Scite
+summary: Answers grounded in science
+category: database
+tags:
+  - ai-model
+  - document
+  - knowledge-retrieval
+  - research
+official: true
+registry_name: ai.scite/mcp
+docs_url: https://www.scite.ai/mcp
+endpoints:
+  - url: https://api.scite.ai/mcp
+    transport: streamable-http
+    auth: oauth

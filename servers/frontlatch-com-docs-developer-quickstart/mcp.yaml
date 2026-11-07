@@ -1,0 +1,13 @@
+name: Frontlatch
+summary: Find Australian service businesses, see what an AI agent can do on their site, and send a request the owner confirms. Remote endpoint https://frontlatch.com/mcp, no key needed.
+category: productivity
+tags:
+  - ai-agent
+  - browser-automation
+  - business-operations
+  - web-scraping
+docs_url: https://frontlatch.com/docs/developer-quickstart
+endpoints:
+  - url: https://frontlatch.com/mcp
+    transport: streamable-http
+    auth: unknown

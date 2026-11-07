@@ -1,0 +1,14 @@
+name: SupaBird
+summary: 'AI growth assistant for X (Twitter): write posts in your voice, find viral content, research profiles and trends, check growth tasks and performance, and schedule or publish to X from any AI agent. Remote MCP with OAuth.'
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+  - x-twitter
+docs_url: https://supabird.io/features/x-twitter-mcp
+endpoints:
+  - url: https://mcp.supabird.io/mcp
+    transport: streamable-http
+    auth: oauth

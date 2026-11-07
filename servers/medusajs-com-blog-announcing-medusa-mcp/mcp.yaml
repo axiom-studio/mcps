@@ -1,0 +1,13 @@
+name: Medusa MCP
+summary: Work with your data, analyze orders, create sales reports, get weekly summaries, debug Medusa Cloud deployments, and more with your agent connected to the Medusa MCP.
+category: development
+tags:
+  - analytics
+  - deployment
+  - development
+  - ecommerce
+docs_url: https://medusajs.com/blog/announcing-medusa-mcp
+endpoints:
+  - url: https://cloud.medusajs.com/mcp
+    transport: streamable-http
+    auth: oauth

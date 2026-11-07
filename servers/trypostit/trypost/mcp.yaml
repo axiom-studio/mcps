@@ -1,0 +1,13 @@
+name: TryPost
+summary: Run your social media on autopilot with AI agents. Connect Claude, ChatGPT or Cursor over MCP. Your agent plans, writes and schedules posts across 13 networks, with approvals and analytics. Open source.
+category: marketing
+tags:
+  - ai-agent
+  - analytics
+  - marketing-automation
+  - social-media
+docs_url: https://github.com/trypostit/trypost
+endpoints:
+  - url: https://app.trypost.it/mcp/trypost
+    transport: streamable-http
+    auth: oauth

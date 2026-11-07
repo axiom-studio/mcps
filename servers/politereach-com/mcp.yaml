@@ -1,0 +1,13 @@
+name: PoliteReach
+summary: 'LinkedIn outreach from Claude: invites under safe daily caps, follow-up sequences, replies and inbox triage.'
+category: marketing
+tags:
+  - communication
+  - crm
+  - marketing-automation
+  - workflow-automation
+docs_url: https://politereach.com
+endpoints:
+  - url: https://mcp.politereach.com/mcp
+    transport: streamable-http
+    auth: oauth

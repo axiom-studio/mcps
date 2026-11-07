@@ -1,0 +1,13 @@
+name: Agency Check
+summary: Hosted remote MCP server that gives your AI agent a second look before it buys, sends, books, shares, signs up, or connects an app. Free 20 checks/month.
+category: other
+tags:
+  - ai-agent
+  - business-operations
+  - compliance
+  - security
+docs_url: https://github.com/CyberStrategy1/agency-check
+endpoints:
+  - url: https://agency-check.app/mcp
+    transport: streamable-http
+    auth: unknown

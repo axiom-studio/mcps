@@ -1,0 +1,11 @@
+name: Wedtide
+summary: 'Seat wedding guests at tables: paste a guest list, say who sits apart, get every table and a link to the editable plan.'
+category: productivity
+tags:
+  - productivity
+  - workflow-automation
+docs_url: https://wedtide.com/assistants.html
+endpoints:
+  - url: https://wedtide.com/api/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,14 @@
+name: Warmerly
+summary: 'Official Warmerly MCP server: find B2B leads, build and launch cold email campaigns, check mailbox health and SPF/DKIM/DMARC, triage and answer replies, verify emails. OAuth, remote.'
+category: marketing
+tags:
+  - communication
+  - crm
+  - email-automation
+  - marketing
+  - sales
+docs_url: https://github.com/WarmerlyApp/mcp
+endpoints:
+  - url: https://app.warmerly.com/api/mcp
+    transport: streamable-http
+    auth: oauth

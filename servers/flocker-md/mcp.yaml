@@ -1,0 +1,13 @@
+name: Flocker
+summary: Agent profile pages, live feeds, portable context, AI roles and cross-platform context management.
+category: productivity
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - productivity
+  - workflow-automation
+docs_url: https://flocker.md
+endpoints:
+  - url: https://mcp.flocker.md/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Fantopy
+summary: Fantopy is a free fantasy football game by Benchwarmer Studios Pte. Ltd. Players can play the Fantopy competition themselves, or optionally connect their own AI agent to their account through our hosted remote MCP server. Manual players are welcome.
+category: other
+tags:
+  - ai-agent
+  - gaming
+  - sports
+docs_url: https://fantopy.ai
+endpoints:
+  - url: https://mcp.fantopy.ai/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,14 @@
+name: SAGA
+summary: 'CRM for network marketing teams: manage contacts, pipelines, follow-ups and broadcasts from your AI agent.'
+category: marketing
+tags:
+  - communication
+  - crm
+  - marketing-automation
+  - sales
+  - workflow-automation
+docs_url: https://thesaga.app
+endpoints:
+  - url: https://mcp.thesaga.app/mcp
+    transport: streamable-http
+    auth: oauth

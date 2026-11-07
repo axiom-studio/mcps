@@ -1,0 +1,14 @@
+name: HeyMetra
+summary: Connect your marketing, analytics, e-commerce, CRM and mobile-subscription accounts once, then ask about all of them together from the assistant you already use — with every write held for human approval.
+category: marketing
+tags:
+  - analytics
+  - crm
+  - ecommerce
+  - marketing
+  - workflow-automation
+docs_url: https://heymetra.com/mcp/
+endpoints:
+  - url: https://mcp.heymetra.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,11 @@
+name: Swiss Touristy Private Mobility MCP
+summary: Connects AI agents and travel systems to premium ground transportation and destination execution in Switzerland. Discover Zurich Airport transfers, private airport pickups, intercity transportation, limousine and private chauffeur services, Swiss transfer routes, vehicle classes, passenger and luggage capacity, service policies and quote requirements. Agents can request non-binding estimates, create authoritative CHF transfer quotes, retrieve owned quotes and prepare traveler-approved checkout handoff through Swiss Touristy. Built for AI travel agents, digital concierges, hotels, travel advisors and partner platforms needing governed access to Swiss private mobility, airport-to-city and airport-to-Alps transportation.
+category: other
+tags:
+  - ai-agent
+  - api
+docs_url: https://swisstouristy.com/developers/mcp
+endpoints:
+  - url: https://mcp.swisstouristy.com/
+    transport: streamable-http
+    auth: oauth

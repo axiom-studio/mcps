@@ -1,0 +1,13 @@
+name: Yalla Exit
+summary: Official remote MCP for Yalla Exit, an Egyptian property-contract-transfer marketplace. Search published opportunities and manage your own buyer requirements, interests and seller drafts or review submissions. OAuth sign-in with a Yalla Exit account is required.
+category: other
+tags:
+  - crm
+  - marketplace
+  - real-estate
+  - workflow-automation
+docs_url: https://yallaexit.com/en/ai-integrations
+endpoints:
+  - url: https://mcp.yallaexit.com/mcp
+    transport: streamable-http
+    auth: oauth

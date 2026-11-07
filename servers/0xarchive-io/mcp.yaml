@@ -1,0 +1,13 @@
+name: 0xArchive Market Data
+summary: Hyperliquid and Lighter market data through REST, WebSocket and Parquet exports.
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - finance
+  - trading
+docs_url: https://0xarchive.io/
+endpoints:
+  - url: https://mcp.0xarchive.io/mcp
+    transport: streamable-http
+    auth: oauth

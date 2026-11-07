@@ -1,0 +1,13 @@
+name: Whirrwork
+summary: Robot jobs, sourced prices with history, providers by country, robot-vs-human costs, and quote requests.
+category: other
+tags:
+  - business-operations
+  - inventory
+  - marketplace
+  - payment
+docs_url: https://whirrwork.com/agents/
+endpoints:
+  - url: https://whirrwork.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: US Federal Holidays and Business Days MCP
+summary: Exact US federal holidays and business-day math, OPM and Federal Reserve observance, 1971-2100.
+category: productivity
+tags:
+  - calendar
+  - finance
+  - government
+  - productivity
+docs_url: https://github.com/theluckystrike/us-federal-holidays-business-days-mcp
+endpoints:
+  - url: https://us-federal-holidays-business-days-mcp.lipmichal.workers.dev/mcp
+    transport: streamable-http
+    auth: none

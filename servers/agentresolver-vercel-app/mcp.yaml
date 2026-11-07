@@ -1,0 +1,13 @@
+name: AgentResolver
+summary: Free capability resolver for AI agents. Discovers and compares tools, APIs, MCP servers, and x402 machine services through a no-auth remote MCP endpoint.
+category: development
+tags:
+  - ai-agent
+  - api
+  - development
+  - knowledge-retrieval
+docs_url: https://agentresolver.vercel.app
+endpoints:
+  - url: https://agentresolver.vercel.app/mcp
+    transport: streamable-http
+    auth: unknown

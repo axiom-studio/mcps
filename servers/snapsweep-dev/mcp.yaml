@@ -1,0 +1,12 @@
+name: SnapSweep
+summary: 'Web QA for AI agents: real-browser scans with evidence-backed findings'
+category: development
+tags:
+  - browser-automation
+  - testing-qa
+  - web-scraping
+docs_url: https://snapsweep.dev
+endpoints:
+  - url: https://mcp.snapsweep.dev/mcp
+    transport: streamable-http
+    auth: api-key

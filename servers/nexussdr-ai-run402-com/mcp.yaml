@@ -1,0 +1,13 @@
+name: NexusSDR AI
+summary: Generate B2B buying-intent dossiers, ICP signals & multi-touch outbound sequences via MCP & x402.
+category: productivity
+tags:
+  - ai-agent
+  - crm
+  - marketing-automation
+  - sales
+docs_url: https://nexussdr-ai.run402.com
+endpoints:
+  - url: https://nexussdr-ai.run402.com/api/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: DoctoFam Medical Clinic
+summary: See your clinic's free slots, doctors, rooms, service prices and how busy each day is.
+category: productivity
+tags:
+  - business-operations
+  - data-analysis
+  - healthcare
+docs_url: https://www.doctofam.com/developers/#mcp
+endpoints:
+  - url: https://mcp.doctofam.com/mcp
+    transport: streamable-http
+    auth: oauth

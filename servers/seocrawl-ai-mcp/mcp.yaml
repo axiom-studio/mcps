@@ -1,0 +1,15 @@
+name: SEOcrawl AI
+summary: 'SEO MCP server: Search Console, GA4, Crawler and AI visibility (ChatGPT, Gemini, AI Overviews). 91 tools, hosted, OAuth.'
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - marketing
+  - seo
+  - web-research
+docs_url: https://seocrawl.ai/mcp
+website_url: https://seocrawl.ai/mcp
+endpoints:
+  - url: https://mcp.seocrawl.ai
+    transport: streamable-http
+    auth: oauth

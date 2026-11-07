@@ -1,0 +1,13 @@
+name: UAIN Research Pilot
+summary: Inspect public research tasks and prepare evidence-backed work for independent checking, with operator permission.
+category: other
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - productivity
+  - research
+docs_url: https://uain.global/for-ai?ref=069a121401664ccc8fb6c0d0c1e24cb5
+endpoints:
+  - url: https://uain.global/mcp
+    transport: streamable-http
+    auth: none

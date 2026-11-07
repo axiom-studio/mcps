@@ -1,0 +1,16 @@
+name: Kalpana Batch
+summary: Fill your Kalpana templates from a list or spreadsheet and render banners, ads and listing images in bulk, after checking every row.
+category: marketing
+tags:
+  - advertising
+  - content-creation
+  - marketing
+  - spreadsheet
+docs_url: https://github.com/shreekaramtech/kalpana-agent
+endpoints:
+  - url: https://mcp.kalpana.one/mcp/batch
+    transport: streamable-http
+    auth: oauth
+  - url: https://mcp.kalpana.one/mcp/designer
+    transport: streamable-http
+    auth: oauth

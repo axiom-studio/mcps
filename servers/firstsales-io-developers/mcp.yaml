@@ -1,0 +1,13 @@
+name: FirstSales
+summary: Public MCP tools for email validation, DNS checks, deliverability analysis, and cold email guidance. Read-only and available without an account.
+category: marketing
+tags:
+  - communication
+  - data-analysis
+  - email-automation
+  - marketing
+docs_url: https://firstsales.io/developers/
+endpoints:
+  - url: https://firstsales.io/mcp/
+    transport: streamable-http
+    auth: none

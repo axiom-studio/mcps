@@ -1,0 +1,13 @@
+name: Pakistan Land Parcels & Khasra Lookup (پنجاب اراضی)
+summary: Punjab (Pakistan) urban parcels from PULSE by parcel code, housing society or point, with land use.
+category: other
+tags:
+  - database
+  - geospatial
+  - government
+  - real-estate
+docs_url: https://github.com/BumiAtlas/pakistan-land-parcels-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/pakistan
+    transport: streamable-http
+    auth: oauth

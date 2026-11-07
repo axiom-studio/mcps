@@ -1,0 +1,14 @@
+name: SummaBooking
+summary: 'Book and manage rooms and spaces in a SummaBooking workspace: availability, reservations, weekly series, rules.'
+category: productivity
+tags:
+  - calendar
+  - productivity
+  - task-management
+official: true
+registry_name: com.summabooking/summabooking
+docs_url: https://summabooking.com/ai-assistants
+endpoints:
+  - url: https://app.summabooking.com/api/mcp
+    transport: streamable-http
+    auth: unknown

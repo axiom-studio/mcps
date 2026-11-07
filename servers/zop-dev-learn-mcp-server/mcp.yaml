@@ -1,0 +1,11 @@
+name: ZopDev MCP
+summary: 'ZopDev MCP: cloud cost and infrastructure governance across AWS, Azure, GCP, Databricks and Snowflake. 263 tools (155 read, 108 write) covering cost, resources, schedules, recommendations, budgets, governance and diagnostics over a hosted remote MCP endpoint. Read-only by default, with optional scoped writes. Server link: https://api.zop.dev/mcp-server | Learn doc: https://zop.dev/learn/mcp-server | Claude setup: https://zop.dev/learn/how-to/set-up-zopnight-mcp-for-claude'
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - devops-infrastructure
+docs_url: https://zop.dev/learn/mcp-server
+endpoints:
+  - url: https://api.zop.dev/mcp-server
+    transport: streamable-http
+    auth: oauth

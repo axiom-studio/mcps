@@ -1,0 +1,13 @@
+name: YouTube & TikTok Transcripts
+summary: 'Hosted MCP server on Apify with 5 tools: YouTube and TikTok transcripts, YouTube channel and playlist transcripts, YouTube search and YouTube comments. Connect over streamable HTTP with an Apify API token. Paid per result: $0.003 per YouTube transcript, $0.0015 per TikTok transcript; videos without captions are free.'
+category: web-scraping
+tags:
+  - media
+  - translation
+  - web-scraping
+  - youtube
+docs_url: https://apify.com/heyitsgautham/video-transcripts-mcp-server
+endpoints:
+  - url: https://heyitsgautham--video-transcripts-mcp-server.apify.actor/mcp
+    transport: streamable-http
+    auth: api-key

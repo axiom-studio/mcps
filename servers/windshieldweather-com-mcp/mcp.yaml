@@ -1,0 +1,12 @@
+name: Windshield Weather
+summary: Weather forecasts along driving routes and highways.
+category: other
+tags:
+  - api
+  - geospatial
+  - weather
+docs_url: https://windshieldweather.com/mcp
+endpoints:
+  - url: https://mcp.windshieldweather.com/mcp
+    transport: streamable-http
+    auth: none

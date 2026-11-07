@@ -1,0 +1,13 @@
+name: Vend API Merchant - Nano-settled pay-per-call APIs
+summary: 'Pay-per-call web APIs settled in Nano (XNO): URL extraction, web search, link check, domain intelligence, geoip. No signup or API key; each call costs 0.0001-0.0005 XNO.'
+category: web-scraping
+tags:
+  - api
+  - geospatial
+  - search
+  - web-scraping
+docs_url: https://github.com/PANDeveloper001/vend
+endpoints:
+  - url: https://extract.paypercall.dev/mcp
+    transport: streamable-http
+    auth: unknown

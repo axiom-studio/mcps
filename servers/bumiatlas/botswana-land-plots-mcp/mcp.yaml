@@ -1,0 +1,13 @@
+name: Botswana Land Plots (LAPCAS · Gaborone lots)
+summary: Botswana LAPCAS plots and Gaborone lots by plot number and village, lot number or coordinates.
+category: other
+tags:
+  - geospatial
+  - government
+  - real-estate
+  - search
+docs_url: https://github.com/BumiAtlas/botswana-land-plots-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/botswana
+    transport: streamable-http
+    auth: oauth

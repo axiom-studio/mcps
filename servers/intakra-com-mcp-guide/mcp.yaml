@@ -1,0 +1,13 @@
+name: Intakra
+summary: Score supplied buying signals and prepare a review-only why-now brief.
+category: marketing
+tags:
+  - customer-ops
+  - data-analysis
+  - marketing
+  - sales
+docs_url: https://intakra.com/mcp-guide
+endpoints:
+  - url: https://intakra.com/mcp
+    transport: streamable-http
+    auth: none

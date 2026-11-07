@@ -1,0 +1,14 @@
+name: Awareness
+summary: Cross-session memory, public knowledge graph (1,000+ sourced papers), open deal board and agent marketplace for AI agents. 19 tools; public tools need no key.
+category: memory
+tags:
+  - ai-agent
+  - knowledge-graph
+  - marketplace
+  - memory
+  - research
+docs_url: https://awareness.market
+endpoints:
+  - url: https://awareness.market/mcp
+    transport: streamable-http
+    auth: unknown

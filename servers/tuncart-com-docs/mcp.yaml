@@ -1,0 +1,13 @@
+name: Tunc Art
+summary: 'Private links for files your AI assistants make: reports, PDFs, images and spreadsheets saved and opened later with a sign-in or a password. Remote MCP server with OAuth.'
+category: cloud-storage
+tags:
+  - cloud-storage
+  - document
+  - file-management
+  - security
+docs_url: https://tuncart.com/docs
+endpoints:
+  - url: https://mcp.tuncart.com/mcp
+    transport: streamable-http
+    auth: oauth

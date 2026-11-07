@@ -1,0 +1,12 @@
+name: Kite
+summary: Hosted Discord MCP server. Let Claude, ChatGPT or Cursor build and run your Discord bot.
+category: development
+tags:
+  - chatbot
+  - development
+  - discord
+docs_url: https://kite.onl/discord-mcp-server
+endpoints:
+  - url: https://kite.onl/api/mcp
+    transport: streamable-http
+    auth: oauth

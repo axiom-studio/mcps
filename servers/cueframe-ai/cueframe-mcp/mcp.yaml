@@ -1,0 +1,13 @@
+name: CueFrame
+summary: 'Compose, edit and render video with AI agents: motion graphics, captions, clipping and content-aware reframing through the hosted CueFrame MCP server.'
+category: design
+tags:
+  - ai-agent
+  - content-creation
+  - media
+  - video
+docs_url: https://github.com/cueframe-ai/cueframe-mcp
+endpoints:
+  - url: https://api.cueframe.ai/v1/mcp
+    transport: streamable-http
+    auth: oauth

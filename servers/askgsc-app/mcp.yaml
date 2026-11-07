@@ -1,0 +1,14 @@
+name: AskGSC
+summary: Connect Google Search Console to ChatGPT, Claude and other MCP clients to analyze SEO performance, compare periods and find actionable search opportunities using your own data.
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - google-analytics
+  - marketing
+  - seo
+docs_url: https://askgsc.app
+endpoints:
+  - url: https://mcp.askgsc.app/mcp
+    transport: streamable-http
+    auth: oauth

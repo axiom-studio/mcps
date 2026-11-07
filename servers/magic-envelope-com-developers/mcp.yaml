@@ -1,0 +1,12 @@
+name: Magic Envelope
+summary: Create and send invitations and letters in a sealed envelope, with one personal link per guest. Free, no auth.
+category: productivity
+tags:
+  - communication
+  - document
+  - productivity
+docs_url: https://magic-envelope.com/developers
+endpoints:
+  - url: https://magic-envelope.com/api/mcp
+    transport: streamable-http
+    auth: none

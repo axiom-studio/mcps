@@ -1,0 +1,13 @@
+name: Rhino Rank
+summary: Quote and order link building and press releases, run press release briefings, start a Managed Service, and manage orders, coupons and your account. Needs a Rhino Rank account.
+category: marketing
+tags:
+  - business-operations
+  - content-creation
+  - marketing
+  - seo
+docs_url: https://app.rhinorank.io/mcp/setup
+endpoints:
+  - url: https://app.rhinorank.io/mcp
+    transport: streamable-http
+    auth: oauth

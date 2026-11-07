@@ -1,0 +1,14 @@
+name: InvoiceParser Pro
+summary: 'Invoice to Excel with the math checked: reads PDFs, scans and photos into fields and line items, checks lines, tax and total, returns Excel, CSV or JSON. Free trial.'
+category: finance
+tags:
+  - data-analysis
+  - document
+  - file-conversion
+  - finance
+  - spreadsheet
+docs_url: https://invoiceparserpro.com/ai-assistants
+endpoints:
+  - url: https://api.invoiceparserpro.com/mcp
+    transport: streamable-http
+    auth: unknown

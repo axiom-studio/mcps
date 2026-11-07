@@ -1,0 +1,12 @@
+name: Kryptos
+summary: 'Kryptos: connect AI agents to your Kryptos workspace. Read your crypto portfolio, transactions across 5,000+ exchanges, wallets and blockchains, capital gains and tax reports, and run crypto bookkeeping with Xero, QuickBooks and Softledger. Hosted remote server (https://mcp.kryptos.io/) with OAuth sign-in.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - finance
+docs_url: https://github.com/Kryptoskatt/ai-plugin
+endpoints:
+  - url: https://mcp.kryptos.io/
+    transport: streamable-http
+    auth: oauth

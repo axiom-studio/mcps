@@ -1,0 +1,12 @@
+name: McJars
+summary: Free Minecraft server builds, versions, downloads and configurations for AI assistants
+category: web-scraping
+tags:
+  - file-management
+  - gaming
+  - marketplace
+docs_url: https://mcjars.com
+endpoints:
+  - url: https://mcjars.com/mcp
+    transport: streamable-http
+    auth: none

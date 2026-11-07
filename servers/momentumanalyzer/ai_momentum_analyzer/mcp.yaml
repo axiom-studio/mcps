@@ -1,0 +1,13 @@
+name: Momentum Analyzer
+summary: Graded stock setups, options flow, and multi-window trend research over a hosted OAuth MCP endpoint.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+  - trading
+docs_url: https://github.com/MomentumAnalyzer/ai_momentum_analyzer
+endpoints:
+  - url: https://momentum-analyzer.com/mcp
+    transport: streamable-http
+    auth: oauth

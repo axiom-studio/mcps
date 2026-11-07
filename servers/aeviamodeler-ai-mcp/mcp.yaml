@@ -1,0 +1,12 @@
+name: Aevia LCA Modeler
+summary: 'AI-powered life cycle assessment and modelling: connect to LCA databases, build product systems, run life cycle assessments and analyze the results.'
+category: other
+tags:
+  - ai-model
+  - data-analysis
+  - research
+docs_url: https://aeviamodeler.ai/mcp
+endpoints:
+  - url: https://app.aeviamodeler.ai/api/v1/connector/mcp
+    transport: streamable-http
+    auth: oauth

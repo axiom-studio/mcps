@@ -1,0 +1,14 @@
+name: RugShield 402
+summary: Pre-trade honeypot calldata simulation, LP lock verification, and DEX security via dual-chain x402.
+category: development
+tags:
+  - crypto
+  - defi
+  - evm
+  - security
+  - trading
+docs_url: https://rugshield-402.onrender.com
+endpoints:
+  - url: https://rugshield-402.onrender.com/mcp
+    transport: streamable-http
+    auth: unknown

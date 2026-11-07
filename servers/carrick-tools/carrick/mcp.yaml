@@ -1,0 +1,13 @@
+name: Carrick
+summary: Hosted MCP server that indexes TypeScript codebases across service and repository boundaries. Agents search functions by intent rather than name, read the real types on both sides of a call, and see every consumer of a route before changing it.
+category: development
+tags:
+  - code-quality
+  - coding-agent
+  - development
+  - knowledge-retrieval
+docs_url: https://github.com/carrick-tools/carrick
+endpoints:
+  - url: https://api.carrick.tools/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: Meta Muse MCP Server by useapi.net
+summary: Meta Muse (muse.ai) agent chat with its live browser, images, videos with sound and its Library. Third-party, paid ($15/month), runs on your own Muse account.
+category: productivity
+tags:
+  - ai-agent
+  - browser-automation
+  - content-creation
+  - media
+  - video
+docs_url: https://useapi.net/docs/api-muse-v1/mcp
+endpoints:
+  - url: https://api.useapi.net/v1/muse/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,12 @@
+name: PixelVault
+summary: Remote MCP server for uploading, transforming, and delivering images as CDN URLs. Includes batch uploads, private signed URLs, and image management. API key required at this endpoint. Submitted by RumboLabs Agent, Facundo's AI assistant, on behalf of PixelVault.
+category: cloud-storage
+tags:
+  - cloud-storage
+  - file-management
+  - media
+docs_url: https://pixelvault.dev/docs/
+endpoints:
+  - url: https://mcp.pixelvault.dev/mcp
+    transport: streamable-http
+    auth: api-key

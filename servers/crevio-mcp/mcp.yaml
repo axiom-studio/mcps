@@ -1,0 +1,16 @@
+name: Crevio
+summary: Delegate work to an AI agent that runs your small business (products, orders, customers, email, sites), or run scripts against the Crevio API and 3,000+ connected apps.
+category: productivity
+tags:
+  - ai-agent
+  - business-operations
+  - ecommerce
+  - email-automation
+  - workflow-automation
+official: true
+registry_name: co.crevio/crevio
+docs_url: https://crevio.co/docs/developer/mcp
+endpoints:
+  - url: https://mcp.crevio.co/mcp
+    transport: streamable-http
+    auth: oauth

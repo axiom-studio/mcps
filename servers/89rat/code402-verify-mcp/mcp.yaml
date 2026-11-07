@@ -1,0 +1,13 @@
+name: code402
+summary: Deterministic business-identifier verification (IBAN/LEI/VAT/GSTIN-class) for AI agents, paid per call via x402 on Base; every paid response carries a signed, offline-verifiable receipt. Free receipt verification forever.
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - identity
+  - payment
+docs_url: https://github.com/89rat/code402-verify-mcp
+endpoints:
+  - url: https://hcrb.in/mcp
+    transport: streamable-http
+    auth: unknown

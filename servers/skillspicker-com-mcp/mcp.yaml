@@ -1,0 +1,13 @@
+name: SkillsPicker
+summary: Find open-license agent skills (SKILL.md) for your project. Remote, no auth, read-only.
+category: development
+tags:
+  - ai-agent
+  - development
+  - knowledge-retrieval
+  - search
+docs_url: https://skillspicker.com/mcp
+endpoints:
+  - url: https://skillspicker.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: PODIE MCP
+summary: Find interactive React components and app templates from Codex or Claude Code. Search, get recommendations, inspect source and dependencies, and prepare shadcn-compatible installation commands.
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - development
+  - search
+docs_url: https://podie.dev/mcp
+endpoints:
+  - url: https://podie.dev/api/podie/mcp
+    transport: streamable-http
+    auth: api-key

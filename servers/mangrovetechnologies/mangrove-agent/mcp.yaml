@@ -1,0 +1,13 @@
+name: MangroveAI
+summary: 'Backtest and paper-trade crypto strategies from any MCP client: 119 tools for market data, strategy building, backtesting, paper trading and non-custodial execution on Kraken, Robinhood and 1inch. Free API key or pay per call in USDC (x402).'
+category: finance
+tags:
+  - crypto
+  - finance
+  - payment
+  - trading
+docs_url: https://github.com/MangroveTechnologies/mangrove-agent
+endpoints:
+  - url: https://api.mangrovedeveloper.ai/mcp/
+    transport: streamable-http
+    auth: unknown

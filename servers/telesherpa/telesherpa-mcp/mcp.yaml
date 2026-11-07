@@ -1,0 +1,13 @@
+name: Telesherpa Ontology Platform
+summary: Ontology platform for facility management (CAFM/IWMS) and field service via AI agents.
+category: productivity
+tags:
+  - ai-agent
+  - business-operations
+  - knowledge-graph
+  - workflow-automation
+docs_url: https://github.com/telesherpa/telesherpa-mcp
+endpoints:
+  - url: https://mcp.telesherpa.com/mcp
+    transport: streamable-http
+    auth: oauth

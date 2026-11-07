@@ -1,0 +1,13 @@
+name: Citeri
+summary: Connect AI assistants to Citeri to manage appointments, customers, bookings, and business operations through natural language.
+category: productivity
+tags:
+  - business-operations
+  - calendar
+  - crm
+  - productivity
+docs_url: https://citeri.es/docs/mcp
+endpoints:
+  - url: https://citeri.es/api/mcp
+    transport: streamable-http
+    auth: oauth

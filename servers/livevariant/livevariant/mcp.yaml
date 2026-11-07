@@ -1,0 +1,13 @@
+name: LiveVariant
+summary: 'Adaptive A/B testing an agent can run end to end: the whole test config travels in the URL, so there is no account, no API key and nothing to install on your site.'
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - testing-qa
+  - workflow-automation
+docs_url: https://github.com/livevariant/livevariant
+endpoints:
+  - url: https://livevariant.com/mcp
+    transport: streamable-http
+    auth: unknown

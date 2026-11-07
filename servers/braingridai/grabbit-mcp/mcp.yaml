@@ -1,0 +1,12 @@
+name: Grabbit
+summary: Hosted screenshot MCP for AI agents — POST a URL, get a pixel-perfect image. No local Chromium. Screenshot MCP at grabbit.live — not grabbit.sh (Reddit leads).
+category: web-scraping
+tags:
+  - browser
+  - browser-automation
+  - web-scraping
+docs_url: https://github.com/BrainGridAI/grabbit-mcp
+endpoints:
+  - url: https://mcp.grabbit.live
+    transport: streamable-http
+    auth: unknown

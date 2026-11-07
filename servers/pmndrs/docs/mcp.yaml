@@ -1,0 +1,13 @@
+name: pmndrs docs
+summary: Search and read the docs and examples of react-three-fiber, drei, zustand, jotai and the other pmndrs libraries from your agent.
+category: development
+tags:
+  - ai-agent
+  - development
+  - documentation
+  - knowledge-retrieval
+docs_url: https://github.com/pmndrs/docs
+endpoints:
+  - url: https://docs.pmnd.rs/api/mcp
+    transport: streamable-http
+    auth: none

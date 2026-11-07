@@ -1,0 +1,13 @@
+name: agentready.ch
+summary: 'Verified profiles of Swiss companies for AI agents. Search companies by need, region and language, read their services, sources and allowed functions, and send quote, callback or meeting requests through permissioned functions. Remote endpoint: https://agentready.ch/api/mcp'
+category: search
+tags:
+  - business-operations
+  - communication
+  - crm
+  - search
+docs_url: https://agentready.ch/en/mcp
+endpoints:
+  - url: https://agentready.ch/api/mcp
+    transport: streamable-http
+    auth: none

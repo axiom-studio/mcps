@@ -1,0 +1,12 @@
+name: Dream Trip
+summary: Lets your AI read your saved travel places, lists and trips from Dream Trip, save places from TikTok, Instagram or Google Maps links, find places other travellers saved nearby, and plan day-by-day itineraries that land in the Dream Trip app.
+category: productivity
+tags:
+  - productivity
+  - social-media
+  - web-scraping
+docs_url: https://www.thedreamtrip.app/connect
+endpoints:
+  - url: https://www.thedreamtrip.app/mcp
+    transport: streamable-http
+    auth: oauth

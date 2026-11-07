@@ -1,0 +1,13 @@
+name: Guardr
+summary: 'Outside checks for the sites your agent ships: an A to F health grade for HTTP headers, TLS, DNS and cookies, with fix steps. Tools: check_site, list_sites, get_site.'
+category: development
+tags:
+  - devops
+  - monitoring
+  - security
+  - testing-qa
+docs_url: https://guardr.io/docs/mcp/
+endpoints:
+  - url: https://api.guardr.io/mcp
+    transport: streamable-http
+    auth: api-key

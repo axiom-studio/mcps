@@ -1,0 +1,12 @@
+name: UGC API
+summary: Publish and schedule UGC videos, photo slideshows and images to TikTok and Instagram accounts from any MCP client. Post to many accounts at once, plan campaigns across creator accounts with a schedule and credit preview, send creators connect links, track results, cancel and retry. Hosted remote server with OAuth; 50 free posts.
+category: marketing
+tags:
+  - content-creation
+  - marketing-automation
+  - social-media
+docs_url: https://ugcapi.dev/docs/mcp/
+endpoints:
+  - url: https://ugcapi.dev/mcp
+    transport: streamable-http
+    auth: oauth

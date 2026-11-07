@@ -1,0 +1,12 @@
+name: Facehunch
+summary: Read-only OAuth MCP for existing owned reports and available source links, respecting locked-report access. No new face searches, identity inference or credit spending. https://facehunch.com
+category: search
+tags:
+  - api
+  - search
+  - web-research
+docs_url: https://github.com/facehunch/mcp-server
+endpoints:
+  - url: https://mcp.facehunch.com/mcp
+    transport: streamable-http
+    auth: oauth

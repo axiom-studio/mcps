@@ -1,0 +1,13 @@
+name: FinzData
+summary: 'Point-in-time US market data for agents and backtests: 16,000+ stocks incl. delisted, 1-minute to daily bars, futures, macro vintages, COT, 13F and server-side backtests.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - marketplace
+  - trading
+docs_url: https://finzdata.com/agents
+endpoints:
+  - url: https://api.finzdata.com/mcp
+    transport: streamable-http
+    auth: oauth

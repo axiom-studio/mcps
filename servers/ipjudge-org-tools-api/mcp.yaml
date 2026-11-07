@@ -1,0 +1,12 @@
+name: IP Judge
+summary: Check whether an IP is residential, datacenter or proxy, and whether ChatGPT, Claude, Gemini or Muse support its region.
+category: development
+tags:
+  - api
+  - network-automation
+  - security
+docs_url: https://ipjudge.org/tools/api/
+endpoints:
+  - url: https://ipjudge.org/mcp
+    transport: streamable-http
+    auth: unknown

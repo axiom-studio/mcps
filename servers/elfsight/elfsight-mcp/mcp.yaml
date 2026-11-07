@@ -1,0 +1,13 @@
+name: Elfsight
+summary: 'Manage Elfsight website widgets from your AI agent: browse apps and projects, create widgets from templates, change their settings, publish them and get the embed code.'
+category: development
+tags:
+  - cms
+  - content-creation
+  - development
+  - workflow-automation
+docs_url: https://github.com/elfsight/elfsight-mcp
+endpoints:
+  - url: https://mcp.elfsight.com/mcp
+    transport: streamable-http
+    auth: oauth

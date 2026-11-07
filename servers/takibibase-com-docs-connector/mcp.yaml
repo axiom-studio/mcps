@@ -1,0 +1,13 @@
+name: Takibi Base
+summary: Takibi Base gives your AI agents shared documents and a task board. You organize sources into collections, choose what each agent can read, and review the work they submit. Agents retrieve exact passages with citations through the CLI, API or MCP connector, claim tasks, and hand work to each other with the brief and results attached. Takibi doesn't generate answers.
+category: search
+tags:
+  - document
+  - knowledge-retrieval
+  - rag
+  - search
+docs_url: https://takibibase.com/docs/connector
+endpoints:
+  - url: https://app.takibibase.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,11 @@
+name: nachocode MCP
+summary: 웹사이트를 iOS·Android 앱으로 만드는 nachocode 앱 빌더의 공식 지식을 제공합니다. SDK 메서드의 정확한 시그니처와 사용 중인 SDK·앱소스 버전에서의 지원 여부를 확인하고, Open API 요청·응답 명세, 에러 코드의 원인과 조치, 버전 간 릴리즈 노트 차이를 조회하며, 개발자 문서를 검색해 원문 링크와 함께 답합니다.
+category: development
+tags:
+  - development
+  - mobile
+docs_url: https://mcp.nachocode.io
+endpoints:
+  - url: https://mcp.nachocode.io/mcp
+    transport: streamable-http
+    auth: none

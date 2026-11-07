@@ -1,0 +1,13 @@
+name: Shtab MCP
+summary: Shtab's remote MCP server lets compatible assistants read tasks, projects, goals and knowledge pages, and create or update tasks with the user's permissions.
+category: productivity
+tags:
+  - knowledge-retrieval
+  - productivity
+  - project-management
+  - task-management
+docs_url: https://shtab.app/mcp/
+endpoints:
+  - url: https://my.shtab.app/api/mcp/rpc
+    transport: streamable-http
+    auth: oauth

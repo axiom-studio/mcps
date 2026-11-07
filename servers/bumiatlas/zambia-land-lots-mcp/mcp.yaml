@@ -1,0 +1,13 @@
+name: Zambia Land Lots (Ministry of Lands lot index)
+summary: Zambian state-cadastre lot index by lot key or coordinates, with each lot's point and extent.
+category: other
+tags:
+  - database
+  - geospatial
+  - government
+  - real-estate
+docs_url: https://github.com/BumiAtlas/zambia-land-lots-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/zambia
+    transport: streamable-http
+    auth: oauth

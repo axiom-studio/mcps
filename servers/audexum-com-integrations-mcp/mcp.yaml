@@ -1,0 +1,14 @@
+name: Audexum
+summary: Text to speech in 30+ languages as MP3 links, audio transcription and YouTube transcripts, for any AI model or agent.
+category: productivity
+tags:
+  - ai-model
+  - audio
+  - media
+  - text-to-speech
+  - translation
+docs_url: https://audexum.com/integrations/mcp
+endpoints:
+  - url: https://audexum.com/mcp
+    transport: streamable-http
+    auth: oauth

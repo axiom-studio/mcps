@@ -1,0 +1,13 @@
+name: WebExtract
+summary: 'Remote MCP server: any public URL to clean Markdown plus fixed-schema JSON (article metadata, product/price, tables). 20 free calls per caller IP per day (proxies with several exit IPs may be counted separately or together), then prepaid credits or x402 USDC pay-per-call.'
+category: web-scraping
+tags:
+  - document
+  - payment
+  - pdf
+  - web-scraping
+docs_url: https://webextract.dev/examples/mcp/
+endpoints:
+  - url: https://api.webextract.dev/mcp
+    transport: streamable-http
+    auth: none

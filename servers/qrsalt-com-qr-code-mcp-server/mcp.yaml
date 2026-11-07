@@ -1,0 +1,11 @@
+name: QRSalt
+summary: Make, re-point and track QR codes and short links, and read QR images, from your AI assistant. Remote server at https://app.qrsalt.com/api/mcp with OAuth sign-in; nothing to install.
+category: marketing
+tags:
+  - analytics
+  - marketing
+docs_url: https://qrsalt.com/qr-code-mcp-server
+endpoints:
+  - url: https://app.qrsalt.com/api/mcp
+    transport: streamable-http
+    auth: oauth

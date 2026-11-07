@@ -1,0 +1,13 @@
+name: The Profound Agency
+summary: 'Hosted MCP server: search, price and order press placements across 1,600+ publications. Free AI-visibility audits too. No API key.'
+category: marketing
+tags:
+  - marketing
+  - media
+  - research
+  - web-research
+docs_url: https://github.com/Jfromtheroc/the-profound-agency
+endpoints:
+  - url: https://theprofound.agency/api/mcp/
+    transport: streamable-http
+    auth: unknown

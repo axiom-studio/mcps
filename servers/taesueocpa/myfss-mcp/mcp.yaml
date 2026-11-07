@@ -1,0 +1,14 @@
+name: MyFSS MCP
+summary: Search Korea's FSS/FSC accounting supervision documents since 2010 (guidance, review findings, enforcement results, model disclosures, press releases), with HWP/PDF attachment text included.
+category: finance
+tags:
+  - compliance
+  - document
+  - finance
+  - knowledge-retrieval
+  - research
+docs_url: https://github.com/taesueocpa/myfss-mcp
+endpoints:
+  - url: https://myfss.eocpa.kr/mcp
+    transport: streamable-http
+    auth: api-key

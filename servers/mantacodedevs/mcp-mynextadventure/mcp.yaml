@@ -1,0 +1,10 @@
+name: My Next Adventure
+summary: Create trips, compare variants side by side, and add accommodation, transport and event options.
+category: productivity
+tags:
+  - productivity
+docs_url: https://github.com/MantaCodeDevs/mcp-mynextadventure
+endpoints:
+  - url: https://mcp.mynextadventure.cloud/mcp
+    transport: streamable-http
+    auth: oauth

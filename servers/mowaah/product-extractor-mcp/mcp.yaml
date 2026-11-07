@@ -1,0 +1,13 @@
+name: Product Page Extractor
+summary: 'Turn a product page URL, or raw HTML you already have, into clean JSON: price, currency, stock, SKU/GTIN/MPN, images, rating and every offer. Each result says where the price came from (price_source), so agents can tell a structured price from a guess. Optional LLM-ready Markdown. Free keyless demo.'
+category: web-scraping
+tags:
+  - data-analysis
+  - ecommerce
+  - productivity
+  - web-scraping
+docs_url: https://github.com/Mowaah/product-extractor-mcp
+endpoints:
+  - url: https://product-extractor.mohamed-bahaa53000.workers.dev/demo/mcp
+    transport: streamable-http
+    auth: none

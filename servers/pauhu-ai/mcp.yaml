@@ -1,0 +1,12 @@
+name: Pauhu AI
+summary: Pauhu AI gives industrial machines, and the engineers who run them, full answers.
+category: other
+tags:
+  - ai-agent
+  - business-operations
+  - iot
+docs_url: https://pauhu.ai
+endpoints:
+  - url: https://api.pauhu.ai/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,14 @@
+name: Data Bloo
+summary: Query your marketing data in plain English. Pull live metrics from Google Ads, GA4, Search Console, Meta, Instagram, LinkedIn, TikTok, Microsoft Ads, WooCommerce and more, all through one OAuth-secured connector.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - data-analysis
+  - google-analytics
+  - marketing
+docs_url: https://www.databloo.com/
+endpoints:
+  - url: https://mcp.databloo.com/mcp
+    transport: streamable-http
+    auth: oauth

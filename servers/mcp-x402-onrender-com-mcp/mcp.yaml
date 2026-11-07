@@ -1,0 +1,13 @@
+name: x402 Gateway
+summary: 'Canonical x402 Gateway MCP from ScriptMasterLabs. Free discovery surface: find the x402 Gateway contract, inspect gateway status, and read the canonical payment contract (Base mainnet, USDC, payTo and header rules) before an agent pays anything. Paid capabilities are resolved per-target from fresh payment requirements.'
+category: development
+tags:
+  - ai-agent
+  - crypto
+  - payment
+  - workflow-automation
+docs_url: https://mcp-x402.onrender.com/mcp
+endpoints:
+  - url: https://mcp-x402.onrender.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: meraGEO AI Visibility
+summary: Check how visible a website is in ChatGPT, Claude and Gemini answers, and start a new AI visibility scan. Remote MCP server with OAuth sign-in.
+category: marketing
+tags:
+  - ai-model
+  - analytics
+  - marketing
+  - seo
+docs_url: https://merageo.com
+endpoints:
+  - url: https://merageo.com/api/mcp/agent
+    transport: streamable-http
+    auth: oauth

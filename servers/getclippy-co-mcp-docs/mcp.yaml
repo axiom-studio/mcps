@@ -1,0 +1,12 @@
+name: Clippy Mc Clipface
+summary: 'Free, read-only coupon code lookup for your AI, with find_coupons and get_deals tools. Affiliate: Clippy may earn a commission.'
+category: finance
+tags:
+  - ecommerce
+  - marketing
+  - web-research
+docs_url: https://getclippy.co/mcp/docs
+endpoints:
+  - url: https://getclippy.co/mcp
+    transport: streamable-http
+    auth: none

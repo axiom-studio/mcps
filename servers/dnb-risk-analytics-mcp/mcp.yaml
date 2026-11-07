@@ -1,0 +1,18 @@
+name: D&B Risk Analytics
+summary: D&B Risk Analytics uses Dun & Bradstreet commercial data to support KYC, KYB, entity resolution, screening, and alert triage workflows. Its MCP connector brings relationship-aware business context and D-U-N-S anchored risk data into assistant workflows.
+description: |-
+  D&B Risk Analytics uses Dun & Bradstreet commercial data to support KYC, KYB, entity resolution, screening, and alert triage workflows. Its MCP connector brings relationship-aware business context and D-U-N-S anchored risk data into assistant workflows.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/dnb-risk-analytics)
+category: finance
+tags:
+  - finance
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/dnb-risk-analytics
+endpoints:
+  - url: https://agents.riskanalytics.dnb.com/mcp
+    transport: streamable-http
+    auth: oauth

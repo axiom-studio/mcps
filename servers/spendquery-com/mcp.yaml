@@ -1,0 +1,13 @@
+name: SpendQuery
+summary: US federal spending, contracts, SAM.gov notices, FAR clauses and SBIR awards, in plain English
+category: search
+tags:
+  - finance
+  - government
+  - research
+  - search
+docs_url: https://spendquery.com
+endpoints:
+  - url: https://api.spendquery.com/mcp
+    transport: streamable-http
+    auth: none

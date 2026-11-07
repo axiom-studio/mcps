@@ -1,0 +1,12 @@
+name: Havoptic AI Release Intelligence
+summary: 'Release intelligence for AI coding tools (Claude Code, Codex CLI, Cursor, Gemini CLI, Copilot CLI and more): latest releases, what changed since a version, breaking changes, upgrade notes and release cadence. Free, read-only, no sign-in. Endpoint: https://mcp.havoptic.com/mcp'
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - development
+docs_url: https://www.havoptic.com/api-docs
+endpoints:
+  - url: https://mcp.havoptic.com/mcp
+    transport: streamable-http
+    auth: none

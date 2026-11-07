@@ -1,0 +1,13 @@
+name: Duchamp
+summary: 'Ad research for coding agents: working ads, keyframes and transcripts over MCP'
+category: marketing
+tags:
+  - advertising
+  - ai-agent
+  - marketing
+  - research
+docs_url: https://github.com/duchamp-app/duchamp
+endpoints:
+  - url: https://duchamp.app/api/mcp
+    transport: streamable-http
+    auth: unknown

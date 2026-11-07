@@ -1,0 +1,14 @@
+name: ParrotNotes
+summary: Search, summarize and save insights on your ParrotNotes in-person meeting notes. Hosted remote server with OAuth sign-in, no API key.
+category: productivity
+tags:
+  - knowledge-retrieval
+  - meeting-notes
+  - notes
+  - productivity
+  - search
+docs_url: https://parrotnotes.app/docs/mcp
+endpoints:
+  - url: https://mcp.parrotnotes.app/mcp
+    transport: streamable-http
+    auth: unknown

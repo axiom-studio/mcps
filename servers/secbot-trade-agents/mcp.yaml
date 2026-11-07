@@ -1,0 +1,14 @@
+name: SecBot
+summary: '42 market-intelligence tools for Claude, ChatGPT and Cursor: SEC filings, insider trades, 13F holdings, congressional trades, lobbying, FDA, signals.'
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - government
+  - research
+  - trading
+docs_url: https://secbot.trade/agents
+endpoints:
+  - url: https://secbot.trade/mcp
+    transport: streamable-http
+    auth: oauth

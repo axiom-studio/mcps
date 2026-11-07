@@ -1,0 +1,13 @@
+name: Quova MCP
+summary: Quova is a financial data API. You get daily and intraday prices, quotes, technical indicators, company profiles, financial statements, earnings, dividends, corporate actions, insider trades, institutional and substantial holders, short interest, and fund profiles and holdings.
+category: finance
+tags:
+  - api
+  - data-analysis
+  - finance
+  - trading
+docs_url: https://quova.io/docs
+endpoints:
+  - url: https://api.quova.io/mcp
+    transport: streamable-http
+    auth: oauth

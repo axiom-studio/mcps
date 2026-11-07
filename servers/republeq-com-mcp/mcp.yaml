@@ -1,0 +1,12 @@
+name: Republeq MCP
+summary: Explore Republeq products, ratings, reviews and buying guides, then prepare shopper-confirmed checkout through an OAuth-protected merchant MCP server.
+category: other
+tags:
+  - ecommerce
+  - marketplace
+  - payment
+docs_url: https://republeq.com/mcp
+endpoints:
+  - url: https://agents.republeq.com/mcp
+    transport: streamable-http
+    auth: oauth

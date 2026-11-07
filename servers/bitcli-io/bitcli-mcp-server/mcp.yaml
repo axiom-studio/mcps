@@ -1,0 +1,13 @@
+name: BitCLI
+summary: Real-time crypto futures market intelligence, CVD order flow, BCT-30 matrix candles, and HFT alerts across Binance, Bybit, and Hyperliquid.
+category: finance
+tags:
+  - analytics
+  - crypto
+  - finance
+  - trading
+docs_url: https://github.com/BitCLI-io/bitcli-mcp-server
+endpoints:
+  - url: https://mcp.bitcli.io/mcp
+    transport: streamable-http
+    auth: unknown

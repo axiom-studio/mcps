@@ -1,0 +1,14 @@
+name: Ranla
+summary: 'AI growth agent for software businesses. Ranla ships pages that rank, gets your product named in AI answers, replies on Reddit and sends lifecycle email. Ask how growth is going, have Ranla draft the work and approve it from your agent. Also sends transactional email. Hosted MCP with OAuth: https://mcp.ranla.ai/mcp'
+category: marketing
+tags:
+  - ai-agent
+  - email-automation
+  - marketing
+  - seo
+  - workflow-automation
+docs_url: https://docs.ranla.ai/ai/mcp
+endpoints:
+  - url: https://mcp.ranla.ai/mcp
+    transport: streamable-http
+    auth: oauth

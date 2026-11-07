@@ -1,0 +1,13 @@
+name: GEO SEO Records
+summary: 'Gets a website ready for AI assistants: robots.txt fixed, llms.txt drafted, citable gaps listed.'
+category: marketing
+tags:
+  - content-creation
+  - documentation
+  - seo
+  - web-research
+docs_url: https://seorecords.com/en/assistants#geo
+endpoints:
+  - url: https://api.seorecords.com/mcp/geo
+    transport: streamable-http
+    auth: none

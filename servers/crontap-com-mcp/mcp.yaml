@@ -1,0 +1,13 @@
+name: Crontap
+summary: Create and manage Crontap schedules, uptime monitors and heartbeat checks by chatting with your AI assistant. Included on every plan, including free.
+category: development
+tags:
+  - devops
+  - monitoring
+  - productivity
+  - workflow-automation
+docs_url: https://crontap.com/mcp
+endpoints:
+  - url: https://mcp.crontap.com/mcp
+    transport: streamable-http
+    auth: oauth

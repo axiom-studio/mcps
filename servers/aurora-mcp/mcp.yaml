@@ -1,0 +1,18 @@
+name: Aurora
+summary: Aurora is a read-only Consilio connector for engagement, document, matter, and workspace data. It lets assistants search across entitled Consilio records, follow answers through related matters and documents, and cite source URLs while respecting existing access rights.
+description: |-
+  Aurora is a read-only Consilio connector for engagement, document, matter, and workspace data. It lets assistants search across entitled Consilio records, follow answers through related matters and documents, and cite source URLs while respecting existing access rights.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/aurora)
+category: other
+tags:
+  - other
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/aurora
+endpoints:
+  - url: https://mcp.ai.consilio.com
+    transport: streamable-http
+    auth: oauth

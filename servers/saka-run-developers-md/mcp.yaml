@@ -1,0 +1,13 @@
+name: Saka
+summary: Business-lead data for outreach agents. Free quote after sign-in, then prepaid pulls.
+category: marketing
+tags:
+  - crm
+  - data-analysis
+  - marketing
+  - sales
+docs_url: https://saka.run/developers.md
+endpoints:
+  - url: https://saka.run/api/mcp
+    transport: streamable-http
+    auth: unknown

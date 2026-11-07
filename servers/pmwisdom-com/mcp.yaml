@@ -1,0 +1,13 @@
+name: PM Wisdom Projects
+summary: Search prediction market projects, retrieve project details, and list categories.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - knowledge-retrieval
+  - research
+docs_url: https://pmwisdom.com
+endpoints:
+  - url: https://pmwisdom.com/mcp
+    transport: streamable-http
+    auth: none

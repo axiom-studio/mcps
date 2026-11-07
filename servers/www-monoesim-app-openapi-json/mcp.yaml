@@ -1,0 +1,11 @@
+name: Mono eSIM MCP
+summary: Mono eSIM MCP enables AI agents to search and compare travel eSIM plans worldwide, check device compatibility and access live pricing. Automated purchasing is currently in testing.
+category: other
+tags:
+  - ecommerce
+  - payment
+docs_url: https://www.monoesim.app/openapi.json
+endpoints:
+  - url: https://www.monoesim.app/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: AgentCalls
+summary: 'Remote Streamable HTTP MCP server (OAuth 2.1, 43 tools) giving AI agents in Claude, ChatGPT, Cursor, VS Code and Windsurf a real phone number and voice: outbound calls with live transcripts, inbound answering in English and Arabic across 95 countries, caller memory, 1,500+ integrations mid-call, post-call summaries, confirmation guardrails and audit log. Endpoint: https://agentcalls.net/mcp'
+category: communication
+tags:
+  - ai-agent
+  - audio
+  - communication
+  - workflow-automation
+docs_url: https://agentcalls.net/docs/mcp
+endpoints:
+  - url: https://agentcalls.net/mcp
+    transport: streamable-http
+    auth: oauth

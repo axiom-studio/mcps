@@ -1,0 +1,11 @@
+name: TicketGlide Travel Guides
+summary: Find attraction and day-trip guides with sources and fact-check dates, read published travel advice, and create TicketGlide search links. Free, read-only remote MCP; no API key required.
+category: search
+tags:
+  - search
+  - web-research
+docs_url: https://ticketglide.com/mcp
+endpoints:
+  - url: https://ticketglide.com/api/mcp
+    transport: streamable-http
+    auth: none

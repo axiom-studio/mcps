@@ -1,0 +1,13 @@
+name: Verli
+summary: Search and read your saved Verli transcripts, translations, and AI summaries. Read-only access secured with OAuth.
+category: productivity
+tags:
+  - knowledge-retrieval
+  - notes
+  - productivity
+  - translation
+docs_url: https://verli.app
+endpoints:
+  - url: https://app.verli.app/mcp
+    transport: streamable-http
+    auth: oauth

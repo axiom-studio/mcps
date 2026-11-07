@@ -1,0 +1,14 @@
+name: Qovia
+summary: 'Public data from Douyin, Xiaohongshu (RedNote), Weibo, Bilibili, TikTok, YouTube, Instagram, X, Reddit and 20+ platforms as unified JSON: posts, comments, creator profiles, hot lists and search.'
+category: web-scraping
+tags:
+  - audio
+  - knowledge-retrieval
+  - search
+  - video
+  - youtube
+docs_url: https://github.com/qovia/qovia-mcp
+endpoints:
+  - url: https://api.qovia.ai/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Clean Notes
+summary: Kanban tasks and project notes for AI clients, with OAuth and per-project read or write grants.
+category: productivity
+tags:
+  - notes
+  - productivity
+  - project-management
+  - task-management
+docs_url: https://cleannotes.app/en/ai/mcp
+endpoints:
+  - url: https://cleannotes.app/mcp
+    transport: streamable-http
+    auth: unknown

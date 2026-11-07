@@ -1,0 +1,13 @@
+name: ContexteTech
+summary: 'Search and load AI datasets, prompts and few-shot contexts grounded in official European sources, in 9 languages; dataset download links and cost estimates. Read-only, no key: https://contextetech.com/mcp'
+category: search
+tags:
+  - ai-model
+  - data-analysis
+  - knowledge-retrieval
+  - research
+docs_url: https://github.com/contexte-tech/contexte-python
+endpoints:
+  - url: https://contextetech.com/mcp
+    transport: streamable-http
+    auth: none

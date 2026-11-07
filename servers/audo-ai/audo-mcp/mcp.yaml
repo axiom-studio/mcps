@@ -1,0 +1,12 @@
+name: Audo
+summary: 'Audio and video tools for your AI assistant: remove noise, enhance voices, transcribe, and more.'
+category: other
+tags:
+  - audio
+  - content-creation
+  - media
+docs_url: https://github.com/audo-ai/audo-mcp
+endpoints:
+  - url: https://audo.ai/mcp
+    transport: streamable-http
+    auth: oauth

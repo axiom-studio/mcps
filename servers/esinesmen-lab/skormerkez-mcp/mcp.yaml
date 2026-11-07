@@ -1,0 +1,12 @@
+name: SkorMerkez
+summary: Ad-free, betting-free live football scores, fixtures, standings and verified match reports.
+category: other
+tags:
+  - data-analysis
+  - sports
+  - web-scraping
+docs_url: https://github.com/esinesmen-lab/skormerkez-mcp
+endpoints:
+  - url: https://skormerkez.com/mcp
+    transport: streamable-http
+    auth: unknown

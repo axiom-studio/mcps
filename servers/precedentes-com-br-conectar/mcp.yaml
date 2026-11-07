@@ -1,0 +1,11 @@
+name: Precedentes
+summary: 'Conector MCP jurídico: jurisprudência do STF, do STJ e de mais de 70 tribunais, com link oficial. Pesquisa no seu assistente, com autenticação OAuth.'
+category: search
+tags:
+  - knowledge-retrieval
+  - search
+docs_url: https://precedentes.com.br/conectar
+endpoints:
+  - url: https://precedentes.com.br/mcp
+    transport: streamable-http
+    auth: oauth

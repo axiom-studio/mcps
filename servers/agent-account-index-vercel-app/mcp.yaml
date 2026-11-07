@@ -1,0 +1,12 @@
+name: Agent Account Index
+summary: Can an AI agent hold an account at a service? Returns the verdict, who answers for the account's acts, and the verbatim terms clause, for 72 services. Remote streamable-HTTP, no auth, read-only.
+category: other
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - research
+docs_url: https://agent-account-index.vercel.app
+endpoints:
+  - url: https://agent-account-index.vercel.app/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Insider Trades & Directors Dealings Data
+summary: Insider trades & directors dealings data (SEC, BaFin). Per-company insider transactions, buyer/seller names, roles, transaction types and dates; company lookups, latest transactions and tickers for EU and US stocks.
+category: finance
+tags:
+  - compliance
+  - data-analysis
+  - finance
+  - trading
+docs_url: https://insidertrades.info/mcp-server/
+endpoints:
+  - url: https://insidertrades.info/mcp
+    transport: streamable-http
+    auth: none

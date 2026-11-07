@@ -1,0 +1,12 @@
+name: AgentGlass
+summary: Scan any public URL for hidden instructions aimed at AI agents (prompt injection in hidden text, comments, metadata). Free, no auth.
+category: other
+tags:
+  - ai-agent
+  - security
+  - web-research
+docs_url: https://agentglass.net
+endpoints:
+  - url: https://agentglass.net/mcp
+    transport: streamable-http
+    auth: none

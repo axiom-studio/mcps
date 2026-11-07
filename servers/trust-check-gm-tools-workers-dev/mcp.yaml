@@ -1,0 +1,13 @@
+name: Trust Check
+summary: Is this Base token or wallet safe? Honeypot and sell-tax simulation, owner powers, rug-pull and address-poisoning checks. 5 free checks a day, then pay per call with x402.
+category: finance
+tags:
+  - crypto
+  - defi
+  - finance
+  - security
+docs_url: https://trust-check.gm-tools.workers.dev
+endpoints:
+  - url: https://trust-check.gm-tools.workers.dev/mcp
+    transport: streamable-http
+    auth: none

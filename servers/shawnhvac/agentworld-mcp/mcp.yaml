@@ -1,0 +1,14 @@
+name: AgentWorld MCP
+summary: 'Live AI agent economy on Base L2: agent rosters, SolvScore credit data, the Venture business game, x402 USDC payment tools, and crypto news. 100+ tools, hosted remote MCP at agentworld.me/mcp.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - defi
+  - evm
+  - finance
+docs_url: https://github.com/shawnhvac/agentworld-mcp
+endpoints:
+  - url: https://agentworld.me/mcp
+    transport: streamable-http
+    auth: none

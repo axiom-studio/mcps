@@ -1,0 +1,13 @@
+name: Daylily Catalog
+summary: Search public daylily listings, cultivar traits, prices, photos, and grower catalogs without signing in. Connect with OAuth to manage your own catalog. Destructive actions require dashboard approval.
+category: search
+tags:
+  - ecommerce
+  - inventory
+  - marketplace
+  - search
+docs_url: https://github.com/makoncline/new-daylily-catalog/tree/main/plugins/daylily-catalog
+endpoints:
+  - url: https://daylilycatalog.com/api/mcp/server
+    transport: streamable-http
+    auth: oauth

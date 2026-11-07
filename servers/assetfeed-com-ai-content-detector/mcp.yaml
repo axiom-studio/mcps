@@ -1,0 +1,12 @@
+name: AssetFeed AI Detection
+summary: Estimate how much of an English text or web page reads as AI-written. Read-only, two tools.
+category: productivity
+tags:
+  - ai-model
+  - content-creation
+  - web-scraping
+docs_url: https://assetfeed.com/ai-content-detector
+endpoints:
+  - url: https://api.assetfeed.com/mcp/ai-detection
+    transport: streamable-http
+    auth: oauth

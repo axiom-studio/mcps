@@ -1,0 +1,13 @@
+name: Docspeed
+summary: Extract structured fields and ask cited questions about PDFs and images through a hosted MCP server.
+category: development
+tags:
+  - data-analysis
+  - document
+  - knowledge-retrieval
+  - pdf
+docs_url: https://api.docspeed.ai/agent-tools/
+endpoints:
+  - url: https://api.docspeed.ai/mcp/
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,14 @@
+name: Kaminari Ad
+summary: 'Ad quality and security for publishers and ad networks: scan ads, landing pages and redirect chains for malvertising, auto-redirects, cloaking and scams, and manage detection policies, alerts and webhooks.'
+category: marketing
+tags:
+  - advertising
+  - marketing
+  - monitoring
+  - security
+  - web-scraping
+docs_url: https://kaminari.ad/mcp
+endpoints:
+  - url: https://mcp.kaminari.ad/mcp
+    transport: streamable-http
+    auth: oauth

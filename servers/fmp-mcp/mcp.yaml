@@ -1,0 +1,18 @@
+name: FMP
+summary: FMP provides comprehensive financial datasets for market and company analysis. Its connector gives assistants finance data context for working with fundamentals, market information, comparisons, and investment-research workflows.
+description: |-
+  FMP provides comprehensive financial datasets for market and company analysis. Its connector gives assistants finance data context for working with fundamentals, market information, comparisons, and investment-research workflows.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/fmp)
+category: finance
+tags:
+  - finance
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/fmp
+endpoints:
+  - url: https://financialmodelingprep.com/mcp
+    transport: streamable-http
+    auth: oauth

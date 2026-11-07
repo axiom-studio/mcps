@@ -1,0 +1,14 @@
+name: Grigora
+summary: Create and manage Grigora websites, CMS posts, directories, ecommerce products, assets, SEO, and publishing from AI assistants through an OAuth-authenticated remote MCP server.
+category: development
+tags:
+  - cms
+  - content-creation
+  - ecommerce
+  - seo
+  - workflow-automation
+docs_url: https://www.grigora.co/mcp/
+endpoints:
+  - url: https://mcp.grigora.co/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: Tools That Don't Upload
+summary: 507 API tools via 3 MCP meta-tools. Hash, DNS, WHOIS, SSL, web-fetch, PDF merge/split, image resize, JSON-to-TypeScript/Python, QR code. Zero data retention. Remote MCP at https://toolsthatdontupload.com/mcp
+category: development
+tags:
+  - api
+  - development
+  - file-conversion
+  - security
+  - web-scraping
+docs_url: https://github.com/etacbae6768-a11y/tools-that-dont-upload
+endpoints:
+  - url: https://toolsthatdontupload.com/mcp
+    transport: streamable-http
+    auth: unknown

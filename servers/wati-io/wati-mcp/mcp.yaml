@@ -1,0 +1,14 @@
+name: Wati
+summary: 'Official hosted Wati MCP server. Manage WhatsApp and Instagram contacts, chats, campaigns and templates, plus Astra AI agents, from Claude, ChatGPT, Cursor and other AI clients. OAuth sign-in, no API key. Endpoints: https://mcp.wati.io/mcp (global), https://eu-mcp.wati.io/mcp (EU), https://ksa-mcp.wati.io/mcp (KSA).'
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - customer-ops
+  - marketing-automation
+  - whatsapp
+docs_url: https://github.com/wati-io/wati-mcp
+endpoints:
+  - url: https://mcp.wati.io/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Agent Traffic Lab
+summary: Find and execute the right AI provider, tool, or MCP server. Faster, cheaper, more reliable.
+category: development
+tags:
+  - ai-agent
+  - api
+  - development
+docs_url: https://github.com/wenhua6666668-oss/agent-traffic-lab-mcp
+endpoints:
+  - url: https://mcp.agenttrafficlab.com/mcp
+    transport: streamable-http
+    auth: none

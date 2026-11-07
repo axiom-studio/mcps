@@ -1,0 +1,13 @@
+name: Geonode Scraper MCP
+summary: Scrape, crawl and map websites and search the web from AI agents. Hosted remote MCP server by Geonode; extract works without an API key.
+category: web-scraping
+tags:
+  - browser-automation
+  - search
+  - web-research
+  - web-scraping
+docs_url: https://geonode.com/products/mcp
+endpoints:
+  - url: https://scraper.geonode.io/mcp
+    transport: streamable-http
+    auth: api-key

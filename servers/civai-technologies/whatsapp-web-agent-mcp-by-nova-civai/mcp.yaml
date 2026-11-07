@@ -1,0 +1,11 @@
+name: WhatsApp Web Agent by Nova (CIVAI)
+summary: I send and manage WhatsApp Web messages through your linked session
+category: communication
+tags:
+  - communication
+  - whatsapp
+docs_url: https://github.com/civai-technologies/whatsapp-web-agent-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/whatsapp-web-agent
+    transport: streamable-http
+    auth: api-key

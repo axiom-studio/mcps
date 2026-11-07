@@ -1,0 +1,13 @@
+name: NEXUS AGI
+summary: 'Keeps AI agents from repeating costly mistakes: past decisions, rules and incidents, shared by all.'
+category: productivity
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - memory
+  - workflow-automation
+docs_url: https://nexus.eblas.link/en
+endpoints:
+  - url: https://nexus.eblas.link/mcp
+    transport: streamable-http
+    auth: oauth

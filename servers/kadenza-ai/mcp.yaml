@@ -1,0 +1,14 @@
+name: Kadenza
+summary: See which posts beat their usual on LinkedIn, Instagram and YouTube, then write, schedule and turn comments into leads with your own AI.
+category: marketing
+tags:
+  - ai-agent
+  - analytics
+  - content-creation
+  - marketing
+  - social-media
+docs_url: https://kadenza.ai
+endpoints:
+  - url: https://app.kadenza.ai/api/mcp
+    transport: streamable-http
+    auth: api-key

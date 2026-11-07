@@ -1,0 +1,13 @@
+name: Trisport
+summary: 'Shop a Romanian sports store from AI assistants: live stock, sizes, delivery, accessories, cart links; OAuth for orders, parcel tracking and loyalty points.'
+category: other
+tags:
+  - customer-ops
+  - ecommerce
+  - inventory
+  - payment
+docs_url: https://www.trisport.ro/mcp/docs/
+endpoints:
+  - url: https://www.trisport.ro/mcp
+    transport: streamable-http
+    auth: oauth

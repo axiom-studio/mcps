@@ -1,0 +1,13 @@
+name: Topology Index
+summary: 'Reference for multi-agent LLM topologies: patterns, aliases, sources, starters; one gated report.'
+category: development
+tags:
+  - ai-agent
+  - documentation
+  - llm
+  - research
+docs_url: https://topologyindex.com/docs/api/integration.md
+endpoints:
+  - url: https://topologyindex.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,15 @@
+name: 'tropia.pl: Polish company registry (KRS)'
+summary: 'Polish company data from KRS for AI assistants: registry profiles, current and historical board members and shareholders, registry change history, financial statements, state aid and public contracts. Remote server by tropia.pl.'
+category: finance
+tags:
+  - business-operations
+  - data-analysis
+  - finance
+  - research
+official: true
+registry_name: pl.tropia/mcp
+docs_url: https://tropia.pl
+endpoints:
+  - url: https://api.tropia.pl/mcp
+    transport: streamable-http
+    auth: api-key

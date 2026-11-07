@@ -1,0 +1,13 @@
+name: AgentGate
+summary: Check if an AI agent is registered, Active and Verified in the Concordium Agent Registry before you serve or pay it. We built it. Free MCP tool; paid calls use x402 USDC on Base.
+category: development
+tags:
+  - ai-agent
+  - crypto
+  - identity
+  - payment
+docs_url: https://youraitools.co/guides/x402-agent-verification
+endpoints:
+  - url: https://agentgate.agentgate.workers.dev/mcp
+    transport: streamable-http
+    auth: none

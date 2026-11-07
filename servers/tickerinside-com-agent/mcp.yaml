@@ -1,0 +1,12 @@
+name: TickerInside ETF Holdings
+summary: 'US ETF and mutual fund holdings with the date and source of every holding: what a fund holds, which ETFs hold a stock, ETF overlap, portfolio look-through and risk, and what ETFs bought or sold on the latest close. Free, no API key, CC BY 4.0.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+docs_url: https://tickerinside.com/agent/
+endpoints:
+  - url: https://tickerinside.com/mcp
+    transport: streamable-http
+    auth: none

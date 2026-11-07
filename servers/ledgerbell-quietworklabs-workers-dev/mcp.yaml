@@ -1,0 +1,14 @@
+name: Ledgerbell
+summary: 'Onchain alerts for wallets, Safe multisigs and contracts: token approvals, queued Safe transactions, proxy upgrades with change reports. Free tools; Pro via USDC (x402).'
+category: finance
+tags:
+  - crypto
+  - defi
+  - evm
+  - finance
+  - smart-contracts
+docs_url: https://ledgerbell.quietworklabs.workers.dev
+endpoints:
+  - url: https://ledgerbell.quietworklabs.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

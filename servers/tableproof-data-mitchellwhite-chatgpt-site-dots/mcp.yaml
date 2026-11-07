@@ -1,0 +1,13 @@
+name: TableProof Review Finder and SRT Check
+summary: Find TableProof paid-review scopes and check SRT timing/text with two free read-only tools; OAuth required, no audio analysis or native Dots certification.
+category: productivity
+tags:
+  - document
+  - file-conversion
+  - media
+  - productivity
+docs_url: https://tableproof-data.mitchellwhite.chatgpt.site/dots
+endpoints:
+  - url: https://tableproof-data.mitchellwhite.chatgpt.site/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: JestSprout
+summary: AI meme coin generator for agents. Turns a theme into a coin name, ticker, lore and logo, and launches it on pump.fun from your own Solana wallet. Paid bot API via x402 (USDC on Base).
+category: finance
+tags:
+  - ai-agent
+  - content-creation
+  - crypto
+  - payment
+docs_url: https://jestsprout.polsia.io
+endpoints:
+  - url: https://jestsprout.polsia.io/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,14 @@
+name: Silicon Valley Atlas
+summary: Search sourced profiles of AI startups, founders, funding and investors; rank the companies most likely to buy a product from its website; keep outreach lists. Hosted at https://svatlas.io/mcp with Google sign-in (OAuth).
+category: search
+tags:
+  - crm
+  - data-analysis
+  - research
+  - sales
+  - web-research
+docs_url: https://svatlas.io/support
+endpoints:
+  - url: https://svatlas.io/mcp
+    transport: streamable-http
+    auth: unknown

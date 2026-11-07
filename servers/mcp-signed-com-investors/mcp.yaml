@@ -1,0 +1,12 @@
+name: Signed Angel Investor Directory
+summary: Search Signed's public angel investor directory by sector, check size, or keyword. No login needed.
+category: finance
+tags:
+  - finance
+  - research
+  - search
+docs_url: https://mcp.signed.com/investors
+endpoints:
+  - url: https://mcp.signed.com/investors
+    transport: streamable-http
+    auth: none

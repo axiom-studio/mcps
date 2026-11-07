@@ -1,0 +1,13 @@
+name: Springbrand.ai
+summary: The AI agent capability marketplace /给 AI 助手用的能力市场
+category: productivity
+tags:
+  - ai-agent
+  - marketplace
+  - productivity
+official: true
+docs_url: https://github.com/springbrand-lab/springbrand-agent-setup
+endpoints:
+  - url: https://connector.springbrand.ai/mcp
+    transport: streamable-http
+    auth: oauth

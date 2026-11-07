@@ -1,0 +1,14 @@
+name: APIVerve
+summary: 'One remote MCP server for about 370 ready-to-use APIs: validate emails and phone numbers, look up IPs, DNS, WHOIS and SSL certificates, get exchange rates, stock and SEC data, decode VINs, generate PDFs and screenshots, and more. OAuth or API key.'
+category: development
+tags:
+  - api
+  - data-analysis
+  - finance
+  - pdf
+  - web-scraping
+docs_url: https://apiverve.com/mcp
+endpoints:
+  - url: https://api.apiverve.com/v1/mcp
+    transport: streamable-http
+    auth: oauth

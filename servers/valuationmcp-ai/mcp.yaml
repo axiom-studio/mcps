@@ -1,0 +1,12 @@
+name: ValuationMCP
+summary: 'Values a wealth-management practice from facts your agent gathers from the firm''s own platforms: lists required data, records provenance, benchmarks against 23,740 Form ADV firms, then runs a seven-method blend with a quality multiplier and confidence score. 10 tools, 21 guided skills. Free account; OAuth.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+docs_url: https://valuationmcp.ai
+endpoints:
+  - url: https://valuationmcp.ai/mcp
+    transport: streamable-http
+    auth: oauth

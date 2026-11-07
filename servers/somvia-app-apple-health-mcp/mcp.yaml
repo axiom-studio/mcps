@@ -1,0 +1,13 @@
+name: Somvia
+summary: Reads Apple Health on iPhone and turns workouts and nightly readings into recovery, training-load and threshold scores. Claude, ChatGPT or an agent you run yourself can read the scores and workout detail over MCP.
+category: other
+tags:
+  - ai-agent
+  - data-analysis
+  - fitness
+  - healthcare
+docs_url: https://somvia.app/apple-health-mcp
+endpoints:
+  - url: https://somvia.app/mcp
+    transport: streamable-http
+    auth: oauth

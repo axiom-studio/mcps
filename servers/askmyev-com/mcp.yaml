@@ -1,0 +1,12 @@
+name: AskMyEV
+summary: 'Ask your AI about your own Tesla: battery health, range, charging, tires, alerts and history. Read-only by default.'
+category: productivity
+tags:
+  - data-analysis
+  - iot
+  - productivity
+docs_url: https://askmyev.com
+endpoints:
+  - url: https://askmyev.com/mcp
+    transport: streamable-http
+    auth: oauth

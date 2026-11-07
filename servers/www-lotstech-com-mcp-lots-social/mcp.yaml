@@ -1,0 +1,13 @@
+name: LotsSocial
+summary: Schedule, publish and track social posts on 12 networks from any AI agent, with a full dashboard.
+category: marketing
+tags:
+  - content-creation
+  - marketing-automation
+  - social-media
+  - workflow-automation
+docs_url: https://www.lotstech.com/mcp/lots-social
+endpoints:
+  - url: https://api.lots.social/mcp
+    transport: streamable-http
+    auth: oauth

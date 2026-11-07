@@ -1,0 +1,13 @@
+name: Capgo
+summary: 'Capgo: push fixes to your Capacitor users in minutes, build signed iOS and Android apps without a Mac, and roll back in one click. Manage live updates, channels, rollouts, devices, native builds and stats from the hosted endpoint https://api.capgo.app/mcp or locally with npx @capgo/cli@latest mcp.'
+category: development
+tags:
+  - deployment
+  - development
+  - devops
+  - mobile
+docs_url: https://capgo.app/docs/ai/mcp/
+endpoints:
+  - url: https://api.capgo.app/mcp
+    transport: streamable-http
+    auth: unknown

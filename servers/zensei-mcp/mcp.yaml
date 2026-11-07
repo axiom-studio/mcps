@@ -1,0 +1,13 @@
+name: Zensei MCP
+summary: 'Gives AI agents live sector rotation data: 100+ sectors classified as leading, lagging, improving or weakening vs the S&P 500, the stocks driving each move, and a macro risk-on/risk-off regime read. Remote server, OAuth with a Zensei account.'
+category: finance
+tags:
+  - ai-agent
+  - data-analysis
+  - finance
+official: true
+docs_url: https://www.zensei.com
+endpoints:
+  - url: https://www.zensei.com/mcp
+    transport: streamable-http
+    auth: oauth

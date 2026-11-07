@@ -1,0 +1,15 @@
+name: ToolForte
+summary: '180 tools that give an agent exact answers instead of guesses: IBAN and VAT validation, cron, regex, JSON, dates, Dutch test data (BSN, IBAN, BRP), PDF and image renders, agent memory and saved workflows. Remote server, 150 utilities free without a key.'
+category: development
+tags:
+  - data-analysis
+  - development
+  - document
+  - file-conversion
+  - productivity
+registry_name: io.github.Toinedotcom/toolforte
+docs_url: https://toolforte.com/mcp
+endpoints:
+  - url: https://toolforte.com/api/mcp
+    transport: streamable-http
+    auth: api-key

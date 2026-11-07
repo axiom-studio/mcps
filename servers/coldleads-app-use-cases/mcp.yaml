@@ -1,0 +1,11 @@
+name: Cold Leads
+summary: Import and manage contacts, verify email addresses, track conversations, and create outreach campaigns with Cold Leads.
+category: marketing
+tags:
+  - marketing
+  - marketing-automation
+docs_url: https://coldleads.app/use-cases
+endpoints:
+  - url: https://coldleads.app/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: deed.page
+summary: 'Publish static sites to permanent URLs in one call: no account, email code, or claim link. Seven MCP tools for publish, update, and manage.'
+category: cloud-service
+tags:
+  - cloud-storage
+  - deployment
+  - file-management
+  - web-scraping
+docs_url: https://deed.page/docs
+endpoints:
+  - url: https://deed.page/mcp
+    transport: streamable-http
+    auth: none

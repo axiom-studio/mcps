@@ -1,0 +1,14 @@
+name: TRDEFI Liquidity
+summary: 'Live non-custodial stablecoin liquidity: open USDC/USDT maker positions across Ethereum, Base, Arbitrum, Optimism, Polygon and BNB Chain, plus an on-chain swap quote. Free, no key.'
+category: finance
+tags:
+  - crypto
+  - defi
+  - evm
+  - finance
+  - trading
+docs_url: https://github.com/TRDEFI/mcp-server
+endpoints:
+  - url: https://yield.trdefi.com/mcp
+    transport: streamable-http
+    auth: unknown

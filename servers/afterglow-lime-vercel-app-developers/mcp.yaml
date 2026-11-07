@@ -1,0 +1,12 @@
+name: Afterglow
+summary: Read applicable breakup and separation checklists and save confirmed task progress.
+category: productivity
+tags:
+  - document
+  - productivity
+  - task-management
+docs_url: https://afterglow-lime.vercel.app/developers
+endpoints:
+  - url: https://afterglow-lime.vercel.app/mcp
+    transport: streamable-http
+    auth: oauth

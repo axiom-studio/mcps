@@ -1,0 +1,14 @@
+name: Quote.Trade MCP Adapter
+summary: 'Official hosted MCP for Quote.Trade: market data, account/positions/risk, orders and cancels, deposits, and stablecoin withdrawals to the user''s own wallet.'
+category: finance
+tags:
+  - data-analysis
+  - document
+  - documentation
+  - finance
+  - trading
+docs_url: https://doc.quote.trade/for-agents/
+endpoints:
+  - url: https://quote.trade/mcp
+    transport: streamable-http
+    auth: api-key

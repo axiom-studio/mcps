@@ -1,0 +1,14 @@
+name: Balzac
+summary: 'Balzac MCP server: research keywords, write and publish SEO blog articles, manage workspaces, suggestions, briefings and Search Console data from Claude, ChatGPT or Cursor.'
+category: marketing
+tags:
+  - analytics
+  - content-creation
+  - marketing
+  - seo
+  - web-research
+docs_url: https://github.com/hirebalzac/mcp
+endpoints:
+  - url: https://mcp.hirebalzac.ai
+    transport: streamable-http
+    auth: oauth

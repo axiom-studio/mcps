@@ -1,0 +1,13 @@
+name: Protoship
+summary: Your agent picks parts for an ESP32 device; Protoship quotes it, has it assembled and delivers it.
+category: other
+tags:
+  - business-operations
+  - ecommerce
+  - inventory
+  - iot
+docs_url: https://protoship.dev
+endpoints:
+  - url: https://mcp.protoship.dev
+    transport: streamable-http
+    auth: none

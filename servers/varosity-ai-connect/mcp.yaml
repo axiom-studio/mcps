@@ -1,0 +1,14 @@
+name: Varosity
+summary: Generate video, images, voiceovers and music with 60+ AI models (Veo 3.1, Kling 3.0, Seedance, FLUX, ElevenLabs, Suno) from one Varosity account. Remote MCP server with OAuth sign-in or API key; pay per generation with a daily spend cap.
+category: design
+tags:
+  - ai-model
+  - audio
+  - content-creation
+  - media
+  - video
+docs_url: https://varosity.ai/connect
+endpoints:
+  - url: https://varosity.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

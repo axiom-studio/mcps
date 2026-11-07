@@ -1,0 +1,14 @@
+name: Lodestone
+summary: 'Hosted MCP connector: messaging, email, Airbnb, Amazon, Reddit and Meta Ads from one URL.'
+category: communication
+tags:
+  - communication
+  - ecommerce
+  - email-automation
+  - marketing
+  - social-media
+docs_url: https://lodestone.studiocorsair.com/docs.html
+endpoints:
+  - url: https://lodestone.studiocorsair.com/mcp
+    transport: streamable-http
+    auth: oauth

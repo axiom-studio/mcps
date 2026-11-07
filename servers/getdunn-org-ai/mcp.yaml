@@ -1,0 +1,13 @@
+name: Dunn
+summary: 'Free, read-only invoice tools for AI assistants: work out due dates from payment terms, calculate late fees, check how late an invoice is, and draft payment reminder emails. No sign-in needed. Dunn itself sends the reminders and applies the agreed late fee automatically through your own Stripe account.'
+category: finance
+tags:
+  - email-automation
+  - finance
+  - payment
+  - stripe
+docs_url: https://getdunn.org/ai
+endpoints:
+  - url: https://getdunn.org/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,14 @@
+name: X402 Git
+summary: Find and buy private git repos and agent skills with USDC over x402. Search and manifests are free.
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - finance
+  - git
+  - marketplace
+docs_url: https://x402git.com
+endpoints:
+  - url: https://x402git.com/api/mcp
+    transport: streamable-http
+    auth: none

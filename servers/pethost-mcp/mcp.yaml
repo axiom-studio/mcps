@@ -1,0 +1,13 @@
+name: Pethost
+summary: A small cloud for personal projects. Easy to use for you and your agent.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - deployment
+  - devops-infrastructure
+official: true
+docs_url: https://github.com/pethost-dev/plugin
+endpoints:
+  - url: https://mcp.pethost.dev/mcp
+    transport: streamable-http
+    auth: oauth

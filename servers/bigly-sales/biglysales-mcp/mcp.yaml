@@ -1,0 +1,14 @@
+name: BiglySales
+summary: Configure the AI sales assistant that calls and texts your leads (voice, SMS, follow-ups, web calling) from Claude, ChatGPT or any MCP client.
+category: marketing
+tags:
+  - ai-agent
+  - communication
+  - marketing-automation
+  - sales
+  - sms
+docs_url: https://github.com/Bigly-Sales/biglysales-mcp
+endpoints:
+  - url: https://app.biglysales.com/mcp
+    transport: streamable-http
+    auth: oauth

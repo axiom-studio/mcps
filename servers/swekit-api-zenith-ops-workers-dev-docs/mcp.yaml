@@ -1,0 +1,12 @@
+name: SweKit - Swedish validators
+summary: Swedish personnummer, orgnr, bankgiro, OCR, account to IBAN and bank days as a read-only remote MCP server.
+category: finance
+tags:
+  - api
+  - data-analysis
+  - finance
+docs_url: https://swekit-api.zenith-ops.workers.dev/docs
+endpoints:
+  - url: https://swekit-api.zenith-ops.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

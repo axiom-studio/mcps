@@ -1,0 +1,12 @@
+name: Recipe Nutrition Calculator MCP
+summary: Recipe calories and macros per serving from USDA FoodData Central with FDA label rounding
+category: other
+tags:
+  - api
+  - data-analysis
+  - healthcare
+docs_url: https://github.com/theluckystrike/recipe-nutrition-calculator-mcp
+endpoints:
+  - url: https://recipe-nutrition-calculator-mcp.lipmichal.workers.dev/mcp
+    transport: streamable-http
+    auth: none

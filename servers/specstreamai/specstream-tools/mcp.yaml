@@ -1,0 +1,12 @@
+name: SpecStream
+summary: 'Give your agent finished lists from the live web: every row with its source, priced per match. Ask in plain English for companies, local businesses, tenders, grants, jobs or research papers and get only the rows that fit.'
+category: search
+tags:
+  - knowledge-retrieval
+  - search
+  - web-research
+docs_url: https://github.com/Specstreamai/specstream-tools
+endpoints:
+  - url: https://api.specstream.ai/mcp
+    transport: streamable-http
+    auth: oauth

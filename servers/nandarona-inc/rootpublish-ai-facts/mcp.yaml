@@ -1,0 +1,13 @@
+name: Rootpublish AI facts check
+summary: Checks what AI assistants tell buyers about a company (plans, prices, contract terms, what is included) against the company's own pricing and service pages, and keeps only differences whose quotes are really in the answer and on the page. Remote server for ChatGPT and other assistants; a Claude plugin (MIT) runs the same check on your own Claude.
+category: marketing
+tags:
+  - ai-agent
+  - marketing
+  - research
+  - web-research
+docs_url: https://github.com/nandarona-inc/rootpublish-ai-facts
+endpoints:
+  - url: https://rootpublish.com/mcp
+    transport: streamable-http
+    auth: none

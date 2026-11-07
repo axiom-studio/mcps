@@ -1,0 +1,13 @@
+name: favowe
+summary: 'favowe is a web app for bookmarks. this remote server lets your own ai agent search, read and organize your boards: links, tags, notes and html, pdf, markdown and image documents. 38 tools, 8 read and 30 write.'
+category: productivity
+tags:
+  - document
+  - file-management
+  - knowledge-retrieval
+  - productivity
+docs_url: https://mcp.favowe.com/
+endpoints:
+  - url: https://mcp.favowe.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,11 @@
+name: Taxley UK Corporation Tax
+summary: 'Free remote MCP server for UK Corporation Tax: CT600 and Companies House deadlines, Corporation Tax estimate with marginal relief, late filing penalties and interest, director''s loan (s455) tax, capital allowances, chargeable gains, long accounting period split and micro/small company size check. No sign-up or API key.'
+category: finance
+tags:
+  - business-operations
+  - finance
+docs_url: https://taxley.co.uk/developers
+endpoints:
+  - url: https://taxley.co.uk/mcp
+    transport: streamable-http
+    auth: none

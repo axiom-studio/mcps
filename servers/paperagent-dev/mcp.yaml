@@ -1,0 +1,12 @@
+name: PaperAgent — Send Physical Mail
+summary: Mail one-off USPS letters from ChatGPT or Claude after you approve the preview and price. US only.
+category: communication
+tags:
+  - api
+  - communication
+  - workflow-automation
+docs_url: https://paperagent.dev
+endpoints:
+  - url: https://paperagent.dev/mcp
+    transport: streamable-http
+    auth: oauth

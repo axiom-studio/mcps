@@ -1,0 +1,14 @@
+name: Keepp
+summary: Build a small business website or link-in-bio page with a store, bookings and a live chat.
+category: productivity
+tags:
+  - cms
+  - communication
+  - ecommerce
+  - productivity
+  - workflow-automation
+docs_url: https://keepp.link/developers
+endpoints:
+  - url: https://api.keepp.link/mcp
+    transport: streamable-http
+    auth: oauth

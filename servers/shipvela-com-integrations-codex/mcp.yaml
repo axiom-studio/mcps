@@ -1,0 +1,13 @@
+name: Shipvela
+summary: Deploy GitHub projects to Shipvela from an MCP client, inspect build logs and retrieve live URLs. Hosted Streamable HTTP with OAuth. Local prebuilt websites use the separately authenticated CLI.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - deployment
+  - devops
+  - github
+docs_url: https://shipvela.com/integrations/codex
+endpoints:
+  - url: https://shipvela.com/mcp
+    transport: streamable-http
+    auth: oauth

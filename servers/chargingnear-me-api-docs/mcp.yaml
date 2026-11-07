@@ -1,0 +1,12 @@
+name: ChargingNear.me
+summary: 'Find US EV charging stations. Search 95,724 stations in all 50 states by location, route, network and connector; get station details plus city and state charging stats. Data synced daily from the U.S. Department of Energy NREL database. Read-only, no key: https://chargingnear.me/api/mcp'
+category: search
+tags:
+  - geospatial
+  - government
+  - search
+docs_url: https://chargingnear.me/api-docs
+endpoints:
+  - url: https://chargingnear.me/api/mcp
+    transport: streamable-http
+    auth: none

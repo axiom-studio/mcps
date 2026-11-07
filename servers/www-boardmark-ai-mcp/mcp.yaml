@@ -1,0 +1,13 @@
+name: BoardMark
+summary: 'Issue board for teams: let your AI agent find, create and move issues, run Scrum sprints, comment and keep project docs, with your own permissions (OAuth).'
+category: productivity
+tags:
+  - ai-agent
+  - project-management
+  - task-management
+  - workflow-automation
+docs_url: https://www.boardmark.ai/mcp
+endpoints:
+  - url: https://mcp.boardmark.ai/mcp
+    transport: streamable-http
+    auth: oauth

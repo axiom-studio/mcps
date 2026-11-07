@@ -1,0 +1,14 @@
+name: Serpel
+summary: 'SEO infrastructure for developers and AI agents: track Google rankings, audit sites, research keywords, and monitor AI visibility through MCP.'
+category: search
+tags:
+  - knowledge-retrieval
+  - marketing
+  - search
+  - seo
+  - web-research
+docs_url: https://github.com/Serpelapp/serpel-plugin
+endpoints:
+  - url: https://serpel.app/mcp
+    transport: streamable-http
+    auth: oauth

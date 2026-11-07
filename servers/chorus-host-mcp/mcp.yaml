@@ -1,0 +1,13 @@
+name: chorus.host
+summary: Publish HTML, static sites and files to a live URL from any agent, no account needed
+category: cloud-service
+tags:
+  - cloud-storage
+  - deployment
+  - file-management
+  - web-scraping
+docs_url: https://chorus.host/mcp
+endpoints:
+  - url: https://chorus.host/mcp
+    transport: streamable-http
+    auth: unknown

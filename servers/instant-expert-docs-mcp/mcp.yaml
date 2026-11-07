@@ -1,0 +1,13 @@
+name: Instant Expert
+summary: Find specific executives, operators and domain experts, then invite them to a paid short call or written answer. Pay only if they book or answer.
+category: communication
+tags:
+  - business-operations
+  - communication
+  - marketplace
+  - research
+docs_url: https://instant.expert/docs/mcp
+endpoints:
+  - url: https://instant.expert/mcp
+    transport: streamable-http
+    auth: oauth

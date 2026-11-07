@@ -1,0 +1,13 @@
+name: AgentAtlas
+summary: Ask your coding agent how to set up Claude Code, Codex, Cursor, Gemini CLI and more, get install commands for official MCP servers, and compare plugins, evals and pricing. Every answer is sourced from vendor docs.
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - development
+  - documentation
+docs_url: https://agentatlas.dev/mcp-server
+endpoints:
+  - url: https://agentatlas.dev/api/mcp
+    transport: streamable-http
+    auth: none

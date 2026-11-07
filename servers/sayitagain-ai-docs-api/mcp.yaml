@@ -1,0 +1,14 @@
+name: Say It Again
+summary: Read a store's product page, write 3 scripts and make an AI UGC video with a generated presenter.
+category: marketing
+tags:
+  - ai-model
+  - content-creation
+  - ecommerce
+  - marketing
+  - video
+docs_url: https://sayitagain.ai/docs/api
+endpoints:
+  - url: https://app.sayitagain.ai/mcp
+    transport: streamable-http
+    auth: oauth

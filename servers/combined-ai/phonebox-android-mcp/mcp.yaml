@@ -1,0 +1,13 @@
+name: Phonebox (Android for AI agents)
+summary: 'Hosted Android MCP server: give Claude Code, Codex or Cursor a cloud Android phone to read the screen, tap, type, install APKs and park. No ADB or emulator.'
+category: development
+tags:
+  - ai-agent
+  - cloud-infrastructure
+  - mobile
+  - testing-qa
+docs_url: https://github.com/combined-ai/phonebox-android-mcp
+endpoints:
+  - url: https://phonebox.dev/mcp
+    transport: streamable-http
+    auth: api-key

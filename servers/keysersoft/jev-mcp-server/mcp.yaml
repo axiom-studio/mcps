@@ -1,0 +1,11 @@
+name: Jev MCP Server (TypeSafe Jev)
+summary: 'Use TypeSafe''s Jev decision model from Claude, ChatGPT, Cursor or Gemini: yes/no checks, classification and scoring with probabilities in about 300 ms. Remote server with OAuth, one shared encrypted key for a team, self-hostable (AnythingMCP).'
+category: productivity
+tags:
+  - ai-model
+  - productivity
+docs_url: https://github.com/keysersoft/jev-mcp-server
+endpoints:
+  - url: https://cloud.anythingmcp.com/mcp
+    transport: streamable-http
+    auth: oauth

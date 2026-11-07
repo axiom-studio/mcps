@@ -1,0 +1,13 @@
+name: LFG Alarm
+summary: 'Set and share alarms that ring on your phone: at a time, an event, a post or a token price.'
+category: productivity
+tags:
+  - crypto
+  - notifications
+  - productivity
+  - trading
+docs_url: https://lfg.gm/agents
+endpoints:
+  - url: https://mcp.lfg.gm
+    transport: streamable-http
+    auth: oauth

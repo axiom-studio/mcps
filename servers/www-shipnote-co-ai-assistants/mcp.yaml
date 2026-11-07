@@ -1,0 +1,13 @@
+name: ShipNote
+summary: Turn a registry or guest list into printed, stamped thank-you postcards. Browse designs, get a price, and save a draft to review and pay on shipnote.co. US addresses only.
+category: productivity
+tags:
+  - business-operations
+  - ecommerce
+  - payment
+  - productivity
+docs_url: https://www.shipnote.co/ai-assistants
+endpoints:
+  - url: https://www.shipnote.co/api/mcp/claude
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: Callejear Madrid
+summary: 'Read-only MCP for Madrid’s 9,400 official streets: search, coverage, street context and comparisons with partial service counts within 500 m.'
+category: search
+tags:
+  - data-analysis
+  - geospatial
+  - search
+docs_url: https://callejear.com/mcp/
+endpoints:
+  - url: https://callejear.com/api/mcp
+    transport: streamable-http
+    auth: none

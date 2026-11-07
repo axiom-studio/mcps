@@ -1,0 +1,13 @@
+name: CanaryGuard 402
+summary: Deterministic prompt-injection firewall, EIP-712 security audit, and dual-chain x402 MCP tools.
+category: development
+tags:
+  - ai-agent
+  - evm
+  - security
+  - smart-contracts
+docs_url: https://canaryguard-402.onrender.com
+endpoints:
+  - url: https://canaryguard-402.onrender.com/mcp
+    transport: streamable-http
+    auth: unknown

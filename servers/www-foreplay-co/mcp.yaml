@@ -1,0 +1,14 @@
+name: Foreplay Ad Library
+summary: See exactly which ads your competitors are running, and why they work, by asking your AI to search more than 200 million ads from Facebook, Instagram, TikTok, YouTube and LinkedIn.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - marketing
+  - social-media
+  - web-research
+docs_url: https://www.foreplay.co
+endpoints:
+  - url: https://public.api.foreplay.co/mcp
+    transport: streamable-http
+    auth: oauth

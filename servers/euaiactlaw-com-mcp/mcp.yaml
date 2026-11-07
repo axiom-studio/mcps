@@ -1,0 +1,13 @@
+name: EU AI Act Explorer
+summary: Free, read-only MCP server answering from the EU AI Act - Regulation (EU) 2024/1689 as amended by Regulation (EU) 2026/1744. Verbatim articles, recitals, annexes and definitions, obligations by role, and application deadlines, always citing the Official Journal source. Hosted, no account, no API key.
+category: other
+tags:
+  - compliance
+  - government
+  - knowledge-retrieval
+  - research
+docs_url: https://euaiactlaw.com/mcp
+endpoints:
+  - url: https://mcp.euaiactlaw.com/mcp
+    transport: streamable-http
+    auth: none

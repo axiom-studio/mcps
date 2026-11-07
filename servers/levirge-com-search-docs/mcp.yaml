@@ -1,0 +1,14 @@
+name: Levirge Search
+summary: 'Web search and page reading for AI agents: search, open any page or JSON API, RSS feeds and YouTube transcripts, with a source link for every result.'
+category: search
+tags:
+  - knowledge-retrieval
+  - search
+  - web-research
+  - web-scraping
+  - youtube
+docs_url: https://levirge.com/search/docs
+endpoints:
+  - url: https://search.levirge.com/mcp
+    transport: streamable-http
+    auth: oauth

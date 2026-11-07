@@ -1,0 +1,14 @@
+name: Sevalla
+summary: 'Deploy, debug and manage Sevalla apps, static sites and databases: trigger deploys, read logs and metrics, roll back, and set env vars.'
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - database
+  - deployment
+  - devops
+  - log-management
+docs_url: https://github.com/sevalla/mcp
+endpoints:
+  - url: https://mcp.sevalla.com/mcp
+    transport: streamable-http
+    auth: oauth

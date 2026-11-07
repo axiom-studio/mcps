@@ -1,0 +1,13 @@
+name: NebenkostenPro
+summary: Free remote MCP server for German utility costs. Look up property tax rates for 10,304 municipalities, costs of 400 cities, housing benefit levels and deadlines, and get links to check or create a utility bill.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - government
+  - real-estate
+docs_url: https://github.com/julianfaalk/nebenkostenpro-mcp
+endpoints:
+  - url: https://nebenkostenpro.de/mcp
+    transport: streamable-http
+    auth: none

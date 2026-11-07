@@ -1,0 +1,11 @@
+name: theflamesgame
+summary: FLAMES name game plus love and friendship calculators by name. A game, not a prediction. Free remote MCP server, no auth.
+category: other
+tags:
+  - entertainment
+  - gaming
+docs_url: https://theflamesgame.com/for-ai
+endpoints:
+  - url: https://theflamesgame.com/mcp
+    transport: streamable-http
+    auth: none

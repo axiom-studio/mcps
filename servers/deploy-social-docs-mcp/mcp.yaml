@@ -1,0 +1,14 @@
+name: deploy.social
+summary: Post short-form videos to YouTube Shorts, Instagram Reels, TikTok, Facebook Reels, Threads, X and Bluesky from any MCP client.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - video
+  - workflow-automation
+docs_url: https://deploy.social/docs/mcp
+endpoints:
+  - url: https://api.deploy.social/mcp
+    transport: streamable-http
+    auth: oauth

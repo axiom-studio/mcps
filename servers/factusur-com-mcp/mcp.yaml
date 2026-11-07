@@ -1,0 +1,13 @@
+name: Factusur
+summary: Convert invoices (PDF, image, data) into Factur-X EN 16931 e-invoices and validate Factur-X.
+category: finance
+tags:
+  - compliance
+  - file-conversion
+  - finance
+  - pdf
+docs_url: https://factusur.com/mcp
+endpoints:
+  - url: https://factusur.com/mcp
+    transport: streamable-http
+    auth: oauth

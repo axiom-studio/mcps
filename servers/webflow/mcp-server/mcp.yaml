@@ -1,0 +1,14 @@
+name: Webflow
+summary: Interact with Webflow APIs to list and edit your site and CMS data.
+category: cloud-service
+tags:
+  - cms
+  - content-creation
+  - web-scraping
+official: true
+registry_name: com.webflow/mcp
+docs_url: https://github.com/webflow/mcp-server
+endpoints:
+  - url: https://mcp.webflow.com/mcp
+    transport: streamable-http
+    auth: oauth

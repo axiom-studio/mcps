@@ -1,0 +1,13 @@
+name: Stick
+summary: Build and edit link-in-bio and landing pages on Stick from chat. Saves drafts; you publish.
+category: productivity
+tags:
+  - cms
+  - content-creation
+  - design-to-code
+  - productivity
+docs_url: https://www.stick.so/mcp
+endpoints:
+  - url: https://app.stick.so/api/mcp
+    transport: streamable-http
+    auth: oauth

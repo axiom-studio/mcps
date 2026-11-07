@@ -1,0 +1,13 @@
+name: Urantia Papers
+summary: Read and search the Urantia Papers by reference, keyword, or meaning, with named entities and Bible cross-references.
+category: search
+tags:
+  - document
+  - knowledge-retrieval
+  - research
+  - search
+docs_url: https://docs.urantia.dev/mcp-servers
+endpoints:
+  - url: https://api.urantia.dev/mcp
+    transport: streamable-http
+    auth: none

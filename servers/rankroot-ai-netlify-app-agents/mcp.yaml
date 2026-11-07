@@ -1,0 +1,13 @@
+name: RankRoot AI Visibility
+summary: Audit any website's visibility to ChatGPT, Perplexity, Claude and AI agents (AI crawler access, llms.txt, schema, agent readiness) and generate ready-to-publish llms.txt, robots.txt and JSON-LD. Free remote MCP server, no API key needed.
+category: marketing
+tags:
+  - ai-agent
+  - content-creation
+  - seo
+  - web-research
+docs_url: https://rankroot-ai.netlify.app/agents
+endpoints:
+  - url: https://rankroot-ai.netlify.app/api/mcp
+    transport: streamable-http
+    auth: none

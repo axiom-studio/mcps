@@ -1,0 +1,12 @@
+name: IT Support Directory
+summary: 'Read-only access to a UK directory of IT support companies and MSPs: list areas, search providers by area and service, get a provider''s details and nearby providers.'
+category: search
+tags:
+  - business-operations
+  - marketplace
+  - search
+docs_url: https://itsupport.directory/mcp
+endpoints:
+  - url: https://itsupport.directory/mcp
+    transport: streamable-http
+    auth: none

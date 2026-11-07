@@ -1,0 +1,13 @@
+name: Equivista
+summary: Read-only Belgian company search, KBO data, financials, employees and company relationships.
+category: finance
+tags:
+  - api
+  - business-operations
+  - finance
+  - research
+docs_url: https://equivista.be/api/docs
+endpoints:
+  - url: https://equivista.be/mcp
+    transport: streamable-http
+    auth: api-key

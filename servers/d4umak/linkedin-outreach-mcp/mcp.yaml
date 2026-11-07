@@ -1,0 +1,14 @@
+name: HeyLead
+summary: 'LinkedIn outreach agent: finds the right people, writes to them in your own voice, follows up and handles replies. For sales prospecting, recruiting, user-interview recruitment, job search, and investor or partner outreach. Campaigns stay drafts until you launch them. Install: uvx heylead.'
+category: marketing
+tags:
+  - ai-agent
+  - communication
+  - marketing
+  - sales
+  - workflow-automation
+docs_url: https://github.com/D4umak/linkedin-outreach-mcp
+endpoints:
+  - url: https://heylead.dev/mcp
+    transport: streamable-http
+    auth: api-key

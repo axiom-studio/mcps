@@ -1,0 +1,14 @@
+name: Eagle Virtual USDT & USDC Blacklist Tracker
+summary: Check any wallet against the on-chain record of stablecoin freezes, blacklistings and seizures (USDT, USDC and 442 more coins on 35 blockchains). Dated, cited, no risk scores. Remote server, no account needed.
+category: finance
+tags:
+  - crypto
+  - database
+  - evm
+  - finance
+  - security
+docs_url: https://eaglevirtual.com/mcp
+endpoints:
+  - url: https://mcp.eaglevirtual.com/mcp
+    transport: streamable-http
+    auth: none

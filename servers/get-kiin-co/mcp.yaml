@@ -1,0 +1,14 @@
+name: Kiin Intelligence (LinkedIn Ads MCP)
+summary: 'Kiin is a LinkedIn Ads MCP for B2B teams. Ask Claude or ChatGPT about live ad accounts: audits, creative fatigue, demographics, company engagement, and influenced pipeline from HubSpot, Attio, or Pipedrive. Reads are deep; writes for campaigns, groups, targeting, creatives, and audiences use preview-then-confirm. Includes Kiin k-anonymous panel benchmarks and monitoring. Connect at get.kiin.co; remote MCP at mcp.kiin.co. Free tier available.'
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - crm
+  - marketing
+  - sales
+docs_url: https://get.kiin.co
+endpoints:
+  - url: https://mcp.kiin.co
+    transport: streamable-http
+    auth: unknown

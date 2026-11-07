@@ -1,0 +1,11 @@
+name: AI Mechanic
+summary: AI Mechanic — understand car symptoms and OBD-II codes, check recalls, get repair guidance.
+category: other
+tags:
+  - data-analysis
+  - iot
+docs_url: https://aimech.app
+endpoints:
+  - url: https://aimech.app/api/mcp
+    transport: streamable-http
+    auth: unknown

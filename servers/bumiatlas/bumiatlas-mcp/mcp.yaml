@@ -1,0 +1,13 @@
+name: 'BumiAtlas: Indonesia Land, Concessions & Zoning'
+summary: Indonesian land parcels (ATR/BPN), HGU, mining concessions, RDTR zoning and flood hazard.
+category: other
+tags:
+  - data-analysis
+  - geospatial
+  - government
+  - real-estate
+docs_url: https://github.com/BumiAtlas/bumiatlas-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: PingAura
+summary: 'See how AI answer engines mention your brand: visibility scores, competitors, prompts, site health audits and AI-optimised articles, in your PingAura workspace.'
+category: marketing
+tags:
+  - ai-model
+  - analytics
+  - marketing
+  - seo
+docs_url: https://www.pingaura.ai/docs/mcp/mcp-server
+endpoints:
+  - url: https://www.pingaura.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Luckynote
+summary: Search, read, organize, and save notes, links, files, and ideas in your personal Luckynote library.
+category: productivity
+tags:
+  - file-management
+  - knowledge-retrieval
+  - notes
+  - productivity
+docs_url: https://github.com/luckynotehq/luckynote-mcp
+endpoints:
+  - url: https://mcp.luckynote.io/mcp
+    transport: streamable-http
+    auth: oauth

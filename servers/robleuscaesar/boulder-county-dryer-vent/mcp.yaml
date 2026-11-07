@@ -1,0 +1,12 @@
+name: Boulder County Dryer Vent Booking
+summary: Book Boulder County dryer vent cleaning via MCP ($129/$169). Confirm in 1 business day.
+category: marketing
+tags:
+  - business-operations
+  - customer-ops
+  - workflow-automation
+docs_url: https://github.com/RobleusCaesar/boulder-county-dryer-vent
+endpoints:
+  - url: https://keeps-pty-ultimately-payroll.trycloudflare.com/mcp
+    transport: streamable-http
+    auth: api-key

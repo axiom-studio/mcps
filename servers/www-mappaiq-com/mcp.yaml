@@ -1,0 +1,13 @@
+name: MappaIQ
+summary: MappaIQ is the first open marketplace for commercial real estate listings with an MCP connector — search live CRE listings from Claude or ChatGPT, or drop in a spreadsheet and get a shareable map with parcel lookup. Free to start.
+category: productivity
+tags:
+  - data-analysis
+  - geospatial
+  - real-estate
+  - search
+docs_url: https://www.mappaiq.com
+endpoints:
+  - url: https://mappaiq.com/api/mcp
+    transport: streamable-http
+    auth: unknown

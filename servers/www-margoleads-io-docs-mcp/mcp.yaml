@@ -1,0 +1,13 @@
+name: Margo
+summary: Research business prospects with source evidence using your Margo account.
+category: marketing
+tags:
+  - marketing
+  - research
+  - sales
+  - web-research
+docs_url: https://www.margoleads.io/docs/mcp
+endpoints:
+  - url: https://www.margoleads.io/mcp
+    transport: streamable-http
+    auth: oauth

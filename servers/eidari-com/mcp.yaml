@@ -1,0 +1,13 @@
+name: Eidari
+summary: 'A profile you control: gives your AI your role, projects and preferences, across ChatGPT and Claude.'
+category: memory
+tags:
+  - ai-agent
+  - chatbot
+  - memory
+  - productivity
+docs_url: https://eidari.com
+endpoints:
+  - url: https://eidari.com/api/mcp
+    transport: streamable-http
+    auth: oauth

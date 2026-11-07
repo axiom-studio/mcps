@@ -1,0 +1,15 @@
+name: LiveReacting
+summary: Run 24/7 live streams of pre-recorded videos from the cloud, or schedule and live stream a single recorded video as live, and multistream to YouTube, Facebook, Twitch and any RTMP destination. Use the LiveReacting MCP server to build streams from your video library, schedule broadcasts, change the playlist while live, and check status and analytics from your AI assistant.
+category: cloud-service
+tags:
+  - analytics
+  - content-creation
+  - media
+  - video
+  - workflow-automation
+official: true
+docs_url: https://www.livereacting.com/mcp
+endpoints:
+  - url: https://mcp.livereacting.com/mcp
+    transport: streamable-http
+    auth: api-key

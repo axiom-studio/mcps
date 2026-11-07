@@ -1,0 +1,12 @@
+name: Cadourile.ro
+summary: 'Manage gift lists, gifts and reservations on Cadourile.ro (Romanian gift list app) from your AI assistant. 14 tools: create and edit lists, add gifts from a product link, reserve and cancel reservations. Requires a personal access token.'
+category: other
+tags:
+  - ecommerce
+  - productivity
+  - task-management
+docs_url: https://cadourile.ro/integrari
+endpoints:
+  - url: https://cadourile.ro/mcp
+    transport: streamable-http
+    auth: api-key

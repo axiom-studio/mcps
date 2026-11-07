@@ -1,0 +1,13 @@
+name: NobetciEczane.org
+summary: 'Today''s on-duty pharmacies (nöbetçi eczane) in all 81 provinces of Türkiye and the TRNC: list by province/district or find the nearest to a location, with address, phone and duty hours. Free, read-only, no authentication.'
+category: other
+tags:
+  - geospatial
+  - healthcare
+  - search
+  - web-research
+docs_url: https://nobetcieczane.org
+endpoints:
+  - url: https://nobetcieczane.org/mcp
+    transport: streamable-http
+    auth: none

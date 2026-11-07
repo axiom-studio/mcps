@@ -1,0 +1,15 @@
+name: FxSocket
+summary: 'Read-only access to hosted MetaTrader 4 and MT5 accounts: balances and equity, open positions and pending orders, trade history, symbol search, live quotes and candles.'
+category: finance
+tags:
+  - api
+  - finance
+  - marketplace
+  - trading
+official: true
+registry_name: com.fxsocket/mcp
+docs_url: https://fxsocket.com/docs/mcp
+endpoints:
+  - url: https://mcp.fxsocket.com/mcp
+    transport: streamable-http
+    auth: api-key

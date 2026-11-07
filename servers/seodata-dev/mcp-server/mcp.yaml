@@ -1,0 +1,13 @@
+name: seodata.dev
+summary: seodata.dev is a remote MCP server that gives Claude, ChatGPT, Cursor or any MCP client Google search volume, CPC, competition and similar keywords for 50+ countries. Paste the URL and it works with no signup; sign in for higher limits, or $4.99 a month for unlimited.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+  - web-research
+docs_url: https://github.com/seodata-dev/mcp-server
+endpoints:
+  - url: https://mcp.seodata.dev/mcp
+    transport: streamable-http
+    auth: none

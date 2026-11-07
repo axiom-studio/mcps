@@ -1,0 +1,10 @@
+name: JobSpidey
+summary: Search jobs, prepare tailored resumes and cover letters, retrieve PDFs, and track applications in JobSpidey. Your agent handles employer-site submission.
+category: productivity
+tags:
+  - browser-automation
+docs_url: https://jobspidey.com/mcp
+endpoints:
+  - url: https://mcp.jobspidey.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Humryk
+summary: 'Run a web shop for producers: orders, products, stock, B2B customers, subscriptions and website, each change confirmed.'
+category: productivity
+tags:
+  - business-operations
+  - crm
+  - ecommerce
+  - inventory
+docs_url: https://www.humryk.com/en/mcp
+endpoints:
+  - url: https://api.humryk.com/mcp
+    transport: streamable-http
+    auth: oauth

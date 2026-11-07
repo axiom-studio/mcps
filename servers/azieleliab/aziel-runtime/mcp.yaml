@@ -1,0 +1,11 @@
+name: aziel-runtime
+summary: Public MCP door for Aziel Runtime. Remote streamable HTTP. Already on the official MCP registry as io.github.AzielEliab/aziel-runtime 2.0.0-rc1.
+category: development
+tags:
+  - api
+  - development
+docs_url: https://github.com/AzielEliab/aziel-runtime
+endpoints:
+  - url: https://aziel-runtime.vibelock.workers.dev/mcp
+    transport: streamable-http
+    auth: none

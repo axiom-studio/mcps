@@ -1,0 +1,13 @@
+name: Ads Lighthouse MCP Server
+summary: Hosted MCP server for monitoring paid ads on brand searches, reviewing advertisers and affiliate findings, and accessing saved reports through OAuth 2.1.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - marketing
+  - research
+docs_url: https://adslighthouse.com/mcp
+endpoints:
+  - url: https://adslighthouse.com/api/v1/mcp
+    transport: streamable-http
+    auth: oauth

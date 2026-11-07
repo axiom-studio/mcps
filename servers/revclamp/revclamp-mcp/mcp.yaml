@@ -1,0 +1,14 @@
+name: RevClamp MCP Server
+summary: 'Deterministic B2B Revenue & Tax Compliance MCP Server (9 tools): Stripe 2025-03-31.basil subscription entitlement auditor, Visa CE 3.0 (10.4) compaction & 18K UTF-16 evidence linter, EU/XI VIES HTTP 200 soft-failure circuit breaker, Shopify B2B net-terms integer-cent calculator, and 72h webhook replay state-machine simulator.'
+category: finance
+tags:
+  - compliance
+  - finance
+  - payment
+  - shopify
+  - stripe
+docs_url: https://github.com/revclamp/revclamp-mcp
+endpoints:
+  - url: https://api.revclamp.com/api/mcp
+    transport: streamable-http
+    auth: unknown

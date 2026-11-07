@@ -1,0 +1,18 @@
+name: Upstream.so
+summary: |-
+  Run 24/7 live channels from the cloud, schedule pre-recorded broadcasts, multistream to YouTube, Twitch, and Kick, and host live shows in Upstream.so's browser-based Live Studio.
+
+  Use the Upstream MCP server to manage streams, media, playlists, schedules, and destinations from your AI assistant.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - media
+  - video
+  - workflow-automation
+official: true
+docs_url: https://upstream.so/mcp/
+website_url: https://upstream.so/
+endpoints:
+  - url: https://studio.upstream.so/mcp
+    transport: streamable-http
+    auth: oauth

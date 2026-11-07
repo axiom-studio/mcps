@@ -1,0 +1,12 @@
+name: SignUpSheet.page
+summary: Create sign-up sheets, date polls and group cards people join from one link. No accounts, no ads, 15 languages.
+category: productivity
+tags:
+  - calendar
+  - collaboration
+  - productivity
+docs_url: https://signupsheet.page/ai
+endpoints:
+  - url: https://signupsheet.page/mcp
+    transport: streamable-http
+    auth: none

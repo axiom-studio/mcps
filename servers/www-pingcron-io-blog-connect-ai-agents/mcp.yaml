@@ -1,0 +1,13 @@
+name: PingCron
+summary: PingCron's OAuth MCP server gives authorized assistants cron-monitor status, retained history, recorded incidents and cron-expression analysis; it does not run or repair jobs, and this listing is submitted by the PingCron team.
+category: development
+tags:
+  - ai-agent
+  - devops
+  - monitoring
+  - workflow-automation
+docs_url: https://www.pingcron.io/blog/connect-ai-agents
+endpoints:
+  - url: https://api.pingcron.io/mcp
+    transport: streamable-http
+    auth: oauth

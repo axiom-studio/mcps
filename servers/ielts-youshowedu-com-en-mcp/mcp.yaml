@@ -1,0 +1,12 @@
+name: Youshow IELTS
+summary: Read-only MCP server for IELTS Writing Task 2 sample answers, Speaking Part 2 cue card topics and Writing band descriptors. IELTS 写作范文、Part 2 话题卡与评分标准，只读，无需 API Key。
+category: other
+tags:
+  - documentation
+  - education
+  - knowledge-retrieval
+docs_url: https://ielts.youshowedu.com/en/mcp
+endpoints:
+  - url: https://ielts.youshowedu.com/api/mcp
+    transport: streamable-http
+    auth: none

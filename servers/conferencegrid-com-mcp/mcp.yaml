@@ -1,0 +1,12 @@
+name: ConferenceGrid
+summary: Find which conferences a company sponsors, exhibits at or speaks at, which events are open to sponsors, and which calls for speakers are still open. Verified B2B conference data with a last-verified date on every record.
+category: marketing
+tags:
+  - business-operations
+  - marketing
+  - research
+docs_url: https://conferencegrid.com/mcp
+endpoints:
+  - url: https://conferencegrid.com/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Livestock Counterparty Guard
+summary: Source-dated USDA Packers & Stockyards counterparty verification for livestock buyers, dealers, market agencies, and packers. Checks supported public USDA records for bond status, suspensions, and entity matches. Independent; not affiliated with USDA.
+category: other
+tags:
+  - business-operations
+  - compliance
+  - data-analysis
+  - research
+docs_url: https://usda-ps-counterparty-guard.hwinkler5866.workers.dev/
+endpoints:
+  - url: https://usda-ps-counterparty-guard.hwinkler5866.workers.dev/mcp
+    transport: streamable-http
+    auth: none

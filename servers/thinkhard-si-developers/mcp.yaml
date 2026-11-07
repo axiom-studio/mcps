@@ -1,0 +1,13 @@
+name: thinkhard.si prompt tools
+summary: Search and fill in 300+ expert prompt templates for work (email, meetings, presentations, job search, marketing, sales, HR, finance, legal), grade any prompt out of 10 on ten checks, and price a workload on current AI models. Free, no key or account. Remote at https://thinkhard.si/mcp, plus a local npx package that also checks drafts for AI-sounding phrases and lists facts to verify.
+category: productivity
+tags:
+  - ai-model
+  - llm
+  - productivity
+  - workflow-automation
+docs_url: https://thinkhard.si/developers/
+endpoints:
+  - url: https://thinkhard.si/mcp
+    transport: streamable-http
+    auth: none

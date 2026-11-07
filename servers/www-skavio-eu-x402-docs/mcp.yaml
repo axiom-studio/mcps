@@ -1,0 +1,13 @@
+name: Skavio USDC Paid Micro-APIs
+summary: Remote MCP server with 18 tools for USDC x402 payments on Base and Solana, payment verification, PDF evidence, DNS/TLS checks and authenticated AI/document processing.
+category: finance
+tags:
+  - crypto
+  - document
+  - finance
+  - payment
+docs_url: https://www.skavio.eu/x402/docs/
+endpoints:
+  - url: https://www.skavio.eu/mcp
+    transport: streamable-http
+    auth: unknown

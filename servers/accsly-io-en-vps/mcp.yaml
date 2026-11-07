@@ -1,0 +1,12 @@
+name: Accsly VPS
+summary: 'Remote MCP server (https://accsly.io/mcp, Streamable HTTP, no auth, read-only) for VPS, dedicated server and web hosting price comparison across thousands of providers: search_vps, get_vps_host, compare_hosts, vps_rating. Filter by price, country, CPU, RAM and payment method.'
+category: search
+tags:
+  - cloud-infrastructure
+  - marketplace
+  - search
+docs_url: https://accsly.io/en/vps
+endpoints:
+  - url: https://accsly.io/mcp
+    transport: streamable-http
+    auth: none

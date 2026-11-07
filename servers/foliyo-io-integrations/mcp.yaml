@@ -1,0 +1,14 @@
+name: Foliyo
+summary: Create, brand, publish and track client-ready reports, proposals and research pages from your AI tools, with reusable client brands, stable share links and access controls.
+category: productivity
+tags:
+  - collaboration
+  - content-creation
+  - document
+  - file-management
+  - productivity
+docs_url: https://foliyo.io/integrations
+endpoints:
+  - url: https://foliyo.io/mcp
+    transport: streamable-http
+    auth: oauth

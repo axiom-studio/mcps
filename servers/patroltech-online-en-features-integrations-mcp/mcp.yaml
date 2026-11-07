@@ -1,0 +1,13 @@
+name: PatrolTech
+summary: 'Run security guard patrols by asking: missed rounds, suspicious QR/NFC checkpoint scans, guard activity, incidents and access logs, plus checkpoints and routes set up only after you confirm. OAuth, free plan.'
+category: productivity
+tags:
+  - business-operations
+  - compliance
+  - notifications
+  - security
+docs_url: https://patroltech.online/en/features/integrations/mcp
+endpoints:
+  - url: https://mcp.patroltech.online/mcp
+    transport: streamable-http
+    auth: oauth

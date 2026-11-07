@@ -1,0 +1,14 @@
+name: BubblaV
+summary: Official hosted MCP server for BubblaV, the AI customer-support chatbot. Read analytics, find unanswered questions and content gaps, manage the knowledge base, review conversations and leads, and update the chatbot persona and widget. OAuth 2.1, no API key needed.
+category: communication
+tags:
+  - analytics
+  - chatbot
+  - communication
+  - customer-ops
+  - knowledge-retrieval
+docs_url: https://www.bubblav.com
+endpoints:
+  - url: https://www.bubblav.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: TCPLab Network Tools
+summary: Free, no-API-key network lookups for AI agents — IP geolocation, DNS, WHOIS, HTTP and SSL/TLS certificate checks, and full domain health reports.
+category: development
+tags:
+  - devops-infrastructure
+  - network-automation
+  - security
+  - web-research
+docs_url: https://tcp.lc/page/mcp
+endpoints:
+  - url: https://tcp.lc/mcp
+    transport: streamable-http
+    auth: none

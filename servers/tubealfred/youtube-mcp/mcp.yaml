@@ -1,0 +1,14 @@
+name: TubeAlfred Youtube MCP
+summary: Fetch YouTube transcripts, comments, videos, channels, playlists, Shorts, search results, and trending data through Youtube MCP.
+category: web-scraping
+tags:
+  - audio
+  - knowledge-retrieval
+  - search
+  - video
+  - youtube
+docs_url: https://github.com/tubealfred/youtube-mcp
+endpoints:
+  - url: https://mcp.tubealfred.com/
+    transport: streamable-http
+    auth: oauth

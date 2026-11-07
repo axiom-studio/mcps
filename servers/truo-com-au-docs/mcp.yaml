@@ -1,0 +1,12 @@
+name: Truo
+summary: 'Ask your AI about your own Australian bank accounts via Australia''s Consumer Data Right. Read-only at the bank; OAuth remote MCP. Endpoint: https://connect.truo.com.au/mcp'
+category: finance
+tags:
+  - finance
+  - identity
+  - openapi
+docs_url: https://truo.com.au/docs
+endpoints:
+  - url: https://connect.truo.com.au/mcp
+    transport: streamable-http
+    auth: unknown

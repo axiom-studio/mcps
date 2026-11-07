@@ -1,0 +1,12 @@
+name: Tariff & HS Code Duty Finder
+summary: Find an HS code, HTS code or customs code for a product and read the customs duty or import tax. Free, hosted, no API key.
+category: finance
+tags:
+  - ai-model
+  - anthropic
+  - llm
+docs_url: https://tools.openkrill.app/integrations/tariffs/claude
+endpoints:
+  - url: https://tariffs.openkrill.app/mcp
+    transport: streamable-http
+    auth: none

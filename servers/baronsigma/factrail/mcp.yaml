@@ -1,0 +1,13 @@
+name: FACTRAIL
+summary: FACTRAIL — Evidence infrastructure for AI agents. Structured, source-backed real-world evidence with provenance, freshness, explicit uncertainty, and reusable receipts. French company verification is available now; trade/import assessment is in beta.
+category: search
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - research
+  - web-research
+docs_url: https://github.com/baronsigma/factrail
+endpoints:
+  - url: https://mcp.factrail.online/mcp
+    transport: streamable-http
+    auth: none

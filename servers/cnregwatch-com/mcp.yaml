@@ -1,0 +1,12 @@
+name: China Data (CN RegWatch)
+summary: 'Remote MCP server for China travel and trade data: visa-free entry eligibility by nationality (with sources and last-checked dates) and the latest Chinese regulation changes. Free keyless tools: list_capabilities, get_pricing, sample_eligibility. Paid lookups via Stripe credit packs or USDC on Base.'
+category: other
+tags:
+  - data-analysis
+  - government
+  - research
+docs_url: https://cnregwatch.com
+endpoints:
+  - url: https://cnregwatch.com/mcp
+    transport: streamable-http
+    auth: unknown

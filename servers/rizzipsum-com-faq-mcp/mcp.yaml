@@ -1,0 +1,12 @@
+name: Rizz Ipsum
+summary: Lorem ipsum filler text in Gen Z, Gen Alpha, Millennial and Gen X slang. Remote, no auth, read-only.
+category: design
+tags:
+  - content-creation
+  - design
+  - text-to-speech
+docs_url: https://rizzipsum.com/faq/mcp/
+endpoints:
+  - url: https://mcp.rizzipsum.com/mcp
+    transport: streamable-http
+    auth: none

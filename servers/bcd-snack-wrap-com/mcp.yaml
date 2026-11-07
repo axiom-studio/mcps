@@ -1,0 +1,13 @@
+name: BCD — Bridge Control Delegate
+summary: 'Use your own Mac from ChatGPT, Claude or Codex: files, commands, documents and a browser. Read-only by default.'
+category: productivity
+tags:
+  - browser-automation
+  - file-management
+  - macos
+  - productivity
+docs_url: https://bcd.snack-wrap.com/
+endpoints:
+  - url: https://bcd.snack-wrap.com/mcp
+    transport: streamable-http
+    auth: oauth

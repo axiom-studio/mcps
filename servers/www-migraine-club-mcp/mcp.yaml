@@ -1,0 +1,12 @@
+name: Migraine.Club
+summary: A complete migraine toolkit in one place. No fluff.
+category: other
+tags:
+  - fitness
+  - healthcare
+  - research
+docs_url: https://www.migraine.club/mcp
+endpoints:
+  - url: https://www.migraine.club/api/mcp
+    transport: streamable-http
+    auth: oauth

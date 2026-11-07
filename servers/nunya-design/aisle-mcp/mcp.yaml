@@ -1,0 +1,12 @@
+name: Aisle
+summary: Search wedding venues and suppliers, plan budgets and timelines, and manage wedding details, guests and events with your AI assistant.
+category: productivity
+tags:
+  - knowledge-retrieval
+  - productivity
+  - search
+docs_url: https://github.com/Nunya-design/aisle-mcp
+endpoints:
+  - url: https://aisle.wedding/api/claude/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Cekura
+summary: 'Test and monitor voice and chat AI agents from your AI assistant: run simulated calls, score live calls and manage evals.'
+category: development
+tags:
+  - ai-agent
+  - audio
+  - monitoring
+  - testing-qa
+docs_url: https://docs.cekura.ai/mcp/overview
+endpoints:
+  - url: https://api.cekura.ai/mcp
+    transport: streamable-http
+    auth: oauth

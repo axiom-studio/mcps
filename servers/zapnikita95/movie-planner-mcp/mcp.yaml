@@ -1,0 +1,12 @@
+name: Movie Planner MCP
+summary: Watchlists, cinema showtimes, and tracked ticket links for AI agents.
+category: productivity
+tags:
+  - entertainment
+  - media
+  - productivity
+docs_url: https://github.com/zapnikita95/movie-planner-mcp
+endpoints:
+  - url: https://api.movie-planner.ru/mcp
+    transport: streamable-http
+    auth: oauth

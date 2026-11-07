@@ -1,0 +1,13 @@
+name: Postbox Services - Email Deliverability & Security Tools
+summary: 'Run real email checks from your AI: 24 blacklists, spoofing/BEC grade, URL redirect tracing, email spam tests, domain age and WHOIS. Free, no account.'
+category: communication
+tags:
+  - communication
+  - email-automation
+  - security
+  - testing-qa
+docs_url: https://postboxservices.com/mcp/
+endpoints:
+  - url: https://mcp.postboxservices.com/mcp
+    transport: streamable-http
+    auth: none

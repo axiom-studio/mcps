@@ -1,0 +1,13 @@
+name: Gydmation
+summary: 'Build, check and fix n8n workflows from your AI assistant: 1,100+ n8n node definitions, curated templates and a validator.'
+category: development
+tags:
+  - code-quality
+  - development
+  - n8n
+  - workflow-automation
+docs_url: https://gydmation.com/mcp-server
+endpoints:
+  - url: https://gydmation-relay.gydmationai.workers.dev/mcp
+    transport: streamable-http
+    auth: oauth

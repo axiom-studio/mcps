@@ -1,0 +1,13 @@
+name: superagnt_
+summary: 'Agent toolkit for builders: one MCP server for database, memory, schedules and data tools.'
+category: development
+tags:
+  - database
+  - development
+  - memory
+  - workflow-automation
+docs_url: https://superagnt.com/agent-toolkit
+endpoints:
+  - url: https://mcp.superagnt.com/mcp
+    transport: streamable-http
+    auth: unknown

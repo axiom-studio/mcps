@@ -1,0 +1,13 @@
+name: Syl Guardian
+summary: Causal guardrail for AI agents. Before an agent changes ad spend or a budget, Guardian checks whether the claimed spend-to-revenue (ROAS) lift is causal and returns pass, caution or hold with the naive vs. confounder-adjusted effect.
+category: marketing
+tags:
+  - advertising
+  - ai-agent
+  - analytics
+  - marketing
+docs_url: https://sylai.io/guardian
+endpoints:
+  - url: https://guardian.sylai.io/mcp
+    transport: streamable-http
+    auth: none

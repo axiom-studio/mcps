@@ -1,0 +1,12 @@
+name: Grandet
+summary: Find the cheapest API relay or provider for any model from a price directory refreshed weekly, plus official and relay free credits. Remote, no sign-up or API key.
+category: development
+tags:
+  - ai-model
+  - api
+  - research
+docs_url: https://grandet.ai
+endpoints:
+  - url: https://grandet.ai/mcp
+    transport: streamable-http
+    auth: none

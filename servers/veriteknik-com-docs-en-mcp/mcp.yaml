@@ -1,0 +1,13 @@
+name: VeriTeknik
+summary: 'Manage VeriTeknik servers, DNS, backups and support tickets from your AI assistant: server health, logs, DNS changes and tickets.'
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - customer-ops
+  - devops-infrastructure
+  - monitoring
+docs_url: https://veriteknik.com/docs/en/mcp/
+endpoints:
+  - url: https://veriteknik.com/api/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Pharallax Business Analysis
+summary: Analyze any business website for structural blind spots. One tool, analyze_business, returns a 0 to 100 structural health score, the three biggest blind spots, and the pattern underneath the business. Remote server, no API key.
+category: other
+tags:
+  - analytics
+  - business-operations
+  - data-analysis
+  - web-research
+docs_url: https://pharallax.ai
+endpoints:
+  - url: https://mcp.pharallax.ai/mcp
+    transport: streamable-http
+    auth: none

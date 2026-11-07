@@ -1,0 +1,13 @@
+name: 365rwa RWA Data
+summary: 中文 RWA（现实世界资产代币化）情报数据：42 个已发行项目（每条附官方批文链接与核实日期）、67 家持牌机构（回链官方登记册）、119 条监管动态（HKMA/SFC/SEC/ESMA 每日同步）、1953 个行情项目。免费真伪核查 API + 33 个问答页。免鉴权 JSON + x402 MCP（USDC/Base）。CC BY 4.0。
+category: finance
+tags:
+  - compliance
+  - crypto
+  - data-analysis
+  - finance
+docs_url: https://github.com/BrianTian818/365rwa-x402-mcp
+endpoints:
+  - url: https://365rwa.vip/mcp
+    transport: streamable-http
+    auth: unknown

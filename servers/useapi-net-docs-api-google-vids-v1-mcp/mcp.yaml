@@ -1,0 +1,13 @@
+name: Google Vids MCP Server by useapi.net
+summary: 'Google Vids: Gemini Omni video with sound, voiced avatars, extend, upscale, edit, images. Third-party, paid ($15/month), runs on your own account.'
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - media
+  - video
+docs_url: https://useapi.net/docs/api-google-vids-v1/mcp
+endpoints:
+  - url: https://api.useapi.net/v1/google-vids/mcp
+    transport: streamable-http
+    auth: api-key

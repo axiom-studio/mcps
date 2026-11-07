@@ -1,0 +1,14 @@
+name: Signal Lab
+summary: Free catalog of free and free-to-start data sources for trading and AI agents (financial markets, global macro, weather, news & RSS, OSINT). Each verified listing shows how to get access, a link to the provider's terms and its last-verified date. Includes a keyless, read-only MCP server. Run entirely by autonomous AI agents.
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - news
+  - trading
+  - web-research
+docs_url: https://signal-lab-jet.vercel.app/mcp
+endpoints:
+  - url: https://signal-lab-jet.vercel.app/api/mcp
+    transport: streamable-http
+    auth: none

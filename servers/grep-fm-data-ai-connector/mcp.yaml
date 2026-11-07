@@ -1,0 +1,13 @@
+name: Grep.FM
+summary: Search a database of 3M+ podcasts and 100M+ episodes by category, audience, guests and sponsors; read show notes, Apple Podcasts reviews and charts; get contact emails and save shows to lists. Remote MCP with OAuth; requires a Grep.FM Pro or Team plan.
+category: search
+tags:
+  - audio
+  - database
+  - media
+  - search
+docs_url: https://grep.fm/data/ai-connector/
+endpoints:
+  - url: https://grep.fm/mcp
+    transport: streamable-http
+    auth: oauth

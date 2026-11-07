@@ -1,0 +1,13 @@
+name: LitSource
+summary: Find biomedical papers and check references with traceable PMID/DOI sources in your AI assistant; requires a LitSource account and OAuth or an Agent Token, and paid tools use LitSource credits.
+category: search
+tags:
+  - bioinformatics
+  - document
+  - knowledge-retrieval
+  - research
+docs_url: https://litsource.net/integrations/mcp
+endpoints:
+  - url: https://litsource.net/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Quantly MCP
+summary: 'Build, backtest and automate rules-based trading strategies from your AI assistant: create and edit strategies, run backtests on 60+ years of data, explore community strategies and manage paper or live portfolios.'
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - trading
+  - workflow-automation
+docs_url: https://docs.quantly.trade/integrations/mcp/
+endpoints:
+  - url: https://api.quantly.trade/mcp
+    transport: streamable-http
+    auth: oauth

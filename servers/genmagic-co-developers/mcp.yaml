@@ -1,0 +1,14 @@
+name: GenMagic
+summary: 'Hosted MCP server for 450+ AI models: generate images, video, speech, music and text with one API key and one pay-as-you-go balance. Pick any model by id (list_models shows ids and prices) or let GenMagic choose; video is billed only when it completes.'
+category: design
+tags:
+  - ai-model
+  - audio
+  - content-creation
+  - media
+  - video
+docs_url: https://genmagic.co/developers
+endpoints:
+  - url: https://genmagic.co/api/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,12 @@
+name: PlanLimits
+summary: Live, sourced plans, prices and usage limits for AI coding tools (Claude Code, Codex, Cursor, Copilot, Gemini, Windsurf).
+category: development
+tags:
+  - ai-model
+  - coding-agent
+  - development
+docs_url: https://planlimits-rpatel021.vercel.app/mcp-docs/
+endpoints:
+  - url: https://planlimits-rpatel021.vercel.app/mcp
+    transport: streamable-http
+    auth: none

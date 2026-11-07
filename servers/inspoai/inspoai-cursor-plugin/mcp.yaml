@@ -1,0 +1,13 @@
+name: InspoAI
+summary: Design and edit responsive UI screens, find website inspiration, extract brand and design-system tokens, manage moodboards, find icons, and create animated shader backgrounds. Connect your own InspoAI account through OAuth.
+category: design
+tags:
+  - content-creation
+  - design
+  - design-to-code
+  - icon-generation
+docs_url: https://github.com/Inspoai/inspoai-cursor-plugin
+endpoints:
+  - url: https://app.inspoai.io/mcp
+    transport: streamable-http
+    auth: oauth

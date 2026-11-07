@@ -1,0 +1,12 @@
+name: Hypnothera
+summary: Personalized guided hypnosis audio from hypnothera.ai. Search a free library of ready-made sessions, create a personalized session or multi-day journey from a short brief the user approves (chat logs are never sent), continue journeys day by day, and render audio in the voice you choose. Remote Streamable HTTP server with OAuth 2.1.
+category: other
+tags:
+  - ai-model
+  - audio
+  - content-creation
+docs_url: https://hypnothera.ai/tools/agent-skill
+endpoints:
+  - url: https://hypnothera.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

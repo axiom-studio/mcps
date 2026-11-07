@@ -1,0 +1,12 @@
+name: Invoice & Payment ID Validator
+summary: Validate IBAN, BIC/SWIFT, EU VAT (+ live VIES), UK VAT and US EIN for accounts-payable agents. Remote Streamable HTTP MCP. Paid via RapidAPI (free Basic plan); free demo at /demo/mcp.
+category: finance
+tags:
+  - api
+  - finance
+  - payment
+docs_url: https://rapidapi.com/MohamedBahaa/api/invoice-payment-id-validator
+endpoints:
+  - url: https://invoice-validator.mohamed-bahaa53000.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

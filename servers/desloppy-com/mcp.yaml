@@ -1,0 +1,11 @@
+name: Desloppy
+summary: Finds the lines that make writing sound like AI and gives a plain fix for each, so Claude can rewrite them in your voice.
+category: productivity
+tags:
+  - ai-model
+  - content-creation
+docs_url: https://desloppy.com
+endpoints:
+  - url: https://desloppy.com/mcp
+    transport: streamable-http
+    auth: oauth

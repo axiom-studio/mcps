@@ -1,0 +1,13 @@
+name: 24fps
+summary: Search 4,607 AI motion graphics clips by description, read their prompts, and pull open-licensed source into your project. Free MCP server for Claude Code, Cursor and other coding agents.
+category: development
+tags:
+  - content-creation
+  - media
+  - search
+  - video
+docs_url: https://24fps.dev
+endpoints:
+  - url: https://24fps.dev/mcp
+    transport: streamable-http
+    auth: none

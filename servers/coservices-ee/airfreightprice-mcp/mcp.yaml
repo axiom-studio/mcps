@@ -1,0 +1,8 @@
+name: AirFreightPrice
+summary: Air cargo routes, airports, carriers and a dated rate reference for AI agents, plus programmatic quote requests. 10 tools, 11 languages, no API key.
+category: other
+docs_url: https://github.com/coservices-ee/airfreightprice-mcp
+endpoints:
+  - url: https://mcp.airfreightprice.com/mcp
+    transport: streamable-http
+    auth: none

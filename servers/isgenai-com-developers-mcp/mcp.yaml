@@ -1,0 +1,13 @@
+name: isGenAI
+summary: Check images, links and text for C2PA Content Credentials, AI labels and saved generation prompts, quoting each source.
+category: other
+tags:
+  - ai-model
+  - compliance
+  - content-creation
+  - documentation
+docs_url: https://isgenai.com/developers/mcp
+endpoints:
+  - url: https://isgenai.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: GPU Finder
+summary: Live cloud GPU prices, hourly stock checks and 12-month price history across 30+ providers (hyperscalers, neoclouds, marketplaces). Remote over Streamable HTTP at https://gpufinder.dev/mcp; read-only tools; free API key.
+category: cloud-service
+tags:
+  - analytics
+  - api
+  - cloud-infrastructure
+  - data-analysis
+docs_url: https://gpufinder.dev/api
+endpoints:
+  - url: https://gpufinder.dev/mcp
+    transport: streamable-http
+    auth: api-key

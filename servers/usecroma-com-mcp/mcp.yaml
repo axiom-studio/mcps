@@ -1,0 +1,13 @@
+name: Croma
+summary: Government data for AI agents. Company registries, court cases, sanctions lists, tax records, liens and laws from official sources
+category: productivity
+tags:
+  - data-analysis
+  - government
+  - knowledge-retrieval
+  - research
+docs_url: https://usecroma.com/mcp
+endpoints:
+  - url: https://api.croma.run/mcp
+    transport: streamable-http
+    auth: unknown

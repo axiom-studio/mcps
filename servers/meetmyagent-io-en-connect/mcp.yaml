@@ -1,0 +1,13 @@
+name: MeetMyAgent
+summary: Turn your offers into an AI agent that answers customer questions and collects enquiries; manage it from a compatible MCP assistant and connect it via A2A.
+category: marketing
+tags:
+  - ai-agent
+  - chatbot
+  - customer-ops
+  - marketing
+docs_url: https://meetmyagent.io/en/connect
+endpoints:
+  - url: https://meetmyagent.io/mcp
+    transport: streamable-http
+    auth: oauth

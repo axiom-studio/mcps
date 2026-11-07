@@ -1,0 +1,13 @@
+name: Paddock Cards
+summary: Send birthday cards, Christmas cards and postcards, printed and mailed for you.
+category: communication
+tags:
+  - communication
+  - ecommerce
+  - payment
+  - workflow-automation
+docs_url: https://paddock.so/agent-commerce/
+endpoints:
+  - url: https://api.paddock.so/agent-commerce/mcp
+    transport: streamable-http
+    auth: none

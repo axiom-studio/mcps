@@ -1,0 +1,13 @@
+name: ApexTick Market Data & Options MCP
+summary: Global equities, ETFs, FX, and crypto quotes, OHLCV history, valuation multiples, technicals (RSI, MACD, SMA, ATR), and options chains with Greeks.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - marketplace
+  - trading
+docs_url: https://docs.apextick.com/mcp
+endpoints:
+  - url: https://api.apextick.com/mcp
+    transport: streamable-http
+    auth: api-key

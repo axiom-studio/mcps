@@ -1,0 +1,13 @@
+name: MisarMail MCP Server
+summary: Run your entire email operation from an AI assistant. 55 tools, 8 prompts, 4 resources. Works with Claude, Cursor, VS Code, Windsurf & any MCP client.
+category: marketing
+tags:
+  - communication
+  - email-automation
+  - marketing-automation
+  - productivity
+docs_url: https://github.com/Misar-AI/misarmail-mcp
+endpoints:
+  - url: https://api.misar.io/mail/mcp
+    transport: streamable-http
+    auth: unknown

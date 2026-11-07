@@ -1,0 +1,12 @@
+name: Coach MCP
+summary: Coach MCP connects your Coach AI account to Claude or ChatGPT. Coach AI is an endurance coaching app that reads your Garmin or Apple Health data and plans your training. With the MCP server, the assistant you already use can see that data and make small changes for you.
+category: productivity
+tags:
+  - ai-agent
+  - fitness
+  - healthcare
+docs_url: https://www.iamcoach.ai/mcp
+endpoints:
+  - url: https://mcp.iamcoach.ai
+    transport: streamable-http
+    auth: oauth

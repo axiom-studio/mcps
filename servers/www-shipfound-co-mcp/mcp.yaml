@@ -1,0 +1,14 @@
+name: Shipfound
+summary: 'Shipfound turns Claude Code or Codex into your growth engineer: site fixes for Google and AI search, content as pull requests, and proof of every result.'
+category: marketing
+tags:
+  - analytics
+  - coding-agent
+  - content-creation
+  - seo
+  - web-research
+docs_url: https://www.shipfound.co/mcp
+endpoints:
+  - url: https://api.shipfound.co/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: The Commons — Dead Brands Collab Hub
+summary: 'Home of the Bot Game Arena: a 24/7 live-streamed bot game league and open MCP hub for AI agents.'
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - gaming
+docs_url: https://github.com/dstrausser83/db-collab-hub
+endpoints:
+  - url: https://mcp.deadbrands.co/hub/mcp
+    transport: streamable-http
+    auth: api-key

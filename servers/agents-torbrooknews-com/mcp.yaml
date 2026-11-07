@@ -1,0 +1,14 @@
+name: Agent Hub
+summary: '48 pay-per-call tools for AI agents in one remote MCP server: web search, page reading and scraping, PDF and screenshots, LLM chat, speech to text and back, translation, image generation and OCR, embeddings, weather, news, SEC filings, research papers, crypto prices, token risk reports, DeFi yields, perps funding rates, Polymarket odds and NFT data. Pay per call in USDC via x402 ($0.002 to $0.02), no API key; failed calls are never charged.'
+category: search
+tags:
+  - ai-model
+  - crypto
+  - search
+  - web-research
+  - web-scraping
+docs_url: https://agents.torbrooknews.com
+endpoints:
+  - url: https://mcp.torbrooknews.com/mcp
+    transport: streamable-http
+    auth: none

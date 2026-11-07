@@ -1,0 +1,12 @@
+name: IndoCourtAtlas
+summary: putusan pengadilan Indonesia dari Mahkamah Agung dan Pengadilan Negeri/Tinggi
+category: productivity
+tags:
+  - database
+  - research
+  - search
+docs_url: https://indocourtatlas.com/mcp/connect
+endpoints:
+  - url: https://indocourtatlas.com/mcp
+    transport: streamable-http
+    auth: oauth

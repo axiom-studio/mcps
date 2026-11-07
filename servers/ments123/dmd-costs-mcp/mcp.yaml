@@ -1,0 +1,13 @@
+name: DMD Costs legal costs tools
+summary: 'Free, read-only legal costs tools for England and Wales: CPR deadlines, Part 36, fixed costs, court fees and interest, each answer citing the rule it applies. No account or API key.'
+category: productivity
+tags:
+  - compliance
+  - documentation
+  - government
+  - productivity
+docs_url: https://github.com/Ments123/dmd-costs-mcp
+endpoints:
+  - url: https://www.dmdcosts.co.uk/mcp
+    transport: streamable-http
+    auth: none

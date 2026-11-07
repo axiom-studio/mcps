@@ -1,0 +1,13 @@
+name: Monito
+summary: 'Describe what should work in plain English. Monito checks it in a real browser: passed, failed or cannot verify, with screenshots, network and console logs. Remote MCP endpoint (Streamable HTTP, OAuth): https://www.monito.dev/api/mcp'
+category: development
+tags:
+  - browser
+  - browser-automation
+  - debugging
+  - testing-qa
+docs_url: https://www.monito.dev/docs/mcp
+endpoints:
+  - url: https://www.monito.dev/api/mcp
+    transport: streamable-http
+    auth: oauth

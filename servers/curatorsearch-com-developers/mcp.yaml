@@ -1,0 +1,11 @@
+name: CuratorSearch
+summary: Museum, gallery and curatorial jobs gathered daily from 400+ institutions' own careers pages, with every advertised salary kept on record. No auth, no key.
+category: search
+tags:
+  - research
+  - search
+docs_url: https://curatorsearch.com/developers
+endpoints:
+  - url: https://curatorsearch.com/mcp
+    transport: streamable-http
+    auth: none

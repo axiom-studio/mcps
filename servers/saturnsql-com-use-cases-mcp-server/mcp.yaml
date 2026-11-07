@@ -1,0 +1,14 @@
+name: SaturnSQL
+summary: Hosted remote MCP server with OAuth. Query PostgreSQL, MySQL, SQL Server, Oracle, BigQuery, ClickHouse and Redshift from Claude, ChatGPT or Cursor, read-only by default per connection, with a shared team query library. No local process, and no connection string in a config file.
+category: database
+tags:
+  - bigquery
+  - database
+  - mysql
+  - postgres
+  - sql
+docs_url: https://saturnsql.com/use-cases/mcp-server
+endpoints:
+  - url: https://mcp.saturnsql.com/mcp
+    transport: streamable-http
+    auth: oauth

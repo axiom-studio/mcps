@@ -1,0 +1,13 @@
+name: Octocrawl
+summary: 'Web scraping for AI agents: public pages as Markdown, tables and JSON, each with an Evidence Record (final URL, HTTP status, robots.txt decision, hashes). Blocked or empty pages come back with the reason. Hosted (no account, 20 pages/day) or local via npx.'
+category: web-scraping
+tags:
+  - ai-agent
+  - browser-automation
+  - data-analysis
+  - web-scraping
+docs_url: https://github.com/77777R7/Octocrawl
+endpoints:
+  - url: https://mcp.octocrawl.dev/mcp
+    transport: streamable-http
+    auth: none

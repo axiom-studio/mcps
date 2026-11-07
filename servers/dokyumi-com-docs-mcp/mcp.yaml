@@ -1,0 +1,12 @@
+name: Dokyumi
+summary: Extract attached documents with saved schemas and review confidence and validation.
+category: productivity
+tags:
+  - data-analysis
+  - document
+  - file-management
+docs_url: https://dokyumi.com/docs/mcp
+endpoints:
+  - url: https://dokyumi.com/mcp
+    transport: streamable-http
+    auth: oauth

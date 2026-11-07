@@ -1,0 +1,10 @@
+name: Jet Cab AMS
+summary: 'Book Amsterdam chauffeur rides: fixed-price Schiphol transfers, custom rides and private tours (quote + booking request).'
+category: other
+tags:
+  - payment
+docs_url: https://www.jetcabams.nl/
+endpoints:
+  - url: https://www.jetcabams.nl/mcp
+    transport: streamable-http
+    auth: unknown

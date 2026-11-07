@@ -1,0 +1,13 @@
+name: RuneScape Wiki MCP
+summary: Read-only RS3 guide prices, daily trends, flip estimates, normal-mode hiscores and wiki pages for Claude and ChatGPT. Hosted, no API key.
+category: other
+tags:
+  - finance
+  - gaming
+  - knowledge-retrieval
+  - web-research
+docs_url: https://runescape-wiki-mcp.fly.dev
+endpoints:
+  - url: https://runescape-wiki-mcp.fly.dev/mcp
+    transport: streamable-http
+    auth: none

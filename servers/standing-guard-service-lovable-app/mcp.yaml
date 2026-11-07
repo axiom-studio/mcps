@@ -1,0 +1,14 @@
+name: WHP Standing
+summary: Remote MCP server for provenance and authority checks. Pay per call with x402 USDC on Base; returns signed standing records.
+category: other
+tags:
+  - api
+  - compliance
+  - crypto
+  - evm
+  - identity
+docs_url: https://standing-guard-service.lovable.app
+endpoints:
+  - url: https://standing-guard-service.lovable.app/mcp
+    transport: streamable-http
+    auth: unknown

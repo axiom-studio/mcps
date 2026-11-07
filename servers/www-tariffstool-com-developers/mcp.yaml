@@ -1,0 +1,13 @@
+name: TariffsTool
+summary: 'Free tariff and landed-cost MCP server: stacked MFN + Section 232/301/338 duty estimates by HTS code and origin, HTS lookup, import bans, tariff changes, and refund estimates.'
+category: finance
+tags:
+  - api
+  - data-analysis
+  - finance
+  - research
+docs_url: https://www.tariffstool.com/developers
+endpoints:
+  - url: https://www.tariffstool.com/api/mcp
+    transport: streamable-http
+    auth: none

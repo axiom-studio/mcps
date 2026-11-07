@@ -1,0 +1,12 @@
+name: YesTechie — UniFi Network & Security Integrator
+summary: UniFi quotes, real project case studies and network, camera and access config guides from a nationwide integrator.
+category: other
+tags:
+  - business-operations
+  - network-automation
+  - security
+docs_url: https://yestechie.com
+endpoints:
+  - url: https://yestechie.com/api/mcp
+    transport: streamable-http
+    auth: none

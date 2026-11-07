@@ -1,0 +1,11 @@
+name: FlyScout flight deals
+summary: Cheap return flights from Luxembourg and 6 nearby airports, scanned daily. Search by destination, month and max price. Read-only, no auth.
+category: search
+tags:
+  - search
+  - web-research
+docs_url: https://flyscout.lu/mcp/
+endpoints:
+  - url: https://mcp.flyscout.lu/mcp
+    transport: streamable-http
+    auth: none

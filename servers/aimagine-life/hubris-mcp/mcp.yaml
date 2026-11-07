@@ -1,0 +1,13 @@
+name: Hubris
+summary: 'Hubris is an OpenAI-compatible LLM gateway billed in rubles: one API key for 500+ models from OpenAI, Anthropic, Google, DeepSeek, Qwen and others. The remote MCP server lets agents search the model catalogue, compare prices, check the account balance and run chat completions on any model.'
+category: development
+tags:
+  - ai-model
+  - api
+  - development
+  - llm
+docs_url: https://github.com/Aimagine-life/hubris-mcp
+endpoints:
+  - url: https://api.hubris.pw/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: UniPost.ai
+summary: Schedule and approve posts to LinkedIn profiles and X from your AI agent. 2 accounts free, no card needed.
+category: marketing
+tags:
+  - marketing-automation
+  - social-media
+  - workflow-automation
+  - x-twitter
+docs_url: https://github.com/ajhous44/unipost-agent
+endpoints:
+  - url: https://mcp.unipost.ai/mcp
+    transport: streamable-http
+    auth: oauth

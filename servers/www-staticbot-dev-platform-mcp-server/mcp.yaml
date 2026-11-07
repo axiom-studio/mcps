@@ -1,0 +1,13 @@
+name: Staticbot
+summary: Official hosted MCP for Lovable and ChatGPT that deploys websites, migrates AI-built app backends, and runs Continuous Sync with explicit approval gates.
+category: development
+tags:
+  - cloud-infrastructure
+  - deployment
+  - development
+  - workflow-automation
+docs_url: https://www.staticbot.dev/platform/mcp-server
+endpoints:
+  - url: https://mcp.staticbot.dev/mcp
+    transport: streamable-http
+    auth: api-key

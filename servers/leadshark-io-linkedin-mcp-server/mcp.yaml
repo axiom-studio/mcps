@@ -1,0 +1,13 @@
+name: LeadShark Apex
+summary: 'LinkedIn MCP with 47 tools: post, comment, DM and run comment-to-DM automations inside your limits.'
+category: marketing
+tags:
+  - communication
+  - marketing
+  - marketing-automation
+  - social-media
+docs_url: https://leadshark.io/linkedin-mcp-server
+endpoints:
+  - url: https://apex.leadshark.io/mcp
+    transport: streamable-http
+    auth: unknown

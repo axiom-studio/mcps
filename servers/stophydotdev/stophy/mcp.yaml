@@ -1,0 +1,13 @@
+name: Stophy
+summary: One API to search the web, read what people say, and look up products, places, jobs and homes. Pay only for answers.
+category: web-scraping
+tags:
+  - api
+  - search
+  - web-research
+  - web-scraping
+docs_url: https://github.com/stophydotdev/stophy
+endpoints:
+  - url: https://mcp.stophy.dev/mcp
+    transport: streamable-http
+    auth: unknown

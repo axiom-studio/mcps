@@ -1,0 +1,12 @@
+name: HomeMaintList
+summary: Manage your home maintenance tasks
+category: other
+tags:
+  - home-automation
+  - productivity
+  - task-management
+docs_url: https://homemaintlist.com
+endpoints:
+  - url: https://homemaintlist.com/mcp
+    transport: streamable-http
+    auth: oauth

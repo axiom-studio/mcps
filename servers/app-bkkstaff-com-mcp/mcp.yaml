@@ -1,0 +1,14 @@
+name: BKK Staff MCP
+summary: 'Automated resume screening for hiring: scan applicants, review and grade candidates, create jobs, and email applicants.'
+category: productivity
+tags:
+  - ai-agent
+  - business-operations
+  - document
+  - email-automation
+  - workflow-automation
+docs_url: https://app.bkkstaff.com/mcp
+endpoints:
+  - url: https://app.bkkstaff.com/mcp
+    transport: streamable-http
+    auth: oauth

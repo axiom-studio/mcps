@@ -1,0 +1,14 @@
+name: Finch Agent Marketplace
+summary: 'Search and call 14 third-party AI agents over one remote MCP server: on-chain fund tracing and wallet risk (MistTrack by SlowMist), US options, Hyperliquid US equity-perp analysis, resume tailoring and research.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - finance
+  - marketplace
+  - trading
+docs_url: https://github.com/a0971025732-netizen/finch-agents
+endpoints:
+  - url: https://www.finchtech.ai/mcp
+    transport: streamable-http
+    auth: unknown

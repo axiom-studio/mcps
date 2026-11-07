@@ -1,0 +1,13 @@
+name: Kelpo
+summary: 'Create vertical UGC-style videos from a chat with 27 AI actors or your own photo and voice, with automatic Shorts-style editing. Remote MCP server (OAuth): https://kelpo.app/api/mcp'
+category: marketing
+tags:
+  - identity
+  - marketing
+  - marketing-automation
+  - security
+docs_url: https://kelpo.app/developers
+endpoints:
+  - url: https://kelpo.app/api/mcp
+    transport: streamable-http
+    auth: oauth

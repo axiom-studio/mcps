@@ -1,0 +1,13 @@
+name: hyreflow
+summary: AI recruitment assistant for recruitment agencies. Gives Claude, ChatGPT or any MCP client 54 tools for sourcing (job spec to ranked shortlist with reasons and contact details) and business development (hiring signal sweeps, speccing candidates out to clients, hiring manager emails and phones), plus agency CRMs like Recruit CRM, Loxo, JobAdder and Vincere. OAuth sign-in, free plan.
+category: productivity
+tags:
+  - ai-agent
+  - crm
+  - productivity
+  - sales
+docs_url: https://www.hyreflow.ai/mcp
+endpoints:
+  - url: https://recruit.hyreflow.ai/api/v2/mcp
+    transport: streamable-http
+    auth: oauth

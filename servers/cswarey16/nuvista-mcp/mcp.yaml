@@ -1,0 +1,14 @@
+name: NuVista Haven MCP Server
+summary: AI front desk for NuVista Haven vacation rentals — search 12 cabins and homes, check live availability, get nightly-rate quotes, and retrieve direct booking links. Live data via Hospitable.
+category: other
+tags:
+  - ai-agent
+  - calendar
+  - customer-ops
+  - ecommerce
+  - search
+docs_url: https://github.com/Cswarey16/nuvista-mcp
+endpoints:
+  - url: https://nuvista-haven-mcp.onrender.com/mcp
+    transport: streamable-http
+    auth: none

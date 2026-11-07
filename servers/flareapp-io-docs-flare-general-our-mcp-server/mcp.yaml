@@ -1,0 +1,11 @@
+name: Flare
+summary: Error tracking, performance monitoring and logs for Laravel and PHP apps, by Spatie.
+category: development
+tags:
+  - monitoring
+  - performance
+docs_url: https://flareapp.io/docs/flare/general/our-mcp-server
+endpoints:
+  - url: https://flareapp.io/mcp
+    transport: streamable-http
+    auth: oauth

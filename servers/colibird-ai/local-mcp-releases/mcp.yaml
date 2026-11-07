@@ -1,0 +1,14 @@
+name: LMCP
+summary: Local tools that let your AI use Mail, Calendar, Contacts, Teams, Slack, WhatsApp (Mac), OneDrive, Google Drive, Notion, Outlook (Windows) and Office files on Mac and Windows. Runs on your computer.
+category: productivity
+tags:
+  - calendar
+  - collaboration
+  - email-automation
+  - file-management
+  - productivity
+docs_url: https://github.com/colibird-ai/local-mcp-releases
+endpoints:
+  - url: https://local-mcp.com/mcp
+    transport: streamable-http
+    auth: unknown

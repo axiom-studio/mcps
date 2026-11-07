@@ -1,0 +1,8 @@
+name: Tessera Analytics - Hyperliquid Market Intelligence
+summary: 'MCP server + REST API for the Hyperliquid perp universe: rank, screen and compare every market on a completed day — funding divergence, crowding, positioning and order flow — plus the underlying Parquet.'
+category: finance
+docs_url: https://tesseralytics.dev/
+endpoints:
+  - url: https://tesseralytics.dev/mcp
+    transport: streamable-http
+    auth: api-key

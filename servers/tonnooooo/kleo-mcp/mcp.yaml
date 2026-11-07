@@ -1,0 +1,13 @@
+name: Kleo MCP
+summary: Create human-directed narrated films and storyboard animatics through your AI assistant, from treatment and storyboard to rendering and download.
+category: design
+tags:
+  - ai-agent
+  - content-creation
+  - media
+  - video
+docs_url: https://github.com/tonnooooo/kleo-mcp
+endpoints:
+  - url: https://mcp.kleooai.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Boonful Studio
+summary: Lets Claude, ChatGPT or Cursor build web apps and digital products, edit them and schedule posts. Everything is saved as a draft in Boonful Studio.
+category: development
+tags:
+  - ai-agent
+  - content-creation
+  - development
+  - workflow-automation
+docs_url: https://boonful.io/ai-agents
+endpoints:
+  - url: https://boonful.io/api/mcp
+    transport: streamable-http
+    auth: api-key

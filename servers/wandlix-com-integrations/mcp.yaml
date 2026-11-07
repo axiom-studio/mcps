@@ -1,0 +1,14 @@
+name: Wandlix MCP
+summary: Convert, compress and edit PDFs and images, check and create XRechnung/ZUGFeRD e-invoices, and more with 40+ file tools. Remote MCP server, processed in Germany, files deleted after 60 minutes.
+category: cloud-service
+tags:
+  - document
+  - file-conversion
+  - finance
+  - pdf
+  - privacy
+docs_url: https://wandlix.com/integrations
+endpoints:
+  - url: https://wandlix.com/api/v1/mcp
+    transport: streamable-http
+    auth: api-key

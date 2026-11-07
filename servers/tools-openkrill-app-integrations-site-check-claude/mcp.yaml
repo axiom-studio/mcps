@@ -1,0 +1,13 @@
+name: Site SEO & AI Crawler Audit
+summary: Check public pages for SEO tags, AI crawler rules in robots.txt, AI citation signals and landing page conversion. Free, hosted, no API key.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+  - web-research
+docs_url: https://tools.openkrill.app/integrations/site-check/claude
+endpoints:
+  - url: https://sitecheck.openkrill.app/mcp
+    transport: streamable-http
+    auth: none

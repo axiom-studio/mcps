@@ -1,0 +1,13 @@
+name: GISDB
+summary: Remote MCP server for county property records, GIS parcel catalogs, guided parcel searches, saved searches, and CSV lead package delivery.
+category: database
+tags:
+  - database
+  - geospatial
+  - real-estate
+  - search
+docs_url: https://github.com/mooshee/gisdb-mcp
+endpoints:
+  - url: https://gisdb.io/mcp
+    transport: streamable-http
+    auth: oauth

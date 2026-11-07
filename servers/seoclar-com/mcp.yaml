@@ -1,0 +1,13 @@
+name: SEOclar — SEO MCP Server
+summary: Connect AI assistants to live SEO data for keyword research, SERP rankings, backlinks, competitor analysis, site audits and AI visibility. Remote MCP with OAuth, 50 welcome credits and pay-as-you-go pricing.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+  - web-research
+docs_url: https://seoclar.com
+endpoints:
+  - url: https://seoclar.com/mcp
+    transport: streamable-http
+    auth: oauth

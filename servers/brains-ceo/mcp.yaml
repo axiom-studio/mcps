@@ -1,0 +1,13 @@
+name: The Brains
+summary: Search cited playbooks from top founders and investors on growth, distribution and pricing.
+category: memory
+tags:
+  - business-operations
+  - knowledge-retrieval
+  - marketing
+  - research
+docs_url: https://brains.ceo
+endpoints:
+  - url: https://mcp.brains.ceo/mcp
+    transport: streamable-http
+    auth: oauth

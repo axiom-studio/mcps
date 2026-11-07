@@ -1,0 +1,12 @@
+name: JooVoice
+summary: Lets your agent make real phone calls you'd put your name on. Says it's an AI. Still gets it done.
+category: communication
+tags:
+  - ai-agent
+  - audio
+  - communication
+docs_url: https://joovoice.com
+endpoints:
+  - url: https://app.joovoice.com/mcp
+    transport: streamable-http
+    auth: unknown

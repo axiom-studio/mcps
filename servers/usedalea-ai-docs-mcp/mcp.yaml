@@ -1,0 +1,14 @@
+name: Dalea AI
+summary: 'Plan, write and analyze Instagram and TikTok content from your AI assistant: content calendar, scripts in your voice, carousels, viral references and performance insights from your Dalea account.'
+category: marketing
+tags:
+  - analytics
+  - calendar
+  - content-creation
+  - marketing
+  - social-media
+docs_url: https://usedalea.ai/docs/mcp
+endpoints:
+  - url: https://app.usedalea.ai/api/mcp/mcp
+    transport: streamable-http
+    auth: oauth

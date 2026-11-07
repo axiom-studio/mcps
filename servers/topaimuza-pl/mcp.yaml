@@ -1,0 +1,12 @@
+name: TopAIMuza.pl – Polish AI music chart
+summary: 'Read-only MCP server with the ranking of Polish AI-generated music: top chart, artists by name or genre, artist profiles with listening links, newest tracks. No account needed. Endpoint: https://topaimuza.pl/mcp'
+category: search
+tags:
+  - media
+  - music
+  - search
+docs_url: https://topaimuza.pl/
+endpoints:
+  - url: https://topaimuza.pl/mcp
+    transport: streamable-http
+    auth: none

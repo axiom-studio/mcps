@@ -1,0 +1,12 @@
+name: Dating Coaches Directory
+summary: Dating Coaches Directory lists dating coaches and matchmakers by city with who they work with, their format and published price. Search and compare, or query via free API and MCP.
+category: search
+tags:
+  - api
+  - marketplace
+  - search
+docs_url: https://datingcoaches.fyi
+endpoints:
+  - url: https://datingcoaches.fyi/mcp
+    transport: streamable-http
+    auth: none

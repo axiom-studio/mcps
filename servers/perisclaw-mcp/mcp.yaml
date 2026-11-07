@@ -1,0 +1,15 @@
+name: Perisclaw
+summary: 'Use your own WhatsApp from Claude, ChatGPT and other AI: catch up, search chats, send replies.'
+category: communication
+tags:
+  - ai-agent
+  - chatbot
+  - communication
+  - whatsapp
+official: true
+registry_name: com.perisclaw/whatsapp
+docs_url: https://docs.perisclaw.com/mcp-server
+endpoints:
+  - url: https://api.perisclaw.com/mcp/plugin
+    transport: streamable-http
+    auth: oauth

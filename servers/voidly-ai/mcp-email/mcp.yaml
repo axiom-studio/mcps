@@ -1,0 +1,12 @@
+name: Voidmail
+summary: 'Email for AI agents: create @voidmail.ai inboxes, read mail and send only to owner-approved recipients. Inboxes are server-readable, not end-to-end encrypted.'
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - email-automation
+docs_url: https://github.com/voidly-ai/mcp-email
+endpoints:
+  - url: https://api.voidly.ai/mcp/mail
+    transport: streamable-http
+    auth: api-key

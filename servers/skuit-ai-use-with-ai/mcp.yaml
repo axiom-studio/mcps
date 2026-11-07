@@ -1,0 +1,16 @@
+name: SKUit Network & Security Catalog
+summary: AI helper for choosing and speccing network & security products from Cisco, Arista, Juniper and more
+category: other
+tags:
+  - ai-agent
+  - cisco
+  - network-automation
+  - security
+docs_url: https://skuit.ai/use-with-ai
+endpoints:
+  - url: https://mcp.skuit.ai/mcp
+    transport: streamable-http
+    auth: oauth
+  - url: https://mcp.skuit.ai/api/mcp/catalog
+    transport: streamable-http
+    auth: none

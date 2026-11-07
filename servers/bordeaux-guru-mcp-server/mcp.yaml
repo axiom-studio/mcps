@@ -1,0 +1,13 @@
+name: bordeaux.guru — Bordeaux en primeur & terroir
+summary: First-hand Bordeaux en primeur tasting notes, appellation climate (ERA5), vine phenology and terroir geodata. 14 tools, free tier without a key.
+category: other
+tags:
+  - data-analysis
+  - geospatial
+  - research
+  - weather
+docs_url: https://bordeaux.guru/mcp-server/
+endpoints:
+  - url: https://mcp.bordeaux.guru/mcp
+    transport: streamable-http
+    auth: none

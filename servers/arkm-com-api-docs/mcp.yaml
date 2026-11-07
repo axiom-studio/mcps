@@ -1,0 +1,13 @@
+name: Arkham
+summary: 'Arkham blockchain intelligence: entities, labels, balances, transfers, tokens and Polymarket.'
+category: finance
+tags:
+  - analytics
+  - crypto
+  - finance
+  - trading
+docs_url: https://arkm.com/api/docs
+endpoints:
+  - url: https://mcp.arkm.com/mcp
+    transport: streamable-http
+    auth: oauth

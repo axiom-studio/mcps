@@ -1,0 +1,14 @@
+name: MarketHQ
+summary: 'Remote MCP for MarketHQ: buyer conversations from Reddit, X, HN, LinkedIn and news ranked by intent, SEO briefs, outreach targets, and weekly AI-visibility results (does ChatGPT, Claude, Gemini, Perplexity name you?). Paid plans; 4-day trial on Lite and Startup.'
+category: marketing
+tags:
+  - ai-model
+  - marketing
+  - seo
+  - social-media
+  - web-research
+docs_url: https://markethq.ai
+endpoints:
+  - url: https://markethq.ai/api/mcp
+    transport: streamable-http
+    auth: unknown

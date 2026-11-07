@@ -1,0 +1,13 @@
+name: ForcedAlpha
+summary: 'Portfolio supply-chain research for AI agents: map dependencies, investigate shared exposures, trace supply shocks and discover chokepoints.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - knowledge-retrieval
+  - research
+docs_url: https://forcedalpha.com/docs/mcp/
+endpoints:
+  - url: https://forcedalpha.com/mcp/
+    transport: streamable-http
+    auth: oauth

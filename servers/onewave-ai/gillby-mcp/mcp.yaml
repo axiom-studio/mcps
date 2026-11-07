@@ -1,0 +1,12 @@
+name: Gillby
+summary: Live Florida marine conditions, forecasts, tides, hazards and coastal places for AI agents. Public data needs no API key; personal account tools use OAuth.
+category: other
+tags:
+  - data-analysis
+  - geospatial
+  - weather
+docs_url: https://github.com/OneWave-AI/gillby-mcp
+endpoints:
+  - url: https://www.gillby.com/mcp
+    transport: streamable-http
+    auth: none

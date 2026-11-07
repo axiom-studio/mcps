@@ -1,0 +1,14 @@
+name: The Sansasyonel MCP
+summary: Dijital gazete manşetleri, kapsamlı ekonomi bültenleri, Borsa İstanbul kotasyonları, fon karşılaştırma ve küresel borsa verilerini okuyan MCP aracı.
+category: other
+tags:
+  - data-analysis
+  - finance
+  - news
+  - trading
+  - web-research
+docs_url: https://thesansasyonel.com/api/mcp
+endpoints:
+  - url: https://thesansasyonel.com/api/mcp
+    transport: streamable-http
+    auth: none

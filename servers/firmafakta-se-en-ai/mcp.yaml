@@ -1,0 +1,12 @@
+name: Firmafakta
+summary: 'Swedish company data: segment companies by industry, place and size, and look up any company by organisation number.'
+category: marketing
+tags:
+  - business-operations
+  - marketplace
+  - research
+docs_url: https://firmafakta.se/en/ai/
+endpoints:
+  - url: https://mcp.firmafakta.se
+    transport: streamable-http
+    auth: oauth

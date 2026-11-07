@@ -1,0 +1,12 @@
+name: VATKit
+summary: EU VAT number check against VIES, offline VAT number format validation and EU VAT rates. Free tier, RapidAPI key.
+category: finance
+tags:
+  - api
+  - compliance
+  - finance
+docs_url: https://rapidapi.com/Olly-1VN9JTXKG/api/vatkit-eu-vat-number-check-vies-vat-rates
+endpoints:
+  - url: https://vatkit-eu-vat-number-check-vies-vat-rates.p.rapidapi.com/mcp
+    transport: streamable-http
+    auth: api-key

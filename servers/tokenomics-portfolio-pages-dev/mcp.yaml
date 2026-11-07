@@ -1,0 +1,13 @@
+name: Tokenomics Unlock Calendar
+summary: 'Verified token unlock calendar from the Tokenomics Audit Desk: upcoming unlocks, per-token history.'
+category: finance
+tags:
+  - analytics
+  - crypto
+  - finance
+  - trading
+docs_url: https://tokenomics-portfolio.pages.dev/
+endpoints:
+  - url: https://tokenomics-unlock-mcp.gtcclothing1.workers.dev/
+    transport: streamable-http
+    auth: none

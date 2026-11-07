@@ -1,0 +1,15 @@
+name: Process Street MCP Server
+summary: Process Street MCP Server. Connect AI agents to workflows, tasks, runs, datasets, and form fields via a hosted OAuth endpoint. Trigger compliance checklists, complete approvals, and pull audit-grade operational data. Works with Claude, Cursor, ChatGPT, Windsurf, Cline, and any MCP-compatible client. SOC 2, HIPAA, GDPR.
+category: productivity
+tags:
+  - business-operations
+  - compliance
+  - task-management
+  - workflow-automation
+official: true
+registry_name: io.github.process-street/process-street-mcp
+docs_url: https://www.process.st/mcp
+endpoints:
+  - url: https://mcp.process.st
+    transport: streamable-http
+    auth: oauth

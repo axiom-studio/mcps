@@ -1,0 +1,13 @@
+name: trip1
+summary: Search and book 3M+ hotels in 200+ countries. Agents pay per reservation in USDC on Base over x402. Hosted, no auth.
+category: other
+tags:
+  - ecommerce
+  - payment
+official: true
+registry_name: com.trip1/mcp
+docs_url: https://trip1.com/agents
+endpoints:
+  - url: https://trip1.com/api/mcp
+    transport: streamable-http
+    auth: none

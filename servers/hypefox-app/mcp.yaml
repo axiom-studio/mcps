@@ -1,0 +1,14 @@
+name: HypeFox
+summary: HypeFox (hypefox.app) is an AI app that makes and posts short videos for YouTube Shorts, Instagram Reels and TikTok on autopilot, with or without your face.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - video
+  - workflow-automation
+docs_url: https://hypefox.app/
+endpoints:
+  - url: https://mcp.hypefox.app/mcp
+    transport: streamable-http
+    auth: oauth

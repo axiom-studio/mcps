@@ -1,0 +1,13 @@
+name: Pageree
+summary: Pageree lets your AI assistant publish landing pages, capture leads, and improve pages using real visitor data.
+category: marketing
+tags:
+  - analytics
+  - content-creation
+  - marketing
+  - web-research
+docs_url: https://pageree.com/
+endpoints:
+  - url: https://mcp.pageree.com/
+    transport: streamable-http
+    auth: oauth

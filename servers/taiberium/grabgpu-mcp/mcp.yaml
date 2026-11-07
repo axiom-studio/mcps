@@ -1,0 +1,13 @@
+name: GrabGPU
+summary: 'Find a cloud GPU you can actually rent: daily prices per GPU hour and reported stock for 71 GPU models across 22 clouds. Remote, no auth, one read-only tool find_gpu.'
+category: cloud-service
+tags:
+  - ai-model
+  - cloud-infrastructure
+  - database
+  - devops-infrastructure
+docs_url: https://github.com/taiberium/grabgpu-mcp
+endpoints:
+  - url: https://grabgpu.com/mcp
+    transport: streamable-http
+    auth: unknown

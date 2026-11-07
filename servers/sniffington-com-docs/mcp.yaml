@@ -1,0 +1,13 @@
+name: Sniffington
+summary: OAuth-protected MCP server for accessing a Sniffington workspace’s public brand mentions and supported actions.
+category: marketing
+tags:
+  - analytics
+  - api
+  - marketing
+  - social-media
+docs_url: https://sniffington.com/docs
+endpoints:
+  - url: https://sniffington.com/mcp
+    transport: streamable-http
+    auth: oauth

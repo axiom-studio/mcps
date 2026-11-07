@@ -1,0 +1,13 @@
+name: MotionVault Agent Kit
+summary: Open-source MCP toolkit for discovering cinematic website templates and motion assets, inspecting licensed prompts and source, and planning builds with storyboards, design tokens and motion engineering utilities.
+category: design
+tags:
+  - content-creation
+  - design
+  - documentation
+  - workflow-automation
+docs_url: https://github.com/iboss21/motionvault-agent-kit
+endpoints:
+  - url: https://mcp.motionvault.site/mcp
+    transport: streamable-http
+    auth: none

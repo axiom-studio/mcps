@@ -1,0 +1,13 @@
+name: AppScreenshoot
+summary: Read-only MCP server for App Store and Google Play screenshot templates and current store screenshot size requirements. 应用商店截图模板与最新尺寸规范，只读，无需 API Key。
+category: design
+tags:
+  - design
+  - icon-generation
+  - marketplace
+  - mobile
+docs_url: https://appscreenshoot.com/mcp
+endpoints:
+  - url: https://appscreenshoot.com/api/mcp
+    transport: streamable-http
+    auth: none

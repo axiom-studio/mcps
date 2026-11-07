@@ -1,0 +1,12 @@
+name: ReMCP
+summary: 'Secure OAuth remote MCP control of explicitly paired computers: files, terminal, browser and desktop automation. Device operations can modify state.'
+category: development
+tags:
+  - browser-automation
+  - file-management
+  - security
+docs_url: https://github.com/getremcp/remcp
+endpoints:
+  - url: https://remcp.site/mcp
+    transport: streamable-http
+    auth: oauth

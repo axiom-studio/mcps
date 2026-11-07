@@ -1,0 +1,13 @@
+name: OpenYuri Tools Network
+summary: 'Free read-only MCP server from OpenYuri: sourced answers with citations, citation cards, and a versioned US seller-compliance change ledger. 62 sites, no key, CORS open.'
+category: search
+tags:
+  - compliance
+  - knowledge-retrieval
+  - search
+  - web-research
+docs_url: https://sitenet-api.openyuri.workers.dev/connect
+endpoints:
+  - url: https://sitenet-api.openyuri.workers.dev/mcp
+    transport: streamable-http
+    auth: none

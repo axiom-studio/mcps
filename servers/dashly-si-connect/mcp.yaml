@@ -1,0 +1,14 @@
+name: Dashly
+summary: Tell ChatGPT or Claude what you track and see it on one live dashboard. Log calories, habits, spending, mood, workouts and tasks by chatting; each thing you track becomes a live tile against its goal, with a dated history and a calendar. Remote server https://dashly.si/mcp, OAuth.
+category: productivity
+tags:
+  - calendar
+  - data-analysis
+  - healthcare
+  - productivity
+  - workflow-automation
+docs_url: https://dashly.si/connect
+endpoints:
+  - url: https://dashly.si/mcp
+    transport: streamable-http
+    auth: oauth

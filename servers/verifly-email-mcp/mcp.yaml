@@ -1,0 +1,13 @@
+name: Verifly Email Verification
+summary: 'Verify email addresses from your AI agent: deliverable, risky, disposable, role and catch-all checks with pay-as-you-go credits and no monthly plan.'
+category: marketing
+tags:
+  - customer-ops
+  - data-analysis
+  - email-automation
+  - marketing-automation
+docs_url: https://verifly.email/mcp
+endpoints:
+  - url: https://verifly.email/mcp
+    transport: streamable-http
+    auth: unknown

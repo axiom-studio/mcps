@@ -1,0 +1,12 @@
+name: blablabla
+summary: Send your sides from the chat to blablabla, the rehearsal app for actors. Find free scenes and monologues, and get a plan for learning lines.
+category: productivity
+tags:
+  - communication
+  - content-creation
+  - education
+docs_url: https://sayblablabla.com/assistants
+endpoints:
+  - url: https://sayblablabla.com/mcp/connect
+    transport: streamable-http
+    auth: oauth

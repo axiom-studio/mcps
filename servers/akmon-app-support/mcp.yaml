@@ -1,0 +1,12 @@
+name: Akmon
+summary: Rewrite text so it reads naturally, or paraphrase it in a style you choose. Works in many languages.
+category: productivity
+tags:
+  - content-creation
+  - productivity
+  - translation
+docs_url: https://akmon.app/support/#claude-chatgpt
+endpoints:
+  - url: https://mcp.akmon.app/mcp
+    transport: streamable-http
+    auth: oauth

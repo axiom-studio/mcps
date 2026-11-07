@@ -1,0 +1,13 @@
+name: Reddit Ads MCP by AdPlug
+summary: Reddit Ads MCP for Claude and ChatGPT. Spend by subreddit, community and keyword research, delivery diagnosis, new campaigns created paused, a preview tool for every change.
+category: marketing
+tags:
+  - advertising
+  - ai-agent
+  - analytics
+  - marketing
+docs_url: https://adplug.app/integrations/reddit-ads
+endpoints:
+  - url: https://api.adplug.app/mcp/reddit-ads
+    transport: streamable-http
+    auth: oauth

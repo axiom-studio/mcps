@@ -1,0 +1,13 @@
+name: SignOps
+summary: Send push notifications to Android, iOS and the web, manage devices, topics and templates, and ask a trusted phone to approve a login, from your coding agent. Remote server at https://api.signops.dev/mcp, auth with a SignOps secret key.
+category: communication
+tags:
+  - communication
+  - identity
+  - mobile
+  - notifications
+docs_url: https://signops.dev/docs/
+endpoints:
+  - url: https://api.signops.dev/mcp
+    transport: streamable-http
+    auth: unknown

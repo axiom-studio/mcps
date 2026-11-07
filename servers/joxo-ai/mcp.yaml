@@ -1,0 +1,14 @@
+name: Joxo
+summary: 'One shared place for your team and your AI coding agents: tasks, handoffs, decisions and approvals across Claude Code, Codex, Cursor and more.'
+category: productivity
+tags:
+  - ai-agent
+  - coding-agent
+  - collaboration
+  - project-management
+  - task-management
+docs_url: https://joxo.ai
+endpoints:
+  - url: https://joxo.ai/api/mcp
+    transport: streamable-http
+    auth: unknown

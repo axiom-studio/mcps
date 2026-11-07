@@ -1,0 +1,12 @@
+name: Greener Closet
+summary: Score clothes by disclosed fiber content. Check fabric labels, analyzed products, brands, and find clothing without chosen fibers like polyester or nylon. Read-only, no sign-in.
+category: other
+tags:
+  - data-analysis
+  - ecommerce
+  - inventory
+docs_url: https://greenercloset.com
+endpoints:
+  - url: https://greenercloset.com/mcp
+    transport: streamable-http
+    auth: none

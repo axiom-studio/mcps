@@ -1,0 +1,12 @@
+name: MRIPrices.fyi
+summary: Directory of MRI scan costs at imaging centers by city.
+category: search
+tags:
+  - data-analysis
+  - healthcare
+  - search
+docs_url: https://mriprices.fyi
+endpoints:
+  - url: https://mriprices.fyi/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Runheed
+summary: 'Production errors your coding agent can read: search, stack traces, context, trends, resolve.'
+category: development
+tags:
+  - coding-agent
+  - debugging
+  - monitoring
+  - observability-incident
+docs_url: https://runheed.com/mcp-server
+endpoints:
+  - url: https://runheed.com/api/mcp
+    transport: streamable-http
+    auth: oauth

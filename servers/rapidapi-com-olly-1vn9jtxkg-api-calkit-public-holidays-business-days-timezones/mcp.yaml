@@ -1,0 +1,12 @@
+name: CalKit
+summary: Public holidays for 150+ countries, business-day maths and timezone lookup. Free tier, RapidAPI key.
+category: productivity
+tags:
+  - api
+  - calendar
+  - productivity
+docs_url: https://rapidapi.com/Olly-1VN9JTXKG/api/calkit-public-holidays-business-days-timezones
+endpoints:
+  - url: https://calkit-public-holidays-business-days-timezones.p.rapidapi.com/mcp
+    transport: streamable-http
+    auth: api-key

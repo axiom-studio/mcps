@@ -1,0 +1,12 @@
+name: Worklayer
+summary: 'Work with your company''s HR data in Claude, ChatGPT or Cursor: people, time off, tasks, approvals, expenses and analytics, with your Worklayer permissions.'
+category: productivity
+tags:
+  - business-operations
+  - data-analysis
+  - productivity
+docs_url: https://worklayer.ai/mcp/
+endpoints:
+  - url: https://app.worklayer.ai/api/agents/connector/mcp
+    transport: streamable-http
+    auth: oauth

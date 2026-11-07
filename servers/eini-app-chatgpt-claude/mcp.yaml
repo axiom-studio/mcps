@@ -1,0 +1,13 @@
+name: EINI
+summary: This week's supermarket deals in Switzerland (Coop, Migros, Lidl, Aldi, Denner, Aligro, Volg, Otto's) with price, regular price and discount, plus official 2027 health insurance premiums by municipality, age and deductible. No account needed; meal plans with EINI login.
+category: finance
+tags:
+  - ecommerce
+  - finance
+  - grocery
+  - healthcare
+docs_url: https://eini.app/chatgpt-claude/
+endpoints:
+  - url: https://api.eini.app/mcp
+    transport: streamable-http
+    auth: oauth

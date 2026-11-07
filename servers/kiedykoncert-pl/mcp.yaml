@@ -1,0 +1,12 @@
+name: KiedyKoncert.pl – all concerts in Poland
+summary: 'Read-only MCP server with every concert in Poland: search by artist, city or genre, see dates, venues and ticket sellers. No account needed. Endpoint: https://kiedykoncert.pl/mcp'
+category: search
+tags:
+  - entertainment
+  - music
+  - search
+docs_url: https://kiedykoncert.pl/
+endpoints:
+  - url: https://kiedykoncert.pl/mcp
+    transport: streamable-http
+    auth: none

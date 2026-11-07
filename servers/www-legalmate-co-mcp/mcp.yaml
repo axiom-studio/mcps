@@ -1,0 +1,13 @@
+name: LegalMate
+summary: 'Read-only MCP connector for law firms with 4+ attorneys: ask Claude, ChatGPT, or Copilot about calls, transcripts, and contacts in LegalMate. Firm-scoped, OAuth 2.1.'
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - crm
+  - knowledge-retrieval
+docs_url: https://www.legalmate.co/mcp
+endpoints:
+  - url: https://app.legalmate.co/mcp
+    transport: streamable-http
+    auth: oauth

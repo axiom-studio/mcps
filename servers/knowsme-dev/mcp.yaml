@@ -1,0 +1,12 @@
+name: knowsme
+summary: One memory for you and your AI agents, shared by ChatGPT, Claude, Codex, Cursor, Gemini and any MCP client. Free to start.
+category: memory
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - memory
+docs_url: https://knowsme.dev
+endpoints:
+  - url: https://mcp.knowsme.dev/mcp
+    transport: streamable-http
+    auth: oauth

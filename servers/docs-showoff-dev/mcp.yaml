@@ -1,0 +1,13 @@
+name: Showoff.dev – AI Mockup Generator
+summary: You built it. Now show off. Showoff turns your app screenshots into studio-grade 3D device mockups, App Store screenshot sets and launch videos, right from your AI agent. Pick a template or describe the shot, drop in your screens, and Showoff places real iPhone, iPad, Mac and Android models, lights the scene and writes the headline. Every change passes an automatic art-direction review, so nothing clips, overlaps or gets cut off. Export stills or render a video with music.
+category: design
+tags:
+  - content-creation
+  - design
+  - media
+  - video
+docs_url: https://docs.showoff.dev
+endpoints:
+  - url: https://showoff.dev/mcp
+    transport: streamable-http
+    auth: oauth

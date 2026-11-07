@@ -1,0 +1,13 @@
+name: rtcStats
+summary: 'Query analyzed WebRTC sessions from rtcStats: list calls, get a full analysis, check quota.'
+category: development
+tags:
+  - analytics
+  - api
+  - communication
+  - monitoring
+docs_url: https://rtcstats.com/integrations/mcp
+endpoints:
+  - url: https://api.rtcstats.com/v1.0/mcp
+    transport: streamable-http
+    auth: api-key

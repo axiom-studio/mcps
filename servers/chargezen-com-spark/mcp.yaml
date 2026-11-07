@@ -1,0 +1,14 @@
+name: Chargezen Spark!
+summary: 'Spark! runs creator and affiliate programs: partners, links and codes that track every sale, commission profiles and payouts, with no commission taken on partner sales.'
+category: marketing
+tags:
+  - analytics
+  - ecommerce
+  - marketing
+  - payment
+  - sales
+docs_url: https://chargezen.com/spark
+endpoints:
+  - url: https://mcp.chargezen.com/mcp/spark
+    transport: streamable-http
+    auth: oauth

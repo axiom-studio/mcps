@@ -1,0 +1,13 @@
+name: DayFlow
+summary: Visual trip planner and map workspace with a remote OAuth 2.1 Streamable HTTP MCP server (8 tools to manage saved places, timed activities, stays, and routes).
+category: productivity
+tags:
+  - calendar
+  - geospatial
+  - productivity
+  - task-management
+docs_url: https://dayflow.cogniza.co/?utm_source=mcp-directory&ref=mcp-dir
+endpoints:
+  - url: https://dayflow.cogniza.co/api/mcp
+    transport: streamable-http
+    auth: oauth

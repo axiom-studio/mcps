@@ -1,0 +1,12 @@
+name: Practice Pickleball
+summary: Find pickleball drills and generate personalized drill sessions based on your level and goals
+category: other
+tags:
+  - ai-agent
+  - content-creation
+  - sports
+docs_url: https://practicepickleball.app/developers/#mcp
+endpoints:
+  - url: https://practicepickleball.app/mcp
+    transport: streamable-http
+    auth: none

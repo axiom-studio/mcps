@@ -1,0 +1,14 @@
+name: Clientell Salesforce MCP
+summary: 'Salesforce MCP server: give your AI assistant a live map of your Salesforce org (objects, fields, flows, Apex, permissions). Ask questions, trace dependencies, and make changes you approve first.'
+category: database
+tags:
+  - ai-agent
+  - database
+  - documentation
+  - salesforce
+  - workflow-automation
+docs_url: https://www.getclientell.com/salesforce-mcp/docs
+endpoints:
+  - url: https://mcp.clientell.ai/mcp
+    transport: streamable-http
+    auth: oauth

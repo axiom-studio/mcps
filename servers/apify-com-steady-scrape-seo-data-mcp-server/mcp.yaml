@@ -1,0 +1,13 @@
+name: SEO Data MCP Server (SteadyScrape)
+summary: 'Live SEO data for AI agents: Google keyword volume and difficulty, live SERP rank checks, domain traffic, backlinks, Google Trends and YouTube stats. 8 read-only tools, pay per call.'
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+  - web-research
+docs_url: https://apify.com/steady-scrape/seo-data-mcp-server
+endpoints:
+  - url: https://steady-scrape-1--seo-data-mcp-server.apify.actor/mcp
+    transport: streamable-http
+    auth: unknown

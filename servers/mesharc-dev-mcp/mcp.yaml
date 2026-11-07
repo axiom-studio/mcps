@@ -1,0 +1,12 @@
+name: MeshArc
+summary: Crawl and scrape websites to clean markdown, and track what changed between crawls.
+category: web-scraping
+tags:
+  - browser-automation
+  - data-analysis
+  - web-scraping
+docs_url: https://mesharc.dev/mcp
+endpoints:
+  - url: https://mcp.mesharc.dev/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: OwlMem
+summary: OwlMem gives Claude, Codex, Cursor, ChatGPT and Gemini one shared memory and a way to hand unfinished work to each other, so you stop explaining the same project to every AI. Passwords they need stay in an encrypted vault. Free for one AI, forever — no card required.
+category: memory
+tags:
+  - ai-agent
+  - llm
+  - memory
+  - security
+docs_url: https://owlmem.com
+endpoints:
+  - url: https://mcp.owlmem.com/mcp
+    transport: streamable-http
+    auth: oauth

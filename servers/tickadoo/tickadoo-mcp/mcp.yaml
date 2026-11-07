@@ -1,0 +1,11 @@
+name: tickadoo
+summary: Discover and book theatre, shows, events, tours and experiences across 1,100+ cities worldwide. Live availability, no API key.
+category: other
+tags:
+  - entertainment
+  - marketplace
+docs_url: https://github.com/tickadoo/tickadoo-mcp
+endpoints:
+  - url: https://mcp.tickadoo.com/mcp
+    transport: streamable-http
+    auth: none

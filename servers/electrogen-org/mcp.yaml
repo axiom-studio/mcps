@@ -1,0 +1,13 @@
+name: electrogen.org MCP
+summary: AI electronics blueprint generator — BOM, wiring, firmware, prototype renders.
+category: development
+tags:
+  - ai-model
+  - design-to-code
+  - development
+  - document
+docs_url: https://electrogen.org
+endpoints:
+  - url: https://electrogen.org/api/mcp
+    transport: streamable-http
+    auth: none

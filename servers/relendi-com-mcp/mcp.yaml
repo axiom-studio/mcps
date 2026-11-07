@@ -1,0 +1,12 @@
+name: Relendi — Commercial Real Estate Loan Tools
+summary: Free CRE loan sizing, DSCR stress tests, payments, NY/FL closing cost estimates and cited lending knowledge. No account or API key; usage limits apply. Illustrative results, not lender quotes.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - real-estate
+docs_url: https://relendi.com/mcp
+endpoints:
+  - url: https://relendi.com/api/mcp/public
+    transport: streamable-http
+    auth: none

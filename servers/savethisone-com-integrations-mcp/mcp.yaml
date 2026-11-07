@@ -1,0 +1,13 @@
+name: Save This One
+summary: Save, search, read, tag, and organize your bookmarks from AI assistants through an OAuth-secured remote MCP server.
+category: productivity
+tags:
+  - file-management
+  - knowledge-retrieval
+  - productivity
+  - search
+docs_url: https://savethisone.com/integrations/mcp
+endpoints:
+  - url: https://mcp.savethisone.com/mcp
+    transport: streamable-http
+    auth: oauth

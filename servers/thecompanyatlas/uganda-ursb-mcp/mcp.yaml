@@ -1,0 +1,12 @@
+name: Uganda URSB Company, Director & Shareholder Search
+summary: Uganda URSB company search by name and BRN, with director, secretary and shareholder lookup.
+category: database
+tags:
+  - database
+  - knowledge-retrieval
+  - search
+docs_url: https://github.com/TheCompanyAtlas/uganda-ursb-mcp
+endpoints:
+  - url: https://thecompanyatlas.com/mcp/uganda
+    transport: streamable-http
+    auth: oauth

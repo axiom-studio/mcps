@@ -1,0 +1,13 @@
+name: 'Synorb: News & Context for AI Agents'
+summary: Cited news for AI agents from AI companies, VC firms, private companies and business podcasts. Every item links to its source.
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - knowledge-retrieval
+  - research
+docs_url: https://synorb.com/docs/mcp
+endpoints:
+  - url: https://mcp.synorb.com/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,14 @@
+name: SwapWallet
+summary: Official remote MCP server for SwapWallet, a custodial crypto exchange and wallet. Agents read balances, P&L and transaction history, and request swaps, transfers and withdrawals that run only after the user approves them in Telegram.
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - finance
+  - payment
+  - telegram
+docs_url: https://github.com/SwapWallet/swapwallet-mcp
+endpoints:
+  - url: https://swapwallet.app/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,11 @@
+name: RentalCal
+summary: 'Check a vacation rental''s availability and exact price, then book direct with the host. Read-only, no sign-in: look up a RentalCal host''s listing (amenities, rules, cancellation policy, deposit, FAQ), see open dates, price a stay, and get a booking link with the dates filled in.'
+category: other
+tags:
+  - ecommerce
+  - marketplace
+docs_url: https://www.rentalcal.com/developers
+endpoints:
+  - url: https://api.rentalcal.com/mcp
+    transport: streamable-http
+    auth: none

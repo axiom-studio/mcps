@@ -1,0 +1,13 @@
+name: Agent Index
+summary: 'Free read-only MCP server over an open dataset of compliance, security and risk AI agents and verified audit firms. Tools: search_agents, get_agent, search_auditors, check_auditor. Remote streamable HTTP, no auth: https://theagentindex.io/api/mcp'
+category: search
+tags:
+  - ai-agent
+  - compliance
+  - search
+  - security
+docs_url: https://theagentindex.io
+endpoints:
+  - url: https://theagentindex.io/api/mcp
+    transport: streamable-http
+    auth: unknown

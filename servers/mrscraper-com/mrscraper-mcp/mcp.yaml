@@ -1,0 +1,14 @@
+name: MrScraper
+summary: Fetch any public web page as Markdown, HTML or a screenshot with automatic browser rendering, search the web for parsed results, and check plan usage.
+category: web-scraping
+tags:
+  - browser-automation
+  - search
+  - web-scraping
+official: true
+docs_url: https://github.com/mrscraper-com/mrscraper-mcp/blob/main/LISTING.md
+website_url: https://mrscraper.com
+endpoints:
+  - url: https://mcp.mrscraper.com/mcp
+    transport: streamable-http
+    auth: oauth

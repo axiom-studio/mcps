@@ -1,0 +1,13 @@
+name: GroundRules
+summary: The original text of US federal and state law, with official sources and dates. Never a summary or legal advice.
+category: search
+tags:
+  - document
+  - government
+  - research
+  - search
+docs_url: https://agentlookups.ai/docs/groundrules/
+endpoints:
+  - url: https://law.agentlookups.ai/mcp
+    transport: streamable-http
+    auth: none

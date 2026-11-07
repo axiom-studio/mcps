@@ -1,0 +1,13 @@
+name: Anvil CRM
+summary: Official remote MCP server for Anvil CRM. Connect ChatGPT, Claude, Cursor, Codex, and other MCP clients to search, read, create, and update accounts, contacts, leads, deals, and activities. Uses OAuth 2.1 with explicit scopes and each member's workspace permissions.
+category: productivity
+tags:
+  - business-operations
+  - crm
+  - productivity
+  - sales
+docs_url: https://anvilcrm.com/mcp-crm
+endpoints:
+  - url: https://app.anvilcrm.com/api/mcp
+    transport: streamable-http
+    auth: oauth

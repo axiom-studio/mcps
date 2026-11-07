@@ -1,0 +1,12 @@
+name: StudioSphere Pulse
+summary: Discover free, licensed loops and analyze authorized audio for BPM, musical key and waveform data. Start with free discovery and see estimated costs before paid analysis.
+category: other
+tags:
+  - audio
+  - data-analysis
+  - music
+docs_url: https://pulse.studiosphere.space/connect
+endpoints:
+  - url: https://mcp.studiosphere.space/mcp
+    transport: streamable-http
+    auth: api-key

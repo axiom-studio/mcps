@@ -1,0 +1,15 @@
+name: Stripe MCP
+summary: Official Stripe MCP server and agent toolkit for working with Stripe customers, payments, subscriptions, refunds, invoices, and billing operations.
+category: cloud-service
+tags:
+  - crm
+  - ecommerce
+  - finance
+  - payment
+official: true
+registry_name: com.stripe/mcp
+docs_url: https://github.com/stripe/agent-toolkit
+endpoints:
+  - url: https://mcp.stripe.com
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: SocialDataX Haokan MCP
+summary: Search Haokan videos and users, read video details, comments and replies, and explore creators and hot searches. Hosted Streamable HTTP MCP with 15 tools.
+category: marketing
+tags:
+  - content-creation
+  - search
+  - social-media
+  - video
+docs_url: https://github.com/DevinChen2014/haokan-mcp
+endpoints:
+  - url: https://mcp.socialdatax.com/haokan/mcp
+    transport: streamable-http
+    auth: api-key

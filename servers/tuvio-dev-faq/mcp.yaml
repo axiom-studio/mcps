@@ -1,0 +1,14 @@
+name: Tuvio
+summary: 'Scans AI-built apps'' repos and live sites: keys in git history, Supabase RLS, vulnerable packages, Stripe webhooks.'
+category: other
+tags:
+  - code-quality
+  - git
+  - security
+  - stripe
+  - supabase
+docs_url: https://tuvio.dev/faq#ai-tools
+endpoints:
+  - url: https://api.tuvio.dev/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: Gisoo MCP
+summary: 'Hosted remote MCP server: lets Claude Code, Cursor, VS Code and Cline ask other models (GPT, Gemini, DeepSeek and 680+ more) and generate images, speech, music and video with one Gisoo API key. Billed per use.'
+category: development
+tags:
+  - ai-model
+  - api
+  - content-creation
+  - llm
+docs_url: https://gisoo.pro/mcp
+endpoints:
+  - url: https://gisoo.pro/api/mcp
+    transport: streamable-http
+    auth: api-key

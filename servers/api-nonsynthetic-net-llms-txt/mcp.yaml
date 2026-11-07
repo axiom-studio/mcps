@@ -1,0 +1,13 @@
+name: nonsynthetic — agent API fleet
+summary: 'Per-call utility + assurance API for agents: 46 MCP tools — hashing/codec utils, market data, corpus search, deterministic honesty-audit scans. x402 micropayments (Base/Solana USDC) + prepaid credit.'
+category: development
+tags:
+  - ai-agent
+  - api
+  - crypto
+  - payment
+docs_url: https://api.nonsynthetic.net/llms.txt
+endpoints:
+  - url: https://api.nonsynthetic.net/mcp
+    transport: streamable-http
+    auth: none

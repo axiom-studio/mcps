@@ -1,0 +1,13 @@
+name: Scan.now
+summary: Run passive, read-only website security scans and inspect suspicious public links for phishing signals. Checks include TLS, security headers, DNS and email posture, JavaScript libraries, redirects, and lookalike domains. Website scans require ownership or explicit permission.
+category: development
+tags:
+  - compliance
+  - development
+  - security
+  - web-scraping
+docs_url: https://scan.now/cli
+endpoints:
+  - url: https://mcp.scan.now
+    transport: streamable-http
+    auth: none

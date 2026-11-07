@@ -1,0 +1,13 @@
+name: FastGPU
+summary: FastGPU compares live GPU rental prices across RunPod, Vast.ai, Lambda, AWS and dozens more clouds, and gets competing quotes for multi-GPU clusters. Free.
+category: cloud-service
+tags:
+  - ai-model
+  - cloud-infrastructure
+  - database
+  - devops-infrastructure
+docs_url: https://fastgpu.co/docs
+endpoints:
+  - url: https://fastgpu.co/api/mcp
+    transport: streamable-http
+    auth: unknown

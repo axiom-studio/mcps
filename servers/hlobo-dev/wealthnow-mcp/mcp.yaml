@@ -1,0 +1,13 @@
+name: Wealthnow
+summary: Market data, fundamentals, SEC filings, insider, 13F and congressional trades, and private markets for AI agents, with OAuth sign-in.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - knowledge-retrieval
+  - research
+docs_url: https://github.com/Hlobo-dev/wealthnow-mcp
+endpoints:
+  - url: https://mcp.wealthnow.io/mcp
+    transport: streamable-http
+    auth: oauth

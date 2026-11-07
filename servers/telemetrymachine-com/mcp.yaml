@@ -1,0 +1,12 @@
+name: Telemetry Machine
+summary: Query Telemetry Machine observability data and instrument your apps with OpenTelemetry.
+category: development
+tags:
+  - development
+  - monitoring
+  - observability-incident
+docs_url: https://telemetrymachine.com/
+endpoints:
+  - url: https://telemetrymachine.com/api/mcp
+    transport: streamable-http
+    auth: oauth

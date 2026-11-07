@@ -1,0 +1,14 @@
+name: ClearFeed
+summary: Official ClearFeed MCP server. Search, summarize and update support requests, post replies, link Jira tickets, and pull response-time and SLA insights.
+category: productivity
+tags:
+  - analytics
+  - customer-ops
+  - jira
+  - productivity
+  - zendesk
+docs_url: https://docs.clearfeed.ai/clearfeed-help-center/managing-requests/api-and-mcp#mcp-server
+endpoints:
+  - url: https://mcp.clearfeed.app/mcp
+    transport: streamable-http
+    auth: oauth

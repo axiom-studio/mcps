@@ -1,0 +1,11 @@
+name: Boncourant
+summary: 'French electricity-cost optimizer and auditor: tariff simulations, bill checks, subscribed power and contract analysis. Public remote MCP; no API key.'
+category: other
+tags:
+  - analytics
+  - data-analysis
+docs_url: https://boncourant.fr/agents
+endpoints:
+  - url: https://boncourant.fr/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: B2B Email & Domain Scorer
+summary: 'Score emails and company domains for B2B lead quality: business/free/role/disposable verdict, 0-100 score, MX, provider, SPF/DMARC. Remote MCP. Paid via RapidAPI (free Basic plan); free demo at /demo/mcp./mcp.'
+category: marketing
+tags:
+  - crm
+  - data-analysis
+  - email-automation
+  - marketing
+docs_url: https://rapidapi.com/MohamedBahaa/api/b2b-email-domain-scorer
+endpoints:
+  - url: https://email-scorer.mohamed-bahaa53000.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

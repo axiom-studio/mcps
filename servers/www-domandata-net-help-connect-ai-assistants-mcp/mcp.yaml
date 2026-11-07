@@ -1,0 +1,12 @@
+name: Domandata
+summary: 'Build, preview, deploy and export academic surveys: questions, branching, experiments, quotas and responses.'
+category: productivity
+tags:
+  - productivity
+  - research
+  - workflow-automation
+docs_url: https://www.domandata.net/help/connect-ai-assistants-mcp
+endpoints:
+  - url: https://www.domandata.net/mcp
+    transport: streamable-http
+    auth: oauth

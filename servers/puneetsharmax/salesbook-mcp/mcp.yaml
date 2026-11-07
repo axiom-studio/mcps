@@ -1,0 +1,13 @@
+name: SalesBook by MaxedS
+summary: 'A sourced ranking of technology companies that sell to enterprises (Retail & CPG, Manufacturing, Healthcare, Education, cross-industry), queryable by AI assistants and agents. Every profile shows its sources. Remote, read-only, no auth: https://mcp.maxeds.org/mcp'
+category: search
+tags:
+  - data-analysis
+  - knowledge-retrieval
+  - research
+  - sales
+docs_url: https://github.com/puneetsharmax/salesbook-mcp
+endpoints:
+  - url: https://mcp.maxeds.org/mcp
+    transport: streamable-http
+    auth: none

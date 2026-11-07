@@ -1,0 +1,18 @@
+name: Clarify
+summary: Clarify is a conversational CRM connector for retrieving, creating, and updating sales records. It helps assistants query deals, companies, people, meetings, tasks, and pipeline context while respecting real-time Clarify data and permissions.
+description: |-
+  Clarify is a conversational CRM connector for retrieving, creating, and updating sales records. It helps assistants query deals, companies, people, meetings, tasks, and pipeline context while respecting real-time Clarify data and permissions.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://docs.clarify.ai/en/articles/13367278-clarify-mcp)
+category: marketing
+tags:
+  - marketing
+  - remote-mcp
+official: true
+docs_url: https://docs.clarify.ai/en/articles/13367278-clarify-mcp
+endpoints:
+  - url: https://api.clarify.ai/mcp
+    transport: streamable-http
+    auth: oauth

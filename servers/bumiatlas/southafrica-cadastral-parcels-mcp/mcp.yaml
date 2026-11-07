@@ -1,0 +1,13 @@
+name: South Africa Cadastral Parcels (Surveyor-General · Erven & Farms)
+summary: South African Surveyor-General erven and farm portions by number and region, farm name or point.
+category: other
+tags:
+  - geospatial
+  - government
+  - real-estate
+  - search
+docs_url: https://github.com/BumiAtlas/southafrica-cadastral-parcels-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/southafrica
+    transport: streamable-http
+    auth: oauth

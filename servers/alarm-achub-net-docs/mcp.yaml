@@ -1,0 +1,13 @@
+name: AgentAlarm
+summary: Remote MCP server that lets AI agents send notifications, timed reminders and urgent alerts to your iPhone. Urgent ones ring like an alarm through Silent mode and Focus. OAuth sign-in approved in the iPhone app, no API key.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - mobile
+  - notifications
+docs_url: https://alarm.achub.net/docs/
+endpoints:
+  - url: https://alarm.achub.net/mcp
+    transport: streamable-http
+    auth: oauth

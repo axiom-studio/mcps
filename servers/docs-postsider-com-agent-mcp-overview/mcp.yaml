@@ -1,0 +1,13 @@
+name: PostSider
+summary: The ultimate social media scheduling platform
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://docs.postsider.com/agent/mcp/overview
+endpoints:
+  - url: https://mcp.postsider.com/mcp
+    transport: streamable-http
+    auth: oauth

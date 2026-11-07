@@ -1,0 +1,13 @@
+name: Pillr
+summary: Le prix au m² d'une commune, la synthèse de son marché et la formalité d'urbanisme d'un projet de travaux, tirés de la donnée publique française (DVF, DHUP, INSEE, Code de l'urbanisme).
+category: finance
+tags:
+  - data-analysis
+  - geospatial
+  - real-estate
+  - research
+docs_url: https://pillr.fr/mcp
+endpoints:
+  - url: https://pillr.fr/api/mcp
+    transport: streamable-http
+    auth: none

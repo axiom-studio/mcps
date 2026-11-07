@@ -1,0 +1,11 @@
+name: dimo storage
+summary: fast and cheap cloud storage up to 100GB.
+category: cloud-storage
+tags:
+  - cloud-storage
+  - storage
+docs_url: https://dimosoftwares.ir/storage/connect/
+endpoints:
+  - url: https://dimosoftwares.ir/storage/mcp
+    transport: streamable-http
+    auth: oauth

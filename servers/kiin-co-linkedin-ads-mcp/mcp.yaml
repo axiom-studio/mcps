@@ -1,0 +1,12 @@
+name: Kiin Intelligence - LinkedIn Ads MCP
+summary: LinkedIn Ads analysis via MCP with benchmarks from 1,000+ accounts
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - marketing
+docs_url: https://kiin.co/linkedin-ads-mcp
+endpoints:
+  - url: https://mcp.kiin.co/mcp
+    transport: streamable-http
+    auth: unknown

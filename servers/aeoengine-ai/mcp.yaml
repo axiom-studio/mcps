@@ -1,0 +1,13 @@
+name: Best AI Search Agency AEO Report
+summary: Free AEO visibility report MCP — run AI search audits for any domain via Best AI Search Agency AEO Report.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+  - web-research
+docs_url: https://aeoengine.ai
+endpoints:
+  - url: https://aeoengine.ai/mcp
+    transport: streamable-http
+    auth: none

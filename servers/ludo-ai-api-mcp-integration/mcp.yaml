@@ -1,0 +1,14 @@
+name: Ludo AI Game Assets
+summary: 'Generate game assets from your AI client: sprites, spritesheet animations, directional sprites, 3D models with rigging and animation, video, music, sound effects and voices.'
+category: design
+tags:
+  - ai-model
+  - audio
+  - content-creation
+  - design
+  - gaming
+docs_url: https://ludo.ai/api-mcp-integration
+endpoints:
+  - url: https://mcp.ludo.ai/mcp
+    transport: streamable-http
+    auth: unknown

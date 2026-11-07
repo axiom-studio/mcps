@@ -1,0 +1,14 @@
+name: Verbatim
+summary: 'Remote MCP server for Verbatim: turn an article or captioned YouTube URL into an X thread, LinkedIn carousel PDF, newsletter and video hooks in your voice.'
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - x-twitter
+  - youtube
+docs_url: https://verbatimcoach.com
+endpoints:
+  - url: https://verbatimcoach.com/api/mcp
+    transport: streamable-http
+    auth: unknown

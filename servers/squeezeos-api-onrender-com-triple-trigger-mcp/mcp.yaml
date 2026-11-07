@@ -1,0 +1,13 @@
+name: Triple-Trigger
+summary: 'Triple-Trigger MCP from ScriptMasterLabs: SPEC v2 triple-trigger scans of one ticker on live Schwab data (T1 liquidity sweep + Fibonacci reclaim, T2 VWAP reclaim + RVOL thrust, T3 same-side unusual options premium vs the ticker''s own 20-session baseline). $0.05 USDC on Base via x402 per scan.'
+category: finance
+tags:
+  - crypto
+  - finance
+  - payment
+  - trading
+docs_url: https://squeezeos-api.onrender.com/triple-trigger/mcp
+endpoints:
+  - url: https://squeezeos-api.onrender.com/triple-trigger/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: WealthMCP
+summary: 'Free directory of 217 MCP servers for wealth management: search by need, get exact endpoints and client configs, and assemble practice stacks for workflows like onboarding or review-meeting prep. Read-only; no client data.'
+category: finance
+tags:
+  - documentation
+  - finance
+  - knowledge-retrieval
+  - research
+docs_url: https://wealthmcp.ai
+endpoints:
+  - url: https://wealthmcp.ai/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Verifai — Email Verification & Domain Intelligence
+summary: Verify email deliverability (syntax, MX, disposable detection) and enrich domains with RDAP/SSL intel. Pay-per-call MCP tools with a free tier.
+category: marketing
+tags:
+  - data-analysis
+  - email-automation
+  - marketing
+  - security
+docs_url: https://165-227-136-26.sslip.io/
+endpoints:
+  - url: https://165-227-136-26.sslip.io/mcp
+    transport: streamable-http
+    auth: api-key

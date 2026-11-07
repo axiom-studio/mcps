@@ -1,0 +1,10 @@
+name: luckyvehiclenumber
+summary: 'Lucky vehicle number calculator for India: sums plate digits, reduces to 1-9 and scores against the owner''s birth number. Free, no auth.'
+category: other
+tags:
+  - entertainment
+docs_url: https://luckyvehiclenumber.com/for-ai
+endpoints:
+  - url: https://luckyvehiclenumber.com/mcp
+    transport: streamable-http
+    auth: none

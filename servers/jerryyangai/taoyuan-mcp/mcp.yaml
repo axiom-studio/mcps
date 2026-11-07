@@ -1,0 +1,13 @@
+name: Taoyuan Music
+summary: 'Writes an original song for one person: describe who it''s for, get lyrics, two full versions and cover art in about a minute. OAuth or API key, 3 free credits. Works in Claude, ChatGPT, Cursor, Coze.'
+category: other
+tags:
+  - ai-model
+  - content-creation
+  - media
+  - music
+docs_url: https://github.com/JerryYangAI/taoyuan-mcp
+endpoints:
+  - url: https://api.musicsforyou.com/mcp
+    transport: streamable-http
+    auth: oauth

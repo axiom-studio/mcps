@@ -1,0 +1,13 @@
+name: Subtraq
+summary: 'Create short links, track clicks and attribute sales from your AI agent: 8 tools backed by the Subtraq API (spaces, links, analytics, sales).'
+category: marketing
+tags:
+  - analytics
+  - api
+  - marketing
+  - sales
+docs_url: https://subtraq.co/en/mcp
+endpoints:
+  - url: https://subtraq.co/api/mcp
+    transport: streamable-http
+    auth: api-key

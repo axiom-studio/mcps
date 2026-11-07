@@ -1,0 +1,13 @@
+name: Synento
+summary: 'Agent-native video API: create sessions, mint keys and verify recorded camera and mic media.'
+category: communication
+tags:
+  - ai-agent
+  - api
+  - communication
+  - video
+docs_url: https://synento.com/docs/guides/mcp
+endpoints:
+  - url: https://api.synento.com/mcp
+    transport: streamable-http
+    auth: unknown

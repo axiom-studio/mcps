@@ -1,0 +1,11 @@
+name: HALLUX
+summary: Checks that a package, module or DOI exists in its registry (npm, PyPI, crates.io, Go, Maven, NuGet, DOIs) before an agent installs, imports or cites it. Flags names models invent and ones squatted since. Free, no key.
+category: development
+tags:
+  - development
+  - security
+docs_url: https://blvkware.dev/hallux/
+endpoints:
+  - url: https://api.blvkware.dev/hallux/mcp
+    transport: streamable-http
+    auth: unknown

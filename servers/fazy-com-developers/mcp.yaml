@@ -1,0 +1,13 @@
+name: Fazy Deals MCP
+summary: 'Read-only MCP server exposing Fazy''s price-checked deals catalog for US shoppers. Every deal carries a verified discount percentage, current price, reference price, and merchant info. Tools: search_deals, get_deal, get_price_history, similar_deals, list_categories, catalog_slice, post_brief. Free to use, no authentication. MCP endpoint: https://fazy.com/mcp'
+category: other
+tags:
+  - data-analysis
+  - ecommerce
+  - search
+  - web-research
+docs_url: https://fazy.com/developers
+endpoints:
+  - url: https://fazy.com/mcp
+    transport: streamable-http
+    auth: none

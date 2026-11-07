@@ -1,0 +1,10 @@
+name: Layro MCP
+summary: Give AI coding agents access to production-ready React UI components, dashboard blocks, and templates from Layro to build consistent interfaces faster with less manual fixing.
+category: development
+tags:
+  - development
+docs_url: https://layropro.com/
+endpoints:
+  - url: https://layropro.com/api/mcp
+    transport: streamable-http
+    auth: api-key

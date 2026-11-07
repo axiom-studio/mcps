@@ -1,0 +1,12 @@
+name: StrikerAPI
+summary: 'Premier League, MLS and European football: lineups, shot maps, xG, tables and odds. REST and MCP.'
+category: other
+tags:
+  - api
+  - data-analysis
+  - sports
+docs_url: https://github.com/noahowsh/strikerapi-mcp
+endpoints:
+  - url: https://mcp.strikerapi.com/mcp
+    transport: streamable-http
+    auth: api-key

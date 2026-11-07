@@ -1,0 +1,13 @@
+name: wecallio
+summary: wecallio is an MCP server that lets Claude, ChatGPT or Gemini place real phone calls on your behalf and report back with a written summary.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - sms
+  - telegram
+docs_url: https://wecallio.com
+endpoints:
+  - url: https://wecallio.com/mcp
+    transport: streamable-http
+    auth: oauth

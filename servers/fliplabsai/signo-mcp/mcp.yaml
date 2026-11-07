@@ -1,0 +1,14 @@
+name: Signo
+summary: Drafts AI agents that watch DeFi positions and alert on Telegram; the wallet owner signs every draft.
+category: finance
+tags:
+  - ai-agent
+  - defi
+  - finance
+  - notifications
+  - telegram
+docs_url: https://github.com/FlipLabsAI/signo-mcp
+endpoints:
+  - url: https://app.signo.fi/api/mcp
+    transport: streamable-http
+    auth: unknown

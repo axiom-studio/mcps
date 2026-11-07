@@ -1,0 +1,13 @@
+name: mailsocket
+summary: Give an agent a throwaway email inbox, wait for the OTP or magic link, and get it back as JSON.
+category: development
+tags:
+  - communication
+  - email-automation
+  - security
+  - testing-qa
+docs_url: https://github.com/mailsocket/mailsocket-sdk
+endpoints:
+  - url: https://mcp.mailsocket.app/mcp
+    transport: streamable-http
+    auth: unknown

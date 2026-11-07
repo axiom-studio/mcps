@@ -1,0 +1,13 @@
+name: VideoBGRemover
+summary: Remove video backgrounds with OAuth and account credits; download transparent WebM with source audio.
+category: design
+tags:
+  - design
+  - file-conversion
+  - media
+  - video
+docs_url: https://videobgremover.net/mcp
+endpoints:
+  - url: https://videobgremover.net/api/mcp
+    transport: streamable-http
+    auth: oauth

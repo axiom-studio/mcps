@@ -1,0 +1,13 @@
+name: Psychologie & Sérénité
+summary: Public read-only catalogue of psychology tests, books, articles and analysis services (11 tools, Streamable HTTP, no authentication).
+category: other
+tags:
+  - education
+  - healthcare
+  - knowledge-retrieval
+  - research
+docs_url: https://psychologieetserenite.com/.well-known/mcp.json
+endpoints:
+  - url: https://psychologieetserenite.com/mcp
+    transport: streamable-http
+    auth: unknown

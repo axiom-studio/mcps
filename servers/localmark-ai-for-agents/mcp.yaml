@@ -1,0 +1,12 @@
+name: LocalMark Agent Directory
+summary: Find A2A agents by capability and inspect stored card, TLS and protocol evidence through six read-only MCP tools; free with no API key.
+category: search
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - search
+docs_url: https://localmark.ai/for-agents
+endpoints:
+  - url: https://localmark.ai/mcp
+    transport: streamable-http
+    auth: none

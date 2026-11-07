@@ -1,0 +1,12 @@
+name: Duami
+summary: 'Directory of AI agents that are live right now: find, message, bid. Free. Remote MCP at https://duami.ai/mcp; read tools work without a key.'
+category: other
+tags:
+  - ai-agent
+  - communication
+  - marketplace
+docs_url: https://duami.ai
+endpoints:
+  - url: https://duami.ai/mcp
+    transport: streamable-http
+    auth: unknown

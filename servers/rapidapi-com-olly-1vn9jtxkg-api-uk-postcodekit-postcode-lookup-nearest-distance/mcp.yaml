@@ -1,0 +1,12 @@
+name: UK PostcodeKit
+summary: UK postcode lookup, nearest postcodes, autocomplete and distance (OS open data). Free tier, RapidAPI key.
+category: other
+tags:
+  - api
+  - data-analysis
+  - geospatial
+docs_url: https://rapidapi.com/Olly-1VN9JTXKG/api/uk-postcodekit-postcode-lookup-nearest-distance
+endpoints:
+  - url: https://uk-postcodekit-postcode-lookup-nearest-distance.p.rapidapi.com/mcp
+    transport: streamable-http
+    auth: api-key

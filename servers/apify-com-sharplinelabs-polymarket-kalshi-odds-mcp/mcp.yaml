@@ -1,0 +1,13 @@
+name: Polymarket & Kalshi Odds vs Pinnacle Fair Probability
+summary: Pinnacle no-vig fair odds vs live Polymarket and Kalshi sports prices, with the edge after fees at your stake. Winner, totals, spreads, BTTS, tennis sets/games, UFC. 19 leagues, pay per call.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - sports
+  - trading
+docs_url: https://apify.com/sharplinelabs/polymarket-kalshi-odds-mcp
+endpoints:
+  - url: https://sharplinelabs--polymarket-kalshi-odds-mcp.apify.actor/mcp
+    transport: streamable-http
+    auth: api-key

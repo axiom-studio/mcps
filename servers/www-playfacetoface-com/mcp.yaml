@@ -1,0 +1,11 @@
+name: Play Face to Face
+summary: Create instant multiplayer browser-game rooms (Big Two, Tic Tac Toe and more) that friends join from a link, with no account or app download. Remote, no auth.
+category: other
+tags:
+  - browser
+  - gaming
+docs_url: https://www.playfacetoface.com
+endpoints:
+  - url: https://mcp.playfacetoface.com/mcp
+    transport: streamable-http
+    auth: none

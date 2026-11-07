@@ -1,0 +1,12 @@
+name: ValidKit
+summary: Validate IBAN, EU VAT, card numbers, ISBN, BIC, EAN and postcodes. Free tier, RapidAPI key.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - payment
+docs_url: https://rapidapi.com/Olly-1VN9JTXKG/api/validkit-iban-vat-card-isbn-bic-postcode-validator
+endpoints:
+  - url: https://validkit-iban-vat-card-isbn-bic-postcode-validator.p.rapidapi.com/mcp
+    transport: streamable-http
+    auth: api-key

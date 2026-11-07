@@ -1,0 +1,13 @@
+name: Solfray
+summary: Remote MCP server for Solfray (chat, voice, video, games - Solana login and tipping with 0% platform fees)
+category: communication
+tags:
+  - communication
+  - crypto
+  - evm
+  - social-media
+docs_url: https://solfray.com/mcp
+endpoints:
+  - url: https://mcp.solfray.com
+    transport: streamable-http
+    auth: unknown

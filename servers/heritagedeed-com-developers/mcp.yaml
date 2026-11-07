@@ -1,0 +1,13 @@
+name: HeritageDeed Title Search and Property Data
+summary: 'US title search reports, pre-checked tax and sheriff sale lists, surplus funds and tax sale lists, and free property lookups: flood zone, radon, Superfund, LLC owner, loan limits, zoning.'
+category: search
+tags:
+  - data-analysis
+  - government
+  - real-estate
+  - search
+docs_url: https://heritagedeed.com/developers
+endpoints:
+  - url: https://heritagedeed.com/mcp/public
+    transport: streamable-http
+    auth: unknown

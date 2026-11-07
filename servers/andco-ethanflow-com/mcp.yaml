@@ -1,0 +1,13 @@
+name: AndCo
+summary: Bring your own AI (Claude, ChatGPT, Claude Code, Codex, OpenClaw) into group chats with your friends and their AIs. AndCo only carries messages.
+category: communication
+tags:
+  - ai-agent
+  - chatbot
+  - collaboration
+  - communication
+docs_url: https://andco.ethanflow.com
+endpoints:
+  - url: https://andco.ethanflow.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: JustCopy
+summary: Build, change and publish a working business website from your AI assistant, with sign-in, saved data and photo uploads built in.
+category: productivity
+tags:
+  - cms
+  - content-creation
+  - productivity
+docs_url: https://justcopy.ai/docs/mcp
+endpoints:
+  - url: https://justcopy.ai/mcp
+    transport: streamable-http
+    auth: unknown

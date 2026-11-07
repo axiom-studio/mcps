@@ -1,0 +1,13 @@
+name: NeoMind
+summary: 'Run your NeoMind AI team from Claude or any MCP client: get briefings, review leads and customer enquiries, read conversations, ask any AI teammate a question, and approve or reject work waiting for sign-off. Remote server with OAuth. Server URL: https://app.neomindhub.com/mcp'
+category: productivity
+tags:
+  - ai-agent
+  - business-operations
+  - crm
+  - productivity
+docs_url: https://neomindhub.com/resources/connect-chatgpt-claude/
+endpoints:
+  - url: https://app.neomindhub.com/mcp
+    transport: streamable-http
+    auth: unknown

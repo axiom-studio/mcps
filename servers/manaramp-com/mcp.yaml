@@ -1,0 +1,12 @@
+name: Manaramp
+summary: 'Looks up real Magic: The Gathering cards, combos, and synergies, then builds and prices a Commander deck. The model queries the card database instead of inventing cards.'
+category: other
+tags:
+  - database
+  - gaming
+  - knowledge-retrieval
+docs_url: https://manaramp.com
+endpoints:
+  - url: https://manaramp.com/mcp
+    transport: streamable-http
+    auth: unknown

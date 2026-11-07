@@ -1,0 +1,13 @@
+name: ExtensionDash
+summary: 'Browser extension analytics via MCP: track store metrics, keyword ranks, and competitors from your coding agent.'
+category: development
+tags:
+  - analytics
+  - browser
+  - marketing
+  - seo
+docs_url: https://extensiondash.com/
+endpoints:
+  - url: https://extensiondash.com/mcp
+    transport: streamable-http
+    auth: unknown

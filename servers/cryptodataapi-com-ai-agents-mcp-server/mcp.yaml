@@ -1,0 +1,13 @@
+name: CryptoDataAPI
+summary: 'Live crypto market data: prices, funding, OI, liquidations, regimes, GEX, whales, sentiment, macro.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - finance
+  - trading
+docs_url: https://cryptodataapi.com/ai-agents/mcp-server
+endpoints:
+  - url: https://cryptodataapi.com/mcp
+    transport: streamable-http
+    auth: oauth

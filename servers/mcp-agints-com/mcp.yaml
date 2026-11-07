@@ -1,0 +1,12 @@
+name: Agints
+summary: MCP that connects a customer's agents and walks install and setup with a one-time code.
+category: other
+tags:
+  - ai-agent
+  - documentation
+  - workflow-automation
+docs_url: https://mcp.agints.com
+endpoints:
+  - url: https://mcp.agints.com/mcp
+    transport: streamable-http
+    auth: unknown

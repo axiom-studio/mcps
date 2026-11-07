@@ -1,0 +1,13 @@
+name: StableDomains
+summary: StableDomains.net is an agent-first domain registrar. AI agents and people can search, register and manage domains, paying in USDC/USDT on 7 chains (Base, Ethereum, Arbitrum, Polygon, HyperEVM, BSC, Solana). Supports MCP, x402 and a REST/OpenAPI API. Free WHOIS privacy, guest checkout.
+category: other
+tags:
+  - api
+  - crypto
+  - defi
+  - payment
+docs_url: https://stabledomains.net
+endpoints:
+  - url: https://stabledomains.net/api/mcp
+    transport: streamable-http
+    auth: unknown

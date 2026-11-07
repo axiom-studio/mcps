@@ -1,0 +1,13 @@
+name: nu:legal Deutsches Recht
+summary: 'German law for agents: federal and state statutes and 640,000 court decisions with their citations. Keyless, read-only.'
+category: search
+tags:
+  - government
+  - knowledge-retrieval
+  - research
+  - search
+docs_url: https://recht.nulegal.eu/developers
+endpoints:
+  - url: https://recht.nulegal.eu/v1/mcp
+    transport: streamable-http
+    auth: none

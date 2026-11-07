@@ -1,0 +1,14 @@
+name: FeedHive
+summary: Create, schedule and analyze social media posts across your connected accounts with FeedHive.
+category: marketing
+tags:
+  - analytics
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://docs.feedhive.com/mcp
+endpoints:
+  - url: https://mcp.feedhive.com
+    transport: streamable-http
+    auth: oauth

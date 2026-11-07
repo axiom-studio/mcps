@@ -1,0 +1,13 @@
+name: CloudQuell
+summary: 'Ask your AI assistant about AWS, Azure, GCP, Snowflake, OpenAI and Anthropic costs: cost analysis, anomalies, budgets, commitments and savings recommendations.'
+category: cloud-service
+tags:
+  - aws
+  - azure
+  - cloud-infrastructure
+  - snowflake
+docs_url: https://docs.cloudquell.com/mcp/get-started/overview/
+endpoints:
+  - url: https://mcp.cloudquell.com/mcp
+    transport: streamable-http
+    auth: oauth

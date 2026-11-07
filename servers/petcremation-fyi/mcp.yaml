@@ -1,0 +1,12 @@
+name: PetCremation
+summary: PetCremation lists pet crematories and aftercare providers by city with published services, licence records and fee lists. Browse by place and category, open any listing for contact facts, and query the same data through a free API and MCP endpoint.
+category: search
+tags:
+  - api
+  - marketplace
+  - search
+docs_url: https://petcremation.fyi
+endpoints:
+  - url: https://petcremation.fyi/mcp
+    transport: streamable-http
+    auth: none

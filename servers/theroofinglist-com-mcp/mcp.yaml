@@ -1,0 +1,12 @@
+name: The Roofing List
+summary: Find checked US roofing, siding and gutter contractors by city in 50 states and DC. Free, read-only, no login, no paid boost.
+category: search
+tags:
+  - marketplace
+  - real-estate
+  - search
+docs_url: https://theroofinglist.com/mcp/
+endpoints:
+  - url: https://mcp.theroofinglist.com/mcp
+    transport: streamable-http
+    auth: none

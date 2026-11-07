@@ -1,0 +1,12 @@
+name: SiteKrs MCP
+summary: 'SiteKrs — from 0 to a static website: zero learning curve, save 90% of your time, one-time payment, permanently maintenance-free. The SiteKrs MCP server only lists templates and returns editor links; to use your own source, import a folder/ZIP manually through the “Import Template” dialog on the SiteKrs homepage. / SiteKrs — 从 0 到静态网站，零门槛操作、节省90%时间、一次性付费、永久免维护。SiteKrs MCP 只展示模板并返回编辑器链接，自有源码可在SiteKrs首页「导入模版」用文件夹/ZIP 手动导入。'
+category: development
+tags:
+  - content-creation
+  - design-to-code
+  - development
+docs_url: https://github.com/hansail001/sitekrs-mcp
+endpoints:
+  - url: https://sitekrs.ai-krs.com/api/mcp
+    transport: streamable-http
+    auth: none

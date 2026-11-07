@@ -1,0 +1,13 @@
+name: Status Is Down
+summary: Read-only outage intelligence for AI workflows. Six tools cover status, report history, geography and report spikes. Workspace-scoped OAuth; 500 free monthly credits.
+category: productivity
+tags:
+  - api
+  - data-analysis
+  - monitoring
+  - observability-incident
+docs_url: https://statusisdown.com/business/mcp
+endpoints:
+  - url: https://statusisdown.com/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Eggtimer.app
+summary: Create shareable timer, countdown, alarm and interval-recipe links (Pomodoro, tea, workouts) that open in any browser. Keyless remote MCP server, read-only, no account needed.
+category: productivity
+tags:
+  - browser
+  - productivity
+  - workflow-automation
+docs_url: https://eggtimer.app
+endpoints:
+  - url: https://eggtimer.app/api/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: ScanPay
+summary: Deterministic AST security scanner for Python and JS/TS (65 rules, no LLM, ~0.2ms) with a PASS/WARN/BLOCK execution gate and auto-remediation diff, pre-flight simulation for Base and Solana transactions, and an anti-bot scraper oracle. Paid per call via x402 (USDC on Base or Solana). Remote MCP endpoint, no install.
+category: development
+tags:
+  - code-quality
+  - crypto
+  - security
+  - testing-qa
+docs_url: https://scanpay-ob3w.onrender.com
+endpoints:
+  - url: https://scanpay-ob3w.onrender.com/mcp
+    transport: streamable-http
+    auth: unknown

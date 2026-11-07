@@ -1,0 +1,13 @@
+name: Utplava
+summary: Deploy apps from GitHub to a live HTTPS link, with a managed PostgreSQL database, from Claude or any MCP client.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - deployment
+  - github
+  - postgres
+docs_url: https://utplava.dev/mcp/
+endpoints:
+  - url: https://app.utplava.dev/api/mcp
+    transport: streamable-http
+    auth: unknown

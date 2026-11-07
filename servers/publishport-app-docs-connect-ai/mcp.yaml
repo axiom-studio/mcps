@@ -1,0 +1,14 @@
+name: PublishPort
+summary: Let your AI agent publish to Xiaohongshu (RedNote), Douyin, WeChat, Bilibili, Zhihu, X, LinkedIn, Reddit, YouTube, WordPress and 40+ more platforms through your own logged-in browser on your own computer. Remote MCP endpoint plus a desktop app; no platform API keys.
+category: marketing
+tags:
+  - browser-automation
+  - content-creation
+  - marketing
+  - social-media
+  - wordpress
+docs_url: https://publishport.app/docs/connect-ai
+endpoints:
+  - url: https://api.publishport.app/mcp
+    transport: streamable-http
+    auth: api-key

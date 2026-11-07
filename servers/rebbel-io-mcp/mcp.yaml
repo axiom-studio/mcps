@@ -1,0 +1,13 @@
+name: Rebbel
+summary: 'Your marketing department in Claude: posts in your brand''s voice, published to 7 channels.'
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - marketing-automation
+  - social-media
+docs_url: https://rebbel.io/mcp
+endpoints:
+  - url: https://app.rebbel.io/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Animo Media Intelligence
+summary: 'Remote MCP server for Animo marketing data: ask Claude or ChatGPT about Google Ads, Meta, TikTok, GA4 and offline media performance, KPIs and MMM results.'
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - data-analysis
+  - marketing
+docs_url: https://animo-tech.com
+endpoints:
+  - url: https://mcp.animo-tech.com/mcp
+    transport: streamable-http
+    auth: unknown

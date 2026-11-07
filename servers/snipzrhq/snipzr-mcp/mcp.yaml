@@ -1,0 +1,11 @@
+name: Snipzr
+summary: Create, manage and measure short links on your own domain from Claude, ChatGPT, Cursor or VS Code.
+category: marketing
+tags:
+  - analytics
+  - marketing
+docs_url: https://github.com/SnipzrHQ/snipzr-mcp
+endpoints:
+  - url: https://mcp.snipzr.com/mcp
+    transport: streamable-http
+    auth: oauth

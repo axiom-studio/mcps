@@ -1,0 +1,13 @@
+name: BusyBee
+summary: 'Social media data for AI agents: search posts, pull comments and profile creators across TikTok, Instagram, YouTube, X, Douyin and Xiaohongshu through one MCP server.'
+category: search
+tags:
+  - ai-agent
+  - search
+  - social-media
+  - web-scraping
+docs_url: https://lucydomi.com/mcp-guide
+endpoints:
+  - url: https://lucydomi.com/mcp
+    transport: streamable-http
+    auth: api-key

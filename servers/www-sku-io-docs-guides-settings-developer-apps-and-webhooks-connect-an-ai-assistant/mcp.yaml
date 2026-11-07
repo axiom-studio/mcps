@@ -1,0 +1,13 @@
+name: SKU.io
+summary: Inventory, orders and purchasing for multi-channel e-commerce businesses. Remote, OAuth; draft orders and edits only when the user allows.
+category: productivity
+tags:
+  - business-operations
+  - ecommerce
+  - inventory
+  - workflow-automation
+docs_url: https://www.sku.io/docs/guides/settings/developer/apps-and-webhooks/connect-an-ai-assistant/
+endpoints:
+  - url: https://mcp.sku.io/mcp
+    transport: streamable-http
+    auth: oauth

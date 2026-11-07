@@ -1,0 +1,13 @@
+name: Dataconto
+summary: Find who pays owners for company records, private code and datasets, closed companies included, with sourced, dated terms.
+category: search
+tags:
+  - data-analysis
+  - finance
+  - research
+  - search
+docs_url: https://dataconto.com/open-data#mcp
+endpoints:
+  - url: https://dataconto.com/mcp
+    transport: streamable-http
+    auth: none

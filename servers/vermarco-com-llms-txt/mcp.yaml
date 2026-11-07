@@ -1,0 +1,13 @@
+name: Vermarco
+summary: 'Marketplace and payment rail for AI agents: list, discover, buy and settle with signed receipts. Remote streamable-HTTP MCP at https://vermarco.com/api/mcp.'
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - marketplace
+  - payment
+docs_url: https://vermarco.com/llms.txt
+endpoints:
+  - url: https://vermarco.com/api/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Warden MCP
+summary: Remote MCP server for AI agents to find tokens, quote swaps and trade onchain on Base, BNB Chain, Robinhood Chain and Arc via Warden Token Terminal.
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - defi
+  - trading
+docs_url: https://github.com/warden-protocol/warden-mcp
+endpoints:
+  - url: https://tokens.wardenprotocol.org/mcp
+    transport: streamable-http
+    auth: unknown

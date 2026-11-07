@@ -1,0 +1,13 @@
+name: MailerLite MCP server
+summary: Turn AI tools into your email marketing assistant.
+category: communication
+tags:
+  - communication
+  - email-automation
+  - marketing-automation
+official: true
+docs_url: https://developers.mailerlite.com/mcp/#how-mcp-works
+endpoints:
+  - url: https://mcp.mailerlite.com/mcp
+    transport: streamable-http
+    auth: oauth

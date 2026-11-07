@@ -1,0 +1,12 @@
+name: Artnap
+summary: Remote server for public domain art. Search about 497,000 paintings, prints and drawings from 72 museum open access collections, open one work with its museum record and license line, and browse artists and museums. No API key needed.
+category: search
+tags:
+  - media
+  - research
+  - search
+docs_url: https://artnap.com/developers
+endpoints:
+  - url: https://artnap.com/mcp
+    transport: streamable-http
+    auth: none

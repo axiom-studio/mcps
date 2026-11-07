@@ -1,0 +1,14 @@
+name: Ad Radar
+summary: Search Meta ads with $50k+ in estimated spend, read their scripts and hook patterns, see what wins more often, and turn a winning ad into a creative brief.
+category: marketing
+tags:
+  - advertising
+  - content-creation
+  - marketing
+  - marketing-automation
+  - research
+docs_url: https://ad-radar.dev/mcp
+endpoints:
+  - url: https://app.ad-radar.dev/api/mcp
+    transport: streamable-http
+    auth: oauth

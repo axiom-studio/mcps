@@ -1,0 +1,11 @@
+name: entityindex.ai — Andorra hotels for AI agents
+summary: Read-only MCP index of verified accommodation in Andorra with official booking links.
+category: other
+tags:
+  - data-analysis
+  - web-research
+docs_url: https://entityindex.ai/mcp-info/
+endpoints:
+  - url: https://entityindex.ai/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: NumRadar MCP
+summary: Check whether phone numbers are registered on WhatsApp from your AI agent. Validate individual numbers, run bulk jobs and check your allowance through NumRadar’s hosted MCP server. Uses the same account and API key as the REST API. Paid plans start at $9 USD/month for 5,000 validations. No WhatsApp account connection required; checks do not send messages.
+category: communication
+tags:
+  - api
+  - communication
+  - whatsapp
+docs_url: https://github.com/numradar/mcp
+endpoints:
+  - url: https://numradar.app/mcp
+    transport: streamable-http
+    auth: api-key

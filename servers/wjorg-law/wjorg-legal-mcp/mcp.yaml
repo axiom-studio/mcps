@@ -1,0 +1,13 @@
+name: wjorg Legal
+summary: 'Chinese legal resources via MCP: 2,527 statutes with article-level full text, practice guides, crime lookup, compensation standards, judicial service centers, 56 calculators. Free, no API key.'
+category: other
+tags:
+  - data-analysis
+  - document
+  - knowledge-retrieval
+  - research
+docs_url: https://github.com/wjorg-law/wjorg-legal-mcp
+endpoints:
+  - url: https://wjorg.com/mcp
+    transport: streamable-http
+    auth: unknown

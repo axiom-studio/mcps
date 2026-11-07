@@ -1,0 +1,12 @@
+name: FeedMyCart
+summary: Shared grocery and shopping list with pantry and weekly supermarket deals in 15 countries.
+category: productivity
+tags:
+  - ecommerce
+  - grocery
+  - productivity
+docs_url: https://feedmycart.com/en/claude-chatgpt/
+endpoints:
+  - url: https://www.feedmycart.nl/boodschappen/api/v1/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Footalytics
+summary: 'Remote Streamable HTTP MCP + OAuth for graded football predictions, fixtures, ratings, results. Skill: https://footalytics.farvor.com/skill'
+category: other
+tags:
+  - analytics
+  - api
+  - sports
+docs_url: https://footalytics.farvor.com
+endpoints:
+  - url: https://footalytics.farvor.com/mcp
+    transport: streamable-http
+    auth: oauth

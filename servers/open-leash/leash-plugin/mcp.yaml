@@ -1,0 +1,13 @@
+name: Leash
+summary: Use connected accounts through Leash with configurable protections, activity history and Undo for supported actions. OAuth sign-in. Only activity routed through Leash is covered.
+category: productivity
+tags:
+  - identity
+  - productivity
+  - security
+  - workflow-automation
+docs_url: https://github.com/open-leash/leash-plugin
+endpoints:
+  - url: https://secure.openleash.com/mcp
+    transport: streamable-http
+    auth: oauth

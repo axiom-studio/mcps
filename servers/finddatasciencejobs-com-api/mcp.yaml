@@ -1,0 +1,12 @@
+name: Find Data Science Jobs MCP
+summary: Discover and find all Data Scientist, ML Engineer, Data Engineer, Data Analyst, MLOps, Research Scientist, Analytics Engineer and AI Engineer roles.
+category: database
+tags:
+  - ai-agent
+  - data-analysis
+  - research
+docs_url: https://finddatasciencejobs.com/api
+endpoints:
+  - url: https://api.finddatasciencejobs.com/mcp
+    transport: streamable-http
+    auth: unknown

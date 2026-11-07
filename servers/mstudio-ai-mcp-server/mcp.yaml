@@ -1,0 +1,13 @@
+name: mStudio
+summary: 'Remote MCP server (OAuth) for making films from an AI client. Give it a story or a finished screenplay and it plans the scenes and shots, writes the shot prompts, makes the stills and video clips, adds voice, music and sound effects, and exports an MP4 or an edit package for Premiere or Resolve. Tools cover projects, frames, cast, generation, audio and export. Endpoint: https://mstudio.ai/mcp'
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - media
+  - video
+docs_url: https://mstudio.ai/mcp-server
+endpoints:
+  - url: https://mstudio.ai/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: GeminiLaunch
+summary: Publish live websites from Claude, ChatGPT, Gemini CLI, Cursor, and VS Code via remote MCP + OAuth. Build, update, set SEO, and manage sites from chat.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - cms
+  - deployment
+  - seo
+  - workflow-automation
+docs_url: https://www.geminilaunch.com/mcp
+endpoints:
+  - url: https://www.geminilaunch.com/api/mcp
+    transport: streamable-http
+    auth: oauth

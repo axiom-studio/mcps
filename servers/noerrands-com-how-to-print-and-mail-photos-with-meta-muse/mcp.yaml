@@ -1,0 +1,12 @@
+name: No Errands Prints
+summary: Order real photo prints, canvases, T-shirts and mugs from a photo, printed and shipped to a US address. The agent shows the quote with shipping and waits for approval. 4x6 prints from $0.49 plus shipping. Remote MCP (streamable HTTP), API-key auth, US only.
+category: productivity
+tags:
+  - ecommerce
+  - payment
+  - productivity
+docs_url: https://noerrands.com/how-to/print-and-mail-photos-with-meta-muse/
+endpoints:
+  - url: https://api.noerrands.com/c/prints/mcp
+    transport: streamable-http
+    auth: api-key

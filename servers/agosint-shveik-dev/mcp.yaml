@@ -1,0 +1,14 @@
+name: agosint
+summary: 'Company and domain due diligence for agents: registers, sanctions, VAT, domain. Pay per call, no API key, paid with x402 stablecoins.'
+category: search
+tags:
+  - compliance
+  - crypto
+  - finance
+  - research
+  - web-research
+docs_url: https://agosint.shveik.dev
+endpoints:
+  - url: https://agosint.shveik.dev/mcp
+    transport: streamable-http
+    auth: unknown

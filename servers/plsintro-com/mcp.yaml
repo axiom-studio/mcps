@@ -1,0 +1,14 @@
+name: plsintro
+summary: Private intro network. Post what you need or offer from Claude or ChatGPT; your agent finds the right person and you meet only when both accept.
+category: communication
+tags:
+  - ai-model
+  - anthropic
+  - communication
+  - llm
+  - productivity
+docs_url: https://plsintro.com
+endpoints:
+  - url: https://api.plsintro.com/mcp
+    transport: streamable-http
+    auth: oauth

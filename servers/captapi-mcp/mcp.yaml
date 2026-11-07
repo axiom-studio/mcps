@@ -1,0 +1,16 @@
+name: Captapi
+summary: 'Public social media data for AI agents: profiles, posts, comments, transcripts and search from TikTok, Instagram, YouTube, X, Facebook, Threads, Reddit and LinkedIn company pages, plus Meta, Google, LinkedIn and TikTok ad libraries.'
+category: web-scraping
+tags:
+  - advertising
+  - api
+  - marketing
+  - social-media
+  - web-scraping
+official: true
+registry_name: io.github.CDCStream/captapi
+docs_url: https://captapi.com/docs
+endpoints:
+  - url: https://api.captapi.com/mcp
+    transport: streamable-http
+    auth: api-key

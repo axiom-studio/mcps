@@ -1,0 +1,12 @@
+name: FirstPass Memo listing check
+summary: 'Free red-flag check for business-for-sale listings (Flippa, Acquire.com, Empire Flippers): payback, asking multiple vs comparables, flags and seller questions. Remote, no auth.'
+category: finance
+tags:
+  - business-operations
+  - finance
+  - research
+docs_url: https://firstpassmemo.com/tools/ai-listing-check/
+endpoints:
+  - url: https://firstpassmemo.com/mcp
+    transport: streamable-http
+    auth: none

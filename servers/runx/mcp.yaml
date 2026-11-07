@@ -1,0 +1,15 @@
+name: runx
+summary: Search runx skills and inspect their manifests, requested authority and trust signals through the hosted read-only MCP server. Run skills locally with runx.
+category: search
+tags:
+  - ai-agent
+  - documentation
+  - knowledge-retrieval
+  - search
+registry_name: ai.runx/runx
+docs_url: https://runx.ai/AGENTS.md
+website_url: https://runx.ai
+endpoints:
+  - url: https://api.runx.ai/mcp
+    transport: streamable-http
+    auth: none

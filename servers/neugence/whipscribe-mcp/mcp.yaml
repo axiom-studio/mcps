@@ -1,0 +1,14 @@
+name: WhipScribe
+summary: Transcribe audio and video (files or YouTube/podcast links) in 99+ languages, then search, summarize, translate and export transcripts as TXT, SRT, VTT or DOCX from your AI assistant.
+category: productivity
+tags:
+  - audio
+  - document
+  - file-conversion
+  - media
+  - translation
+docs_url: https://github.com/neugence/whipscribe-mcp
+endpoints:
+  - url: https://whipscribe.com/mcp
+    transport: streamable-http
+    auth: oauth

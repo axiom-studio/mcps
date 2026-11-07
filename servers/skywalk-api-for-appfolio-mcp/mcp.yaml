@@ -1,0 +1,15 @@
+name: Skywalk API for AppFolio
+summary: Connect your AI Agent to live data from AppFolio® Property Manager
+category: productivity
+tags:
+  - api
+  - business-operations
+  - crm
+  - real-estate
+official: true
+registry_name: com.skywalkapi/appfolio
+docs_url: https://skywalkapi.com/
+endpoints:
+  - url: https://mcp.skywalkapi.com
+    transport: streamable-http
+    auth: oauth

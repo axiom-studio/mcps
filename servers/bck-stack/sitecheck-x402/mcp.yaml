@@ -1,0 +1,13 @@
+name: SiteCheck
+summary: 29 pay-per-call agent tools (web page to Markdown, PDF to text, tech stack, email check, domain RDAP, Solana, KYB), paid per call in USDC via x402.
+category: web-scraping
+tags:
+  - crypto
+  - data-analysis
+  - document
+  - web-scraping
+docs_url: https://github.com/bck-stack/sitecheck-x402
+endpoints:
+  - url: https://api.sitecheck-api.workers.dev/mcp
+    transport: streamable-http
+    auth: none

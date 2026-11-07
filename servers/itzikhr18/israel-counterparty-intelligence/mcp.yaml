@@ -1,0 +1,14 @@
+name: Israel Counterparty Intelligence
+summary: 'Israeli invoice payment gate for AI agents. Checks VAT arithmetic and allocation-number applicability, resolves the supplier against public company-registry evidence, and returns PAY, HOLD, or BLOCK. Also company verification, company changes ($0.01), and vendor payment-risk. Free previews + x402 USDC on Base Mainnet. No API key. Status: Mainnet live, awaiting first external paid call.'
+category: finance
+tags:
+  - business-operations
+  - crypto
+  - evm
+  - finance
+  - payment
+docs_url: https://github.com/itzikhr18/israel-counterparty-intelligence
+endpoints:
+  - url: https://israel-counterparty-intelligence.vercel.app/mcp
+    transport: streamable-http
+    auth: none

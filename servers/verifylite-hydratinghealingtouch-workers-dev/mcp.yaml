@@ -1,0 +1,13 @@
+name: VerifyLite
+summary: Pay-per-call website safety, URL checks, and audio transcription for AI agents. USDC via x402.
+category: other
+tags:
+  - audio
+  - crypto
+  - payment
+  - security
+docs_url: https://verifylite.hydratinghealingtouch.workers.dev
+endpoints:
+  - url: https://verifylite.hydratinghealingtouch.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

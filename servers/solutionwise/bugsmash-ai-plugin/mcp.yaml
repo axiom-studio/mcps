@@ -1,0 +1,13 @@
+name: BugSmash
+summary: Instant Visual Feedback & Collaboration for Agencies, Product, Design & Marketing Teams
+category: development
+tags:
+  - browser-automation
+  - collaboration
+  - development
+  - testing-qa
+docs_url: https://github.com/solutionwise/bugsmash-ai-plugin
+endpoints:
+  - url: https://api.bugsmash.io/mcp
+    transport: streamable-http
+    auth: oauth

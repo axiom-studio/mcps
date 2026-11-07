@@ -1,0 +1,12 @@
+name: CLIPCLIPER
+summary: Turn a public video link (YouTube, Twitch VOD, Kick VOD, TikTok) into a timestamped transcript, chapters and clip suggestions. It transcribes the audio with Whisper, so it works on videos without captions. Remote Streamable HTTP server with a free tier and no API key.
+category: web-scraping
+tags:
+  - content-creation
+  - media
+  - video
+docs_url: https://github.com/Inmoprice/clipcliper-mcp
+endpoints:
+  - url: https://clipcliper.com/mcp
+    transport: streamable-http
+    auth: none

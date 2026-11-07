@@ -1,0 +1,12 @@
+name: LucyESL
+summary: 'English-teaching jobs in South Korea: salary, disclosure and by-region stats. Read-only, no key.'
+category: search
+tags:
+  - data-analysis
+  - education
+  - search
+docs_url: https://lucyesl.com/developers
+endpoints:
+  - url: https://lucyesl.com/mcp
+    transport: streamable-http
+    auth: none

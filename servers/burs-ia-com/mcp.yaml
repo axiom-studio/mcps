@@ -1,0 +1,13 @@
+name: Burs-IA
+summary: Burs-IA offers MCP agent capability discovery and governed technical interoperability checks. No security certification; ONDA external messaging is not yet available.
+category: development
+tags:
+  - ai-agent
+  - api
+  - compliance
+  - development
+docs_url: https://burs-ia.com
+endpoints:
+  - url: https://burs-ia.com/mcp
+    transport: streamable-http
+    auth: unknown

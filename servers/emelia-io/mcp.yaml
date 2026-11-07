@@ -1,0 +1,12 @@
+name: Emelia
+summary: B2B sales outreach, lead generation and email automation platform via MCP
+category: marketing
+tags:
+  - email-automation
+  - marketing-automation
+  - sales
+docs_url: https://emelia.io
+endpoints:
+  - url: https://mcp.emelia.io/mcp
+    transport: streamable-http
+    auth: unknown

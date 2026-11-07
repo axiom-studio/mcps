@@ -1,0 +1,12 @@
+name: eSIM Grab
+summary: Compare current travel eSIM plans, prices, coverage, data allowances and validity through a read-only public MCP server.
+category: search
+tags:
+  - communication
+  - ecommerce
+  - search
+docs_url: https://esimgrab.com/developers/mcp
+endpoints:
+  - url: https://esimgrab.com/mcp
+    transport: streamable-http
+    auth: none

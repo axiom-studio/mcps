@@ -1,0 +1,13 @@
+name: Kin
+summary: One MCP address for your AI apps. Connect your accounts once in Kin, then set Allow, Ask me or Block for each account and action. Kin checks the rule when the action runs, and every attempt is in your activity log.
+category: productivity
+tags:
+  - ai-agent
+  - compliance
+  - productivity
+  - security
+docs_url: https://kinlab.ai
+endpoints:
+  - url: https://app.kinlab.ai/mcp
+    transport: streamable-http
+    auth: oauth

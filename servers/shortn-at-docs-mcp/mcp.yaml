@@ -1,0 +1,12 @@
+name: Shortn
+summary: Manage short links, QR codes, campaigns and analytics in Shortn workspaces. Requires an eligible plan and workspace authorization.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+docs_url: https://shortn.at/docs/mcp
+endpoints:
+  - url: https://api.shortn.at/mcp
+    transport: streamable-http
+    auth: oauth

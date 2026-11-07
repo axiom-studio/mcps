@@ -1,0 +1,14 @@
+name: Audioscrape
+summary: Audioscrape gives AI agents a searchable memory of what was said. It transcribes calls, meetings and recordings with speaker labels and timestamps, and makes them searchable alongside a public library of podcasts and public meetings. Agents get ranked, cited segments over MCP or REST.
+category: search
+tags:
+  - ai-agent
+  - audio
+  - knowledge-retrieval
+  - meeting-notes
+  - search
+docs_url: https://www.audioscrape.com
+endpoints:
+  - url: https://mcp.audioscrape.com
+    transport: streamable-http
+    auth: oauth

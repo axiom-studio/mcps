@@ -1,0 +1,14 @@
+name: hlrisk - Hyperliquid Liquidation Risk
+summary: 'Free, read-only MCP tools for real-time Hyperliquid BTC/ETH liquidation risk: notional at risk if price moves +/-1%/3%/5%, the position closest to liquidation, funding rate, and recent backstop liquidations. The full pay-per-call x402 API (USDC on Base) is at hlrisk.paidapis.net.'
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - defi
+  - finance
+  - trading
+docs_url: https://hlrisk.paidapis.net
+endpoints:
+  - url: https://hlrisk.paidapis.net/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: XRPLMe Economic Data
+summary: Access 30-country economic data for AI agents via MCP protocol
+category: database
+tags:
+  - data-analysis
+  - database
+  - finance
+  - research
+docs_url: https://github.com/DaimyoVegan/xrplme-mcp-client
+endpoints:
+  - url: https://api.xrplme.online/mcp
+    transport: streamable-http
+    auth: api-key

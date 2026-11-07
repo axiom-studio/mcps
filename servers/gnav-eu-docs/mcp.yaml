@@ -1,0 +1,12 @@
+name: Grocery Navigator
+summary: Essenspläne, Einkaufslisten, Rezepte und Angebote
+category: productivity
+tags:
+  - grocery
+  - notes
+  - productivity
+docs_url: https://gnav.eu/docs
+endpoints:
+  - url: https://gnav.eu/mcp
+    transport: streamable-http
+    auth: oauth

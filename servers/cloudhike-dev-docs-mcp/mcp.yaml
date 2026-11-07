@@ -1,0 +1,14 @@
+name: CloudHike
+summary: 'A full backend your AI coding agent can set up over MCP: Postgres, S3-compatible storage, Redis, auth, email and jobs. Remote Streamable HTTP at https://cloudhike.dev/api/mcp. Free to start.'
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - cloud-storage
+  - deployment
+  - postgres
+  - redis
+docs_url: https://cloudhike.dev/docs/mcp
+endpoints:
+  - url: https://cloudhike.dev/api/mcp
+    transport: streamable-http
+    auth: api-key

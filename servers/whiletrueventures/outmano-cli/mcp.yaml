@@ -1,0 +1,13 @@
+name: Outmano
+summary: 'AI competitive intelligence: competitor pricing, features, reviews and news for B2B SaaS.'
+category: productivity
+tags:
+  - ai-agent
+  - analytics
+  - marketing
+  - web-research
+docs_url: https://github.com/whiletrueventures/outmano-cli
+endpoints:
+  - url: https://outmano.com/mcp
+    transport: streamable-http
+    auth: oauth

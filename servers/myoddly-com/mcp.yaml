@@ -1,0 +1,12 @@
+name: oddly
+summary: A subject's history with both clocks, one question answered with its receipt, and any receipt verified end to end.
+category: database
+tags:
+  - data-analysis
+  - database
+  - document
+docs_url: https://myoddly.com
+endpoints:
+  - url: https://myoddly.com/api/public/mcp
+    transport: streamable-http
+    auth: unknown

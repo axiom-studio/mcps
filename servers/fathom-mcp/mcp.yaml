@@ -1,0 +1,19 @@
+name: Fathom
+summary: Fathom connects meeting recordings, transcripts, and summaries to assistant workflows. Its connector helps users bring meeting context into conversations for follow-ups, decisions, action items, and team knowledge.
+description: |-
+  Fathom connects meeting recordings, transcripts, and summaries to assistant workflows. Its connector helps users bring meeting context into conversations for follow-ups, decisions, action items, and team knowledge.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/fathom)
+category: communication
+tags:
+  - communication
+  - remote-mcp
+official: true
+registry_name: ai.fathom.api/mcp
+docs_url: https://claude.com/connectors/fathom
+endpoints:
+  - url: https://api.fathom.ai/mcp
+    transport: streamable-http
+    auth: oauth

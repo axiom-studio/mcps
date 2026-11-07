@@ -1,0 +1,14 @@
+name: Fuzzbucket AI
+summary: Connect your Fuzzbucket brands to ChatGPT, Claude, Grok and other MCP-compatible assistants to access reusable brand context, workspaces and marketing creation workflows.
+category: marketing
+tags:
+  - ai-agent
+  - content-creation
+  - marketing
+  - media
+docs_url: https://fuzzbucket.ai/mcp
+website_url: https://fuzzbucket.ai
+endpoints:
+  - url: https://api.fuzzbucket.ai/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Aggregate
+summary: Read-only finance MCP server. Connects your banks, cards, payment apps, books and payroll into one ledger for your AI. Can't move money. Open source (AGPL-3.0), free during beta.
+category: finance
+tags:
+  - business-operations
+  - data-analysis
+  - finance
+docs_url: https://github.com/Izzy-Gottz/aggregate-finance
+website_url: https://aggregate.finance
+endpoints:
+  - url: https://app.aggregate.finance/mcp
+    transport: streamable-http
+    auth: oauth

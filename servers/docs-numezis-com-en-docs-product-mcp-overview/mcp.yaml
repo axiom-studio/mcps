@@ -1,0 +1,13 @@
+name: Numezis
+summary: 'Swiss SME back office: accounting, VAT, QR-bill invoicing, supplier bills, CRM, HR and payroll.'
+category: finance
+tags:
+  - business-operations
+  - crm
+  - finance
+  - productivity
+docs_url: https://docs.numezis.com/en/docs/product/mcp/overview
+endpoints:
+  - url: https://www.numezis.com/mcp
+    transport: streamable-http
+    auth: oauth

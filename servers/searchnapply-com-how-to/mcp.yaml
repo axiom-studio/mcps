@@ -1,0 +1,11 @@
+name: searchnapply
+summary: Search 500K+ open jobs taken straight from company career sites, save searches as monitors, and tailor your resume and cover letter to the job you pick.
+category: productivity
+tags:
+  - productivity
+  - web-scraping
+docs_url: https://searchnapply.com/how-to
+endpoints:
+  - url: https://api.searchnapply.com/mcp
+    transport: streamable-http
+    auth: oauth

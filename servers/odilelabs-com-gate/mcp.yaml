@@ -1,0 +1,13 @@
+name: Odile Gate
+summary: Keeps AI agents inside the calls your API allows. Each app gets its own key and allowed routes; a loop breaker stops an agent repeating the same call; risky writes wait for a person to approve that exact call; retried writes never run twice; every call is logged and exportable. Coding agents set it up in-session over MCP. Free for 3 apps and 10,000 calls a month.
+category: development
+tags:
+  - ai-agent
+  - api
+  - compliance
+  - security
+docs_url: https://odilelabs.com/gate
+endpoints:
+  - url: https://gate.odilelabs.com/mcp
+    transport: streamable-http
+    auth: none

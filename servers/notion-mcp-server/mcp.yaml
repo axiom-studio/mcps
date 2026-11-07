@@ -1,0 +1,16 @@
+name: Notion MCP
+summary: Official Notion MCP server for searching, reading, creating, and updating Notion pages, databases, and workspace content from AI agents.
+category: productivity
+tags:
+  - document
+  - knowledge-retrieval
+  - notion
+  - productivity
+  - workflow-automation
+official: true
+registry_name: com.notion/mcp
+docs_url: https://github.com/makenotion/notion-mcp-server
+endpoints:
+  - url: https://mcp.notion.com/mcp
+    transport: streamable-http
+    auth: oauth

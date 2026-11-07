@@ -1,0 +1,24 @@
+name: Play Sheet Music
+summary: Play Sheet Music is an official MCP Apps example that demonstrates interactive musical output inside a conversation. Its hosted remote MCP server lets assistants generate sheet music and render a playable visual score for experimentation and demos.
+description: |-
+  # Play Sheet Music
+
+  Play Sheet Music is an official MCP Apps example that demonstrates interactive musical output inside a conversation. Its hosted remote MCP server lets assistants generate sheet music and render a playable visual score for experimentation and demos.
+
+  ## Connection
+
+  https://example-server.modelcontextprotocol.io/sheet-music/mcp
+
+  Current official connector listing identifies this publisher and exact endpoint. Authentication is not inferred from the directory sign-in badge. Access and business tools have not been verified.
+
+  [Publisher or official connector listing](https://claude.com/connectors/play-sheet-music)
+category: other
+tags:
+  - other
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/play-sheet-music
+endpoints:
+  - url: https://example-server.modelcontextprotocol.io/sheet-music/mcp
+    transport: streamable-http
+    auth: unknown

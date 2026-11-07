@@ -1,0 +1,12 @@
+name: Mashkanta-Buddy
+summary: Israeli mortgage & refinancing analysis MCP server. Analyze multi-track loans (Prime, Kalatz, Katz, Malatz, Matz, Makam), calculate early repayment fees under Bank of Israel Directive 451, compare bank averages, and simulate refinancing scenarios.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - payment
+docs_url: https://github.com/omricarmel/mashkanta-buddy-mcp
+endpoints:
+  - url: https://www.mashkanta-buddy.com/mcp
+    transport: streamable-http
+    auth: oauth

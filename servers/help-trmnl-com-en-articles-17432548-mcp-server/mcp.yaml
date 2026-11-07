@@ -1,0 +1,12 @@
+name: TRMNL
+summary: 'Run your TRMNL ePaper displays from any AI agent: check on devices, plan playlists and build new screens from your own data.'
+category: productivity
+tags:
+  - ai-agent
+  - iot
+  - productivity
+docs_url: https://help.trmnl.com/en/articles/17432548-mcp-server
+endpoints:
+  - url: https://trmnl.com/mcp
+    transport: streamable-http
+    auth: oauth

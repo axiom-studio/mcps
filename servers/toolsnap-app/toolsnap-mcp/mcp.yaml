@@ -1,0 +1,13 @@
+name: ToolSnap MCP
+summary: 'Deterministic microtools for AI agents: 47 tools, 36 free. Free fetch_extract turns a URL into clean text with a median 98.1% fewer tokens than raw HTML; also PDF text, CSV/JSON queries, sitemaps, feeds, metadata. Paid tools from $0.02 USDC via x402.'
+category: web-scraping
+tags:
+  - ai-agent
+  - data-analysis
+  - pdf
+  - web-scraping
+docs_url: https://github.com/ToolSnap-app/toolsnap-mcp
+endpoints:
+  - url: https://mcp.toolsnap.app/mcp
+    transport: streamable-http
+    auth: none

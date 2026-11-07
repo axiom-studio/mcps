@@ -1,0 +1,13 @@
+name: Wisprs
+summary: Transcribe audio, video and YouTube links in 100+ languages, then search, summarize, translate and export the transcripts.
+category: productivity
+tags:
+  - audio
+  - text-to-speech
+  - translation
+  - youtube
+docs_url: https://wisprs.co/mcp/setup
+endpoints:
+  - url: https://wisprs.co/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: AITeamGuide AI Agent Prices
+summary: 'Free, read-only MCP server for looking up public pricing, free plans and source links for 800+ AI agents and tools. Tools: search_ai_agents, get_agent_pricing, cheapest_ai_agents, list_categories. No API key.'
+category: search
+tags:
+  - ai-model
+  - research
+  - search
+docs_url: https://aiteamguide.com/mcp/
+endpoints:
+  - url: https://aiteamguide.com/api/mcp
+    transport: streamable-http
+    auth: none

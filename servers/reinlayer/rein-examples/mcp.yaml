@@ -1,0 +1,12 @@
+name: Rein Agent Risk Scale
+summary: Indicative Agent Risk Rating (A–E) self-check for AI agents that can spend money, based on accountability, spend caps, payee limits, stop switches, human escalation, monitoring, history, and incidents. Self-declared and unverified; not a credit rating.
+category: development
+tags:
+  - ai-agent
+  - compliance
+  - security
+docs_url: https://github.com/reinlayer/rein-examples
+endpoints:
+  - url: https://rein-scale.mangowave-ad191d9c.eastus.azurecontainerapps.io/mcp
+    transport: streamable-http
+    auth: none

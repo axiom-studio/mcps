@@ -1,0 +1,16 @@
+name: Inventory Intelligence & Optimizer - Saifs AI
+summary: Inventory Intelligence & Optimizer MCP identifies stockout risks, detects excess inventory, recommends replenishment quantities, and helps businesses make smarter inventory decisions.
+category: marketing
+tags:
+  - analytics
+  - business-operations
+  - data-analysis
+  - inventory
+docs_url: https://saifs.ai/marketing-intelligence
+endpoints:
+  - url: https://marketing-analysis-mcp.saifs.ai/mcp
+    transport: streamable-http
+    auth: oauth
+  - url: https://inventory-optimizer-mcp.saifs.ai/mcp
+    transport: streamable-http
+    auth: oauth

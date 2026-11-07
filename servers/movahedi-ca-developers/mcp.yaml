@@ -1,0 +1,14 @@
+name: Movahedi Privacy API
+summary: 'Free Canadian privacy data for AI assistants: searchable privacy enforcement actions (OPC, CAI Quebec), a 263-term plain-language privacy glossary, and an 11-point Quebec Law 25 compliance checklist. Streamable HTTP MCP server with five read-only tools. No signup needed; generous free quotas.'
+category: search
+tags:
+  - compliance
+  - knowledge-retrieval
+  - privacy
+  - research
+  - search
+docs_url: https://movahedi.ca/developers
+endpoints:
+  - url: https://movahedi.ca/mcp
+    transport: streamable-http
+    auth: none

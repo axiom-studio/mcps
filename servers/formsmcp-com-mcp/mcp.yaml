@@ -1,0 +1,13 @@
+name: FormsMCP
+summary: 'Hosted form backend for coding agents: create form endpoints, verify test submissions, read submissions and manage webhooks.'
+category: development
+tags:
+  - api
+  - development
+  - testing-qa
+  - workflow-automation
+docs_url: https://formsmcp.com/mcp
+endpoints:
+  - url: https://api.formsmcp.com/mcp
+    transport: streamable-http
+    auth: oauth

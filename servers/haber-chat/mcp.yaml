@@ -1,0 +1,13 @@
+name: HaberChat WhatsApp MCP Server
+summary: Connect WhatsApp to Claude, ChatGPT or any MCP client. Read and send messages and manage chats, contacts, labels, groups and campaigns across your HaberChat numbers. Remote server; needs a HaberChat account.
+category: communication
+tags:
+  - chatbot
+  - communication
+  - customer-ops
+  - whatsapp
+docs_url: https://haber.chat
+endpoints:
+  - url: https://api.haber.chat/mcp
+    transport: streamable-http
+    auth: api-key

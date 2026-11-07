@@ -1,0 +1,13 @@
+name: Fabeo
+summary: 'Make AI videos from chat: write, edit and render multi-scene branded videos with your Fabeo account'
+category: marketing
+tags:
+  - ai-model
+  - content-creation
+  - marketing
+  - video
+docs_url: https://fabeo.ai/mcp
+endpoints:
+  - url: https://mcp.fabeo.ai/mcp
+    transport: streamable-http
+    auth: oauth

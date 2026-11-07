@@ -1,0 +1,12 @@
+name: Flowsimp
+summary: 'Flowsimp is a hosted MCP server for flowcharts. Send it Mermaid flowchart syntax or a simple indented outline and it returns a read-only share link and an editable link that opens the diagram in the Flowsimp editor at flowsimp.com. Completely free to use, no sign-up or API key. Remote Streamable HTTP endpoint, no auth: https://flowsimp.com/mcp'
+category: design
+tags:
+  - design
+  - document
+  - productivity
+docs_url: https://flowsimp.com/mcp
+endpoints:
+  - url: https://flowsimp.com/mcp
+    transport: streamable-http
+    auth: none

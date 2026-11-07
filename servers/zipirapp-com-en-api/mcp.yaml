@@ -1,0 +1,14 @@
+name: Zıpır MCP
+summary: Turn a document, PDF or web page into a short Turkish-narrated video lesson where every on-screen sentence cites its source. Remote server, OAuth 2.1, 8 tools.
+category: productivity
+tags:
+  - document
+  - education
+  - pdf
+  - text-to-speech
+  - video
+docs_url: https://zipirapp.com/en/api/
+endpoints:
+  - url: https://api.zipirapp.com/mcp
+    transport: streamable-http
+    auth: unknown

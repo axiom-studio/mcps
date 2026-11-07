@@ -1,0 +1,13 @@
+name: PageWatch
+summary: Extract prices, lists and tables from public web pages and get change alerts via RSS, ICS or webhooks. Free tier plus x402 pay-per-call.
+category: web-scraping
+tags:
+  - monitoring
+  - notifications
+  - web-scraping
+  - workflow-automation
+docs_url: https://codeberg.org/moneyman-code/pagewatch
+endpoints:
+  - url: https://pagewatch.erikssonanton2001.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

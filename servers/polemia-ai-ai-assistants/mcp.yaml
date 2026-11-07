@@ -1,0 +1,12 @@
+name: Polemia
+summary: Make free live phone quizzes on any topic, find ready-made ones, and get a join link.
+category: other
+tags:
+  - communication
+  - education
+  - entertainment
+docs_url: https://polemia.ai/ai-assistants
+endpoints:
+  - url: https://polemia.ai/mcp
+    transport: streamable-http
+    auth: unknown

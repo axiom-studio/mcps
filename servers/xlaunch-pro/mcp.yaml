@@ -1,0 +1,14 @@
+name: XLaunch
+summary: 'Turn your website into a launch video: reads the site, writes the story and voice-over, builds scenes in code in your brand, exports MP4.'
+category: marketing
+tags:
+  - ai-model
+  - content-creation
+  - document
+  - marketing
+  - video
+docs_url: https://xlaunch.pro
+endpoints:
+  - url: https://xlaunch.pro/api/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: ForeclosureListings
+summary: 'ForeclosureListings lists foreclosure help and sale information by place: where trustee and sheriff sales are held, where notices post, HUD-approved counselors, legal aid and each state''s process. Free API and MCP endpoint.'
+category: search
+tags:
+  - api
+  - government
+  - real-estate
+  - search
+docs_url: https://foreclosurelistings.fyi
+endpoints:
+  - url: https://foreclosurelistings.fyi/mcp
+    transport: streamable-http
+    auth: none

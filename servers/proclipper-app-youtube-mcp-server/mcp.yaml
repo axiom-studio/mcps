@@ -1,0 +1,12 @@
+name: ProClipper YouTube MCP
+summary: Hosted YouTube MCP server for AI assistants to retrieve available transcripts from videos, channels and playlists, list videos, follow latest uploads, and download AI-ready results.
+category: search
+tags:
+  - search
+  - video
+  - youtube
+docs_url: https://proclipper.app/youtube-mcp-server
+endpoints:
+  - url: https://proclipper.app/mcp
+    transport: streamable-http
+    auth: oauth

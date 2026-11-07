@@ -1,0 +1,14 @@
+name: Proofsource
+summary: 'AI visibility for your brand: see which buyer questions name you in ChatGPT, Perplexity, Claude and Google AI Overviews, which competitors AI recommends instead, which sources it cites, and what to fix first. Remote server, OAuth sign-in.'
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - research
+  - seo
+  - web-research
+docs_url: https://proofsource.co/ai-assistants
+endpoints:
+  - url: https://app.proofsource.co/v1/mcp
+    transport: streamable-http
+    auth: oauth

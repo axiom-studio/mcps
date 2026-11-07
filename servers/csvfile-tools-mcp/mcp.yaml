@@ -1,0 +1,13 @@
+name: CSV File Tools
+summary: Inspect, filter, sort and edit CSV text with four free remote MCP tools. No account or API key required.
+category: productivity
+tags:
+  - data-analysis
+  - file-management
+  - productivity
+  - spreadsheet
+docs_url: https://csvfile.tools/mcp
+endpoints:
+  - url: https://csvfile.tools/api/csv/mcp
+    transport: streamable-http
+    auth: none

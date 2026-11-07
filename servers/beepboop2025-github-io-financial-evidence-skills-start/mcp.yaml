@@ -1,0 +1,13 @@
+name: Financial Evidence Research Desk
+summary: Eight read-only research tools for bank disclosures, funding benchmarks and history, liquidity evidence and source health. Sources, dates and unavailable values stay explicit. No API key; hosted MCP at https://api.seiche.info/openbb/mcp. Distinct from the three-tool Financial Evidence source router.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - knowledge-retrieval
+  - research
+docs_url: https://beepboop2025.github.io/financial-evidence-skills/start/
+endpoints:
+  - url: https://api.seiche.info/openbb/mcp
+    transport: streamable-http
+    auth: none

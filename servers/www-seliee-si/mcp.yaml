@@ -1,0 +1,14 @@
+name: Seliee
+summary: 'Run your business from Claude: manage websites and SEO, ads, social accounts, payments, leads, SMS and voice campaigns, and AI image and video generation through one connector.'
+category: marketing
+tags:
+  - advertising
+  - marketing
+  - payment
+  - seo
+  - social-media
+docs_url: https://www.seliee.si
+endpoints:
+  - url: https://mcp.seliee.si/mcp
+    transport: streamable-http
+    auth: oauth

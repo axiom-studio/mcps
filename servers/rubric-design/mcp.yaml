@@ -1,0 +1,14 @@
+name: Rubric
+summary: 'UX guidelines, research and audit checklists for coding agents, plus your own Rubric audit reports and analytics. Remote server with OAuth: claude mcp add --transport http rubric https://rubric.design/mcp'
+category: design
+tags:
+  - analytics
+  - coding-agent
+  - design
+  - documentation
+  - research
+docs_url: https://rubric.design/#agents
+endpoints:
+  - url: https://rubric.design/mcp
+    transport: streamable-http
+    auth: oauth

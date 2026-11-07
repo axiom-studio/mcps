@@ -1,0 +1,13 @@
+name: Kabuken EDINET MCP server
+summary: 'EDINET MCP server: financial statements, segments and major shareholders of Japanese listed companies, with the source filing for each figure.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - government
+  - research
+docs_url: https://kabuken.intellics.ai/
+endpoints:
+  - url: https://kabuken.intellics.ai/mcp
+    transport: streamable-http
+    auth: oauth

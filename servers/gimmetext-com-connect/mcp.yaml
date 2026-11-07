@@ -1,0 +1,13 @@
+name: GimmeText
+summary: Turn any video or audio recording into text your AI can read, summarize and search. Say "transcribe my video", drop the file on the private link, and your AI reads the transcript. Free plan, sign in with OAuth.
+category: productivity
+tags:
+  - audio
+  - file-conversion
+  - media
+  - productivity
+docs_url: https://gimmetext.com/connect
+endpoints:
+  - url: https://gimmetext.com/api/mcp
+    transport: streamable-http
+    auth: oauth

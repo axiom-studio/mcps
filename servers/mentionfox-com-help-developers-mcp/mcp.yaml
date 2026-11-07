@@ -1,0 +1,12 @@
+name: MentionFox
+summary: Cited reports on any company or person, credential checks and brand mention scans, inside your AI assistant.
+category: search
+tags:
+  - search
+  - security
+  - web-research
+docs_url: https://mentionfox.com/help/developers/mcp
+endpoints:
+  - url: https://mentionfox.com/mcp
+    transport: streamable-http
+    auth: unknown

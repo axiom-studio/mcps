@@ -1,0 +1,12 @@
+name: Postbye
+summary: 'Look up how to cancel 8,600+ subscriptions: methods, mailing addresses, notice periods, letters.'
+category: productivity
+tags:
+  - customer-ops
+  - knowledge-retrieval
+  - productivity
+docs_url: https://postbye.com/mcp-server
+endpoints:
+  - url: https://postbye.com/mcp
+    transport: streamable-http
+    auth: unknown

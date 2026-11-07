@@ -1,0 +1,12 @@
+name: CPFHub.io
+summary: Look up a Brazilian CPF (name, gender, birth date) and check its registration status and death year at Receita Federal in real time.
+category: finance
+tags:
+  - api
+  - data-analysis
+  - finance
+docs_url: https://www.cpfhub.io/documentacao/ai/mcp
+endpoints:
+  - url: https://api.cpfhub.io/mcp
+    transport: streamable-http
+    auth: api-key

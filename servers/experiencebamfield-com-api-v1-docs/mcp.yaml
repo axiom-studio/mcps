@@ -1,0 +1,10 @@
+name: Experience Bamfield
+summary: Plan and price a trip to Bamfield, BC (cottages, kayaks and canoes, fishing charters, moorage, parking) and build the cart link a guest pays from. Read-only; no key to connect. Private trip summaries need the guest's own link.
+category: other
+tags:
+  - ecommerce
+docs_url: https://experiencebamfield.com/api/v1/docs
+endpoints:
+  - url: https://experiencebamfield.com/mcp
+    transport: streamable-http
+    auth: none

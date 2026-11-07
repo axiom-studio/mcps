@@ -1,0 +1,13 @@
+name: Election Index
+summary: Neutral, sourced calendar of national elections — polling days, when results are expected, via API and MCP.
+category: database
+tags:
+  - database
+  - government
+  - news
+  - research
+docs_url: https://electionindex.org/
+endpoints:
+  - url: https://electionindex.org/mcp
+    transport: streamable-http
+    auth: none

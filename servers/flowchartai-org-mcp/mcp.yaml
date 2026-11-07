@@ -1,0 +1,13 @@
+name: FlowchartAI MCP
+summary: Create, edit, save and export native flowcharts with AI through a remote OAuth MCP server.
+category: productivity
+tags:
+  - ai-model
+  - document
+  - productivity
+  - workflow-automation
+docs_url: https://flowchartai.org/mcp
+endpoints:
+  - url: https://flowchartai.org/api/mcp
+    transport: streamable-http
+    auth: oauth

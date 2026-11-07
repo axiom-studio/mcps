@@ -1,0 +1,24 @@
+name: Granted
+summary: Granted helps users discover grant opportunities. Its connector brings grant-search context into assistant workflows so users can explore funding options, compare opportunities, and plan applications from natural-language prompts.
+description: |-
+  # Granted
+
+  Granted helps users discover grant opportunities. Its connector brings grant-search context into assistant workflows so users can explore funding options, compare opportunities, and plan applications from natural-language prompts.
+
+  ## Connection
+
+  none: https://grantedai.com/api/mcp/mcp
+
+  The publisher explicitly documents a free, unauthenticated endpoint. Optional Bearer keys provide dedicated rate limits.
+
+  [Official documentation](https://grantedai.com/mcp)
+category: search
+tags:
+  - remote-mcp
+  - search
+official: true
+docs_url: https://grantedai.com/mcp
+endpoints:
+  - url: https://grantedai.com/api/mcp/mcp
+    transport: streamable-http
+    auth: none

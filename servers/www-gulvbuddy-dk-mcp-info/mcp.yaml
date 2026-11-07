@@ -1,0 +1,12 @@
+name: Gulvbuddy Floor Price Estimate
+summary: 'Price estimates for new wood floors and floor sanding in Denmark, plus a coverage check by address. Free, no login, read-only. Remote endpoint: https://www.gulvbuddy.dk/mcp'
+category: other
+tags:
+  - data-analysis
+  - real-estate
+  - web-research
+docs_url: https://www.gulvbuddy.dk/mcp-info
+endpoints:
+  - url: https://www.gulvbuddy.dk/mcp
+    transport: streamable-http
+    auth: none

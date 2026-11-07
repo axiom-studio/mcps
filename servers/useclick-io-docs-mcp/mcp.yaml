@@ -1,0 +1,12 @@
+name: useClick MCP
+summary: Create and edit short links and QR codes, and read link clicks and website visitors from UseClick. API key auth.
+category: marketing
+tags:
+  - analytics
+  - api
+  - marketing
+docs_url: https://useclick.io/docs/mcp
+endpoints:
+  - url: https://useclick.io/api/mcp
+    transport: streamable-http
+    auth: api-key

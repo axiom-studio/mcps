@@ -1,0 +1,14 @@
+name: Qanvo Stock Screener
+summary: 'Screen global stocks, options, ETFs and crypto in plain English, and set email alerts on any screen. 7 tools: market_query, refine_market_query, describe_metrics, create_alert, list_alerts, update_alert, delete_alert. Remote server at https://qanvo.app/mcp (streamable HTTP, OAuth sign-in or Bearer API key).'
+category: finance
+tags:
+  - analytics
+  - crypto
+  - email-automation
+  - finance
+  - trading
+docs_url: https://qanvo.app/docs/mcp
+endpoints:
+  - url: https://qanvo.app/mcp
+    transport: streamable-http
+    auth: oauth

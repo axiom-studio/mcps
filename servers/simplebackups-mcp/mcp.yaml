@@ -1,0 +1,15 @@
+name: SimpleBackups
+summary: Check, debug and fix your backups from any AI assistant. See which backups are failing and why, read run logs, and run, pause or resume backups for your databases, servers and storage.
+category: cloud-service
+tags:
+  - cloud-storage
+  - database
+  - devops
+  - monitoring
+official: true
+registry_name: com.simplebackups/mcp
+docs_url: https://simplebackups.com/docs/mcp/overview
+endpoints:
+  - url: https://mcp.simplebackups.ai/mcp
+    transport: streamable-http
+    auth: oauth

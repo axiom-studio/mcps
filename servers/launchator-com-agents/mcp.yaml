@@ -1,0 +1,13 @@
+name: Launchator
+summary: Search a launch directory of new SaaS, AI and indie products, and submit, verify and publish your own listing from your agent.
+category: marketing
+tags:
+  - marketing
+  - marketplace
+  - productivity
+  - workflow-automation
+docs_url: https://launchator.com/agents
+endpoints:
+  - url: https://launchator.com/api/mcp
+    transport: streamable-http
+    auth: none

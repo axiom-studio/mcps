@@ -1,0 +1,13 @@
+name: Citation
+summary: Work with Citation documents, saved sources, citations, references and exports through an authorized MCP connection.
+category: productivity
+tags:
+  - document
+  - knowledge-retrieval
+  - productivity
+  - research
+docs_url: https://citation.co/docs/mcp
+endpoints:
+  - url: https://citation.co/mcp
+    transport: streamable-http
+    auth: oauth

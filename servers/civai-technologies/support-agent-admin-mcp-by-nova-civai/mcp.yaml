@@ -1,0 +1,13 @@
+name: Support Agent Admin by Nova (CIVAI)
+summary: I manage your Support Agent CRM — pipeline analytics, follow-ups, Leads Discovery, and workspace output (Sheets, Docs, Calendar, research)
+category: productivity
+tags:
+  - analytics
+  - crm
+  - customer-ops
+  - productivity
+docs_url: https://github.com/civai-technologies/support-agent-admin-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/support-agent-admin
+    transport: streamable-http
+    auth: api-key

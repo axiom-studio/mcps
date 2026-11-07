@@ -1,0 +1,13 @@
+name: Weir
+summary: Search and read public Reddit and X posts, threads, profiles and Articles from your code or from Claude, ChatGPT and Cursor. Pay per result; 5,000 free credits a month.
+category: search
+tags:
+  - search
+  - social-media
+  - web-research
+  - x-twitter
+docs_url: https://github.com/tarun-khatri/weir-mcp
+endpoints:
+  - url: https://api.weirapp.io/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,24 @@
+name: Three.js 3D Viewer
+summary: Three.js 3D Viewer is an official MCP Apps example for rich interactive output. Its hosted remote MCP server generates browser-rendered 3D scenes, models, and animations inside a conversation, demonstrating visual tools built with Three.js.
+description: |-
+  # Three.js 3D Viewer
+
+  Three.js 3D Viewer is an official MCP Apps example for rich interactive output. Its hosted remote MCP server generates browser-rendered 3D scenes, models, and animations inside a conversation, demonstrating visual tools built with Three.js.
+
+  ## Connection
+
+  https://example-server.modelcontextprotocol.io/threejs/mcp
+
+  The official MCP project repository documents Three.js Server and its two tools. The live example endpoint on the official modelcontextprotocol.io domain reports the same server and tool identities. Authentication remains unknown; no scene-execution tool was called.
+
+  [Publisher or official connector listing](https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/threejs-server)
+category: other
+tags:
+  - other
+  - remote-mcp
+official: true
+docs_url: https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/threejs-server
+endpoints:
+  - url: https://example-server.modelcontextprotocol.io/threejs/mcp
+    transport: streamable-http
+    auth: unknown

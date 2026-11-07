@@ -1,0 +1,13 @@
+name: GleanMark Trademark Search
+summary: 'USPTO trademark data: 14M+ marks, owners, Office Actions, TTAB cases. Public tools need no account.'
+category: search
+tags:
+  - compliance
+  - government
+  - research
+  - search
+docs_url: https://gleanmark.com/integrations
+endpoints:
+  - url: https://gleanmark.com/mcp
+    transport: streamable-http
+    auth: unknown

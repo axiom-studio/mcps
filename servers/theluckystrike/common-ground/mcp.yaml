@@ -1,0 +1,11 @@
+name: Common Ground
+summary: Pick one movie, show, book, artist or restaurant a whole group will enjoy, using Qloo taste data.
+category: other
+tags:
+  - api
+  - entertainment
+docs_url: https://github.com/theluckystrike/common-ground
+endpoints:
+  - url: https://common-ground.lipmichal.workers.dev/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: Tradehand
+summary: Browse and book local tradespeople in the UK. Find profiles and services, prepare a quote or booking review, then confirm on Tradehand.
+category: productivity
+tags:
+  - business-operations
+  - marketplace
+  - productivity
+docs_url: https://tradehand.com/developers
+endpoints:
+  - url: https://tradehand.com/api/mcp
+    transport: streamable-http
+    auth: none

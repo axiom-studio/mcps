@@ -1,0 +1,12 @@
+name: Strumenti di calcolo dello Studio Notarile Chianese
+summary: 'Six calculators for Italy from a notary''s office: home purchase taxes, cadastral value, usufruct and bare ownership, heirs'' shares, inheritance and gift tax, selling versus gifting a home.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - real-estate
+docs_url: https://www.notaiochianese.it/en/calculators-for-ai-assistants/
+endpoints:
+  - url: https://mcp.notaiochianese.it/mcp
+    transport: streamable-http
+    auth: none

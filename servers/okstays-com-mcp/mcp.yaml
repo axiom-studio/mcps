@@ -1,0 +1,12 @@
+name: OKstays
+summary: 'Hotels ranked by real comfort, not commission: search 30,000+ hotels by quiet, beds, working AC and more'
+category: search
+tags:
+  - real-estate
+  - research
+  - search
+docs_url: https://okstays.com/mcp
+endpoints:
+  - url: https://okstays.com/api/mcp
+    transport: streamable-http
+    auth: unknown

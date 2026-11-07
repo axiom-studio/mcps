@@ -1,0 +1,13 @@
+name: StampyWallet
+summary: 'Official MCP server for StampyWallet, loyalty cards in Apple Wallet and Google Wallet for local shops. Without an account: design a card, estimate its cost and put it live. With OAuth sign-in: read your numbers, message customers, manage Google reviews, the card and the team, always after your approval. Remote server, no API key.'
+category: marketing
+tags:
+  - crm
+  - customer-ops
+  - marketing
+  - payment
+docs_url: https://stampywallet.com/en/docs/mcp/connect/
+endpoints:
+  - url: https://app.stampywallet.com/mcp
+    transport: streamable-http
+    auth: oauth

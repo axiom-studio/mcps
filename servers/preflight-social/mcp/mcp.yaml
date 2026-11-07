@@ -1,0 +1,13 @@
+name: Preflight
+summary: Schedule, validate and publish social posts to 12 networks from Claude, ChatGPT or Cursor. Every post is checked against each network's rules first.
+category: marketing
+tags:
+  - content-creation
+  - marketing-automation
+  - social-media
+  - workflow-automation
+docs_url: https://github.com/Preflight-Social/mcp
+endpoints:
+  - url: https://preflight.social/mcp
+    transport: streamable-http
+    auth: oauth

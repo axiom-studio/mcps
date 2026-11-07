@@ -1,0 +1,12 @@
+name: ContrastKit
+summary: Check text and background colors against WCAG 2.x AA and AAA, get the nearest accessible color, convert CSS colors and check a whole palette of up to 12 colors. Free, with no sign-up and no API key; about 60 checks per minute per IP. Nothing you submit is stored. ContrastKit is not affiliated with the W3C or WebAIM.
+category: development
+tags:
+  - code-quality
+  - design
+  - testing-qa
+docs_url: https://contrastkit.mike-tusa.workers.dev/
+endpoints:
+  - url: https://contrastkit.mike-tusa.workers.dev/mcp
+    transport: streamable-http
+    auth: none

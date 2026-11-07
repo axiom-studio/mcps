@@ -1,0 +1,13 @@
+name: Superbridger
+summary: 'Post and schedule to Instagram, Facebook, YouTube, TikTok, LinkedIn and X from Claude, ChatGPT and other AI apps: one upload, each platform''s own format, checked before it goes out, and each post''s numbers read back.'
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://superbridger.com/mcp
+endpoints:
+  - url: https://superbridger.com/api/mcp
+    transport: streamable-http
+    auth: oauth

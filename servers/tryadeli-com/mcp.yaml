@@ -1,0 +1,14 @@
+name: Adeli MCP
+summary: Give your product or agents a way to post, analyze, message, and manage comments across all social platforms with one API/MCP
+category: development
+tags:
+  - api
+  - communication
+  - content-creation
+  - marketing-automation
+  - social-media
+docs_url: https://tryadeli.com
+endpoints:
+  - url: https://app.tryadeli.com/mcp
+    transport: streamable-http
+    auth: oauth

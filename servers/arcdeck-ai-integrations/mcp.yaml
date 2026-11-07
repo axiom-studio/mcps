@@ -1,0 +1,12 @@
+name: Arcdeck
+summary: Create presentation decks from Claude, Cursor or any MCP client. Give a topic, notes or a document; Arcdeck drafts a storyline, writes and designs the slides, and returns an editor link plus editable PowerPoint and PDF downloads. Remote server with OAuth sign-in.
+category: productivity
+tags:
+  - content-creation
+  - document
+  - productivity
+docs_url: https://arcdeck.ai/integrations
+endpoints:
+  - url: https://arcdeck.ai/mcp
+    transport: streamable-http
+    auth: oauth

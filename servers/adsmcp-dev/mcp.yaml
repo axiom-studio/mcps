@@ -1,0 +1,13 @@
+name: Ads MCP
+summary: 'Read-only Google Ads for Claude: finds search terms that spend without converting.'
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - google-analytics
+  - marketing
+docs_url: https://adsmcp.dev
+endpoints:
+  - url: https://adsmcp.dev/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Corroborum
+summary: Search 220M+ scholarly papers from every field inside your AI assistant, with abstracts, DOIs, retraction flags and citation following.
+category: search
+tags:
+  - knowledge-retrieval
+  - research
+  - search
+  - web-research
+docs_url: https://corroborum.com
+endpoints:
+  - url: https://mcp.corroborum.com/mcp
+    transport: streamable-http
+    auth: unknown

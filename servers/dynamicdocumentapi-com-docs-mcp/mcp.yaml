@@ -1,0 +1,13 @@
+name: Dynamic Document API
+summary: Render PDFs and images from templates, HTML or Markdown, merge PDFs, and create validated XRechnung and ZUGFeRD e-invoices. Hosted in the EU; sign in with OAuth or use an API key.
+category: development
+tags:
+  - api
+  - document
+  - file-conversion
+  - pdf
+docs_url: https://dynamicdocumentapi.com/docs/mcp
+endpoints:
+  - url: https://mcp.dynamicdocumentapi.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Storelift
+summary: App Store & Google Play keyword ranks, rivals above you, reviews, store pages, charts and AI visibility for your apps, read-only, via Storelift.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - research
+  - seo
+docs_url: https://github.com/vom-core/storelift-mcp
+endpoints:
+  - url: https://storelift.net/mcp
+    transport: streamable-http
+    auth: unknown

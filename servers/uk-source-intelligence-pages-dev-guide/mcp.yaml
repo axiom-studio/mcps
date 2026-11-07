@@ -1,0 +1,13 @@
+name: UK Source Intelligence
+summary: MCP tools for AI agents to inspect official GOV.UK guidance, verify exact quotations, check content fingerprints, and track recorded changes to HMRC and government pages. Automated free trials and optional £9 paid access.
+category: development
+tags:
+  - compliance
+  - government
+  - knowledge-retrieval
+  - web-research
+docs_url: https://uk-source-intelligence.pages.dev/guide
+endpoints:
+  - url: https://uk-source-intelligence-mcp.mazdamen.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

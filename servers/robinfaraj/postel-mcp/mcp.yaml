@@ -1,0 +1,14 @@
+name: Postel
+summary: Draft, schedule and publish X (Twitter) and LinkedIn posts in your own voice.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+  - x-twitter
+docs_url: https://github.com/robinfaraj/postel-mcp
+endpoints:
+  - url: https://www.postel.app/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Alura
+summary: 'Etsy research and shop tools for AI: products, shops, keywords, trends, your listings and orders.'
+category: marketing
+tags:
+  - analytics
+  - ecommerce
+  - marketplace
+  - research
+docs_url: https://www.alura.io/mcp
+endpoints:
+  - url: https://mcp.alura.io/mcp
+    transport: streamable-http
+    auth: unknown

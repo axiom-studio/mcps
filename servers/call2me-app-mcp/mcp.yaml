@@ -1,0 +1,14 @@
+name: Call2Me
+summary: 'Voice AI telephony from your assistant: place and end real phone calls, read call transcripts, run a live two-language interpreter, and search, buy and bind phone numbers. 37 tools, OAuth 2.1 with PKCE.'
+category: communication
+tags:
+  - communication
+  - identity
+  - knowledge-retrieval
+  - search
+  - security
+docs_url: https://call2me.app/mcp
+endpoints:
+  - url: https://mcp.call2me.app/mcp
+    transport: streamable-http
+    auth: oauth

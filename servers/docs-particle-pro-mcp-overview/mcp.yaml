@@ -1,0 +1,13 @@
+name: Particle Podcast Intelligence
+summary: 'Gives AI agents podcast intelligence: search speaker-identified transcripts across 140,000+ podcasts within minutes of airing, track brand and company mentions with alerts, pull sponsor and ad-read data and rankings. Remote server; OAuth 2.1 or API key.'
+category: search
+tags:
+  - analytics
+  - media
+  - research
+  - search
+docs_url: https://docs.particle.pro/mcp/overview
+endpoints:
+  - url: https://mcp.particle.pro
+    transport: streamable-http
+    auth: oauth

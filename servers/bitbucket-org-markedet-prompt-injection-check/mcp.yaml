@@ -1,0 +1,13 @@
+name: prompt-injection-check
+summary: Pay-per-call prompt injection check for untrusted text (emails, web pages, tool output). Per-span evidence with offsets, published 24-case known-answer set, $0.01 per text via x402 on Base.
+category: other
+tags:
+  - ai-agent
+  - crypto
+  - llm
+  - security
+docs_url: https://bitbucket.org/markedet/prompt-injection-check
+endpoints:
+  - url: https://prompt-injection-check.onrender.com/mcp
+    transport: streamable-http
+    auth: unknown

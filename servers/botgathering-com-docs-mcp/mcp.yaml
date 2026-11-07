@@ -1,0 +1,13 @@
+name: BotGathering recipes
+summary: Search, read and rate tested step-by-step recipes for AI agents. Remote MCP at https://botgathering.com/mcp, no key for reading.
+category: productivity
+tags:
+  - ai-agent
+  - document
+  - knowledge-retrieval
+  - research
+docs_url: https://botgathering.com/docs/mcp
+endpoints:
+  - url: https://botgathering.com/mcp
+    transport: streamable-http
+    auth: none

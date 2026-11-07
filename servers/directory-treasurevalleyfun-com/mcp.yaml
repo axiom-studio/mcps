@@ -1,0 +1,12 @@
+name: Treasure Valley Fun Directory
+summary: Remote MCP server for finding verified local businesses, things to do and upcoming events in Boise and the Treasure Valley, Idaho. Read-only; no API key needed.
+category: search
+tags:
+  - entertainment
+  - marketplace
+  - search
+docs_url: https://directory.treasurevalleyfun.com
+endpoints:
+  - url: https://directory.treasurevalleyfun.com/api/mcp
+    transport: streamable-http
+    auth: none

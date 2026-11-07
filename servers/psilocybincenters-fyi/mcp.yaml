@@ -1,0 +1,13 @@
+name: Psilocybin Centers
+summary: Psilocybin Centers lists state-licensed psilocybin service centers and natural medicine healing centers by city. Search by state and category, open any listing for licence facts, and query the same data through a free API and MCP endpoint.
+category: search
+tags:
+  - api
+  - government
+  - healthcare
+  - search
+docs_url: https://psilocybincenters.fyi
+endpoints:
+  - url: https://psilocybincenters.fyi/mcp
+    transport: streamable-http
+    auth: none

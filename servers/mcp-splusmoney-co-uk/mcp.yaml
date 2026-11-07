@@ -1,0 +1,12 @@
+name: S+ Money CIS Refund Calculator
+summary: Estimate a UK CIS construction subcontractor's tax refund for 2025-26 to 2027-28. Free, no sign-in. By S+ Money.
+category: finance
+tags:
+  - finance
+  - government
+  - payment
+docs_url: https://mcp.splusmoney.co.uk/
+endpoints:
+  - url: https://mcp.splusmoney.co.uk/mcp
+    transport: streamable-http
+    auth: unknown

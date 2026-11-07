@@ -1,0 +1,13 @@
+name: FileForge
+summary: 'File tools for your AI chat: PDF tables to Excel, merge PDFs, images to PDF, fill PDF forms.'
+category: file-system
+tags:
+  - document
+  - file-conversion
+  - file-management
+  - pdf
+docs_url: https://github.com/hongfeng328/fileforge
+endpoints:
+  - url: https://fileforge.niux12345.com/mcp
+    transport: streamable-http
+    auth: unknown

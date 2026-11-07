@@ -1,0 +1,13 @@
+name: Leadbay
+summary: AI lead discovery, qualification, and outreach prep on your Leadbay account. Pull scored leads, research and qualify accounts, draft outreach and log activity from any MCP client, with OAuth sign-in (no API key).
+category: marketing
+tags:
+  - ai-agent
+  - crm
+  - marketing-automation
+  - sales
+docs_url: https://github.com/leadbay/mcp
+endpoints:
+  - url: https://mcp.leadbay.app/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: HPSILab Quant Research
+summary: 'Remote MCP server (OAuth, one-line setup) for US equities and options research: pre-trade risk scan with hard limits, implied-volatility structure and skew, option-chain pressure (max pain, gamma walls), Monte Carlo price ranges and backtested equity curves. Research only, never places orders. Free sign-up includes trial Credits.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+  - trading
+docs_url: https://github.com/haiyunsky/hpsilab-quant-finance-mcp
+endpoints:
+  - url: https://hpsilab.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: 321label
+summary: Quote, buy, track and cancel real shipping labels (GLS, PostNord, DHL, UPS, Royal Mail…) in DK, GB, DE, NO and NL. Sandbox is free; real labels are paid per label. Bearer agent token, self-serve.
+category: other
+tags:
+  - business-operations
+  - ecommerce
+  - payment
+  - workflow-automation
+docs_url: https://321label.com/agents
+endpoints:
+  - url: https://mcp.321label.com/mcp
+    transport: streamable-http
+    auth: api-key

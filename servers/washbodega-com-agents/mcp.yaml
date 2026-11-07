@@ -1,0 +1,12 @@
+name: Wash Bodega Service Discovery
+summary: Read-only bilingual (English/Spanish) services, pricing, hours and ordering handoff for Wash Bodega, an AI-run wash & fold pickup and delivery service in Houston, TX. Free pickup and delivery anywhere in Houston.
+category: other
+tags:
+  - business-operations
+  - communication
+  - ecommerce
+docs_url: https://washbodega.com/agents
+endpoints:
+  - url: https://washbodega.com/mcp
+    transport: streamable-http
+    auth: unknown

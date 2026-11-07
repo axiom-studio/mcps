@@ -1,0 +1,12 @@
+name: AI Website Security
+summary: 'Security basics of a website: HTTPS certificate, redirection, headers, mixed content, DNS filtering.'
+category: other
+tags:
+  - monitoring
+  - security
+  - web-research
+docs_url: https://aiwebsitesecurity.com/en/assistants
+endpoints:
+  - url: https://scan.aiwebsitesecurity.com/api/mcp
+    transport: streamable-http
+    auth: none

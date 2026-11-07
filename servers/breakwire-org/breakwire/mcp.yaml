@@ -1,0 +1,13 @@
+name: Breakwire
+summary: Look up an API, SDK or MCP error; get the source-linked breaking change, deprecation or advisory and its fix.
+category: development
+tags:
+  - api
+  - debugging
+  - development
+  - documentation
+docs_url: https://github.com/breakwire-org/breakwire
+endpoints:
+  - url: https://breakwire.org/mcp
+    transport: streamable-http
+    auth: none

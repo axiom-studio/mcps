@@ -1,0 +1,13 @@
+name: Kleap
+summary: Website infrastructure for AI agents — create, edit, publish real websites via MCP with verified-live guarantee.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - cms
+  - deployment
+  - web-research
+docs_url: https://kleap.co/mcp
+endpoints:
+  - url: https://kleap.co/api/mcp
+    transport: streamable-http
+    auth: oauth

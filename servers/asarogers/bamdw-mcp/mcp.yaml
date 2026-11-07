@@ -1,0 +1,13 @@
+name: Bay Area Mobile Dog Wash Booking
+summary: Check prices by dog size, see real openings, and book a mobile dog wash (the van comes to your home) in San Jose + South Bay, CA.
+category: other
+tags:
+  - business-operations
+  - calendar
+  - payment
+  - workflow-automation
+docs_url: https://github.com/asarogers/bamdw-mcp
+endpoints:
+  - url: https://bayareamobiledogwash.com/api/mcp
+    transport: streamable-http
+    auth: none

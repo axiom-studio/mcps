@@ -1,0 +1,13 @@
+name: Criora climate risk
+summary: 'Climate risk for any place or country: natural hazards nearby, 7-day forecasts, climate profiles, air quality and country comparisons. Remote, no auth.'
+category: other
+tags:
+  - data-analysis
+  - geospatial
+  - research
+  - weather
+docs_url: https://criora.com/docs/references/api-and-agents
+endpoints:
+  - url: https://criora.com/mcp
+    transport: streamable-http
+    auth: none

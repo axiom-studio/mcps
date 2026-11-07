@@ -1,0 +1,13 @@
+name: Ask a Human (Tech & Toast)
+summary: 'Agents pay a real human for typed answers: approvals, feedback, design and video review, tie-breaker decisions. First question free, then $2.'
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - payment
+  - workflow-automation
+docs_url: https://ai-to-human.techandtoast.io
+endpoints:
+  - url: https://ai-to-human.techandtoast.io/api/mcp
+    transport: streamable-http
+    auth: none

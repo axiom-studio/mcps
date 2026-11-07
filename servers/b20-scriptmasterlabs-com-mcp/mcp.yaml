@@ -1,0 +1,13 @@
+name: B20 Truth
+summary: 'B20 Truth MCP from ScriptMasterLabs: check Base B20 token claims against on-chain evidence. Full reports $0.02 USDC on Base via x402.'
+category: finance
+tags:
+  - crypto
+  - evm
+  - payment
+  - trading
+docs_url: https://b20.scriptmasterlabs.com/mcp
+endpoints:
+  - url: https://b20.scriptmasterlabs.com/mcp
+    transport: streamable-http
+    auth: none

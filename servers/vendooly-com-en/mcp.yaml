@@ -1,0 +1,13 @@
+name: Vendooly
+summary: MCP connector that brings Amazon Seller Central and Amazon Ads into ChatGPT and Claude via official Amazon APIs. The AI prepares, you approve every change.
+category: marketing
+tags:
+  - advertising
+  - crm
+  - ecommerce
+  - marketing
+docs_url: https://vendooly.com/en/
+endpoints:
+  - url: https://mcp.vendooly.com/mcp
+    transport: streamable-http
+    auth: oauth

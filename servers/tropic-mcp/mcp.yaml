@@ -1,0 +1,18 @@
+name: Tropic
+summary: Tropic helps teams benchmark software and AI contract pricing against verified technology transactions. Its connector brings procurement and vendor-pricing context into assistant workflows for identifying savings opportunities and preparing negotiations.
+description: |-
+  Tropic helps teams benchmark software and AI contract pricing against verified technology transactions. Its connector brings procurement and vendor-pricing context into assistant workflows for identifying savings opportunities and preparing negotiations.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/tropic)
+category: finance
+tags:
+  - finance
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/tropic
+endpoints:
+  - url: https://app.tropicapp.io/mcp
+    transport: streamable-http
+    auth: oauth

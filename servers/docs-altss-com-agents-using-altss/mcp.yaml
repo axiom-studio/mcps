@@ -1,0 +1,12 @@
+name: Altss Documentation
+summary: Search and read Altss public documentation. Includes provider feedback submission; no premium intelligence access.
+category: search
+tags:
+  - documentation
+  - knowledge-retrieval
+  - search
+docs_url: https://docs.altss.com/agents/using-altss
+endpoints:
+  - url: https://docs.altss.com/mcp
+    transport: streamable-http
+    auth: none

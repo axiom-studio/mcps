@@ -1,0 +1,13 @@
+name: Profundis
+summary: Find subdomains and investigate connections between websites using DNS, certificates and WHOIS data.
+category: search
+tags:
+  - search
+  - security
+  - threat-intelligence
+  - web-research
+docs_url: https://docs.profundis.io/mcp/connect/
+endpoints:
+  - url: https://mcp.profundis.io
+    transport: streamable-http
+    auth: unknown

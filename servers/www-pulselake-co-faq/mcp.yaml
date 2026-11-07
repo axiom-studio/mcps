@@ -1,0 +1,13 @@
+name: PulseLake
+summary: 'AI-native market research: research studies, persona audience studies, analysis and reports, approved per job.'
+category: marketing
+tags:
+  - ai-agent
+  - data-analysis
+  - marketing
+  - research
+docs_url: https://www.pulselake.co/faq
+endpoints:
+  - url: https://ai-consultants.pulselake.co/oauth/pulselake-mcp
+    transport: streamable-http
+    auth: oauth

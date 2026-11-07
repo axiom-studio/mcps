@@ -1,0 +1,12 @@
+name: Hadacart KR/US product search and purchase links
+summary: Search dated Korean and US merchant products, recorded options and pack unit prices; get original affiliate purchase links. Read-only, no checkout.
+category: search
+tags:
+  - ecommerce
+  - marketplace
+  - search
+docs_url: https://hadacart.com/shop/
+endpoints:
+  - url: https://hadacart.com/api/catalog/mcp
+    transport: streamable-http
+    auth: none

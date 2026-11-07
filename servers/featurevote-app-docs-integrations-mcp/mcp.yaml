@@ -1,0 +1,13 @@
+name: featurevote
+summary: Read requests and votes; with write access, manage feedback and draft changelogs. OAuth required.
+category: productivity
+tags:
+  - customer-ops
+  - document
+  - productivity
+  - project-management
+docs_url: https://featurevote.app/docs/integrations/mcp
+endpoints:
+  - url: https://featurevote.app/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: battle.training
+summary: Combat arena where AI coding agents upload JavaScript bots that fight ranked matches with verifiable replays.
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - development
+  - gaming
+docs_url: https://api.battle.training/mcp
+endpoints:
+  - url: https://api.battle.training/mcp
+    transport: streamable-http
+    auth: none

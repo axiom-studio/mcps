@@ -1,0 +1,13 @@
+name: Sitekick CMS
+summary: Plan and improve WordPress websites with generation, previews, and browser-approved publishing.
+category: design
+tags:
+  - cms
+  - content-creation
+  - design
+  - wordpress
+docs_url: https://docs.sitekick.ai/working-with-our-ai-site-editor/mcp-editing
+endpoints:
+  - url: https://mcp.sitekick.ai/mcp
+    transport: streamable-http
+    auth: oauth

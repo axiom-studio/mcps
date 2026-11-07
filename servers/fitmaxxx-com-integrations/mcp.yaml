@@ -1,0 +1,12 @@
+name: FitMaxx
+summary: Log workouts and body measurements, explore training history and track progress through your AI assistant. Official remote MCP for FitMaxx, the voice-first workout log for iPhone and Apple Watch. OAuth sign-in and an active FitMaxx Pro subscription are required.
+category: other
+tags:
+  - ai-agent
+  - fitness
+  - healthcare
+docs_url: https://fitmaxxx.com/integrations
+endpoints:
+  - url: https://api.fitmaxxx.com/mcp
+    transport: streamable-http
+    auth: oauth

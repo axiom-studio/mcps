@@ -1,0 +1,10 @@
+name: Brod
+summary: Deploy the small web apps your agent builds to a private team address, with sign-in, roles, a database and rollback built in.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+docs_url: https://brod.sh
+endpoints:
+  - url: https://brod.sh/mcp
+    transport: streamable-http
+    auth: oauth

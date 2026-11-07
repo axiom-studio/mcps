@@ -1,0 +1,13 @@
+name: Nabit Video Recommendations
+summary: Match products to human-reviewed 0–3s short-form video hooks, frame-level opening breakdowns, trend tracking, and creative collections.
+category: marketing
+tags:
+  - advertising
+  - content-creation
+  - marketing
+  - video
+docs_url: https://nabit.ai/codex
+endpoints:
+  - url: https://nabit.ai/mcp
+    transport: streamable-http
+    auth: oauth

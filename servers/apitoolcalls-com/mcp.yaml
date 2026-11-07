@@ -1,0 +1,14 @@
+name: API Tool Calls — Home cost planners and everyday tools
+summary: 'API Tool Calls: Home cost planners, proofreading, QR and barcodes, page to Markdown, SEO checks and recalls. Free agent tools: 20 calls/day per IP, no key.'
+category: productivity
+tags:
+  - document
+  - file-conversion
+  - productivity
+  - seo
+  - web-scraping
+docs_url: https://apitoolcalls.com/
+endpoints:
+  - url: https://apitoolcalls.com/mcp
+    transport: streamable-http
+    auth: none

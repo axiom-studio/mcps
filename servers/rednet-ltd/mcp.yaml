@@ -1,0 +1,13 @@
+name: Rednet
+summary: Public tenders that fit what you sell, with 12 million past EU awards behind them, in your AI assistant.
+category: search
+tags:
+  - business-operations
+  - data-analysis
+  - search
+  - web-research
+docs_url: https://rednet.ltd
+endpoints:
+  - url: https://mcp.rednet.ltd/mcp
+    transport: streamable-http
+    auth: oauth

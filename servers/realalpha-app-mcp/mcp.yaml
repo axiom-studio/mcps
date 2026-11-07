@@ -1,0 +1,13 @@
+name: Real Alpha
+summary: Search what AI founders and researchers said in long podcast interviews, with quotes, speakers, dates and links to cite.
+category: search
+tags:
+  - knowledge-retrieval
+  - media
+  - research
+  - search
+docs_url: https://realalpha.app/mcp/
+endpoints:
+  - url: https://realalpha.app/mcp
+    transport: streamable-http
+    auth: none

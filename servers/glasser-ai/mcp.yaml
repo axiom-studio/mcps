@@ -1,0 +1,14 @@
+name: Glasser
+summary: Connect AI agents to 1,700+ tools and APIs for SEO, people, company, social, and web data through a remote MCP server, with pay-as-you-go pricing and no subscription.
+category: search
+tags:
+  - api
+  - data-analysis
+  - search
+  - web-research
+docs_url: https://glasser.ai/docs/mcp-server
+website_url: https://glasser.ai/
+endpoints:
+  - url: https://api.glasser.ai/mcp
+    transport: streamable-http
+    auth: oauth

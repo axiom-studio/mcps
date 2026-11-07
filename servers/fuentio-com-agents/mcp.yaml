@@ -1,0 +1,13 @@
+name: 'Fuentio: UK, France & Spain company data from official registries'
+summary: Verify UK, French and Spanish companies from official registries, with source, check date and receipt on every answer.
+category: finance
+tags:
+  - business-operations
+  - data-analysis
+  - finance
+  - research
+docs_url: https://fuentio.com/agents/
+endpoints:
+  - url: https://api.fuentio.com/mcp
+    transport: streamable-http
+    auth: unknown

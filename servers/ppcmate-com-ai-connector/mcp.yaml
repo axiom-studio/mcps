@@ -1,0 +1,12 @@
+name: PPCmate MCP
+summary: Manage your PPCmate ad campaigns from ChatGPT, Claude or any MCP client. Check balance, list campaigns, pull campaign and account stats (spend, clicks, conversions, CPC/CPA), ask why a campaign isn't spending (health check), and pause or resume campaigns. Remote HTTPS server, scoped to your own advertiser account with your PPCmate API key.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - marketing
+docs_url: https://ppcmate.com/ai-connector/
+endpoints:
+  - url: https://api.ppcmate.com/api/mcp
+    transport: streamable-http
+    auth: api-key

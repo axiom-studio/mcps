@@ -1,0 +1,13 @@
+name: TrendsMCP
+summary: Live trend data for AI agents. Google, TikTok, YouTube, Amazon, Reddit, and 30+ other sources. One MCP connection, one API key.
+category: search
+tags:
+  - analytics
+  - search
+  - social-media
+  - web-research
+docs_url: https://github.com/trendsmcp-ai/Trends-MCP
+endpoints:
+  - url: https://api.trendsmcp.ai/mcp
+    transport: streamable-http
+    auth: unknown

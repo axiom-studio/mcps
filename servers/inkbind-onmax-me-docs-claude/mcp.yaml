@@ -1,0 +1,12 @@
+name: Inkbind
+summary: Turns a story, memoir or recipes from the chat into a printed hardcover or softcover book, with a page-by-page preview.
+category: productivity
+tags:
+  - content-creation
+  - document
+  - productivity
+docs_url: https://inkbind.onmax.me/docs/claude
+endpoints:
+  - url: https://inkbind.onmax.me/mcp/claude
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: WaveSpeed MCP
+summary: WaveSpeedAI is the most powerful platform for AI image and video generation — built to help you create faster and scale without limits.
+category: productivity
+tags:
+  - ai-model
+  - content-creation
+  - media
+  - video
+docs_url: https://wavespeed.ai/cli
+endpoints:
+  - url: https://api.wavespeed.ai/mcp
+    transport: streamable-http
+    auth: oauth

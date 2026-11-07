@@ -1,0 +1,13 @@
+name: globalize.now
+summary: 'Localize apps from your AI assistant: translate locale files, set glossaries, connect GitHub repos.'
+category: development
+tags:
+  - development
+  - github
+  - translation
+  - workflow-automation
+docs_url: https://globalize.now/en/developers/
+endpoints:
+  - url: https://api.globalize.now/mcp
+    transport: streamable-http
+    auth: oauth

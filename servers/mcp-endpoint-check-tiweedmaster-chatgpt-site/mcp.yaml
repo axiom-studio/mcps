@@ -1,0 +1,12 @@
+name: MCP Endpoint Check
+summary: 'Read-only checks for public MCP endpoints: HTTPS reachability, initialization, tools/list schemas and latency. Offers a free one-URL check and a paid batch audit; it never invokes advertised tools.'
+category: development
+tags:
+  - api
+  - monitoring
+  - testing-qa
+docs_url: https://mcp-endpoint-check.tiweedmaster.chatgpt.site
+endpoints:
+  - url: https://mcp-endpoint-check.tiweedmaster.chatgpt.site/api/free-mcp
+    transport: streamable-http
+    auth: none

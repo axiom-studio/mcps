@@ -1,0 +1,12 @@
+name: Meadley Bros. Property-Picked Mailing Lists
+summary: Counts the homes in a US service area that fit a home-service contractor's trade (tree care, roofing, fencing, pools, land clearing and more), lists the list types offered per trade, and checks coverage. Free, no key, counts only, no homeowner data.
+category: marketing
+tags:
+  - business-operations
+  - marketing
+  - real-estate
+docs_url: https://meadleybrothers.com/api/
+endpoints:
+  - url: https://api.meadleybrothers.com/mcp/public
+    transport: streamable-http
+    auth: none

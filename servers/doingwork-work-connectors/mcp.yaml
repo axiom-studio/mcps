@@ -1,0 +1,16 @@
+name: Field Service Business Platform by Doing Work
+summary: 'For home service shops on Doing Work: see today''s jobs and draft quotes and invoices from chat. Drafts wait for the owner''s review.'
+category: productivity
+tags:
+  - business-operations
+  - communication
+  - document
+  - productivity
+docs_url: https://doingwork.work/connectors/
+endpoints:
+  - url: https://app.doingwork.work/mcp/home
+    transport: streamable-http
+    auth: unknown
+  - url: https://app.doingwork.work/mcp/shop
+    transport: streamable-http
+    auth: unknown

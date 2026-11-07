@@ -1,0 +1,12 @@
+name: AllInvestView
+summary: Remote MCP server for AllInvestView, the portfolio tracker for stocks, ETFs, bonds, options, crypto and dividends. Connect ChatGPT, Claude, Claude Code or Cursor to read your holdings, performance, dividends and tax, and add, correct or undo trades and alerts. You approve access on an AllInvestView consent screen.
+category: finance
+tags:
+  - crypto
+  - finance
+  - trading
+docs_url: https://www.allinvestview.com/mcp/
+endpoints:
+  - url: https://www.allinvestview.com/mcp
+    transport: streamable-http
+    auth: oauth

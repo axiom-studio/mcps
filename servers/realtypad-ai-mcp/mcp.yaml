@@ -1,0 +1,13 @@
+name: RealtyPad
+summary: 'Real estate deal research for investors: listings in, researched deal file out (comps, rent, taxes, market trends, cashflow scenarios), plus a saved pipeline and buyer matching.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - real-estate
+  - research
+docs_url: https://realtypad.ai/mcp
+endpoints:
+  - url: https://app.realtypad.ai/mcp
+    transport: streamable-http
+    auth: oauth

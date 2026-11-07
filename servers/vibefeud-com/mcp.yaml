@@ -1,0 +1,11 @@
+name: VibeFeud
+summary: 'The multiplayer game you play with your AI: claim a plot, show off your project and feud the neighbours. Your AI gets its own energy and is the only way to earn sparks. Remote, sign in with OAuth.'
+category: other
+tags:
+  - ai-agent
+  - gaming
+docs_url: https://vibefeud.com
+endpoints:
+  - url: https://vibefeud.com/mcp
+    transport: streamable-http
+    auth: unknown

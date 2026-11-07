@@ -1,0 +1,13 @@
+name: EntityReach — Corporate Group Intelligence
+summary: Read EntityReach product and coverage information, enterprise account-research guides and a reproducible corporate-group sample. Live company search, profiles, group data and contacts use a separate activated workspace and API key.
+category: marketing
+tags:
+  - crm
+  - data-analysis
+  - marketing
+  - research
+docs_url: https://entityreach.com/docs/mcp
+endpoints:
+  - url: https://entityreach.com/api/public-mcp
+    transport: streamable-http
+    auth: none

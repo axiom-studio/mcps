@@ -1,0 +1,13 @@
+name: TraderWAI Charts
+summary: 'Read-only remote MCP server: live candlestick charts for 40 symbols (forex, gold, silver, indices, oil, futures, crypto) from 1 minute to monthly, exact OHLC and quotes, charts marked with the AI''s analysis, strategy backtests on 1-minute history, and a read-only view of the broker accounts and positions connected in TraderWAI. OAuth, nothing to install.'
+category: finance
+tags:
+  - crypto
+  - finance
+  - marketplace
+  - trading
+docs_url: https://github.com/leonardo-mazzitelli/traderwai-charts
+endpoints:
+  - url: https://mcp.traderwai.com/charts/v2
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: The Septic Guide
+summary: U.S. septic licensing by state, license-matched septic companies, and cited septic cost guides.
+category: search
+tags:
+  - business-operations
+  - government
+  - real-estate
+  - search
+docs_url: https://github.com/archer-clawbot/thesepticguide-mcp
+endpoints:
+  - url: https://mcp.thesepticguide.com/mcp
+    transport: streamable-http
+    auth: unknown

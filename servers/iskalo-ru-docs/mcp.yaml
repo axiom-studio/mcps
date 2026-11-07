@@ -1,0 +1,11 @@
+name: Iskalo (Искало)
+summary: Search the Russian web with city, contact and provider filters, retrieve indexed page content, and use semantic reranking through a hosted MCP server.
+category: search
+tags:
+  - search
+  - web-research
+docs_url: https://iskalo.ru/docs
+endpoints:
+  - url: https://iskalo.ru/mcp
+    transport: streamable-http
+    auth: api-key

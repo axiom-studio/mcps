@@ -1,0 +1,13 @@
+name: Clify
+summary: Read-only JSON APIs and hosted MCP for 135 public websites with 1,619 live-verified commands.
+category: web-scraping
+tags:
+  - api
+  - search
+  - web-research
+  - web-scraping
+docs_url: https://github.com/ToukoUrsin/clify
+endpoints:
+  - url: https://bold-cloud-h4u6s.run.mcp-use.com/mcp
+    transport: streamable-http
+    auth: none

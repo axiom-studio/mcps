@@ -1,0 +1,12 @@
+name: MX Verdict
+summary: 'Free, read-only email and DNS checks: SPF, DKIM, DMARC, MX, DNS lookup, blacklists and a full email domain health check, each with a link to the full report on mxverdict.com.'
+category: development
+tags:
+  - email-automation
+  - monitoring
+  - security
+docs_url: https://mxverdict.com
+endpoints:
+  - url: https://mxverdict.com/mcp
+    transport: streamable-http
+    auth: none

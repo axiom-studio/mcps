@@ -1,0 +1,13 @@
+name: asms
+summary: 'Phone numbers for AI agents: get SMS verification codes on one-time numbers and rent numbers that receive SMS, paid from a wallet.'
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - payment
+  - sms
+docs_url: https://github.com/asms-ai/asms-mcp
+endpoints:
+  - url: https://asms.ai/mcp
+    transport: streamable-http
+    auth: oauth

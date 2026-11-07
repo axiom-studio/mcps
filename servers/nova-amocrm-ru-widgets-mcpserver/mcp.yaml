@@ -1,0 +1,13 @@
+name: NOVA amoCRM / Kommo
+summary: 'Remote MCP for amoCRM & Kommo: leads, contacts, tasks, pipelines, chats, Salesbot. OAuth, no keys.'
+category: productivity
+tags:
+  - crm
+  - sales
+  - task-management
+  - workflow-automation
+docs_url: https://nova-amocrm.ru/widgets/mcp_server
+endpoints:
+  - url: https://sp1-nova.ru/api/mcp-server/mcp/
+    transport: streamable-http
+    auth: unknown

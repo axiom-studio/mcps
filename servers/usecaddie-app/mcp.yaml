@@ -1,0 +1,13 @@
+name: Caddie
+summary: Read and write Caddie notes, tasks and calendar over HTTP with a personal agent key from Settings > AI. Free while in beta.
+category: productivity
+tags:
+  - calendar
+  - notes
+  - productivity
+  - task-management
+docs_url: https://usecaddie.app
+endpoints:
+  - url: https://usecaddie.app/mcp
+    transport: streamable-http
+    auth: api-key

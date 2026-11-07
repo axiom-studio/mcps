@@ -1,0 +1,13 @@
+name: HirePulse Company Data
+summary: Company tech stack, open jobs, hiring-intent score and Google Ads by domain for sales and research agents. 5 free calls a day, then pay per call with x402.
+category: marketing
+tags:
+  - data-analysis
+  - marketing
+  - sales
+  - web-research
+docs_url: https://gethirepulse.xyz/
+endpoints:
+  - url: https://api.gethirepulse.xyz/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: mkts Market Data
+summary: 'Read-only market data for stocks, ETFs, crypto, commodities and forex: quotes, fundamentals, SEC filings, screening and a point-in-time archive for backtests.'
+category: finance
+tags:
+  - crypto
+  - finance
+  - marketplace
+  - trading
+docs_url: https://mkts.io/developers
+endpoints:
+  - url: https://mkts.io/api/mcp
+    transport: streamable-http
+    auth: none

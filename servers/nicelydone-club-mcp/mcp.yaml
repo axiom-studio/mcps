@@ -1,0 +1,12 @@
+name: Nicelydone
+summary: Search real web app screens, UI elements, and user flows. Read favorites and organize screens in collections. Requires Premium access and OAuth.
+category: design
+tags:
+  - design
+  - productivity
+  - search
+docs_url: https://nicelydone.club/mcp
+endpoints:
+  - url: https://mcp.nicelydone.club/mcp
+    transport: streamable-http
+    auth: oauth

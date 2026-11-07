@@ -1,0 +1,12 @@
+name: Scraping Daddy
+summary: Access structured public data from YouTube, TikTok, Instagram, Reddit, X, Facebook, Google Maps and more through an OAuth-authenticated MCP server.
+category: web-scraping
+tags:
+  - api
+  - social-media
+  - web-scraping
+docs_url: https://docs.scrapingdaddy.com/
+endpoints:
+  - url: https://mcp.scrapingdaddy.com
+    transport: streamable-http
+    auth: oauth

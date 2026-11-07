@@ -1,0 +1,13 @@
+name: Chargezen
+summary: 'Chargezen is the unified revenue operations platform: 1,000+ tools for Concierge AI agents, Subscriptions, CheckoutOS and Spark! creator programs, on one set of business and customer data.'
+category: productivity
+tags:
+  - ai-agent
+  - business-operations
+  - payment
+  - workflow-automation
+docs_url: https://chargezen.com/developers/mcp
+endpoints:
+  - url: https://mcp.chargezen.com/mcp
+    transport: streamable-http
+    auth: oauth

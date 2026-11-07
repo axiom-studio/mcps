@@ -1,0 +1,11 @@
+name: MeetStream
+summary: Send AI bots into Zoom, Google Meet and Microsoft Teams to record, transcribe and summarize meetings. 19 tools covering bot lifecycle, transcripts and AI summaries, per-participant audio, speaker timelines, live chat, and calendar scheduling.
+category: communication
+tags:
+  - communication
+  - productivity
+docs_url: https://github.com/meetstream-ai/meetstream-mcp
+endpoints:
+  - url: https://mcp.meetstream.ai/mcp
+    transport: streamable-http
+    auth: api-key

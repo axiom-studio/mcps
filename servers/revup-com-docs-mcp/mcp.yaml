@@ -1,0 +1,13 @@
+name: Revup
+summary: Create, customize, preview and report on promotions in your Revup account.
+category: marketing
+tags:
+  - document
+  - documentation
+  - marketing
+  - marketing-automation
+docs_url: https://revup.com/docs/mcp/
+endpoints:
+  - url: https://revup.com/mcp
+    transport: streamable-http
+    auth: oauth

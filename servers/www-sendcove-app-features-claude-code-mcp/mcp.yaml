@@ -1,0 +1,14 @@
+name: Sendcove
+summary: Draft, schedule and review social posts for X, Instagram, TikTok, Threads, Bluesky, YouTube and LinkedIn from Claude or any MCP client.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - x-twitter
+  - youtube
+docs_url: https://www.sendcove.app/features/claude-code-mcp
+endpoints:
+  - url: https://www.sendcove.app/api/mcp
+    transport: streamable-http
+    auth: oauth

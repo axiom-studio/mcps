@@ -1,0 +1,13 @@
+name: AEO Inspector
+summary: 'AEO grader: deep site scan with ready-to-paste fixes, plus a 10-engine AI visibility report (x402).'
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+  - web-research
+docs_url: https://aeoinspector.com
+endpoints:
+  - url: https://aeoinspector.com/mcp
+    transport: streamable-http
+    auth: none

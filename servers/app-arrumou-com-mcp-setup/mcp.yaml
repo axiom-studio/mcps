@@ -1,0 +1,13 @@
+name: Arrumou Neural
+summary: Manage vacation rentals, reservations, availability, housekeeping and financial reports with OAuth and per-action approvals.
+category: productivity
+tags:
+  - finance
+  - inventory
+  - productivity
+  - real-estate
+docs_url: https://app.arrumou.com/mcp/setup
+endpoints:
+  - url: https://app.arrumou.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: Aya Studio
+summary: 'Make cartoons from a chat: consistent characters, cartoon pictures, animated clips, talking characters with lip sync, kids'' songs and voice-overs in Arabic, English and more. Remote server with OAuth sign-in to your Aya Studio account.'
+category: design
+tags:
+  - ai-model
+  - audio
+  - content-creation
+  - design
+  - video
+docs_url: https://ayastudio.si/mcp-help/
+endpoints:
+  - url: https://ayastudio.si/mcp
+    transport: streamable-http
+    auth: oauth

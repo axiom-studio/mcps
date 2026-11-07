@@ -1,0 +1,11 @@
+name: B.R.M Chronographes - Watch Configurator
+summary: Configure, price, render and order a made-to-order watch from B.R.M Chronographes, an independent French watch manufacture. Remote, Streamable HTTP, no authentication.
+category: marketing
+tags:
+  - marketing
+  - marketing-automation
+docs_url: https://brm-chronographes.com/en/ai-assistants.html
+endpoints:
+  - url: https://api.brm-chronographes.com/mcp
+    transport: streamable-http
+    auth: none

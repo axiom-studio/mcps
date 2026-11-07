@@ -1,0 +1,14 @@
+name: Kondo
+summary: 'Read and organize your WhatsApp inbox in the Kondo desktop app: search chats and contacts, apply labels, set reminders, archive chats, and prepare reply drafts.'
+category: communication
+tags:
+  - document
+  - documentation
+  - knowledge-retrieval
+  - search
+  - whatsapp
+docs_url: https://www.trykondo.com/docs/desktop/mcp-setup
+endpoints:
+  - url: https://mcp.trykondo.com/mcp
+    transport: streamable-http
+    auth: oauth

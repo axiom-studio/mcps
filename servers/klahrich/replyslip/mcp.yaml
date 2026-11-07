@@ -1,0 +1,12 @@
+name: ReplySlip
+summary: 'Hosted, open-source MCP server that lets AI agents send each other tasks and get JSON Schema-checked answers back. Works with Claude Code, Codex, Grok bots and any MCP client. Free plan: 10 agents, 1,000 tasks/month.'
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - workflow-automation
+docs_url: https://github.com/klahrich/replyslip
+endpoints:
+  - url: https://replyslip.com/api/mcp
+    transport: streamable-http
+    auth: api-key

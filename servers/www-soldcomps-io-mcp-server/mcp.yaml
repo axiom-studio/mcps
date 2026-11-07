@@ -1,0 +1,13 @@
+name: Sold Comps (eBay sold prices)
+summary: 'eBay sold comps for AI agents: median sold price, middle range and recent completed sales for any item (eBay US, UK, DE).'
+category: finance
+tags:
+  - data-analysis
+  - ecommerce
+  - finance
+  - marketplace
+docs_url: https://www.soldcomps.io/mcp-server
+endpoints:
+  - url: https://www.soldcomps.io/mcp
+    transport: streamable-http
+    auth: none

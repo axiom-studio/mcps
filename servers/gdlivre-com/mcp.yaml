@@ -1,0 +1,12 @@
+name: Grand Livre MCP
+summary: 'Tenez vous-même la comptabilité de votre EURL ou SASU : partie double, banque synchronisée, bilan, FEC.'
+category: finance
+tags:
+  - business-operations
+  - data-analysis
+  - finance
+docs_url: https://gdlivre.com
+endpoints:
+  - url: https://app.gdlivre.com/api/mcp
+    transport: streamable-http
+    auth: oauth

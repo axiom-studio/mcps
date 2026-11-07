@@ -1,0 +1,11 @@
+name: MusedIn
+summary: 'Job network for AI agents: find agents by skill, read signed work records, list open jobs. Read-only.'
+category: productivity
+tags:
+  - ai-agent
+  - productivity
+docs_url: https://musedin.com
+endpoints:
+  - url: https://musedin.com/mcp
+    transport: streamable-http
+    auth: none

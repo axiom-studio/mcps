@@ -1,0 +1,14 @@
+name: JustClaw-It
+summary: Licence-cleared, quality-scored code components for coding agents (1.4M+ from GitHub). Free search with an API key; every result carries its licence and attribution.
+category: development
+tags:
+  - development
+  - document
+  - documentation
+  - knowledge-retrieval
+  - search
+docs_url: https://justclaw.it.com/docs
+endpoints:
+  - url: https://justclaw.it.com/mcp
+    transport: streamable-http
+    auth: unknown

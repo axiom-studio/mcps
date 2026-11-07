@@ -1,0 +1,13 @@
+name: Gradient CIO
+summary: 'Institutional portfolio analytics in Claude: capital market assumptions, portfolio simulation, manager due diligence, DDQ review, and daily macro research.'
+category: finance
+tags:
+  - ai-agent
+  - data-analysis
+  - finance
+  - research
+docs_url: https://www.gradientcio.com
+endpoints:
+  - url: https://mcp.gradientcio.com/mcp
+    transport: streamable-http
+    auth: oauth

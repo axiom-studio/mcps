@@ -1,0 +1,13 @@
+name: CPF Mortgage Home Values
+summary: Production API update replacing prior Tailscale submission. U.S. home valuations, comparable sales, rents, forecasts and PDF reports. OAuth/API key auth.
+category: finance
+tags:
+  - api
+  - finance
+  - pdf
+  - real-estate
+docs_url: https://cpfloans.com
+endpoints:
+  - url: https://hvr.api.cpfloans.com/mcp
+    transport: streamable-http
+    auth: oauth

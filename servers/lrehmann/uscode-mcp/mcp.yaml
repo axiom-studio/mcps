@@ -1,0 +1,13 @@
+name: US Code on uscode.ecfr.io
+summary: Search and read U.S. Code statutes with full text, published OLRC release metadata, and linked legal or inline citations. No API key; hosted HTTP and Node stdio.
+category: search
+tags:
+  - document
+  - government
+  - knowledge-retrieval
+  - search
+docs_url: https://github.com/lrehmann/uscode-mcp
+endpoints:
+  - url: https://uscode.ecfr.io/mcp
+    transport: streamable-http
+    auth: none

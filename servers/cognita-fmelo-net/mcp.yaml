@@ -1,0 +1,13 @@
+name: Cognita
+summary: 'Remote MCP server for security reconnaissance: 51 read-only, keyless tools for DNS, TLS, email security, IP reputation, CVE/KEV and OSINT.'
+category: other
+tags:
+  - network-automation
+  - security
+  - threat-intelligence
+  - web-research
+docs_url: https://cognita.fmelo.net
+endpoints:
+  - url: https://cognita.fmelo.net/mcp
+    transport: streamable-http
+    auth: none

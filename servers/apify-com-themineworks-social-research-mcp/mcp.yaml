@@ -1,0 +1,14 @@
+name: Social Research MCP
+summary: 'Social listening for AI agents over one remote MCP endpoint: Reddit, X, Threads, LinkedIn posts, YouTube transcripts, Google News and Google Trends. 8 tools. Hosted on Apify, pay per result, and a search that comes back empty is not billed.'
+category: web-scraping
+tags:
+  - news
+  - research
+  - social-media
+  - web-scraping
+  - youtube
+docs_url: https://apify.com/themineworks/social-research-mcp
+endpoints:
+  - url: https://themineworks--social-research-mcp.apify.actor/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: Traceable
+summary: Traceable is a document-style workspace that keeps your design records connected and visible. It replaces spreadsheets, wikis and disconnected tools with one place to author, trace, control, review and publish the documentation your standards demand, with live traceability, gated e-signatures and audit-ready output. It manages your truth for hardware and software, especially regulated products such as medical device, SaMD, IVD and Defence.
+category: productivity
+tags:
+  - collaboration
+  - compliance
+  - document
+  - productivity
+docs_url: https://traceabledocs.com/docs
+endpoints:
+  - url: https://app.traceabledocs.com/api/mcp/mcp
+    transport: streamable-http
+    auth: oauth

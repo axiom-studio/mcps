@@ -1,0 +1,11 @@
+name: Lemonvite
+summary: Create, design and send digital invitations, manage guests, and track RSVPs directly from your AI assistant.
+category: communication
+tags:
+  - communication
+  - productivity
+docs_url: https://github.com/lemonberrylabs/lemonvite-plugin
+endpoints:
+  - url: https://www.lemonvite.com/api/mcp
+    transport: streamable-http
+    auth: oauth

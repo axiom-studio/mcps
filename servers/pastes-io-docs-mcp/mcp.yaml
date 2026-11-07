@@ -1,0 +1,13 @@
+name: Pastes.io
+summary: Create, read, search, and delete text and code pastes, and share links using your Pastes.io account.
+category: development
+tags:
+  - api
+  - document
+  - file-management
+  - productivity
+docs_url: https://pastes.io/docs/mcp
+endpoints:
+  - url: https://pastes.io/api/mcp
+    transport: streamable-http
+    auth: oauth

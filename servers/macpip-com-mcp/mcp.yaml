@@ -1,0 +1,12 @@
+name: MacPip
+summary: Read-only MCP server for the MacPip directory of Mac apps. No key.
+category: search
+tags:
+  - macos
+  - marketplace
+  - search
+docs_url: https://macpip.com/mcp
+endpoints:
+  - url: https://macpip.com/api/mcp
+    transport: streamable-http
+    auth: none

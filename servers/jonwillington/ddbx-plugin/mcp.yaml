@@ -1,0 +1,12 @@
+name: ddbx — insider dealings
+summary: 'Rated insider share dealings: UK directors (PDMRs), SEC Form 4 filers, Swedish and Dutch PDMRs, and US Congress trades. Ingested from the official disclosure feeds within minutes, screened, and the notable ones rated. Public, read-only, no API key.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+docs_url: https://github.com/jonwillington/ddbx-plugin
+endpoints:
+  - url: https://api.ddbx.uk/mcp
+    transport: streamable-http
+    auth: none

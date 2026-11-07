@@ -1,0 +1,13 @@
+name: LotsDirectory
+summary: 'Launch once, get found everywhere: a product page built for search and AI, run from your AI agent.'
+category: marketing
+tags:
+  - ai-agent
+  - content-creation
+  - marketing
+  - seo
+docs_url: https://www.lotstech.com/mcp/lots-directory
+endpoints:
+  - url: https://api.lots.directory/mcp
+    transport: streamable-http
+    auth: oauth

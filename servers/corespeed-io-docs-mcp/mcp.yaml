@@ -1,0 +1,14 @@
+name: CoreSpeed
+summary: 'One MCP for any agent: your connected apps, shared memory, web search, social data and media tools.'
+category: productivity
+tags:
+  - knowledge-retrieval
+  - memory
+  - productivity
+  - social-media
+  - web-research
+docs_url: https://corespeed.io/docs/mcp
+endpoints:
+  - url: https://api.corespeed.io/mcp
+    transport: streamable-http
+    auth: oauth

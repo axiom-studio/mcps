@@ -1,0 +1,13 @@
+name: Tera Ads
+summary: Meta Ads with approval before changes, undo for pauses and budgets, and Shopify profit after returns.
+category: marketing
+tags:
+  - advertising
+  - ecommerce
+  - marketing
+  - shopify
+docs_url: https://github.com/Teralabsx/meta-ads-mcp
+endpoints:
+  - url: https://teraads.co/mcp
+    transport: streamable-http
+    auth: unknown

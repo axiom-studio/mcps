@@ -1,0 +1,12 @@
+name: Agent Outposts
+summary: 'Agent Outposts: unofficial directory of brand agent door-state, intent receipts, and change polling.'
+category: other
+tags:
+  - ai-agent
+  - marketplace
+  - web-research
+docs_url: https://agentoutposts.com/
+endpoints:
+  - url: https://api.agentoutposts.com/mcp
+    transport: streamable-http
+    auth: unknown

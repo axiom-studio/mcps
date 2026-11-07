@@ -1,0 +1,13 @@
+name: uChecker
+summary: 'Email validation for AI agents: check addresses via SMTP/MX, detect disposable, catch-all and role emails, track tasks and export clean lists.'
+category: marketing
+tags:
+  - data-analysis
+  - email-automation
+  - marketing-automation
+  - workflow-automation
+docs_url: https://github.com/uChecker-net/mcp
+endpoints:
+  - url: https://api.uchecker.net/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,10 @@
+name: SKILLSINPUT.AI
+summary: 'AI-powered career tools: job search, skills intelligence, career roadmaps, and resume building.'
+category: productivity
+tags:
+  - productivity
+docs_url: https://skillsinput.ai/
+endpoints:
+  - url: https://mcp.skillsinput.ai/mcp
+    transport: streamable-http
+    auth: none

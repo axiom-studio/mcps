@@ -1,0 +1,12 @@
+name: DEF 14
+summary: Shareholder activism data and context, precise to the source.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+docs_url: https://www.def14.co/docs/mcp
+endpoints:
+  - url: https://mcp.def14.co
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Ocolta
+summary: Read your existing categorical document review signals, confidence and indicator counts.
+category: productivity
+tags:
+  - analytics
+  - data-analysis
+  - document
+docs_url: https://app.ocolta.com/workspace/integrations
+endpoints:
+  - url: https://app.ocolta.com/mcp
+    transport: streamable-http
+    auth: oauth

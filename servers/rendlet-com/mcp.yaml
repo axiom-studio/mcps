@@ -1,0 +1,12 @@
+name: Rendlet PDF
+summary: 'Remote MCP server that renders HTML or ready templates (invoice, itinerary) to PDF, with full Chinese/CJK font support. Free keyless tools: list_capabilities, get_pricing, preview_pdf. Paid rendering via Stripe credit packs or USDC on Base.'
+category: development
+tags:
+  - document
+  - file-conversion
+  - pdf
+docs_url: https://rendlet.com
+endpoints:
+  - url: https://rendlet.com/mcp
+    transport: streamable-http
+    auth: unknown

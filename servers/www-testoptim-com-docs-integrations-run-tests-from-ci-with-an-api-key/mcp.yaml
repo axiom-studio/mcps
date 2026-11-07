@@ -1,0 +1,13 @@
+name: TestOptim
+summary: 'AI QA for coding agents: start TestOptim test runs on the pages you changed, poll results and read the bugs found, from Claude Code, Cursor or Copilot. Remote endpoint https://api.testoptim.com/api/mcp, Bearer API key auth.'
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - development
+  - testing-qa
+docs_url: https://www.testoptim.com/docs/integrations/run-tests-from-ci-with-an-api-key
+endpoints:
+  - url: https://api.testoptim.com/api/mcp
+    transport: streamable-http
+    auth: api-key

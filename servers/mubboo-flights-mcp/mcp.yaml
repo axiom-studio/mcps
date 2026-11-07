@@ -1,0 +1,11 @@
+name: Mubboo Flights Search
+summary: Look up airport codes and prepare validated flight search links; no live fares, availability or bookings.
+category: search
+tags:
+  - search
+  - web-research
+docs_url: https://mubboo.flights/mcp
+endpoints:
+  - url: https://mubboo.flights/api/mcp
+    transport: streamable-http
+    auth: none

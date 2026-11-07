@@ -1,0 +1,10 @@
+name: NeverApply
+summary: Search jobs, explore explained matches, and manage applications with your AI assistant.
+category: productivity
+tags:
+  - productivity
+docs_url: https://neverapply.co/features/mcp
+endpoints:
+  - url: https://neverapply.co/mcp
+    transport: streamable-http
+    auth: oauth

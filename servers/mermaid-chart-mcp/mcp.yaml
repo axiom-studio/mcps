@@ -1,0 +1,24 @@
+name: Mermaid Chart
+summary: Mermaid Chart validates Mermaid syntax and renders diagrams as high-quality SVGs with interactive previews. Its connector gives assistants diagramming context for previewing, correcting, and iterating on Mermaid diagrams.
+description: |-
+  # Mermaid Chart
+
+  Mermaid Chart validates Mermaid syntax and renders diagrams as high-quality SVGs with interactive previews. Its connector gives assistants diagramming context for previewing, correcting, and iterating on Mermaid diagrams.
+
+  ## Connection
+
+  https://chatgpt.mermaid.ai/anthropic/mcp
+
+  MCP Apps endpoint: public rendering plus account-bound tools with sign-in. Authentication is deliberately unknown rather than falsely describing all tools as anonymous. The other legacy Mermaid endpoint is a different server and is not merged.
+
+  [Publisher or official connector listing](https://claude.com/connectors/mermaid-chart)
+category: other
+tags:
+  - other
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/mermaid-chart
+endpoints:
+  - url: https://chatgpt.mermaid.ai/anthropic/mcp
+    transport: streamable-http
+    auth: unknown

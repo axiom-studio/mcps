@@ -1,0 +1,13 @@
+name: AIGROW AI Visibility
+summary: Checks whether ChatGPT, Claude, Gemini and Grok recommend a business, and looks it up in the AI Visibility Index.
+category: marketing
+tags:
+  - ai-model
+  - marketing
+  - research
+  - seo
+docs_url: https://aigrow.gg/mcp
+endpoints:
+  - url: https://aigrow.gg/mcp
+    transport: streamable-http
+    auth: none

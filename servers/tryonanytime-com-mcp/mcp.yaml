@@ -1,0 +1,11 @@
+name: TryOnAnytime
+summary: Remote MCP for AI virtual try-on / virtual fitting room. Auth Authorization Bearer sk_. Credits, no subscription.
+category: other
+tags:
+  - ai-model
+  - ecommerce
+docs_url: https://tryonanytime.com/mcp
+endpoints:
+  - url: https://tryonanytime.com/api/mcp
+    transport: streamable-http
+    auth: api-key

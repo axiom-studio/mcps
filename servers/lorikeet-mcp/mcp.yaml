@@ -1,0 +1,18 @@
+name: Lorikeet
+summary: Lorikeet supports complex customer-service workflows with a concierge-style AI layer. Its connector gives assistants business-process and customer-context signals for resolving sophisticated support or service requests.
+description: |-
+  Lorikeet supports complex customer-service workflows with a concierge-style AI layer. Its connector gives assistants business-process and customer-context signals for resolving sophisticated support or service requests.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://docs.lorikeetcx.ai/mcp/mcp-server)
+category: communication
+tags:
+  - communication
+  - remote-mcp
+official: true
+docs_url: https://docs.lorikeetcx.ai/mcp/mcp-server
+endpoints:
+  - url: https://mcp.lorikeetcx.ai/
+    transport: streamable-http
+    auth: oauth

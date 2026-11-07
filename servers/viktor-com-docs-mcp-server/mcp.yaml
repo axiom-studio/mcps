@@ -1,0 +1,12 @@
+name: Viktor
+summary: Delegate tasks to Viktor, an AI employee with 3,200+ integrations, and fetch the results.
+category: productivity
+tags:
+  - ai-agent
+  - productivity
+  - workflow-automation
+docs_url: https://viktor.com/docs/mcp-server
+endpoints:
+  - url: https://api.viktor.com/mcp
+    transport: streamable-http
+    auth: unknown

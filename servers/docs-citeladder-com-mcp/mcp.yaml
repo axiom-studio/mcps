@@ -1,0 +1,14 @@
+name: CiteLadder
+summary: Read-only MCP server for AI search visibility. Query how ChatGPT, Gemini, Claude and Google AI Overviews answer buyer questions, which brands they name and which pages they cite, plus site health, demand signals and ranked opportunities.
+category: marketing
+tags:
+  - ai-model
+  - analytics
+  - marketing
+  - research
+  - seo
+docs_url: https://docs.citeladder.com/mcp/
+endpoints:
+  - url: https://api.citeladder.com/mcp
+    transport: streamable-http
+    auth: unknown

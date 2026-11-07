@@ -1,0 +1,13 @@
+name: FFxF
+summary: Create and manage VMs, managed databases, firewalls and load balancers in Montréal, Canada.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - database
+  - deployment
+  - devops-infrastructure
+docs_url: https://ffxf.net/agents
+endpoints:
+  - url: https://ffxf.net/mcp
+    transport: streamable-http
+    auth: api-key

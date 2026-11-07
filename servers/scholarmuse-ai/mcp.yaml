@@ -1,0 +1,14 @@
+name: ScholarMuse
+summary: Academic research MCP for papers, reference verification, datasets and grants. OAuth sign-in, 50+ research sources, free credit allowance and paid scientific figures.
+category: search
+tags:
+  - identity
+  - knowledge-retrieval
+  - search
+  - security
+  - web-research
+docs_url: https://scholarmuse.ai
+endpoints:
+  - url: https://scholarmuse.ai/mcp
+    transport: streamable-http
+    auth: oauth

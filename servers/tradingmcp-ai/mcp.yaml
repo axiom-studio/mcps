@@ -1,0 +1,13 @@
+name: TradingMCP
+summary: 'TradingMCP gives Claude, ChatGPT, Cursor and any MCP client a market analyst''s toolkit: screeners, multi-timeframe analysis, backtests and charts drawn in the chat, for crypto, stocks, forex and futures. 45 tools.'
+category: finance
+tags:
+  - ai-agent
+  - data-analysis
+  - finance
+  - trading
+docs_url: https://tradingmcp.ai/
+endpoints:
+  - url: https://mcp.cryptosieve.com/mcp
+    transport: streamable-http
+    auth: api-key

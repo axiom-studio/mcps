@@ -1,0 +1,12 @@
+name: PlayDrop
+summary: Publish, test and share browser games on PlayDrop from your AI agent.
+category: development
+tags:
+  - browser
+  - game-development
+  - testing-qa
+docs_url: https://www.playdrop.ai/docs/connectors
+endpoints:
+  - url: https://mcp.playdrop.ai/mcp
+    transport: streamable-http
+    auth: oauth

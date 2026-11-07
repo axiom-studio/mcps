@@ -1,0 +1,11 @@
+name: GC Airport Transfers
+summary: 'Gold Coast & Brisbane airport transfers: quotes, availability, booking requests. OAuth required.'
+category: other
+tags:
+  - ai-agent
+  - payment
+docs_url: https://gc-airporttransfers.com.au/ai-agent-gateway/
+endpoints:
+  - url: https://gc-airporttransfers.com/wp-json/atb-gateway/v1/mcp
+    transport: streamable-http
+    auth: unknown

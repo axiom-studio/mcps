@@ -1,0 +1,13 @@
+name: Plagiarism Checker Plus
+summary: Plagiarism checker and AI detector for essays, research papers and articles. Find copied text with source links and see how likely each sentence is to be AI-written. A score is a likelihood, not proof.
+category: productivity
+tags:
+  - ai-model
+  - content-creation
+  - education
+  - research
+docs_url: https://plagiarismcheckerplus.com/integrations/mcp
+endpoints:
+  - url: https://app.plagiarismcheckerplus.com/api/mcp
+    transport: streamable-http
+    auth: oauth

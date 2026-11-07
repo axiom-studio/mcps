@@ -1,0 +1,13 @@
+name: YTAPI
+summary: YouTube transcripts, video details, search, channel uploads and playlists for AI agents. Remote MCP server with OAuth sign-in or API key.
+category: web-scraping
+tags:
+  - media
+  - video
+  - web-scraping
+  - youtube
+docs_url: https://docs.ytapi.dev/agent-setup/
+endpoints:
+  - url: https://api.ytapi.dev/mcp
+    transport: streamable-http
+    auth: oauth

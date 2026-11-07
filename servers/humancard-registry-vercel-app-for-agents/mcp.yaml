@@ -1,0 +1,13 @@
+name: Human Capability Registry
+summary: Your AI can now call a human. Search, hire and pay a verified person per job from any AI assistant - licensed review, certified translation, local presence, expert summon - at the price the human set.
+category: productivity
+tags:
+  - ai-agent
+  - marketplace
+  - payment
+  - productivity
+docs_url: https://humancard-registry.vercel.app/for-agents
+endpoints:
+  - url: https://humancard-registry.vercel.app/api/mcp
+    transport: streamable-http
+    auth: none

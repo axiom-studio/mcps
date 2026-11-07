@@ -1,0 +1,13 @@
+name: Robo Punter
+summary: 'Connect Claude, ChatGPT or Grok to Robo Punter: research horse and greyhound form, backtest ideas across thousands of past races and draft bots for your Betfair account.'
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - research
+  - trading
+docs_url: https://robopunter.io/mcp/docs
+endpoints:
+  - url: https://robopunter.io/mcp
+    transport: streamable-http
+    auth: oauth

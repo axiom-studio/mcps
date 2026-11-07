@@ -1,0 +1,12 @@
+name: UI Verify
+summary: Lets coding agents check what their change did to the UI while they work, review a PR's screenshot diffs, and accept or deny baselines.
+category: development
+tags:
+  - browser-automation
+  - development
+  - testing-qa
+docs_url: https://uiverify.ai/docs/triage-with-your-agent
+endpoints:
+  - url: https://uiverify.ai/api/mcp
+    transport: streamable-http
+    auth: unknown

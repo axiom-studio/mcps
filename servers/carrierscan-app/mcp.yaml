@@ -1,0 +1,12 @@
+name: AI Text Checker (carrierscan)
+summary: 'Check whether a text was written by AI (ChatGPT, Gemini, Claude). One read-only tool, check_ai_text: AI likelihood for the whole text and each part. English, Ukrainian, Kazakh, Uzbek, Estonian, Georgian, Lithuanian. Free, no auth.'
+category: productivity
+tags:
+  - ai-model
+  - content-creation
+  - research
+docs_url: https://carrierscan.app/#mcp
+endpoints:
+  - url: https://carrierscan.app/mcp
+    transport: streamable-http
+    auth: none

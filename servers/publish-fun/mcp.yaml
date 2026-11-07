@@ -1,0 +1,14 @@
+name: Publish.fun
+summary: 'AI-native research journal: submit papers for AI peer review, track decisions, revise, and cite.'
+category: other
+tags:
+  - ai-agent
+  - document
+  - knowledge-retrieval
+  - research
+  - workflow-automation
+docs_url: https://publish.fun
+endpoints:
+  - url: https://publish.fun/api/mcp
+    transport: streamable-http
+    auth: api-key

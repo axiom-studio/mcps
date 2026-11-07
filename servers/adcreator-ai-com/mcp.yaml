@@ -1,0 +1,13 @@
+name: AdCreator AI Ad Headlines
+summary: Generates 10 ad headlines for an e-commerce or Shopify product from its name and description, with optional audience and ad platform. Free, no API key. Two extra tools show plan and usage for connected AdCreator merchants.
+category: marketing
+tags:
+  - marketing
+  - marketing-automation
+  - news
+  - web-research
+docs_url: https://adcreator-ai.com
+endpoints:
+  - url: https://adcreator-ai.com/mcp-ads
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: Cassie Hour
+summary: Explore a human-written mystery and original song through spoiler-safe questions and public identity, lineage and cultural-inheritance records. Public reading and questions are anonymous; protected contributions require authorization.
+category: other
+tags:
+  - entertainment
+  - identity
+  - research
+docs_url: https://cassiehour.com/agents/
+endpoints:
+  - url: https://cassiehour.com/mcp
+    transport: streamable-http
+    auth: oauth

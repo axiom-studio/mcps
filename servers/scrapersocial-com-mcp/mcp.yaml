@@ -1,0 +1,13 @@
+name: ScraperSocial - Social Media Data
+summary: 'Hosted MCP server for public social media data: profiles, posts, comments, search and transcripts from TikTok, Instagram, LinkedIn, YouTube, X, Reddit and 30+ platforms. OAuth, 100 free credits.'
+category: web-scraping
+tags:
+  - data-analysis
+  - research
+  - social-media
+  - web-scraping
+docs_url: https://scrapersocial.com/mcp/
+endpoints:
+  - url: https://mcp.scrapersocial.com
+    transport: streamable-http
+    auth: oauth

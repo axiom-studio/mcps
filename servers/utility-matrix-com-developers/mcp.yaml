@@ -1,0 +1,10 @@
+name: Utility Matrix
+summary: Free read-only engineering calculators for DevOps, SRE, Kubernetes, cloud cost and infrastructure decisions
+category: development
+tags:
+  - development
+docs_url: https://utility-matrix.com/developers/
+endpoints:
+  - url: https://utility-matrix.com/mcp
+    transport: streamable-http
+    auth: unknown

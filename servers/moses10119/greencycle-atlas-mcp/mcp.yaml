@@ -1,0 +1,12 @@
+name: GreenCycle Compound Atlas
+summary: Read-only cannabis compound, receptor, body and evidence data for AI agents. Every value sourced. No key.
+category: other
+tags:
+  - healthcare
+  - knowledge-retrieval
+  - research
+docs_url: https://github.com/Moses10119/greencycle-atlas-mcp
+endpoints:
+  - url: https://greencyclepedia.com/mcp
+    transport: streamable-http
+    auth: none

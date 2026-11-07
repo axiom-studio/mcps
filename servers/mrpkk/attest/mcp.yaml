@@ -1,0 +1,13 @@
+name: attest — agent artifact verifier
+summary: 'Verify agent artifacts before you trust them: schema, emptiness, prompt-injection and provenance checks in four layers, deny-by-default. HTTP + MCP endpoint, free tier 20 checks/day, paid per-call via x402 on Base.'
+category: development
+tags:
+  - ai-agent
+  - devops
+  - security
+  - testing-qa
+docs_url: https://github.com/mrpkk/attest
+endpoints:
+  - url: https://attest.rta.lat/mcp
+    transport: streamable-http
+    auth: unknown

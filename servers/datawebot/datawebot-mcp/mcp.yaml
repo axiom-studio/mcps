@@ -1,0 +1,13 @@
+name: datawebot
+summary: Ecommerce product data for agents. Search products across online shops worldwide and list every seller's price with direct shop links. Run extraction jobs on Amazon search and product pages (10 countries) and 1,100+ Shopify stores. Hosted at https://mcp.datawebot.com/mcp, free to try with email sign-in (OAuth) or an API key.
+category: web-scraping
+tags:
+  - ecommerce
+  - marketplace
+  - productivity
+  - web-scraping
+docs_url: https://github.com/datawebot/datawebot-mcp
+endpoints:
+  - url: https://mcp.datawebot.com/mcp
+    transport: streamable-http
+    auth: oauth

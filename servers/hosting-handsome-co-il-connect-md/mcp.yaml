@@ -1,0 +1,12 @@
+name: Handsome Hosting
+summary: 'Deploy sites and apps from your AI coding agent: domains, DNS, logs, env, versions and rollback.'
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - deployment
+  - devops
+docs_url: https://hosting.handsome.co.il/connect.md
+endpoints:
+  - url: https://hosting.handsome.co.il/mcp
+    transport: streamable-http
+    auth: oauth

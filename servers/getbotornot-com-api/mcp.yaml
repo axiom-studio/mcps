@@ -1,0 +1,13 @@
+name: BotOrNot
+summary: Check crypto and AI trading bots, websites and Telegram handles against sourced fact sheets and SEC, CFTC and state regulator records. Read-only, no auth.
+category: finance
+tags:
+  - compliance
+  - crypto
+  - finance
+  - trading
+docs_url: https://getbotornot.com/api/
+endpoints:
+  - url: https://getbotornot.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: SlimDoc
+summary: 'Manage your SlimDoc file-compression account from an AI agent: plan and usage, compression history, custom presets and public pricing.'
+category: productivity
+tags:
+  - document
+  - file-management
+  - productivity
+docs_url: https://slimdoc.co
+endpoints:
+  - url: https://tztmchenzyqtdcujkktj.supabase.co/functions/v1/mcp
+    transport: streamable-http
+    auth: oauth

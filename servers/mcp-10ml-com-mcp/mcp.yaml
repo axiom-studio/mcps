@@ -1,0 +1,15 @@
+name: 10ML Perfume Finder
+summary: 'Free public MCP server with the 10ML Fragrance Index: look up famous perfumes, notes pyramids, accords and fragrance families, find similar scents and alternatives to iconic perfumes, explore notes and houses, and get expert perfume guidance with links to 10ML''s fragrance guides.'
+category: search
+tags:
+  - ecommerce
+  - knowledge-retrieval
+  - research
+  - search
+official: true
+registry_name: com.10ml/perfume-finder
+docs_url: https://mcp.10ml.com
+endpoints:
+  - url: https://mcp.10ml.com/mcp
+    transport: streamable-http
+    auth: none

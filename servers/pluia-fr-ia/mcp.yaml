@@ -1,0 +1,13 @@
+name: PLU IA
+summary: Remote MCP server that reads the PLU (French zoning plan) rules of any French parcel, each value cited with the official regulation page.
+category: other
+tags:
+  - geospatial
+  - government
+  - knowledge-retrieval
+  - real-estate
+docs_url: https://pluia.fr/ia
+endpoints:
+  - url: https://pluia.fr/mcp
+    transport: streamable-http
+    auth: oauth

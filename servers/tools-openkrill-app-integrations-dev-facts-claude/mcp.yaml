@@ -1,0 +1,13 @@
+name: Dev Facts Check
+summary: Software end-of-life dates, open-source licenses, browser support for web features and RFC facts. Free, hosted, no API key.
+category: development
+tags:
+  - development
+  - documentation
+  - knowledge-retrieval
+  - research
+docs_url: https://tools.openkrill.app/integrations/dev-facts/claude
+endpoints:
+  - url: https://devfacts.openkrill.app/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: Shurava
+summary: Run your Shurava focus groups from Claude — questions, polls, members, campaigns.
+category: productivity
+tags:
+  - productivity
+  - research
+  - workflow-automation
+docs_url: https://shurava.com/connect/claude
+endpoints:
+  - url: https://shurava-mcp-158654339135.us-central1.run.app/mcp
+    transport: streamable-http
+    auth: unknown

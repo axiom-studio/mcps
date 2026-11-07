@@ -1,0 +1,12 @@
+name: Carrier Ledger
+summary: Looks up U.S. motor carriers and freight brokers in public FMCSA records by USDOT or MC number, citing the FMCSA dataset for each fact. Checks up to 25 carriers at once and lists suspension and revocation notices FMCSA served in the last 14 days. Free, read-only remote MCP server, no sign-up. Not affiliated with FMCSA; not a carrier rating.
+category: other
+tags:
+  - business-operations
+  - data-analysis
+  - research
+docs_url: https://carrier-ledger.neoaethel.workers.dev/
+endpoints:
+  - url: https://carrier-ledger.neoaethel.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

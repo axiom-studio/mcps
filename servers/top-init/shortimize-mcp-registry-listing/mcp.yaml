@@ -1,0 +1,16 @@
+name: Shortimize
+summary: 'Track and analyze short-form video from your AI assistant: TikTok, Instagram Reels and YouTube Shorts accounts and videos, views, growth, history and collections. 32 tools.'
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - marketing
+  - social-media
+  - video
+official: true
+registry_name: com.shortimize/mcp
+docs_url: https://github.com/top-init/shortimize-mcp-registry-listing
+endpoints:
+  - url: https://api.shortimize.com/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,11 @@
+name: Charter Boats
+summary: Search 14,000+ charter boats with live prices, plus marinas, anchorages, routes and itineraries. Eleven read-only tools, no authentication.
+category: other
+tags:
+  - data-analysis
+  - search
+docs_url: https://docs.charter.boats/api/ai/mcp-server
+endpoints:
+  - url: https://charter.boats/mcp
+    transport: streamable-http
+    auth: none

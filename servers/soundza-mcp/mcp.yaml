@@ -1,0 +1,15 @@
+name: Soundza
+summary: Free sound effects, music and ambience for games, videos and apps. Search by mood, tempo, key or use, play previews and download full-quality files, each with 35 metadata fields.
+category: design
+tags:
+  - audio
+  - content-creation
+  - media
+  - search
+official: true
+registry_name: com.soundza/soundza
+docs_url: https://soundza.com/developers
+endpoints:
+  - url: https://mcp.soundza.com/mcp/oauth
+    transport: streamable-http
+    auth: oauth

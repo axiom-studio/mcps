@@ -1,0 +1,13 @@
+name: Storskarvia
+summary: 'Storskarvia writing studio: search your novel and screenplay projects, run cited fact-checks and continuity checks on your own drafts. Never writes prose.'
+category: productivity
+tags:
+  - document
+  - knowledge-retrieval
+  - productivity
+  - research
+docs_url: https://storskarvia.com
+endpoints:
+  - url: https://storskarvia.com/mcp/
+    transport: streamable-http
+    auth: api-key

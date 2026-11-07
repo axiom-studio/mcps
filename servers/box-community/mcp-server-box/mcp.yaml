@@ -1,0 +1,12 @@
+name: Box
+summary: Interact with the Intelligent Content Management platform through Box AI.
+category: cloud-storage
+tags:
+  - cloud-storage
+  - storage
+official: true
+docs_url: https://github.com/box-community/mcp-server-box
+endpoints:
+  - url: https://mcp.box.com
+    transport: streamable-http
+    auth: oauth

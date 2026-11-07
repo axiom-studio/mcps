@@ -1,0 +1,13 @@
+name: uplika
+summary: Hosted MCP server that lets your AI agent post to Threads, Instagram, YouTube, Facebook, Bluesky and Telegram, schedule posts, answer replies and read insights. OAuth sign-in, no API key to paste.
+category: marketing
+tags:
+  - communication
+  - content-creation
+  - marketing-automation
+  - social-media
+docs_url: https://uplika.com/en/docs
+endpoints:
+  - url: https://api.uplika.com/mcp
+    transport: streamable-http
+    auth: oauth

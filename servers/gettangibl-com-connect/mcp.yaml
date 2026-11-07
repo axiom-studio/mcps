@@ -1,0 +1,14 @@
+name: Tangibl
+summary: 'Turn photos and AI art into real products: stickers, framed prints, canvas, hoodies, mugs, blankets and playing cards. See a preview drawn from the exact print file, then pay on Stripe outside the chat. Remote server, OAuth 2.1. Ships in the US.'
+category: design
+tags:
+  - content-creation
+  - design
+  - ecommerce
+  - payment
+  - stripe
+docs_url: https://gettangibl.com/connect
+endpoints:
+  - url: https://gettangibl.com/api/mcp
+    transport: streamable-http
+    auth: oauth

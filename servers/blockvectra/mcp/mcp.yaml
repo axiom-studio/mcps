@@ -1,0 +1,12 @@
+name: BlockVectra Docs MCP
+summary: 'Remote MCP server for BlockVectra docs: supported chains and their methods, live status, per-method CU pricing, error lookup and API key signup steps for multi-chain JSON-RPC and the Data API. No API key needed.'
+category: development
+tags:
+  - api
+  - documentation
+  - finance
+docs_url: https://github.com/blockvectra/mcp
+endpoints:
+  - url: https://docs.blockvectra.com/mcp
+    transport: streamable-http
+    auth: none

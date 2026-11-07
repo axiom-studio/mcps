@@ -1,0 +1,13 @@
+name: WebRead
+summary: Read any public web page as clean Markdown for LLMs. We built it. Respects robots.txt. Free MCP tool; paid calls use x402 USDC on Base.
+category: web-scraping
+tags:
+  - browser
+  - crypto
+  - llm
+  - web-scraping
+docs_url: https://youraitools.co/guides/pay-per-call-web-scraper-api
+endpoints:
+  - url: https://webread.agentgate.workers.dev/mcp
+    transport: streamable-http
+    auth: none

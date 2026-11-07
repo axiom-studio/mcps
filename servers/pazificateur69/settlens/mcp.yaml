@@ -1,0 +1,12 @@
+name: Settlens
+summary: Evaluate x402 V2 payment requirements against explicit policies. Six public offline MCP tools; no wallet, signing or payments.
+category: development
+tags:
+  - business-operations
+  - compliance
+  - payment
+docs_url: https://github.com/Pazificateur69/settlens
+endpoints:
+  - url: https://settlens.com/mcp
+    transport: streamable-http
+    auth: none

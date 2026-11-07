@@ -1,0 +1,12 @@
+name: NetTree Public
+summary: 'Read-only MCP: search public link destinations (directories), get records, and suggest fit for your site. Bearer API key from nettree.ai account settings.'
+category: productivity
+tags:
+  - knowledge-retrieval
+  - productivity
+  - search
+docs_url: https://nettree.ai/mcp
+endpoints:
+  - url: https://nettree.ai/api/mcp
+    transport: streamable-http
+    auth: api-key

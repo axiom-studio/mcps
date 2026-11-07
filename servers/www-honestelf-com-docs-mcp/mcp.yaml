@@ -1,0 +1,11 @@
+name: Honest Elf
+summary: Court e-filing for AI agents. Search Texas courts and cases, draft filings, get real fee quotes, and submit with explicit user approval through a certified Tyler EFM integration.
+category: productivity
+tags:
+  - document
+  - workflow-automation
+docs_url: https://www.honestelf.com/docs/mcp
+endpoints:
+  - url: https://mcp.honestelf.com/mcp
+    transport: streamable-http
+    auth: oauth

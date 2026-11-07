@@ -1,0 +1,14 @@
+name: WordPress MCP Server
+summary: Secure MCP server for WordPress that connects ChatGPT, Claude, Cursor and other AI agents with policy-based access control, approvals, and audit logs.
+category: other
+tags:
+  - ai-agent
+  - compliance
+  - security
+  - wordpress
+  - workflow-automation
+docs_url: https://plugins.miniorange.com/mcp-server-ai-policy-enforcement-wordpress
+endpoints:
+  - url: https://gateway.miniorange.ai/v2/mcp
+    transport: streamable-http
+    auth: oauth

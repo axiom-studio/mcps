@@ -1,0 +1,13 @@
+name: NSW Planning Data
+summary: 'NSW (Australia) development applications, CDCs and property planning reports: zoning, height, FSR, nearby building activity. Remote MCP, pay per call via x402.'
+category: database
+tags:
+  - database
+  - geospatial
+  - government
+  - real-estate
+docs_url: https://agent-data-platform.langtools.workers.dev
+endpoints:
+  - url: https://agent-data-platform.langtools.workers.dev/mcp
+    transport: streamable-http
+    auth: none

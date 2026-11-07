@@ -1,0 +1,13 @@
+name: YouTubeTranscriptAPI
+summary: A hosted MCP server that lets Claude, ChatGPT, Cursor and other AI apps read YouTube transcripts, search YouTube and list a channel's or playlist's videos. Sign in, or use an API key.
+category: search
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - search
+  - video
+docs_url: https://youtubetranscriptapi.com/youtube-mcp-server
+endpoints:
+  - url: https://youtubetranscriptapi.com/mcp
+    transport: streamable-http
+    auth: oauth

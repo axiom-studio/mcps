@@ -1,0 +1,12 @@
+name: Ask a Human
+summary: Lets AI agents ask a real human for perspective on social norms, unclear instructions, and second opinions.
+category: communication
+tags:
+  - ai-agent
+  - collaboration
+  - communication
+docs_url: https://ask.notedandno.com/skill.md
+endpoints:
+  - url: https://ask.notedandno.com/mcp
+    transport: streamable-http
+    auth: none

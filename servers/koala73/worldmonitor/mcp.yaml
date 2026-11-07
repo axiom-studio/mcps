@@ -1,0 +1,14 @@
+name: World Monitor
+summary: 'Real-time global intelligence on conflict, markets, energy, trade, shipping and cyber: about 100 read-only tools for source-attributed news briefs, country risk, conflict events, chokepoints, hazards and markets.'
+category: search
+tags:
+  - finance
+  - geospatial
+  - news
+  - research
+  - threat-intelligence
+docs_url: https://github.com/koala73/worldmonitor
+endpoints:
+  - url: https://worldmonitor.app/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Open Entity
+summary: Adopt, resolve and verify signed agent identities and record entries in a public transparency log. No authentication.
+category: other
+tags:
+  - ai-agent
+  - compliance
+  - identity
+  - security
+docs_url: https://openentity.org
+endpoints:
+  - url: https://mcp.openentity.org/mcp
+    transport: streamable-http
+    auth: unknown

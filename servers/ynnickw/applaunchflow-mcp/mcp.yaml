@@ -1,0 +1,13 @@
+name: AppLaunchFlow
+summary: Create and edit App Store screenshots, social graphics, promo videos, and animated device mockups through an authenticated AppLaunchFlow account.
+category: design
+tags:
+  - content-creation
+  - design
+  - media
+  - video
+docs_url: https://github.com/ynnickw/applaunchflow-mcp
+endpoints:
+  - url: https://mcp.applaunchflow.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,15 @@
+name: Newsmind
+summary: 'Read, search and track your RSS feeds: semantic search, story clustering, watches, OPML import.'
+category: productivity
+tags:
+  - knowledge-retrieval
+  - news
+  - productivity
+  - research
+official: true
+registry_name: app.newsmind/mcp
+docs_url: https://newsmind.app
+endpoints:
+  - url: https://newsmind.app/mcp
+    transport: streamable-http
+    auth: oauth

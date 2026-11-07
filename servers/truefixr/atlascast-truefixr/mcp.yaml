@@ -1,0 +1,12 @@
+name: AtlasUnited Storm and Hazard Data
+summary: Address-level storm history and a 10-day forecast for 10 perils, plus live weather and property storm reports. Pay per request with x402 (USDC on Base) or a prepaid API key.
+category: other
+tags:
+  - api
+  - data-analysis
+  - weather
+docs_url: https://github.com/truefixr/atlascast-truefixr
+endpoints:
+  - url: https://mcp.atlasunited.io/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,12 @@
+name: JobsPipe
+summary: Search live job postings from 30+ job boards, public employment services and company career sites in one schema, look up companies' tech stacks, and get alerts on new matches. Remote server, OAuth or API key.
+category: search
+tags:
+  - data-analysis
+  - search
+  - web-research
+docs_url: https://github.com/jobspipe/mcp
+endpoints:
+  - url: https://mcp.jobspipe.dev/mcp
+    transport: streamable-http
+    auth: oauth

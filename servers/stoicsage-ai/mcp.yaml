@@ -1,0 +1,13 @@
+name: Stoic Sage
+summary: Semantic search across Marcus Aurelius' Meditations, Seneca and Epictetus. Find, cite and reflect on Stoic passages from any MCP client.
+category: search
+tags:
+  - education
+  - knowledge-retrieval
+  - research
+  - search
+docs_url: https://stoicsage.ai/
+endpoints:
+  - url: https://stoicsage.ai/mcp
+    transport: streamable-http
+    auth: none

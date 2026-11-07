@@ -1,0 +1,14 @@
+name: Visualping
+summary: 'Official Visualping MCP. Monitor any web page for changes from your AI assistant. Remote MCP server (streamable HTTP): https://visualping.io/mcp'
+category: other
+tags:
+  - monitoring
+  - notifications
+  - productivity
+  - web-scraping
+docs_url: https://help.visualping.io/en/articles/11982593
+website_url: https://visualping.io
+endpoints:
+  - url: https://visualping.io/mcp
+    transport: streamable-http
+    auth: oauth

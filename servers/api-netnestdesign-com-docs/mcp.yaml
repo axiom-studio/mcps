@@ -1,0 +1,13 @@
+name: NetNest Design Fundamentals
+summary: Fundamentals and SEC filing events for companies that file with the SEC, each value linked to its source filing.
+category: finance
+tags:
+  - compliance
+  - document
+  - finance
+  - knowledge-retrieval
+docs_url: https://api.netnestdesign.com/docs
+endpoints:
+  - url: https://api.netnestdesign.com/mcp
+    transport: streamable-http
+    auth: oauth

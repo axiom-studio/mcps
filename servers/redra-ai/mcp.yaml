@@ -1,0 +1,12 @@
+name: Redra
+summary: Ask your AI whether you're owed money from a class action. Redra is a free, read-only remote MCP server that searches current class-action settlements. Your agent uses what it already knows about you, such as brands, services and past purchases, to run narrow searches, then filters by claim status, state, settlement type, proof requirement and deadline. Results link to the official claim sites. No account or API key is needed, and Redra receives only the search terms your agent sends, never your conversation, memory or files.
+category: search
+tags:
+  - finance
+  - search
+  - web-research
+docs_url: https://redra.ai/
+endpoints:
+  - url: https://mcp.redra.ai/mcp
+    transport: streamable-http
+    auth: none

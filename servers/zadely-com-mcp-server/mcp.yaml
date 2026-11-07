@@ -1,0 +1,13 @@
+name: Zadely AI Browser Games
+summary: Remote MCP server (Streamable HTTP, no account) to search a curated catalog of 97 free AI-made browser games by genre, AI tool, engine and multiplayer. Read-only; endpoint https://zadely.com/mcp/ (registry name com.zadely/games).
+category: search
+tags:
+  - browser
+  - entertainment
+  - gaming
+  - search
+docs_url: https://zadely.com/mcp-server/
+endpoints:
+  - url: https://zadely.com/mcp/
+    transport: streamable-http
+    auth: unknown

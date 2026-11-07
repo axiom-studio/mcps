@@ -1,0 +1,10 @@
+name: pcb.express
+summary: Instant PCB manufacturing quotes in USD with a door-to-door delivery date per tier, Gerber analysis with DFM findings, and cost-reduction suggestions. Remote and keyless.
+category: other
+tags:
+  - workflow-automation
+docs_url: https://pcb.express/en/agents
+endpoints:
+  - url: https://pcb.express/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: Recall Check
+summary: Check US vehicle, product, food and drug recalls from NHTSA, CPSC and openFDA records. Remote MCP, no key.
+category: other
+tags:
+  - data-analysis
+  - government
+  - research
+docs_url: https://tools.openkrill.app/integrations/recalls/claude
+endpoints:
+  - url: https://recalls.openkrill.app/mcp
+    transport: streamable-http
+    auth: none

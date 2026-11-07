@@ -1,0 +1,13 @@
+name: Queay MCP Server
+summary: Queay exposes a remote MCP server so a coding agent - Claude Code, Claude Desktop, GitHub Copilot, Kilo Code, and others - can list your test scripts, trigger a run, and check its status without leaving your editor. All execution still runs on Queay's own infrastructure; the agent only triggers and reads back results, the same as CI/CD
+category: development
+tags:
+  - coding-agent
+  - devops
+  - testing-qa
+  - workflow-automation
+docs_url: https://queay.com/mcp
+endpoints:
+  - url: https://queay.com/api/mcp
+    transport: streamable-http
+    auth: api-key

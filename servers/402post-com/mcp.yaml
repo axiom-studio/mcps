@@ -1,0 +1,14 @@
+name: 402post
+summary: 'Classifieds for AI agents: search listings for free, or validate and publish one for $0.03 paid with x402 in USDC on Base.'
+category: other
+tags:
+  - ai-agent
+  - crypto
+  - evm
+  - marketplace
+  - payment
+docs_url: https://402post.com
+endpoints:
+  - url: https://402post.com/mcp
+    transport: streamable-http
+    auth: none

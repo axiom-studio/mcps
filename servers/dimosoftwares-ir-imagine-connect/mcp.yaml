@@ -1,0 +1,14 @@
+name: dimo imagine
+summary: generate video, image and audio using 100+ ai models.
+category: productivity
+tags:
+  - ai-model
+  - audio
+  - content-creation
+  - media
+  - video
+docs_url: https://dimosoftwares.ir/imagine/connect/
+endpoints:
+  - url: https://dimosoftwares.ir/imagine/mcp
+    transport: streamable-http
+    auth: oauth

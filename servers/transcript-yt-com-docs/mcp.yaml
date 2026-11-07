@@ -1,0 +1,14 @@
+name: TranscriptYT
+summary: 'YouTube transcripts for AI agents: text, JSON, SRT or VTT in 150+ languages, with translation and AI transcription fallback.'
+category: search
+tags:
+  - media
+  - text-to-speech
+  - translation
+  - video
+  - youtube
+docs_url: https://transcript-yt.com/docs#mcp
+endpoints:
+  - url: https://transcript-yt.com/mcp
+    transport: streamable-http
+    auth: api-key

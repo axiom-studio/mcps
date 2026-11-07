@@ -1,0 +1,12 @@
+name: Cove MCP
+summary: Ask Claude about your money. Read-only access to your Cove account's spending, subscriptions, balances, and bills — connect via OAuth, revoke anytime.
+category: finance
+tags:
+  - analytics
+  - data-analysis
+  - finance
+docs_url: https://usecove.ai/integrations/claude
+endpoints:
+  - url: https://api.usecove.ai/mcp
+    transport: streamable-http
+    auth: oauth

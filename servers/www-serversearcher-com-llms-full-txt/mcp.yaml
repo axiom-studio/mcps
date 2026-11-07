@@ -1,0 +1,13 @@
+name: ServerSearcher MCP
+summary: Search and compare dedicated, VPS, GPU and cloud server plans across many hosting providers - filter by many params including spec, location, price, stock and provider capability
+category: database
+tags:
+  - cloud-infrastructure
+  - database
+  - devops-infrastructure
+  - search
+docs_url: https://www.serversearcher.com/llms-full.txt
+endpoints:
+  - url: https://www.serversearcher.com/api/mcp
+    transport: streamable-http
+    auth: none

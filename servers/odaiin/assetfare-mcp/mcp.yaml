@@ -1,0 +1,13 @@
+name: AssetFare
+summary: Capped, non-custodial Solana SOL to Base ETH quote and unsigned execution workflow for AI agents. Thirteen     remote MCP tools; the server never receives private keys and never signs or submits transactions.
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - evm
+  - finance
+docs_url: https://github.com/odaiin/assetfare-mcp
+endpoints:
+  - url: https://api.assetfare.dev/mcp
+    transport: streamable-http
+    auth: none

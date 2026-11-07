@@ -1,0 +1,13 @@
+name: 'MarketPrint: Print On Demand'
+summary: 'Print-on-demand from Germany: turn your designs into products and publish them to your Shopify, Etsy, WooCommerce or TikTok store. Browse the product catalog, upload designs and neck prints, set your price and publish. Sign in with your MarketPrint account (OAuth).'
+category: other
+tags:
+  - design
+  - ecommerce
+  - marketplace
+  - shopify
+docs_url: https://help.marketprint.de/en/2026/10/08/marketprint-mit-claude-verbinden/
+endpoints:
+  - url: https://mcp.marketprint.de/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: HaulierScope
+summary: 'UK operator licence checks for hauliers and coach firms: status, vehicles, changes, public inquiries. No sign-in.'
+category: database
+tags:
+  - business-operations
+  - compliance
+  - database
+  - research
+docs_url: https://haulierscope.co.uk/developers
+endpoints:
+  - url: https://haulierscope.co.uk/mcp
+    transport: streamable-http
+    auth: none

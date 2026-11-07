@@ -1,0 +1,12 @@
+name: Australia Vehicle Recall
+summary: VIN lookup against 5,587 Australian vehicle safety recalls, 8.8 million VINs indexed from the government register. Free, read-only, no API key.
+category: other
+tags:
+  - database
+  - government
+  - search
+docs_url: https://autozoo.com.au
+endpoints:
+  - url: https://autozoo.com.au/mcp
+    transport: streamable-http
+    auth: none

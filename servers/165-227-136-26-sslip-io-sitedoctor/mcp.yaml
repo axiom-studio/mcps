@@ -1,0 +1,14 @@
+name: SiteDoctor — Website Health, SEO & Security Scanner
+summary: 'Instant website audits: SEO, speed, security headers, SSL, mobile and broken links. Free web scan; pay-per-call MCP tools for agents.'
+category: development
+tags:
+  - performance
+  - security
+  - seo
+  - testing-qa
+  - web-research
+docs_url: https://165-227-136-26.sslip.io/sitedoctor/
+endpoints:
+  - url: https://165-227-136-26.sslip.io/doctor/mcp
+    transport: streamable-http
+    auth: api-key

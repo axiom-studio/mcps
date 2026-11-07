@@ -1,0 +1,14 @@
+name: InboxMCP
+summary: Connect AI assistants to LinkedIn, WhatsApp, Telegram and Instagram for unified inbox reading, replies, profile research and user-approved messaging through remote MCP with OAuth 2.1.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - social-media
+  - telegram
+  - whatsapp
+docs_url: https://github.com/breakcold/inboxmcp
+endpoints:
+  - url: https://inbox-mcp.com/mcp
+    transport: streamable-http
+    auth: oauth

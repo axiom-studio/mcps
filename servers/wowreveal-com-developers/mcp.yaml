@@ -1,0 +1,13 @@
+name: WowReveal
+summary: 'Make narrated 9:16 shorts from video links: AI story, voiceover, captions, clips and AI video.'
+category: marketing
+tags:
+  - ai-model
+  - content-creation
+  - marketing
+  - video
+docs_url: https://wowreveal.com/developers
+endpoints:
+  - url: https://wowreveal.com/mcp
+    transport: streamable-http
+    auth: api-key

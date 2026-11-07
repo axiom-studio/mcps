@@ -1,0 +1,13 @@
+name: Pachca
+summary: Read, search and post in Pachca team chat, and work with threads, reminders, employees and bots within your permissions.
+category: communication
+tags:
+  - chatbot
+  - communication
+  - notifications
+  - productivity
+docs_url: https://dev.pachca.com/guides/mcp/overview
+endpoints:
+  - url: https://mcp.pachca.com/mcp
+    transport: streamable-http
+    auth: oauth

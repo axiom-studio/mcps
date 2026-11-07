@@ -1,0 +1,12 @@
+name: Geschenklotse.de MCP
+summary: 'Wunschzettel von Geschenklotse per KI verwalten: Wünsche hinzufügen, ändern, sortieren und optional löschen. Reservierungen bleiben verborgen. Kostenlos, DE/AT/CH. Kostenloses Konto nötig, Anmeldung per OAuth 2.1 oder Zugangstoken.'
+category: productivity
+tags:
+  - ai-agent
+  - productivity
+  - task-management
+docs_url: https://geschenklotse.de/mcp.html
+endpoints:
+  - url: https://geschenklotse.de/api/mcp
+    transport: streamable-http
+    auth: oauth

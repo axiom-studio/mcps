@@ -1,0 +1,13 @@
+name: ClipSubtitles
+summary: 'Caption videos from your AI assistant: upload a clip, get word-timed animated captions, fix any word, export MP4, transparent overlay, SRT or VTT.'
+category: productivity
+tags:
+  - content-creation
+  - media
+  - translation
+  - video
+docs_url: https://clipsubtitles.com/developers
+endpoints:
+  - url: https://api.clipsubtitles.com/api/mcp
+    transport: streamable-http
+    auth: oauth

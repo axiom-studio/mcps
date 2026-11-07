@@ -1,0 +1,12 @@
+name: IQFluence MCP
+summary: 'Remote MCP server for influencer marketing: search 455M+ Instagram, TikTok and YouTube creators, open audience reports with fake-follower checks, compare creators, check audience overlap, build media plans, read posts and comments, and track Campaign Monitoring results from Claude, ChatGPT, Codex, Cursor and other MCP clients. OAuth sign-in, 5 free trial credits.'
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - social-media
+docs_url: https://iqfluence.io/docs/mcp
+endpoints:
+  - url: https://mcp.iqfluence.io/mcp
+    transport: streamable-http
+    auth: oauth

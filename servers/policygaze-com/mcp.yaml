@@ -1,0 +1,13 @@
+name: Policygaze MCP
+summary: Connect your AI agents to the data and reasoning frameworks they need to research geopolitics, track events, and understand their impact on markets.
+category: finance
+tags:
+  - finance
+  - geospatial
+  - news
+  - research
+docs_url: https://policygaze.com
+endpoints:
+  - url: https://mcp.policygaze.com/mcp
+    transport: streamable-http
+    auth: oauth

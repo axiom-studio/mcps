@@ -1,0 +1,15 @@
+name: Persuasion Taxonomy MCP
+summary: A free MCP server that gives any AI the nine questions every reader asks, 766 verified persuasion techniques extracted from a century of real marketing copy, copy checks and A/B test math. No API key.
+category: marketing
+tags:
+  - ai-model
+  - content-creation
+  - data-analysis
+  - marketing
+official: true
+registry_name: com.coppica/persuasion-taxonomy
+docs_url: https://github.com/Otha-Labs/persuasion-mcp
+endpoints:
+  - url: https://taxonomy.coppica.com/mcp
+    transport: streamable-http
+    auth: none

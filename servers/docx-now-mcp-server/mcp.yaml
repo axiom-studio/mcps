@@ -1,0 +1,12 @@
+name: DOCX.now MCP Server
+summary: Convert DOCX documents to PDF, TXT, HTML, ODT, JPG and RTF, or create DOCX files from supported document formats.
+category: productivity
+tags:
+  - document
+  - file-conversion
+  - productivity
+docs_url: https://docx.now/mcp-server
+endpoints:
+  - url: https://docx.now/mcp
+    transport: streamable-http
+    auth: api-key

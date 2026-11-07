@@ -1,0 +1,13 @@
+name: Signal by StackEnhance
+summary: 'Competitor email monitoring in your AI assistant: how often 800+ e-commerce brands in the Nordics and Germany send marketing email, with send dates and the most active senders per market. Free, read-only, no API key.'
+category: marketing
+tags:
+  - analytics
+  - ecommerce
+  - email-automation
+  - marketing
+docs_url: https://github.com/stackenhance/signal-mcp
+endpoints:
+  - url: https://mcp.stackenhance.com/mcp
+    transport: streamable-http
+    auth: none

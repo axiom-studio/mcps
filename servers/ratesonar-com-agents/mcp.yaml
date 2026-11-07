@@ -1,0 +1,12 @@
+name: RateSonar
+summary: Current and past Australian bank rates for home loans, savings and term deposits, with lender and date. Remote MCP at https://api.ratesonar.com/mcp.
+category: finance
+tags:
+  - data-analysis
+  - database
+  - finance
+docs_url: https://ratesonar.com/agents/
+endpoints:
+  - url: https://api.ratesonar.com/mcp
+    transport: streamable-http
+    auth: unknown

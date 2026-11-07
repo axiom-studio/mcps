@@ -1,0 +1,18 @@
+name: Common Room
+summary: Common Room is a customer intelligence platform that unifies product, community, and social signals for go-to-market teams. Its remote MCP server lets assistants query member activity, account signals, and engagement data to inform sales and community work.
+description: |-
+  Common Room is a customer intelligence platform that unifies product, community, and social signals for go-to-market teams. Its remote MCP server lets assistants query member activity, account signals, and engagement data to inform sales and community work.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/common-room)
+category: marketing
+tags:
+  - marketing
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/common-room
+endpoints:
+  - url: https://mcp.commonroom.io/mcp
+    transport: streamable-http
+    auth: oauth

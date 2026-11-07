@@ -1,0 +1,12 @@
+name: Altivo Jets
+summary: Search live private jet empty legs, estimate private jet and helicopter charters in local currency across 12 countries, browse routes, aircraft and licensed operators, and send a quote request to the Altivo Jets desk. Free remote server, no API key.
+category: other
+tags:
+  - communication
+  - ecommerce
+  - search
+docs_url: https://github.com/prateek7779-maker/altivo-mcp
+endpoints:
+  - url: https://altivojets.com/mcp/
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Plumb Data Exchange
+summary: 'Verified table jobs: CSV conversion, dedupe, reconcile. Pay per call with x402 (USDC on Base).'
+category: other
+tags:
+  - data-analysis
+  - database
+  - file-conversion
+  - payment
+docs_url: https://numba2witcheese.tail7d8d44.ts.net:10000/llms.txt
+endpoints:
+  - url: https://numba2witcheese.tail7d8d44.ts.net:10000/pde-mcp
+    transport: streamable-http
+    auth: unknown

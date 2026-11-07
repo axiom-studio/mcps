@@ -1,0 +1,18 @@
+name: Slack
+summary: Slack is a collaboration hub for team messages, channels, users, and shared canvases. Its remote MCP server brings workspace communication context into assistant workflows, helping users find decisions, summarize discussions, and understand activity across channels.
+description: |-
+  Slack is a collaboration hub for team messages, channels, users, and shared canvases. Its remote MCP server brings workspace communication context into assistant workflows, helping users find decisions, summarize discussions, and understand activity across channels.
+
+  Requires a Slack account and a registered app. Dynamic client registration and SSE are not supported.
+
+  [Setup documentation](https://docs.slack.dev/ai/slack-mcp-server/)
+category: communication
+tags:
+  - communication
+  - remote-mcp
+official: true
+docs_url: https://docs.slack.dev/ai/slack-mcp-server/
+endpoints:
+  - url: https://mcp.slack.com/mcp
+    transport: streamable-http
+    auth: oauth

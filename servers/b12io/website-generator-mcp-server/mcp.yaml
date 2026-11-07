@@ -1,0 +1,13 @@
+name: B12 Website Generator
+summary: An AI-powered website generator from B12, requiring no external data files.
+category: development
+tags:
+  - ai-agent
+  - content-creation
+  - design-to-code
+  - development
+docs_url: https://github.com/b12io/website-generator-mcp-server
+endpoints:
+  - url: https://mcp.b12.io/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Exogram
+summary: Encrypted Personal Neural Network & cross-LLM memory vault with bi-temporal conflict supersession for Claude, Cursor, Windsurf, and local SQLite WAL.
+category: memory
+tags:
+  - llm
+  - memory
+  - privacy
+  - sqlite
+docs_url: https://github.com/Richard-Ewing/exogram-sdk
+endpoints:
+  - url: https://api.exogram.ai/mcp
+    transport: streamable-http
+    auth: unknown

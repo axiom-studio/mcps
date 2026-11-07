@@ -1,0 +1,13 @@
+name: Hercules property data
+summary: 'NYC and US property records: owners, LLC officers, mortgages, pre-foreclosures and investors.'
+category: database
+tags:
+  - data-analysis
+  - database
+  - real-estate
+  - research
+docs_url: https://hercules.properties/integrations/mcp
+endpoints:
+  - url: https://app.hercules.properties/mcp
+    transport: streamable-http
+    auth: unknown

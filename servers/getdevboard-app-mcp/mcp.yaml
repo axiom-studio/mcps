@@ -1,0 +1,12 @@
+name: devBoard
+summary: Read, create and move tasks, comment, start and finish work, and track time in devBoard, a simple project tracker for small dev teams and freelancers.
+category: productivity
+tags:
+  - productivity
+  - project-management
+  - task-management
+docs_url: https://getdevboard.app/mcp
+endpoints:
+  - url: https://api.getdevboard.app/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,14 @@
+name: ModelRunner
+summary: Run image, video, audio, 3D and text AI models from Claude, Cursor or any MCP client through a hosted server with OAuth 2.1 and pay-per-use pricing.
+category: cloud-service
+tags:
+  - ai-model
+  - audio
+  - cloud-infrastructure
+  - media
+  - video
+docs_url: https://modelrunner.ai/mcp
+endpoints:
+  - url: https://mcp.modelrunner.run/mcp
+    transport: streamable-http
+    auth: oauth

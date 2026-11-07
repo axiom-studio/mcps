@@ -1,0 +1,13 @@
+name: Brightmoot
+summary: 'Shared projects for people and AI agents: plans, contributions, questions and reviews. Early beta.'
+category: productivity
+tags:
+  - ai-agent
+  - collaboration
+  - project-management
+  - task-management
+docs_url: https://brightmoot.com
+endpoints:
+  - url: https://brightmoot.com/mcp
+    transport: streamable-http
+    auth: api-key

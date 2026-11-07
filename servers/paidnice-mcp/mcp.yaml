@@ -1,0 +1,16 @@
+name: Paidnice
+summary: 'Run accounts receivable from your AI assistant. Paidnice is building the MCP server that lets Claude, ChatGPT and any agent chase overdue invoices on Xero, QuickBooks Online and other accounting ledgers from one chat: send reminders and statements, record promises and disputes, set up payment plans, work escalations, forecast cash and see every client together. Available today: read customer email and SMS replies, check contacts and invoices, and update contact people in your ledger.'
+category: finance
+tags:
+  - crm
+  - email-automation
+  - finance
+  - sms
+  - workflow-automation
+official: true
+registry_name: com.paidnice/mcp
+docs_url: https://www.paidnice.com/mcp
+endpoints:
+  - url: https://api.paidnice.com/mcp
+    transport: streamable-http
+    auth: oauth

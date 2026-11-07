@@ -1,0 +1,14 @@
+name: RobotBase MCP Server
+summary: 'One MCP endpoint for AI agents: live web search and fetch, on-chain verification & risk on Bitcoin, Ethereum, Monero, Zcash and Tron from self-hosted nodes, plus 16 CyberLibrary tools over 80k+ public-domain books. 72 tools; free daily allowances; no API key. Past the free allowance, per-call USDC credits over x402. Read-only, no custody, no account. Base/Solana are payment rails only.'
+category: productivity
+tags:
+  - crypto
+  - evm
+  - knowledge-retrieval
+  - payment
+  - web-research
+docs_url: https://github.com/wygogogo19/robotbase-mcp
+endpoints:
+  - url: https://robotbase.cc/mcp
+    transport: streamable-http
+    auth: none

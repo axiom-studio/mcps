@@ -1,0 +1,14 @@
+name: Launchdog.dev
+summary: 'Launch your product on a weekly launch board straight from your coding agent: draft the listing, verify your domain, add the badge and book a week.'
+category: development
+tags:
+  - development
+  - marketing
+  - productivity
+  - workflow-automation
+official: true
+docs_url: https://launchdog.dev/docs/mcp
+endpoints:
+  - url: https://launchdog.dev/mcp
+    transport: streamable-http
+    auth: oauth

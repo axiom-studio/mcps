@@ -1,0 +1,12 @@
+name: Jean by Melad Labs
+summary: 'A molecular biology bench for AI assistants: cloning, primer and CRISPR design, Sanger verification, qPCR, alignment and phylogenetics, calculated rather than guessed. Remote, no auth, free.'
+category: other
+tags:
+  - bioinformatics
+  - data-analysis
+  - research
+docs_url: https://github.com/genmnz/jean-by-melad-labs
+endpoints:
+  - url: https://jeanslabs.vercel.app/mcp
+    transport: streamable-http
+    auth: none

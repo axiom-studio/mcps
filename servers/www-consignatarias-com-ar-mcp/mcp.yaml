@@ -1,0 +1,12 @@
+name: Consignatarias · Argentine Cattle Market
+summary: 'Argentine cattle market as MCP tools: steer index since 2015, observed price bands, auctions, brokers, land values, SENASA rules and anonymous buyer/seller matching. Free, no key.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - marketplace
+docs_url: https://www.consignatarias.com.ar/mcp
+endpoints:
+  - url: https://www.consignatarias.com.ar/api/mcp
+    transport: streamable-http
+    auth: none

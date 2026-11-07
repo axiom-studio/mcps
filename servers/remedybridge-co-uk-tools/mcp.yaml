@@ -1,0 +1,13 @@
+name: RemedyBridge Housing Repair Tools
+summary: 'Free, read-only tools for tenants in England and Wales: Awaab''s Law and landlord complaint deadlines, pre-action protocol dates, repair letter templates, an evidence checklist and a housing repair help search. No key.'
+category: other
+tags:
+  - document
+  - government
+  - productivity
+  - real-estate
+docs_url: https://remedybridge.co.uk/tools/#for-ai-assistants
+endpoints:
+  - url: https://remedybridge.co.uk/mcp/
+    transport: streamable-http
+    auth: none

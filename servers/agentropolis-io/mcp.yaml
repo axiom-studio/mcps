@@ -1,0 +1,13 @@
+name: Agentropolis
+summary: 'Search engine and directory for AI agents: find MCP servers, x402 pay-per-call APIs and agent kits (38k+ listings) with trust scores, via web, API, MCP (https://agentropolis.io/api/mcp) and A2A.'
+category: search
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - marketplace
+  - search
+docs_url: https://agentropolis.io
+endpoints:
+  - url: https://agentropolis.io/api/mcp
+    transport: streamable-http
+    auth: unknown

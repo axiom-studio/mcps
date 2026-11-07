@@ -1,0 +1,13 @@
+name: TaskBullet
+summary: Last-mile human VAs for AI agents. Handles phone calls, physical-world tasks, and QA that models can't finish.
+category: productivity
+tags:
+  - ai-agent
+  - business-operations
+  - communication
+  - task-management
+docs_url: https://github.com/GriffMurder/taskbullet-mcp-server
+endpoints:
+  - url: https://taskbullet.com/api/mcp
+    transport: streamable-http
+    auth: unknown

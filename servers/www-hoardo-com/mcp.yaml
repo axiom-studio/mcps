@@ -1,0 +1,13 @@
+name: Hoardo
+summary: 'Hoardo is a home inventory: rooms, boxes and items, with search, packing lists, lending and sale lists. Connect it to Claude or ChatGPT to find, add or move your things by chat. Remote server with OAuth sign-in.'
+category: productivity
+tags:
+  - chatbot
+  - home-automation
+  - inventory
+  - productivity
+docs_url: https://www.hoardo.com
+endpoints:
+  - url: https://www.hoardo.com/api/mcp
+    transport: streamable-http
+    auth: oauth

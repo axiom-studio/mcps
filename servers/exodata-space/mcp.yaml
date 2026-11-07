@@ -1,0 +1,12 @@
+name: Exoplanets MCP
+summary: Exodata provides MCPaccess to NASA Exoplanet Archive records.
+category: database
+tags:
+  - data-analysis
+  - database
+  - research
+docs_url: https://exodata.space
+endpoints:
+  - url: https://exodata.space/mcp
+    transport: streamable-http
+    auth: unknown

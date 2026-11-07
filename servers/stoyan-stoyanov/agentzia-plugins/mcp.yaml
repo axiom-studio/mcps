@@ -1,0 +1,13 @@
+name: Agentzia
+summary: Simulate buyers across ChatGPT, Claude, Gemini, and Grok to understand why AI recommends competitors and improve your landing page with evidence.
+category: marketing
+tags:
+  - ai-model
+  - marketing
+  - research
+  - web-research
+docs_url: https://github.com/stoyan-stoyanov/agentzia-plugins
+endpoints:
+  - url: https://www.agentzia.dev/mcp
+    transport: streamable-http
+    auth: oauth

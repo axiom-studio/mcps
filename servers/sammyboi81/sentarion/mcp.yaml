@@ -1,0 +1,14 @@
+name: Sentarion MCP
+summary: Governed multi-agent orchestration for AI coding agents — policy gate, tamper-evident audit chain, ships the Claude Code Seatbelt.
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - compliance
+  - development
+  - security
+docs_url: https://github.com/sammyboi81/SENTARION
+endpoints:
+  - url: https://arkhive.dondatabrain.com/sentarion/mcp
+    transport: streamable-http
+    auth: unknown

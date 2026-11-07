@@ -1,0 +1,12 @@
+name: CRM CSV Preflight (Sales List Rescue)
+summary: 'Detect-only CSV check before CRM import: duplicate, invalid and role emails, blanks, phones, dates.'
+category: productivity
+tags:
+  - crm
+  - data-analysis
+  - productivity
+docs_url: https://pureservices.store/tools/csv-preflight
+endpoints:
+  - url: https://pureservices.store/mcp
+    transport: streamable-http
+    auth: none

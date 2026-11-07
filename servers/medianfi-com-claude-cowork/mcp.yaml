@@ -1,0 +1,12 @@
+name: Median
+summary: Read-only access to a Median customer's ledger, financial reports and transactions. OAuth sign-in.
+category: finance
+tags:
+  - analytics
+  - data-analysis
+  - finance
+docs_url: https://medianfi.com/claude-cowork
+endpoints:
+  - url: https://api.medianfi.com/api/v1/mcp
+    transport: streamable-http
+    auth: unknown

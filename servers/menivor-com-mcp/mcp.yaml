@@ -1,0 +1,14 @@
+name: Menivor
+summary: Make short vertical reels and product video ads from your agent, check prices first, schedule posts and read performance.
+category: marketing
+tags:
+  - advertising
+  - content-creation
+  - marketing
+  - social-media
+  - video
+docs_url: https://menivor.com/mcp
+endpoints:
+  - url: https://menivor.com/api/mcp
+    transport: streamable-http
+    auth: api-key

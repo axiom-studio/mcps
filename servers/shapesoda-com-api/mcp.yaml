@@ -1,0 +1,12 @@
+name: Shapesoda
+summary: 'Vectorize images: PNG/JPG/WebP to clean SVG, PDF, EPS or DXF, with a before/after preview and color controls. Works without an account.'
+category: design
+tags:
+  - design
+  - file-conversion
+  - svg
+docs_url: https://shapesoda.com/api?ref=directory#mcp
+endpoints:
+  - url: https://shapesoda.com/mcp
+    transport: streamable-http
+    auth: oauth

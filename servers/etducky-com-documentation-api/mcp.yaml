@@ -1,0 +1,13 @@
+name: ET Ducky
+summary: Read-only access to an ET Ducky organization's Windows and Linux agents, alerts, and fleet summary. Four tools list agents, get one agent with its latest health sample, list alerts, and summarize the fleet. Hosted Streamable HTTP endpoint, authenticated with an organization API token sent as a Bearer header.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - devops-infrastructure
+  - monitoring
+  - security
+docs_url: https://etducky.com/documentation/api
+endpoints:
+  - url: https://etducky.com/api/mcp
+    transport: streamable-http
+    auth: api-key

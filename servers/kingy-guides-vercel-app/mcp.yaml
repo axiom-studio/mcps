@@ -1,0 +1,12 @@
+name: Kingy Guides
+summary: 'Game guides from kingy.wiki: sourced answers, one-level hints and credited exact video moments.'
+category: search
+tags:
+  - gaming
+  - knowledge-retrieval
+  - web-research
+docs_url: https://kingy-guides.vercel.app/
+endpoints:
+  - url: https://kingy-guides.vercel.app/mcp
+    transport: streamable-http
+    auth: none

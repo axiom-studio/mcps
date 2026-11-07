@@ -1,0 +1,12 @@
+name: Delve to Life
+summary: Dress codes explained (casual to white tie), outfit formulas by occasion and weather, and clothing colour combinations. Free, read-only, no auth.
+category: other
+tags:
+  - content-creation
+  - documentation
+  - research
+docs_url: https://delvetolife.com/ai/
+endpoints:
+  - url: https://mcp.delvetolife.com/mcp
+    transport: streamable-http
+    auth: none

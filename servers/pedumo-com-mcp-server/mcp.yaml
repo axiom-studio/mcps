@@ -1,0 +1,13 @@
+name: PEDUMO MCP
+summary: Local JS/TS code and declared-license review, JSON/hash/risk utilities, and read-only PEDUMO project context via stdio or HTTP.
+category: development
+tags:
+  - code-quality
+  - development
+  - documentation
+  - security
+docs_url: https://pedumo.com/mcp-server
+endpoints:
+  - url: https://pedumo.com/mcp
+    transport: streamable-http
+    auth: api-key

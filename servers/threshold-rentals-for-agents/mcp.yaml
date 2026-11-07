@@ -1,0 +1,11 @@
+name: Threshold
+summary: Search and book verified independent vacation rentals directly from hosts, with no guest fees.
+category: other
+tags:
+  - marketplace
+  - search
+docs_url: https://threshold.rentals/for-agents
+endpoints:
+  - url: https://threshold.rentals/api/mcp
+    transport: streamable-http
+    auth: unknown

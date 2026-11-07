@@ -1,0 +1,14 @@
+name: AltoRank
+summary: Agent-readiness audits, Search Console reporting, keyword research and SEO article drafting, with every draft held in a human review queue rather than published.
+category: marketing
+tags:
+  - analytics
+  - content-creation
+  - marketing
+  - research
+  - seo
+docs_url: https://github.com/AltoRank/altorank
+endpoints:
+  - url: https://app.altorank.co/api/mcp
+    transport: streamable-http
+    auth: unknown

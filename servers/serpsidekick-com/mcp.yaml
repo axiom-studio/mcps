@@ -1,0 +1,12 @@
+name: Serp Sidekick
+summary: Give your AI real SEO data
+category: search
+tags:
+  - search
+  - seo
+  - web-research
+docs_url: https://serpsidekick.com
+endpoints:
+  - url: https://serpsidekick.com/mcp
+    transport: streamable-http
+    auth: oauth

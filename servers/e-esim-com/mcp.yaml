@@ -1,0 +1,11 @@
+name: e-eSIM mobile travel data Catalog
+summary: 'Search prepaid travel eSIM data plans for 158 countries and regions — Daily Surf, Trip Surf and All You Can Surf — with live prices, full plan facts and a secure checkout link. Remote MCP server, no API key: https://e-esim.com/wp-json/e-esim/mcp — tools: search_esim_plans, get_plan_details, start_checkout.'
+category: other
+tags:
+  - ecommerce
+  - marketplace
+docs_url: https://e-esim.com/
+endpoints:
+  - url: https://e-esim.com/wp-json/e-esim/mcp
+    transport: streamable-http
+    auth: none

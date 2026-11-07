@@ -1,0 +1,18 @@
+name: Open Targets
+summary: Open Targets is a public platform for systematic drug target identification and prioritisation. Its remote MCP server gives assistants a purpose-built interface to association, evidence, and target data for genetics-driven drug discovery research.
+description: |-
+  Open Targets is a public platform for systematic drug target identification and prioritisation. Its remote MCP server gives assistants a purpose-built interface to association, evidence, and target data for genetics-driven drug discovery research.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://github.com/opentargets/platform-mcp)
+category: search
+tags:
+  - remote-mcp
+  - search
+official: true
+docs_url: https://github.com/opentargets/platform-mcp
+endpoints:
+  - url: https://mcp.platform.opentargets.org/mcp
+    transport: streamable-http
+    auth: none

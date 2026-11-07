@@ -1,0 +1,14 @@
+name: Catchr
+summary: Connect to 100+ marketing platforms to query campaign data, compare channels, and analyze client performance directly in Claude, ChatGPT, or your preferred AI agent.
+category: marketing
+tags:
+  - analytics
+  - crm
+  - data-analysis
+  - marketing
+official: true
+docs_url: https://catchr.io
+endpoints:
+  - url: https://api.catchr.io/mcp
+    transport: streamable-http
+    auth: unknown

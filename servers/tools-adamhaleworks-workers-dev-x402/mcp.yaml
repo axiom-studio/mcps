@@ -1,0 +1,13 @@
+name: 'Adam Hale Tools: Web Research and Open Data'
+summary: 'Remote MCP server (Streamable HTTP, no account): website tech stack, sitemap URLs, RSS to JSON and EU TED tenders free for single items; page to Markdown, domain WHOIS/RDAP + DNS, robots.txt checks and bulk calls paid per call in USDC via x402.'
+category: web-scraping
+tags:
+  - data-analysis
+  - document
+  - research
+  - web-scraping
+docs_url: https://tools.adamhaleworks.workers.dev/x402/#mcp
+endpoints:
+  - url: https://tools.adamhaleworks.workers.dev/mcp
+    transport: streamable-http
+    auth: none

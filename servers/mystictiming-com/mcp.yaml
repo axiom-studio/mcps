@@ -1,0 +1,12 @@
+name: Mystic Timing BaZi
+summary: 'Chinese BaZi (Four Pillars) birth charts for AI assistants: Day Master, five elements, ten gods, luck pillars, yearly outlook and two-person compatibility. No auth.'
+category: other
+tags:
+  - ai-agent
+  - entertainment
+  - knowledge-retrieval
+docs_url: https://mystictiming.com/
+endpoints:
+  - url: https://mystictiming-mcp.yaletongxue.workers.dev/mcp
+    transport: streamable-http
+    auth: none

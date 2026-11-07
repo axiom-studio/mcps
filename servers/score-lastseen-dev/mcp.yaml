@@ -1,0 +1,13 @@
+name: lastseen score
+summary: Trust scores and dated liveness, schema drift and dependency facts for MCP servers, from the lastseen.dev register; free remote MCP, no auth.
+category: development
+tags:
+  - data-analysis
+  - development
+  - knowledge-retrieval
+  - monitoring
+docs_url: https://score.lastseen.dev
+endpoints:
+  - url: https://score.lastseen.dev/mcp
+    transport: streamable-http
+    auth: none

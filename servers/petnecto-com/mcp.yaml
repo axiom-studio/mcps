@@ -1,0 +1,12 @@
+name: Petnecto
+summary: 'Paw to paw. Shelter pets, one question away: find adoptable pets near you, with photos, and how to reach the rescue.'
+category: search
+tags:
+  - knowledge-retrieval
+  - search
+  - web-research
+docs_url: https://petnecto.com/
+endpoints:
+  - url: https://petnecto.com/mcp
+    transport: streamable-http
+    auth: none

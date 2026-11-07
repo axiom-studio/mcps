@@ -1,0 +1,12 @@
+name: PantryPOS Food Pantry Finder
+summary: Find US food pantries near a ZIP or City, ST (about 17,000 pantries in 36 states) and look up a state's TEFAP rules with sources. Free, no key. By PantryPOS (0xpi).
+category: search
+tags:
+  - geospatial
+  - government
+  - search
+docs_url: https://pantrypos.0xpi.com/llms.txt
+endpoints:
+  - url: https://pantrypos.0xpi.com/mcp-pantry
+    transport: streamable-http
+    auth: none

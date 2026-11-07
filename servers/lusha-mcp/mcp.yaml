@@ -1,0 +1,30 @@
+name: Lusha
+summary: Lusha helps teams find and enrich B2B contacts and companies. Its connector gives assistants sales-intelligence context for prospecting, account research, and go-to-market workflows.
+description: |-
+  # Lusha
+
+  Lusha helps teams find and enrich B2B contacts and companies. Its connector gives assistants sales-intelligence context for prospecting, account research, and go-to-market workflows.
+
+  ## Connection
+
+  Claude connector (OAuth): https://mcp.lusha.com/mcp/claude
+
+  Custom clients (API key): https://mcp.lusha.com/
+
+  The official docs and publisher repository distinguish OAuth connector endpoints from the custom-client API-key endpoint. Each endpoint retains its own auth scheme.
+
+  [Official documentation](https://docs.lusha.com/mcp-docs)
+category: marketing
+tags:
+  - marketing
+  - remote-mcp
+official: true
+registry_name: com.lusha.mcp/mcp
+docs_url: https://docs.lusha.com/mcp-docs
+endpoints:
+  - url: https://mcp.lusha.com/mcp/claude
+    transport: streamable-http
+    auth: oauth
+  - url: https://mcp.lusha.com/
+    transport: streamable-http
+    auth: api-key

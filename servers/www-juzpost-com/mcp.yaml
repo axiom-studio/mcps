@@ -1,0 +1,13 @@
+name: JuzPost
+summary: 'Schedule and publish social media posts from Claude or any MCP client. Draft once, attach images or video, pick accounts, and schedule to X, LinkedIn, Instagram, TikTok, YouTube, Facebook, Threads, Bluesky, Pinterest, Tumblr and WordPress. Check each platform''s limits before posting and review the queue. Hosted remote server with OAuth: https://www.juzpost.com/mcp'
+category: marketing
+tags:
+  - content-creation
+  - marketing-automation
+  - social-media
+  - workflow-automation
+docs_url: https://www.juzpost.com
+endpoints:
+  - url: https://www.juzpost.com/mcp
+    transport: streamable-http
+    auth: oauth

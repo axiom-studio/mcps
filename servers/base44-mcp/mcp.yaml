@@ -1,0 +1,24 @@
+name: Base44
+summary: Base44 is an AI app-building platform where full applications are created and edited from natural-language descriptions. Its remote MCP server lets assistants create and manage Base44 apps, backend logic, and data without leaving the conversation.
+description: |-
+  # Base44
+
+  Base44 is an AI app-building platform where full applications are created and edited from natural-language descriptions. Its remote MCP server lets assistants create and manage Base44 apps, backend logic, and data without leaving the conversation.
+
+  ## Connection
+
+  https://app.base44.com/mcp/
+
+  Official documentation explicitly specifies OAuth. Documented /mcp responds with a same-origin 307 to /mcp/; the target responds 401.
+
+  [Official documentation](https://docs.base44.com/developers/backend/overview/mcp-server)
+category: development
+tags:
+  - development
+  - remote-mcp
+official: true
+docs_url: https://docs.base44.com/developers/backend/overview/mcp-server
+endpoints:
+  - url: https://app.base44.com/mcp/
+    transport: streamable-http
+    auth: oauth

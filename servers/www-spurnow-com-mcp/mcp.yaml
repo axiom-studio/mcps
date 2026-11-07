@@ -1,0 +1,13 @@
+name: Spur
+summary: Run WhatsApp broadcasts, segments, templates, contacts and customer conversations in your Spur workspace, across WhatsApp, Instagram, Messenger and email. Remote server with OAuth sign-in (Spur account).
+category: marketing
+tags:
+  - communication
+  - crm
+  - marketing-automation
+  - whatsapp
+docs_url: https://www.spurnow.com/mcp
+endpoints:
+  - url: https://api.spurnow.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,11 @@
+name: Electronics Architect
+summary: Design and solve DC/DC power trees with real parts from any manufacturer. A physics-based solver returns every rail's current, efficiency, dissipation and temperature, with tolerance corners and Monte Carlo.
+category: design
+tags:
+  - data-analysis
+  - design
+docs_url: https://electronics-architect.com/developers
+endpoints:
+  - url: https://electronics-architect.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,11 @@
+name: AITraining.jobs
+summary: Every AI training job in one place, with real hourly pay
+category: search
+tags:
+  - ai-model
+  - search
+docs_url: https://aitraining.jobs/data#mcp
+endpoints:
+  - url: https://aitraining.jobs/api/mcp
+    transport: streamable-http
+    auth: none

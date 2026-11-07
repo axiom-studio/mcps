@@ -1,0 +1,13 @@
+name: Szkoły PL (szkoly-mcp)
+summary: 'Schools in Poland for AI agents: the official register of schools and kindergartens (Ministry of Education, SIO) with pupils and addresses, plus per-school eighth-grade exam and matura results (CKE) for the last three years vs county and national averages. Search by town, gmina or address. Free, no API key.'
+category: other
+tags:
+  - data-analysis
+  - education
+  - government
+  - research
+docs_url: https://github.com/ContentWriterco/szkoly-mcp
+endpoints:
+  - url: https://szkoly.compabase.com/mcp
+    transport: streamable-http
+    auth: none

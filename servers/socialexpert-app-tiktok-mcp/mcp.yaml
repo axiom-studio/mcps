@@ -1,0 +1,13 @@
+name: Social Expert
+summary: TikTok trends, topic-based ideas, posting-time guidance, keywords and hashtags, plus draft video feedback. Hosted MCP by ForUsApps, LLC; OAuth sign-in required.
+category: marketing
+tags:
+  - analytics
+  - content-creation
+  - marketing
+  - social-media
+docs_url: https://socialexpert.app/tiktok-mcp
+endpoints:
+  - url: https://api.socialexpert.app/functions/v1/mcp
+    transport: streamable-http
+    auth: unknown

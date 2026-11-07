@@ -1,0 +1,12 @@
+name: WellFred — Services in Costa Rica
+summary: Find and compare wellness, home and professional services in Costa Rica. Search providers, check availability, discover classes and events, and prepare booking requests for customer confirmation. English and Spanish; no API key required.
+category: search
+tags:
+  - business-operations
+  - marketplace
+  - search
+docs_url: https://app.wellfred.com/agents.md
+endpoints:
+  - url: https://app.wellfred.com/api/agent/mcp
+    transport: streamable-http
+    auth: none

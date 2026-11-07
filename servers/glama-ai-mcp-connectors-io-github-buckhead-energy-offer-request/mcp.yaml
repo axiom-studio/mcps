@@ -1,0 +1,13 @@
+name: Buckhead Energy Offer Request
+summary: Read Buckhead company information and contact details; prepare and send an inquiry for team review.
+category: communication
+tags:
+  - communication
+  - crm
+  - email-automation
+  - workflow-automation
+docs_url: https://glama.ai/mcp/connectors/io.github.Buckhead-Energy/offer-request
+endpoints:
+  - url: https://www.buckheadenergy.com/mcp/actions/v1
+    transport: streamable-http
+    auth: unknown

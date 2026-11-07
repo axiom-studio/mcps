@@ -1,0 +1,13 @@
+name: Opinion Alpha
+summary: Every stock call from finance influencers, extracted, linked to its source and scored. Free with an Opinion Alpha account.
+category: finance
+tags:
+  - analytics
+  - finance
+  - social-media
+  - trading
+docs_url: https://github.com/opinionalpha/opinion-alpha
+endpoints:
+  - url: https://api.opinionalpha.app/mcp
+    transport: streamable-http
+    auth: oauth

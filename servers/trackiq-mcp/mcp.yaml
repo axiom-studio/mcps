@@ -1,0 +1,15 @@
+name: TrackIQ MCP
+summary: Connect Claude, ChatGPT, Cursor or any MCP client to your Amazon seller and vendor data. Ask in plain English about sales, inventory, Sponsored Ads (SP/SB/SD), DSP, AMC, Search Query Performance and keyword rank — and manage campaigns, bids and negatives with dry-run previews. Remote server with one-click Amazon OAuth.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - data-analysis
+  - ecommerce
+  - marketing-automation
+official: true
+docs_url: https://trackiq.com/mcp
+endpoints:
+  - url: https://trackiq.com/mcp
+    transport: streamable-http
+    auth: oauth

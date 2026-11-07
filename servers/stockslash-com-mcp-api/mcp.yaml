@@ -1,0 +1,13 @@
+name: Stockslash
+summary: Super-investor 13F portfolios, insider buying, Congress trades and market conditions as 27 MCP tools. Free, no API key, plain names like "Buffett" or "Apple".
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - marketplace
+  - trading
+docs_url: https://stockslash.com/mcp-api
+endpoints:
+  - url: https://stockslash.com/mcp
+    transport: streamable-http
+    auth: none

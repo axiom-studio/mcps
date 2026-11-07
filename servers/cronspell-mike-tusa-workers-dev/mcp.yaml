@@ -1,0 +1,12 @@
+name: CronSpell
+summary: Validate cron expressions, explain them in plain English and list next, previous or between run times in any IANA time zone, DST-aware. Free, with no sign-up and no API key; about 60 checks per minute per IP. Nothing you submit is stored.
+category: development
+tags:
+  - development
+  - productivity
+  - workflow-automation
+docs_url: https://cronspell.mike-tusa.workers.dev/
+endpoints:
+  - url: https://cronspell.mike-tusa.workers.dev/mcp
+    transport: streamable-http
+    auth: none

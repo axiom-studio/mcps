@@ -1,0 +1,12 @@
+name: UK Companies House MCP
+summary: 'UK Companies House remote MCP: new-company and public-record packs. Free discover (5, London). One-time packs £0.49.'
+category: other
+tags:
+  - api
+  - business-operations
+  - data-analysis
+docs_url: https://uk-ch-mcp.donniertf.workers.dev
+endpoints:
+  - url: https://uk-ch-mcp.donniertf.workers.dev/mcp
+    transport: streamable-http
+    auth: api-key

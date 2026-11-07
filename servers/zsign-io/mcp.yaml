@@ -1,0 +1,13 @@
+name: zSign
+summary: Send documents for e-signature from AI assistants, track signers, and download sealed, signed PDFs.
+category: productivity
+tags:
+  - document
+  - pdf
+  - productivity
+  - workflow-automation
+docs_url: https://zsign.io/
+endpoints:
+  - url: https://zsign.io/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: TwitterXAPI
+summary: Public X posts, profiles, conversations, followers, search, and trends for AI agents through eight hosted MCP tools.
+category: development
+tags:
+  - search
+  - social-media
+  - web-research
+  - x-twitter
+docs_url: https://twitterxapi.com/mcp-server/
+endpoints:
+  - url: https://twitterxapi.com/api/mcp
+    transport: streamable-http
+    auth: api-key

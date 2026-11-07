@@ -1,0 +1,12 @@
+name: Inkable Label
+summary: 'Custom labels, tissue and tape, plus pouches and bags (Inkable Label): label and tissue prices.'
+category: other
+tags:
+  - business-operations
+  - ecommerce
+  - inventory
+docs_url: https://agents.inkablelabel.com
+endpoints:
+  - url: https://agents.inkablelabel.com/mcp
+    transport: streamable-http
+    auth: none

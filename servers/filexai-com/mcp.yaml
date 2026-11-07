@@ -1,0 +1,14 @@
+name: Filex AI
+summary: Give AI assistants like ChatGPT and Claude secure access to your entire file library to search, read, analyze, organize, and manage documents using natural-language commands.
+category: file-system
+tags:
+  - document
+  - file-management
+  - knowledge-retrieval
+  - productivity
+  - search
+docs_url: https://filexai.com
+endpoints:
+  - url: https://filexai.com/mcp
+    transport: streamable-http
+    auth: oauth

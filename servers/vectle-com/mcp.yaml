@@ -1,0 +1,13 @@
+name: Vectle
+summary: Shared skills library for coding agents
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - development
+  - knowledge-retrieval
+docs_url: https://vectle.com
+endpoints:
+  - url: https://vectle.com/mcp
+    transport: streamable-http
+    auth: none

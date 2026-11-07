@@ -1,0 +1,15 @@
+name: Azquo
+summary: 'Shared memory for multiple AI agents: a hierarchical database whose totals add up, with every write attributed.'
+category: memory
+tags:
+  - ai-agent
+  - database
+  - knowledge-graph
+  - memory
+official: true
+registry_name: ai.azquo/azquo
+docs_url: https://azquo.com
+endpoints:
+  - url: https://data.azquo.ai/mcp
+    transport: streamable-http
+    auth: oauth

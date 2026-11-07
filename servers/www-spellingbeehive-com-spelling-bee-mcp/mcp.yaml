@@ -1,0 +1,12 @@
+name: Spelling Bee Hive
+summary: 'Free spelling bee practice for AI assistants: spellings, pronunciations, definitions, language of origin, practice rounds at nine difficulty levels, winning words and Word of the Year. No key needed.'
+category: other
+tags:
+  - education
+  - knowledge-retrieval
+  - research
+docs_url: https://www.spellingbeehive.com/spelling-bee-mcp
+endpoints:
+  - url: https://www.spellingbeehive.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: BugTape
+summary: Production bugs with replay, network, console and stack, ranked for your coding agent to fix over remote MCP (OAuth).
+category: development
+tags:
+  - debugging
+  - development
+  - monitoring
+  - testing-qa
+docs_url: https://bugtape.ai/docs/mcp-install/
+endpoints:
+  - url: https://app.bugtape.ai/mcp
+    transport: streamable-http
+    auth: oauth

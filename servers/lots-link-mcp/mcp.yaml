@@ -1,0 +1,11 @@
+name: LotsLink
+summary: Free, unlimited short links, QR codes and click analytics your AI agent can create and track.
+category: marketing
+tags:
+  - analytics
+  - marketing
+docs_url: https://lots.link/mcp
+endpoints:
+  - url: https://api.lots.link/mcp
+    transport: streamable-http
+    auth: oauth

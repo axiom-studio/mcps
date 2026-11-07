@@ -1,0 +1,14 @@
+name: Screenrove
+summary: 7,000+ real screens, user flows and measured design guides from Linear, Stripe, Notion and 166 more. MCP-first, so Claude and Cursor build from the real thing.
+category: design
+tags:
+  - ai-model
+  - anthropic
+  - llm
+  - project-management
+  - workflow-automation
+docs_url: https://screenrove.com/agents
+endpoints:
+  - url: https://screenrove.com/mcp
+    transport: streamable-http
+    auth: none

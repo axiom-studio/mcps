@@ -1,0 +1,13 @@
+name: Nerdit
+summary: Deploy, run and share the apps you build with Claude, on your own machines or a Nerdit box.
+category: cloud-service
+tags:
+  - ai-agent
+  - cloud-infrastructure
+  - deployment
+  - devops-infrastructure
+docs_url: https://nerdit.ai
+endpoints:
+  - url: https://mcp.nerdit.ai/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: FMEPM Connect for Oracle EPM
+summary: Claude, connected to your own Oracle EPM. Each person as themselves, every call checked and logged.
+category: finance
+tags:
+  - compliance
+  - database
+  - finance
+  - identity
+docs_url: https://mcp.fmepm.com
+endpoints:
+  - url: https://mcp.fmepm.com/mcp
+    transport: streamable-http
+    auth: oauth

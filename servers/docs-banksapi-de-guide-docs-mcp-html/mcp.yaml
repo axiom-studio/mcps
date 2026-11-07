@@ -1,0 +1,13 @@
+name: BANKSapi Docs
+summary: Search the BANKSapi Open Banking documentation and fetch exact OpenAPI operations while you build your integration. Read-only, public docs, no account needed.
+category: development
+tags:
+  - documentation
+  - finance
+  - openapi
+  - search
+docs_url: https://docs.banksapi.de/guide/docs-mcp.html
+endpoints:
+  - url: https://banksapi.io/docs-mcp
+    transport: streamable-http
+    auth: none

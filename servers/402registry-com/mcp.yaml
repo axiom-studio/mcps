@@ -1,0 +1,12 @@
+name: 402registry
+summary: 'Check whether AI crawlers (GPTBot, ClaudeBot, PerplexityBot) see a website: free lookup of dated verdicts; new checks paid with x402 on Base.'
+category: marketing
+tags:
+  - ai-agent
+  - security
+  - web-research
+docs_url: https://402registry.com
+endpoints:
+  - url: https://402registry.com/mcp
+    transport: streamable-http
+    auth: none

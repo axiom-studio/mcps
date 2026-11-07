@@ -1,0 +1,12 @@
+name: Macaroon Bible Evidence
+summary: Free, read-only MCP server for source-labelled Christian Scripture evidence (BSB/WEB verse lookup, context, comparison, cross-references, search, topic guides). Hosted, no install.
+category: other
+tags:
+  - document
+  - knowledge-retrieval
+  - research
+docs_url: https://macaroonnetwork.com/bible-api
+endpoints:
+  - url: https://api.macaroonnetwork.com/mcp-faith-evidence-v1/mcp/
+    transport: streamable-http
+    auth: unknown

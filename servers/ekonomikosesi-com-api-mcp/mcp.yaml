@@ -1,0 +1,13 @@
+name: Ekonomi Köşesi MCP
+summary: Borsa İstanbul (BIST), TEFAS yatırım fonları, güncel ekonomi haberleri ve ulusal gazete manşet arşivine salt okunur erişim sağlayan MCP sunucusu.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - news
+  - trading
+docs_url: https://ekonomikosesi.com/api/mcp
+endpoints:
+  - url: https://ekonomikosesi.com/api/mcp
+    transport: streamable-http
+    auth: none

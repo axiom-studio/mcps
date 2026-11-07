@@ -1,0 +1,14 @@
+name: GTM Brigade
+summary: 'LinkedIn engagement and lead generation for B2B teams: read post analytics, draft posts and comments in your voice, find and enrich leads, and push warm leads to HubSpot, Salesforce, Pipedrive or Attio from Claude, ChatGPT, Gemini or Perplexity.'
+category: marketing
+tags:
+  - crm
+  - hubspot
+  - marketing-automation
+  - sales
+  - salesforce
+docs_url: https://gtmbrigade.com/developers/mcp/
+endpoints:
+  - url: https://api.gtmbrigade.com/mcp
+    transport: streamable-http
+    auth: oauth

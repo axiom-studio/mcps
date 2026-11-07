@@ -1,0 +1,13 @@
+name: Hunter MCP
+summary: Connect AI assistants and agents to Hunter's GTM data to find companies, verify email addresses, and build lead lists.
+category: marketing
+tags:
+  - data-analysis
+  - email-automation
+  - marketing
+  - sales
+docs_url: https://hunter.io/mcp
+endpoints:
+  - url: https://mcp.hunter.io/mcp
+    transport: streamable-http
+    auth: api-key

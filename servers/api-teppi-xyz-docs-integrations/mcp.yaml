@@ -1,0 +1,11 @@
+name: Teppi
+summary: 'Before paying an x402 endpoint or MCP server, read what paying it delivered: checked, signed, reproducible.'
+category: finance
+tags:
+  - finance
+  - payment
+docs_url: https://api.teppi.xyz/docs/integrations
+endpoints:
+  - url: https://api.teppi.xyz/mcp
+    transport: streamable-http
+    auth: none

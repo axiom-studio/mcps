@@ -1,0 +1,13 @@
+name: Outrank
+summary: Plan SEO keywords, write and publish articles to your site, read Search Console and backlink data
+category: marketing
+tags:
+  - content-creation
+  - google-analytics
+  - marketing
+  - seo
+docs_url: https://www.outrank.so/docs/mcp
+endpoints:
+  - url: https://www.outrank.so/api/mcp
+    transport: streamable-http
+    auth: oauth

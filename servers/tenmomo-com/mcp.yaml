@@ -1,0 +1,12 @@
+name: Tenmomo
+summary: Search 2,700+ US stores for coupon codes and cashback rates, and start a tracked cashback session. Seven tools, streamable HTTP.
+category: finance
+tags:
+  - ecommerce
+  - finance
+  - web-research
+docs_url: https://tenmomo.com
+endpoints:
+  - url: https://tenmomo.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: bitHuman docs
+summary: Search and read the bitHuman real-time avatar docs (SDKs, REST API, models, pricing) as markdown. Read-only, no sign-in.
+category: development
+tags:
+  - api
+  - development
+  - documentation
+  - knowledge-retrieval
+docs_url: https://docs.bithuman.ai/resources/agents#docs-mcp
+endpoints:
+  - url: https://docs.bithuman.ai/docs-mcp
+    transport: streamable-http
+    auth: none

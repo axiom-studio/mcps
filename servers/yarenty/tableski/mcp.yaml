@@ -1,0 +1,13 @@
+name: tableski
+summary: 'Every spreadsheet is a table: serves Excel, CSV, Parquet and JSON files to AI agents as SQL tables over MCP. Single Rust binary, Apache DataFusion engine, stateless Streamable HTTP. MIT/Apache-2.0.'
+category: database
+tags:
+  - data-analysis
+  - database
+  - spreadsheet
+  - sql
+docs_url: https://github.com/yarenty/tableski
+endpoints:
+  - url: https://mcp.tableski.io/
+    transport: streamable-http
+    auth: oauth

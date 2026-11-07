@@ -1,0 +1,13 @@
+name: Director
+summary: Director lets you record polished demos of your web app from one sentence, with auto-zoom, a smooth cursor, narration and captions, and turn its product map into help articles and more.
+category: development
+tags:
+  - browser-automation
+  - content-creation
+  - documentation
+  - video
+docs_url: https://director.screenforge.co
+endpoints:
+  - url: https://api.director.screenforge.co/api/mcp
+    transport: streamable-http
+    auth: oauth

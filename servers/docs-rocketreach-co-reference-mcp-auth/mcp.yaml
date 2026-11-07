@@ -1,0 +1,13 @@
+name: RocketReach MCP
+summary: Find verified work emails, phone numbers and company data without leaving the conversation. RocketReach searches 700M+ professional profiles and 60M companies powering sales prospecting, lead generation, recruiting, enrichment, and research.
+category: development
+tags:
+  - crm
+  - data-analysis
+  - research
+  - sales
+docs_url: https://docs.rocketreach.co/reference/mcp-auth
+endpoints:
+  - url: https://mcp.rocketreach.co/mcp
+    transport: streamable-http
+    auth: unknown

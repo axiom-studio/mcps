@@ -1,0 +1,12 @@
+name: AcesAPI
+summary: 'ATP and WTA tennis since 2007: sets, draws, rankings, head to head, surface Elo, sportsbook lines.'
+category: other
+tags:
+  - api
+  - data-analysis
+  - sports
+docs_url: https://github.com/noahowsh/acesapi-mcp
+endpoints:
+  - url: https://mcp.acesapi.com/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: Spytay
+summary: 'Lets your AI agent read your Spytay reports: how often ChatGPT, Gemini, Claude and Grok name your brand, which brands they name instead, every answer word for word and the action plan. Read-only; needs an API key from your Spytay account. Site and reports in Ukrainian.'
+category: marketing
+tags:
+  - ai-model
+  - analytics
+  - marketing
+  - seo
+docs_url: https://spytay.com/SKILL.md
+endpoints:
+  - url: https://spytay.com/mcp
+    transport: streamable-http
+    auth: api-key

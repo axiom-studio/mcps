@@ -1,0 +1,14 @@
+name: TG Market
+summary: 'Search millions of public Telegram channels: metrics, growth, ad history, post search and row-priced exports.'
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - marketing
+  - search
+  - telegram
+docs_url: https://tgmarket.io/docs/mcp
+endpoints:
+  - url: https://tgmarket.io/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Menlo Insurance
+summary: Customer-facing insurance MCP server with a public coverage catalog and authenticated access to customer-authorized insurance drafts, questions and quote status.
+category: finance
+tags:
+  - customer-ops
+  - document
+  - finance
+docs_url: https://www.menloinsurance.com/ai-assistants
+endpoints:
+  - url: https://www.menloinsurance.com/mcp
+    transport: streamable-http
+    auth: oauth

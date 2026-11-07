@@ -1,0 +1,12 @@
+name: Keel Stats
+summary: 'NBA and NFL advanced stats for assistants: ratings, EPA, on/off, injuries, projections.'
+category: other
+tags:
+  - analytics
+  - data-analysis
+  - sports
+docs_url: https://keelstats.com/mcp
+endpoints:
+  - url: https://api.keelstats.com/mcp
+    transport: streamable-http
+    auth: oauth

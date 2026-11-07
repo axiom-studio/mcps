@@ -1,0 +1,13 @@
+name: Germany Cadastral Parcels (ALKIS · Flurstücke BW & Berlin)
+summary: German ALKIS Flurstücke (Baden-Württemberg, Berlin) by Gemeinde and number, address or coordinates.
+category: other
+tags:
+  - geospatial
+  - government
+  - real-estate
+  - search
+docs_url: https://github.com/BumiAtlas/germany-cadastral-parcels-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/germany
+    transport: streamable-http
+    auth: oauth

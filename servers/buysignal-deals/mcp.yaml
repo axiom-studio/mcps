@@ -1,0 +1,12 @@
+name: BuySignal Deals Search
+summary: Live search across 250,000+ verified UK and Canada retail deals. Read-only, no auth required
+category: search
+tags:
+  - ecommerce
+  - search
+  - web-research
+docs_url: https://buysignal.deals
+endpoints:
+  - url: https://buysignal.deals/mcp
+    transport: streamable-http
+    auth: none

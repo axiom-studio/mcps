@@ -1,0 +1,15 @@
+name: Banking Assistant (Metabind demo)
+summary: 'Interactive MCP App demo built on Metabind: personal-finance answers render as UI cards (net worth, spending, subscriptions) in Claude and ChatGPT, and natively in iOS/Android apps.'
+category: finance
+tags:
+  - ai-agent
+  - data-analysis
+  - finance
+  - productivity
+official: true
+registry_name: ai.metabind/banking-assistant
+docs_url: https://github.com/metabindai/metabind-demos/tree/main/finance
+endpoints:
+  - url: https://mcp.metabind.ai/IgJH0BzIn4LlfnCbcDc7/projects/GLbHk5i3GLlIYcF63XFl
+    transport: streamable-http
+    auth: none

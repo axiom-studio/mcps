@@ -1,0 +1,15 @@
+name: Marketing MCP
+summary: Connect Google Ads, Meta Ads, LinkedIn Ads, GA4, Search Console, GTM and WordPress to Claude and ChatGPT. Analyze and change campaigns, with separate workspaces per client for agencies.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - google-analytics
+  - marketing
+  - wordpress
+official: true
+docs_url: https://marketing-mcp.honeyfield.at/en
+endpoints:
+  - url: https://mcp.ads.honeyfield.at/mcp
+    transport: streamable-http
+    auth: oauth

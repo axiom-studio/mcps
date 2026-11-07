@@ -1,0 +1,12 @@
+name: TubeTranscript
+summary: YouTube transcripts for AI agents, including videos without captions. Remote MCP server (Streamable HTTP) with get_transcript plus tools for chapters, hooks, mindmaps, subtitles and blog drafts. Needs a Pro API key.
+category: web-scraping
+tags:
+  - content-creation
+  - web-scraping
+  - youtube
+docs_url: https://tubetranscript.io/youtube-transcript-mcp
+endpoints:
+  - url: https://tubetranscript.io/api/mcp
+    transport: streamable-http
+    auth: api-key

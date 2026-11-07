@@ -1,0 +1,13 @@
+name: Google Maps Scraper
+summary: Connect Claude, Cursor, Codex, or other MCP clients to GMaps Lead Finder through a remote MCP endpoint with Bearer authentication, documented tools, and usage limits.
+category: productivity
+tags:
+  - geospatial
+  - productivity
+  - search
+  - web-scraping
+docs_url: https://gmapsleadfinder.com/docs/agent
+endpoints:
+  - url: https://gmapsleadfinder.com/mcp
+    transport: streamable-http
+    auth: api-key

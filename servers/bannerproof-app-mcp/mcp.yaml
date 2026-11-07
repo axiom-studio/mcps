@@ -1,0 +1,13 @@
+name: Bannerproof
+summary: Find trackers that fire before cookie consent (GDPR, Google Consent Mode v2) on any website and get a fix for each issue. Remote server with OAuth; free quick check without an account.
+category: marketing
+tags:
+  - compliance
+  - marketing
+  - privacy
+  - web-scraping
+docs_url: https://bannerproof.app/mcp
+endpoints:
+  - url: https://api.bannerproof.app/mcp
+    transport: streamable-http
+    auth: oauth

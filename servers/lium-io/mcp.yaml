@@ -1,0 +1,12 @@
+name: Lium GPU Cloud
+summary: Find the cheapest currently rentable H100, H200, B200 or RTX 4090 on Lium, with live per-GPU-hour prices, free GPU counts and a rent link per node; no API key required.
+category: cloud-service
+tags:
+  - ai-model
+  - cloud-infrastructure
+  - marketplace
+docs_url: https://lium.io/
+endpoints:
+  - url: https://docs.lium.io/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: SlashYear
+summary: Look up history by year, date and country, plus world leaders, historical prices and No. 1 songs, each line cited to a Wikipedia revision.
+category: other
+tags:
+  - education
+  - knowledge-retrieval
+  - research
+docs_url: https://slashyear.com/api
+endpoints:
+  - url: https://slashyear.com/mcp
+    transport: streamable-http
+    auth: none

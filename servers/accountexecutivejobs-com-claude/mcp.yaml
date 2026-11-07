@@ -1,0 +1,11 @@
+name: Account Executive Jobs
+summary: Hosted MCP server for sales hiring. Job seekers search account executive roles, save jobs and apply after confirmation; employers manage listings and review their own applicants. OAuth sign-in, and every change needs an exact preview and explicit confirmation.
+category: productivity
+tags:
+  - productivity
+  - sales
+docs_url: https://accountexecutivejobs.com/claude
+endpoints:
+  - url: https://mcp.accountexecutivejobs.com/mcp
+    transport: streamable-http
+    auth: oauth

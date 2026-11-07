@@ -1,0 +1,13 @@
+name: 'Velox TriFit: Virtual Try-On API'
+summary: Public virtual try-on (VTO) API docs and JavaScript SDK examples for virtual dressing integrations, plus authorized photo-based clothing previews over remote MCP.
+category: development
+tags:
+  - api
+  - design
+  - development
+  - ecommerce
+docs_url: https://github.com/Velox-XR/trifit-partner-api-example
+endpoints:
+  - url: https://studio.v3lox.com/partner/trifit/mcp
+    transport: streamable-http
+    auth: oauth

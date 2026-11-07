@@ -1,0 +1,13 @@
+name: ASR Memory (에사 AI)
+summary: AI 도구를 위한 공유 메모리. 결정을 한 번만 저장하면 Claude, ChatGPT, Codex, Gemini 및 모든 MCP 클라이언트에서 프로젝트 및 저장된 기억을 불러올 수 있습니다. 원본 텍스트가 그대로 유지되며, OAuth 로그인이 지원되고, 최대 1,000개의 메모리를 무료로 사용할 수 있습니다.
+category: memory
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - llm
+  - memory
+docs_url: https://asrmemory.com/en/docs.html
+endpoints:
+  - url: https://asrmemory.com/mcp
+    transport: streamable-http
+    auth: oauth

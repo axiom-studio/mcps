@@ -1,0 +1,13 @@
+name: iPadian
+summary: Create and preview self-contained web apps in iPhone, Duo, iPad, and Headless views. Includes seven starter tools and games, browser-local app code saving, and HTML export. Free remote MCP server with no API key.
+category: development
+tags:
+  - browser
+  - development
+  - mobile
+  - testing-qa
+docs_url: https://os.ipadian.net/plugin/
+endpoints:
+  - url: https://os.ipadian.net/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: QuizLink
+summary: Track your learning journey, everywhere. Turns any topic or your notes into quizzes, flashcards, crosswords and study courses.
+category: productivity
+tags:
+  - ai-agent
+  - education
+  - notes
+  - productivity
+docs_url: https://github.com/paulnegz/quizlink-mcp
+endpoints:
+  - url: https://mcp.quizlink.net/stream
+    transport: streamable-http
+    auth: oauth

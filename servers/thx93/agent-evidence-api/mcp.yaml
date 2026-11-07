@@ -1,0 +1,13 @@
+name: Agent Evidence API
+summary: 'Cited web evidence and claim verification for AI agents: send a question or claim plus public URLs and get source-linked passages with retrieval times and content hashes. Discovery is free; each call is paid in USDC on Base over x402.'
+category: search
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - research
+  - web-research
+docs_url: https://github.com/Thx93/agent-evidence-api
+endpoints:
+  - url: https://agent-evidence.thx93.dev/mcp
+    transport: streamable-http
+    auth: none

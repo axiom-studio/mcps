@@ -1,0 +1,13 @@
+name: Section Store
+summary: Section Store's MCP server lets AI assistants like Claude or Cursor add cart drawers, bundles and theme sections to a Shopify store.
+category: design
+tags:
+  - design
+  - ecommerce
+  - shopify
+  - workflow-automation
+docs_url: https://section.store/agents.md
+endpoints:
+  - url: https://section.store/api/ucp/mcp
+    transport: streamable-http
+    auth: unknown

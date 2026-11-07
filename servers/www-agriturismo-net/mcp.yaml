@@ -1,0 +1,11 @@
+name: Agriturismo.Net
+summary: Find farm stays in Italy and check availability, prices and booking conditions on Agriturismo.net.
+category: other
+tags:
+  - ecommerce
+  - marketplace
+docs_url: https://www.agriturismo.net
+endpoints:
+  - url: https://mcp.4tourist.net/mcp
+    transport: streamable-http
+    auth: unknown

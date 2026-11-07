@@ -1,0 +1,13 @@
+name: make.ad
+summary: 'Remote MCP server for make.ad: AI agents create finished video ads (song, narrated and UGC talking-to-camera), images, video clips, music and voiceovers, with quotes before anything is charged.'
+category: marketing
+tags:
+  - advertising
+  - content-creation
+  - marketing
+  - video
+docs_url: https://github.com/Aribk7/make-ad-plugin
+endpoints:
+  - url: https://www.make.ad/api/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: Sober Bars
+summary: Sober Bars lists alcohol-free bars and bottle shops by city. Browse by place, read hours and addresses, and query the same data through a free API and MCP endpoint.
+category: search
+tags:
+  - api
+  - marketplace
+  - search
+docs_url: https://soberbars.fyi
+endpoints:
+  - url: https://soberbars.fyi/mcp
+    transport: streamable-http
+    auth: none

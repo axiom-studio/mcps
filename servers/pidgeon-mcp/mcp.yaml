@@ -1,0 +1,14 @@
+name: Pidgeon
+summary: 'Email inboxes for AI agents: their own addresses, threads, sending, replies and arriving mail.'
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - email-automation
+official: true
+registry_name: ai.pidgeon/mcp
+docs_url: https://pidgeon.ai/docs/mcp
+endpoints:
+  - url: https://pidgeon.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

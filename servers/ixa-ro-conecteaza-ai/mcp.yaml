@@ -1,0 +1,13 @@
+name: IXA.RO - Comparator de preturi
+summary: Compară prețuri și urmărește istoricul de preț pentru produse din magazine online din România, precum eMAG, Altex sau PC Garage.
+category: finance
+tags:
+  - ecommerce
+  - finance
+  - marketplace
+  - web-scraping
+docs_url: https://ixa.ro/conecteaza-ai
+endpoints:
+  - url: https://ixa.ro/mcp
+    transport: streamable-http
+    auth: none

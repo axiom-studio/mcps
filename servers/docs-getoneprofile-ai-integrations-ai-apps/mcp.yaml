@@ -1,0 +1,14 @@
+name: Oneprofile
+summary: Find B2B prospects, check work emails, research each account from 75+ data sources and run email and LinkedIn outreach from your AI assistant.
+category: marketing
+tags:
+  - crm
+  - email-automation
+  - marketing-automation
+  - research
+  - sales
+docs_url: https://docs.getoneprofile.ai/integrations/ai-apps
+endpoints:
+  - url: https://api.getoneprofile.ai/mcp
+    transport: streamable-http
+    auth: oauth

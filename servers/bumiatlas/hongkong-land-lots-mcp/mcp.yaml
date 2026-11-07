@@ -1,0 +1,13 @@
+name: Hong Kong Land Lots & Leases
+summary: Hong Kong LandsD lots by name, PRN or coordinates, with grant and lease terms.
+category: other
+tags:
+  - database
+  - geospatial
+  - government
+  - real-estate
+docs_url: https://github.com/BumiAtlas/hongkong-land-lots-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/hongkong
+    transport: streamable-http
+    auth: oauth

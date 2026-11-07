@@ -1,0 +1,12 @@
+name: Put Me In
+summary: 'AI meme video templates: how-tos, recommended settings, example prompts and FAQ. Free, no key.'
+category: other
+tags:
+  - ai-model
+  - content-creation
+  - video
+docs_url: https://putmein.app/mcp
+endpoints:
+  - url: https://putmein.app/mcp
+    transport: streamable-http
+    auth: none

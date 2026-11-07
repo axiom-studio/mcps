@@ -1,0 +1,13 @@
+name: 5500mcp
+summary: 'Every filed US DOL Form 5500 / 5500-SF in an AI assistant: 164,657 retirement and welfare plans with participants, assets, financials and service-provider fees exactly as filed. Search plans, track changes, benchmark fees against a cohort with charts. 9 tools, 9 guided skills, no login or keys.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - knowledge-retrieval
+  - search
+docs_url: https://5500mcp.ai
+endpoints:
+  - url: https://5500mcp.ai/mcp
+    transport: streamable-http
+    auth: none

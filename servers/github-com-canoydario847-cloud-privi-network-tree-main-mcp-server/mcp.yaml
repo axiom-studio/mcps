@@ -1,0 +1,14 @@
+name: Privi Verify
+summary: Manufacturing lot verification and chain of custody for AI agents. Free label checks; full chains paid in USDC on Base (x402) or PRIVI.
+category: finance
+tags:
+  - ai-agent
+  - compliance
+  - crypto
+  - finance
+  - payment
+docs_url: https://github.com/canoydario847-cloud/Privi-Network/tree/main/mcp-server
+endpoints:
+  - url: https://privi-verify.onrender.com/mcp
+    transport: streamable-http
+    auth: none

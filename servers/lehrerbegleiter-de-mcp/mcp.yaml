@@ -1,0 +1,12 @@
+name: lehrerbegleiter
+summary: 'Referendariat und Beihilfe für Lehrkräfte in allen 16 Bundesländern: Fahrplan, Fristen, Pension.'
+category: cloud-service
+tags:
+  - education
+  - government
+  - productivity
+docs_url: https://lehrerbegleiter.de/mcp
+endpoints:
+  - url: https://lehrerbegleiter.de/mcp
+    transport: streamable-http
+    auth: none

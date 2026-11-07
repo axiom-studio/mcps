@@ -1,0 +1,12 @@
+name: mcpnav directory
+summary: Search a directory of MCP servers and get connect configs. Data is CC0/MIT-licensed.
+category: development
+tags:
+  - development
+  - knowledge-retrieval
+  - search
+docs_url: https://mcpnav.dev/
+endpoints:
+  - url: https://mcp.mcpnav.dev/mcp
+    transport: streamable-http
+    auth: none

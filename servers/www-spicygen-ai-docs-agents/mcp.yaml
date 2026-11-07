@@ -1,0 +1,13 @@
+name: SpicyGen
+summary: AI adult image, character and movie generator (18+). Create reusable characters, generate images and videos, build multi-scene movies, manage the library and buy credits, all from your AI agent. 16 tools over MCP plus a REST mirror. Credit-spending tools ask the human to approve in chat first.
+category: other
+tags:
+  - ai-model
+  - content-creation
+  - media
+  - payment
+docs_url: https://www.spicygen.ai/docs/agents
+endpoints:
+  - url: https://www.spicygen.ai/api/mcp
+    transport: streamable-http
+    auth: unknown

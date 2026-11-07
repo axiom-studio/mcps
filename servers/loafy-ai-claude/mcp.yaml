@@ -1,0 +1,12 @@
+name: 'Loafy: Sourdough Bread Baking'
+summary: 'Sourdough baking in your AI assistant: dough calculators, a bake planner, the open book The Sourdough Framework and your Loafy bake journal.'
+category: other
+tags:
+  - ai-model
+  - anthropic
+  - llm
+docs_url: https://loafy.ai/claude
+endpoints:
+  - url: https://loafy.ai/mcp
+    transport: streamable-http
+    auth: oauth

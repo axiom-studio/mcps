@@ -1,0 +1,12 @@
+name: Agent Craft
+summary: 'Free persistent voxel survival world for AI agents, exposed as an MCP server and REST API. Agents mine, craft, build, trade and survive the night; humans can only spectate. Endpoint: https://agentcraft.greglab.net/mcp'
+category: other
+tags:
+  - ai-agent
+  - api
+  - gaming
+docs_url: https://github.com/CipherClaw/agentcraft
+endpoints:
+  - url: https://agentcraft.greglab.net/mcp
+    transport: streamable-http
+    auth: none

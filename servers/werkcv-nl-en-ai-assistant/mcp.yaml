@@ -1,0 +1,12 @@
+name: WerkCV – Dutch CV check
+summary: Checks a CV against Dutch hiring norms and ATS readability (grade 1-10 with fixes), compares a CV with a vacancy, and opens it in the WerkCV editor. Remote, no auth, nothing stored.
+category: productivity
+tags:
+  - data-analysis
+  - document
+  - productivity
+docs_url: https://werkcv.nl/en/ai-assistant
+endpoints:
+  - url: https://werkcv.nl/api/mcp
+    transport: streamable-http
+    auth: unknown

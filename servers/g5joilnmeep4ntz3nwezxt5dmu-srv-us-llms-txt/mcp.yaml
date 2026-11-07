@@ -1,0 +1,14 @@
+name: 'Stack Facts: paid EOL, CVE and LLM price checks'
+summary: 'Paid per call in USDC over x402: check a package for malware, known vulnerabilities, exploited CVEs and end-of-life dates, plus LLM prices. Signed answers, no account or API key.'
+category: development
+tags:
+  - ai-model
+  - crypto
+  - data-analysis
+  - development
+  - security
+docs_url: https://g5joilnmeep4ntz3nwezxt5dmu.srv.us/llms.txt
+endpoints:
+  - url: https://g5joilnmeep4ntz3nwezxt5dmu.srv.us/mcp
+    transport: streamable-http
+    auth: none

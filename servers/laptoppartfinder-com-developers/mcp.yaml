@@ -1,0 +1,13 @@
+name: Laptop Part Finder
+summary: Free, no-auth remote MCP server for laptop replacement parts. Look up OEM part numbers and part-to-model fits for Lenovo, HP, Surface, Dell and Samsung laptops, each with a link to the manufacturer source. Ambiguous model names return candidates instead of a guess.
+category: other
+tags:
+  - api
+  - ecommerce
+  - inventory
+  - search
+docs_url: https://laptoppartfinder.com/developers/
+endpoints:
+  - url: https://laptoppartfinder.com/mcp
+    transport: streamable-http
+    auth: none

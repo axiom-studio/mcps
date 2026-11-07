@@ -1,0 +1,14 @@
+name: Runsheet YouTube Scheduler
+summary: 'Run a YouTube channel from Claude, ChatGPT or Cursor: schedule, publish and retitle videos, plan the month, and draft copy.'
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - video
+  - workflow-automation
+  - youtube
+docs_url: https://runsheet.buildifyapp.in/mcp
+endpoints:
+  - url: https://runsheet.buildifyapp.in/api/mcp
+    transport: streamable-http
+    auth: unknown

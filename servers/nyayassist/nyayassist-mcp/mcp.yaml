@@ -1,0 +1,12 @@
+name: NyayAssist
+summary: Indian legal research, judgments and Acts search, drafting, translation and matter work from your NyayAssist account, for advocates practising Indian law.
+category: productivity
+tags:
+  - document
+  - research
+  - translation
+docs_url: https://github.com/NyayAssist/nyayassist-mcp
+endpoints:
+  - url: https://mcp.nyayassist.ai/mcp
+    transport: streamable-http
+    auth: oauth

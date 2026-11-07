@@ -1,0 +1,13 @@
+name: Persqo
+summary: AI personas browse your web app like real users, report usability bugs and return copy-paste fix prompts for Claude Code and Cursor.
+category: development
+tags:
+  - ai-agent
+  - browser-automation
+  - coding-agent
+  - testing-qa
+docs_url: https://github.com/YaakovTzedek/persqo-mcp
+endpoints:
+  - url: https://persqo.com/api/mcp
+    transport: streamable-http
+    auth: api-key

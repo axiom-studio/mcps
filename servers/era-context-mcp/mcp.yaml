@@ -1,0 +1,19 @@
+name: Era Context
+summary: Era Context brings personal-finance context into assistant workflows. Its connector helps users reason over financial information, ask questions about money decisions, and organize personal finance tasks with connected account context.
+description: |-
+  Era Context brings personal-finance context into assistant workflows. Its connector helps users reason over financial information, ask questions about money decisions, and organize personal finance tasks with connected account context.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://era.app/help/mcp-server-era-context/)
+category: other
+tags:
+  - other
+  - remote-mcp
+official: true
+registry_name: app.era/context
+docs_url: https://era.app/help/mcp-server-era-context/
+endpoints:
+  - url: https://context.era.app
+    transport: streamable-http
+    auth: oauth

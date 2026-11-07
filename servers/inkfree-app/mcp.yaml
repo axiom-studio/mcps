@@ -1,0 +1,12 @@
+name: Inkfree
+summary: Send documents for e-signature, track and remind signers, and download signed copies with audit trails.
+category: productivity
+tags:
+  - document
+  - productivity
+  - workflow-automation
+docs_url: https://inkfree.app/
+endpoints:
+  - url: https://api.inkfree.app/core/inkfree/mcp/
+    transport: streamable-http
+    auth: oauth

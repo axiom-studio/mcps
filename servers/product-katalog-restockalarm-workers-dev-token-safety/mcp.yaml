@@ -1,0 +1,14 @@
+name: Token Safety
+summary: One-call token-verdict API for Base ERC-20 tokens (risk score, rug signals, holder concentration, momentum) plus token-risk, rug-check, holder-check and momentum-score endpoints. Built for agents that buy, list or accept unknown tokens. Pay per call via x402 (USDC on Base/Polygon) or card credit packs.
+category: finance
+tags:
+  - crypto
+  - defi
+  - evm
+  - finance
+  - trading
+docs_url: https://product-katalog.restockalarm.workers.dev/token-safety
+endpoints:
+  - url: https://token-safety-mcp.restockalarm.workers.dev/mcp
+    transport: streamable-http
+    auth: none

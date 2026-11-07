@@ -1,0 +1,13 @@
+name: Veripoint
+summary: Research private and public company financials, inspect supporting evidence and retrieve saved workspace reports from an AI assistant.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - knowledge-retrieval
+  - research
+docs_url: https://veripoint.ai/api-docs/mcp-setup
+endpoints:
+  - url: https://veripoint.sens663.chatgpt.site/mcp
+    transport: streamable-http
+    auth: oauth

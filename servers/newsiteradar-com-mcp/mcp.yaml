@@ -1,0 +1,13 @@
+name: New Site Radar
+summary: 'Remote MCP server for New Site Radar: 7 read-only tools to query rankings of newly launched AI tool sites gaining traffic, with the evidence behind each number. Endpoint https://newsiteradar.com/api/mcp (tools/list open; tools/call needs a Pro API key via x-api-key header).'
+category: marketing
+tags:
+  - ai-agent
+  - analytics
+  - marketing
+  - web-research
+docs_url: https://newsiteradar.com/mcp
+endpoints:
+  - url: https://newsiteradar.com/api/mcp
+    transport: streamable-http
+    auth: unknown

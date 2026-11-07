@@ -1,0 +1,13 @@
+name: Very Simple Notes
+summary: Clean Markdown notes in folders, with files, that you and your AI agent keep together. Remote MCP with OAuth; apps for iPhone, iPad and Mac.
+category: productivity
+tags:
+  - cloud-storage
+  - file-management
+  - notes
+  - productivity
+docs_url: https://verysimplenotes.com/api
+endpoints:
+  - url: https://verysimplenotes.com/mcp
+    transport: streamable-http
+    auth: oauth

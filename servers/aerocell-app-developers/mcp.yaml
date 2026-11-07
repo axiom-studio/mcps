@@ -1,0 +1,10 @@
+name: AeroCell — Travel eSIM Search
+summary: Search live AeroCell travel eSIM plans by destination, travel dates, data allowance and budget, with coverage details and checkout links.
+category: search
+tags:
+  - search
+docs_url: https://aerocell.app/developers
+endpoints:
+  - url: https://aerocell.app/mcp
+    transport: streamable-http
+    auth: none

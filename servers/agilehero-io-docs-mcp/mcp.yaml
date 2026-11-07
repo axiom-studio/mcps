@@ -1,0 +1,16 @@
+name: AgileHero
+summary: 'Run an agile workspace from your agent: create and move cards, groom epics, plan roadmaps, run retrospectives, draw whiteboards and write wiki pages.'
+category: productivity
+tags:
+  - collaboration
+  - productivity
+  - project-management
+  - task-management
+  - workflow-automation
+official: true
+docs_url: https://agilehero.io/docs/mcp
+website_url: https://agilehero.io/docs/mcp
+endpoints:
+  - url: https://mcp.agilehero.io/mcp
+    transport: streamable-http
+    auth: oauth

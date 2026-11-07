@@ -1,0 +1,12 @@
+name: image-ocr
+summary: Machine-buyable image URL → plain text OCR for AI bots. Free try then prepaid TEST credits.
+category: other
+tags:
+  - ai-model
+  - document
+  - file-conversion
+docs_url: https://ocr.kymac.co/llms.txt
+endpoints:
+  - url: https://ocr.kymac.co/mcp
+    transport: streamable-http
+    auth: api-key

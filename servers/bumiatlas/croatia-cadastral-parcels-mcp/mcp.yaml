@@ -1,0 +1,13 @@
+name: Croatia Cadastral Parcels (DGU · Katastarske čestice)
+summary: Croatian DGU cadastral parcels by katastarska općina and parcel number, or coordinates.
+category: other
+tags:
+  - geospatial
+  - government
+  - real-estate
+  - search
+docs_url: https://github.com/BumiAtlas/croatia-cadastral-parcels-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/croatia
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: XML.now MCP Server
+summary: Discover and run XML conversion workflows for JSON, CSV, XLSX, HTML, TXT, PDF and YAML from MCP-compatible AI clients.
+category: development
+tags:
+  - development
+  - document
+  - file-conversion
+  - workflow-automation
+docs_url: https://xml.now/mcp-server
+endpoints:
+  - url: https://xml.now/mcp
+    transport: streamable-http
+    auth: api-key

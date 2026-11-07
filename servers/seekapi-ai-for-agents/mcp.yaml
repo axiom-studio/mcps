@@ -1,0 +1,12 @@
+name: SeekAPI — China Supply Check
+summary: Find and screen China suppliers for a product. A successful China Supply Check returns three distinct RFQ-worthy candidates with source evidence, observed price basis, MOQ fit, supplier identity evidence where available and explicit unknowns. MCP-native; 2.99 USDC via x402 live. Stripe Checkout USD 2.99 is being enabled.
+category: productivity
+tags:
+  - ecommerce
+  - research
+  - web-research
+docs_url: https://seekapi.ai/for-agents
+endpoints:
+  - url: https://api.seekapi.ai/mcp
+    transport: streamable-http
+    auth: unknown

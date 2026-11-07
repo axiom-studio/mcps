@@ -1,0 +1,14 @@
+name: Cleared
+summary: 'USDC invoicing on Base: send invoices, share pay links, track payments and customers.'
+category: finance
+tags:
+  - crypto
+  - customer-ops
+  - evm
+  - finance
+  - payment
+docs_url: https://clearedpay.xyz/docs/mcp/overview
+endpoints:
+  - url: https://api.clearedpay.xyz/mcp
+    transport: streamable-http
+    auth: oauth

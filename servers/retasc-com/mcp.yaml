@@ -1,0 +1,13 @@
+name: Retasc
+summary: Retasc is a work queue for AI coding agents. Two agents can never hold the same issue. Run `npx @retasc/cli@latest bind` in the folder to connect Claude Code, Codex, Cursor or another MCP client.
+category: development
+tags:
+  - ai-agent
+  - development
+  - project-management
+  - task-management
+docs_url: https://github.com/Retasc/skills
+endpoints:
+  - url: https://mcp.retasc.com/mcp
+    transport: streamable-http
+    auth: unknown

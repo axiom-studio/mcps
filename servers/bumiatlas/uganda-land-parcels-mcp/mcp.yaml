@@ -1,0 +1,13 @@
+name: Uganda Land Parcels (Kampala Cadastre · Block & Plot)
+summary: Kampala cadastral parcels (MLHUD 2024) by cadastral number, block and plot, or coordinates.
+category: other
+tags:
+  - database
+  - geospatial
+  - government
+  - real-estate
+docs_url: https://github.com/BumiAtlas/uganda-land-parcels-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/uganda
+    transport: streamable-http
+    auth: oauth

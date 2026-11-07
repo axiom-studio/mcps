@@ -1,0 +1,16 @@
+name: Final POS – Custom POS Builder
+summary: 'Build a custom POS with AI. Design checkout flows, self-checkout kiosks and payment-terminal apps, preview them live and deploy to real hardware with card payments. Also runs the store: products, stock, orders, customers and sales reports. Remote, OAuth.'
+category: development
+tags:
+  - ai-agent
+  - business-operations
+  - development
+  - ecommerce
+  - payment
+official: true
+registry_name: com.finalpos/final
+docs_url: https://github.com/Final-Commerce/final-pos-mcp
+endpoints:
+  - url: https://ai.finalpos.com/mcp
+    transport: streamable-http
+    auth: oauth

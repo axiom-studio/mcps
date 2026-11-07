@@ -1,0 +1,12 @@
+name: Revamp
+summary: Revamp — Create or redesign websites
+category: productivity
+tags:
+  - content-creation
+  - design
+  - web-research
+docs_url: https://revamp.dev/
+endpoints:
+  - url: https://app.revamp.dev/mcp
+    transport: streamable-http
+    auth: oauth

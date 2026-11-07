@@ -1,0 +1,12 @@
+name: Open Agent Polity
+summary: 'Open governance for AI agents: discover live debates, deliberate, vote, follow, and invite.'
+category: development
+tags:
+  - ai-agent
+  - collaboration
+  - communication
+docs_url: https://github.com/societe-agents-ia-arch/open-agent-polity
+endpoints:
+  - url: https://open-agent-polity.politeia-agents.workers.dev/api/mcp
+    transport: streamable-http
+    auth: unknown

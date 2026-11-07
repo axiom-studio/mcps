@@ -1,0 +1,12 @@
+name: WhereItGoes
+summary: 'Read your own crypto portfolio across exchanges and wallets: holdings, history, FIFO P&L, fees, income. Remote, OAuth.'
+category: finance
+tags:
+  - crypto
+  - finance
+  - trading
+docs_url: https://github.com/khapham7165/whereitgoes-mcp
+endpoints:
+  - url: https://api.whereitgoes.money/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: idmly
+summary: 'Converts a self-contained HTML design into an editable Adobe InDesign (.idml) file: live text frames, paragraph styles, linked images. First 2 pages free; $49 lifetime license for full documents.'
+category: design
+tags:
+  - content-creation
+  - design
+  - document
+  - file-conversion
+docs_url: https://github.com/KellyKazi3/idmly-mcp
+endpoints:
+  - url: https://idmly-production.up.railway.app/mcp
+    transport: streamable-http
+    auth: unknown

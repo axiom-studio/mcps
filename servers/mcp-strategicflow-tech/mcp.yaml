@@ -1,0 +1,13 @@
+name: Strategic Flow MCP
+summary: 'Audit B2B SaaS lifecycle emails with the 7-point Decision Friction Model: structural score, named friction patterns, and fixes.'
+category: marketing
+tags:
+  - business-operations
+  - customer-ops
+  - email-automation
+  - marketing
+docs_url: https://mcp.strategicflow.tech
+endpoints:
+  - url: https://mcp.strategicflow.tech/api/mcp
+    transport: streamable-http
+    auth: api-key

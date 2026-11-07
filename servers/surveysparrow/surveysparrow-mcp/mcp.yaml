@@ -1,0 +1,12 @@
+name: SurveySparrow MCP
+summary: Connect Claude or ChatGPT to SurveySparrow. Create, edit, publish and share surveys, then analyze the responses all in your AI chat.
+category: marketing
+tags:
+  - ai-agent
+  - analytics
+  - marketing
+docs_url: https://github.com/surveysparrow/surveysparrow-mcp
+endpoints:
+  - url: https://integrations.surveysparrow.com/surveysparrow/mcp
+    transport: streamable-http
+    auth: oauth

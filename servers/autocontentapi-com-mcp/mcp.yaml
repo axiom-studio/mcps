@@ -1,0 +1,14 @@
+name: AutoContent
+summary: Turn PDFs, URLs, documents, videos and text into podcasts, videos, slide decks, infographics, articles and quizzes. Hosted server with OAuth.
+category: marketing
+tags:
+  - audio
+  - content-creation
+  - file-conversion
+  - marketing
+  - media
+docs_url: https://autocontentapi.com/mcp
+endpoints:
+  - url: https://mcp.autocontentapi.com/v1
+    transport: streamable-http
+    auth: oauth

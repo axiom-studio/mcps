@@ -1,0 +1,13 @@
+name: CutLuma video editor
+summary: Free online video editor in the browser. Search its free tools, how-to guides and 230+ animated templates, look up video sizes per platform and pricing, and build links that open the editor with captions, screen recording, resize or a template ready. Read-only, no API key.
+category: design
+tags:
+  - content-creation
+  - design
+  - media
+  - video
+docs_url: https://cutluma.com/openapi.json
+endpoints:
+  - url: https://cutluma.com/mcp
+    transport: streamable-http
+    auth: none

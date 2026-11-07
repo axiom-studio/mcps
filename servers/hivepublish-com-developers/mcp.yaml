@@ -1,0 +1,14 @@
+name: Hive
+summary: 'Run your own social accounts: DM automations for Instagram, Messenger, WhatsApp and TikTok, publishing and scheduling across twelve networks, cross-account analytics, a shared inbox and a link-in-bio page. Nothing reaches an audience without the account holder approving it in Hive.'
+category: marketing
+tags:
+  - analytics
+  - communication
+  - marketing-automation
+  - social-media
+  - workflow-automation
+docs_url: https://hivepublish.com/developers
+endpoints:
+  - url: https://hivepublish.com/api/mcp
+    transport: streamable-http
+    auth: oauth

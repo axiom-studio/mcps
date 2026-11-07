@@ -1,0 +1,13 @@
+name: Nexus
+summary: Calorie, workout and body-weight log inside ChatGPT and Claude. Log meals by text, photo or voice; plan workouts to tick off set by set. Free.
+category: productivity
+tags:
+  - chatbot
+  - fitness
+  - healthcare
+  - productivity
+docs_url: https://nexus.kushalsm.com/
+endpoints:
+  - url: https://mcp.nexus.kushalsm.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Recalld
+summary: Managed long-term memory for AI agents. Facts evolve as information changes, and agents retrieve relevant context without a custom memory system.
+category: memory
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - llm
+  - memory
+docs_url: https://recalld.ai/docs/mcp
+endpoints:
+  - url: https://eu.recalld.ai/mcp
+    transport: streamable-http
+    auth: oauth

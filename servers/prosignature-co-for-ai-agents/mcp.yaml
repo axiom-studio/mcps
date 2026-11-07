@@ -1,0 +1,12 @@
+name: ProSignature Email Signatures
+summary: 'Read-only remote MCP server: build a free email signature (HTML and plain text), quote Pro and Teams prices, and get Gmail, Outlook and Apple Mail install steps. No account, no auth.'
+category: productivity
+tags:
+  - document
+  - email-automation
+  - productivity
+docs_url: https://prosignature.co/for-ai-agents
+endpoints:
+  - url: https://prosignature.co/mcp
+    transport: streamable-http
+    auth: none

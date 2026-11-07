@@ -1,0 +1,12 @@
+name: Weight Forecast
+summary: 'Weight Forecast: know your goal-weight date. Log food, sync Garmin, get a daily AI coach in Telegram.'
+category: other
+tags:
+  - data-analysis
+  - healthcare
+  - productivity
+docs_url: https://www.weight-forecast.com/
+endpoints:
+  - url: https://weight-forecast.com/api/mcp
+    transport: streamable-http
+    auth: oauth

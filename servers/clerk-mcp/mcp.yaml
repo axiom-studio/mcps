@@ -1,0 +1,19 @@
+name: Clerk
+summary: Clerk provides authentication, organization management, and billing implementation support for application developers. Its connector brings current SDK snippets, route-protection patterns, B2B organization examples, and framework-specific guidance into assistant coding workflows.
+description: |-
+  Clerk provides authentication, organization management, and billing implementation support for application developers. Its connector brings current SDK snippets, route-protection patterns, B2B organization examples, and framework-specific guidance into assistant coding workflows.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://clerk.com/docs/guides/ai/mcp/clerk-mcp-server)
+category: development
+tags:
+  - development
+  - remote-mcp
+official: true
+registry_name: io.github.clerk/mcp-server
+docs_url: https://clerk.com/docs/guides/ai/mcp/clerk-mcp-server
+endpoints:
+  - url: https://mcp.clerk.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: LLMKit
+summary: Token counting, RAG chunking, truncation, HTML to Markdown and JSON repair. Free tier, RapidAPI key.
+category: development
+tags:
+  - data-analysis
+  - development
+  - llm
+  - rag
+docs_url: https://rapidapi.com/Olly-1VN9JTXKG/api/llmkit-token-counter-rag-chunker-json-repair
+endpoints:
+  - url: https://llmkit-token-counter-rag-chunker-json-repair.p.rapidapi.com/mcp
+    transport: streamable-http
+    auth: api-key

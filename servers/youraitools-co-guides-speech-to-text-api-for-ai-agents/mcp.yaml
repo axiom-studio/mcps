@@ -1,0 +1,13 @@
+name: Transcribe
+summary: 'Pay-per-minute speech-to-text for AI agents: MP3, WAV, M4A or OGG in, transcript, language, timestamps and SRT/VTT out. $0.003 per audio minute, no free tier.'
+category: other
+tags:
+  - ai-agent
+  - audio
+  - text-to-speech
+  - translation
+docs_url: https://youraitools.co/guides/speech-to-text-api-for-ai-agents
+endpoints:
+  - url: https://api.youraitools.co/transcribe/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: RPScripts FiveM Developer
+summary: 'MCP server for FiveM (GTA V roleplay) servers and their owners. Public tools: search the RPScripts catalogue of scripts, MLOs, server packs and vehicles; check whether a resource fits ESX Legacy, QBCore or Qbox; statically validate a resource (Lua syntax incl. CfxLua, fxmanifest.lua directives, remote code loading); parse and check an FXServer server.cfg; generate a valid fxmanifest.lua or a QBCore/Qbox job resource; search FiveM installation docs; look up a public server by its cfx.re join code. Account tools (purchase list, signed download URL, AI script generation) use OAuth 2.1.'
+category: development
+tags:
+  - code-quality
+  - development
+  - documentation
+  - game-development
+docs_url: https://rpscripts.net/docs/mcp/
+endpoints:
+  - url: https://rpscripts.net/mcp
+    transport: streamable-http
+    auth: none

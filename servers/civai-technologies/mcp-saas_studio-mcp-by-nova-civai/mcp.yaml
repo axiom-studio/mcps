@@ -1,0 +1,13 @@
+name: SaaS Studio by Nova (CIVAI)
+summary: Turn your website into plugins AI assistants can use. SaaS Studio records your product in a real browser, then you can finish setup, connect agents, and go live from chat or from studio.civai.co.
+category: productivity
+tags:
+  - ai-agent
+  - browser-automation
+  - productivity
+  - workflow-automation
+docs_url: https://github.com/civai-technologies/mcp-saas_studio-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-saas_studio
+    transport: streamable-http
+    auth: api-key

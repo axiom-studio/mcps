@@ -1,0 +1,13 @@
+name: transcribe.so
+summary: Transcribe YouTube videos, podcasts, meetings and files into speaker-labelled, timestamped transcripts. Search who said what, ask cited questions, export chapters, subtitles and captions. Hosted remote server with OAuth.
+category: productivity
+tags:
+  - audio
+  - media
+  - productivity
+  - video
+docs_url: https://github.com/shsunmoonlee/transcribe-agent
+endpoints:
+  - url: https://transcribe.so/mcp
+    transport: streamable-http
+    auth: oauth

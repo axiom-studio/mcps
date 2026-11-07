@@ -1,0 +1,14 @@
+name: GPU Economy
+summary: 'Current cloud GPU rental prices from 80+ providers (AWS, Azure, GCP, Lambda, CoreWeave, RunPod, Vast.ai...) in USD per GPU-hour, read hourly: find, compare, cost and track GPUs. Each price carries its read time and the page that links its source. Free, no key.'
+category: cloud-service
+tags:
+  - analytics
+  - aws
+  - azure
+  - cloud-infrastructure
+  - finance
+docs_url: https://gpueconomy.com/mcp
+endpoints:
+  - url: https://gpueconomy.com/mcp
+    transport: streamable-http
+    auth: none

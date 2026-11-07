@@ -1,0 +1,12 @@
+name: FactoGraph
+summary: 'Memory for AI agents: facts a person approved, each with a link, and answers that cite them.'
+category: cloud-storage
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - memory
+docs_url: https://www.factograph.app/for-ai-agents.html
+endpoints:
+  - url: https://api.factograph.app/api/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,11 @@
+name: HomeCalc.ca
+summary: 'Canadian mortgage, tax & land transfer calculators: 12 read-only tools, LTT for all 13 provinces and territories.'
+category: finance
+tags:
+  - finance
+  - real-estate
+docs_url: https://homecalc.ca/connector
+endpoints:
+  - url: https://homecalc.ca/api/mcp
+    transport: streamable-http
+    auth: none

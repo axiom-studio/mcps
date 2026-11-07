@@ -1,0 +1,13 @@
+name: AnswerLine
+summary: Get AI answers, citations and source URLs from ChatGPT, Gemini, Copilot, Google Search, News, AI Overview and AI Mode for any prompt.
+category: search
+tags:
+  - ai-model
+  - knowledge-retrieval
+  - search
+  - web-research
+docs_url: https://answerline.dev/docs
+endpoints:
+  - url: https://mcp.answerline.dev/mcp
+    transport: streamable-http
+    auth: api-key

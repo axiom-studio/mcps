@@ -1,0 +1,24 @@
+name: GoDaddy
+summary: GoDaddy helps users search domains and check availability. Its connector gives assistants domain-discovery context so naming ideas, availability checks, and domain decisions can be explored conversationally.
+description: |-
+  # GoDaddy
+
+  GoDaddy helps users search domains and check availability. Its connector gives assistants domain-discovery context so naming ideas, availability checks, and domain decisions can be explored conversationally.
+
+  ## Connection
+
+  none: https://api.godaddy.com/v1/domains/mcp
+
+  The publisher explicitly says public discovery tools do not accept account credentials. Purchases and account management are separate.
+
+  [Official documentation](https://developer.godaddy.com/en/docs/api-users/mcp)
+category: development
+tags:
+  - development
+  - remote-mcp
+official: true
+docs_url: https://developer.godaddy.com/en/docs/api-users/mcp
+endpoints:
+  - url: https://api.godaddy.com/v1/domains/mcp
+    transport: streamable-http
+    auth: none

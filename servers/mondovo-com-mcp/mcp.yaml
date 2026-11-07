@@ -1,0 +1,14 @@
+name: Mondovo
+summary: Build, edit and publish AI-generated websites directly from your AI assistant. Connect securely with OAuth and turn a business brief into a live website.
+category: design
+tags:
+  - cms
+  - content-creation
+  - design
+  - web-research
+  - workflow-automation
+docs_url: https://mondovo.com/mcp
+endpoints:
+  - url: https://app.mondovo.com/api/mcp/sites
+    transport: streamable-http
+    auth: oauth

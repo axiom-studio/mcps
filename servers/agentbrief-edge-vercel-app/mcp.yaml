@@ -1,0 +1,13 @@
+name: AgentBrief
+summary: Cite-backed research for other AIs. Question in, Wikipedia claims and sources out. Remote MCP.
+category: search
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - search
+  - web-research
+docs_url: https://agentbrief-edge.vercel.app
+endpoints:
+  - url: https://agentbrief-edge.vercel.app/mcp
+    transport: streamable-http
+    auth: unknown

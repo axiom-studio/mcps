@@ -1,0 +1,13 @@
+name: Côte d'Ivoire Rural Land Parcels (AFOR · Foncier rural)
+summary: Ivorian AFOR rural land-certificate parcels by parcel code, dossier, village or coordinates.
+category: other
+tags:
+  - database
+  - geospatial
+  - government
+  - real-estate
+docs_url: https://github.com/BumiAtlas/cotedivoire-land-parcels-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/cotedivoire
+    transport: streamable-http
+    auth: oauth

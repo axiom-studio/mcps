@@ -1,0 +1,12 @@
+name: Bond
+summary: Manage a Discord server in plain language, within the permissions of the member who signs in.
+category: communication
+tags:
+  - communication
+  - discord
+  - workflow-automation
+docs_url: https://www.bondbot.gg/mcp
+endpoints:
+  - url: https://mcp.bondbot.gg/mcp
+    transport: streamable-http
+    auth: oauth

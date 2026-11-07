@@ -1,0 +1,13 @@
+name: Suggix
+summary: Connect Claude, ChatGPT, Cursor, Codex, or any MCP-compatible client to Suggix. Search feedback, manage feature requests, update your roadmap, and publish changelogs with natural language.
+category: productivity
+tags:
+  - customer-ops
+  - productivity
+  - project-management
+  - workflow-automation
+docs_url: https://help.suggix.com/mcp/overview
+endpoints:
+  - url: https://mcp.suggix.com/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: Blastak Public Discovery
+summary: Blastak is a WhatsApp-first appointment booking platform for Moroccan service businesses—salons, barbers, beauty institutes, medical practices, and detailing. This public MCP server exposes two read-only discovery tools for official product pages and integration docs. No authentication required; no customer data, booking writes, or WhatsApp sending.
+category: productivity
+tags:
+  - document
+  - documentation
+  - productivity
+docs_url: https://blastak.app/.well-known/agent-skills/blastak-public-booking-discovery/SKILL.md
+website_url: https://blastak.app
+endpoints:
+  - url: https://blastak.app/mcp
+    transport: streamable-http
+    auth: none

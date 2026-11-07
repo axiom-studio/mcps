@@ -1,0 +1,13 @@
+name: Billstride
+summary: Create, send and track invoices from a conversation. Look up clients, reuse last month's invoice, chase overdue payments and see what you earned. E-invoices (ZUGFeRD, XRechnung) and DATEV export included. Hosted server, sign in with OAuth.
+category: finance
+tags:
+  - business-operations
+  - finance
+  - payment
+  - workflow-automation
+docs_url: https://billstride.com/mcp
+endpoints:
+  - url: https://billstride.com/api/mcp
+    transport: streamable-http
+    auth: oauth

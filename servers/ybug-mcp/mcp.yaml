@@ -1,0 +1,14 @@
+name: Ybug
+summary: Connect Claude, ChatGPT, Cursor or any MCP client to Ybug. Read bug reports with screenshots, console logs and network requests, then triage them in chat.
+category: development
+tags:
+  - debugging
+  - development
+  - testing-qa
+official: true
+registry_name: io.ybug/mcp
+docs_url: https://ybug.io/features/mcp-server
+endpoints:
+  - url: https://mcp.ybug.io/mcp
+    transport: streamable-http
+    auth: oauth

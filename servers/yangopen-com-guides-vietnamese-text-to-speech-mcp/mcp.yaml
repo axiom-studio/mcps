@@ -1,0 +1,13 @@
+name: YangOpen
+summary: 'Vietnamese-first text to speech for AI assistants: 16 free voices and about 2,600 Plus voices (182 Vietnamese, with Northern, Central and Southern accents), returned as MP3 links. Also photo tools (remove background, sharpen, expand, colorize, scan a page), Word to PDF and TCVN3/VNI to Unicode. Remote MCP server with OAuth sign-in and a free daily allowance.'
+category: productivity
+tags:
+  - audio
+  - file-conversion
+  - productivity
+  - text-to-speech
+docs_url: https://yangopen.com/guides/vietnamese-text-to-speech-mcp/
+endpoints:
+  - url: https://yangopen.com/mcp
+    transport: streamable-http
+    auth: oauth

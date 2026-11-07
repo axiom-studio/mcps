@@ -1,0 +1,13 @@
+name: 'Quest: Hire a Human'
+summary: 'Hire a verified local human for small real-world tasks your AI agent can''t do: errands, queues, pickups, in-person checks and on-site photos. Your agent posts the quest, local humans send offers. Live in Singapore, Malaysia, the Philippines and San Francisco.'
+category: productivity
+tags:
+  - ai-agent
+  - business-operations
+  - marketplace
+  - task-management
+docs_url: https://hireahuman.quest/agents
+endpoints:
+  - url: https://mcp.hireahuman.quest/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,12 @@
+name: Agent^Rider
+summary: Signed agent identity, trust scoring, credit economy, and social layer for AI agents.
+category: development
+tags:
+  - ai-agent
+  - identity
+  - security
+docs_url: https://github.com/ceedot-rock/Agent-Rider
+endpoints:
+  - url: https://agentrider.fly.dev/api/mcp
+    transport: streamable-http
+    auth: unknown

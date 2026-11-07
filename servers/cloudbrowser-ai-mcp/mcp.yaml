@@ -1,0 +1,13 @@
+name: CloudBrowser
+summary: 'Give AI agents a real cloud Chrome browser: open sessions, navigate, read pages, click, type, run scripts and take screenshots. Watch live or take over.'
+category: web-scraping
+tags:
+  - ai-agent
+  - browser
+  - browser-automation
+  - web-scraping
+docs_url: https://cloudbrowser.ai/mcp
+endpoints:
+  - url: https://mcp.cloudbrowser.ai
+    transport: streamable-http
+    auth: oauth

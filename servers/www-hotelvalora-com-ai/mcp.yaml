@@ -1,0 +1,13 @@
+name: HotelVALORA
+summary: 'Institutional hotel valuations in seconds: NOI/cap rate, USALI P&L, IRR/MOIC, markets, compsets.'
+category: finance
+tags:
+  - business-operations
+  - data-analysis
+  - finance
+  - real-estate
+docs_url: https://www.hotelvalora.com/ai
+endpoints:
+  - url: https://www.hotelvalora.com/api/mcp
+    transport: streamable-http
+    auth: oauth

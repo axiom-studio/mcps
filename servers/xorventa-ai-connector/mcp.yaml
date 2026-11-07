@@ -1,0 +1,10 @@
+name: Xorventa
+summary: Connect Xora to review your Xorventa account and request supported work under owner controls.
+category: productivity
+tags:
+  - productivity
+docs_url: https://xorventa.ai/connector
+endpoints:
+  - url: https://api.xorventa.ai/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: ShipLatch
+summary: ShipLatch runs a free, passive, read-only security scan of a public web app you own, such as a Lovable, Bolt, Replit or Cursor app. Ask your AI assistant to scan a URL and get a grade, issue counts and the type and severity of each issue. No account or API key needed. Streamable HTTP.
+category: development
+tags:
+  - development
+  - security
+  - testing-qa
+  - web-scraping
+docs_url: https://shiplatch.com/mcp?src=mcp
+endpoints:
+  - url: https://shiplatch.com/mcp
+    transport: streamable-http
+    auth: none

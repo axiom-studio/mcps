@@ -1,0 +1,12 @@
+name: ScamCheck
+summary: 'Check messages, links and job offers for scams: verdict, risk score, red flags, next steps.'
+category: other
+tags:
+  - communication
+  - security
+  - web-research
+docs_url: https://github.com/smijo-geek/scamcheck-mcp-server
+endpoints:
+  - url: https://scamcheck.tech/api/mcp
+    transport: streamable-http
+    auth: unknown

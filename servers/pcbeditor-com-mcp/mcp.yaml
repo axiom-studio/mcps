@@ -1,0 +1,13 @@
+name: PCBEditor
+summary: Design, route, check and export manufacturable PCBs from a plain-language description, with Gerber and KiCad files.
+category: design
+tags:
+  - design
+  - design-to-code
+  - development
+  - file-conversion
+docs_url: https://pcbeditor.com/mcp
+endpoints:
+  - url: https://mcp.pcbeditor.com/mcp
+    transport: streamable-http
+    auth: oauth

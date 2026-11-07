@@ -1,0 +1,8 @@
+name: Sansasyonel Gazete MCP
+summary: Türkiye ve dünya gündemi, basın manşet arşivi, borsa hisse fiyatlamaları ve yatırım fonu analizlerini yapay zeka istemcilerine bağlayan MCP endpoint'i.
+category: other
+docs_url: https://sansasyonelgazete.com/api/mcp
+endpoints:
+  - url: https://sansasyonelgazete.com/api/mcp
+    transport: streamable-http
+    auth: none

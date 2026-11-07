@@ -1,0 +1,13 @@
+name: Machine Library
+summary: Cited search over papers, books, patents, standards, Wikipedia and public discussions, with bounded full text and canonical source URIs.
+category: search
+tags:
+  - api
+  - cloud-infrastructure
+  - data-analysis
+docs_url: https://github.com/SpaceFrontiers/mcp
+website_url: https://machinelibrary.ai/mcp
+endpoints:
+  - url: https://mcp.machinelibrary.ai
+    transport: streamable-http
+    auth: unknown

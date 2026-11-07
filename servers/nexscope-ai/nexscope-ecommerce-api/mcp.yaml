@@ -1,0 +1,13 @@
+name: Nexscope
+summary: Ecommerce marketplace data MCP for Amazon, TikTok Shop, Walmart, Shopee, Temu & 1688.
+category: marketing
+tags:
+  - data-analysis
+  - ecommerce
+  - marketplace
+  - web-research
+docs_url: https://github.com/nexscope-ai/nexscope-ecommerce-api
+endpoints:
+  - url: https://api.nexscope.ai/api/skill-api/v2/mcp
+    transport: streamable-http
+    auth: unknown

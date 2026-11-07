@@ -1,0 +1,13 @@
+name: Schaduwplan
+summary: Lets your AI draw a building plan into Schaduwplan's 3D sun and shadow scene of a Dutch address and run a provisional sunlight check.
+category: design
+tags:
+  - ai-agent
+  - design
+  - geospatial
+  - real-estate
+docs_url: https://schaduwplan.nl/met-je-eigen-ai/
+endpoints:
+  - url: https://schaduwplan.nl/mcp
+    transport: streamable-http
+    auth: unknown

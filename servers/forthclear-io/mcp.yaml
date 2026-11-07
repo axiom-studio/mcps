@@ -1,0 +1,13 @@
+name: ForthClear
+summary: Search and buy surplus, overstock and returned inventory lots from a B2B marketplace. Ask for quotes, check lot details and manifests, and place orders.
+category: other
+tags:
+  - business-operations
+  - ecommerce
+  - inventory
+  - marketplace
+docs_url: https://forthclear.io
+endpoints:
+  - url: https://app.forthclear.io/mcp
+    transport: streamable-http
+    auth: unknown

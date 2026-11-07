@@ -1,0 +1,13 @@
+name: Timbré — Postcards MCP
+summary: 'Let an AI assistant create and mail a real printed postcard: photo + message + postal address → preview → €3.99 payment → printed and posted worldwide.'
+category: productivity
+tags:
+  - communication
+  - media
+  - payment
+  - productivity
+docs_url: https://timbre.at/en/mcp/docs.md
+endpoints:
+  - url: https://rqqazttexbqpsmjnvowj.supabase.co/functions/v1/mcp
+    transport: streamable-http
+    auth: unknown

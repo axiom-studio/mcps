@@ -1,0 +1,14 @@
+name: OpenAdLibrary
+summary: Research native ads and competitors, save creative research, and analyze your own campaigns through a hosted MCP server.
+category: marketing
+tags:
+  - advertising
+  - data-analysis
+  - marketing
+  - research
+  - web-research
+docs_url: https://openadlibrary.com/help/api
+endpoints:
+  - url: https://mcp.openadlibrary.com/mcp
+    transport: streamable-http
+    auth: api-key

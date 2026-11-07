@@ -1,0 +1,14 @@
+name: Nitrosend
+summary: Nitrosend's official remote MCP server. Your agent drafts campaigns, builds automation flows, segments contacts and sends transactional email from Claude, ChatGPT, Cursor or Codex. OAuth, free plan.
+category: communication
+tags:
+  - communication
+  - email-automation
+  - marketing-automation
+  - workflow-automation
+official: true
+docs_url: https://nitrosend.com/mcp
+endpoints:
+  - url: https://api.nitrosend.com/mcp
+    transport: streamable-http
+    auth: oauth

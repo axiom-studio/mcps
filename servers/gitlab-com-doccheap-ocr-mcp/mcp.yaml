@@ -1,0 +1,12 @@
+name: doc.cheap — passport & ID OCR
+summary: Read passports, ID cards and driver's licences into structured JSON from any MCP client. Works without a key on the public sandbox.
+category: other
+tags:
+  - ai-model
+  - data-analysis
+  - document
+docs_url: https://gitlab.com/doccheap/ocr-mcp
+endpoints:
+  - url: https://mcp.doc.cheap/mcp
+    transport: streamable-http
+    auth: none

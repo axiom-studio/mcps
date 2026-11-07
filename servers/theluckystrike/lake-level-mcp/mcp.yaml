@@ -1,0 +1,13 @@
+name: Lake Level MCP
+summary: Live US lake and reservoir water levels from USGS, USACE, CDEC, USBR and TWDB gauges.
+category: other
+tags:
+  - data-analysis
+  - geospatial
+  - government
+  - weather
+docs_url: https://github.com/theluckystrike/lake-level-mcp
+endpoints:
+  - url: https://lake-level-mcp.lipmichal.workers.dev/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: formset
+summary: formset builds hosted forms from a description in chat. Ask Claude or ChatGPT for a signup sheet, RSVP, survey or poll; formset hosts it at a shareable link, collects the answers and reads them back to you, down to a CSV export. Respondents need no account.
+category: productivity
+tags:
+  - data-analysis
+  - productivity
+  - workflow-automation
+docs_url: https://www.getformset.com/docs
+endpoints:
+  - url: https://mcp.getformset.com/mcp
+    transport: streamable-http
+    auth: oauth

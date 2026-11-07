@@ -1,0 +1,13 @@
+name: BackPR youth program data
+summary: 'Public, read-only data on US youth programs: state childcare and camp rules, licensed program counts, registration software pricing and form templates. No sign-in.'
+category: search
+tags:
+  - education
+  - government
+  - research
+  - search
+docs_url: https://backpr.com/ai
+endpoints:
+  - url: https://backpr.com/ai/mcp
+    transport: streamable-http
+    auth: unknown

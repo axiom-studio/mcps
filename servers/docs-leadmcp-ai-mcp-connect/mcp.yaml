@@ -1,0 +1,14 @@
+name: LeadMCP
+summary: A B2B contact database your AI agent queries over MCP. Free counts, phones in the row, enrichment, exports and signal alerts at one flat price.
+category: marketing
+tags:
+  - crm
+  - data-analysis
+  - knowledge-retrieval
+  - marketing
+  - sales
+docs_url: https://docs.leadmcp.ai/mcp/connect
+endpoints:
+  - url: https://mcp.leadmcp.ai
+    transport: streamable-http
+    auth: oauth

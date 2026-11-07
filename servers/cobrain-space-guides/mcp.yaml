@@ -1,0 +1,13 @@
+name: Cobrain
+summary: Shared Markdown memory for Claude, ChatGPT, Claude Code and Codex, over one remote MCP URL.
+category: productivity
+tags:
+  - document
+  - knowledge-retrieval
+  - memory
+  - productivity
+docs_url: https://cobrain.space/guides
+endpoints:
+  - url: https://cobrain.space/mcp
+    transport: streamable-http
+    auth: oauth

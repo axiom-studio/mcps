@@ -1,0 +1,13 @@
+name: Postkey
+summary: 'Agentic Instagram DM automation: comment-to-DM links, follow to unlock, inbox, post scheduling.'
+category: marketing
+tags:
+  - chatbot
+  - marketing-automation
+  - notifications
+  - social-media
+docs_url: https://postkey.pro
+endpoints:
+  - url: https://postkey.pro/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: IndiaRestros MCP Server
+summary: 'Free, no-key MCP server for India restaurants: search 5 lakh+ restaurants, cafes and dhabas in 8,911 cities, read menus with rupee prices and veg marks, find dishes under a budget, get phones and timings.'
+category: search
+tags:
+  - data-analysis
+  - search
+  - web-research
+docs_url: https://indiarestros.com/for-agents
+endpoints:
+  - url: https://indiarestros.com/mcp
+    transport: streamable-http
+    auth: none

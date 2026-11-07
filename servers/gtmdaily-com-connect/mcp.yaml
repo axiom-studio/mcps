@@ -1,0 +1,13 @@
+name: GTM Daily
+summary: Search verified, open GTM Engineering and RevOps jobs from any AI assistant and let it match them to your own profile, alongside a GTM tools directory, market data and playbooks.
+category: productivity
+tags:
+  - business-operations
+  - productivity
+  - sales
+  - search
+docs_url: https://gtmdaily.com/connect
+endpoints:
+  - url: https://gtmdaily.com/mcp
+    transport: streamable-http
+    auth: oauth

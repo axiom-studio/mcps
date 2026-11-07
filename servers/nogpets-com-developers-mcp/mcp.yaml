@@ -1,0 +1,13 @@
+name: NogPets
+summary: 'Run a pet grooming, walking or sitting business from your AI assistant: day plan, bookings, clients, prices and payment links.'
+category: productivity
+tags:
+  - business-operations
+  - customer-ops
+  - payment
+  - productivity
+docs_url: https://nogpets.com/developers/mcp
+endpoints:
+  - url: https://mcp.nogpets.com/mcp
+    transport: streamable-http
+    auth: unknown

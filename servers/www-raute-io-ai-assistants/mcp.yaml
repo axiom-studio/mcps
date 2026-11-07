@@ -1,0 +1,12 @@
+name: Raute Route Planner
+summary: Plans delivery routes for up to 25 US addresses and up to 5 drivers, then shows the stop order on a map. Free, no sign in.
+category: productivity
+tags:
+  - geospatial
+  - productivity
+  - workflow-automation
+docs_url: https://www.raute.io/ai-assistants/
+endpoints:
+  - url: https://www.raute.io/api/mcp/mcp/
+    transport: streamable-http
+    auth: unknown

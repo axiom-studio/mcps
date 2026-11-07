@@ -1,0 +1,12 @@
+name: Chime Scheduler
+summary: Schedule and publish LinkedIn posts from your AI chat, with images, video and first comments. Sign in with LinkedIn; posts only go to your own profile.
+category: marketing
+tags:
+  - content-creation
+  - marketing-automation
+  - social-media
+docs_url: https://schedule.getchime.co/help
+endpoints:
+  - url: https://schedule.getchime.co/mcp
+    transport: streamable-http
+    auth: oauth

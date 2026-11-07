@@ -1,0 +1,12 @@
+name: MyNomadWorld
+summary: Ask your AI where to live. Ranks 197 countries for remote workers by income tax, cost of living, climate, safety, digital nomad visas, internet speed and time zone. Free, no account, read only.
+category: other
+tags:
+  - data-analysis
+  - research
+  - web-research
+docs_url: https://mynomadworld.com/mcp/
+endpoints:
+  - url: https://mynomadworld.com/api/mcp
+    transport: streamable-http
+    auth: unknown

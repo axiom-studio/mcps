@@ -1,0 +1,13 @@
+name: Shawarma
+summary: 'Make and edit instrumental music from your agent: songs you can keep changing, MP3/WAV export'
+category: design
+tags:
+  - ai-agent
+  - audio
+  - content-creation
+  - music
+docs_url: https://shawarma.studio/developers
+endpoints:
+  - url: https://shawarma.studio/mcp
+    transport: streamable-http
+    auth: oauth

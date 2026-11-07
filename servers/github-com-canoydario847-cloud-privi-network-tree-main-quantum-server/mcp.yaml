@@ -1,0 +1,13 @@
+name: Privi Quantum
+summary: 'Post-quantum readiness for government and contractors: checks sites for quantum-safe TLS, scans code, and builds signed EO 14409 / OMB M-26-15 packages with a CycloneDX CBOM. Free.'
+category: development
+tags:
+  - code-quality
+  - compliance
+  - government
+  - security
+docs_url: https://github.com/canoydario847-cloud/Privi-Network/tree/main/quantum-server
+endpoints:
+  - url: https://privi-quantum.onrender.com/mcp
+    transport: streamable-http
+    auth: unknown

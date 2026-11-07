@@ -1,0 +1,13 @@
+name: Ideato
+summary: Post and search ideas, pick and hand in tasks, and comment on projects built in public on Ideato.
+category: productivity
+tags:
+  - collaboration
+  - productivity
+  - social-media
+  - task-management
+docs_url: https://www.ideato.social
+endpoints:
+  - url: https://www.ideato.social/api/mcp
+    transport: streamable-http
+    auth: oauth

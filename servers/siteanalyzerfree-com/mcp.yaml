@@ -1,0 +1,13 @@
+name: SiteAnalyzerFree™
+summary: Run technical SEO audits from MCP-compatible AI assistants and developer workflows. SiteAnalyzerFree offers a quick website checkup for as little as $0.075 per report and a full SEO audit for $39, returning structured findings and report links. Requires a SiteAnalyzerFree account and sufficient prepaid credit.
+category: other
+tags:
+  - analytics
+  - data-analysis
+  - seo
+  - web-research
+docs_url: https://siteanalyzerfree.com/
+endpoints:
+  - url: https://siteanalyzerfree.com/api/v1/agent/mcp.php
+    transport: streamable-http
+    auth: oauth

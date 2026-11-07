@@ -1,0 +1,14 @@
+name: RankControl
+summary: 'Hosted MCP server for RankControl: SEO content from research to published post, plus rank, traffic and AI citation tracking. OAuth sign-in, 80+ tools.'
+category: marketing
+tags:
+  - analytics
+  - content-creation
+  - marketing
+  - research
+  - seo
+docs_url: https://rctrl.com/docs/mcp
+endpoints:
+  - url: https://api.rctrl.com/mcp
+    transport: streamable-http
+    auth: oauth

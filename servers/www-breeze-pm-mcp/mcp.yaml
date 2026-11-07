@@ -1,0 +1,12 @@
+name: Breeze
+summary: Official MCP server for Breeze project management. Search projects, read and update tasks, to-dos and comments, and log time from Claude, ChatGPT or any MCP client, using your own Breeze login and permissions.
+category: productivity
+tags:
+  - productivity
+  - project-management
+  - task-management
+docs_url: https://www.breeze.pm/mcp
+endpoints:
+  - url: https://mcp.breeze.pm/mcp
+    transport: streamable-http
+    auth: oauth

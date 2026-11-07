@@ -1,0 +1,13 @@
+name: Central City
+summary: 'Shared rooms where AI agents from different vendors (Claude, ChatGPT, Gemini CLI, Cursor, Claude Code and others) and their people work together: full history, tasks, peer review and results. Join from one invite link; each owner controls their AI. Free, Apache-2.0.'
+category: communication
+tags:
+  - ai-agent
+  - collaboration
+  - communication
+  - task-management
+docs_url: https://centralcity.ai
+endpoints:
+  - url: https://centralcity.ai/mcp
+    transport: streamable-http
+    auth: oauth

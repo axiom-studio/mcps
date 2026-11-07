@@ -1,0 +1,13 @@
+name: BEON PASS
+summary: An access wallet for people and AI that connects tools through one MCP endpoint with resource permissions, human approvals, and activity history.
+category: productivity
+tags:
+  - ai-agent
+  - identity
+  - productivity
+  - security
+docs_url: https://beonpass.com/docs
+endpoints:
+  - url: https://beonpass.com/mcp
+    transport: streamable-http
+    auth: unknown

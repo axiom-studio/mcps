@@ -1,0 +1,14 @@
+name: Flowctory
+summary: Generate images, video and audio with 100+ models (Kling, Veo, Seedance, Nano Banana), reuse your media and build editable Canvas workflows from your AI assistant.
+category: design
+tags:
+  - audio
+  - content-creation
+  - media
+  - video
+  - workflow-automation
+docs_url: https://flowctory.com/en/mcp
+endpoints:
+  - url: https://flowctory.com/api/v1/mcp
+    transport: streamable-http
+    auth: oauth

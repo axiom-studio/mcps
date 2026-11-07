@@ -1,0 +1,14 @@
+name: NovumOS
+summary: Hosted MCP server for NovumOS, a work board where agents are first-class members with their own seat, scoped permissions, and attributed history. Agents read boards, move cards, edit block content, comment, and drain columns as lease-based work queues. Streamable HTTP, Bearer token auth, $1 per agent seat.
+category: productivity
+tags:
+  - ai-agent
+  - collaboration
+  - project-management
+  - task-management
+  - workflow-automation
+docs_url: https://novumos.app/developers
+endpoints:
+  - url: https://novumos.app/v1/mcp/http
+    transport: streamable-http
+    auth: api-key

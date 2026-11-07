@@ -1,0 +1,12 @@
+name: email59
+summary: 'Send transactional email from AI agents: sign up by email code, no domain or DNS setup. Free address and list checks need no key.'
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - email-automation
+docs_url: https://github.com/icedsg/email59-mcp
+endpoints:
+  - url: https://email59.com/v1/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,12 @@
+name: feed-digest
+summary: RSS/Atom URL → structured items for bots. Free try then prepaid TEST. Sole entry https://feeds.kymac.co/llms.txt
+category: development
+tags:
+  - content-creation
+  - web-scraping
+  - workflow-automation
+docs_url: https://feeds.kymac.co
+endpoints:
+  - url: https://feeds.kymac.co/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,12 @@
+name: Postemi
+summary: Write, preview and schedule social media posts to 37 platforms and apps, from Instagram to Bluesky.
+category: marketing
+tags:
+  - content-creation
+  - marketing-automation
+  - social-media
+docs_url: https://postemi.com/docs/mcp
+endpoints:
+  - url: https://mcp.postemi.com/mcp
+    transport: streamable-http
+    auth: oauth

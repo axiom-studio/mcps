@@ -1,0 +1,13 @@
+name: Slidler
+summary: Turn an article URL, YouTube video or pasted text into a LinkedIn/Instagram carousel (slide JSON + 1080x1350 PDF). Free, no key.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - youtube
+docs_url: https://slidler.com/
+endpoints:
+  - url: https://slidler.com/mcp
+    transport: streamable-http
+    auth: none

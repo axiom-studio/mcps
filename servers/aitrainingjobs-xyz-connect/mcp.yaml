@@ -1,0 +1,12 @@
+name: AI Training Jobs
+summary: Search open AI training jobs from 14 vetted platforms by field, country and pay, with honest rates and who can apply.
+category: search
+tags:
+  - ai-model
+  - research
+  - search
+docs_url: https://aitrainingjobs.xyz/connect
+endpoints:
+  - url: https://aitrainingjobs.xyz/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: Llama Logger
+summary: Exception tracking for .NET. Let your AI coding agent search and triage errors and stack traces.
+category: development
+tags:
+  - coding-agent
+  - debugging
+  - monitoring
+docs_url: https://www.llamalogger.com/Integrations/MCP-Server/
+endpoints:
+  - url: https://mcp.llamalogger.com/api/mcp
+    transport: streamable-http
+    auth: oauth

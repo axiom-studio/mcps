@@ -1,0 +1,12 @@
+name: League Loom
+summary: Easy access to fantasy sports statistics from Fantrax, ESPN, and Sleeper
+category: search
+tags:
+  - api
+  - database
+  - sports
+docs_url: https://leagueloom.com/capabilities
+endpoints:
+  - url: https://leagueloom.com/mcp
+    transport: streamable-http
+    auth: oauth

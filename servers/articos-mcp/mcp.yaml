@@ -1,0 +1,14 @@
+name: Articos MCP
+summary: 'Articos MCP: run synthetic audience research from inside your AI agent. Test headlines, ad copy, landing pages, positioning and pricing against synthetic personas, and get a research report back in chat. Works with Claude, ChatGPT and Cursor..'
+category: productivity
+tags:
+  - ai-agent
+  - data-analysis
+  - marketing
+  - research
+official: true
+docs_url: https://www.articos.com/mcp
+endpoints:
+  - url: https://mcp.articos.com/mcp
+    transport: streamable-http
+    auth: unknown

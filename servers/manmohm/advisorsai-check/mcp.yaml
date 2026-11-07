@@ -1,0 +1,12 @@
+name: Advisors AI Check
+summary: Read-only public-page readiness check for agents and stores. Live demo at advisorsai.ai/see.html
+category: search
+tags:
+  - browser-automation
+  - testing-qa
+  - web-research
+docs_url: https://github.com/manmohm/advisorsai-check
+endpoints:
+  - url: https://advisorsai.ai/store-readiness-mcp
+    transport: streamable-http
+    auth: unknown

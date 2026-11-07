@@ -1,0 +1,8 @@
+name: quantumlabsaus
+summary: Buy peptides online
+category: other
+docs_url: https://www.quantumlabsaus.co/api/mcp
+endpoints:
+  - url: https://www.quantumlabsaus.co/api/mcp
+    transport: streamable-http
+    auth: none

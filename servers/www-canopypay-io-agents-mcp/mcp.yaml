@@ -1,0 +1,13 @@
+name: Canopy
+summary: Create crypto deposit intents, list supported funding options and read settlement status through Canopy’s remote MCP server.
+category: finance
+tags:
+  - crypto
+  - defi
+  - finance
+  - payment
+docs_url: https://www.canopypay.io/agents/mcp
+endpoints:
+  - url: https://www.canopypay.io/api/mcp
+    transport: streamable-http
+    auth: oauth

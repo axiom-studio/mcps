@@ -1,0 +1,11 @@
+name: Tommos.ai MCP
+summary: A CRM where AI agents reply to every B2B inquiry, book the call, send the proposal and review the contract
+category: marketing
+tags:
+  - marketing
+  - marketing-automation
+docs_url: https://tommos.ai/agents
+endpoints:
+  - url: https://app.tommos.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: Exchange.news Offers
+summary: Read-only access to permanent crypto signup codes and partner links for 27 platforms, with eligibility conditions, source links and separately sourced campaign dates.
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - finance
+  - news
+  - web-research
+docs_url: https://exchange.news/developers/
+endpoints:
+  - url: https://exchange.news/api/mcp
+    transport: streamable-http
+    auth: none

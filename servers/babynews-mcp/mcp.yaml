@@ -1,0 +1,14 @@
+name: BabyNews (베이비뉴스)
+summary: 'Read-only MCP for BabyNews (ibabynews.com), Korea''s pregnancy, birth and parenting news outlet: article search, curated Q&A with official sources, and regional childbirth support programs in Korea. No login. Remote URL: https://www.ibabynews.com/mcp'
+category: search
+tags:
+  - healthcare
+  - news
+  - search
+  - web-research
+official: true
+docs_url: https://www.ibabynews.com/mcp-guide
+endpoints:
+  - url: https://www.ibabynews.com/mcp
+    transport: streamable-http
+    auth: none

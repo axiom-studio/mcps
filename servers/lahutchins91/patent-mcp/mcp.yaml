@@ -1,0 +1,13 @@
+name: Patent by Ouroboros Apps
+summary: 'Patent by Ouroboros Apps: USPTO patent search and prior art lookup. Not legal advice'
+category: search
+tags:
+  - knowledge-retrieval
+  - research
+  - search
+  - web-research
+docs_url: https://github.com/LAHutchins91/patent-mcp
+endpoints:
+  - url: https://patent-mcp.vercel.app/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: RANKA — GEO / AEO Audit
+summary: 'Free GEO and AEO audit of up to 10 pages: Schema.org coverage, AI crawler access by user-agent, llms.txt, canonical, direct answers and trust signals. Remote MCP server included.'
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+  - web-research
+docs_url: https://geollm.ru
+endpoints:
+  - url: https://geollm.ru/mcp
+    transport: streamable-http
+    auth: none

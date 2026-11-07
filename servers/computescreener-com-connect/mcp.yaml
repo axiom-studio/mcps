@@ -1,0 +1,13 @@
+name: Compute Screener
+summary: GPU cloud pricing (what an H100, H200 or B200 costs per hour across providers) and AI model API pricing per 1M tokens, with daily history and compute futures. Free, no sign-in.
+category: finance
+tags:
+  - ai-model
+  - cloud-infrastructure
+  - data-analysis
+  - finance
+docs_url: https://computescreener.com/connect
+endpoints:
+  - url: https://computescreener.com/mcp
+    transport: streamable-http
+    auth: unknown

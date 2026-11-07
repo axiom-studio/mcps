@@ -1,0 +1,14 @@
+name: Beemm Vision
+summary: 'Drive Beemm Vision from Claude or Cursor: read projects, workflows and gallery, build node-based workflows, and generate images and videos with 98+ AI models (Nano Banana, Kling, Seedream, FLUX…).'
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - video
+  - workflow-automation
+docs_url: https://beemmvision.com/mcp
+endpoints:
+  - url: https://app.beemmvision.com/mcp
+    transport: streamable-http
+    auth: oauth

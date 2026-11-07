@@ -1,0 +1,13 @@
+name: ToolGrade
+summary: 'Grade MCP tool definitions for agent-readiness. Paste a tools/list JSON or a tool array and get a 0-100 score, an A-F grade, rule findings with concrete fixes, and an estimated token cost. Pure parsing: it never fetches URLs or stores your tool definitions. Free tier.'
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - development
+  - testing-qa
+docs_url: https://toolgrade.mike-tusa.workers.dev
+endpoints:
+  - url: https://toolgrade.mike-tusa.workers.dev/mcp
+    transport: streamable-http
+    auth: none

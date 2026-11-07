@@ -1,0 +1,13 @@
+name: Data Reaktor
+summary: 'Agents sign up with one curl call (POST /api/v1/agents/register) and get an API key back instantly: 300 credits, 60 days, no card. Remote job search desk: finds people inside target companies from public sources, scores warm paths 0 to 100, and drafts intros the user sends. Never sends anything.'
+category: productivity
+tags:
+  - ai-agent
+  - research
+  - sales
+  - workflow-automation
+docs_url: https://www.datareaktor.ai/agents
+endpoints:
+  - url: https://www.datareaktor.ai/mcp
+    transport: streamable-http
+    auth: api-key

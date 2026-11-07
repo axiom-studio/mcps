@@ -1,0 +1,14 @@
+name: SendFromChat
+summary: 'Remote MCP server for WhatsApp Business: 72 actions covering templates, contacts, bulk sends with preview, inbox, chatbots and sequences. Works with Claude, ChatGPT and Claude Code.'
+category: communication
+tags:
+  - chatbot
+  - communication
+  - marketing-automation
+  - whatsapp
+  - workflow-automation
+docs_url: https://sendfromchat.com/docs
+endpoints:
+  - url: https://sendfromchat.com/api/mcp
+    transport: streamable-http
+    auth: oauth

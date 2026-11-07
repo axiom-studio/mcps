@@ -1,0 +1,13 @@
+name: Faxette
+summary: 'Send faxes to the US and Canada from Claude, ChatGPT, Codex, Cursor or any MCP client. $5 for up to 100 pages, charged only once the fax is delivered. No account needed: you check the fax and pay on Faxette''s page, or send from your Faxette credit.'
+category: productivity
+tags:
+  - communication
+  - document
+  - payment
+  - productivity
+docs_url: https://www.faxette.com/mcp
+endpoints:
+  - url: https://mcp.faxette.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: OutSend
+summary: Find and enrich local businesses (emails, social profiles) and run B2B lead pipelines; tool calls need an API key or OAuth.
+category: marketing
+tags:
+  - crm
+  - data-analysis
+  - marketing
+  - web-research
+docs_url: https://outsend.xyz
+endpoints:
+  - url: https://outsend.xyz/mcp
+    transport: streamable-http
+    auth: oauth

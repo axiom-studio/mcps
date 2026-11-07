@@ -1,0 +1,12 @@
+name: JusticeLibre
+summary: 'Free, no-signup access to French and European law for AI assistants: over 3 million court decisions (Conseil d''État, administrative courts, Cour de cassation, judicial courts, Conseil constitutionnel, ECHR, CJEU), 1.8 million consolidated statute articles with their version history, the Journal officiel, CADA and CNIL opinions. Every result links to its official source. Run by a French non-profit association.'
+category: search
+tags:
+  - document
+  - knowledge-retrieval
+  - research
+docs_url: https://justicelibre.org/serveur-mcp.html
+endpoints:
+  - url: https://justicelibre.org/mcp
+    transport: streamable-http
+    auth: none

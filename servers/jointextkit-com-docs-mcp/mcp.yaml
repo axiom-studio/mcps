@@ -1,0 +1,13 @@
+name: TextKit
+summary: Send and receive SMS, verify phone numbers, and buy US and Canada numbers. Also contacts, segments, broadcasts and automations.
+category: communication
+tags:
+  - communication
+  - marketing-automation
+  - notifications
+  - sms
+docs_url: https://jointextkit.com/docs/mcp
+endpoints:
+  - url: https://mcp.jointextkit.com
+    transport: streamable-http
+    auth: oauth

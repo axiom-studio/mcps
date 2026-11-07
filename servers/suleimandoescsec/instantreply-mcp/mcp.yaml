@@ -1,0 +1,12 @@
+name: Instant Reply MCP
+summary: Connect AI agents to Instagram, WhatsApp Business, and Messenger inboxes, subject to workspace access and plan limits.
+category: communication
+tags:
+  - communication
+  - social-media
+  - whatsapp
+docs_url: https://github.com/suleimandoescsec/instantreply-mcp
+endpoints:
+  - url: https://api.instantreply.co/mcp
+    transport: streamable-http
+    auth: oauth

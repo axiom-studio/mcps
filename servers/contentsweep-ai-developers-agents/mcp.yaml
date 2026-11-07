@@ -1,0 +1,13 @@
+name: Content Sweep
+summary: 'Copyright protection for agents: text/identity search, metadata evidence, authorized takedowns and outcome monitoring. REST + remote MCP, prepaid credits and a free simulated sandbox.'
+category: other
+tags:
+  - compliance
+  - knowledge-retrieval
+  - security
+  - web-research
+docs_url: https://contentsweep.ai/developers/agents
+endpoints:
+  - url: https://contentsweep.ai/api/mcp
+    transport: streamable-http
+    auth: api-key

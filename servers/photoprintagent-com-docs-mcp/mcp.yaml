@@ -1,0 +1,12 @@
+name: PhotoPrintAgent
+summary: Browse photo products, preview artwork, estimate prices and track orders. Full commerce and narrow OAuth endpoints for photo prints delivered in the USA.
+category: other
+tags:
+  - ecommerce
+  - payment
+  - productivity
+docs_url: https://photoprintagent.com/docs/mcp
+endpoints:
+  - url: https://photoprintagent.com/mcp
+    transport: streamable-http
+    auth: oauth

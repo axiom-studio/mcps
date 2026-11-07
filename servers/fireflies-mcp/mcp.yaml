@@ -1,0 +1,19 @@
+name: Fireflies
+summary: Fireflies is an AI notetaker that records, transcribes, and summarizes meetings across conferencing platforms. Its remote MCP server lets assistants search past conversations, pull transcripts and summaries, and act on meeting knowledge stored in Fireflies.
+description: |-
+  Fireflies is an AI notetaker that records, transcribes, and summarizes meetings across conferencing platforms. Its remote MCP server lets assistants search past conversations, pull transcripts and summaries, and act on meeting knowledge stored in Fireflies.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://guide.fireflies.ai/articles/8272956938-learn-about-the-fireflies-mcp-server-model-context-protocol)
+category: productivity
+tags:
+  - productivity
+  - remote-mcp
+official: true
+registry_name: ai.fireflies/fireflies
+docs_url: https://guide.fireflies.ai/articles/8272956938-learn-about-the-fireflies-mcp-server-model-context-protocol
+endpoints:
+  - url: https://api.fireflies.ai/mcp
+    transport: streamable-http
+    auth: oauth

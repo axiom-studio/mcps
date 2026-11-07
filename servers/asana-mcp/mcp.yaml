@@ -1,0 +1,18 @@
+name: Asana
+summary: Asana is a collaborative work management platform for planning, assigning, and tracking tasks across projects and workspaces. Its official remote MCP server gives assistants account-backed project context, including task status, ownership, and workspace activity from the same system teams already use.
+description: |-
+  Asana is a collaborative work management platform for planning, assigning, and tracking tasks across projects and workspaces. Its official remote MCP server gives assistants account-backed project context, including task status, ownership, and workspace activity from the same system teams already use.
+
+  Requires an Asana account and a registered OAuth client. Client availability depends on Asana registration requirements.
+
+  [Setup documentation](https://developers.asana.com/docs/connecting-mcp-clients-to-asanas-v2-server)
+category: productivity
+tags:
+  - productivity
+  - remote-mcp
+official: true
+docs_url: https://developers.asana.com/docs/connecting-mcp-clients-to-asanas-v2-server
+endpoints:
+  - url: https://mcp.asana.com/v2/mcp
+    transport: streamable-http
+    auth: oauth

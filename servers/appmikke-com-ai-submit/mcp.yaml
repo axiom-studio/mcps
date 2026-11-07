@@ -1,0 +1,13 @@
+name: アプリみっけ！ (AppMikke)
+summary: 個人開発のiOS・Androidアプリ紹介サイト「アプリみっけ！」への掲載申請用MCP。公式ストアURLから情報を確認し、申請者の明示的な同意後に確認待ちへ保存します。一般公開は運営確認後。リモートStreamable HTTP、APIキー不要、通常掲載は無料。
+category: marketing
+tags:
+  - marketing
+  - marketplace
+  - mobile
+  - workflow-automation
+docs_url: https://appmikke.com/ai-submit
+endpoints:
+  - url: https://appmikke.com/api/mcp
+    transport: streamable-http
+    auth: none

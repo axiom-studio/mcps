@@ -1,0 +1,12 @@
+name: Progask
+summary: A Past–Now–Future task board you run from Claude or ChatGPT. Add, reschedule and complete tasks, add notes, and ask "where is this at?" — dates decide what's slipped, in progress or upcoming, so no cards to drag.
+category: productivity
+tags:
+  - productivity
+  - project-management
+  - task-management
+docs_url: https://progask.com/
+endpoints:
+  - url: https://progask.com/api/mcp
+    transport: streamable-http
+    auth: oauth

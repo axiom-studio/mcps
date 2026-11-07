@@ -1,0 +1,13 @@
+name: Oria CRM
+summary: 'Read-only MCP for Oria CRM: properties, contacts, deals, viewings, agents, auctions.'
+category: productivity
+tags:
+  - crm
+  - productivity
+  - real-estate
+  - sales
+docs_url: https://realoria.com/crm/mcp
+endpoints:
+  - url: https://realoria.com/api/mcp
+    transport: streamable-http
+    auth: oauth

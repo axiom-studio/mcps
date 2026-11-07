@@ -1,0 +1,14 @@
+name: Everygen
+summary: Create images, videos, narration, music and multi-shot video projects with your Everygen account.
+category: design
+tags:
+  - audio
+  - content-creation
+  - design
+  - media
+  - video
+docs_url: https://github.com/bytevirts/everygen-mcp
+endpoints:
+  - url: https://everygen-ai.com/mcp
+    transport: streamable-http
+    auth: oauth

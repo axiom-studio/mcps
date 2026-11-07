@@ -1,0 +1,13 @@
+name: Forge Magery
+summary: Magery Forge — security audits for shipped code, built for VibeCoders. Turns scanner noise into clear risks with fixes, delivered as a weekly report. Exposed over MCP so your agent (Cursor, Copilot, Claude, OpenClaw) can trigger scans and read reports.
+category: development
+tags:
+  - ai-agent
+  - code-quality
+  - development
+  - security
+docs_url: https://forge.magery.ai/en/documents
+endpoints:
+  - url: https://forge.magery.ai/mcp
+    transport: streamable-http
+    auth: api-key

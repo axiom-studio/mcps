@@ -1,0 +1,14 @@
+name: WhatsApp Business Tools MCP
+summary: The WhatsApp Business Tools MCP server lets your AI agent and IDE assistant manage and debug your WhatsApp Business integration from one place. It enables an agent to discover the businesses and WhatsApp accounts you administer, onboard and register phone numbers, create and manage message templates, configure webhooks, and send messages — acting as you, on the apps and businesses you administer.
+category: cloud-service
+tags:
+  - business-operations
+  - communication
+  - whatsapp
+  - workflow-automation
+official: true
+docs_url: https://developers.facebook.com/documentation/mcp/whatsapp-business-tools-mcp
+endpoints:
+  - url: https://mcp.facebook.com/whatsapp_business_tools
+    transport: streamable-http
+    auth: oauth

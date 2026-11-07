@@ -1,0 +1,12 @@
+name: NEVINI Wines
+summary: Search the wines of NEVINI, a Dutch wine importer, and build Shopify carts with a checkout link.
+category: other
+tags:
+  - ecommerce
+  - search
+  - shopify
+docs_url: https://nevini.wine/mcp/
+endpoints:
+  - url: https://nevini.wine/api/mcp/
+    transport: streamable-http
+    auth: none

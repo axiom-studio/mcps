@@ -1,0 +1,12 @@
+name: Pakistancaselaw MCP
+summary: Search 250,000+ reported Pakistani judgments by keyword, citation or legal question, and trace which later cases follow or cite them
+category: search
+tags:
+  - knowledge-retrieval
+  - research
+  - search
+docs_url: https://github.com/pakistancaselaw/pakistan-case-law-mcp.git
+endpoints:
+  - url: https://pakistancaselaw.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Pink Agentic AI Payments
+summary: 'Payments for AI agents over MCP: per-agent budgets and rules (allow, ask a human, block) checked server-side before a payment executes. Free sandbox with test money.'
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - payment
+  - workflow-automation
+docs_url: https://pinkwallet.com/agentic/developers/
+endpoints:
+  - url: https://agentic-sandbox.pinkwallet.com/mcp
+    transport: streamable-http
+    auth: oauth

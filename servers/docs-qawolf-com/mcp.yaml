@@ -1,0 +1,12 @@
+name: QA Wolf
+summary: Connect your coding agent to QA Wolf to create, run, and troubleshoot end-to-end tests. Explore your app in a cloud browser, review a proposed test outline, and approve QA Wolf to implement and validate it. Sign in with your QA Wolf account and follow progress through live session links.
+category: development
+tags:
+  - browser-automation
+  - coding-agent
+  - testing-qa
+docs_url: https://docs.qawolf.com/
+endpoints:
+  - url: https://app.qawolf.com/api/mcp
+    transport: streamable-http
+    auth: oauth

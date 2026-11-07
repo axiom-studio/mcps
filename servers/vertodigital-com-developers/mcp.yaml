@@ -1,0 +1,13 @@
+name: VertoDigital MCP Server
+summary: Match a B2B marketing challenge to VertoDigital's services, proof points and differentiators, search its case studies, read any vertodigital.com page as markdown, and send the team an enquiry. Remote, no authentication.
+category: marketing
+tags:
+  - communication
+  - document
+  - marketing
+  - web-research
+docs_url: https://vertodigital.com/developers
+endpoints:
+  - url: https://mcp.vertodigital.com/mcp
+    transport: streamable-http
+    auth: none

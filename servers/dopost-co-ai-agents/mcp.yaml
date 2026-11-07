@@ -1,0 +1,14 @@
+name: dopost
+summary: Schedule, publish and analyze social posts on 12 networks from any MCP client. Hosted, OAuth login.
+category: marketing
+tags:
+  - content-creation
+  - identity
+  - marketing-automation
+  - security
+  - social-media
+docs_url: https://dopost.co/ai-agents
+endpoints:
+  - url: https://mcp.dopost.co/mcp
+    transport: streamable-http
+    auth: oauth

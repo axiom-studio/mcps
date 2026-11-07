@@ -1,0 +1,12 @@
+name: Nextmail
+summary: AI-native email for businesses, developers, and AI agents.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - email-automation
+docs_url: https://github.com/nextmailhq/mcp
+endpoints:
+  - url: https://api.nextmail.sh/mcp
+    transport: streamable-http
+    auth: oauth

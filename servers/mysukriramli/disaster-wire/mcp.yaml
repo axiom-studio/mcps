@@ -1,0 +1,13 @@
+name: disaster-wire
+summary: Autonomous Global Disaster Intelligence Wire Machine-readable disaster telemetry feed for AI Agents, LLMs, and RAG pipelines.
+category: database
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - news
+  - rag
+docs_url: https://github.com/mysukriramli/disaster-wire
+endpoints:
+  - url: https://sukriramli-disaster-wire-mcp.hf.space/gradio_api/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Video Dept. AI
+summary: Plan a video and script with VIDEO DEPT. in Fort Lauderdale, send a brief, book a call with Nikita.
+category: marketing
+tags:
+  - calendar
+  - content-creation
+  - marketing
+  - video
+docs_url: https://videodepartment.org/ai-assistant
+endpoints:
+  - url: https://agents.videodepartment.org/mcp
+    transport: streamable-http
+    auth: none

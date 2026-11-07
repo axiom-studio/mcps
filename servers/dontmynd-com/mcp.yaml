@@ -1,0 +1,13 @@
+name: DontMynd
+summary: DontMynd is a calm weekly planner on the web. Its remote MCP server lets Claude list, create, move and complete your tasks and tags. Works with Claude only for now. Free to start.
+category: productivity
+tags:
+  - anthropic
+  - calendar
+  - productivity
+  - task-management
+docs_url: https://dontmynd.com
+endpoints:
+  - url: https://mcp.dontmynd.com/
+    transport: streamable-http
+    auth: unknown

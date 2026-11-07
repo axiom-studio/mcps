@@ -1,0 +1,13 @@
+name: Urban Game Theory — Consensus Builder
+summary: Inspect real parcels, create and edit urban plans, compare alternatives, and share 2D/3D designs.
+category: design
+tags:
+  - collaboration
+  - design
+  - geospatial
+  - real-estate
+docs_url: https://urbangametheory.xyz
+endpoints:
+  - url: https://urbangametheory.xyz/mcp
+    transport: streamable-http
+    auth: none

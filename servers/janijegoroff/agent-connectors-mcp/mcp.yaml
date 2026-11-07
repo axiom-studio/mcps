@@ -1,0 +1,12 @@
+name: Agent Connectors
+summary: Read-only search of the Agent Connectors directory (agentconnectors.dev) of MCP servers. Search listings, get details and browse categories; it does not run listed servers.
+category: search
+tags:
+  - knowledge-retrieval
+  - search
+  - web-research
+docs_url: https://github.com/JaniJegoroff/agent-connectors-mcp
+endpoints:
+  - url: https://agentconnectors.dev/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,14 @@
+name: Pickrun
+summary: 'One key for 4,000+ tools: web search, scraping, people and company data, SEO, an email inbox and phone calls.'
+category: search
+tags:
+  - api
+  - email-automation
+  - search
+  - seo
+  - web-scraping
+docs_url: https://pickrun.ai
+endpoints:
+  - url: https://pickrun.ai/mcp
+    transport: streamable-http
+    auth: unknown

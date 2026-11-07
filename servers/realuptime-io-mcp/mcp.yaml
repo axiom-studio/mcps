@@ -1,0 +1,10 @@
+name: RealUptime
+summary: Manage uptime monitors, heartbeat checks, incidents and status pages, read error tracking issues, and check third-party service outages from an AI client. Hosted remote server over Streamable HTTP with API key authentication.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+docs_url: https://realuptime.io/mcp
+endpoints:
+  - url: https://mcp.realuptime.io/mcp
+    transport: streamable-http
+    auth: api-key

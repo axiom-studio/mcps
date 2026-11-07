@@ -1,0 +1,12 @@
+name: Cobblehop
+summary: 'Transit trip plans and live departures for Massachusetts: MBTA, regional buses, Amtrak, ferries. Remote server at https://cobblehop.com/mcp, no key needed.'
+category: other
+tags:
+  - geospatial
+  - research
+  - weather
+docs_url: https://cobblehop.com
+endpoints:
+  - url: https://cobblehop.com/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: Talval Research
+summary: 'Value-investing research on public companies: valuation verdicts, fair-value estimates, quality and safety scores, stock screens and superinvestor 13F portfolios. Hosted server, no account needed.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+docs_url: https://talval.com
+endpoints:
+  - url: https://talval.com/mcp
+    transport: streamable-http
+    auth: unknown

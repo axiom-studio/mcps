@@ -1,0 +1,13 @@
+name: CookiesForAI
+summary: 'Read-only MCP server for the CookiesForAI directory: search and read agent skills, MCP servers and AI coding tools with checked facts (tools: search_skills, get_skill, search_mcp_servers, get_mcp_server, compare_coding_tools, get_tool).'
+category: search
+tags:
+  - ai-agent
+  - coding-agent
+  - marketplace
+  - search
+docs_url: https://cookiesforai.app
+endpoints:
+  - url: https://cookiesforai.app/api/mcp
+    transport: streamable-http
+    auth: none

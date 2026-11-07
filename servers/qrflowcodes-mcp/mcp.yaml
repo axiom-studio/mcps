@@ -1,0 +1,13 @@
+name: QRFLOW.codes
+summary: Create QR codes, re-point printed dynamic codes, name links on your own domain, and read scan analytics.
+category: marketing
+tags:
+  - analytics
+  - marketing
+official: true
+registry_name: codes.qrflow/qrflow
+docs_url: https://qrflow.codes/developers
+endpoints:
+  - url: https://qrflow.codes/mcp
+    transport: streamable-http
+    auth: oauth

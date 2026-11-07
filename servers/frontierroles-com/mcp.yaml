@@ -1,0 +1,12 @@
+name: Frontier Roles AI Jobs
+summary: Job search for startup / hyperscaler roles in AI research, agents, evals and inference.
+category: search
+tags:
+  - ai-agent
+  - research
+  - search
+docs_url: https://frontierroles.com/
+endpoints:
+  - url: https://mcp.frontierroles.com/mcp
+    transport: streamable-http
+    auth: none

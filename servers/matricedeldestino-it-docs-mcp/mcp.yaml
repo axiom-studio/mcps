@@ -1,0 +1,12 @@
+name: Matrice del Destino
+summary: 'Italian destiny-matrix calculators and guides: list_public_content, search_public_content, analyze_public_page.'
+category: other
+tags:
+  - knowledge-retrieval
+  - research
+  - web-research
+docs_url: https://matricedeldestino.it/docs/mcp
+endpoints:
+  - url: https://matricedeldestino.it/mcp
+    transport: streamable-http
+    auth: none

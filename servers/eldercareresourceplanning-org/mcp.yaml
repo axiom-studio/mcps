@@ -1,0 +1,12 @@
+name: ECRP MCP Server
+summary: Help people understand if they're eligible for Medicaid
+category: finance
+tags:
+  - finance
+  - healthcare
+  - research
+docs_url: https://eldercareresourceplanning.org
+endpoints:
+  - url: https://mcp.eldercareresourceplanning.org/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: Sociality MCP
+summary: Connect AI agents to social media analytics, post insights, and competitor benchmarking through seven OAuth-authenticated tools.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - social-media
+docs_url: https://sociality.io/mcp
+endpoints:
+  - url: https://api.sociality.io/mcp
+    transport: streamable-http
+    auth: oauth

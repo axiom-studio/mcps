@@ -1,0 +1,14 @@
+name: App Store & Google Play Review Intelligence
+summary: Search App Store and Google Play apps, pull recent reviews, surface top complaints with quotes, rating by version, what got worse in the latest update, and side-by-side competitor comparisons. No store API keys; MIT, runs locally or hosted.
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - marketing
+  - mobile
+  - research
+docs_url: https://github.com/gunnargray-dev/app-store-review-intelligence-mcp
+endpoints:
+  - url: https://parallelstudio--app-store-review-intelligence-mcp.apify.actor/mcp
+    transport: streamable-http
+    auth: unknown

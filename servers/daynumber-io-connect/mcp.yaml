@@ -1,0 +1,13 @@
+name: dayNumber_
+summary: 'dayNumber_: public proof-of-work logging for founders. Log your daily build journey via MCP, query your history, get insights; your agent keeps your streak alive.'
+category: productivity
+tags:
+  - ai-agent
+  - notes
+  - productivity
+  - task-management
+docs_url: https://daynumber.io/connect
+endpoints:
+  - url: https://mcp.daynumber.io/mcp
+    transport: streamable-http
+    auth: oauth

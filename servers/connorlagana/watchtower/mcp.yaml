@@ -1,0 +1,13 @@
+name: Watchtower
+summary: Job alerts for AI agents. Describe a role once in plain language and get only the new matching postings from 1,500+ tech company and startup job boards (Greenhouse, Lever, Ashby, Workday, Apple, Google, Amazon, Microsoft, and more), with salary and experience filters and webhooks. Free, no sign-up.
+category: search
+tags:
+  - notifications
+  - search
+  - web-scraping
+  - workflow-automation
+docs_url: https://github.com/connorlagana/watchtower
+endpoints:
+  - url: https://watchtower.lat/mcp
+    transport: streamable-http
+    auth: none

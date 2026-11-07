@@ -1,0 +1,13 @@
+name: CompatLab
+summary: Read npm package loading evidence across pinned Node.js, Bun and Deno versions, with coverage, failures and permanent report links.
+category: development
+tags:
+  - cloud-infrastructure
+  - development
+  - devops-infrastructure
+  - testing-qa
+docs_url: https://compatlab.me/
+endpoints:
+  - url: https://compatlab.me/mcp
+    transport: streamable-http
+    auth: none

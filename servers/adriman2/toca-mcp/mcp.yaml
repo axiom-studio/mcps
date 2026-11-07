@@ -1,0 +1,13 @@
+name: Toca
+summary: Connect Claude, Cursor, or ChatGPT to Toca over MCP. Inspect a public site, draft a page, add blocks, and publish only when the owner says yes.
+category: marketing
+tags:
+  - cms
+  - content-creation
+  - marketing
+  - workflow-automation
+docs_url: https://github.com/Adriman2/toca-mcp
+endpoints:
+  - url: https://toca.bio/mcp
+    transport: streamable-http
+    auth: unknown

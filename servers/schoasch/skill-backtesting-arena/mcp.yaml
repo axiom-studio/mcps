@@ -1,0 +1,13 @@
+name: Backtesting-Arena
+summary: Quantitative crypto backtesting & Bitcoin-cycle analytics. DSR-corrected, point-in-time, look-ahead-aware — proprietary, not from public APIs. Free tier.
+category: finance
+tags:
+  - crypto
+  - data-analysis
+  - finance
+  - trading
+docs_url: https://github.com/Schoasch/skill-backtesting-arena
+endpoints:
+  - url: https://tradingstrategies.work/api/mcp
+    transport: streamable-http
+    auth: oauth

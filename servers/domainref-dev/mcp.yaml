@@ -1,0 +1,13 @@
+name: DomainRef
+summary: 'Remote MCP server for domain and email-security checks. domain_check returns a graded pass/warn/fail report for SPF, DKIM, DMARC, MX, TLS certificate, Microsoft 365 tenant, DNSSEC, BIMI and a UCEPROTECT blocklist check, with the exact DNS fix for each issue. domain_age returns registrar plus creation and expiry dates. Paid per call ($0.01 / $0.005) with an API key; listed on the official MCP Registry as dev.domainref/domainref. MCP endpoint: https://domainref.dev/mcp (streamable HTTP).'
+category: other
+tags:
+  - api
+  - compliance
+  - email-automation
+  - security
+docs_url: https://domainref.dev
+endpoints:
+  - url: https://domainref.dev/mcp
+    transport: streamable-http
+    auth: api-key

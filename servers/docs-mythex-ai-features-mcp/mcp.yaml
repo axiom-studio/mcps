@@ -1,0 +1,14 @@
+name: Mythex
+summary: 'Remote MCP server for the Mythex AI app builder: Claude, Cursor or Codex create projects, edit code and run bash in a cloud sandbox, preview, add a Postgres database and publish to a live URL.'
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - deployment
+  - development
+  - postgres
+docs_url: https://docs.mythex.ai/features/mcp
+endpoints:
+  - url: https://mcp.mythex.ai/mcp
+    transport: streamable-http
+    auth: oauth

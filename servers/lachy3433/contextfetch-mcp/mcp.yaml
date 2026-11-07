@@ -1,0 +1,13 @@
+name: ContextFetch
+summary: 'Web search API and MCP server for AI agents: results as clean Markdown with query-pruned context, plus research, crawl and map. $1 per 1,000 searches; 25 a day free with no key.'
+category: search
+tags:
+  - knowledge-retrieval
+  - search
+  - web-research
+  - web-scraping
+docs_url: https://github.com/lachy3433/contextfetch-mcp
+endpoints:
+  - url: https://api.contextfetch.dev/mcp
+    transport: streamable-http
+    auth: none

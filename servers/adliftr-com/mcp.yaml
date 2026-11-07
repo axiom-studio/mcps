@@ -1,0 +1,14 @@
+name: AdLiftr
+summary: Launch ads in bulk, manage campaigns and analyze performance across Meta (Facebook and Instagram), TikTok, Google Ads and Snapchat from your AI assistant.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - marketing
+  - marketing-automation
+  - social-media
+docs_url: https://adliftr.com
+endpoints:
+  - url: https://api.adliftr.com/mcp
+    transport: streamable-http
+    auth: oauth

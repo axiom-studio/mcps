@@ -1,0 +1,13 @@
+name: VATFind — VAT & EIN Lookup
+summary: Find VAT numbers and US EINs, match supplier company records with source evidence, and monitor company-record changes through an OAuth-secured MCP server.
+category: finance
+tags:
+  - api
+  - data-analysis
+  - finance
+  - research
+docs_url: https://vatfind.com/mcp-for-ai-agents
+endpoints:
+  - url: https://vatfind.com/api/mcp
+    transport: streamable-http
+    auth: oauth

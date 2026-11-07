@@ -1,0 +1,13 @@
+name: Maker Machines Atlas
+summary: Read-only machine research, cost calculators and regional buying links. Some links earn affiliate commissions.
+category: search
+tags:
+  - ecommerce
+  - marketplace
+  - research
+  - search
+docs_url: https://makermachinesatlas.com/auth.md
+endpoints:
+  - url: https://makermachinesatlas.com/mcp
+    transport: streamable-http
+    auth: none

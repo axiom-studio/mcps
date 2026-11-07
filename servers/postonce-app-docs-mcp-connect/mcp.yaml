@@ -1,0 +1,13 @@
+name: PostOnce MCP
+summary: Schedule and publish social media posts across connected accounts with PostOnce.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://postonce.app/docs/mcp-connect
+endpoints:
+  - url: https://postonce.app/api/mcp
+    transport: streamable-http
+    auth: oauth

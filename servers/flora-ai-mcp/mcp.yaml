@@ -1,0 +1,13 @@
+name: FLORA
+summary: Create images, videos, 3D, and more with every top model all in a single place.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - media
+docs_url: https://flora.ai/mcp
+endpoints:
+  - url: https://agents.flora.ai/mcp
+    transport: streamable-http
+    auth: oauth

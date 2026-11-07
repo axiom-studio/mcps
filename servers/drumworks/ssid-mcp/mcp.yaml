@@ -1,0 +1,12 @@
+name: ssid.ai
+summary: Router default logins cited to each manufacturer's own documentation, plus MAC/OUI vendor lookup that tells a randomized address apart from an unregistered prefix.
+category: database
+tags:
+  - database
+  - network-automation
+  - security
+docs_url: https://github.com/Drumworks/ssid-mcp
+endpoints:
+  - url: https://ssid.ai/mcp/http
+    transport: streamable-http
+    auth: none

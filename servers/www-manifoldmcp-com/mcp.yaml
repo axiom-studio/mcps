@@ -1,0 +1,14 @@
+name: Manifold
+summary: One MCP server that gives Claude, ChatGPT, Cursor and other agents SEO, AI search, social, ad and lead data. Read-only, priced per call, free to start.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - marketing
+  - seo
+  - web-research
+docs_url: https://www.manifoldmcp.com
+endpoints:
+  - url: https://mcp.manifoldmcp.com/mcp
+    transport: streamable-http
+    auth: unknown

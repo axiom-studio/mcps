@@ -1,0 +1,14 @@
+name: Site Qwality
+summary: Hosted remote MCP server for uptime monitoring, incidents, logs, metrics and traces. OAuth or scoped API key, included on every plan including free.
+category: cloud-service
+tags:
+  - analytics
+  - devops-infrastructure
+  - log-management
+  - monitoring
+  - observability-incident
+docs_url: https://siteqwality.com/mcp-server/
+endpoints:
+  - url: https://mcp.siteqwality.com/mcp
+    transport: streamable-http
+    auth: oauth

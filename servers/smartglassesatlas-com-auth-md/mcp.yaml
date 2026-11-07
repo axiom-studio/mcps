@@ -1,0 +1,13 @@
+name: Smart Glasses Atlas
+summary: Read-only smart glasses research, comparisons and regional buying links. Some links earn affiliate commissions.
+category: search
+tags:
+  - ecommerce
+  - research
+  - search
+  - wearable
+docs_url: https://smartglassesatlas.com/auth.md
+endpoints:
+  - url: https://smartglassesatlas.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: APIMart MCP
+summary: 一个 APIKey 使用全球所有模型
+category: productivity
+tags:
+  - ai-model
+  - api
+official: true
+docs_url: https://apimart.ai/zh/agent-tools#mcp
+endpoints:
+  - url: https://mcp.apimart.ai/mcp
+    transport: streamable-http
+    auth: api-key

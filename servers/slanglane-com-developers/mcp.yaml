@@ -1,0 +1,12 @@
+name: SlangLane Dictionary
+summary: Look up sourced English internet and adult slang, decode phrases, and compare meanings with six read-only MCP tools. Non-graphic educational definitions; explicit mature labels.
+category: search
+tags:
+  - education
+  - knowledge-retrieval
+  - search
+docs_url: https://slanglane.com/developers
+endpoints:
+  - url: https://slanglane.com/mcp
+    transport: streamable-http
+    auth: none

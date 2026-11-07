@@ -1,0 +1,13 @@
+name: Scalelist
+summary: Find B2B leads with verified work emails and mobile numbers from your AI assistant. Count an audience for free, search people by title, industry, location and company size, then enrich them. Credits are spent only when something is found.
+category: marketing
+tags:
+  - crm
+  - data-analysis
+  - marketing
+  - sales
+docs_url: https://github.com/Scalelist-Dev/scalelist-mcp-server
+endpoints:
+  - url: https://mcp.scalelist.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: ProofFetch Lite (ProofFetch, ReadClean, UrlWatch)
+summary: 'Remote MCP: 3 SSRF-safe tools - proof_fetch (status, final URL, title, markdown, SHA-256 receipt), read_clean (clean markdown), url_watch (change detection).'
+category: web-scraping
+tags:
+  - knowledge-retrieval
+  - monitoring
+  - web-scraping
+docs_url: https://favor-skilled-ben-plugin.trycloudflare.com/llms.txt
+endpoints:
+  - url: https://favor-skilled-ben-plugin.trycloudflare.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: ecco board
+summary: A shared task board for you and your AI agents. Claude Code, Codex or any MCP agent picks up tasks, asks you when a decision is yours, and attaches proof of finished work. Remote server with OAuth.
+category: productivity
+tags:
+  - ai-agent
+  - collaboration
+  - task-management
+  - workflow-automation
+docs_url: https://heyecco.com
+endpoints:
+  - url: https://api.heyecco.com/mcp
+    transport: streamable-http
+    auth: oauth

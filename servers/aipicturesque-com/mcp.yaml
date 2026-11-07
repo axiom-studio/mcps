@@ -1,0 +1,14 @@
+name: Picturesque AI MCP
+summary: 'Remote HTTP MCP server for Picturesque AI (endpoint: https://aipicturesque.com/mcp). Lets Cursor, Claude Code and other MCP clients generate images, videos and audio with 100+ models (Kling, Veo, SeeDance, Nano Banana Pro, Flux, Suno, ElevenLabs) using your Picturesque credit wallet.'
+category: design
+tags:
+  - ai-model
+  - audio
+  - content-creation
+  - design
+  - media
+docs_url: https://aipicturesque.com
+endpoints:
+  - url: https://aipicturesque.com/mcp
+    transport: streamable-http
+    auth: unknown

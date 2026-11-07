@@ -1,0 +1,11 @@
+name: Fly Frugal Travel Data
+summary: Read-only trip guide previews and verified flight savings
+category: other
+tags:
+  - research
+  - web-research
+docs_url: https://flyfrugal.fyi/docs
+endpoints:
+  - url: https://flyfrugal.fyi/mcp
+    transport: streamable-http
+    auth: none

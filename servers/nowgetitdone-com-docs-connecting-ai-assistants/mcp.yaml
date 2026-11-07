@@ -1,0 +1,12 @@
+name: GetItDone MCP
+summary: Create, update and track tasks and projects across your GetItDone team workspaces. Remote server with OAuth sign-in.
+category: productivity
+tags:
+  - productivity
+  - project-management
+  - task-management
+docs_url: https://nowgetitdone.com/docs/connecting-ai-assistants
+endpoints:
+  - url: https://app.nowgetitdone.com/api/mcp
+    transport: streamable-http
+    auth: oauth

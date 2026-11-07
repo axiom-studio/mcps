@@ -1,0 +1,8 @@
+name: FalcoScan
+summary: 'AI market intelligence: 7,000+ AI products across 29 markets, which markets still have room, and which products shut down or were acquired.'
+category: other
+docs_url: https://falcoscan.com/mcp
+endpoints:
+  - url: https://falcoscan.com/api/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: Investboard
+summary: Investment strategy checks, decision history and portfolio insights for AI assistants.
+category: finance
+tags:
+  - ai-agent
+  - analytics
+  - finance
+  - trading
+docs_url: https://investboard.com/help
+endpoints:
+  - url: https://app.investboard.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,15 @@
+name: Rumoro
+summary: Find what people say about your product on Reddit, X, Hacker News, GitHub and more, and let your AI agent search and act on those mentions.
+category: search
+tags:
+  - customer-ops
+  - marketing
+  - social-media
+  - web-research
+official: true
+registry_name: dev.rumoro/mcp
+docs_url: https://docs.rumoro.dev/mcp
+endpoints:
+  - url: https://mcp.rumoro.dev/mcp
+    transport: streamable-http
+    auth: oauth

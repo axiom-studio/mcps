@@ -1,0 +1,13 @@
+name: Hearth
+summary: 'Pay-per-call x402 API + MCP server: endpoint pre-payment safety checks, ranked x402 discovery, Base/EVM/Solana data'
+category: other
+tags:
+  - api
+  - crypto
+  - evm
+  - payment
+docs_url: https://138-197-15-135.sslip.io/mcp
+endpoints:
+  - url: https://138-197-15-135.sslip.io/mcp
+    transport: streamable-http
+    auth: unknown

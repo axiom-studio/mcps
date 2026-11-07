@@ -1,0 +1,14 @@
+name: LinkedBoost
+summary: Hosted LinkedIn MCP server for AI assistants, with 50 documented tools for connected-seat search, lead imports, reviewed outreach sequences and inbox work.
+category: marketing
+tags:
+  - communication
+  - crm
+  - marketing
+  - sales
+  - workflow-automation
+docs_url: https://linkedboost.ai/linkedin-mcp-server
+endpoints:
+  - url: https://mcp.linkedboost.ai/mcp
+    transport: streamable-http
+    auth: oauth

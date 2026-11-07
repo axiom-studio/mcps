@@ -1,0 +1,13 @@
+name: Shootika
+summary: Shoot your store's products on AI fashion models from your AI assistant, then publish approved photos to Shopify or download them
+category: design
+tags:
+  - ai-model
+  - design
+  - ecommerce
+  - shopify
+docs_url: https://shootika.com/ai-assistants/
+endpoints:
+  - url: https://mcp.shootika.com
+    transport: streamable-http
+    auth: oauth

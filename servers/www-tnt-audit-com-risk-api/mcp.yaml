@@ -1,0 +1,13 @@
+name: TNT House Risk-Data API
+summary: 'Solana token risk for AI agents: 0-100 safety score, insider clusters, honeypot and LP lock checks. 5 free MCP calls/day, no key, then x402 pay-per-call ($0.02 USDC).'
+category: finance
+tags:
+  - crypto
+  - finance
+  - security
+  - trading
+docs_url: https://www.tnt-audit.com/risk-api
+endpoints:
+  - url: https://www.tnt-audit.com/api/mcp
+    transport: streamable-http
+    auth: none

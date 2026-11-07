@@ -1,0 +1,11 @@
+name: Best Asia Hotels MCP
+summary: Read-only Asian hotel search, comparisons and destination guides with canonical sources. Returns published booking links with affiliate disclosures. Rates are non-live references; no reservations or payments.
+category: search
+tags:
+  - search
+  - web-research
+docs_url: https://bestasiahotels.com/
+endpoints:
+  - url: https://mcp.bestasiahotels.com/mcp
+    transport: streamable-http
+    auth: none

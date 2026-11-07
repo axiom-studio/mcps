@@ -1,0 +1,13 @@
+name: Pledr Legal MCP
+summary: Indian legal MCP server. Search Supreme Court of India judgments from Claude, ChatGPT, Perplexity, Grok or Cursor and get real citations, paragraph references and links to the official judgment.
+category: search
+tags:
+  - government
+  - knowledge-retrieval
+  - research
+  - search
+docs_url: https://github.com/aiforwork100-cell/pledr-legal-mcp
+endpoints:
+  - url: https://legal.pledr.in/mcp
+    transport: streamable-http
+    auth: oauth

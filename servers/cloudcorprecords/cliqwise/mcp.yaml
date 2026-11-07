@@ -1,0 +1,13 @@
+name: Clipwise
+summary: 'MCP-native AI video clipping: agents submit a video URL, get back scored, captioned 9:16 clips. submit_video + get_job tools, Streamable HTTP, 60 free minutes/month.'
+category: other
+tags:
+  - ai-agent
+  - content-creation
+  - media
+  - video
+docs_url: https://github.com/CloudCorpRecords/cliqwise
+endpoints:
+  - url: https://clipwise.replit.app/api/mcp
+    transport: streamable-http
+    auth: api-key

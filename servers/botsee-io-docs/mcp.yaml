@@ -1,0 +1,14 @@
+name: BotSee
+summary: 'Hosted OAuth MCP for repeatable AI-visibility research: compare brand and competitor mentions, keywords, cited sources and raw responses across ChatGPT, Claude, Perplexity and Gemini for marketing and agency workflows. Hosted analysis uses paid credits; free directory placement does not mean free product usage. Official image: https://botsee.io/botsee/favicon.svg ; official agency/builder explainer: https://botsee.io/botsee/videos/botsee-agency-376da54b20e43ebf6986966acbd98f9a.mp4?vsn=d . Documentation reviewed; no authenticated runtime test claimed.'
+category: marketing
+tags:
+  - ai-model
+  - analytics
+  - marketing
+  - seo
+  - web-research
+docs_url: https://botsee.io/docs#mcp
+endpoints:
+  - url: https://botsee.io/mcp
+    transport: streamable-http
+    auth: oauth

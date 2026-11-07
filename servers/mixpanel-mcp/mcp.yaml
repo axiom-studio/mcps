@@ -1,0 +1,18 @@
+name: Mixpanel
+summary: Mixpanel provides product analytics for querying, analyzing, and managing behavioral data. Its connector gives assistants Mixpanel context for exploring metrics, funnels, cohorts, and product usage questions.
+description: |-
+  Mixpanel provides product analytics for querying, analyzing, and managing behavioral data. Its connector gives assistants Mixpanel context for exploring metrics, funnels, cohorts, and product usage questions.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://docs.mixpanel.com/docs/mcp.md)
+category: marketing
+tags:
+  - marketing
+  - remote-mcp
+official: true
+docs_url: https://docs.mixpanel.com/docs/mcp.md
+endpoints:
+  - url: https://mcp.mixpanel.com/mcp
+    transport: streamable-http
+    auth: oauth

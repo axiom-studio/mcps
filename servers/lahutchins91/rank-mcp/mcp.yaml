@@ -1,0 +1,13 @@
+name: Rank by Ouroboros Apps
+summary: 'Rank by Ouroboros Apps: SEO rankings and traffic from Google Search Console, read-only'
+category: marketing
+tags:
+  - analytics
+  - google-analytics
+  - marketing
+  - seo
+docs_url: https://github.com/LAHutchins91/rank-mcp
+endpoints:
+  - url: https://rank.ouroborosapps.com/mcp
+    transport: streamable-http
+    auth: unknown

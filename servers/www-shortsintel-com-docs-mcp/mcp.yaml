@@ -1,0 +1,14 @@
+name: ShortsIntel
+summary: 'Short-form video and ad intelligence for TikTok, Instagram Reels, YouTube Shorts and Facebook: research what works in a niche, track creators, hashtags, sounds and advertisers, and search the Meta and TikTok ad libraries.'
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - marketing
+  - research
+  - social-media
+docs_url: https://www.shortsintel.com/docs/mcp
+endpoints:
+  - url: https://www.shortsintel.com/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: PRRO.cloud
+summary: 'Read-only access to the PRRO.cloud fiscalization API (Ukraine)(ПРРО): cash registers, shifts, fiscal tasks, billing and webhook deliveries. Hosted at https://mcp.prro.cloud/mcp with a Bearer token, or run locally over stdio.'
+category: finance
+tags:
+  - api
+  - business-operations
+  - finance
+docs_url: https://github.com/prro-cloud/prro-mcp
+endpoints:
+  - url: https://mcp.prro.cloud/mcp
+    transport: streamable-http
+    auth: api-key

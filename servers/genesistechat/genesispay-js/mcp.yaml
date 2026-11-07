@@ -1,0 +1,13 @@
+name: GenesisPay
+summary: Pay x402 APIs in USDC on Base from an agent wallet, within owner-set limits; above the limit it waits for approval.
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - finance
+  - payment
+docs_url: https://github.com/GenesisTechAT/genesispay-js
+endpoints:
+  - url: https://genesispay.finance/mcp
+    transport: streamable-http
+    auth: oauth

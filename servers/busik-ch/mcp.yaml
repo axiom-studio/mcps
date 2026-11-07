@@ -1,0 +1,11 @@
+name: busik.ch
+summary: 'Minibus trips between Ukraine, Germany and Switzerland: search departures, prices, free seats, stops and booking links.'
+category: other
+tags:
+  - ecommerce
+  - search
+docs_url: https://busik.ch/
+endpoints:
+  - url: https://busik.ch/api/mcp
+    transport: streamable-http
+    auth: none

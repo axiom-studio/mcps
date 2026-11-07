@@ -1,0 +1,13 @@
+name: Beancount.io
+summary: 'Query, edit, and reconcile hosted Beancount ledgers: BQL, reports, files and bank imports. Streamable HTTP with OAuth.'
+category: finance
+tags:
+  - database
+  - document
+  - finance
+  - sql
+docs_url: https://github.com/bex-co/beancount-io/blob/main/backend-cluster/backend-v2/docs/mcp.md
+endpoints:
+  - url: https://beancount.io/api-gateway/mcp
+    transport: streamable-http
+    auth: oauth

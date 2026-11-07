@@ -1,0 +1,13 @@
+name: Browser Control MCP by Nova (CIVAI)
+summary: 'Control your Chrome from chat: open websites, read what''s on the page, click buttons, and fill in forms. Works with the BrowserGPT extension on your computer, or a cloud browser if you prefer.'
+category: productivity
+tags:
+  - ai-agent
+  - browser
+  - browser-automation
+  - productivity
+docs_url: https://github.com/civai-technologies/mcp-browsergpt-browser-control-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-browsergpt-browser-control
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: BitBusca — Brazil data API
+summary: 'Brazil''s public and registry data for AI agents: CNPJ companies, B2B leads, court publications (DJEN) and deadlines, public tenders, lawyers (OAB) and property records.'
+category: search
+tags:
+  - business-operations
+  - government
+  - search
+  - web-research
+docs_url: https://bitbusca.net/desenvolvedores
+endpoints:
+  - url: https://api.bitbusca.net/api/v1/mcp
+    transport: streamable-http
+    auth: api-key

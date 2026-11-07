@@ -1,0 +1,12 @@
+name: FluxHost
+summary: Deploy static websites straight from your AI agent. Free EU hosting with HTTPS, rollbacks and SPA routing. No credit card needed.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - deployment
+  - web-research
+docs_url: https://fluxhost.app/mcp
+endpoints:
+  - url: https://api.fluxhost.app/mcp
+    transport: streamable-http
+    auth: oauth

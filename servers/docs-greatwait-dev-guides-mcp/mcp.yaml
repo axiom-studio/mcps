@@ -1,0 +1,12 @@
+name: GreatWait
+summary: Reliable one-off and recurring HTTPS callbacks for apps and agents.
+category: cloud-service
+tags:
+  - api
+  - notifications
+  - workflow-automation
+docs_url: https://docs.greatwait.dev/guides/mcp
+endpoints:
+  - url: https://api.greatwait.dev/mcp
+    transport: streamable-http
+    auth: unknown

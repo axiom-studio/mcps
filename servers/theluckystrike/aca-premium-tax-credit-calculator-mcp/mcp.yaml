@@ -1,0 +1,12 @@
+name: ACA Premium Tax Credit Calculator MCP
+summary: ACA premium tax credits for 2025 and 2026, poverty lines and the 400% FPL cliff
+category: finance
+tags:
+  - finance
+  - government
+  - healthcare
+docs_url: https://github.com/theluckystrike/aca-premium-tax-credit-calculator-mcp
+endpoints:
+  - url: https://aca-premium-tax-credit-calculator-mcp.lipmichal.workers.dev/mcp
+    transport: streamable-http
+    auth: none

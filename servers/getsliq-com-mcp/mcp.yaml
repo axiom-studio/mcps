@@ -1,0 +1,14 @@
+name: Sliq
+summary: Run LinkedIn and email outbound from Claude, ChatGPT, Grok Bot, and any other AI agent
+category: marketing
+tags:
+  - communication
+  - email-automation
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://getsliq.com/mcp
+endpoints:
+  - url: https://mcp.getsliq.com/mcp
+    transport: streamable-http
+    auth: oauth

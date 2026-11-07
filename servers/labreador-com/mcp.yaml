@@ -1,0 +1,13 @@
+name: Labreador — Bioassay & Ecotoxicology Calculators
+summary: 'Stateless scientific calculators for bioassays and ecotoxicology: 4PL/5PL ELISA standard-curve fitting with sample interpolation, dietary health risk (EDI, THQ, HI, cancer risk) and pollution indices (CF, Igeo, PLI). Every result embeds the required citation, echoed inputs and plausibility warnings. Inputs are processed in memory only and never stored.'
+category: other
+tags:
+  - bioinformatics
+  - data-analysis
+  - healthcare
+  - research
+docs_url: https://labreador.com
+endpoints:
+  - url: https://labreador.com/mcp
+    transport: streamable-http
+    auth: none

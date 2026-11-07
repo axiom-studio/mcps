@@ -1,0 +1,14 @@
+name: Eroq
+summary: eroq is a remote MCP server. Connect it once and Claude, ChatGPT or your coding agent can generate images, video clips and voice lines on your eroq account, and run your Flows — no key to paste, same credits as the studio.
+category: development
+tags:
+  - ai-model
+  - content-creation
+  - media
+  - text-to-speech
+  - video
+docs_url: https://eroq.ai/docs
+endpoints:
+  - url: https://eroq.ai/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Comunicate.eu
+summary: Find news sites in Romania and Europe, compare prices and plan press release or advertorial campaigns by budget. Catalogue tools work without an account.
+category: marketing
+tags:
+  - advertising
+  - marketing
+  - media
+  - news
+docs_url: https://comunicate.eu/en/mcp
+endpoints:
+  - url: https://app.comunicate.eu/mcp
+    transport: streamable-http
+    auth: unknown

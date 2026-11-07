@@ -1,0 +1,13 @@
+name: Microburbs Australian Property Data
+summary: 'Australian property data at street and mesh-block level: street price forecasts, crime below the suburb, sale and rent history, comparable sales, schools, zoning and hazard risk. 174 tools, free sandbox, no signup.'
+category: finance
+tags:
+  - data-analysis
+  - geospatial
+  - real-estate
+  - research
+docs_url: https://www.microburbs.com.au/developers/api-docs
+endpoints:
+  - url: https://api.microburbs.com.au/mcp
+    transport: streamable-http
+    auth: api-key

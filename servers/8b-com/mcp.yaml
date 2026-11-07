@@ -1,0 +1,10 @@
+name: 8B AI Website Builder
+summary: 'Build a website or landing page from chat: your AI picks an 8B design and fills it with texts, colors, fonts and photos for your business. Live animated preview, edits in plain words, download as one HTML file. No account needed.'
+category: design
+tags:
+  - design
+docs_url: https://8b.com
+endpoints:
+  - url: https://mcp.8b.com/mcp
+    transport: streamable-http
+    auth: none

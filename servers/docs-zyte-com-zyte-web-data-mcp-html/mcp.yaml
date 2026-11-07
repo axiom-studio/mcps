@@ -1,0 +1,13 @@
+name: Zyte MCP
+summary: Official Zyte MCP server to give you agent web access via Zyte API, extract data, render pages, and manage your Scrapy Cloud projects.
+category: web-scraping
+tags:
+  - api
+  - browser-automation
+  - data-analysis
+  - web-scraping
+docs_url: https://docs.zyte.com/zyte-web-data/mcp.html
+endpoints:
+  - url: https://mcp.zyte.com/v1/mcp
+    transport: streamable-http
+    auth: oauth

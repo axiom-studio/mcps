@@ -1,0 +1,14 @@
+name: Mekler AI
+summary: 'Find and call pay-per-call services for agents: annual SEC financial facts by CIK, CSV validation, citation source-overlap checks and static web page text extraction. Paid per call in USDC over x402 on Base or Solana; no API key or signup.'
+category: other
+tags:
+  - api
+  - crypto
+  - data-analysis
+  - finance
+  - web-scraping
+docs_url: https://api.mekler.ai/llms.txt
+endpoints:
+  - url: https://api.mekler.ai/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,12 @@
+name: Strong Saga Home Gym Gear Lookup
+summary: 'Find home gym gear that actually fits: filter racks, dumbbells, treadmills and more by ceiling height, budget, footprint and capacity. Data from Strong Saga''s compared and ranked buying guides. Free, no key.'
+category: other
+tags:
+  - ecommerce
+  - fitness
+  - search
+docs_url: https://strongsaga.com/gear-api/
+endpoints:
+  - url: https://strongsaga.com/wp-json/gear/v1/mcp
+    transport: streamable-http
+    auth: none

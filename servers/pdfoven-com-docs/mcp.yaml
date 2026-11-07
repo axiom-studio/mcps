@@ -1,0 +1,13 @@
+name: PDFOven
+summary: Generate PDFs and PNG images from HTML, Markdown, URLs or Handlebars templates; free API key with 100 renders a month.
+category: development
+tags:
+  - api
+  - document
+  - file-conversion
+  - pdf
+docs_url: https://pdfoven.com/docs
+endpoints:
+  - url: https://pdfoven.com/mcp
+    transport: streamable-http
+    auth: api-key

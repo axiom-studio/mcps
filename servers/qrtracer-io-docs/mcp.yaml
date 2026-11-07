@@ -1,0 +1,11 @@
+name: QRtracer MCP
+summary: Create dynamic QR codes, update destination links and read scan analytics from AI workflows. Remote endpoint with six tools for QR creation, rendering, routing and analytics.
+category: marketing
+tags:
+  - analytics
+  - marketing
+docs_url: https://qrtracer.io/docs
+endpoints:
+  - url: https://qrtracer.io/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: UNLAV CSV Reconcile
+summary: Compare CSV exports by key. Free demo; 0.05 USDC on Base per report via x402.
+category: productivity
+tags:
+  - data-analysis
+  - file-management
+  - productivity
+  - spreadsheet
+docs_url: https://github.com/Ivansky1/unlav-data-tools-mcp
+endpoints:
+  - url: https://7days.unlavsofts.xyz/mcp/csv-reconcile
+    transport: streamable-http
+    auth: unknown

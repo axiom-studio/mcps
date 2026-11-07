@@ -1,0 +1,13 @@
+name: LaunchRanked
+summary: An MCP server that gives Claude, Cursor and Codex live SEO audits, keyword data, briefs and draft checks. Publishing to your CMS comes with SEO Skills.
+category: marketing
+tags:
+  - cms
+  - content-creation
+  - marketing
+  - seo
+docs_url: https://launchranked.com/docs/mcp
+endpoints:
+  - url: https://launchranked.com/mcp
+    transport: streamable-http
+    auth: oauth

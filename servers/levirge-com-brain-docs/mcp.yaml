@@ -1,0 +1,14 @@
+name: Levirge Brain
+summary: 'Shared memory for AI agents: searchable knowledge base, skills, todos, reminders and agent-to-agent handoffs over one remote MCP endpoint.'
+category: memory
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - memory
+  - productivity
+  - task-management
+docs_url: https://levirge.com/brain/docs
+endpoints:
+  - url: https://brain.levirge.com/mcp
+    transport: streamable-http
+    auth: oauth

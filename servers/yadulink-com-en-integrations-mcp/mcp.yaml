@@ -1,0 +1,14 @@
+name: Yadulink
+summary: 'LinkedIn outreach from your AI assistant: prioritize who to contact, summarize your LinkedIn inbox, qualify lead lists and launch confirmed sequences. Remote server, OAuth 2.1 with scoped permissions.'
+category: marketing
+tags:
+  - ai-agent
+  - communication
+  - crm
+  - marketing-automation
+  - sales
+docs_url: https://yadulink.com/en/integrations/mcp
+endpoints:
+  - url: https://mcp.yadulink.com/mcp
+    transport: streamable-http
+    auth: oauth

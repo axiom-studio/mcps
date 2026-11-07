@@ -1,0 +1,13 @@
+name: Xpress Flow Systems
+summary: No-sign-up eSIMs for 200+ countries, phone-number eSIMs, domain names and proxies. Person approves each payment.
+category: other
+tags:
+  - communication
+  - ecommerce
+  - marketplace
+  - payment
+docs_url: https://www.xpressflowsystems.com.ng/agents
+endpoints:
+  - url: https://www.xpressflowsystems.com.ng/api/mcp
+    transport: streamable-http
+    auth: none

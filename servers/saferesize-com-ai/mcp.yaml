@@ -1,0 +1,13 @@
+name: SafeResize
+summary: Official passport and visa photo rules for 110 documents in 60 countries, and checks of a photo file against them. Hosted, free, no sign-in.
+category: other
+tags:
+  - compliance
+  - document
+  - file-conversion
+  - government
+docs_url: https://saferesize.com/ai
+endpoints:
+  - url: https://saferesize.com/mcp
+    transport: streamable-http
+    auth: none

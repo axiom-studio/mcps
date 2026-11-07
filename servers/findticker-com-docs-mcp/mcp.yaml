@@ -1,0 +1,13 @@
+name: Ticker
+summary: 'Live ticket market data for your AI: prices, listings, sales and seat maps for concerts and sports.'
+category: finance
+tags:
+  - entertainment
+  - finance
+  - marketplace
+  - sports
+docs_url: https://findticker.com/docs/mcp
+endpoints:
+  - url: https://api.findticker.com/mcp
+    transport: streamable-http
+    auth: oauth

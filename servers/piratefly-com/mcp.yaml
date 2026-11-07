@@ -1,0 +1,11 @@
+name: Piratefly MCP
+summary: 'Tells you whether a flight price is good right now, from 90 days of observed fares: buy-now verdict, cheapest months to fly, and how far ahead to book.'
+category: database
+tags:
+  - analytics
+  - data-analysis
+docs_url: https://piratefly.com/
+endpoints:
+  - url: https://next.piratefly.com/mcp
+    transport: streamable-http
+    auth: unknown

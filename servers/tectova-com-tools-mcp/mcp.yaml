@@ -1,0 +1,12 @@
+name: Tectova Runway Records
+summary: 'The runway record of the fashion industry for AI agents: models'' runway careers, show casts, fashion-house histories and models by country. Read-only, no API key.'
+category: other
+tags:
+  - knowledge-retrieval
+  - media
+  - research
+docs_url: https://tectova.com/tools/mcp
+endpoints:
+  - url: https://tectova.com/mcp
+    transport: streamable-http
+    auth: unknown

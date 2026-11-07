@@ -1,0 +1,13 @@
+name: Orb MCP
+summary: Cookieless website analytics built for AI. Connect Claude, ChatGPT, Cursor, Grok, or any MCP client and ask what visitors did.
+category: marketing
+tags:
+  - ai-agent
+  - analytics
+  - data-analysis
+  - marketing
+docs_url: https://orbmcp.com/docs
+endpoints:
+  - url: https://orbmcp.com/api/mcp
+    transport: streamable-http
+    auth: api-key

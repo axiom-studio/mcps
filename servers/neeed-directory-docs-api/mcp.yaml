@@ -1,0 +1,12 @@
+name: Neeed Directory
+summary: Search curated software and digital products, compare tools, and manage your own Neeed Directory listings through OAuth. Public catalog tools need no API key.
+category: search
+tags:
+  - api
+  - marketplace
+  - search
+docs_url: https://neeed.directory/docs/api
+endpoints:
+  - url: https://neeed.directory/api/mcp
+    transport: streamable-http
+    auth: oauth

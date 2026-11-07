@@ -1,0 +1,12 @@
+name: Aident Loadout
+summary: Connect any AI agent to 1,000+ apps and 27,000+ actions through one remote MCP server.
+category: development
+tags:
+  - ai-agent
+  - api
+  - workflow-automation
+docs_url: https://aident.ai
+endpoints:
+  - url: https://loadout.aident.ai/mcp
+    transport: streamable-http
+    auth: oauth

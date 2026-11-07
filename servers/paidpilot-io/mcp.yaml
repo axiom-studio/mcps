@@ -1,0 +1,13 @@
+name: PaidPilot Invoice Tools
+summary: 'Invoice helpers for agents, paid per call in USDC on Base: payment reminder drafts, late fees, payment-terms dates, timesheet to invoice, invoice PDF.'
+category: finance
+tags:
+  - document
+  - finance
+  - payment
+  - workflow-automation
+docs_url: https://paidpilot.io
+endpoints:
+  - url: https://api.paidpilot.io/mcp
+    transport: streamable-http
+    auth: none

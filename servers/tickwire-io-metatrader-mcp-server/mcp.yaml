@@ -1,0 +1,13 @@
+name: Tickwire
+summary: Hosted MCP server for MetaTrader 4 and 5 accounts, with any broker. Read positions, orders, quotes, candles and history; place, modify and close trades with idempotency keys and an audit log. Sign in with OAuth and choose Look only or Look and trade.
+category: finance
+tags:
+  - finance
+  - payment
+  - security
+  - trading
+docs_url: https://tickwire.io/metatrader-mcp-server/
+endpoints:
+  - url: https://api.tickwire.io/mcp
+    transport: streamable-http
+    auth: oauth

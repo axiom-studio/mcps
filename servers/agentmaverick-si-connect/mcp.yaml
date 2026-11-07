@@ -1,0 +1,14 @@
+name: AgentMaverick News
+summary: 'Free sourced breaking news for agents: markets, crypto, tech, geopolitics, US politics. Every item links its X post. Tools: latest_news, search_news (tickers/topics), get_story, subscribe_alerts.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - finance
+  - news
+  - x-twitter
+docs_url: https://agentmaverick.si/connect
+endpoints:
+  - url: https://agentmaverick.si/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Sendsets
+summary: 'Cold email for AI agents: connect and warm up mailboxes, launch outbound campaigns, add leads, and answer replies.'
+category: communication
+tags:
+  - communication
+  - email-automation
+  - marketing-automation
+  - sales
+docs_url: https://github.com/AddisonHoff/sendsets
+endpoints:
+  - url: https://api.sendsetsapi.com/v1/mcp
+    transport: streamable-http
+    auth: unknown

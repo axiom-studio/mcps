@@ -1,0 +1,12 @@
+name: TallyUp
+summary: Log and track your workouts
+category: other
+tags:
+  - fitness
+  - healthcare
+  - productivity
+docs_url: https://tallyup.codewalkers.net
+endpoints:
+  - url: https://tallyup.codewalkers.net/mcp
+    transport: streamable-http
+    auth: oauth

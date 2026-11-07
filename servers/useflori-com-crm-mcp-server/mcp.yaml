@@ -1,0 +1,13 @@
+name: Flori
+summary: Connect AI assistants to Flori CRM and project management to find customer context, manage deals, update tasks and save project documents with scoped OAuth access.
+category: productivity
+tags:
+  - crm
+  - document
+  - project-management
+  - task-management
+docs_url: https://useflori.com/crm-mcp-server
+endpoints:
+  - url: https://useflori.com/mcp
+    transport: streamable-http
+    auth: oauth

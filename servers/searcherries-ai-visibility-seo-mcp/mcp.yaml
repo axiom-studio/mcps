@@ -1,0 +1,16 @@
+name: 'Searcherries: AI Visibility & SEO'
+summary: 'Hosted, read-only MCP server for AI visibility (GEO) and SEO data: how ChatGPT, Perplexity, Google AI Overviews, Gemini, Claude and Grok answer your tracked questions, which competitors and sources they cite, plus Google Search Console, Bing Webmaster Tools and GA4 AI traffic.'
+category: marketing
+tags:
+  - analytics
+  - data-analysis
+  - marketing
+  - seo
+  - web-research
+official: true
+registry_name: com.searcherries/mcp
+docs_url: https://searcherries.com/docs/mcp/overview
+endpoints:
+  - url: https://app.searcherries.com/mcp/searcherries
+    transport: streamable-http
+    auth: oauth

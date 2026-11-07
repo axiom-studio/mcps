@@ -1,0 +1,13 @@
+name: Align
+summary: 'Ask Claude, ChatGPT or Cursor about your team''s meetings: what was decided, who owns what, what''s due this week. Read-only access to your meetings, decisions and tasks, with citations. OAuth sign-in, nothing to install.'
+category: productivity
+tags:
+  - knowledge-retrieval
+  - meeting-notes
+  - productivity
+  - task-management
+docs_url: https://meet-align.com/mcp
+endpoints:
+  - url: https://api.meet-align.com/mcp
+    transport: streamable-http
+    auth: oauth

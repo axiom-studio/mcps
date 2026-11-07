@@ -1,0 +1,12 @@
+name: Is This Site Down?
+summary: Check if any website is down from Singapore and Boston, with uptime history, current outages and TLS certificate expiry. No API key.
+category: development
+tags:
+  - devops-infrastructure
+  - monitoring
+  - network-automation
+docs_url: https://downforjustmeoreveryone.com/api
+endpoints:
+  - url: https://downforjustmeoreveryone.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: ReelGenie
+summary: A hosted social-content workflow for preparing posts, keeping reusable brand guidance, reviewing finished media and sending approved content to connected social accounts.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://reelgenie.app/claude
+endpoints:
+  - url: https://reelgenie.app/api/mcp/agent
+    transport: streamable-http
+    auth: oauth

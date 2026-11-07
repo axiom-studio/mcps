@@ -1,0 +1,13 @@
+name: Open Factory
+summary: 'Research, lead-time and price data on factory and datacenter equipment procurement: transformers, switchgear, gensets, chillers, machine tools, tariffs and grid interconnection, with the source document and date on every row. 12 read-only tools, no auth needed for the free layer.'
+category: finance
+tags:
+  - business-operations
+  - data-analysis
+  - finance
+  - research
+docs_url: https://open-factory.com/developers/
+endpoints:
+  - url: https://open-factory.com/mcp
+    transport: streamable-http
+    auth: none

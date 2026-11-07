@@ -1,0 +1,13 @@
+name: ContextQA
+summary: Remote MCP server for end-to-end web, mobile and API test automation. Create and run tests, inspect failures, and export Playwright tests from AI assistants. Browser-based OAuth; ContextQA account required.
+category: development
+tags:
+  - api
+  - browser-automation
+  - playwright
+  - testing-qa
+docs_url: https://mcp.contextqa.com/docs
+endpoints:
+  - url: https://mcp.contextqa.com/mcp
+    transport: streamable-http
+    auth: oauth

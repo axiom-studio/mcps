@@ -1,0 +1,12 @@
+name: Listingrail
+summary: 'Live sale and rental listings from Zillow, Realtor.com, Rightmove, Idealista, ImmoScout24 and 13 more property portals in one JSON schema. Tools: list_sources, search_listings. 100 free listings with an email key.'
+category: search
+tags:
+  - marketplace
+  - real-estate
+  - search
+docs_url: https://listingrail.com/docs/#mcp
+endpoints:
+  - url: https://listingrail.com/mcp
+    transport: streamable-http
+    auth: api-key

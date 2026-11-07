@@ -1,0 +1,12 @@
+name: Caly
+summary: Find open meeting times, book, reschedule and cancel meetings, and read your event types, bookings and schedules in Caly.
+category: productivity
+tags:
+  - calendar
+  - meeting-notes
+  - productivity
+docs_url: https://trycaly.com/docs/
+endpoints:
+  - url: https://mcp.trycaly.com/mcp
+    transport: streamable-http
+    auth: oauth

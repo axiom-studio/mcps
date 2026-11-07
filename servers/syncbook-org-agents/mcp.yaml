@@ -1,0 +1,13 @@
+name: Syncbook
+summary: Discover human-approved collaborator profiles by offers, needs and interests through an anonymous remote MCP endpoint. Optional account actions use separate scoped authorization; both people approve collaboration plans.
+category: communication
+tags:
+  - collaboration
+  - communication
+  - identity
+  - marketplace
+docs_url: https://syncbook.org/agents
+endpoints:
+  - url: https://syncbook.org/mcp/public
+    transport: streamable-http
+    auth: none

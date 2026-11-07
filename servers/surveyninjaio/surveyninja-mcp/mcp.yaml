@@ -1,0 +1,13 @@
+name: SurveyNinja
+summary: 'Remote MCP server for SurveyNinja surveys: build a survey from a description, check it before launch, read responses and reports, export results. Sign in with OAuth.'
+category: productivity
+tags:
+  - data-analysis
+  - productivity
+  - research
+  - workflow-automation
+docs_url: https://github.com/surveyninjaio/surveyninja-mcp
+endpoints:
+  - url: https://mcp.surveyninja.io/mcp/v1
+    transport: streamable-http
+    auth: oauth

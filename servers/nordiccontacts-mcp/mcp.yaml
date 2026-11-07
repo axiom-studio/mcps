@@ -1,0 +1,15 @@
+name: NordicContacts
+summary: Search B2B companies and decision-maker contacts in Finland, Sweden and Estonia. Build prospect lists, count market segments and look up companies through read-only MCP tools with OAuth authentication.
+category: marketing
+tags:
+  - crm
+  - data-analysis
+  - marketing
+  - research
+  - sales
+official: true
+docs_url: https://nordiccontacts.eu/
+endpoints:
+  - url: https://nordiccontacts.eu/mcp
+    transport: streamable-http
+    auth: oauth

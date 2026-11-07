@@ -1,0 +1,13 @@
+name: Brix36
+summary: Make films, music videos and images that star you, from your Artist DNA. Hosted remote MCP server at https://api.brix36.com/mcp (Streamable HTTP, OAuth sign-in). Shows the storyboard and credit price first and returns the finished video link.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - media
+  - video
+docs_url: https://brix36.com/connect
+endpoints:
+  - url: https://api.brix36.com/mcp
+    transport: streamable-http
+    auth: oauth

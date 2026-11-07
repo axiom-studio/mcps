@@ -1,0 +1,13 @@
+name: Rokha
+summary: Search a registry of agent skills and MCP servers, run them for real (sandbox or remote MCP, no install, a trace on every run), and hire proven agents for USDC.
+category: development
+tags:
+  - ai-agent
+  - development
+  - marketplace
+  - workflow-automation
+docs_url: https://rokha.ai
+endpoints:
+  - url: https://rokha.ai/mcp/jsonrpc
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,24 @@
+name: Tripadvisor
+summary: Tripadvisor hotel tools provide data for accommodation research, including hotel details, photos, reviews, ratings, availability, pricing, and nearby points of interest. The connector grounds assistant-led hotel comparison in Tripadvisor location and hotel data.
+description: |-
+  # Tripadvisor
+
+  Tripadvisor hotel tools provide data for accommodation research, including hotel details, photos, reviews, ratings, availability, pricing, and nearby points of interest. The connector grounds assistant-led hotel comparison in Tripadvisor location and hotel data.
+
+  ## Connection
+
+  https://production.ai-mcp-extensibility-prd.tamg.cloud/ogMvjY4De1G7CiHanMOAgddl/mcp
+
+  Current official connector listing identifies this publisher and exact endpoint. Authentication is not inferred from the directory sign-in badge. Access and business tools have not been verified.
+
+  [Publisher or official connector listing](https://claude.com/connectors/tripadvisor)
+category: other
+tags:
+  - other
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/tripadvisor
+endpoints:
+  - url: https://production.ai-mcp-extensibility-prd.tamg.cloud/ogMvjY4De1G7CiHanMOAgddl/mcp
+    transport: streamable-http
+    auth: unknown

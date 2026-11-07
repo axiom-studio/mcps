@@ -1,0 +1,12 @@
+name: Klevero
+summary: Search Turkish curriculum topic notes (LGS, YKS, grades 5-12) and fetch them as Markdown. Public, read-only, no auth.
+category: search
+tags:
+  - education
+  - knowledge-retrieval
+  - search
+docs_url: https://klevero.app
+endpoints:
+  - url: https://klevero.app/mcp
+    transport: streamable-http
+    auth: none

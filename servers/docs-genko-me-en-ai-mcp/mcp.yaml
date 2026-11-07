@@ -1,0 +1,13 @@
+name: genko.me
+summary: Official remote MCP server for genko.me, a headless CMS. Search the docs, then read, draft, publish, and schedule entries in your workspaces. OAuth sign-in.
+category: productivity
+tags:
+  - cms
+  - content-creation
+  - document
+  - workflow-automation
+docs_url: https://docs.genko.me/en/ai/mcp
+endpoints:
+  - url: https://genko.me/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: ViralFarm
+summary: 'Social media scheduling MCP server and API. Let Claude, ChatGPT, Cursor or any MCP client schedule and publish posts to TikTok, Instagram, Pinterest, LinkedIn, Threads, Facebook, YouTube, X and WordPress through official platform APIs. Upload your own photos and videos, schedule text posts and articles, and approve every post before it goes out. Optional carousel and pin templates based on real viral posts. Remote server: https://www.myviral.farm/api/mcp'
+category: marketing
+tags:
+  - ai-model
+  - anthropic
+  - llm
+  - marketing-automation
+  - social-media
+docs_url: https://www.myviral.farm/dev
+endpoints:
+  - url: https://www.myviral.farm/api/mcp
+    transport: streamable-http
+    auth: oauth

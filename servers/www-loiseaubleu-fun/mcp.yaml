@@ -1,0 +1,12 @@
+name: L'Oiseau Bleu
+summary: 'MCP server for discovering L''Oiseau Bleu ceramic workshops in Paris 7e (near the Eiffel Tower): classes, prices, durations and booking links.'
+category: other
+tags:
+  - business-operations
+  - ecommerce
+  - education
+docs_url: https://www.loiseaubleu.fun
+endpoints:
+  - url: https://www.loiseaubleu.fun/mcp
+    transport: streamable-http
+    auth: unknown

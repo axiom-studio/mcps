@@ -1,0 +1,11 @@
+name: Surface
+summary: 'Preflight short links before fetch — unwrap t.co/bit.ly/lnkd.in/youtu.be, return next: fetch or skip. Never returns page body. GET /v1/preflight?url= · docs https://nova-otter-delta-cloud.grok.me/docs · llms.txt https://nova-otter-delta-cloud.grok.me/llms.txt · $0.25/1k.'
+category: search
+tags:
+  - browser-automation
+  - web-research
+docs_url: https://nova-otter-delta-cloud.grok.me/
+endpoints:
+  - url: https://nova-otter-delta-cloud.grok.me/mcp
+    transport: streamable-http
+    auth: api-key

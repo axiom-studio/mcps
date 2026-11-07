@@ -1,0 +1,15 @@
+name: Ahrefs MCP
+summary: Official Ahrefs MCP server that lets AI agents securely access Ahrefs SEO data, site metrics, keyword research, and competitor analysis through the Ahrefs API.
+category: web-scraping
+tags:
+  - analytics
+  - api
+  - marketing
+  - seo
+  - web-research
+official: true
+docs_url: https://docs.ahrefs.com/en/mcp/docs/introduction
+endpoints:
+  - url: https://api.ahrefs.com/mcp/mcp
+    transport: streamable-http
+    auth: oauth

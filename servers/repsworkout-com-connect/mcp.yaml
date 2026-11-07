@@ -1,0 +1,13 @@
+name: 'Reps: Gym Workout Log (repsworkout.com)'
+summary: 'Connects an AI assistant to your Reps gym workout log (iPhone and Android): reads workouts, PRs, lift progress, routines and plans, and saves routines and plans after you confirm.'
+category: other
+tags:
+  - data-analysis
+  - fitness
+  - healthcare
+  - mobile
+docs_url: https://repsworkout.com/connect
+endpoints:
+  - url: https://api.repsworkout.com/mcp
+    transport: streamable-http
+    auth: oauth

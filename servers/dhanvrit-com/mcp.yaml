@@ -1,0 +1,12 @@
+name: Dhanvrit - Expenses and Subscriptions tracking
+summary: 'Personal finance assistant: track accounts, expenses, cash flow forecasts, and subscriptions.'
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - productivity
+docs_url: https://dhanvrit.com
+endpoints:
+  - url: https://mcp.dhanvrit.com/mcp/
+    transport: streamable-http
+    auth: api-key

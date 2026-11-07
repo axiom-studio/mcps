@@ -1,0 +1,14 @@
+name: WarpSearch
+summary: OpenSearch Serverless alternative. Single-digit millisecond search across vectors and text. At any scale, for fraction of the cost.
+category: database
+tags:
+  - analytics
+  - database
+  - search
+  - vector-search
+official: true
+docs_url: https://warpsearch.io/
+endpoints:
+  - url: https://api.warpsearch.io/mcp
+    transport: streamable-http
+    auth: none

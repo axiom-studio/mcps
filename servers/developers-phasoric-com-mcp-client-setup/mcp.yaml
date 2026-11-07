@@ -1,0 +1,13 @@
+name: Phasoric
+summary: Search, read, and safely update Markdown notes in your connected Phasoric knowledge vaults.
+category: memory
+tags:
+  - document
+  - knowledge-retrieval
+  - memory
+  - notes
+docs_url: https://developers.phasoric.com/mcp-client-setup
+endpoints:
+  - url: https://phasoric.com/api/mcp
+    transport: streamable-http
+    auth: oauth

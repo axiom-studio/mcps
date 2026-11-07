@@ -1,0 +1,13 @@
+name: Domainyze Domain Tools
+summary: Check domain availability, expiry, WHOIS/RDAP, DNS, SSL and email security, get brandable name ideas, and monitor your domain portfolio from chat.
+category: productivity
+tags:
+  - data-analysis
+  - productivity
+  - security
+  - web-research
+docs_url: https://domainyze.com/integrations/mcp
+endpoints:
+  - url: https://domainyze.com/mcp
+    transport: streamable-http
+    auth: oauth

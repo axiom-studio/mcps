@@ -1,0 +1,13 @@
+name: Flux AI
+summary: Generate images, videos and music with model discovery, cost estimates and asynchronous results.
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - media
+docs_url: https://fluxaipro.art/mcp
+endpoints:
+  - url: https://fluxaipro.art/api/mcp
+    transport: streamable-http
+    auth: oauth

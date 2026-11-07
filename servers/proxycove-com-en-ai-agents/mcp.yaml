@@ -1,0 +1,12 @@
+name: ProxyCove
+summary: Buy and manage residential, mobile and datacenter proxies in 170+ countries, prepaid per GB. The agent creates its own account without a signup form, hands the human a payment link and receives working connection credentials back.
+category: web-scraping
+tags:
+  - cloud-infrastructure
+  - network-automation
+  - web-scraping
+docs_url: https://proxycove.com/en/ai-agents/
+endpoints:
+  - url: https://mcp.proxycove.com/mcp
+    transport: streamable-http
+    auth: oauth

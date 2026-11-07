@@ -1,0 +1,13 @@
+name: PDFHaul
+summary: Give AI direct access to your PDFs - 22 tools for merging, splitting, compressing, converting, and cleaning up PDF files through natural language.
+category: productivity
+tags:
+  - document
+  - file-management
+  - pdf
+  - productivity
+docs_url: https://www.pdfhaul.com/mcp-server
+endpoints:
+  - url: https://mcp.pdfhaul.com/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,14 @@
+name: OurPay Wallet
+summary: Account-owned crypto wallet for AI agents with OAuth, balances, transfers, swaps, bridging and Hyperliquid trading under owner-controlled permissions.
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - defi
+  - finance
+  - trading
+docs_url: https://github.com/Ourpay/ourpay-wallet
+endpoints:
+  - url: https://mcp.ourpay.dev/wallet/mcp
+    transport: streamable-http
+    auth: oauth

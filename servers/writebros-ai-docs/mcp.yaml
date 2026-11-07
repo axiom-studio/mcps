@@ -1,0 +1,12 @@
+name: WriteBros
+summary: AI writing and style cloning for natural text in your own voice.
+category: productivity
+tags:
+  - ai-model
+  - content-creation
+  - productivity
+docs_url: https://writebros.ai/docs
+endpoints:
+  - url: https://writebros.ai/api/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,15 @@
+name: Cloudinary
+summary: Interact with Cloudinary's media management platform using natural language.
+category: cloud-service
+tags:
+  - api
+  - cloud-storage
+  - content-creation
+  - media
+official: true
+registry_name: io.github.cloudinary/asset-management-mcp
+docs_url: https://github.com/cloudinary/mcp-servers
+endpoints:
+  - url: https://asset-management.mcp.cloudinary.com/mcp
+    transport: streamable-http
+    auth: oauth

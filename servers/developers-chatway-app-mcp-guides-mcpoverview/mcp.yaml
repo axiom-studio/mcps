@@ -1,0 +1,13 @@
+name: Chatway Live Chat
+summary: Remote MCP server for Chatway live chat and customer support. Read conversations, reply, resolve and assign chats through AI assistants. OAuth authentication, scoped permissions and a Free plan.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - crm
+  - customer-ops
+docs_url: https://developers.chatway.app/mcp/guides.mcp_overview
+endpoints:
+  - url: https://mcp.chatway.app/mcp
+    transport: streamable-http
+    auth: oauth

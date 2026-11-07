@@ -1,0 +1,12 @@
+name: Remembite
+summary: Food log your AI writes to. Claude works out calories and macros; Remembite keeps your record and, when a number looks off, saves nothing and Claude asks you first.
+category: other
+tags:
+  - ai-agent
+  - data-analysis
+  - healthcare
+docs_url: https://remembite.com/connect
+endpoints:
+  - url: https://remembite.com/mcp
+    transport: streamable-http
+    auth: oauth

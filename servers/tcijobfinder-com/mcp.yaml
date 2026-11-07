@@ -1,0 +1,12 @@
+name: TCI Job Finder
+summary: Current job vacancies in Turks and Caicos, with links to the job page and the official advert.
+category: search
+tags:
+  - government
+  - marketplace
+  - search
+docs_url: https://tcijobfinder.com
+endpoints:
+  - url: https://tcijobfinder.com/api/mcp
+    transport: streamable-http
+    auth: none

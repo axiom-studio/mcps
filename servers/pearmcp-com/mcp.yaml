@@ -1,0 +1,13 @@
+name: Pear
+summary: Connect AI assistants to Apple iCloud and Microsoft 365 email, calendars, contacts, and tasks through hosted MCP tools. Apple reminders support legacy CalDAV lists only.
+category: productivity
+tags:
+  - calendar
+  - email-automation
+  - outlook
+  - productivity
+docs_url: https://pearmcp.com
+endpoints:
+  - url: https://pearmcp.com/api/mcp
+    transport: streamable-http
+    auth: oauth

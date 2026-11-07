@@ -1,0 +1,14 @@
+name: NEXUS AI
+summary: Deploy apps, databases, and storage to AWS, Google Cloud, and Azure from any MCP client. 74 tools for deployments, logs, domains, secrets, backups, and buckets.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - cloud-storage
+  - database
+  - deployment
+  - devops-infrastructure
+docs_url: https://github.com/nexusrun/nexusai
+endpoints:
+  - url: https://mcp.nexusai.run/mcp
+    transport: streamable-http
+    auth: oauth

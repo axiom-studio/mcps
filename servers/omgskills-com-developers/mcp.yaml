@@ -1,0 +1,13 @@
+name: omgskills
+summary: Search and inspect 50,000+ Agent Skills for Claude Code, Codex and other agents. Free, read-only, no account. Hosted at https://omgskills.com/mcp or local via npx -y omgskills-mcp.
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - knowledge-retrieval
+  - search
+docs_url: https://omgskills.com/developers/
+endpoints:
+  - url: https://omgskills.com/mcp
+    transport: streamable-http
+    auth: none

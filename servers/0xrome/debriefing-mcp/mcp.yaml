@@ -1,0 +1,13 @@
+name: Debriefing
+summary: Competitive intelligence for B2B teams. Read tracked competitors, evidence-backed signals, digests and battlecards, change the watchlist, and run research. Hosted at https://debriefing.io/mcp (OAuth or API key; 4 public tools need no sign-in).
+category: marketing
+tags:
+  - business-operations
+  - marketing
+  - research
+  - web-research
+docs_url: https://github.com/0xrome/debriefing-mcp
+endpoints:
+  - url: https://debriefing.io/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: Penny Press
+summary: Penny Press — Free for humans. Pennies for machines. Essays on freedom, economics and philosophy. Free for humans to read; pay-per-read for AI agents via x402 micropayments (USDC on Base, $0.01–$0.05 per essay). Remote MCP server with essay-discovery tools.
+category: other
+tags:
+  - content-creation
+  - crypto
+  - knowledge-retrieval
+  - payment
+  - research
+docs_url: https://github.com/con-scribe/penny-press-mcp
+endpoints:
+  - url: https://www.pennypress.org/mcp
+    transport: streamable-http
+    auth: unknown

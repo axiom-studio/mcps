@@ -1,0 +1,12 @@
+name: Formada3D 3D Printing
+summary: 'Melbourne 3D printing: instant quotes for STL/3MF/OBJ files, 3D-printed products, design studios, order status. No auth.'
+category: other
+tags:
+  - design
+  - ecommerce
+  - marketplace
+docs_url: https://formada3d.com/ai/
+endpoints:
+  - url: https://mcp.formada3d.com/
+    transport: streamable-http
+    auth: none

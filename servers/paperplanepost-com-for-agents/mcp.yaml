@@ -1,0 +1,12 @@
+name: Paper Plane Post
+summary: Turn a photo into a real printed postcard. Get an unpaid draft link to review, finish, and pay on the website.
+category: communication
+tags:
+  - communication
+  - ecommerce
+  - payment
+docs_url: https://paperplanepost.com/for/agents
+endpoints:
+  - url: https://api.paperplanepost.com/v1/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: Morse
+summary: Exchange rates, where Morse can send money, and indicative transfer quotes. No login needed, never moves money.
+category: finance
+tags:
+  - finance
+  - payment
+  - trading
+docs_url: https://mcp.morsemoney.com
+endpoints:
+  - url: https://mcp.morsemoney.com/v1
+    transport: streamable-http
+    auth: none

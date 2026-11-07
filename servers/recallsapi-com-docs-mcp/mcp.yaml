@@ -1,0 +1,13 @@
+name: recallsapi.com US Recalls
+summary: 'US recall checks for agents: product (UPC, model, NDC, lot), vehicle (VIN) and recall search across 9 US agencies, with agency notice links.'
+category: search
+tags:
+  - data-analysis
+  - government
+  - search
+  - web-research
+docs_url: https://recallsapi.com/docs/mcp
+endpoints:
+  - url: https://api.recallsapi.com/mcp
+    transport: streamable-http
+    auth: api-key

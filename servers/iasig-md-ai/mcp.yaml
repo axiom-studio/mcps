@@ -1,0 +1,11 @@
+name: iAsig
+summary: Quote Moldovan RCA and Green Card car insurance and create unpaid orders that the user reviews and pays on iasig.md. OAuth sign-in with the user's iAsig account.
+category: finance
+tags:
+  - finance
+  - payment
+docs_url: https://iasig.md/ai
+endpoints:
+  - url: https://mcp.iasig.md/mcp
+    transport: streamable-http
+    auth: oauth

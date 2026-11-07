@@ -1,0 +1,12 @@
+name: SocialRobot MCP
+summary: Schedule and publish social media posts across platforms from AI agents via SocialRobot.
+category: marketing
+tags:
+  - marketing-automation
+  - social-media
+  - workflow-automation
+docs_url: https://github.com/socialrobot-io/socialrobot-mcp
+endpoints:
+  - url: https://socialrobot.io/api/mcp
+    transport: streamable-http
+    auth: unknown

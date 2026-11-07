@@ -1,0 +1,12 @@
+name: Truthifi
+summary: 'One verified household record for your AI: accounts, activity, holdings, fees, performance, cash flow, the advisors on your accounts, financial diagnostics, and your Truthifi Score with the findings behind it. Can''t move money.'
+category: finance
+tags:
+  - ai-agent
+  - data-analysis
+  - finance
+docs_url: https://github.com/Truthifi/truthifi-mcp
+endpoints:
+  - url: https://api.truthifi.com/mcp
+    transport: streamable-http
+    auth: oauth

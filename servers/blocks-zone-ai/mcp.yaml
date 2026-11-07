@@ -1,0 +1,13 @@
+name: Blocks
+summary: 'AI-native training platform for cyclists and runners: your agent reads your training calendar, synced rides, sleep/HRV and a sourced sports-science base, and plans your week. Remote, OAuth, free.'
+category: other
+tags:
+  - ai-agent
+  - calendar
+  - data-analysis
+  - fitness
+docs_url: https://blocks.zone/ai
+endpoints:
+  - url: https://blocks.zone/api/mcp
+    transport: streamable-http
+    auth: unknown

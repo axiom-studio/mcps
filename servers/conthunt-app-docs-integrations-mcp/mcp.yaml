@@ -1,0 +1,13 @@
+name: ContHunt
+summary: Hosted remote MCP for discovering viral social content and creators on TikTok, Instagram, and YouTube.
+category: search
+tags:
+  - content-creation
+  - marketing
+  - research
+  - social-media
+docs_url: https://conthunt.app/docs/integrations/mcp
+endpoints:
+  - url: https://mcp.conthunt.app/
+    transport: streamable-http
+    auth: oauth

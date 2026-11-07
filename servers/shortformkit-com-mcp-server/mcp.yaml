@@ -1,0 +1,13 @@
+name: Shortform Kit
+summary: 'Transcribe, read and download public Instagram Reels, TikToks and YouTube videos, plus sourced creator data: upload specs for 9 platforms, monetization programs, loudness targets and YouTube channel IDs. Remote, no key, no account.'
+category: productivity
+tags:
+  - content-creation
+  - media
+  - research
+  - video
+docs_url: https://shortformkit.com/mcp-server/
+endpoints:
+  - url: https://shortformkit.com/mcp
+    transport: streamable-http
+    auth: none

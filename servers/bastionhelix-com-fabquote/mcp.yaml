@@ -1,0 +1,11 @@
+name: BHX Fab Quote
+summary: 'Free, no sign-in: measure and price laser, plasma, waterjet and CNC jobs. Send a DXF, G-code program or STL and get cut length, pierces, run time per tool, drawing problems and an optional price with margin and tax. Read-only; files are processed in memory and not stored.'
+category: productivity
+tags:
+  - file-conversion
+  - productivity
+docs_url: https://bastionhelix.com/fabquote/
+endpoints:
+  - url: https://quote.bastionhelix.com/mcp
+    transport: streamable-http
+    auth: unknown

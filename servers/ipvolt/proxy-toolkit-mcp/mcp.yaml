@@ -1,0 +1,14 @@
+name: ipvolt Proxy Toolkit
+summary: Search proxy setup guides, generate proxy configuration templates for curl, Requests, HTTPX and Playwright, and diagnose proxy errors such as a CONNECT 407.
+category: development
+tags:
+  - browser-automation
+  - development
+  - documentation
+  - playwright
+  - testing-qa
+docs_url: https://github.com/ipvolt/proxy-toolkit-mcp
+endpoints:
+  - url: https://mcp.ipvolt.com/mcp
+    transport: streamable-http
+    auth: none

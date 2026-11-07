@@ -1,0 +1,13 @@
+name: Google Search Console MCP by AdPlug
+summary: Google Search Console MCP for Claude and ChatGPT. Traffic drops explained, striking-distance queries, URL inspection against the live page, Google Ads search terms next to rankings.
+category: marketing
+tags:
+  - analytics
+  - google-analytics
+  - marketing
+  - seo
+docs_url: https://adplug.app/integrations/google-search-console
+endpoints:
+  - url: https://api.adplug.app/mcp/google-search-console
+    transport: streamable-http
+    auth: oauth

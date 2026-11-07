@@ -1,0 +1,12 @@
+name: Cups to Grams MCP
+summary: Ingredient-aware cups to grams with USDA and King Arthur densities, recipe scaling, oven temps.
+category: other
+tags:
+  - file-conversion
+  - productivity
+  - spreadsheet
+docs_url: https://github.com/theluckystrike/cups-to-grams-mcp
+endpoints:
+  - url: https://cups-to-grams-mcp.lipmichal.workers.dev/mcp
+    transport: streamable-http
+    auth: none

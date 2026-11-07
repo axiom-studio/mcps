@@ -1,0 +1,13 @@
+name: Roomproof
+summary: Room planning to scale from your AI chat. Say the room size and what should fit; the AI places the furniture, Roomproof checks collisions, walkways under 90 cm and door swings and returns a 1:50 plan link and PDF. Planning is free, no login; the printable sheet is CHF 17 once for every plan.
+category: design
+tags:
+  - ai-model
+  - design
+  - document
+  - file-conversion
+docs_url: https://getroomproof.com
+endpoints:
+  - url: https://getroomproof.com/mcp
+    transport: streamable-http
+    auth: none

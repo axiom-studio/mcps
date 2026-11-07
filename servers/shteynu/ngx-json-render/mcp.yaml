@@ -1,0 +1,12 @@
+name: ngx-json-render UI
+summary: Remote MCP App that renders interactive UI (dashboards, tables, charts, forms) inside the chat from a JSON spec the model writes, using Angular and Angular Material components. One tool, render-ui; no auth, stores nothing.
+category: development
+tags:
+  - data-analysis
+  - development
+  - document
+docs_url: https://github.com/shteynu/ngx-json-render
+endpoints:
+  - url: https://ngx-json-render.angular-generative-ui-chat.workers.dev/mcp
+    transport: streamable-http
+    auth: none

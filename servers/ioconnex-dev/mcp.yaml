@@ -1,0 +1,19 @@
+name: IOConnex Price Tracker
+summary: 'Remote MCP server for price checking and affiliate link creation (check_price, make_affiliate_link). Per-call paid MCP server, no API key or signup required; pay per call with a Base USDC wallet via x402; Stripe also enabled. check_price $0.008 per call and make_affiliate_link $0.005 per call, 50 free calls per IP per month. Endpoint: https://prices.ioconnex.dev/mcp'
+category: finance
+tags:
+  - crypto
+  - ecommerce
+  - finance
+  - payment
+docs_url: https://ioconnex.dev
+endpoints:
+  - url: https://convert.ioconnex.dev/mcp
+    transport: streamable-http
+    auth: none
+  - url: https://search.ioconnex.dev/mcp
+    transport: streamable-http
+    auth: none
+  - url: https://prices.ioconnex.dev/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: CloudCrane
+summary: Let your agent read and help build curated catalog data, with a  receipt on every value and a person deciding what an agent can't.
+category: database
+tags:
+  - data-analysis
+  - database
+  - workflow-automation
+docs_url: https://cloudcrane.ai/docs/build-mcp
+endpoints:
+  - url: https://cloudcrane.ai/api/build/mcp
+    transport: streamable-http
+    auth: oauth

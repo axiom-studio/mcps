@@ -1,0 +1,14 @@
+name: Ankra
+summary: 'Hosted MCP server for deploying and operating Kubernetes: clusters, stacks, apps, logs, metrics, security and cost across every cluster in an Ankra organisation. OAuth, read-only unless mcp:write.'
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - devops-infrastructure
+  - kubernetes
+  - monitoring
+  - security
+docs_url: https://ankra.ai/kubernetes-mcp-server
+endpoints:
+  - url: https://platform.ankra.app/api/v1/mcp
+    transport: streamable-http
+    auth: oauth

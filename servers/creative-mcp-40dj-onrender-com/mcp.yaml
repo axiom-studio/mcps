@@ -1,0 +1,14 @@
+name: Launchkit MCP
+summary: 'Hosted remote MCP (streamable HTTP) for launch assets: logos, memes, banners, sticker packs, teaser videos and music beds. 12 tools incl. generate_launch_kit, generate_logo_kit, generate_banner, generate_sticker_pack, generate_teaser_video, generate_music_bed. Pay per use in prepaid credits (from ~9 cents per logo/meme), USDC on Base top-ups, 50 free trial credits.'
+category: design
+tags:
+  - content-creation
+  - crypto
+  - design
+  - media
+  - payment
+docs_url: https://creative-mcp-40dj.onrender.com
+endpoints:
+  - url: https://creative-mcp-40dj.onrender.com/mcp
+    transport: streamable-http
+    auth: api-key

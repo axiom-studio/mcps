@@ -1,0 +1,13 @@
+name: LabWired
+summary: 'Browser and CI MCU firmware simulator over MCP: list boards, run firmware, verify on a digital twin.'
+category: development
+tags:
+  - browser-automation
+  - development
+  - iot
+  - testing-qa
+docs_url: https://github.com/w1ne/labwired-core
+endpoints:
+  - url: https://api.labwired.com/mcp
+    transport: streamable-http
+    auth: oauth

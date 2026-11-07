@@ -1,0 +1,12 @@
+name: Unmerge
+summary: Split a flat image into separate transparent PNG layers. Pay with Unmerge credits.
+category: design
+tags:
+  - design
+  - file-conversion
+  - payment
+docs_url: https://unmerge.app/docs/mcp
+endpoints:
+  - url: https://unmerge.app/mcp
+    transport: streamable-http
+    auth: api-key

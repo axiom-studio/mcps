@@ -1,0 +1,14 @@
+name: AllBack
+summary: 'AllBack is a form builder with automatic reminders: it sends each person a personal link, reminds only the people who have not answered, and shows who is still missing. Answers export as CSV.'
+category: productivity
+tags:
+  - communication
+  - data-analysis
+  - email-automation
+  - productivity
+  - workflow-automation
+docs_url: https://www.allback.ai
+endpoints:
+  - url: https://mcp.allback.ai/mcp
+    transport: streamable-http
+    auth: oauth

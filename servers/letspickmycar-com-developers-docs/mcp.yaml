@@ -1,0 +1,13 @@
+name: Lets Pick My Car MCP (India car data)
+summary: 'Indian car-buying data for AI assistants: search models and variants, ranked recommendations, on-road prices by state, running costs, loan EMI, sales history.'
+category: finance
+tags:
+  - data-analysis
+  - ecommerce
+  - finance
+  - marketplace
+docs_url: https://letspickmycar.com/developers/docs
+endpoints:
+  - url: https://letspickmycar.com/mcp
+    transport: streamable-http
+    auth: oauth

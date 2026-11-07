@@ -1,0 +1,13 @@
+name: Clawhard Studio
+summary: Trim text, score writing and sites for AI habits, total AI subscriptions, split costs, plan events.
+category: productivity
+tags:
+  - content-creation
+  - finance
+  - productivity
+  - text-to-speech
+docs_url: https://mcp.clawhard.com/
+endpoints:
+  - url: https://mcp.clawhard.com/mcp
+    transport: streamable-http
+    auth: none

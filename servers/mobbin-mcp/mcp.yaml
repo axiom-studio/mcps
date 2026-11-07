@@ -1,0 +1,14 @@
+name: Mobbin
+summary: Mobbin is the industry standard in UI & UX design references for mobile apps, web apps, and websites. The platform serves millions of product builders and designers across the world to help them design better digital experiences. Connect Mobbin with your AI agent to better research and explore UI & UX design ideas.
+category: design
+tags:
+  - content-creation
+  - design
+  - knowledge-retrieval
+  - research
+official: true
+docs_url: https://mobbin.com/mcp
+endpoints:
+  - url: https://api.mobbin.com/mcp
+    transport: streamable-http
+    auth: oauth

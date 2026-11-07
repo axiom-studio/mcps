@@ -1,0 +1,13 @@
+name: Indo News API
+summary: 'Indonesian news for agents: headlines, keyword search, briefings and auditable sentiment, in Bahasa Indonesia or English; free 3-headline preview, then pay per call in USDC over x402.'
+category: search
+tags:
+  - crypto
+  - news
+  - payment
+  - search
+docs_url: https://indo-news-api.vercel.app/mcp/indonesia-news
+endpoints:
+  - url: https://indo-news-api.vercel.app/mcp/indonesia-news
+    transport: streamable-http
+    auth: none

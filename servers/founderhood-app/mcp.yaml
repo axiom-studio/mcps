@@ -1,0 +1,12 @@
+name: Founderhood
+summary: Find indie founders in your city and meet them offline
+category: search
+tags:
+  - business-operations
+  - communication
+  - search
+docs_url: https://founderhood.app
+endpoints:
+  - url: https://founderhood.app/api/mcp
+    transport: streamable-http
+    auth: none

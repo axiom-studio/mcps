@@ -1,0 +1,13 @@
+name: Vadyu AI Video Ad Studio
+summary: Turn product photos and image URLs into commercial multi-shot AI video ads (9:16 TikTok/Reels, 4:5 Meta Feed, 1:1 Square, 16:9 YouTube) with automated product-label coherence grading.
+category: marketing
+tags:
+  - advertising
+  - ai-model
+  - marketing
+  - video
+docs_url: https://github.com/crawde/mcp-vadyu
+endpoints:
+  - url: https://vadyu.com/api/mcp
+    transport: streamable-http
+    auth: unknown

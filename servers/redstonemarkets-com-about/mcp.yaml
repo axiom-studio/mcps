@@ -1,0 +1,13 @@
+name: Redstone Markets
+summary: Returns, risk and backtests for US stocks and ETFs. Compare tickers, test a portfolio you describe, or screen by Sharpe ratio and drawdown, with a chart for each answer.
+category: finance
+tags:
+  - analytics
+  - data-analysis
+  - finance
+  - trading
+docs_url: https://redstonemarkets.com/about#ai-assistants
+endpoints:
+  - url: https://redstonemarkets.com/api/mcp
+    transport: streamable-http
+    auth: none

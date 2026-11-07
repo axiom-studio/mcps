@@ -1,0 +1,12 @@
+name: CruiseHops
+summary: Search Carnival and Royal Caribbean cruises, compare itineraries and cabin fares, inspect price history, and explore port experiences. Free read-only remote MCP.
+category: search
+tags:
+  - ecommerce
+  - entertainment
+  - search
+docs_url: https://cruisehops.com/integrations
+endpoints:
+  - url: https://cruisehops.com/mcp
+    transport: streamable-http
+    auth: none

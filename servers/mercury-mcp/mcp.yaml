@@ -1,0 +1,11 @@
+name: Mercury MCP
+summary: Mercury MCP lets you ask questions about your banking balances, transactions, cards/recipients, and more
+category: finance
+tags:
+  - development
+official: true
+docs_url: https://mercury.com/mcp
+endpoints:
+  - url: https://mcp.mercury.com/mcp
+    transport: streamable-http
+    auth: oauth

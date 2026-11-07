@@ -1,0 +1,13 @@
+name: Klyf
+summary: An AI YouTube analyst inside Claude. Connect your channel and ask why a video flopped, what to fix, and what to make next.
+category: productivity
+tags:
+  - ai-agent
+  - analytics
+  - content-creation
+  - youtube
+docs_url: https://klyf.ai
+endpoints:
+  - url: https://klyf.ai/api/mcp
+    transport: streamable-http
+    auth: unknown

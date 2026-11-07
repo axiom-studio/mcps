@@ -1,0 +1,13 @@
+name: Adako
+summary: Adako connects your AI to your Google Ads, Meta Ads, Linkedin Ads and ChatGPT Ads accounts. See how campaigns perform, launch new ones and cut what wastes money.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - marketing
+  - marketing-automation
+docs_url: https://github.com/ruslan2027/adako-mcp
+endpoints:
+  - url: https://adako.ai/mcp
+    transport: streamable-http
+    auth: oauth

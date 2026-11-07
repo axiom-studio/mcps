@@ -1,0 +1,13 @@
+name: Phở Research Tools
+summary: Checks AI-written references against Crossref, PubMed and OpenAlex, flags retractions, formats citations (APA, Vancouver, BibTeX) and draws PRISMA 2020 flow diagrams. Hosted, free, no account needed.
+category: search
+tags:
+  - data-analysis
+  - document
+  - knowledge-retrieval
+  - research
+docs_url: https://github.com/thaohienhomes/pho-research-tools
+endpoints:
+  - url: https://mcp.pho.chat/mcp
+    transport: streamable-http
+    auth: none

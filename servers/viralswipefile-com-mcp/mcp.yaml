@@ -1,0 +1,13 @@
+name: Viral Swipe File
+summary: 'Viral TikTok and Instagram Reels hooks by niche and format: your agent finds real examples and writes what to post next.'
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - web-research
+docs_url: https://viralswipefile.com/mcp
+endpoints:
+  - url: https://viralswipefile.com/api/mcp
+    transport: streamable-http
+    auth: oauth

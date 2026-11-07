@@ -1,0 +1,12 @@
+name: Market Eyes Live
+summary: Research ratings for U.S. listed stocks and ETFs, plus U.S. mortgage rate context. Read only, no API key.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+docs_url: https://github.com/marketeyeslive/market-eyes-live-mcp
+endpoints:
+  - url: https://marketeyeslive.com/mcp
+    transport: streamable-http
+    auth: none

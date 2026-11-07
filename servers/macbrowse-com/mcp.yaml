@@ -1,0 +1,12 @@
+name: Mac Browse
+summary: Mac apps directory search.
+category: search
+tags:
+  - macos
+  - marketplace
+  - search
+docs_url: https://macbrowse.com
+endpoints:
+  - url: https://macbrowse.com/mcp
+    transport: streamable-http
+    auth: none

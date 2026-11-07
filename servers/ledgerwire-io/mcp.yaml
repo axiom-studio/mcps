@@ -1,0 +1,12 @@
+name: Ledgerwire
+summary: Ledgerwire is a read-only MCP connector that lets Claude answer questions from your real bank, card, loan, and brokerage accounts.
+category: finance
+tags:
+  - ai-agent
+  - anthropic
+  - finance
+docs_url: https://ledgerwire.io
+endpoints:
+  - url: https://ledgerwire.io/mcp
+    transport: streamable-http
+    auth: oauth

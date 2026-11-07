@@ -1,0 +1,11 @@
+name: PartsTable
+summary: 'Calibrated IT hardware parts reference: part-number normalization, search, cross-references and cited lifecycle facts. Remote streamable HTTP at https://partstable.com/mcp'
+category: search
+tags:
+  - inventory
+  - search
+docs_url: https://partstable.com
+endpoints:
+  - url: https://partstable.com/mcp
+    transport: streamable-http
+    auth: unknown

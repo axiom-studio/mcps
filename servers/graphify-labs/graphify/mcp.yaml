@@ -1,0 +1,13 @@
+name: Graphify
+summary: Open-source (Apache 2.0) server that turns a codebase into a knowledge graph AI coding agents like Claude Code and Cursor can query over MCP, so they pull only the relevant code context instead of whole files and use fewer tokens. Also available as a hosted server.
+category: development
+tags:
+  - code-quality
+  - coding-agent
+  - development
+  - knowledge-graph
+docs_url: https://github.com/Graphify-Labs/graphify
+endpoints:
+  - url: https://api.graphify.com/mcp
+    transport: streamable-http
+    auth: oauth

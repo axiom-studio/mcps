@@ -1,0 +1,13 @@
+name: GORZ-Launch-Intel
+summary: 'Shows how Solana Pump.fun coins were launched: the creator''s own Jito team bundle, the launch tool used, the repeat launch team behind it and its dump rate, and sandwich bots. Free tier.'
+category: finance
+tags:
+  - analytics
+  - crypto
+  - defi
+  - trading
+docs_url: https://github.com/GORZ-APP/gorz-launch-intel
+endpoints:
+  - url: https://gorz.app/mcp/launch
+    transport: streamable-http
+    auth: unknown

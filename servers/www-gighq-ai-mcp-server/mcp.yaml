@@ -1,0 +1,12 @@
+name: GigHQ.ai
+summary: 'Job-search tracker for AI agents: applications, stale follow-ups, skills gaps, H-1B lookup.'
+category: productivity
+tags:
+  - ai-agent
+  - productivity
+  - task-management
+docs_url: https://www.gighq.ai/mcp-server/
+endpoints:
+  - url: https://mcp.gighq.ai/mcp
+    transport: streamable-http
+    auth: unknown

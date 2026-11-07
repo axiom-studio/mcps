@@ -1,0 +1,13 @@
+name: APIzone
+summary: Check whether any of 294 third-party APIs (Stripe, OpenAI, AWS, GitHub, Twilio, etc.) is up, degraded, or down, with uptime history and recent incidents. Read-only, no auth required.
+category: development
+tags:
+  - api
+  - development
+  - monitoring
+  - observability-incident
+docs_url: https://apizone.io
+endpoints:
+  - url: https://apizone.io/api/mcp
+    transport: streamable-http
+    auth: none

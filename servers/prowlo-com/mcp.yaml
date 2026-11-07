@@ -1,0 +1,13 @@
+name: Prowlo
+summary: Reddit & X for AI agents over MCP - hourly Watchers, Keyword Monitor across all of Reddit, Community Research reports. Hosted, no Reddit API.
+category: marketing
+tags:
+  - ai-agent
+  - marketing
+  - social-media
+  - web-research
+docs_url: https://prowlo.com
+endpoints:
+  - url: https://api.prowlo.com/mcp
+    transport: streamable-http
+    auth: unknown

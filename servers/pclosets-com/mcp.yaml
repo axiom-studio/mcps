@@ -1,0 +1,12 @@
+name: Paradise Closets
+summary: Custom closets built to your measurements, shipped anywhere in the US for DIY install. Price estimates and quote requests.
+category: other
+tags:
+  - ecommerce
+  - home-automation
+  - inventory
+docs_url: https://pclosets.com
+endpoints:
+  - url: https://pclosets.com/mcp
+    transport: streamable-http
+    auth: none

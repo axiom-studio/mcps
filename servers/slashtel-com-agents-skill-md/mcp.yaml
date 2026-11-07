@@ -1,0 +1,12 @@
+name: Slashtel — Travel eSIMs and Mobile Top-ups
+summary: Find and buy prepaid travel data eSIMs for 190+ countries and send mobile top-ups to 100+ countries from any AI assistant. Live USD prices, checkout link on slashtel.com.
+category: other
+tags:
+  - ecommerce
+  - mobile
+  - payment
+docs_url: https://slashtel.com/agents/SKILL.md
+endpoints:
+  - url: https://slashtel.com/api/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: Screen Browser
+summary: Narrated demo and tutorial videos of your web app, from a guide or your coding agent.
+category: development
+tags:
+  - browser-automation
+  - content-creation
+  - testing-qa
+  - video
+docs_url: https://screenbrowser.com/for-agents/
+endpoints:
+  - url: https://mcp.screenbrowser.com
+    transport: streamable-http
+    auth: oauth

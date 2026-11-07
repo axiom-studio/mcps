@@ -1,0 +1,13 @@
+name: Oh Dear
+summary: 'Website monitoring: uptime, SSL certificates, broken links, DNS, cron jobs and status pages.'
+category: development
+tags:
+  - devops-infrastructure
+  - monitoring
+  - performance
+  - security
+docs_url: https://ohdear.app/docs/tools-and-sdks/mcp-server
+endpoints:
+  - url: https://ohdear.app/mcp
+    transport: streamable-http
+    auth: oauth

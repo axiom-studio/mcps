@@ -1,0 +1,14 @@
+name: CherryShot
+summary: 'Generate campaign-grade product imagery from one photo: on-model shots, lifestyle scenes, marketplace images and video ads. Remote streamable HTTP server with bearer API key auth.'
+category: marketing
+tags:
+  - advertising
+  - content-creation
+  - ecommerce
+  - marketing
+  - media
+docs_url: https://cherryshot.mintlify.app/guides/mcp
+endpoints:
+  - url: https://kyliwpyuseadbwawnsyd.supabase.co/functions/v1/mcp
+    transport: streamable-http
+    auth: api-key

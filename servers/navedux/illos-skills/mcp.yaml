@@ -1,0 +1,13 @@
+name: Illos
+summary: Find and add animated SVG illustrations for websites and apps, in four themes, light and dark. 65 are free with no account. Remote server at https://illos.dev/mcp for Claude Code, Cursor and Codex.
+category: design
+tags:
+  - content-creation
+  - design
+  - icon-generation
+  - svg
+docs_url: https://github.com/navedux/illos-skills
+endpoints:
+  - url: https://illos.dev/mcp
+    transport: streamable-http
+    auth: none

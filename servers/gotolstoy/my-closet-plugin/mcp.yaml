@@ -1,0 +1,13 @@
+name: My Closet
+summary: Save clothing descriptions or photos in a digital closet, search your wardrobe, remove garments, and continue in Shopbots. OAuth required. Copied photos remain after garment removal.
+category: productivity
+tags:
+  - ecommerce
+  - file-management
+  - productivity
+  - search
+docs_url: https://github.com/GoTolstoy/my-closet-plugin
+endpoints:
+  - url: https://apilb.gotolstoy.com/mcp/v1/closet/mcp
+    transport: streamable-http
+    auth: oauth

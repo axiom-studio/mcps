@@ -1,0 +1,14 @@
+name: UI Discovery
+summary: Hosted MCP server for UI Discovery. Search a curated library of real production interfaces and pull build briefs, prompts, and starter code into Cursor, Claude, or other MCP clients (Pro plan).
+category: design
+tags:
+  - ai-model
+  - anthropic
+  - knowledge-retrieval
+  - llm
+  - search
+docs_url: https://uidiscovery.com/
+endpoints:
+  - url: https://uidiscovery.com/mcp
+    transport: streamable-http
+    auth: unknown

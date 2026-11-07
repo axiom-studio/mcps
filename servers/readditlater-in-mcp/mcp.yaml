@@ -1,0 +1,13 @@
+name: Readdit Later
+summary: Search, organize, and chat with your saved Reddit posts. Semantic search, labels, notes, and reading recommendations for Claude, Cursor, and any MCP client.
+category: other
+tags:
+  - ai-agent
+  - content-creation
+  - knowledge-retrieval
+  - search
+docs_url: https://readditlater.in/mcp
+endpoints:
+  - url: https://reddit-later-server.vercel.app/mcp
+    transport: streamable-http
+    auth: unknown

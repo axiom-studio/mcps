@@ -1,0 +1,14 @@
+name: Bottally
+summary: AI marketing agent that writes and publishes a researched SEO article to your blog daily, builds backlinks and tracks if ChatGPT and Google AI cite you.
+category: marketing
+tags:
+  - ai-agent
+  - content-creation
+  - marketing
+  - seo
+  - web-research
+docs_url: https://www.bottally.com
+endpoints:
+  - url: https://www.bottally.com/api/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,12 @@
+name: SportsAPIs.dev
+summary: Find and compare 45+ odds APIs and sports data APIs, with a written review of each one
+category: development
+tags:
+  - api
+  - research
+  - sports
+docs_url: https://sportsapis.dev/sports-mcp-servers#sportsapis-mcp
+endpoints:
+  - url: https://sportsapis.dev/mcp
+    transport: streamable-http
+    auth: unknown

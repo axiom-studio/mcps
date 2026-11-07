@@ -1,0 +1,12 @@
+name: Latino Events (events.lat)
+summary: Search upcoming concerts, festivals and cultural events across Latin America (Mexico, Brazil, Argentina, Colombia, Chile, Peru, Costa Rica) in English, Spanish or Portuguese, get full event details with the official ticket link, and save events to your events.lat list. Remote streamable-HTTP server with OAuth sign-in.
+category: search
+tags:
+  - entertainment
+  - search
+  - web-research
+docs_url: https://events.lat/llms.txt
+endpoints:
+  - url: https://ojlsoqhibryhvuyltwpi.supabase.co/functions/v1/mcp
+    transport: streamable-http
+    auth: oauth

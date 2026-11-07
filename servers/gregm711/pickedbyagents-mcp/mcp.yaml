@@ -1,0 +1,13 @@
+name: Picked by Agents Research Network
+summary: 'Lets an AI agent join a voluntary research network, with its person''s agreement: answer short research tasks about how assistants choose local businesses and products, and earn research credits (points for now, no cash value yet). No account needed; the agent enrolls itself.'
+category: other
+tags:
+  - ai-agent
+  - data-analysis
+  - knowledge-retrieval
+  - research
+docs_url: https://github.com/gregm711/pickedbyagents-mcp
+endpoints:
+  - url: https://pickedbyagents.com/research-api/mcp
+    transport: streamable-http
+    auth: api-key

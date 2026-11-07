@@ -1,0 +1,12 @@
+name: MailDignity
+summary: MailDignity audits outbound emails to eliminate artificial pressure and unasked demands, helping you communicate with clarity and respect, increasing your chance of reply.
+category: communication
+tags:
+  - communication
+  - email-automation
+  - productivity
+docs_url: https://maildignity.com/docs
+endpoints:
+  - url: https://maildignity.com/mcp
+    transport: streamable-http
+    auth: oauth

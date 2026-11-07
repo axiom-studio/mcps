@@ -1,0 +1,13 @@
+name: Lazybird
+summary: 'Make voiceovers from ChatGPT, Claude and other MCP clients: search 500+ voices, generate MP3s, and design or clone voices. Sign in with OAuth, free to start.'
+category: other
+tags:
+  - ai-model
+  - audio
+  - content-creation
+  - text-to-speech
+docs_url: https://lazybird.app/chatgpt-claude-connector
+endpoints:
+  - url: https://api.lazybird.app/mcp
+    transport: streamable-http
+    auth: oauth

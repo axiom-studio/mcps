@@ -1,0 +1,12 @@
+name: Perq
+summary: Verified free AI credits, free tiers and startup programs. Every result has a source link and last-verified date.
+category: development
+tags:
+  - ai-model
+  - finance
+  - research
+docs_url: https://perq.sh/agents
+endpoints:
+  - url: https://perq.sh/mcp
+    transport: streamable-http
+    auth: none

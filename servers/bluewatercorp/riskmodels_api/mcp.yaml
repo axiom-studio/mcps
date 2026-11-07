@@ -1,0 +1,12 @@
+name: RiskModels
+summary: US equity and portfolio risk decomposition (market, sector, subsector and stock-specific), ETF hedge ratios and point-in-time fundamentals from the RiskModels factor model. Hosted MCP with OAuth, or the npm stdio package.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - trading
+docs_url: https://github.com/BlueWaterCorp/RiskModels_API
+endpoints:
+  - url: https://riskmodels.app/api/mcp/sse
+    transport: streamable-http
+    auth: oauth

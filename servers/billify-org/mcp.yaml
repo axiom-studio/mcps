@@ -1,0 +1,13 @@
+name: Billify
+summary: Create, send and track invoices from ChatGPT, Claude or Grok. Bank transfer, USDC/USDT to your own wallet, e-invoice files and accountant exports.
+category: finance
+tags:
+  - crypto
+  - finance
+  - payment
+  - productivity
+docs_url: https://billify.org
+endpoints:
+  - url: https://billify.org/mcp
+    transport: streamable-http
+    auth: unknown

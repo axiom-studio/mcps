@@ -1,0 +1,13 @@
+name: Fictura
+summary: 'Fictura connects coding agents to real mobile app growth data: SDK setup, user funnels, subscriptions, experiments, acquisition and errors. Authorized paywall/onboarding edits stay in draft.'
+category: development
+tags:
+  - analytics
+  - coding-agent
+  - development
+  - mobile
+docs_url: https://github.com/Apex-Byte-Technologies/fictura-mcp
+endpoints:
+  - url: https://mcp.fictura.co/mcp
+    transport: streamable-http
+    auth: oauth

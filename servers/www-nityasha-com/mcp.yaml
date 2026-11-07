@@ -1,0 +1,13 @@
+name: Nityasha Day Planner
+summary: Autonomous day planner and calendar coordination server. Connects Claude Desktop, Cursor, and ChatGPT agents to your personal schedule for dynamic constraint-based planning, real-time drift re-routing (<15ms), and circadian energy management.
+category: productivity
+tags:
+  - ai-agent
+  - calendar
+  - productivity
+  - task-management
+docs_url: https://www.nityasha.com
+endpoints:
+  - url: https://mcp.nityasha.com/mcp
+    transport: streamable-http
+    auth: oauth

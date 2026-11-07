@@ -1,0 +1,14 @@
+name: Dwellir
+summary: Hosted MCP server for blockchain RPC across 150+ networks. Agents query chain state (EVM, Substrate, Solana, Bitcoin, Starknet, Sui), read Hyperliquid market data, sample WebSocket streams, check RPC usage, and manage Dwellir API keys. OAuth browser login, read-only chain access, no API key in client config.
+category: development
+tags:
+  - api
+  - crypto
+  - data-analysis
+  - evm
+  - finance
+docs_url: https://www.dwellir.com/docs/agents/mcp
+endpoints:
+  - url: https://mcp.dwellir.com/mcp
+    transport: streamable-http
+    auth: oauth

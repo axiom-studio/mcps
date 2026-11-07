@@ -1,0 +1,14 @@
+name: Clera
+summary: 'Hire from your AI chat: search 210,000+ vetted startup candidates who opted in to hearing about roles, review Clera''s picks, and request intros. Candidates search open startup jobs, read full listings and save the good ones. Remote MCP, OAuth 2.1 with dynamic client registration, free during the beta.'
+category: productivity
+tags:
+  - identity
+  - knowledge-retrieval
+  - productivity
+  - search
+  - security
+docs_url: https://www.getclera.com/mcp
+endpoints:
+  - url: https://mcp.getclera.com
+    transport: streamable-http
+    auth: unknown

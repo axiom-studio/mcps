@@ -1,0 +1,13 @@
+name: doola
+summary: Form a US LLC from a conversation with your AI agent. doola's hosted MCP server takes you through company name, industry, members, ownership, checkout, and filing with the Wyoming Secretary of State, and reports status on the companies you already have with doola. Remote server at https://mcp.doola.com with OAuth sign-in.
+category: finance
+tags:
+  - business-operations
+  - finance
+  - payment
+  - workflow-automation
+docs_url: https://github.com/doolahq/plugins
+endpoints:
+  - url: https://mcp.doola.com
+    transport: streamable-http
+    auth: oauth

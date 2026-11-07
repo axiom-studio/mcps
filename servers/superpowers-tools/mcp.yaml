@@ -1,0 +1,14 @@
+name: Superpowers
+summary: 'Pay-per-call marketplace of APIs and AI models for agents: one key for LLMs, web search, scraping, media and business data; compare providers on the same input.'
+category: development
+tags:
+  - ai-model
+  - api
+  - marketplace
+  - search
+  - web-scraping
+docs_url: https://superpowers.tools
+endpoints:
+  - url: https://superpowers.tools/mcp
+    transport: streamable-http
+    auth: api-key

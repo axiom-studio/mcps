@@ -1,0 +1,14 @@
+name: Kasar CRM
+summary: 'AI-native CRM for Claude and ChatGPT: 39 tools for records, deals, tasks, email, LinkedIn and WhatsApp threads, calendar and automations. OAuth 2.1.'
+category: productivity
+tags:
+  - calendar
+  - communication
+  - crm
+  - sales
+  - workflow-automation
+docs_url: https://docs.kasar.app/docs/mcp
+endpoints:
+  - url: https://platform.kasar.app/api/mcp/mcp
+    transport: streamable-http
+    auth: oauth

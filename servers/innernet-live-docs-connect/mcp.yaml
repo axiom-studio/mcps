@@ -1,0 +1,13 @@
+name: innernet
+summary: 'One memory for every AI tool, kept current by netti: projects, personal memory and tasks over MCP. Remote server, OAuth 2.1, free to start.'
+category: memory
+tags:
+  - ai-agent
+  - memory
+  - productivity
+  - task-management
+docs_url: https://innernet.live/docs/connect
+endpoints:
+  - url: https://innernet.live/api/mcp
+    transport: streamable-http
+    auth: oauth

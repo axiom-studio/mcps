@@ -1,0 +1,13 @@
+name: Sazabi
+summary: 'Give your coding agent access to production: search logs in plain language, investigate issues, read dashboards. OAuth.'
+category: development
+tags:
+  - coding-agent
+  - log-management
+  - monitoring
+  - observability-incident
+docs_url: https://docs.sazabi.com/get-started/coding-agents
+endpoints:
+  - url: https://mcp.sazabi.com/mcp
+    transport: streamable-http
+    auth: oauth

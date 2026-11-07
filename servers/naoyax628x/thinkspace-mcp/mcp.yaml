@@ -1,0 +1,13 @@
+name: ThinkSpace
+summary: Send notes from Claude, ChatGPT or Claude Code to your ThinkSpace inbox and arrange them into cards.
+category: productivity
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - notes
+  - productivity
+docs_url: https://github.com/naoyax628X/thinkspace-mcp
+endpoints:
+  - url: https://mcp.thinkspace-app.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Director's Lookbook
+summary: '670+ named visual and music styles: deal a look for a feeling, get paste-ready AI prompts.'
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - media
+docs_url: https://directorslookbook.app/mcp/
+endpoints:
+  - url: https://lookbook-mcp.riverroadlabs.workers.dev/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: ConferenceDB
+summary: Which companies sponsor and exhibit at conferences and trade shows, event dates and places, and the sponsorship packages organizers publish. Read-only, no sign-in, company-level data only.
+category: database
+tags:
+  - business-operations
+  - database
+  - research
+docs_url: https://github.com/rdoyle99/conferencedb-plugin
+endpoints:
+  - url: https://conferencedatabase.com/api/mcp
+    transport: streamable-http
+    auth: none

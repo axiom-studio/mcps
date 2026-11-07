@@ -1,0 +1,14 @@
+name: PDFLean
+summary: 'PDF tools for AI agents: validate, extract, merge, split, compress, OCR, sign and redact. PDFLean MCP server offers 17 tools including PDF/A validation, accessibility check, signature verification, text extraction, PII scanning, AI summarize/translate, merge, split, compress, Office conversion, OCR, digital signing, redaction and workflow runs. OAuth 2.1 protected; usage metered in API credits.'
+category: productivity
+tags:
+  - document
+  - file-conversion
+  - pdf
+  - productivity
+  - workflow-automation
+docs_url: https://pdflean.com
+endpoints:
+  - url: https://mcp.pdflean.com/mcp
+    transport: streamable-http
+    auth: oauth

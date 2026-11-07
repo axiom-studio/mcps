@@ -1,0 +1,13 @@
+name: ScribeToAny
+summary: 'Remote MCP server for ScribeToAny: transcribe audio and video files or links (X, Twitch, Loom, Google Drive, Dropbox) and read transcripts as text, SRT or VTT with timestamps and speaker labels, in about 98 languages. OAuth sign-in, no API key.'
+category: productivity
+tags:
+  - audio
+  - productivity
+  - translation
+  - video
+docs_url: https://scribetoany.com/developers
+endpoints:
+  - url: https://scribetoany.com/api/mcp
+    transport: streamable-http
+    auth: unknown

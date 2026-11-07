@@ -1,0 +1,13 @@
+name: Mozambique Land Rights (DUAT · Terras comunitárias)
+summary: Mozambican DUAT land-use rights, community land delimitations and SIDICA parcels by point or name.
+category: other
+tags:
+  - database
+  - geospatial
+  - government
+  - real-estate
+docs_url: https://github.com/BumiAtlas/mozambique-land-rights-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/mozambique
+    transport: streamable-http
+    auth: oauth

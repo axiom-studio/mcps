@@ -1,0 +1,13 @@
+name: Vouchernaut
+summary: Search UK discount codes, deals, product prices and phone comparisons from an AI assistant through a remote MCP server.
+category: search
+tags:
+  - ecommerce
+  - marketplace
+  - productivity
+  - search
+docs_url: https://vouchernaut.com/mcp
+endpoints:
+  - url: https://vouchernaut.com/mcp
+    transport: streamable-http
+    auth: none

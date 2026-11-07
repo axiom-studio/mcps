@@ -1,0 +1,13 @@
+name: DMFast
+summary: Set up Instagram and Facebook comment-to-DM auto-replies from ChatGPT or Claude, read and answer DMs, see results and research public accounts.
+category: marketing
+tags:
+  - chatbot
+  - communication
+  - marketing-automation
+  - social-media
+docs_url: https://dmfast.app/docs/mcp
+endpoints:
+  - url: https://dmfast.app/mcp
+    transport: streamable-http
+    auth: oauth

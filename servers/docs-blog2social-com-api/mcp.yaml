@@ -1,0 +1,14 @@
+name: Blog2Social
+summary: Veröffentliche und automatisiere KI-generierte Inhalte über 25+ Social-Media- und Content-Plattformen mit Blog2Social.  Verbinde Accounts, erstelle und veröffentliche Beiträge mit Text, Links, Bildern und Videos, verteile Inhalte über mehrere Netzwerke, plane Beiträge und rufe Veröffentlichungsergebnisse sowie verfügbare Insights ab.  Ideal für KI-Agenten, Marketing-Automatisierung, Social-Media-Management und Multi-Channel-Content-Workflows.
+category: communication
+tags:
+  - content-creation
+  - document
+  - documentation
+  - marketing-automation
+  - social-media
+docs_url: https://docs.blog2social.com/api/
+endpoints:
+  - url: https://api.blog2social.com/mcp
+    transport: streamable-http
+    auth: oauth

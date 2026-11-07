@@ -1,0 +1,13 @@
+name: Synero AI Council
+summary: 'Ask GPT, Claude, Gemini and Grok the same question in one tool call. Returns one consensus answer plus an agreement analysis: what the models agree on and exactly where they split. Remote server with OAuth sign-in; works in ChatGPT, Grok, Claude, Cursor and Windsurf.'
+category: productivity
+tags:
+  - ai-model
+  - llm
+  - productivity
+  - research
+docs_url: https://synero.ai/mcp
+endpoints:
+  - url: https://synero.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

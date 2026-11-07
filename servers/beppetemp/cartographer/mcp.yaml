@@ -1,0 +1,14 @@
+name: Cartographer
+summary: A shared, git-backed Markdown wiki your team's AI agents read and grow through MCP tools. The server enforces schema, link checks, lint and one git commit per write, so agents on different machines and clients can't break it. It also provisions skills, subagents and hooks into each client.
+category: memory
+tags:
+  - ai-agent
+  - collaboration
+  - document
+  - git
+  - knowledge-retrieval
+docs_url: https://github.com/BeppeTemp/cartographer
+endpoints:
+  - url: https://cartographer-demo.beppetemp.com/mcp
+    transport: streamable-http
+    auth: none

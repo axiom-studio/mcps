@@ -1,0 +1,13 @@
+name: PromptBrake Free Tools
+summary: Free MCP tools for prompt-injection test inputs, OWASP LLM risk mapping, AI release planning, and custom response test-pack creation for PromptBrake CI.
+category: development
+tags:
+  - ai-agent
+  - development
+  - security
+  - testing-qa
+docs_url: https://promptbrake.com/free-tools
+endpoints:
+  - url: https://promptbrake.com/free-tools/mcp
+    transport: streamable-http
+    auth: none

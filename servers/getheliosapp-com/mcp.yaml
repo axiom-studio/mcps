@@ -1,0 +1,13 @@
+name: Helios MCP
+summary: Your connected fitness coach. Helios connects your training plans and meals with your personal agent.
+category: productivity
+tags:
+  - ai-agent
+  - fitness
+  - healthcare
+  - productivity
+docs_url: https://getheliosapp.com
+endpoints:
+  - url: https://api.getheliosapp.com/mcp
+    transport: streamable-http
+    auth: oauth

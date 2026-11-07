@@ -1,0 +1,13 @@
+name: Taskavel
+summary: Headless task management for bots, apps and AI agents. Remote MCP server with OAuth or personal access token, plus webhooks.
+category: productivity
+tags:
+  - ai-agent
+  - productivity
+  - task-management
+  - workflow-automation
+docs_url: https://taskavel.com
+endpoints:
+  - url: https://taskavel.com/mcp/taskavel
+    transport: streamable-http
+    auth: oauth

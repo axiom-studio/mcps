@@ -1,0 +1,14 @@
+name: Carbon Forge
+summary: Carbon Forge keeps code, files and prose in one record on the server, and people and agents read and write it through the same tools over MCP. Agents open lanes instead of cloning, every landing is one all-or-nothing changeset, and git is a projection pushed to GitHub. Public workspaces are free.
+category: version-control
+tags:
+  - coding-agent
+  - collaboration
+  - git
+  - github
+  - version-control
+docs_url: https://carbonforge.dev
+endpoints:
+  - url: https://carbonforge.dev/api/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: Cockatoo
+summary: Create, edit and publish hosted business websites with owner-approved access.
+category: cloud-service
+tags:
+  - business-operations
+  - cms
+  - content-creation
+docs_url: https://cockatoo.com.au/docs/
+endpoints:
+  - url: https://app.cockatoo.com.au/mcp
+    transport: streamable-http
+    auth: oauth

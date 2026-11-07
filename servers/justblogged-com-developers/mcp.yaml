@@ -1,0 +1,13 @@
+name: JustBlogged MCP
+summary: 'Remote MCP server for JustBlogged: create, edit, schedule and publish blog posts and pages, upload images and manage blogs from Claude, Cursor or any MCP client. OAuth sign-in.'
+category: productivity
+tags:
+  - cms
+  - content-creation
+  - productivity
+  - workflow-automation
+docs_url: https://justblogged.com/developers
+endpoints:
+  - url: https://justblogged.com/mcp
+    transport: streamable-http
+    auth: unknown

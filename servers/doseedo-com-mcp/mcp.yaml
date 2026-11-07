@@ -1,0 +1,13 @@
+name: Doseedo
+summary: 'Music and audio for AI agents: score a film or video to picture (a cue sheet from the cut, hit points on downbeats, the score laid on the video under the dialogue), play your MIDI and scores on 50+ AI instruments with a stem per part, sound effects, stem separation, audio to MIDI, and Logic Pro or Ableton Live sessions. Hosted, OAuth.'
+category: other
+tags:
+  - ai-agent
+  - audio
+  - media
+  - music
+docs_url: https://doseedo.com/mcp
+endpoints:
+  - url: https://api.doseedo.com/mcp
+    transport: streamable-http
+    auth: oauth

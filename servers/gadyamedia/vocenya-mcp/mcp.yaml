@@ -1,0 +1,19 @@
+name: Vocenya Docs
+summary: 'Public, read-only MCP server for the Vocenya API docs: search guides, read pages and get every REST endpoint with cURL, Node, PHP and Python samples.'
+category: development
+tags:
+  - api
+  - development
+  - documentation
+  - knowledge-retrieval
+docs_url: https://github.com/gadyamedia/vocenya-mcp
+endpoints:
+  - url: https://vocenya.com/mcp/site
+    transport: streamable-http
+    auth: none
+  - url: https://vocenya.com/mcp/platform
+    transport: streamable-http
+    auth: oauth
+  - url: https://vocenya.com/mcp/docs
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,14 @@
+name: Atalay
+summary: 'Connects AI assistants to a business''s Atalay products: websites, domains, mail, servers, e-invoices (confirmed sending), Atalay Shop and B2B orders. OAuth sign-in; read-only except invoicing.'
+category: productivity
+tags:
+  - business-operations
+  - cloud-infrastructure
+  - communication
+  - document
+  - ecommerce
+docs_url: https://mcp.atalay.ai
+endpoints:
+  - url: https://mcp.atalay.ai
+    transport: streamable-http
+    auth: oauth

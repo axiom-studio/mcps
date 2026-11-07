@@ -1,0 +1,12 @@
+name: Desert Road Catholic
+summary: 'Free daily Exodus 90 companion for Catholic men: the day''s Douay-Rheims reading and prayer, the six stages, traditional prayers, and free registration.'
+category: other
+tags:
+  - content-creation
+  - education
+  - productivity
+docs_url: https://github.com/desertroadcatholic/desertroadcatholic-mcp
+endpoints:
+  - url: https://desertroadcatholic.com/mcp
+    transport: streamable-http
+    auth: none

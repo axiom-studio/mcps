@@ -1,0 +1,12 @@
+name: Haulest
+summary: Moving cost ranges, reviewed movers, licence checks, guides, and quote requests.
+category: productivity
+tags:
+  - business-operations
+  - marketplace
+  - research
+docs_url: https://github.com/Panaweb-LLC/haulest-mcp
+endpoints:
+  - url: https://haulest.com/mcp
+    transport: streamable-http
+    auth: none

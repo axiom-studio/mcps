@@ -1,0 +1,12 @@
+name: VCSS Calculator MCP
+summary: A lightweight, open-source MCP server for deterministic CVSS Base Score calculation, supporting CVSS 2.0, 3.0, 3.1, and 4.0 with severity classification.
+category: other
+tags:
+  - compliance
+  - data-analysis
+  - security
+docs_url: https://github.com/alfa-reza/cvss-calculator-mcp
+endpoints:
+  - url: https://cvss.my.id/mcp
+    transport: streamable-http
+    auth: none

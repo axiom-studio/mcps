@@ -1,0 +1,13 @@
+name: Agent Control — Agent Meter
+summary: Can I pay this address? First 5 free. Then $0.02 USDC. No inbox.
+category: development
+tags:
+  - api
+  - crypto
+  - evm
+  - payment
+docs_url: https://agent-control.net/llms.txt
+endpoints:
+  - url: https://agent-control.net/api/v1/mcp
+    transport: streamable-http
+    auth: none

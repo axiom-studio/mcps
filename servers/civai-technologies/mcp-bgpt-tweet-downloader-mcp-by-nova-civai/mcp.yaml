@@ -1,0 +1,13 @@
+name: Tweet Downloader MCP by Nova (CIVAI)
+summary: Get the text and download links from a public X post.
+category: productivity
+tags:
+  - content-creation
+  - social-media
+  - web-scraping
+  - x-twitter
+docs_url: https://github.com/civai-technologies/mcp-bgpt-tweet-downloader-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-bgpt-tweet-downloader
+    transport: streamable-http
+    auth: api-key

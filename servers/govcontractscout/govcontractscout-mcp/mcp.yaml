@@ -1,0 +1,13 @@
+name: GovContractScout MCP
+summary: MCP server exposing GovContractScout's US state & local government contracts API to AI agents — search contracts, get details, NAICS lookup, AI match scoring.
+category: development
+tags:
+  - api
+  - data-analysis
+  - government
+  - research
+docs_url: https://github.com/govcontractscout/govcontractscout-mcp
+endpoints:
+  - url: https://scout.govbidportals.com/mcp
+    transport: streamable-http
+    auth: unknown

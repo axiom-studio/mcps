@@ -1,0 +1,11 @@
+name: Sketchlib
+summary: Search a large 3D model library and download converted GLB, FBX and USDZ assets through signed, ready-to-use URLs.
+category: design
+tags:
+  - design
+  - file-conversion
+docs_url: https://sketchlib.com
+endpoints:
+  - url: https://sketchlib.com/mcp
+    transport: streamable-http
+    auth: unknown

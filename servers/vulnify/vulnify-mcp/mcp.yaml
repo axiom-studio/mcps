@@ -1,0 +1,12 @@
+name: Vulnify MCP
+summary: 'Ask Vulnify before an AI agent acts: get ALLOW, REVIEW or BLOCK with a risk score and reasons, and read and test your authorization policies.'
+category: other
+tags:
+  - ai-agent
+  - compliance
+  - security
+docs_url: https://github.com/vulnify/vulnify-mcp
+endpoints:
+  - url: https://mcp.vulnify.io/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: XposedOrNot
+summary: 'XposedOrNot data breach lookups for AI assistants: check if an email or domain is in known breaches, browse the breach catalog and see recent breaches. Read-only, no API key.'
+category: other
+tags:
+  - data-analysis
+  - research
+  - security
+docs_url: https://xposedornot.com/mcp
+endpoints:
+  - url: https://api.xposedornot.com/mcp
+    transport: streamable-http
+    auth: none

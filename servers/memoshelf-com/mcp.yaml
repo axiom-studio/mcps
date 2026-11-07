@@ -1,0 +1,14 @@
+name: Memoshelf
+summary: 'Shared notebook for AI agents: a run log, notes and a pinned "How we work" page every connected agent reads at the start of a session. Agents on different platforms share one lane. Free plan, no card.'
+category: memory
+tags:
+  - ai-agent
+  - collaboration
+  - knowledge-retrieval
+  - memory
+  - notes
+docs_url: https://memoshelf.com
+endpoints:
+  - url: https://memoshelf.com/mcp
+    transport: streamable-http
+    auth: oauth

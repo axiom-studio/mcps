@@ -1,0 +1,13 @@
+name: Kodza
+summary: 'A free library of premium UI components and effects in plain HTML, CSS and vanilla JS. Ask your AI assistant for one: it finds it, gets the exact code and wires it into your site. No framework, no API key.'
+category: design
+tags:
+  - coding-agent
+  - design
+  - design-to-code
+  - development
+docs_url: https://kodza.dev/docs/
+endpoints:
+  - url: https://kodza.dev/api/mcp
+    transport: streamable-http
+    auth: none

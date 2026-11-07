@@ -1,0 +1,13 @@
+name: Feedjolt
+summary: Public customer feedback board with voting, roadmap and changelog, flat pricing. Remote MCP server lets Cursor or Claude read and triage feedback.
+category: productivity
+tags:
+  - analytics
+  - customer-ops
+  - productivity
+  - project-management
+docs_url: https://www.feedjolt.com/
+endpoints:
+  - url: https://api.feedjolt.com/mcp/reader/
+    transport: streamable-http
+    auth: oauth

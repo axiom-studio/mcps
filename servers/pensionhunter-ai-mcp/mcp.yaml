@@ -1,0 +1,12 @@
+name: PensionHunter
+summary: 'Cross-border pension facts for 41 countries: which countries'' pension systems a work history touches, sourced rules and dated deadlines for people who left, and the country an employer name implies. Remote, read-only, no sign-in, stores nothing.'
+category: finance
+tags:
+  - finance
+  - knowledge-retrieval
+  - research
+docs_url: https://pensionhunter.ai/mcp
+endpoints:
+  - url: https://mcp.pensionhunter.ai
+    transport: streamable-http
+    auth: none

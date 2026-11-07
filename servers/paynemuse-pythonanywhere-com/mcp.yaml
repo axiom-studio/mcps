@@ -1,0 +1,13 @@
+name: Agent Eligibility Engine
+summary: Deterministic eligibility scoring for AI agents, vendors, and tools. Returns CLEAR / HOLD / FAIL verdicts from a published scoring table. Free evaluator, remote MCP endpoint at https://paynemuse.pythonanywhere.com/mcp, already listed in the official MCP Registry as com.pythonanywhere.paynemuse/agent-eligibility. Paid deep evaluations available via x402 micropayments.
+category: finance
+tags:
+  - ai-agent
+  - business-operations
+  - compliance
+  - finance
+docs_url: https://paynemuse.pythonanywhere.com
+endpoints:
+  - url: https://paynemuse.pythonanywhere.com/mcp
+    transport: streamable-http
+    auth: unknown

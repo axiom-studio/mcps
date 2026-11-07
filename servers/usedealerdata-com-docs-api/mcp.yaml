@@ -1,0 +1,13 @@
+name: DealerData
+summary: Verified US and Canadian dealership contact data for teams that sell to car dealers. Search dealerships and decision makers by role over REST or a remote MCP server, with live-checked work emails.
+category: database
+tags:
+  - api
+  - crm
+  - database
+  - sales
+docs_url: https://usedealerdata.com/docs/api
+endpoints:
+  - url: https://api.usedealerdata.com/functions/v1/mcp
+    transport: streamable-http
+    auth: api-key

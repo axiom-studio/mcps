@@ -1,0 +1,13 @@
+name: GigNGo
+summary: Find a US local for a home job or errand, watch videos of their real work, and draft a job post the person reviews and posts themselves. Free, no sign-in. GigNGo runs no background checks.
+category: other
+tags:
+  - business-operations
+  - communication
+  - marketplace
+  - workflow-automation
+docs_url: https://gigngo.org/mcp-server
+endpoints:
+  - url: https://gigngo.org/mcp
+    transport: streamable-http
+    auth: none

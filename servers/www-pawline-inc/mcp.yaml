@@ -1,0 +1,12 @@
+name: PawLine Pet Guides
+summary: 'Read-only access to PawLine''s 11 free pet and animal care guide sites: search 180+ sourced guides, read them as plain text, and run free calculators. General information only, not veterinary advice.'
+category: search
+tags:
+  - healthcare
+  - knowledge-retrieval
+  - search
+docs_url: https://www.pawline.inc/
+endpoints:
+  - url: https://pawline-mcp.pawline.workers.dev/mcp
+    transport: streamable-http
+    auth: none

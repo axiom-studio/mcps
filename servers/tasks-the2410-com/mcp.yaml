@@ -1,0 +1,14 @@
+name: Human Tasks by The2410
+summary: 'Hire real people for fixed-price digital tasks from your AI assistant: spreadsheets, research, chatbots, automations, online stores and more. Pay securely with Stripe.'
+category: productivity
+tags:
+  - business-operations
+  - marketplace
+  - payment
+  - productivity
+  - workflow-automation
+docs_url: https://tasks.the2410.com/
+endpoints:
+  - url: https://tasks.the2410.com/mcp
+    transport: streamable-http
+    auth: unknown

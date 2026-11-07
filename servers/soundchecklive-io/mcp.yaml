@@ -1,0 +1,12 @@
+name: Soundcheck Instant Quotes
+summary: Live-event quoting for businesses that sell live event services. Public MCP, no login.
+category: other
+tags:
+  - business-operations
+  - ecommerce
+  - payment
+docs_url: https://soundchecklive.io
+endpoints:
+  - url: https://mcp.soundchecklive.io/public/mcp
+    transport: streamable-http
+    auth: none

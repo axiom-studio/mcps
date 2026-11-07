@@ -1,0 +1,13 @@
+name: TrendsFast
+summary: Niche trend intelligence and customer questions for AI agents, with original sources, dates, and coverage. Hosted MCP with account-based usage credits.
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - research
+  - web-research
+docs_url: https://trendsfast.com/mcp
+endpoints:
+  - url: https://trendsfast.com/api/mcp/v3
+    transport: streamable-http
+    auth: api-key

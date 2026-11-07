@@ -1,0 +1,12 @@
+name: TrueProxies
+summary: Plans, services, usage, invoices, endpoints and connection checks for your TrueProxies account
+category: web-scraping
+tags:
+  - api
+  - cloud-infrastructure
+  - web-scraping
+docs_url: https://github.com/trueproxies-com/trueproxies-mcp
+endpoints:
+  - url: https://mcp.trueproxies.com/mcp
+    transport: streamable-http
+    auth: api-key

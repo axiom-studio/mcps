@@ -1,0 +1,12 @@
+name: Digital Underground Developer Marketplace
+summary: Read-only MCP server for the Digital Underground Developer Marketplace, a free place for indie builders to list apps, tools and games. Search and browse live listings, makers and the weekly Maker League.
+category: development
+tags:
+  - development
+  - marketplace
+  - search
+docs_url: https://digitalundergroundstore.com/mcp
+endpoints:
+  - url: https://digitalundergroundstore.com/mcp
+    transport: streamable-http
+    auth: none

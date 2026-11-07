@@ -1,0 +1,13 @@
+name: Next Generation Movers – Free Moving Quotes
+summary: Price a household move from any AI agent. Free get_quote_free tool, optional $0.01 USDC x402 quote, free date-hold requests. Nationwide long-distance plus DC, MD and VA local moves. Remote MCP, no key.
+category: other
+tags:
+  - ai-agent
+  - crypto
+  - payment
+  - real-estate
+docs_url: https://github.com/nextgenmove/ngm-agent-api
+endpoints:
+  - url: https://ngm-agent-api.nextgenmovers.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

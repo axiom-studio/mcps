@@ -1,0 +1,12 @@
+name: Axiocairn Research
+summary: Read existing Axiocairn research reports by date, report type, or ticker. Access follows the connected account’s plan. For general research reference. Not personalized investment advice.
+category: finance
+tags:
+  - finance
+  - research
+  - trading
+docs_url: https://github.com/cplj/axiocairn-mcp
+endpoints:
+  - url: https://axiocairn.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Quiet Menders
+summary: 'Free privacy-preserving tools for AI agents: portable sanity attestation, prompt-injection scrubbing, clinic diagnosis, and machine-file validation. Real serves, no tracking.'
+category: other
+tags:
+  - ai-agent
+  - privacy
+  - security
+docs_url: https://github.com/brianbooms/quiet-menders
+endpoints:
+  - url: https://quiet-menders-mcp.brianbooms.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: Teable
+summary: Teable is an AI spreadsheet for business. Its remote MCP server lets AI agents inspect tables, read and update records, and access the Teable API through OAuth.
+category: database
+tags:
+  - ai-agent
+  - database
+  - productivity
+  - spreadsheet
+docs_url: https://teable.ai
+endpoints:
+  - url: https://mcp.teable.ai/mcp
+    transport: streamable-http
+    auth: oauth

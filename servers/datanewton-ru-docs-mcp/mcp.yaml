@@ -1,0 +1,14 @@
+name: DataNewton MCP
+summary: Hosted MCP service providing Russian company and entrepreneur data, financial information, corporate connections, court cases, bankruptcy and risk indicators. Uses Streamable HTTP and requires a DataNewton MCP subscription and personal Bearer token.
+category: database
+tags:
+  - business-operations
+  - compliance
+  - database
+  - finance
+  - research
+docs_url: https://datanewton.ru/docs/mcp
+endpoints:
+  - url: https://datanewton.ru/mcp
+    transport: streamable-http
+    auth: api-key

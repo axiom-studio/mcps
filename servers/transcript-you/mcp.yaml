@@ -1,0 +1,12 @@
+name: Transcript.you MCP
+summary: Retrieve timestamped transcripts from public YouTube and TikTok videos and create subtitle download links for SRT, VTT, or TXT.
+category: productivity
+tags:
+  - media
+  - video
+  - youtube
+docs_url: https://transcript.you
+endpoints:
+  - url: https://plugins.transcript.you/mcp
+    transport: streamable-http
+    auth: none

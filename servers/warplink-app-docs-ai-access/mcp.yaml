@@ -1,0 +1,13 @@
+name: WarpLink
+summary: 'Link infrastructure for mobile teams: deep links, install attribution, and real-time analytics. Create and update links, register apps, pull analytics, and manage keys and custom domains from any MCP client. Remote server: https://api.warplink.app/mcp (OAuth sign-in or API key).'
+category: development
+tags:
+  - analytics
+  - api
+  - marketing-automation
+  - mobile
+docs_url: https://warplink.app/docs/ai-access
+endpoints:
+  - url: https://api.warplink.app/mcp
+    transport: streamable-http
+    auth: oauth

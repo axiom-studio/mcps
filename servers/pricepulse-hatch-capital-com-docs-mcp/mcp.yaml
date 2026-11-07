@@ -1,0 +1,13 @@
+name: PricePulse
+summary: Live short-term rental market data, comps and portfolio insights for Airbnb and Vrbo hosts.
+category: other
+tags:
+  - analytics
+  - data-analysis
+  - marketplace
+  - real-estate
+docs_url: https://pricepulse.hatch-capital.com/docs/mcp/
+endpoints:
+  - url: https://agent-api.pricepulse.hatch-capital.com/mcp
+    transport: streamable-http
+    auth: oauth

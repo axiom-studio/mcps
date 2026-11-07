@@ -1,0 +1,16 @@
+name: Granola MCP
+summary: Connect Claude, ChatGPT, and other AI tools to your Granola meeting notes via MCP. Query your notes, search transcripts, and get meeting insights in your favorite AI assistants.
+category: communication
+tags:
+  - communication
+  - knowledge-retrieval
+  - meeting-notes
+  - productivity
+  - search
+official: true
+docs_url: https://docs.granola.ai/help-center/sharing/integrations/mcp.md
+website_url: https://www.granola.ai/
+endpoints:
+  - url: https://mcp.granola.ai/mcp
+    transport: streamable-http
+    auth: oauth

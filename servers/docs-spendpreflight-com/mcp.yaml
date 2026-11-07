@@ -1,0 +1,14 @@
+name: SpendPreflight
+summary: 'Operated by SpendPreflight: OFAC/domain screening and signed allow/hold/block preflight before x402 payments; check $0.01, preflight $0.02 USDC on Base, with three shared free calls per IP/day.'
+category: finance
+tags:
+  - compliance
+  - crypto
+  - evm
+  - finance
+  - security
+docs_url: https://docs.spendpreflight.com
+endpoints:
+  - url: https://api.spendpreflight.com/mcp
+    transport: streamable-http
+    auth: unknown

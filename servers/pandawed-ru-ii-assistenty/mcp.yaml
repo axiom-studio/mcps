@@ -1,0 +1,12 @@
+name: Pandawed — Chinese flashcards (HSK)
+summary: 'Chinese learning for Russian speakers: HSK 3.0 word lists, topic sets and textbook lessons with pinyin and translation, plus articles. Free, no API key.'
+category: other
+tags:
+  - education
+  - knowledge-retrieval
+  - translation
+docs_url: https://pandawed.ru/ii-assistenty/
+endpoints:
+  - url: https://mcp.pandawed.ru/mcp
+    transport: streamable-http
+    auth: none

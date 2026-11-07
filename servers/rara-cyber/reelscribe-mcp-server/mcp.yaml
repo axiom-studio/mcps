@@ -1,0 +1,13 @@
+name: ReelScribe
+summary: Transcribe Instagram Reels, TikTok, YouTube and Facebook videos by URL, with optional top comments, URL batches and Instagram channels. Hosted OAuth at https://reelscribe.app/api/mcp or local via npx -y reelscribe-mcp-server.
+category: other
+tags:
+  - media
+  - social-media
+  - translation
+  - video
+docs_url: https://github.com/rara-cyber/reelscribe-mcp-server
+endpoints:
+  - url: https://reelscribe.app/api/mcp
+    transport: streamable-http
+    auth: unknown

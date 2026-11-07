@@ -1,0 +1,13 @@
+name: Plate Website Source
+summary: Hosted, read-only, no sign-in (https://getplate.pages.dev/mcp). Searches Plate's catalogue of website source projects and tells your coding agent what each includes and how to adapt it. Not Plate.js.
+category: design
+tags:
+  - coding-agent
+  - development
+  - documentation
+  - web-research
+docs_url: https://getplate.pages.dev/
+endpoints:
+  - url: https://getplate.pages.dev/mcp
+    transport: streamable-http
+    auth: unknown

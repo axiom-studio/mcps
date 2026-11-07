@@ -1,0 +1,16 @@
+name: Control Plane
+summary: Deploy and operate workloads, secrets, and networking across AWS, GCP, Azure, and private clouds.
+category: cloud-service
+tags:
+  - aws
+  - azure
+  - cloud-infrastructure
+  - devops
+  - google-cloud
+official: true
+registry_name: io.cpln/control-plane
+docs_url: https://github.com/controlplane-com/ai-plugin
+endpoints:
+  - url: https://mcp.cpln.io/mcp
+    transport: streamable-http
+    auth: oauth

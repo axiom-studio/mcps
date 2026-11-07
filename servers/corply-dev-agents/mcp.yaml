@@ -1,0 +1,12 @@
+name: Corply
+summary: Form and run a Delaware C-corp from your AI agent. • Cofounder equity split and vesting • Formation with e-signatures, EIN and 83(b) • Registered agent • Virtual mailbox • Company domains, email and phone numbers • Banking and payments • Charter amendments and board changes. Every Delaware filing is human-reviewed.
+category: finance
+tags:
+  - business-operations
+  - finance
+  - workflow-automation
+docs_url: https://corply.dev/agents
+endpoints:
+  - url: https://corply.dev/mcp
+    transport: streamable-http
+    auth: oauth

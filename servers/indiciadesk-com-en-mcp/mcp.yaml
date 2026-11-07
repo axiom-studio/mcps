@@ -1,0 +1,13 @@
+name: INDICIA DESK
+summary: 'Crypto options research for AI assistants: tested BTC/ETH market beliefs, max pain track record, dealer gamma regime and a decision journal with wins and losses. Read-only, no account, no API key.'
+category: finance
+tags:
+  - crypto
+  - finance
+  - research
+  - trading
+docs_url: https://indiciadesk.com/en/mcp
+endpoints:
+  - url: https://mcp.indiciadesk.com/mcp
+    transport: streamable-http
+    auth: none

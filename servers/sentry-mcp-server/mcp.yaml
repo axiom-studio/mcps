@@ -1,0 +1,15 @@
+name: Sentry MCP
+summary: Official Sentry MCP server for investigating issues, error reports, traces, and performance monitoring data from AI coding agents.
+category: development
+tags:
+  - monitoring
+  - observability-incident
+  - performance
+  - sentry
+official: true
+registry_name: io.github.getsentry/sentry-mcp
+docs_url: https://github.com/getsentry/sentry-mcp
+endpoints:
+  - url: https://mcp.sentry.dev/mcp
+    transport: streamable-http
+    auth: oauth

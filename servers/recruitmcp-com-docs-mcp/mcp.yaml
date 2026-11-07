@@ -1,0 +1,13 @@
+name: RecruitMCP
+summary: 'RecruitMCP gives AI agents and developers recruiting data: search people and companies, enrich profiles, and find email and phone via REST API or MCP.'
+category: other
+tags:
+  - api
+  - crm
+  - data-analysis
+  - research
+docs_url: https://recruitmcp.com/docs/mcp
+endpoints:
+  - url: https://mcp.recruitmcp.com/mcp
+    transport: streamable-http
+    auth: unknown

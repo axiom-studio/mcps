@@ -1,0 +1,13 @@
+name: Clipnote
+summary: Clipnote — turn SaaS release notes into a 60-second narrated launch video.
+category: development
+tags:
+  - content-creation
+  - marketing
+  - media
+  - video
+docs_url: https://clipnote.mehyar.us
+endpoints:
+  - url: https://clipnote.mehyar.us/api/clipnote/mcp
+    transport: streamable-http
+    auth: unknown

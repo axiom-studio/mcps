@@ -1,0 +1,15 @@
+name: LoreKeeper (lorekeeper.com)
+summary: 'Ask your own D&D and TTRPG campaign from Claude, ChatGPT or any MCP app. Search your session recaps and setting notes, read whole documents, and pull up characters with their portraits. Optional: make new character and world pictures, paid with your LoreKeeper credits. OAuth sign-in to your lorekeeper.com account.'
+category: other
+tags:
+  - document
+  - gaming
+  - icon-generation
+  - knowledge-retrieval
+official: true
+registry_name: com.lorekeeper/lorekeeper
+docs_url: https://www.lorekeeper.com/mcp
+endpoints:
+  - url: https://api.lorekeeper.com/mcp
+    transport: streamable-http
+    auth: oauth

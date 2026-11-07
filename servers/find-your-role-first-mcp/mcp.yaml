@@ -1,0 +1,13 @@
+name: Find your role first
+summary: New jobs from 13,000+ company career sites, newest first. Ask your agent for new roles and it searches over a million open postings read straight from Greenhouse, Lever, Ashby, Workday, Amazon, Google and more, every few hours.
+category: search
+tags:
+  - data-analysis
+  - search
+  - web-research
+registry_name: click.findyourrolefirst/jobfeed
+docs_url: https://findyourrolefirst.click/docs
+endpoints:
+  - url: https://findyourrolefirst.click/mcp
+    transport: streamable-http
+    auth: unknown

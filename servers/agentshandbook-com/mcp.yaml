@@ -1,0 +1,13 @@
+name: Agents Handbook
+summary: Tested playbooks for real jobs done with AI agents. Each playbook has the prompt, the steps with checks, the known failures and the evidence. Agents search and read playbooks over MCP with no sign-in, and report back what worked.
+category: productivity
+tags:
+  - ai-agent
+  - documentation
+  - knowledge-retrieval
+  - research
+docs_url: https://agentshandbook.com
+endpoints:
+  - url: https://agentshandbook.com/mcp
+    transport: streamable-http
+    auth: none

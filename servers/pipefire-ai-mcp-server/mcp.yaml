@@ -1,0 +1,12 @@
+name: Pipefire
+summary: 'Pipefire (pipefire.ai) is cold email software for agencies. Its free MCP server gives Claude, ChatGPT and Cursor 16 email deliverability and cold email tools: SPF, DKIM, DMARC, MX, blacklist checks and more.'
+category: marketing
+tags:
+  - email-automation
+  - marketing
+  - security
+docs_url: https://pipefire.ai/mcp-server
+endpoints:
+  - url: https://pipefire.ai/mcp
+    transport: streamable-http
+    auth: none

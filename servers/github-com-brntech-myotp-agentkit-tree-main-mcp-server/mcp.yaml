@@ -1,0 +1,14 @@
+name: MyOTP.App
+summary: Send and verify one-time codes by SMS, WhatsApp or Telegram in 190+ countries. Agents can create an account and buy credits by themselves. Hosted at mcp.myotp.app or run @myotp/mcp locally.
+category: communication
+tags:
+  - communication
+  - security
+  - sms
+  - telegram
+  - whatsapp
+docs_url: https://github.com/brntech/myotp-agentkit/tree/main/mcp-server
+endpoints:
+  - url: https://mcp.myotp.app/mcp
+    transport: streamable-http
+    auth: api-key

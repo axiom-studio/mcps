@@ -1,0 +1,13 @@
+name: DotI Protocol MCP
+summary: Official Model Context Protocol (MCP) server for DotI (.i) Web3 Identity & Multichain Domain Resolution across Arbitrum One, Optimism, Ethereum, and Robinhood Chain.
+category: productivity
+tags:
+  - crypto
+  - evm
+  - identity
+  - web-research
+docs_url: https://doti.my/
+endpoints:
+  - url: https://doti.my/api/ai/mcp
+    transport: streamable-http
+    auth: none

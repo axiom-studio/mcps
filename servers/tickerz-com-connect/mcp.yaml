@@ -1,0 +1,12 @@
+name: Tickerz
+summary: Daily indexes of real-world activity from public data (jobless claims, pump.fun launches, paid x402 calls), each day's reading timestamped in Bitcoin. Read-only, free, no key.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+docs_url: https://tickerz.com/connect
+endpoints:
+  - url: https://tickerz.com/mcp
+    transport: streamable-http
+    auth: unknown

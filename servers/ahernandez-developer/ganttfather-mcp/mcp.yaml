@@ -1,0 +1,12 @@
+name: GanttFather
+summary: 'Read and edit GanttFather Gantt charts from your AI assistant: tasks, dates, dependencies, resources and the critical path. Remote, OAuth, 27 tools.'
+category: productivity
+tags:
+  - productivity
+  - project-management
+  - task-management
+docs_url: https://github.com/ahernandez-developer/ganttfather-mcp
+endpoints:
+  - url: https://mcp.ganttfather.com/
+    transport: streamable-http
+    auth: unknown

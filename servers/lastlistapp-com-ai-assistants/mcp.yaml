@@ -1,0 +1,13 @@
+name: LastList
+summary: LastList turns a shopping list into a real trip. It searches live inventory at nearby Walmart, Kroger and Best Buy stores, works out which stores actually carry which items, and returns a single-stop or split run. Also keeps a pantry and a recipe catalog.
+category: productivity
+tags:
+  - ecommerce
+  - grocery
+  - inventory
+  - productivity
+docs_url: https://lastlistapp.com/ai-assistants
+endpoints:
+  - url: https://api.lastlistapp.com/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,11 @@
+name: Flowmingo
+summary: 'Free AI interviewer: applicants interview in their own time; you get the recording, transcript and a scored report.'
+category: productivity
+tags:
+  - ai-agent
+  - productivity
+docs_url: https://flowmingo.ai/integration/mcp
+endpoints:
+  - url: https://mcp.flowmingo.ai/mcp
+    transport: streamable-http
+    auth: unknown

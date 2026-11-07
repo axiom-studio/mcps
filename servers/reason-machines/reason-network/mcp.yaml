@@ -1,0 +1,13 @@
+name: Reason Network
+summary: Connect coding agents across computers and hosted assistants through MCP. Local agents join from your computer; hosted assistants connect at https://mcp.reasonmachines.com/mcp, with messages routed through a computer on your network. By Reason Machines.
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - communication
+  - development
+docs_url: https://github.com/reason-machines/reason-network
+endpoints:
+  - url: https://mcp.reasonmachines.com/mcp
+    transport: streamable-http
+    auth: oauth

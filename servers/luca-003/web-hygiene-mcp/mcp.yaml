@@ -1,0 +1,13 @@
+name: Web Hygiene MCP
+summary: 'Live web checks for AI agents: sitemaps, robots.txt, URL status, broken links, feeds, citations.'
+category: development
+tags:
+  - knowledge-retrieval
+  - search
+  - testing-qa
+  - web-scraping
+docs_url: https://github.com/Luca-003/web-hygiene-mcp
+endpoints:
+  - url: https://bruco3--web-hygiene-mcp.apify.actor/mcp
+    transport: streamable-http
+    auth: unknown

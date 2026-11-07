@@ -1,0 +1,13 @@
+name: Chirpy
+summary: Write, design and schedule social posts in your brand's voice, publish to seven platforms and reply to comments. OAuth sign-in.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://docs.chirpy.me/connect
+endpoints:
+  - url: https://mcp.chirpy.me/mcp
+    transport: streamable-http
+    auth: oauth

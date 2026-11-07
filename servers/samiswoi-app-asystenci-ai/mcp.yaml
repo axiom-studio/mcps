@@ -1,0 +1,11 @@
+name: Sami Swoi
+summary: Find Polish-run shops, tradespeople, doctors and services abroad.
+category: search
+tags:
+  - marketplace
+  - search
+docs_url: https://samiswoi.app/asystenci-ai
+endpoints:
+  - url: https://samiswoi.app/mcp
+    transport: streamable-http
+    auth: none

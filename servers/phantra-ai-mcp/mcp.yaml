@@ -1,0 +1,13 @@
+name: Phantra
+summary: 'Generate AI video and images from your assistant. Phantra''s MCP server connects Claude Code, Cursor, ChatGPT and other MCP clients to the Phantra studio: video on Kling 3 Turbo Pro, Veo 3.1, Seedance 2.5, LTX 2.5 Pro, Wan 3.0 and OmniHuman v2; stills on Nano Banana Pro, FLUX.2 Pro, Seedream 4.5, GPT Image 2.5 and Ideogram 4.5; and effects (edit, upscale, reframe, camera move, add sound, background removal) on clips already in your library. Every render is quoted in credits first, and the server runs it only after an explicit yes. Credits are held on start and released if the render fails. Write multi-shot scenes into projects that keep their brief, look and history; poll jobs; trim, join and reformat clips for free; and get share links. Remote server with OAuth sign-in, no API keys to paste. Works with any Phantra plan, including the free trial; renders spend credits. Docs: https://phantra.ai/mcp · Support: support@phantra.ai'
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - media
+  - video
+docs_url: https://phantra.ai/mcp
+endpoints:
+  - url: https://api.phantra.ai/mcp
+    transport: streamable-http
+    auth: oauth

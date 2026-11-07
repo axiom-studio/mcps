@@ -1,0 +1,14 @@
+name: Pressmark
+summary: Remote MCP server and CLI for sub-25ms vector PDF document synthesis across 57 business and real estate archetypes.
+category: productivity
+tags:
+  - document
+  - pdf
+  - productivity
+  - real-estate
+  - vector-search
+docs_url: https://github.com/mooshee/pressmark
+endpoints:
+  - url: https://pressmark.dev/mcp
+    transport: streamable-http
+    auth: oauth

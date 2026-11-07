@@ -1,0 +1,13 @@
+name: BirkinBagStock
+summary: 'Read-only MCP server for the Hermès resale market: search 12,000+ live Birkin, Kelly and Constance listings from 120+ resellers, market prices by size and country, price trends, and auction calendar and results. Remote, no auth.'
+category: search
+tags:
+  - ecommerce
+  - finance
+  - marketplace
+  - search
+docs_url: https://birkinbagstock.com/agent-ready
+endpoints:
+  - url: https://birkinbagstock.com/mcp
+    transport: streamable-http
+    auth: unknown

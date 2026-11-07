@@ -1,0 +1,15 @@
+name: EximAgent
+summary: 'AI sales team for export-import businesses: specialist agents for outbound prospecting, trade data analysis and compliance (HS codes, tariffs, landed cost, OFAC sanctions).'
+category: productivity
+tags:
+  - ai-agent
+  - business-operations
+  - compliance
+  - data-analysis
+  - sales
+docs_url: https://eximagent.ai/docs/integrations/mcp
+website_url: https://eximagent.ai/connectors
+endpoints:
+  - url: https://mcp.eximagent.ai/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,16 @@
+name: Sitelas
+summary: Build a real website from a Claude or ChatGPT chat, publish it when you approve, then keep running it from the same chat.
+category: productivity
+tags:
+  - ai-agent
+  - content-creation
+  - productivity
+  - web-scraping
+  - workflow-automation
+official: true
+registry_name: com.sitelas/sitelas
+docs_url: https://sitelas.com/docs
+endpoints:
+  - url: https://sitelas.com/api/mcp
+    transport: streamable-http
+    auth: oauth

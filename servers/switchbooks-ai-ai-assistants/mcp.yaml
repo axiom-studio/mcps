@@ -1,0 +1,12 @@
+name: Switchbooks
+summary: Official remote MCP server for Switchbooks AI bookkeeping. Search transactions, run financial reports, and—with permission—categorize, post, match transfers, create journal entries, and reconcile accounts. OAuth 2.1 sign-in; choose read-only or bookkeeping changes. $25 per company/month, 10-day no-card trial.
+category: finance
+tags:
+  - business-operations
+  - finance
+  - workflow-automation
+docs_url: https://switchbooks.ai/ai-assistants
+endpoints:
+  - url: https://app.switchbooks.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

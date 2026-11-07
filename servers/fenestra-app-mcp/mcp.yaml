@@ -1,0 +1,13 @@
+name: Fenestra AI
+summary: AI Rendering for Architects and Interior Designers
+category: design
+tags:
+  - ai-model
+  - content-creation
+  - design
+  - media
+docs_url: https://fenestra.app/mcp
+endpoints:
+  - url: https://mcp.fenestra.app
+    transport: streamable-http
+    auth: oauth

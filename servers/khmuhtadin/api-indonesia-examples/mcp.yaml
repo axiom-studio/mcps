@@ -1,0 +1,14 @@
+name: API Indonesia
+summary: 'Indonesian public data for AI agents: regions down to 83,762 villages, postal codes, holidays, prayer times, BMKG earthquakes and weather, schools, hospitals, UMP wages. Needs an API Indonesia key (Authorization: Bearer).'
+category: other
+tags:
+  - api
+  - data-analysis
+  - geospatial
+  - government
+  - weather
+docs_url: https://github.com/khmuhtadin/api-indonesia-examples
+endpoints:
+  - url: https://mcp.apiindonesia.id/mcp
+    transport: streamable-http
+    auth: api-key

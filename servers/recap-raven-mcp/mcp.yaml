@@ -1,0 +1,15 @@
+name: Recap Raven
+summary: 'Discord D&D note taker: search and cite your TTRPG session recaps, quests, NPCs and transcripts from any AI. Requires a Recap Raven API key.'
+category: memory
+tags:
+  - discord
+  - gaming
+  - knowledge-retrieval
+  - memory
+  - notes
+official: true
+docs_url: https://recapraven.com/mcp-server
+endpoints:
+  - url: https://mcp.recapraven.com/mcp
+    transport: streamable-http
+    auth: api-key

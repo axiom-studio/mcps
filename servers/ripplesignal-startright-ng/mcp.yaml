@@ -1,0 +1,13 @@
+name: RippleSignal by StartRight NG
+summary: RippleSignal is a provider-neutral AI change-impact companion that traces the knock-on effects of decisions across project maps before anything is changed. It identifies affected items, contradictions, stale references, items that must be reviewed, and questions that require human decisions.
+category: productivity
+tags:
+  - ai-agent
+  - data-analysis
+  - project-management
+  - workflow-automation
+docs_url: https://ripplesignal.startright.ng
+endpoints:
+  - url: https://ripplesignal.startright.ng/api/mcp
+    transport: streamable-http
+    auth: unknown

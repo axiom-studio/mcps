@@ -1,0 +1,13 @@
+name: MyMCPTools
+summary: 'Remote MCP server for finding MCP servers and checking whether they respond: search the MyMCPTools catalog, get install details, and read live handshake-probe status, probe history, outage incidents and tool-schema drift. Read-only, no auth. Endpoint: https://mymcptools.com/api/mcp'
+category: development
+tags:
+  - development
+  - documentation
+  - monitoring
+  - search
+docs_url: https://mymcptools.com/mcp-server
+endpoints:
+  - url: https://mymcptools.com/api/mcp
+    transport: streamable-http
+    auth: none

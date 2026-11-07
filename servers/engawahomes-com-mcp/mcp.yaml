@@ -1,0 +1,12 @@
+name: Engawa
+summary: Search and compare Japan property listings (akiya, kominka, mansions, land, new-builds), estimate closing costs, and access Engawa concierge.
+category: other
+tags:
+  - data-analysis
+  - real-estate
+  - search
+docs_url: https://engawahomes.com/mcp
+endpoints:
+  - url: https://engawahomes.com/api/mcp
+    transport: streamable-http
+    auth: api-key

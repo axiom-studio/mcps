@@ -1,0 +1,12 @@
+name: DogsLife
+summary: Puppy potty schedules and puppy sleep needs for dog owners, worked out from the puppy's age with clock times and a day timeline, in 23 languages. Read-only remote server, no sign-in. By the makers of the DogsLife dog and puppy tracker.
+category: other
+tags:
+  - education
+  - healthcare
+  - productivity
+docs_url: https://dogslifeapp.com/connect.html
+endpoints:
+  - url: https://dogslifeapp.com/mcp
+    transport: streamable-http
+    auth: none

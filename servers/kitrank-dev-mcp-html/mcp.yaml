@@ -1,0 +1,13 @@
+name: KitRank
+summary: Read-only search over 660 real, sourced AI agent use cases with tools, cost, setup time and copyable setup prompts.
+category: search
+tags:
+  - ai-agent
+  - knowledge-retrieval
+  - research
+  - search
+docs_url: https://kitrank.dev/mcp.html
+endpoints:
+  - url: https://kitrank.dev/api/mcp
+    transport: streamable-http
+    auth: none

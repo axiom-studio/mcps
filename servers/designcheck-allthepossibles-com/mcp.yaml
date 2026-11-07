@@ -1,0 +1,13 @@
+name: Design Check
+summary: Scores whether a page reads as AI-generated and names the tells to fix.
+category: development
+tags:
+  - ai-model
+  - code-quality
+  - design
+  - web-research
+docs_url: https://designcheck.allthepossibles.com
+endpoints:
+  - url: https://designcheck.allthepossibles.com/mcp
+    transport: streamable-http
+    auth: unknown

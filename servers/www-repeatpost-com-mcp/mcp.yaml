@@ -1,0 +1,13 @@
+name: RepeatPost
+summary: AI-powered social media management MCP server. Create posts, generate captions, design branded graphics, manage media, and schedule content across connected social media accounts using AI assistants.
+category: productivity
+tags:
+  - ai-agent
+  - content-creation
+  - marketing-automation
+  - social-media
+docs_url: https://www.repeatpost.com/mcp
+endpoints:
+  - url: https://api.repeatpost.com/mcp
+    transport: streamable-http
+    auth: oauth

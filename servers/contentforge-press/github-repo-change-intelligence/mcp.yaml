@@ -1,0 +1,13 @@
+name: GitHub Repo Change Intelligence
+summary: Track releases, stars, issues and pushes of any public GitHub repo for dependency and open-source monitoring. Free snapshot; paid intel via x402 USDC.
+category: version-control
+tags:
+  - devops
+  - github
+  - monitoring
+  - version-control
+docs_url: https://github.com/contentforge-press/github-repo-change-intelligence
+endpoints:
+  - url: https://github-intel.contentforge-press.workers.dev/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,14 @@
+name: MetricPort
+summary: Google Search Console, Google Ads and AdSense data in Claude, Cursor and any MCP client. Hosted, read-only, EU.
+category: marketing
+tags:
+  - advertising
+  - analytics
+  - google-analytics
+  - marketing
+  - seo
+docs_url: https://github.com/MinerSimonDev/metricport-mcp
+endpoints:
+  - url: https://metricport.io/api/mcp
+    transport: streamable-http
+    auth: oauth

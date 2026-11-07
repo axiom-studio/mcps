@@ -1,0 +1,14 @@
+name: Blockscout
+summary: Access blockchain data like balances, tokens, and NFTs from Blockscout APIs. Supports multi-chain and progress notifications.
+category: database
+tags:
+  - crypto
+  - evm
+  - finance
+official: true
+registry_name: com.blockscout/mcp-server
+docs_url: https://github.com/blockscout/mcp-server
+endpoints:
+  - url: https://mcp.blockscout.com/mcp
+    transport: streamable-http
+    auth: api-key

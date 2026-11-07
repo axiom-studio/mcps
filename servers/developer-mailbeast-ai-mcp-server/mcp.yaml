@@ -1,0 +1,14 @@
+name: MailBeast
+summary: 'Run cold email outreach from your AI assistant: launch campaigns with A/B sequences, manage leads and warmed-up sending mailboxes, read and answer replies, and see campaign analytics in MailBeast. OAuth sign-in with read-only or read + write access.'
+category: marketing
+tags:
+  - analytics
+  - communication
+  - crm
+  - email-automation
+  - marketing-automation
+docs_url: https://developer.mailbeast.ai/mcp-server
+endpoints:
+  - url: https://mcp.mailbeast.ai/mcp
+    transport: streamable-http
+    auth: oauth

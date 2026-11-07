@@ -1,0 +1,13 @@
+name: Rwanda Land Parcels (NLA LAIS · UPI)
+summary: Rwandan registered land parcels from NLA LAIS by UPI, district, sector and cell, or coordinates.
+category: other
+tags:
+  - geospatial
+  - government
+  - real-estate
+  - search
+docs_url: https://github.com/BumiAtlas/rwanda-land-parcels-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/rwanda
+    transport: streamable-http
+    auth: oauth

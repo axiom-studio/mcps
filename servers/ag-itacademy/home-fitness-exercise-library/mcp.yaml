@@ -1,0 +1,13 @@
+name: Joy2Move Home Exercise Library
+summary: Find home exercises by name, equipment or muscle, with reviewed 15-second video demonstrations and links to the full workouts.
+category: other
+tags:
+  - fitness
+  - healthcare
+  - search
+  - video
+docs_url: https://github.com/AG-ITAcademy/home-fitness-exercise-library
+endpoints:
+  - url: https://www.joy2move.net/api/exercises/mcp
+    transport: streamable-http
+    auth: none

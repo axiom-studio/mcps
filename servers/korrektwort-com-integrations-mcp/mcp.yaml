@@ -1,0 +1,12 @@
+name: KorrektWort MCP
+summary: Save German vocabulary from Claude and other compatible AI assistants directly to your KorrektWort account for review and practice.
+category: productivity
+tags:
+  - education
+  - knowledge-retrieval
+  - productivity
+docs_url: https://korrektwort.com/integrations/mcp
+endpoints:
+  - url: https://korrektwort.com/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: CrawlerData Google Search MCP
+summary: 'Remote MCP server for Google Search results as JSON: organic results, AI Overviews, news, images, local and autocomplete, plus Google Shopping. 8 tools, 1 credit per request, sign in with OAuth or an API key.'
+category: search
+tags:
+  - ecommerce
+  - search
+  - web-research
+  - web-scraping
+docs_url: https://github.com/CrawlerData/google-search-mcp-server
+endpoints:
+  - url: https://api.crawlerdata.com/mcp
+    transport: streamable-http
+    auth: unknown

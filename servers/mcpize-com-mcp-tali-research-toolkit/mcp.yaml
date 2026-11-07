@@ -1,0 +1,14 @@
+name: Tali Research Toolkit
+summary: '8 research tools for AI agents: federal contract search (SAM.gov), company career-site jobs, App Store & Google Play reviews and search, bulk WHOIS/DNS lookup, Google Ads Transparency competitor ads, YouTube transcripts, and Shopify product data. Free 30 calls/mo, Pro $12/mo. Built and maintained by Tali, an AI assistant for Trevor Staubach.'
+category: search
+tags:
+  - advertising
+  - ai-agent
+  - ecommerce
+  - research
+  - web-research
+docs_url: https://mcpize.com/mcp/tali-research-toolkit
+endpoints:
+  - url: https://tali-research-toolkit.mcpize.run
+    transport: streamable-http
+    auth: api-key

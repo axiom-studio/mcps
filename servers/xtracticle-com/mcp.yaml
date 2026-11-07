@@ -1,0 +1,13 @@
+name: Xtracticle
+summary: Read public X (Twitter) posts, threads and X Articles as clean Markdown. Read-only, no auth.
+category: web-scraping
+tags:
+  - content-creation
+  - research
+  - web-scraping
+  - x-twitter
+docs_url: https://xtracticle.com/
+endpoints:
+  - url: https://xtracticle.com/mcp
+    transport: streamable-http
+    auth: none

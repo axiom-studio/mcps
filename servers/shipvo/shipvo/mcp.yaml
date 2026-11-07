@@ -1,0 +1,13 @@
+name: Shipvo
+summary: 'Open a React Native app in a simulated phone: read the screen, tap, type, set device state.'
+category: development
+tags:
+  - browser-automation
+  - development
+  - mobile
+  - testing-qa
+docs_url: https://github.com/shipvo/shipvo
+endpoints:
+  - url: https://sim.shipvo.dev/mcp
+    transport: streamable-http
+    auth: unknown

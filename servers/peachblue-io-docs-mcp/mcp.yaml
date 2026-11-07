@@ -1,0 +1,13 @@
+name: Peachblue
+summary: The intelligence layer for ad creative. Analytics tells you what happened. Peachblue explains why, shows you what to do next, and gets smarter with every ad you run. Create more winning ads. For Meta, TikTok, Google Ads, and Amazon DSP, in Claude and any MCP client.
+category: marketing
+tags:
+  - advertising
+  - ai-agent
+  - analytics
+  - marketing
+docs_url: https://peachblue.io/docs/mcp
+endpoints:
+  - url: https://app.peachblue.io/api/mcp/mcp
+    transport: streamable-http
+    auth: oauth

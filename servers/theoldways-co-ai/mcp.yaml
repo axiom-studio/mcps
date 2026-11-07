@@ -1,0 +1,13 @@
+name: The Old Ways Library
+summary: Search historical texts and mythology references with canonical citations. Public, read-only; no API key required.
+category: search
+tags:
+  - documentation
+  - knowledge-retrieval
+  - research
+  - search
+docs_url: https://theoldways.co/ai
+endpoints:
+  - url: https://mcp.theoldways.co/mcp
+    transport: streamable-http
+    auth: none

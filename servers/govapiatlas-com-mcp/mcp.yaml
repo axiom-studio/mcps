@@ -1,0 +1,13 @@
+name: GovAPI Atlas
+summary: Search 77k public-sector open data APIs across 10 countries. Read-only, no API key.
+category: search
+tags:
+  - data-analysis
+  - government
+  - openapi
+  - search
+docs_url: https://govapiatlas.com/mcp
+endpoints:
+  - url: https://govapiatlas.com/mcp
+    transport: streamable-http
+    auth: unknown

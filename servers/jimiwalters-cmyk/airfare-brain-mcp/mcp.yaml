@@ -1,0 +1,11 @@
+name: Airfare Brain
+summary: 'The true cost of a flight: bag, seat, check-in and payment fees on 19 airlines (Ryanair, easyJet, Wizz Air, BA, Delta, United...), each from the airline''s own pages with source and date. Free, no key, read-only.'
+category: other
+tags:
+  - finance
+  - research
+docs_url: https://github.com/jimiwalters-cmyk/airfare-brain-mcp
+endpoints:
+  - url: https://airfarebrain.com/mcp
+    transport: streamable-http
+    auth: none

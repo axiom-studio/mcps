@@ -1,0 +1,13 @@
+name: AudioHash
+summary: 'Remote MCP server that turns text into natural-sounding MP3 voice-overs in English, French, Spanish, Chinese, Japanese and Korean. Tools: generate_audio, list_voices, get_usage, list_recent_audio. Free plan: 15 minutes a month.'
+category: productivity
+tags:
+  - audio
+  - content-creation
+  - media
+  - text-to-speech
+docs_url: https://audiohash.com/connect
+endpoints:
+  - url: https://audiohash.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,24 @@
+name: Viator
+summary: Viator helps users discover and book travel experiences, tours, attractions, and destination activities. Its connector gives assistants travel-experience context for narrowing options by destination, dates, price range, category, and practical trip details.
+description: |-
+  # Viator
+
+  Viator helps users discover and book travel experiences, tours, attractions, and destination activities. Its connector gives assistants travel-experience context for narrowing options by destination, dates, price range, category, and practical trip details.
+
+  ## Connection
+
+  https://exp-app-mcp.prod.ep.viator.com/mcp
+
+  Current official connector listing identifies this publisher and exact endpoint. Authentication is not inferred from the directory sign-in badge. Access and business tools have not been verified.
+
+  [Publisher or official connector listing](https://claude.com/connectors/viator)
+category: other
+tags:
+  - other
+  - remote-mcp
+official: true
+docs_url: https://claude.com/connectors/viator
+endpoints:
+  - url: https://exp-app-mcp.prod.ep.viator.com/mcp
+    transport: streamable-http
+    auth: unknown

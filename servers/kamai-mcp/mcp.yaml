@@ -1,0 +1,14 @@
+name: Kamai MCP
+summary: 'Construction blueprint takeoff: turn PDF plans into rooms, walls, doors, windows, areas and counts, with interactive plan and takeoff views.'
+category: productivity
+tags:
+  - ai-agent
+  - document
+official: true
+registry_name: io.kamai/mcp
+docs_url: https://github.com/KamaiEnterprises/kamai-mcp
+website_url: https://kamai.io/developers/mcp
+endpoints:
+  - url: https://mcp.kamai.io/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: We-Link
+summary: Run LinkedIn from your AI assistant. Search profiles, send connections and messages, engage with posts, and manage your inbox, with human-safe pacing inside LinkedIn's limits.
+category: marketing
+tags:
+  - communication
+  - marketing
+  - social-media
+  - workflow-automation
+official: true
+docs_url: https://we-link.ai/api/mcp/overview/
+endpoints:
+  - url: https://mcp.we-link.ai/mcp
+    transport: streamable-http
+    auth: api-key

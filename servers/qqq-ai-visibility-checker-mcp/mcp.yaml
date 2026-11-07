@@ -1,0 +1,15 @@
+name: QQQ AI Visibility Checker
+summary: 'Free AI visibility and GEO check for any website: whether AI crawlers (GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot, Google-Extended) can read it, technical readiness for AI search, and the latest public report of brand mentions and citations in ChatGPT, Gemini and Perplexity. Remote, no API key, read-only.'
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - seo
+  - web-research
+official: true
+registry_name: ee.qqq/ai-visibility
+docs_url: https://qqq.ee/en/mcp-server/
+endpoints:
+  - url: https://qqq.ee/mcp
+    transport: streamable-http
+    auth: none

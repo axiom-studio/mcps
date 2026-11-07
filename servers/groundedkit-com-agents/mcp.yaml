@@ -1,0 +1,13 @@
+name: GroundedKit Marketing Stats Checker
+summary: 'Check marketing and influencer stats against primary sources: verdict (verified, misquoted, outdated, unsourced), source, safe wording. Free, no API key.'
+category: marketing
+tags:
+  - data-analysis
+  - marketing
+  - research
+  - web-research
+docs_url: https://groundedkit.com/agents/
+endpoints:
+  - url: https://groundedkit.com/mcp
+    transport: streamable-http
+    auth: none

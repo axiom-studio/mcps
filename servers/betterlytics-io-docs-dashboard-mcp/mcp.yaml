@@ -1,0 +1,13 @@
+name: Betterlytics MCP
+summary: 'Lets AI assistants such as Claude, Cursor, VS Code and Codex query a Betterlytics dashboard over remote streamable HTTP: traffic, funnels, user journeys, errors, uptime monitors and incidents. Betterlytics is web analytics for your whole site.'
+category: marketing
+tags:
+  - analytics
+  - monitoring
+  - observability-incident
+  - web-research
+docs_url: https://betterlytics.io/docs/dashboard/mcp
+endpoints:
+  - url: https://betterlytics.io/api/mcp
+    transport: streamable-http
+    auth: api-key

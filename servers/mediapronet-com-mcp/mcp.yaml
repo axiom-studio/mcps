@@ -1,0 +1,12 @@
+name: MEDIAPRONET
+summary: 'Lets AI agents find newly launched startups, SaaS, AI and developer tools and their alternatives in the MEDIAPRONET directory: keyword search, alternatives to a product, listing profiles, categories, trending and Site of the Day. Remote streamable HTTP at https://mediapronet.com/api/mcp. Free, read-only, no API key.'
+category: search
+tags:
+  - marketplace
+  - search
+  - web-research
+docs_url: https://mediapronet.com/mcp
+endpoints:
+  - url: https://mediapronet.com/api/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,12 @@
+name: Hookpost
+summary: 'Hosted social media scheduler: list your connected channels, read each network''s rules, and save drafts, scheduled posts or posts that go out now to your Hookpost calendar. No delete tool.'
+category: marketing
+tags:
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://github.com/jatinder14/hookpost-mcp
+endpoints:
+  - url: https://hookpost.hookstep.in/api/mcp
+    transport: streamable-http
+    auth: api-key

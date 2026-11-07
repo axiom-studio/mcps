@@ -1,0 +1,13 @@
+name: Active Recalling
+summary: Connect Claude, Cursor or ChatGPT to Active Recalling to save the flashcards and quizzes your assistant writes and get quizzed on what's due with spaced repetition.
+category: productivity
+tags:
+  - ai-agent
+  - education
+  - memory
+  - productivity
+docs_url: https://activerecalling.com/mcp
+endpoints:
+  - url: https://activerecalling.com/api/mcp
+    transport: streamable-http
+    auth: oauth

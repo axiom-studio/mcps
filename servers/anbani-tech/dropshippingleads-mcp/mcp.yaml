@@ -1,0 +1,13 @@
+name: DropshippingLeads MCP
+summary: 'Small online retailer data for dropshipping platforms. Discover merchants across Shopify, WooCommerce and other websites. Free MCP: 14 categories, 100 records each.'
+category: database
+tags:
+  - database
+  - ecommerce
+  - marketplace
+  - shopify
+docs_url: https://github.com/anbani-tech/dropshippingleads-mcp
+endpoints:
+  - url: https://mcp.dropshippingleads.com/mcp
+    transport: streamable-http
+    auth: none

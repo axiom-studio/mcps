@@ -1,0 +1,12 @@
+name: Allowances API
+summary: 'Allowances API gives AI agents structured access to U.S. government per diem, travel and overseas allowance rates, through one remote MCP server covering GSA, DTMO and State Department (DSSR) data.  Most per diem servers stop at GSA rates for the continental U.S. This one also covers Department of Defense OCONUS rates and State Department overseas allowances, so an agent can answer questions about domestic and foreign travel in one place.  Coverage: - GSA: CONUS per diem by state, city, ZIP or destination, plus M&IE breakdowns, mileage rates, city-pair airfares and fleet vehicle rates - DTMO: DoD per diem for OCONUS locations (foreign countries, Alaska, Hawaii and U.S. territories) and CONUS - DSSR: State Department per diem, COLA, hardship, danger pay, LQA, TQSA and education allowances - FEMA: Hotel and Motel National Master List lookups for fire-safety-compliant lodging - OPM: General Schedule pay and locality data  The server also includes trip per diem, mileage reimbursement and COLA calculators.'
+category: finance
+tags:
+  - api
+  - finance
+  - government
+docs_url: https://www.allowancesapi.com/docs
+endpoints:
+  - url: https://mcp.allowancesapi.com
+    transport: streamable-http
+    auth: api-key

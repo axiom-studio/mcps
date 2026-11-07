@@ -1,0 +1,13 @@
+name: PostOnce
+summary: Remote MCP server (Streamable HTTP, https://postonce.to/mcp, Bearer API key) to list connected social accounts, publish posts and set up crossposting to TikTok, Instagram, YouTube, X, LinkedIn and more.
+category: marketing
+tags:
+  - content-creation
+  - marketing-automation
+  - social-media
+  - workflow-automation
+docs_url: https://postonce.to/integrations/mcp
+endpoints:
+  - url: https://postonce.to/mcp
+    transport: streamable-http
+    auth: unknown

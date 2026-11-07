@@ -1,0 +1,11 @@
+name: 'Easy Lane: New Orleans Parking'
+summary: 'Ask if you can park at any New Orleans address: tow zones, meters, permit zones, parades and events, plus venue parking, park-and-ride, airport parking and towed-car help. Free remote server at https://tryeasylane.com/mcp, no key needed.'
+category: other
+tags:
+  - geospatial
+  - search
+docs_url: https://tryeasylane.com/ai
+endpoints:
+  - url: https://tryeasylane.com/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: API Status Check
+summary: 'Remote MCP server that answers whether an API or cloud service is down right now: probes 280+ monitored services at call time, lists what is currently down or degraded, and returns recorded uptime history and vendor-published incidents. Read-only, no auth. Endpoint: https://apistatuscheck.com/api/mcp'
+category: development
+tags:
+  - api
+  - cloud-infrastructure
+  - monitoring
+  - observability-incident
+docs_url: https://apistatuscheck.com/mcp
+endpoints:
+  - url: https://apistatuscheck.com/api/mcp
+    transport: streamable-http
+    auth: none

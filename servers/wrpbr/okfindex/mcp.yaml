@@ -1,0 +1,13 @@
+name: OKF Index
+summary: Public index of OKF knowledge bases agents can search and read as Markdown.
+category: search
+tags:
+  - document
+  - knowledge-retrieval
+  - rag
+  - search
+docs_url: https://github.com/wrpbr/okfindex
+endpoints:
+  - url: https://okfindex.com/mcp
+    transport: streamable-http
+    auth: none

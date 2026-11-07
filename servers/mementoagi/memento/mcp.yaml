@@ -1,0 +1,14 @@
+name: Memento
+summary: 'Hosted MCP memory for coding agents: persistent across sessions, editable markdown, team sharing.'
+category: memory
+tags:
+  - ai-agent
+  - coding-agent
+  - collaboration
+  - knowledge-retrieval
+  - memory
+docs_url: https://github.com/mementoagi/memento
+endpoints:
+  - url: https://api.mementoagi.com/mcp
+    transport: streamable-http
+    auth: api-key

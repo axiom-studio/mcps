@@ -1,0 +1,14 @@
+name: seodraft
+summary: Connect Claude, ChatGPT or Cursor over MCP. seodraft adds measured topics, SERP briefs, your evidence and rules that check each draft. You approve.
+category: marketing
+tags:
+  - ai-model
+  - anthropic
+  - llm
+  - marketing
+  - seo
+docs_url: https://seodraft.app/features/mcp-server
+endpoints:
+  - url: https://seodraft.app/mcp
+    transport: streamable-http
+    auth: oauth

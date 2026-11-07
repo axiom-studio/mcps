@@ -1,0 +1,13 @@
+name: SummarizeVideo.ai
+summary: Remote MCP server that summarizes public video URLs (YouTube, Instagram, TikTok, X and other public pages). summarize_video returns a requestID right away, get_summary returns the Markdown summary with timestamped key points when it is done, and get_transcript pages through the transcript. Auth is a revocable agent key in a Bearer header; OAuth is not supported. Free accounts get 2 summaries per rolling 24 hours.
+category: productivity
+tags:
+  - content-creation
+  - media
+  - productivity
+  - video
+docs_url: https://summarizevideo.ai/mcp-server
+endpoints:
+  - url: https://mcp.summarizevideo.ai/mcp
+    transport: streamable-http
+    auth: api-key

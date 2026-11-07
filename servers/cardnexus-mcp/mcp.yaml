@@ -1,0 +1,14 @@
+name: CardNexus
+summary: Search and browse TCG cards, and buy, sell and organize your inventory from your favorite AI Agent.
+category: other
+tags:
+  - ecommerce
+  - gaming
+  - inventory
+  - marketplace
+official: true
+docs_url: https://www.cardnexus.com
+endpoints:
+  - url: https://mcp.cardnexus.com/mcp
+    transport: streamable-http
+    auth: oauth

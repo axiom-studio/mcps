@@ -1,0 +1,13 @@
+name: Tempr MCP Connector
+summary: One OAuth connector URL that gives Claude, ChatGPT and Claude Code your team's remote MCP servers, with Tool Packs, guardrails and a request log.
+category: development
+tags:
+  - ai-agent
+  - api
+  - security
+  - workflow-automation
+docs_url: https://temprhq.io/docs/mcp-connectors
+endpoints:
+  - url: https://api.temprhq.io/mcp/connector
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: Lots of Sounds
+summary: Royalty-free (CC0) sound effects and music API for developers and AI agents; search, preview, and download via REST and MCP.
+category: other
+tags:
+  - api
+  - audio
+  - content-creation
+  - media
+  - music
+docs_url: https://www.lotsofsounds.com/docs/mcp
+endpoints:
+  - url: https://api.lotsofsounds.com/mcp
+    transport: streamable-http
+    auth: api-key

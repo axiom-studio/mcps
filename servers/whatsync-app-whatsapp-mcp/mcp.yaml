@@ -1,0 +1,12 @@
+name: WhatSync
+summary: WhatsApp for Claude, ChatGPT or any AI agent. Search chats, see who is waiting for a reply, and send messages from personal WhatsApp or the official Business API.
+category: communication
+tags:
+  - ai-agent
+  - communication
+  - whatsapp
+docs_url: https://whatsync.app/whatsapp-mcp
+endpoints:
+  - url: https://whatsync.app/api/mcp
+    transport: streamable-http
+    auth: oauth

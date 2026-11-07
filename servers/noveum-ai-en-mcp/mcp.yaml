@@ -1,0 +1,13 @@
+name: Noveum
+summary: Inspect AI agent traces, build evaluation datasets, run evaluations, and test voice agents from your MCP client.
+category: development
+tags:
+  - ai-agent
+  - audio
+  - data-analysis
+  - testing-qa
+docs_url: https://noveum.ai/en/mcp
+endpoints:
+  - url: https://noveum.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

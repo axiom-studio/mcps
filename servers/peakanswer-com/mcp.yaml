@@ -1,0 +1,13 @@
+name: Peak Answer
+summary: AI search visibility on complete auto-pilot
+category: marketing
+tags:
+  - ai-model
+  - analytics
+  - marketing
+  - seo
+docs_url: https://peakanswer.com
+endpoints:
+  - url: https://peakanswer.com/api/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: HKEx Filings
+summary: Scrape 25+ years of HKEx (Hong Kong Stock Exchange) regulatory filings into nine databases, queryable live by AI agents.
+category: finance
+tags:
+  - data-analysis
+  - database
+  - finance
+  - web-scraping
+docs_url: https://github.com/simonplmak-cloud/hkex-filing-scraper
+endpoints:
+  - url: https://hkex-listco-updates.ascent-partners.com/api/mcp
+    transport: streamable-http
+    auth: unknown

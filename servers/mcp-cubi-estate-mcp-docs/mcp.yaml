@@ -1,0 +1,12 @@
+name: Cubi Estate
+summary: 'Search 2M+ live property listings for sale and rent across Europe: natural-language search, filters, listing details with source links and market stats. Read-only, no account.'
+category: search
+tags:
+  - marketplace
+  - real-estate
+  - search
+docs_url: https://mcp.cubi.estate/mcp/docs
+endpoints:
+  - url: https://mcp.cubi.estate/mcp
+    transport: streamable-http
+    auth: none

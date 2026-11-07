@@ -1,0 +1,13 @@
+name: imho.run game recommendations
+summary: imho.run recommends Steam games. Name a game and the server returns similar games ranked by imho.run's recommender, each with a one-line reason, price, Steam Deck status, release year, review numbers and links to its imho.run page and Steam. It also returns facts about a single game and can identify a game from a description of what you remember. Free, read-only, no key.
+category: other
+tags:
+  - data-analysis
+  - gaming
+  - knowledge-retrieval
+  - search
+docs_url: https://imho.run/developers
+endpoints:
+  - url: https://imho.run/mcp
+    transport: streamable-http
+    auth: none

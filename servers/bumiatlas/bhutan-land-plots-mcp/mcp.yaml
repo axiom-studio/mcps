@@ -1,0 +1,13 @@
+name: Bhutan Land Plots & Thram (NLCS cadastre)
+summary: 'Bhutan NLCS cadastral plots by plotid, thram or coordinates: land type, class, ownership type.'
+category: other
+tags:
+  - database
+  - geospatial
+  - government
+  - real-estate
+docs_url: https://github.com/BumiAtlas/bhutan-land-plots-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/bhutan
+    transport: streamable-http
+    auth: oauth

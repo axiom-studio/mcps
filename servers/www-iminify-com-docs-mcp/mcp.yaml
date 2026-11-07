@@ -1,0 +1,12 @@
+name: Iminify
+summary: Compress, convert and resize images, and scan web pages for every image they load.
+category: design
+tags:
+  - file-conversion
+  - media
+  - web-scraping
+docs_url: https://www.iminify.com/docs/mcp
+endpoints:
+  - url: https://www.iminify.com/mcp
+    transport: streamable-http
+    auth: oauth

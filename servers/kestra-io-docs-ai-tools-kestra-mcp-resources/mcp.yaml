@@ -1,0 +1,13 @@
+name: Kestra
+summary: Live Kestra plugin schemas, blueprints and docs for AI agents that build Kestra workflows
+category: development
+tags:
+  - ai-agent
+  - development
+  - documentation
+  - workflow-automation
+docs_url: https://kestra.io/docs/ai-tools/kestra-mcp-resources
+endpoints:
+  - url: https://api.kestra.io/v1/mcp
+    transport: streamable-http
+    auth: none

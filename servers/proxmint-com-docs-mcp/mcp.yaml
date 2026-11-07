@@ -1,0 +1,12 @@
+name: Proxmint MCP
+summary: 'Hosted MCP server for Proxmint proxies: check pricing, balance and usage, generate proxy lines with country or city targeting and sticky sessions, and test a connection.'
+category: web-scraping
+tags:
+  - cloud-infrastructure
+  - network-automation
+  - web-scraping
+docs_url: https://proxmint.com/docs/mcp
+endpoints:
+  - url: https://proxmint.com/api/mcp
+    transport: streamable-http
+    auth: api-key

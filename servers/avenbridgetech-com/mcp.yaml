@@ -1,0 +1,13 @@
+name: Avenbridge
+summary: Hosted MCP knowledge base. Forward your emails and docs, then query them from Claude or any MCP client.
+category: memory
+tags:
+  - document
+  - email-automation
+  - knowledge-retrieval
+  - memory
+docs_url: https://avenbridgetech.com
+endpoints:
+  - url: https://mcp.avenbridgetech.com/mcp
+    transport: streamable-http
+    auth: unknown

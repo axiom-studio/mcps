@@ -1,0 +1,13 @@
+name: Posy
+summary: 'Build and edit a hand-made link-in-bio page: add links, pick a look, publish it at posy.page.'
+category: design
+tags:
+  - cms
+  - content-creation
+  - design
+  - web-scraping
+docs_url: https://github.com/Himanshu-Sangshetti/posy
+endpoints:
+  - url: https://posy.page/api/mcp
+    transport: streamable-http
+    auth: oauth

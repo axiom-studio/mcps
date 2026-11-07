@@ -1,0 +1,13 @@
+name: Distribution.tech
+summary: Plan, price and book X creator posts for a product launch from your agent, then pull dated proof and results for every post.
+category: marketing
+tags:
+  - advertising
+  - marketing
+  - social-media
+  - x-twitter
+docs_url: https://distribution.tech
+endpoints:
+  - url: https://app.distribution.tech/api/mcp
+    transport: streamable-http
+    auth: api-key

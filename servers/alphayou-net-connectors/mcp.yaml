@@ -1,0 +1,13 @@
+name: 'AlphaYou: Smart Money Intel'
+summary: Insider, Congress, 13F and Hyperliquid trader research with a source link on every answer.
+category: finance
+tags:
+  - crypto
+  - finance
+  - research
+  - trading
+docs_url: https://alphayou.net/connectors
+endpoints:
+  - url: https://alphayou.net/api/mcp/market
+    transport: streamable-http
+    auth: none

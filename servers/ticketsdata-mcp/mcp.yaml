@@ -1,0 +1,14 @@
+name: TicketsData
+summary: Live ticket listings, prices and fees from 10 major ticket marketplaces, in real time. Ask your AI assistant about any event and get current inventory with all-in pricing.
+category: development
+tags:
+  - data-analysis
+  - marketplace
+  - web-research
+official: true
+registry_name: io.github.ticketsdata/ticketsdata-mcp
+docs_url: https://ticketsdata.com/mcp
+endpoints:
+  - url: https://mcp.ticketsdata.com/mcp
+    transport: streamable-http
+    auth: api-key

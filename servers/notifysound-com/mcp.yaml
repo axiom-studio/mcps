@@ -1,0 +1,12 @@
+name: Notify Sound
+summary: Design notification sounds from layered tones and noise. Returns an editor link where the user plays, tweaks and downloads the sound. No account and no API key.
+category: other
+tags:
+  - audio
+  - content-creation
+  - notifications
+docs_url: https://notifysound.com
+endpoints:
+  - url: https://notifysound.com/mcp
+    transport: streamable-http
+    auth: none

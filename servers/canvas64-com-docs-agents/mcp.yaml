@@ -1,0 +1,13 @@
+name: Canvas64
+summary: 'Read the Canvas64 wall on Base: all 64 cells, who owns each, what buying one out costs now, what its owner gets when bought out and their royalty after. No key; to buy, it prepares the purchase for the person''s own wallet to sign, or hands them the cell''s page.'
+category: finance
+tags:
+  - crypto
+  - evm
+  - payment
+  - trading
+docs_url: https://canvas64.com/docs/agents
+endpoints:
+  - url: https://canvas64.com/api/mcp
+    transport: streamable-http
+    auth: none

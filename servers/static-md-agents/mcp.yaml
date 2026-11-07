@@ -1,0 +1,13 @@
+name: static.md
+summary: Markdown notes and Excalidraw whiteboards your AI agents can read and write, plus image hosting. Remote MCP server at https://static.md/mcp with OAuth sign-in.
+category: productivity
+tags:
+  - cloud-storage
+  - document
+  - file-management
+  - notes
+docs_url: https://static.md/agents
+endpoints:
+  - url: https://static.md/mcp
+    transport: streamable-http
+    auth: oauth

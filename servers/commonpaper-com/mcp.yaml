@@ -1,0 +1,13 @@
+name: Common Paper Contracts
+summary: Create, send and track standard contracts and e-signatures
+category: productivity
+tags:
+  - crm
+  - document
+  - productivity
+  - workflow-automation
+docs_url: https://commonpaper.com/
+endpoints:
+  - url: https://api.commonpaper.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,12 @@
+name: Haystack Jobs
+summary: Search live jobs from employers' own careers sites in plain English (US, UK, Canada, Australia, India, Europe), plus which employers reply and how fast. Free, no sign-in.
+category: search
+tags:
+  - marketplace
+  - search
+  - web-research
+docs_url: https://github.com/haystackapp/haystack-mcp
+endpoints:
+  - url: https://haystackapp.io/mcp
+    transport: streamable-http
+    auth: none

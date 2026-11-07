@@ -1,0 +1,12 @@
+name: aitrainer.work AI training jobs
+summary: Search open AI training and RLHF jobs from 20+ platforms, with pay, eligible countries and hiring stats. Free, no API key, read-only remote server.
+category: search
+tags:
+  - ai-model
+  - marketplace
+  - search
+docs_url: https://aitrainer.work/open-data#mcp
+endpoints:
+  - url: https://aitrainer.work/mcp
+    transport: streamable-http
+    auth: unknown

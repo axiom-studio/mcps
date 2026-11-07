@@ -1,0 +1,12 @@
+name: betrend sports data
+summary: Live scores, fixtures, results, standings, team form and head-to-head records for football, cricket, basketball, tennis and more, with betrend.im links to cite.
+category: other
+tags:
+  - data-analysis
+  - sports
+  - web-research
+docs_url: https://betrend.im/en
+endpoints:
+  - url: https://betrend.im/mcp
+    transport: streamable-http
+    auth: none

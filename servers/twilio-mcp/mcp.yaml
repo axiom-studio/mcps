@@ -1,0 +1,24 @@
+name: Twilio Docs MCP
+summary: Twilio provides APIs for voice, email, SMS, RCS, identity, customer data, contact center, and conversational AI workflows. Its connector surfaces specs and code patterns so assistants can support communications and customer-engagement development.
+description: |-
+  # Twilio Docs MCP
+
+  Twilio provides APIs for voice, email, SMS, RCS, identity, customer data, contact center, and conversational AI workflows. Its connector surfaces specs and code patterns so assistants can support communications and customer-engagement development.
+
+  ## Connection
+
+  none: https://mcp.twilio.com/docs
+
+  Public documentation search only; no account or API key. Separate from twilio-labs/mcp, which executes API operations.
+
+  [Official documentation](https://www.twilio.com/docs/ai/mcp)
+category: development
+tags:
+  - development
+  - remote-mcp
+official: true
+docs_url: https://www.twilio.com/docs/ai/mcp
+endpoints:
+  - url: https://mcp.twilio.com/docs
+    transport: streamable-http
+    auth: none

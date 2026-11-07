@@ -1,0 +1,14 @@
+name: Universally
+summary: 'Manage your website translations: sites, languages, strings, glossary rules and translation analytics.'
+category: productivity
+tags:
+  - analytics
+  - cms
+  - content-creation
+  - translation
+  - workflow-automation
+docs_url: https://universally.com/docs/connect-ai-assistants/
+endpoints:
+  - url: https://mcp.universally.com/platform
+    transport: streamable-http
+    auth: oauth

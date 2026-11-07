@@ -1,0 +1,13 @@
+name: Lebanese Legislation
+summary: Search and read Lebanese laws, articles, court rulings and Gazette issues. Verbatim texts only.
+category: search
+tags:
+  - document
+  - government
+  - research
+  - search
+docs_url: https://github.com/taktekhq/lebaneselegislation-mcp
+endpoints:
+  - url: https://lebaneselegislation.com/mcp
+    transport: streamable-http
+    auth: none

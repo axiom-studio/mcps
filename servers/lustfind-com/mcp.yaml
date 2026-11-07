@@ -1,0 +1,11 @@
+name: LustFind
+summary: 'Search a directory of 2,350+ adult websites (NSFW, 18+): reviews, ratings, safety scores and side-by-side comparisons. Read-only, no API key.'
+category: search
+tags:
+  - search
+  - web-research
+docs_url: https://lustfind.com
+endpoints:
+  - url: https://lustfind.com/mcp
+    transport: streamable-http
+    auth: none

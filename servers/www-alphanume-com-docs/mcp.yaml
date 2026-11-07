@@ -1,0 +1,13 @@
+name: Alphanume
+summary: Query Alphanume market datasets for quantitative research, including corporate events, options volatility, and reference data. Hosted remote MCP with OAuth; Pro or Enterprise access required.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+  - trading
+docs_url: https://www.alphanume.com/docs
+endpoints:
+  - url: https://mcp.alphanume.com/mcp
+    transport: streamable-http
+    auth: oauth

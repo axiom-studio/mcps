@@ -1,0 +1,14 @@
+name: Cliptude
+summary: 'Make 6–60 minute faceless YouTube documentaries from a prompt: script, voiceover, footage, maps, charts and motion graphics, rendered to MP4.'
+category: productivity
+tags:
+  - content-creation
+  - text-to-speech
+  - video
+  - workflow-automation
+  - youtube
+docs_url: https://github.com/cliptude/cliptude
+endpoints:
+  - url: https://mcp.cliptude.com/mcp
+    transport: streamable-http
+    auth: oauth

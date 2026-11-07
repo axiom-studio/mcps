@@ -1,0 +1,13 @@
+name: CurveCall
+summary: Pay-per-call market math and token intel for AI agents via x402.
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - finance
+  - payment
+docs_url: https://curvecall.onrender.com
+endpoints:
+  - url: https://curvecall.onrender.com/mcp/
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: AgentReader
+summary: Turns any URL or PDF into clean Markdown/JSON for AI agents. Remote MCP (read_url, search, get_balance) + REST API; 5 free reads/day, then $0.005/call via x402 USDC on Base, no account needed.
+category: web-scraping
+tags:
+  - ai-agent
+  - document
+  - file-conversion
+  - web-scraping
+docs_url: https://agentreader.xyz
+endpoints:
+  - url: https://agentreader.xyz/mcp
+    transport: streamable-http
+    auth: none

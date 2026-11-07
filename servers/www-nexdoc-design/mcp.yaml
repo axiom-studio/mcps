@@ -1,0 +1,13 @@
+name: NexDoc Design
+summary: Give your agent design superpowers - slide decks, reports, flyers, landing pages and more
+category: design
+tags:
+  - content-creation
+  - design
+  - document
+  - marketing
+docs_url: https://www.nexdoc.design
+endpoints:
+  - url: https://mcp.nexdoc.design/mcp
+    transport: streamable-http
+    auth: oauth

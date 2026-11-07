@@ -1,0 +1,13 @@
+name: CSFaaS
+summary: 'CSFaaS is a GRC platform that runs your entire security and compliance program in one place: 40+ ready-to-deploy frameworks (including ISO 27001, SOC 2, NIST CSF, NIS2, DORA, CyFun and others), risk management, policies, third parties, audits and evidence; plus built-in AI access via API and MCP.'
+category: cloud-service
+tags:
+  - api
+  - business-operations
+  - compliance
+  - security
+docs_url: https://mcp.csfaas.com/
+endpoints:
+  - url: https://mcp.csfaas.com/mcp
+    transport: streamable-http
+    auth: unknown

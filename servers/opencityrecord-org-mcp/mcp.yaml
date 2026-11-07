@@ -1,0 +1,13 @@
+name: OpenCityRecord
+summary: Search city council meetings, votes, and documents across U.S. cities, with citations to the official record.
+category: search
+tags:
+  - document
+  - government
+  - research
+  - search
+docs_url: https://opencityrecord.org/mcp
+endpoints:
+  - url: https://mcp.opencityrecord.org/mcp
+    transport: streamable-http
+    auth: oauth

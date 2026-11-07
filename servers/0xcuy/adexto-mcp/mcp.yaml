@@ -1,0 +1,10 @@
+name: ADEXTO MCP
+summary: '14-tool MCP for ADEXTO bonding-curve markets on five chains: data, history, quotes, x402 buys, and unsigned launch, stake, and claim transactions.'
+category: development
+tags:
+  - development
+docs_url: https://github.com/0xcuy/adexto-mcp
+endpoints:
+  - url: https://adexto.xyz/api/mcp
+    transport: streamable-http
+    auth: none

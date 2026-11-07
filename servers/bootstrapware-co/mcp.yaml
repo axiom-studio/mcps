@@ -1,0 +1,11 @@
+name: Bootstrapware
+summary: Hosted MCP servers for seven embeddable React SaaS components (Importer, Feedback, Chat, Onboard, Comments, RFQ, Answers). Remote HTTP with OAuth Connect; tools configure apps only, and spreadsheet rows, messages, comments and visitor questions never go through MCP.
+category: development
+tags:
+  - development
+  - workflow-automation
+docs_url: https://bootstrapware.co
+endpoints:
+  - url: https://answers.bootstrapware.co/mcp
+    transport: streamable-http
+    auth: unknown

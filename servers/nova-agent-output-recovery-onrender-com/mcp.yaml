@@ -1,0 +1,13 @@
+name: NOVA
+summary: 'Paid AI agent tools on Base via x402 USDC: $0.01 agent output (JSON) recovery, $0.25 company intelligence report, $0.99 cited research brief. Free nova_catalog tool.'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - payment
+  - research
+docs_url: https://nova-agent-output-recovery.onrender.com
+endpoints:
+  - url: https://nova-agent-output-recovery.onrender.com/mcp
+    transport: streamable-http
+    auth: unknown

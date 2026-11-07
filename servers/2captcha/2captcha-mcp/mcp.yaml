@@ -1,0 +1,14 @@
+name: 2Captcha MCP
+summary: 'Official 2Captcha MCP server: web search, scraping past anti-bot protection, marketplace product/search parsing into structured JSON, browser automation and CAPTCHA solving for AI agents. Local (npx @2captcha/mcp) or remote (https://mcp.2captcha.com/mcp).'
+category: web-scraping
+tags:
+  - ecommerce
+  - knowledge-retrieval
+  - marketplace
+  - search
+  - web-scraping
+docs_url: https://github.com/2captcha/2captcha-mcp
+endpoints:
+  - url: https://mcp.2captcha.com/mcp
+    transport: streamable-http
+    auth: api-key

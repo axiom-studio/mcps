@@ -1,0 +1,13 @@
+name: FootVal
+summary: Independent football (soccer) player valuations vs the market with the factors behind the gap, plus scouting and rankings, live scores, match centres, league tables, stat leaders and transfer news. 15 read-only tools, OAuth sign-in.
+category: other
+tags:
+  - analytics
+  - data-analysis
+  - news
+  - sports
+docs_url: https://github.com/target1m/footval-mcp
+endpoints:
+  - url: https://api.footval.com/mcp
+    transport: streamable-http
+    auth: oauth

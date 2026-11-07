@@ -1,0 +1,13 @@
+name: Better Design
+summary: 'A design harness for AI coding agents: design systems, design principles, icons and UI review.'
+category: design
+tags:
+  - ai-agent
+  - coding-agent
+  - design
+  - development
+docs_url: https://better-design.com
+endpoints:
+  - url: https://better-design.com/api/mcp
+    transport: streamable-http
+    auth: oauth

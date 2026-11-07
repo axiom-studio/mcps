@@ -1,0 +1,13 @@
+name: iSomor
+summary: Translate text PDFs from your AI agent, keep the layout, and get translated or bilingual PDFs. MCP targets English or Chinese; the website supports 92 languages.
+category: productivity
+tags:
+  - document
+  - file-conversion
+  - pdf
+  - translation
+docs_url: https://tryisomor.com/mcp
+endpoints:
+  - url: https://tryisomor.com/api/isomor/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,14 @@
+name: SingIt
+summary: 'Remote MCP server: price and model lookups are free; web search, page reading and market data bill an owner-limited key in USDC.'
+category: finance
+tags:
+  - crypto
+  - finance
+  - payment
+  - web-research
+  - web-scraping
+docs_url: https://github.com/SingItAi/SingItAI
+endpoints:
+  - url: https://app.singitai.app/mcp
+    transport: streamable-http
+    auth: unknown

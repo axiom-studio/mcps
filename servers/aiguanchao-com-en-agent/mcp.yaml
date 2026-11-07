@@ -1,0 +1,12 @@
+name: AI Guanchao News
+summary: Curated AI news, daily briefs, trending stories and LLM leaderboard for your AI assistant (remote, needs a free personal token)
+category: search
+tags:
+  - ai-model
+  - news
+  - research
+docs_url: https://aiguanchao.com/en/agent
+endpoints:
+  - url: https://aiguanchao.com/mcp
+    transport: streamable-http
+    auth: api-key

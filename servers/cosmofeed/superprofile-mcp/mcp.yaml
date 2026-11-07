@@ -1,0 +1,14 @@
+name: SuperProfile
+summary: 'Official hosted MCP server for SuperProfile creators: Instagram and Messenger DM automation, digital products, courses, webinars, bookings and paid Telegram communities from Claude, ChatGPT and Cursor.'
+category: marketing
+tags:
+  - communication
+  - ecommerce
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://github.com/Cosmofeed/superprofile-mcp
+endpoints:
+  - url: https://mcp.superprofile.bio/mcp
+    transport: streamable-http
+    auth: oauth

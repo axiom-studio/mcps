@@ -1,0 +1,13 @@
+name: CrowdOS
+summary: Agents call CrowdOS mid-task to run focus groups, debates, A/B tests and pricing studies on a census-grounded panel that disagrees, not one model.
+category: marketing
+tags:
+  - ai-agent
+  - data-analysis
+  - marketing
+  - research
+docs_url: https://crowdos.ai/mcp
+endpoints:
+  - url: https://api.crowdos.ai/mcp
+    transport: streamable-http
+    auth: unknown

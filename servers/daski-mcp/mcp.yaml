@@ -1,0 +1,15 @@
+name: Daski
+summary: Daski’s MCP server lets AI agents discover providers, evaluate offerings, and purchase real-world services with USDC on Base. Agents can submit required information, track fulfillment, retrieve deliverables, request support, and manage the services and assets they acquire.
+category: productivity
+tags:
+  - ai-agent
+  - crypto
+  - evm
+  - marketplace
+  - payment
+official: true
+docs_url: https://daski.io/
+endpoints:
+  - url: https://daski.io/mcp
+    transport: streamable-http
+    auth: none

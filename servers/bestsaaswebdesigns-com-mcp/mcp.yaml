@@ -1,0 +1,12 @@
+name: BestSaaSWebDesigns MCP
+summary: Search 400+ real SaaS marketing websites by category, section, style, stack, colour palette and font, with homepage links.
+category: design
+tags:
+  - design
+  - knowledge-retrieval
+  - search
+docs_url: https://bestsaaswebdesigns.com/mcp
+endpoints:
+  - url: https://mcp.bestsaaswebdesigns.com/mcp
+    transport: streamable-http
+    auth: none

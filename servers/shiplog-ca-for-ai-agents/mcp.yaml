@@ -1,0 +1,13 @@
+name: ShipLog
+summary: Remote MCP server for ShipLog, a feedback board and public changelog. Agents can list, search and add feedback, update status, and draft or publish changelog entries.
+category: productivity
+tags:
+  - documentation
+  - productivity
+  - project-management
+  - workflow-automation
+docs_url: https://shiplog.ca/for/ai-agents
+endpoints:
+  - url: https://shiplog.ca/mcp
+    transport: streamable-http
+    auth: api-key

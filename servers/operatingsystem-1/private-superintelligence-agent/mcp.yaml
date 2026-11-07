@@ -1,0 +1,14 @@
+name: Private SuperIntelligence
+summary: 'Private SuperIntelligence is an AI concierge from Mitosis Labs for enterprises, family offices and private clients. It works across a client''s own email, documents and data with cited answers, and treats privacy at six layers: retention and deletion, communication, access and actions, model inference, data storage and deployment. Powered by Mitosis Labs (https://mitosislabs.ai).'
+category: productivity
+tags:
+  - ai-agent
+  - document
+  - email-automation
+  - privacy
+  - productivity
+docs_url: https://github.com/OperatingSystem-1/private-superintelligence-agent
+endpoints:
+  - url: https://privatesuperintelligence.si/mcp
+    transport: streamable-http
+    auth: unknown

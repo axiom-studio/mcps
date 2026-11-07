@@ -1,0 +1,14 @@
+name: Dijital Sürmanşet MCP
+summary: Güncel Türkiye gündemi, son dakika ekonomi haberleri, ulusal gazete manşetleri, Borsa İstanbul ve küresel hisse/fon piyasası verilerine salt okunur erişim sunan MCP sunucusu.
+category: other
+tags:
+  - data-analysis
+  - finance
+  - news
+  - trading
+  - web-research
+docs_url: https://dijitalsurmanset.com/api/mcp
+endpoints:
+  - url: https://dijitalsurmanset.com/api/mcp
+    transport: streamable-http
+    auth: none

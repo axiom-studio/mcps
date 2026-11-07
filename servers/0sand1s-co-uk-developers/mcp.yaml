@@ -1,0 +1,11 @@
+name: 0s and 1s CIS
+summary: 'Free UK Construction Industry Scheme (CIS) calculators for contractors: deductions, gross-up, tax month deadlines, late filing penalties, gross payment test and verification. No sign-in.'
+category: finance
+tags:
+  - business-operations
+  - finance
+docs_url: https://0sand1s.co.uk/developers
+endpoints:
+  - url: https://0sand1s.co.uk/mcp
+    transport: streamable-http
+    auth: none

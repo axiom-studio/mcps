@@ -1,0 +1,15 @@
+name: Cleanvoice
+summary: Remove noise, cut filler words and add Studio Sound to audio and video, with transcripts.
+category: marketing
+tags:
+  - audio
+  - content-creation
+  - media
+  - video
+official: true
+registry_name: ai.cleanvoice/cleanvoice
+docs_url: https://cleanvoice.ai/mcp/
+endpoints:
+  - url: https://api.cleanvoice.ai/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Microsoft Ads MCP by AdPlug
+summary: Microsoft Ads MCP for Claude and ChatGPT. Search, Performance Max and LinkedIn profile targeting, Google Ads Search campaigns copied across paused, a preview tool for every change.
+category: marketing
+tags:
+  - advertising
+  - ai-agent
+  - chatbot
+  - marketing
+docs_url: https://adplug.app/integrations/microsoft-ads
+endpoints:
+  - url: https://api.adplug.app/mcp/microsoft-ads
+    transport: streamable-http
+    auth: oauth

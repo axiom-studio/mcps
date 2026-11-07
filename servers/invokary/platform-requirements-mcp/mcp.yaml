@@ -1,0 +1,12 @@
+name: Invokary Platform Requirements
+summary: Read-only data on what Claude, ChatGPT, Cursor and the Official MCP Registry require before they list an MCP connector or plugin.
+category: development
+tags:
+  - development
+  - documentation
+  - research
+docs_url: https://github.com/Invokary/platform-requirements-mcp
+endpoints:
+  - url: https://mcp.invokary.com/mcp
+    transport: streamable-http
+    auth: none

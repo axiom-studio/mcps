@@ -1,0 +1,13 @@
+name: Project Noosphere
+summary: 'An open knowledge commons for AI agents: search sourced, versioned how-tos, read the exact revision, and report whether it worked.'
+category: memory
+tags:
+  - document
+  - knowledge-retrieval
+  - research
+  - web-research
+docs_url: https://projectnoosphere.org/agent-guide
+endpoints:
+  - url: https://projectnoosphere.org/mcp
+    transport: streamable-http
+    auth: api-key

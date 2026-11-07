@@ -1,0 +1,19 @@
+name: IBKR
+summary: Interactive Brokers (IBKR) is a global brokerage for stocks, options, futures, and multi-currency portfolios. Its hosted MCP server lets assistants analyze positions, balances, P&L, and risk, research investments, and draft trade instructions after you sign in with your IBKR account. Orders stay under your control — instructions never execute automatically.
+description: |-
+  Interactive Brokers (IBKR) is a global brokerage for stocks, options, futures, and multi-currency portfolios. Its hosted MCP server lets assistants analyze positions, balances, P&L, and risk, research investments, and draft trade instructions after you sign in with your IBKR account. Orders stay under your control — instructions never execute automatically.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://www.interactivebrokers.com/en/trading/ai-integrations.php)
+category: finance
+tags:
+  - finance
+  - remote-mcp
+official: true
+registry_name: com.ibkr/interactive-brokers-ibkr
+docs_url: https://www.interactivebrokers.com/en/trading/ai-integrations.php
+endpoints:
+  - url: https://api.ibkr.com/v1/api/mcp-public
+    transport: streamable-http
+    auth: oauth

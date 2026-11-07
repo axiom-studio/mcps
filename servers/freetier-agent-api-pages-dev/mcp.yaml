@@ -1,0 +1,14 @@
+name: FreeTier Agent API
+summary: 'Pay-per-call data MCP server for AI agents: AI model prices and limits (~3,000 models), LLM cost estimates, MCP server directory, public API free tiers, web page to markdown, link checks, email verification, currency, holidays and country lookups. 4 free sample tools; paid tools $0.002-0.05 per call in USDC on Base via x402. No signup or API key.'
+category: development
+tags:
+  - ai-model
+  - api
+  - data-analysis
+  - payment
+  - web-research
+docs_url: https://freetier-agent-api.pages.dev
+endpoints:
+  - url: https://freetier-agent-api.pages.dev/mcp
+    transport: streamable-http
+    auth: unknown

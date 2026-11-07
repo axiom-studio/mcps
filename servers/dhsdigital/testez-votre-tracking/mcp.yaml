@@ -1,0 +1,14 @@
+name: Testez votre tracking
+summary: 'Free, read-only audit of any website''s marketing tracking from its public URL, with no account access or API key: Google Tag Manager, GA4, Google Ads, Meta Pixel, TikTok, cookie banner, Consent Mode v2 and server-side tagging. Score out of 100 and prioritised fixes, report in French.'
+category: marketing
+tags:
+  - analytics
+  - browser-automation
+  - marketing
+  - seo
+  - web-scraping
+docs_url: https://github.com/dhsdigital/testez-votre-tracking
+endpoints:
+  - url: https://dhsdigital.eu/wp-json/dhs-audit/v1/mcp
+    transport: streamable-http
+    auth: none

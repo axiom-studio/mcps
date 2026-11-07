@@ -1,0 +1,25 @@
+name: Trivago
+summary: Trivago helps users search hotels and accommodations by coordinates, cities, countries, dates, and travel context. Its connector gives assistants lodging-search context for finding suitable stays near destinations or points of interest.
+description: |-
+  # Trivago
+
+  Trivago helps users search hotels and accommodations by coordinates, cities, countries, dates, and travel context. Its connector gives assistants lodging-search context for finding suitable stays near destinations or points of interest.
+
+  ## Connection
+
+  none: https://mcp.trivago.com/mcp
+
+  The publisher documents public hotel search with no API key. Registry domain namespace matches mcp.trivago.com; its lack of a remotes field does not negate the documented endpoint.
+
+  [Official documentation](https://mcp.trivago.com/docs)
+category: search
+tags:
+  - remote-mcp
+  - search
+official: true
+registry_name: com.trivago.mcp/mcp
+docs_url: https://mcp.trivago.com/docs
+endpoints:
+  - url: https://mcp.trivago.com/mcp
+    transport: streamable-http
+    auth: none

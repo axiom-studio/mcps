@@ -1,0 +1,12 @@
+name: Aggregator.gg
+summary: 'Hosted MCP interface for Aggregator.gg B2B infrastructure: authenticated catalog and integration-state reads, plus local readiness and migration advisories. Remote actions are disabled. Requires an Aggregator API key.'
+category: development
+tags:
+  - api
+  - business-operations
+  - development
+docs_url: https://hub.aggregator.gg/mcp/
+endpoints:
+  - url: https://mcp.aggregator.gg/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,11 @@
+name: Imagine AI Benchmark
+summary: 'LinkedIn content benchmark for B2B: 900+ companies and 2,000+ founders and execs, scored per account. Public tools (no key) return bands and aggregates; workspace keys unlock post-level data.'
+category: marketing
+tags:
+  - marketing
+  - marketing-automation
+docs_url: https://benchmark.useimagine.ai
+endpoints:
+  - url: https://benchmark.useimagine.ai/api/mcp
+    transport: streamable-http
+    auth: api-key

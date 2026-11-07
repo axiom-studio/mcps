@@ -1,0 +1,11 @@
+name: Yenta
+summary: 'Human-verified hospitality data for AI assistants: about 9,000 restaurants, bars and venues across 10 cities plus Los Cabos, with hours, menus, dishes, dietary tags and booking links. Read-only remote MCP at https://mcp.yentaknows.ai/mcp, no auth.'
+category: search
+tags:
+  - knowledge-retrieval
+  - search
+docs_url: https://yentaknows.ai/llms.txt
+endpoints:
+  - url: https://mcp.yentaknows.ai/mcp
+    transport: streamable-http
+    auth: none

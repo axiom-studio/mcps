@@ -1,0 +1,14 @@
+name: varg
+summary: AI video, image, speech and music generation — Kling, Seedance, Veo, Sora, Flux, ElevenLabs via one hosted MCP server (OAuth) or npx @vargai/mcp.
+category: design
+tags:
+  - document
+  - documentation
+  - identity
+  - security
+  - video
+docs_url: https://docs.varg.ai/mcp-server
+endpoints:
+  - url: https://mcp.varg.ai/mcp
+    transport: streamable-http
+    auth: oauth

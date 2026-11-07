@@ -1,0 +1,13 @@
+name: Accountable (MCP server)
+summary: Accountable's remote MCP server (https://accountable.im/mcp, Streamable HTTP, OAuth) lets Claude, ChatGPT, Cursor or any MCP client do a startup's bookkeeping. Tools find actions, search, report, preview and run changes, undo them, and read or upload documents. Writes follow the person's role; entries of $5,000 or more and reopening a closed month wait for an owner; every change is logged with the agent's name and can be undone. One connection reaches several companies. It never moves money.
+category: finance
+tags:
+  - business-operations
+  - document
+  - finance
+  - workflow-automation
+docs_url: https://github.com/ShadowWalker2014/accountable-plugin
+endpoints:
+  - url: https://accountable.im/mcp
+    transport: streamable-http
+    auth: oauth

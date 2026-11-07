@@ -1,0 +1,13 @@
+name: Magist
+summary: 'Regulatory research for product teams: search regulations, find controls and enforcement records, and retrieve source citations. Legal information, not legal advice.'
+category: search
+tags:
+  - compliance
+  - government
+  - knowledge-retrieval
+  - research
+docs_url: https://github.com/magist-io/magist-mcp-server
+endpoints:
+  - url: https://magist.io/api/mcp
+    transport: streamable-http
+    auth: none

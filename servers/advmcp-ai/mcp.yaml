@@ -1,0 +1,13 @@
+name: ADVmcp
+summary: 'SEC Form ADV data on 23,740 registered investment advisers: search firms, pull full filed profiles, rank by any filed metric, track filing changes, and benchmark a firm against a cohort with charts. 9 tools, 8 guided skills, no login or keys. Values exactly as filed.'
+category: finance
+tags:
+  - data-analysis
+  - database
+  - finance
+  - research
+docs_url: https://advmcp.ai
+endpoints:
+  - url: https://advmcp.ai/mcp
+    transport: streamable-http
+    auth: none

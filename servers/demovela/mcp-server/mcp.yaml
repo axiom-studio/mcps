@@ -1,0 +1,13 @@
+name: Demovela
+summary: OAuth MCP for saved product-demo videos, video status and templates. Save editable video briefs for review without rendering, recording or spending credits. https://demovela.com
+category: design
+tags:
+  - content-creation
+  - design
+  - media
+  - video
+docs_url: https://github.com/demovela/mcp-server
+endpoints:
+  - url: https://mcp.demovela.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: DC5 WHOIS
+summary: 'WHOIS, RDAP, DNS, IP, CIDR, ASN and Web3 name (ENS, Unstoppable, SPACE ID, Handshake, Solana) lookups in one call: registration, DNS, routing, cloud/CDN, reputation, mail security and look-alike screening from local datasets. No API key needed.'
+category: search
+tags:
+  - crypto
+  - network-automation
+  - search
+  - security
+docs_url: https://whois.dc5.tech/mcp
+endpoints:
+  - url: https://whois.dc5.tech/mcp
+    transport: streamable-http
+    auth: none

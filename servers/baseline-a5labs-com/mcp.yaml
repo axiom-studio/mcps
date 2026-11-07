@@ -1,0 +1,12 @@
+name: Baseline by A5 Labs
+summary: Screen 3,600+ listed companies on business quality, moats, pricing power, management and risks, with a written analyst-style rationale behind every score. Remote server at https://baseline.a5labs.com/mcp with OAuth sign-in.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - research
+docs_url: https://baseline.a5labs.com
+endpoints:
+  - url: https://baseline.a5labs.com/mcp
+    transport: streamable-http
+    auth: oauth

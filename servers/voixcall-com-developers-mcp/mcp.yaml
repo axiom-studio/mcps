@@ -1,0 +1,12 @@
+name: VoixCall
+summary: 'Give your AI assistant a real phone account: check call rates to 160+ countries, balance, contacts and call history, read AI call summaries and texts on your numbers, and place calls (ring you first, or let a VoixCall AI voice agent talk). OAuth 2.1 or API key.'
+category: communication
+tags:
+  - api
+  - audio
+  - communication
+docs_url: https://voixcall.com/developers/mcp
+endpoints:
+  - url: https://api.voixcall.com/mcp
+    transport: streamable-http
+    auth: api-key

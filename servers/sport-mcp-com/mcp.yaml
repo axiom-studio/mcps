@@ -1,0 +1,13 @@
+name: Sport MCP
+summary: A free strength-training log for iPhone whose MCP connector lets your assistant read your workouts and records, plan your week and log training. OAuth sign-in, no API keys.
+category: other
+tags:
+  - fitness
+  - healthcare
+  - mobile
+  - productivity
+docs_url: https://sport-mcp.com
+endpoints:
+  - url: https://sport-mcp.com/mcp
+    transport: streamable-http
+    auth: oauth

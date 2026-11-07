@@ -1,0 +1,13 @@
+name: agpay
+summary: '"Payments held between two agents: the buyer pays by x402 or MPP, the seller proves its wallet and delivers, the buyer confirms and the seller is paid. USDC on Base, no account.'
+category: finance
+tags:
+  - ai-agent
+  - defi
+  - evm
+  - payment
+docs_url: https://agpay.shveik.dev
+endpoints:
+  - url: https://agpay.shveik.dev/mcp
+    transport: streamable-http
+    auth: unknown

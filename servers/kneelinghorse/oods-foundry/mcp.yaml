@@ -1,0 +1,13 @@
+name: OODS Foundry
+summary: An object-oriented design system that extends the one you already have. Open source (Apache-2.0). It drafts objects from your existing schema files, composes governed React and Vue screens with your own components and brand, and renders and certifies charts. Runs locally with npx; a read-only hosted endpoint is also available.
+category: design
+tags:
+  - ai-agent
+  - design
+  - development
+  - document
+docs_url: https://github.com/kneelinghorse/OODS-Foundry
+endpoints:
+  - url: https://oods-foundry.com/mcp
+    transport: streamable-http
+    auth: none

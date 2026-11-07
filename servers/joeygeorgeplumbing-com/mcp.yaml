@@ -1,0 +1,12 @@
+name: Joey George Plumbing
+summary: MCP server for Joey George Plumbing, an owner-operator residential plumbing business in South Orange County, CA. Gives AI agents business info and service area, a South Orange County water hardness checker (grains per gallon by city with treatment guidance), a water heater health check (age + symptoms to maintenance guidance), and plain-language homeowner plumbing Q&A.
+category: other
+tags:
+  - business-operations
+  - customer-ops
+  - home-automation
+docs_url: https://joeygeorgeplumbing.com
+endpoints:
+  - url: https://jgp-mcp.vercel.app
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,14 @@
+name: RobinX
+summary: 'Measured social signal for trading bots on Robinhood Chain (chain 4663): X callers graded against the on-chain price that followed their calls, token verdicts, deployer records and LP custody. Remote at api.robinx.io/mcp or npx -y robinx-mcp; pay per call over x402 or with a key; free tier, no signup. Independent, not affiliated with Robinhood.'
+category: finance
+tags:
+  - api
+  - crypto
+  - finance
+  - trading
+  - x-twitter
+docs_url: https://github.com/jamhimself/robinx-mcp
+endpoints:
+  - url: https://api.robinx.io/mcp
+    transport: streamable-http
+    auth: unknown

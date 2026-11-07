@@ -1,0 +1,13 @@
+name: Slice
+summary: Hosted MCP server that turns long podcast episodes, video or audio, into captioned vertical clips and transcripts. Agents can start an episode, list the clips found, search for clips about a topic, make and restyle clips, read captions and transcribe recordings. Streamable HTTP with OAuth sign-in.
+category: other
+tags:
+  - audio
+  - content-creation
+  - media
+  - video
+docs_url: https://tryslicemedia.com/agents
+endpoints:
+  - url: https://mcp.tryslicemedia.com/mcp
+    transport: streamable-http
+    auth: unknown

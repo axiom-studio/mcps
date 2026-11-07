@@ -1,0 +1,18 @@
+name: Scholar Gateway
+summary: Scholar Gateway grounds AI responses in peer-reviewed literature with verifiable citations and DOIs. Its remote MCP server lets assistants search scholarly sources and cite them precisely, supporting research workflows that require trustworthy references.
+description: |-
+  Scholar Gateway grounds AI responses in peer-reviewed literature with verifiable citations and DOIs. Its remote MCP server lets assistants search scholarly sources and cite them precisely, supporting research workflows that require trustworthy references.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://docs.scholargateway.ai/)
+category: search
+tags:
+  - remote-mcp
+  - search
+official: true
+docs_url: https://docs.scholargateway.ai/
+endpoints:
+  - url: https://connector.scholargateway.ai/mcp
+    transport: streamable-http
+    auth: oauth

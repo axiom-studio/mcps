@@ -1,0 +1,13 @@
+name: WalletWallet
+summary: 'WalletWallet is a remote MCP server for **Apple Wallet and Google Wallet passes**. Describe a card in a chat and `create_pass` returns a share link that installs on an iPhone or an Android phone, plus a direct Google Wallet save link and an Apple .pkpass link, from one call. No template to design first and nothing to install: clients sign in with OAuth.  Seven tools cover the life of a pass:  - `create_pass`: issue a pass for both wallets, get a share link - `update_pass`: change a pass and push it to every phone that holds it (lock-screen message on iPhone) - `revoke_pass`: void a pass so it stops scanning - `get_pass`: status, installs, Google save link - `get_usage`: passes used this month - `list_passes`, `get_pass_body`: Pro plans  Covers loyalty cards, membership cards, event tickets, coupons, and gift cards. WalletWallet handles the Apple signing certificate and the Google issuer setup, so no Apple developer account is needed. Free includes 1,000 passes a month; Pro is $39 a month for 100,000. One pass covers both wallets and counts once.  Setup for Claude, ChatGPT, Cursor, and other clients: https://www.walletwallet.dev/integrations/'
+category: marketing
+tags:
+  - api
+  - customer-ops
+  - marketing
+  - mobile
+docs_url: https://www.walletwallet.dev/integrations/
+endpoints:
+  - url: https://api.walletwallet.dev/mcp
+    transport: streamable-http
+    auth: oauth

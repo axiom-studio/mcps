@@ -1,0 +1,13 @@
+name: ShipSafe
+summary: 'Independent security review for AI-built apps: exposed secrets, broken auth, unsafe data access.'
+category: development
+tags:
+  - ai-agent
+  - code-quality
+  - development
+  - security
+docs_url: https://ship-safe.co/docs/mcp
+endpoints:
+  - url: https://ship-safe.co/api/mcp
+    transport: streamable-http
+    auth: api-key

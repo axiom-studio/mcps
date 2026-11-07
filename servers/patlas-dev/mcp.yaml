@@ -1,0 +1,11 @@
+name: patlas
+summary: Prior-art patent search over real USPTO and EPO data. Scan your codebase with patent-scan to find mechanisms worth a patent search, with every quoted claim checked against the real patent text.
+category: other
+tags:
+  - knowledge-retrieval
+  - search
+docs_url: https://patlas.dev
+endpoints:
+  - url: https://patlas.dev/mcp
+    transport: streamable-http
+    auth: oauth

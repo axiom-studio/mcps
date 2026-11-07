@@ -1,0 +1,14 @@
+name: xTiles
+summary: 'Give Claude the full context of your work connecting your xTiles visual workspace. Turn chats into living projects that stay up to date. Save ideas and plans to pages, create and update tasks with due dates and assignees, and add notes to your daily planner. Pull any project back into the chat with its current state, decisions and open questions — so the next conversation starts where the work left off. Use for: turning brainstorms and research into work and life projects, organizing teamwork and client projects, and daily and weekly planning. Example prompts: "Turn this chat into an xTiles project" "What''s the status of the Launch project and what''s still open?" "Add today''s call notes to the Acme project and create tasks for the follow-ups."'
+category: productivity
+tags:
+  - knowledge-retrieval
+  - notes
+  - productivity
+  - project-management
+  - task-management
+docs_url: https://xtiles.app/en/imagine/
+endpoints:
+  - url: https://mcp.xtiles.app/mcp
+    transport: streamable-http
+    auth: oauth

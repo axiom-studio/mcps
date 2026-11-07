@@ -1,0 +1,14 @@
+name: posts.design
+summary: 'Design references for social posts, X headers and OG images from real brands. Search the library, open a reference with its source, and read breakdowns of video posts: hook, timed beats, type and end card. Sign in with a free account.'
+category: design
+tags:
+  - content-creation
+  - design
+  - search
+  - social-media
+  - x-twitter
+docs_url: https://posts.design/mcp
+endpoints:
+  - url: https://posts.design/mcp
+    transport: streamable-http
+    auth: oauth

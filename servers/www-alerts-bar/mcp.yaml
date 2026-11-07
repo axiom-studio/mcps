@@ -1,0 +1,12 @@
+name: AlertsBar MCP
+summary: 'Domain exposure counters: breaches, infostealers, stolen cookies. Counts only, free.'
+category: search
+tags:
+  - monitoring
+  - security
+  - threat-intelligence
+docs_url: https://www.alerts.bar/
+endpoints:
+  - url: https://mcp.alerts.bar/mcp
+    transport: streamable-http
+    auth: unknown

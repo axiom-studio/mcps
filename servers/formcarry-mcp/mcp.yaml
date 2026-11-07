@@ -1,0 +1,15 @@
+name: Formcarry MCP
+summary: 'Collect form submissions from any stack: your own form code, your own style, formcarry handles the rest. Set email notifications and auto replies, connect other apps, and manage your forms completely from the MCP server, including complex queries over the submissions they collect.'
+category: development
+tags:
+  - api
+  - communication
+  - data-analysis
+  - workflow-automation
+official: true
+registry_name: com.formcarry/formcarry
+docs_url: https://formcarry.com
+endpoints:
+  - url: https://mcp.formcarry.com/mcp
+    transport: streamable-http
+    auth: oauth

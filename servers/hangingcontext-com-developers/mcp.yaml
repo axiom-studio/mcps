@@ -1,0 +1,12 @@
+name: 'Hanging Context: News For Agents'
+summary: News stories written for AI agents, refreshed every 12 hours; every paragraph cites its sources. Free, no key or sign-in.
+category: search
+tags:
+  - ai-agent
+  - news
+  - web-research
+docs_url: https://hangingcontext.com/developers/
+endpoints:
+  - url: https://hangingcontext.com/mcp
+    transport: streamable-http
+    auth: none

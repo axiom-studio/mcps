@@ -1,0 +1,13 @@
+name: 'Bhumi MCP: Data Tanah ATR/BPN, RDTR OSS, HGU & Konsesi'
+summary: Persil Bhumi ATR/BPN, HGU, konsesi tambang, zonasi RDTR OSS.
+category: other
+tags:
+  - database
+  - geospatial
+  - government
+  - real-estate
+docs_url: https://github.com/BumiAtlas/bhumi-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/bhumi
+    transport: streamable-http
+    auth: oauth

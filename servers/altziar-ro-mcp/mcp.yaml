@@ -1,0 +1,12 @@
+name: altziar – Romanian News
+summary: 'Romanian news for AI assistants: top stories, search, breaking news and full story details from 70+ Romanian newsrooms, with confirmed facts separated from claims and links to every original article. Free, read-only, no API key.'
+category: search
+tags:
+  - news
+  - search
+  - web-research
+docs_url: https://altziar.ro/mcp
+endpoints:
+  - url: https://altziar.ro/mcp
+    transport: streamable-http
+    auth: none

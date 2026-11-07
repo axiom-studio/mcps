@@ -1,0 +1,11 @@
+name: PLC Cloud Sim
+summary: 云端 PLC 仿真 MCP：校验并逐扫描周期运行梯形图（LAD）与 SCL 程序，跑场景化验收并返回 PASS/FAIL，不需要安装 TIA Portal。
+category: development
+tags:
+  - development
+  - testing-qa
+docs_url: https://github.com/tia-forge/plc-cloud-sim
+endpoints:
+  - url: https://tia.hubwiz.com/sim/mcp
+    transport: streamable-http
+    auth: unknown

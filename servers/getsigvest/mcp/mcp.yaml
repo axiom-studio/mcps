@@ -1,0 +1,13 @@
+name: SigVest
+summary: Read-only AI portfolio agents for DIY investors — connect brokerage, monitor briefs/news/earnings/drift. Never trades. Not financial advice.
+category: finance
+tags:
+  - ai-agent
+  - data-analysis
+  - finance
+  - news
+docs_url: https://github.com/getsigvest/mcp
+endpoints:
+  - url: https://mcp.getsigvest.com/mcp
+    transport: streamable-http
+    auth: api-key

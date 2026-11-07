@@ -1,0 +1,13 @@
+name: Ball Ranks Fantasy Sports
+summary: 'Fantasy sports rankings and projections for NFL and NBA. Read-only MCP server for fantasy football and basketball. Four tools: get_week_rankings, get_season_rankings, get_player_rankings, get_player_projections. No API key needed for the free model.'
+category: other
+tags:
+  - api
+  - data-analysis
+  - sports
+official: true
+docs_url: https://github.com/Ollynov/ball-ranks-plugin
+endpoints:
+  - url: https://ballranks.com/api/mcp
+    transport: streamable-http
+    auth: none

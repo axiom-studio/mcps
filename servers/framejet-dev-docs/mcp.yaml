@@ -1,0 +1,12 @@
+name: Framejet Screenshot
+summary: Clean PNG/JPEG screenshots via remote MCP or REST, with goal-driven multi-step navigation. Removes cookie banners and chat widgets by default.
+category: web-scraping
+tags:
+  - browser-automation
+  - testing-qa
+  - web-scraping
+docs_url: https://framejet.dev/docs#mcp
+endpoints:
+  - url: https://framejet.dev/mcp
+    transport: streamable-http
+    auth: api-key

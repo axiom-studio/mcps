@@ -1,0 +1,13 @@
+name: VibeDoctor
+summary: 'MCP server that lets Claude Code, Cursor and Codex check their own code: leaked secrets, risky dependencies and common AI-code mistakes, with file and line.'
+category: development
+tags:
+  - ai-agent
+  - code-quality
+  - development
+  - security
+docs_url: https://vibedoctor.io
+endpoints:
+  - url: https://vibedoctor.io/mcp
+    transport: streamable-http
+    auth: none

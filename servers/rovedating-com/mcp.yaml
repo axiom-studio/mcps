@@ -1,0 +1,12 @@
+name: Rove Dating
+summary: 'Plan-first dating MCP for Utah Valley. Members use their own AI as a matchmaker: browse/post date plans, show interest, message. Remote OAuth (Sign in with Apple). Members only ($1/week, 30-day free trial).'
+category: other
+tags:
+  - ai-agent
+  - communication
+  - social-media
+docs_url: https://rovedating.com
+endpoints:
+  - url: https://rovedating.com/mcp
+    transport: streamable-http
+    auth: oauth

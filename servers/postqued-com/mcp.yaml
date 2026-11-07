@@ -1,0 +1,14 @@
+name: Postqued
+summary: Schedule, publish, and analyze social posts across TikTok, Instagram, Facebook and more. Remote MCP server with OAuth, scoped permissions, and 62 tools for posts, media, approvals, engagement, and analytics.
+category: marketing
+tags:
+  - analytics
+  - content-creation
+  - marketing-automation
+  - social-media
+  - workflow-automation
+docs_url: https://postqued.com
+endpoints:
+  - url: https://mcp.postqued.com/mcp
+    transport: streamable-http
+    auth: oauth

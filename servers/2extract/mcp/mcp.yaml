@@ -1,0 +1,13 @@
+name: 2extract
+summary: 'Create and manage residential and mobile proxies from your AI agent: geo targeting down to city, ZIP or carrier, traffic and spend limits, usage and cost reports'
+category: web-scraping
+tags:
+  - analytics
+  - browser-automation
+  - network-automation
+  - web-scraping
+docs_url: https://github.com/2extract/mcp
+endpoints:
+  - url: https://mcp.2extract.com/mcp
+    transport: streamable-http
+    auth: api-key

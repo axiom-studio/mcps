@@ -1,0 +1,13 @@
+name: OperStack
+summary: 'Scores whether ChatGPT and other AI assistants can read, understand and quote a public website. Remote server, free tools need no account: audit_site, compare_sites, check_llms_txt.'
+category: marketing
+tags:
+  - ai-agent
+  - seo
+  - testing-qa
+  - web-research
+docs_url: https://oper-stack.com/mcp/
+endpoints:
+  - url: https://oper-stack.com/api/mcp/
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: IZeat
+summary: 'The five-star chef calorie tracker inside ChatGPT, Claude or any assistant: it suggests filling, great-tasting meals for the calories you have left and logs each meal in one sentence.'
+category: other
+tags:
+  - ai-agent
+  - chatbot
+  - fitness
+  - healthcare
+docs_url: https://izeat.app
+endpoints:
+  - url: https://izeat.app/api/mcp
+    transport: streamable-http
+    auth: oauth

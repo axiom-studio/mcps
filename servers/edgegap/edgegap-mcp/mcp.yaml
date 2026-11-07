@@ -1,0 +1,16 @@
+name: Edgegap
+summary: Deploy multiplayer game servers from your coding agent. Ten tools that take a Unity, Unreal, or Godot dedicated server from container image to connected players.
+category: development
+tags:
+  - ai-agent
+  - cloud-infrastructure
+  - deployment
+  - devops
+  - game-development
+official: true
+registry_name: dev.edgegap/mcp
+docs_url: https://github.com/edgegap/edgegap-mcp
+endpoints:
+  - url: https://mcp.edgegap.dev/mcp
+    transport: streamable-http
+    auth: api-key

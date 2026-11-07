@@ -1,0 +1,13 @@
+name: Man Page MCP
+summary: Search and read Linux manual pages with version-aware lookup, helping AI assistants find accurate documentation for commands, libraries, and configuration files.
+category: development
+tags:
+  - development
+  - documentation
+  - knowledge-retrieval
+  - research
+docs_url: https://manpage.ai/
+endpoints:
+  - url: https://manpage.ai/mcp
+    transport: streamable-http
+    auth: none

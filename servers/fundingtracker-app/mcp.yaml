@@ -1,0 +1,13 @@
+name: FundingTracker
+summary: Merchant cash advance calculators (factor rate to APR, payoff date, payment impact), a public MCA funder directory with merchant reviews, and MCA guides. Read-only, no account needed.
+category: finance
+tags:
+  - business-operations
+  - finance
+  - marketplace
+  - research
+docs_url: https://fundingtracker.app
+endpoints:
+  - url: https://fundingtracker.app/api/mcp
+    transport: streamable-http
+    auth: none

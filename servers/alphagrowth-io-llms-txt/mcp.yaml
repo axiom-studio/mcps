@@ -1,0 +1,13 @@
+name: AlphaGrowth
+summary: 'Free, keyless crypto data for agents: project metrics, community growth, funding rounds, investors, chains, fees and DAO treasuries.'
+category: finance
+tags:
+  - analytics
+  - crypto
+  - data-analysis
+  - finance
+docs_url: https://alphagrowth.io/llms.txt
+endpoints:
+  - url: https://alphagrowth.io/mcp
+    transport: streamable-http
+    auth: none

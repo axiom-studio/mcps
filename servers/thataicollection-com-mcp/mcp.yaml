@@ -1,0 +1,13 @@
+name: AI Collection
+summary: Discover and compare 4,000+ AI tools. Search the catalog, browse categories, find alternatives and get curated picks through seven read-only tools. Free remote MCP; no API key required.
+category: search
+tags:
+  - ai-model
+  - marketplace
+  - research
+  - search
+docs_url: https://thataicollection.com/mcp
+endpoints:
+  - url: https://thataicollection.com/mcp
+    transport: streamable-http
+    auth: none

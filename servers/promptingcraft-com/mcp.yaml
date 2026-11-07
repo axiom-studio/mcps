@@ -1,0 +1,13 @@
+name: PromptingCraft Guidance
+summary: Source-backed prompting and agent guidance for coding agents, with dated official references and freshness checks.
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - documentation
+  - llm
+docs_url: https://promptingcraft.com
+endpoints:
+  - url: https://mcp.promptingcraft.com/mcp
+    transport: streamable-http
+    auth: none

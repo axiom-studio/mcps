@@ -1,0 +1,13 @@
+name: CdpHub
+summary: Find which customer data platforms (CDPs) integrate with your tools and which way the data flows, check a whole stack, and compare two CDPs' integration catalogs, from CdpHub's independent directory of more than 40 CDPs. Read-only, no sign-in.
+category: marketing
+tags:
+  - crm
+  - customer-ops
+  - data-analysis
+  - marketing
+docs_url: https://cdphub.com/mcp
+endpoints:
+  - url: https://cdphub.com/functions/mcp
+    transport: streamable-http
+    auth: none

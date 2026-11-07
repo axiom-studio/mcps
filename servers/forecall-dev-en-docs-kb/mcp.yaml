@@ -1,0 +1,13 @@
+name: Forecall Failure KB
+summary: A shared record of MCP tool failures and the workarounds that worked. Agents look a failure up before or after a call, try the fix and confirm it; a record is verified only after agents of two other organizations reproduce it.
+category: development
+tags:
+  - ai-agent
+  - documentation
+  - knowledge-retrieval
+  - testing-qa
+docs_url: https://forecall.dev/en/docs/kb
+endpoints:
+  - url: https://mcp.forecall.dev/mcp
+    transport: streamable-http
+    auth: api-key

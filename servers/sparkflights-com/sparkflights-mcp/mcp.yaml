@@ -1,0 +1,11 @@
+name: Sparkflights
+summary: Search flight fares Sparkflights has found and verified, by city or airport, departure month, cabin and price, with a link to book each one. Hosted, no API key.
+category: search
+tags:
+  - marketplace
+  - search
+docs_url: https://github.com/Sparkflights-com/sparkflights-mcp
+endpoints:
+  - url: https://www.sparkflights.com/mcp/search
+    transport: streamable-http
+    auth: none

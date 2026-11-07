@@ -1,0 +1,13 @@
+name: Apple Search Ads MCP by Nova (CIVAI)
+summary: 'Manage Apple Search Ads from chat: sign in with Apple ID, check notifications, and pull campaign performance without opening the Ads console for every question.'
+category: productivity
+tags:
+  - advertising
+  - analytics
+  - marketing
+  - productivity
+docs_url: https://github.com/civai-technologies/mcp-apple_ads-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-apple_ads
+    transport: streamable-http
+    auth: api-key

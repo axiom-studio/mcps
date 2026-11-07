@@ -1,0 +1,13 @@
+name: aictrl
+summary: Hosted MCP server for coding agents to query project context, manage backlog tasks, and run controlled workflows using OAuth.
+category: development
+tags:
+  - coding-agent
+  - development
+  - task-management
+  - workflow-automation
+docs_url: https://aictrl.dev/docs/plugin-setup
+endpoints:
+  - url: https://aictrl.dev/mcp
+    transport: streamable-http
+    auth: oauth

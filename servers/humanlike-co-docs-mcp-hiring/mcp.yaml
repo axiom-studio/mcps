@@ -1,0 +1,11 @@
+name: Humanlike Hiring
+summary: Manage jobs, candidates, pipeline stages and AI avatar interview results from your Humanlike AI hiring workspace. OAuth sign-in, 16 annotated tools.
+category: productivity
+tags:
+  - ai-agent
+  - productivity
+docs_url: https://humanlike.co/docs/mcp/hiring
+endpoints:
+  - url: https://api.humanlike.co/mcp/hiring
+    transport: streamable-http
+    auth: unknown

@@ -1,0 +1,13 @@
+name: StatementKit
+summary: Normalize bank statements (CSV, camt, MT940, OFX, QIF) to JSON, analyze recurring payments, export CSV/hledger/SIE4. Free tier plus x402.
+category: finance
+tags:
+  - data-analysis
+  - file-conversion
+  - finance
+  - workflow-automation
+docs_url: https://codeberg.org/moneyman-code/statementkit
+endpoints:
+  - url: https://statementkit.erikssonanton2001.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

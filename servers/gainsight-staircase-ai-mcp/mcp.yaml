@@ -1,0 +1,18 @@
+name: Gainsight (Staircase AI)
+summary: Gainsight Staircase AI brings customer context into AI workflows for customer-success teams. Its connector helps assistants understand accounts, risks, customer signals, and relationship history when answering questions or planning engagement.
+description: |-
+  Gainsight Staircase AI brings customer context into AI workflows for customer-success teams. Its connector helps assistants understand accounts, risks, customer signals, and relationship history when answering questions or planning engagement.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://support.gainsight.com/Staircase_AI/Staircase_AI_Features/Connect_Staircase_AI_to_LLMs_Using_MCP)
+category: marketing
+tags:
+  - marketing
+  - remote-mcp
+official: true
+docs_url: https://support.gainsight.com/Staircase_AI/Staircase_AI_Features/Connect_Staircase_AI_to_LLMs_Using_MCP
+endpoints:
+  - url: https://mcp.staircase.ai/mcp
+    transport: streamable-http
+    auth: oauth

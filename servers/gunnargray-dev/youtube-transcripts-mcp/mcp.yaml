@@ -1,0 +1,13 @@
+name: YouTube Transcripts MCP
+summary: YouTube transcripts, video search, chapters and extractive summaries for AI agents. No YouTube API key, no LLM. Hosted on Apify (Bearer Apify token).
+category: search
+tags:
+  - ai-agent
+  - search
+  - web-scraping
+  - youtube
+docs_url: https://github.com/gunnargray-dev/youtube-transcripts-mcp
+endpoints:
+  - url: https://parallelstudio--youtube-transcripts-mcp.apify.actor/mcp
+    transport: streamable-http
+    auth: unknown

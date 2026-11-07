@@ -1,0 +1,14 @@
+name: openbash
+summary: 'Primary data as bash programs: clinical trials, SEC filings, US customs records, rentals, search rank, OCR and read-only SQL. One call runs a whole pipeline, and every record carries its source and the date that source was current.'
+category: search
+tags:
+  - data-analysis
+  - database
+  - research
+  - sql
+  - web-research
+docs_url: https://openbash.ai/llms.txt
+endpoints:
+  - url: https://openbash.ai/api/mcp
+    transport: streamable-http
+    auth: oauth

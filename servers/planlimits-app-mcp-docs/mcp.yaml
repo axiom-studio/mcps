@@ -1,0 +1,13 @@
+name: PlanLimits
+summary: Sourced, dated prices and usage limits for AI coding plans (Claude Code, Codex, Cursor, Copilot, more), plus a plan router, picker, status and budget check.
+category: development
+tags:
+  - ai-agent
+  - coding-agent
+  - development
+  - finance
+docs_url: https://planlimits.app/mcp-docs/
+endpoints:
+  - url: https://planlimits.app/mcp
+    transport: streamable-http
+    auth: none

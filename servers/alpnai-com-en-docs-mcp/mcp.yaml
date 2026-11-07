@@ -1,0 +1,13 @@
+name: ALPNAI — Agent Performance Tools
+summary: Measure cost per successful task, latency and quality from your own agent traces. Three free analysis tools via MCP, with an ALPNAI key.
+category: development
+tags:
+  - ai-agent
+  - analytics
+  - observability-incident
+  - performance
+docs_url: https://alpnai.com/en/docs/mcp
+endpoints:
+  - url: https://alpnai.com/api/mcp
+    transport: streamable-http
+    auth: api-key

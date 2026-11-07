@@ -1,0 +1,13 @@
+name: Contentdrips
+summary: Create Social Media Graphics & Carousels
+category: design
+tags:
+  - content-creation
+  - design
+  - marketing
+  - social-media
+docs_url: https://github.com/CONTENTDRIPS/Contentdrips-MCP
+endpoints:
+  - url: https://mcp.contentdrips.com/mcp
+    transport: streamable-http
+    auth: oauth

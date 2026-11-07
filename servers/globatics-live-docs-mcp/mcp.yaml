@@ -1,0 +1,12 @@
+name: Globatics
+summary: 'Read-only MCP server for real-time web analytics: 9 typed tools for traffic, sources, funnels and AI-assistant visits. API key. Pro and Business plans.'
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - web-research
+docs_url: https://globatics.live/docs/mcp
+endpoints:
+  - url: https://globatics.live/api/mcp
+    transport: streamable-http
+    auth: api-key

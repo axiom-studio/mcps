@@ -1,0 +1,14 @@
+name: Chargezen Concierge
+summary: Concierge gives your business autonomous AI digital employees that answer customers by chat, phone, SMS, WhatsApp and email, and do back-office work with approvals and an audit trail.
+category: communication
+tags:
+  - ai-agent
+  - chatbot
+  - communication
+  - customer-ops
+  - workflow-automation
+docs_url: https://chargezen.com/concierge
+endpoints:
+  - url: https://mcp.chargezen.com/mcp/concierge
+    transport: streamable-http
+    auth: oauth

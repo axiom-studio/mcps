@@ -1,0 +1,13 @@
+name: buffer-mcp
+summary: Buffer 社媒发布：Facebook / Instagram / YouTube 发布与排期，内置 Cloudinary 上传，23 个工具；帮助运营办公 AI 自动化。
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://github.com/wjjnew123/buffer-mcp
+endpoints:
+  - url: https://mcpweb.wjjnew.cn/buffer-mcp/mcp
+    transport: streamable-http
+    auth: api-key

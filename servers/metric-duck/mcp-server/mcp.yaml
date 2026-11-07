@@ -1,0 +1,13 @@
+name: MetricDuck — SEC EDGAR Filings & Financials
+summary: 'Hosted MCP server for SEC EDGAR filings: 10-K, 10-Q and 8-K sections, XBRL financial statements, earnings releases and calls, and screening. Every figure cites its source filing. OAuth sign-in, free tier.'
+category: finance
+tags:
+  - data-analysis
+  - document
+  - finance
+  - research
+docs_url: https://github.com/metric-duck/mcp-server
+endpoints:
+  - url: https://mcp.metricduck.com/mcp
+    transport: streamable-http
+    auth: oauth

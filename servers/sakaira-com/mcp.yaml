@@ -1,0 +1,14 @@
+name: Sakaira
+summary: Remote MCP server with 69 AI models for images, video, voice and music, plus video edits, in Claude, ChatGPT and any MCP client. Paid in credits.
+category: design
+tags:
+  - ai-model
+  - audio
+  - content-creation
+  - media
+  - video
+docs_url: https://sakaira.com
+endpoints:
+  - url: https://mcp.sakaira.com/mcp
+    transport: streamable-http
+    auth: oauth

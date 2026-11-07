@@ -1,0 +1,13 @@
+name: FUSE Health
+summary: The commerce platform for health and wellness brands. Launch offerings, set pricing, run promotions, manage your storefront and track sales, all by chatting with your AI.
+category: other
+tags:
+  - business-operations
+  - ecommerce
+  - healthcare
+  - sales
+docs_url: https://www.fusehealth.com/developers/ai-connector
+endpoints:
+  - url: https://mcp.fusehealth.com/mcp
+    transport: streamable-http
+    auth: oauth

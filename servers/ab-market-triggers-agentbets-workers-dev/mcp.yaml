@@ -1,0 +1,12 @@
+name: Market Triggers
+summary: 'Market events for AI agents: 8-K filings, volume spikes, big day moves, opening gaps and upcoming earnings for tracked US tickers. Remote MCP with OAuth.'
+category: finance
+tags:
+  - ai-agent
+  - data-analysis
+  - finance
+docs_url: https://ab-market-triggers.agentbets.workers.dev/
+endpoints:
+  - url: https://market-triggers-mcp.agentbets.workers.dev/mcp
+    transport: streamable-http
+    auth: unknown

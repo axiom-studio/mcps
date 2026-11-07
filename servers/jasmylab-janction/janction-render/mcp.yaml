@@ -1,0 +1,13 @@
+name: JANCTION Render
+summary: Render Blender scenes on cloud GPUs from AI agents (Claude, ChatGPT, Codex, Cursor). Send a .blend, a bpy script or a glTF/FBX/USD file and get a 4-frame preview, a time estimate, then final frames or an MP4. Remote MCP with OAuth or stdio via pip. Free up to 500 JPY of GPU time per new key, then 0.1 JPY per GPU-second.
+category: cloud-service
+tags:
+  - ai-agent
+  - cloud-infrastructure
+  - file-conversion
+  - media
+docs_url: https://github.com/JasmyLab-JANCTION/janction-render
+endpoints:
+  - url: https://render.janction.jp/mcp
+    transport: streamable-http
+    auth: oauth

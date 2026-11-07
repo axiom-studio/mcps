@@ -1,0 +1,16 @@
+name: GitHub MCP
+summary: Official GitHub MCP server for repository search, issues, pull requests, code context, and GitHub workflows in MCP-compatible AI clients.
+category: version-control
+tags:
+  - coding-agent
+  - github
+  - project-management
+  - version-control
+  - workflow-automation
+official: true
+registry_name: io.github.github/github-mcp-server
+docs_url: https://github.com/github/github-mcp-server
+endpoints:
+  - url: https://api.githubcopilot.com/mcp/
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,11 @@
+name: Time.Now MCP Server
+summary: Free remote MCP server for accurate current time, IANA timezone search, UTC offsets, DST status, and IP-based local time—no API key required.
+category: productivity
+tags:
+  - api
+  - productivity
+docs_url: https://time.now/developer/mcp
+endpoints:
+  - url: https://time.now/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: EveryCalc
+summary: 69 free finance, military, school and everyday calculators as MCP tools, each result linking its web calculator.
+category: finance
+tags:
+  - data-analysis
+  - education
+  - finance
+  - productivity
+docs_url: https://github.com/xOyabunx/everycalc
+endpoints:
+  - url: https://everycalc.xyz/mcp
+    transport: streamable-http
+    auth: none

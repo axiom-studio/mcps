@@ -1,0 +1,13 @@
+name: Fuxux
+summary: Schedule and publish social media posts from your AI assistant. Draft, schedule, edit and publish to Instagram, Facebook, TikTok, YouTube, LinkedIn, X, Threads, Bluesky, Pinterest, Discord, Kick and Twitch, and check your posting queue. Remote server with OAuth sign-in; works on the free plan.
+category: marketing
+tags:
+  - content-creation
+  - marketing-automation
+  - social-media
+  - workflow-automation
+docs_url: https://www.fuxux.com/mcp/docs
+endpoints:
+  - url: https://www.fuxux.com/api/mcp
+    transport: streamable-http
+    auth: oauth

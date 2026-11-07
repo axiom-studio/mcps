@@ -1,0 +1,13 @@
+name: A2A Trust Plane
+summary: Governed agent handoffs, approval checks, and completion evidence over authenticated MCP.
+category: development
+tags:
+  - ai-agent
+  - compliance
+  - security
+  - workflow-automation
+docs_url: https://trust.the825.co/docs
+endpoints:
+  - url: https://trust.the825.co/mcp
+    transport: streamable-http
+    auth: api-key

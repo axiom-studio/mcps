@@ -1,0 +1,12 @@
+name: GeoIP
+summary: 'IP geolocation: country, continent, ASN and ISP lookup. Free tier, RapidAPI key.'
+category: development
+tags:
+  - api
+  - geospatial
+  - network-automation
+docs_url: https://rapidapi.com/Olly-1VN9JTXKG/api/geoip-ip-geolocation-asn-isp-lookup
+endpoints:
+  - url: https://geoip-ip-geolocation-asn-isp-lookup.p.rapidapi.com/mcp
+    transport: streamable-http
+    auth: api-key

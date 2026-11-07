@@ -1,0 +1,13 @@
+name: Mailing Engineer
+summary: All-in-One E-Commerce Email Marketing & Deliverability MCP Server (60 tools). Extract live store products, generate responsive HTML newsletters, audit SPF/DKIM 2048-bit/DMARC/BIMI, segment subscribers by ISP/RFM, and manage high-inbox campaigns from Claude, ChatGPT, or Cursor.
+category: marketing
+tags:
+  - ecommerce
+  - email-automation
+  - marketing
+  - marketing-automation
+docs_url: https://mailing-engineer.com/mcp/setup
+endpoints:
+  - url: https://mailing-engineer.com/mcp
+    transport: streamable-http
+    auth: oauth

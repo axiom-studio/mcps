@@ -1,0 +1,13 @@
+name: SecureLend Underwriting
+summary: Open a credit file, chase gaps, screen sanctions, draft a cited memo. A person makes the credit decision.
+category: finance
+tags:
+  - compliance
+  - document
+  - finance
+  - workflow-automation
+docs_url: https://github.com/orgtom78/mcp-underwriting
+endpoints:
+  - url: https://mcp.securelend.ai/v1/lender/mcp
+    transport: streamable-http
+    auth: unknown

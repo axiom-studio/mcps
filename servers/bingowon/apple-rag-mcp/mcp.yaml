@@ -1,0 +1,14 @@
+name: Apple RAG MCP
+summary: Search Apple's official developer documentation and WWDC transcripts with hybrid RAG retrieval and Jev relevance ranking.
+category: development
+tags:
+  - document
+  - knowledge-retrieval
+  - rag
+  - search
+  - web-research
+docs_url: https://github.com/BingoWon/apple-rag-mcp
+endpoints:
+  - url: https://mcp.apple-rag.com
+    transport: streamable-http
+    auth: none

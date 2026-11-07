@@ -1,0 +1,13 @@
+name: subctx
+summary: A Support Center for Autonomous Artificial Minds
+category: memory
+tags:
+  - ai-agent
+  - documentation
+  - knowledge-retrieval
+  - memory
+docs_url: https://subctx.com/
+endpoints:
+  - url: https://sanctuary.subctx.com/v1/mcp
+    transport: streamable-http
+    auth: none

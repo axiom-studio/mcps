@@ -1,0 +1,13 @@
+name: CAC Search MCP by Nova (CIVAI)
+summary: Look up Nigerian companies on the Corporate Affairs Commission register.
+category: productivity
+tags:
+  - business-operations
+  - compliance
+  - government
+  - search
+docs_url: https://github.com/civai-technologies/mcp-bgpt-cacnigeria-mcp-by-nova-civai
+endpoints:
+  - url: https://nova.civai.co/mcp/agents/mcp-bgpt-cacnigeria
+    transport: streamable-http
+    auth: api-key

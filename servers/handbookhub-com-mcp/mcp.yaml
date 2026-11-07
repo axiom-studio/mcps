@@ -1,0 +1,13 @@
+name: HandbookHub MCP
+summary: Search and read your company handbooks from AI assistants, with read-only access and source links.
+category: productivity
+tags:
+  - documentation
+  - knowledge-retrieval
+  - productivity
+  - search
+docs_url: https://handbookhub.com/mcp
+endpoints:
+  - url: https://api.handbookhub.com/mcp
+    transport: streamable-http
+    auth: api-key

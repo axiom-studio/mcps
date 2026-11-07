@@ -1,0 +1,13 @@
+name: ThreatCluster
+summary: 'Live threat intelligence for agents: incident clusters, threat actor and malware profiles, CVEs with KEV/EPSS/exploit status, and ransomware leak-site victims. Ten read-only tools over the ThreatCluster API with a free key (100 credits a day). Every result carries citation URLs.'
+category: other
+tags:
+  - api
+  - research
+  - security
+  - threat-intelligence
+docs_url: https://github.com/Jam0k/Threat-Intelligence-MCP
+endpoints:
+  - url: https://threatcluster.io/mcp
+    transport: streamable-http
+    auth: unknown

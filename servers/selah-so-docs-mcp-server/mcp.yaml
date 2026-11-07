@@ -1,0 +1,13 @@
+name: Selah Bible Study (selah.so)
+summary: Bible study MCP server for ChatGPT, Claude, Grok and any MCP client. Read Bible passages, search your own study notes, look up Strong's Greek and Hebrew words, and keep prayers and reading plans in one place.
+category: productivity
+tags:
+  - knowledge-retrieval
+  - notes
+  - productivity
+  - research
+docs_url: https://selah.so/docs/mcp-server
+endpoints:
+  - url: https://selah.so/api/mcp
+    transport: streamable-http
+    auth: oauth

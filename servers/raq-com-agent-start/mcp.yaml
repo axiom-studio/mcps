@@ -1,0 +1,14 @@
+name: Raq.com
+summary: Connect your AI agent to tasks, projects, CRM, forms, E-Sign and team communications in Raq.com. Hosted MCP with OAuth and workspace permissions.
+category: productivity
+tags:
+  - collaboration
+  - crm
+  - productivity
+  - project-management
+  - task-management
+docs_url: https://raq.com/agent-start
+endpoints:
+  - url: https://raq.com/mcp/agent/v1
+    transport: streamable-http
+    auth: oauth

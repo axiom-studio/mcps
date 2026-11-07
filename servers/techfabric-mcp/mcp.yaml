@@ -1,0 +1,14 @@
+name: TechFabric
+summary: 'Search and read TechFabric''s published Databricks and AI content: blog posts with FAQs, service pages and case studies. Reads are anonymous; TechFabric staff sign in with Microsoft to draft posts.'
+category: search
+tags:
+  - documentation
+  - search
+  - web-research
+official: true
+registry_name: com.techfabric/techfabric
+docs_url: https://www.techfabric.com/mcp-servers
+endpoints:
+  - url: https://www.techfabric.com/mcp
+    transport: streamable-http
+    auth: unknown

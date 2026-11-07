@@ -1,0 +1,13 @@
+name: SendLit
+summary: Remote MCP server for SendLit, the open-source email platform. Manage contacts, tags, broadcasts, sequences, templates, custom events and stats from your AI client.
+category: marketing
+tags:
+  - crm
+  - email-automation
+  - marketing
+  - marketing-automation
+docs_url: https://sendlit.app
+endpoints:
+  - url: https://api.sendlit.app/mcp
+    transport: streamable-http
+    auth: unknown

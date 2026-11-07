@@ -1,0 +1,13 @@
+name: MYSTIQUE Hiring & Jobs Data MCP Server
+summary: Live ATS hiring velocity and job openings MCP server querying Greenhouse, Lever, Ashby, Workable, SmartRecruiters, Workday career boards, and Bluesky signals via Streamable HTTP.
+category: web-scraping
+tags:
+  - analytics
+  - business-operations
+  - research
+  - web-scraping
+docs_url: https://apify.com/mystique-lab/hiring-data-mcp
+endpoints:
+  - url: https://mystique-lab--hiring-data-mcp.apify.actor/mcp
+    transport: streamable-http
+    auth: api-key

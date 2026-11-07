@@ -1,0 +1,12 @@
+name: Fermat 360
+summary: 'Dutch legal AI for law firms: answers from Dutch case law, legislation and EU law, with citations.'
+category: search
+tags:
+  - ai-model
+  - knowledge-retrieval
+  - research
+docs_url: https://fermat360.nl/mcp-koppeling
+endpoints:
+  - url: https://fermat360.nl/mcp
+    transport: streamable-http
+    auth: oauth

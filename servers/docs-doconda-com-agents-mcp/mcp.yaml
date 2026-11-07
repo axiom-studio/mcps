@@ -1,0 +1,13 @@
+name: Doconda
+summary: Create, review and edit editable Word, PowerPoint, Excel and PDF files from any AI agent. Remote (Streamable HTTP, OAuth sign-in) or local (npx).
+category: productivity
+tags:
+  - document
+  - file-conversion
+  - pdf
+  - productivity
+docs_url: https://docs.doconda.com/agents/mcp
+endpoints:
+  - url: https://api.eu.doconda.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: MapPoster
+summary: Design map posters of any place in 50+ styles, with names, dates and markers, and order prints.
+category: design
+tags:
+  - content-creation
+  - design
+  - ecommerce
+  - geospatial
+docs_url: https://mapposter.xyz/claude/
+endpoints:
+  - url: https://mcp.mapposter.xyz/mcp
+    transport: streamable-http
+    auth: none

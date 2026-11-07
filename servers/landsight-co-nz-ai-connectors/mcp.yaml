@@ -1,0 +1,13 @@
+name: Landsight
+summary: 'Look up any New Zealand property from official LINZ records: find an address, and read its parcel, land area, title number and building footprints. Also Landsight''s guides and plans. Free remote server, read-only, no account needed.'
+category: search
+tags:
+  - geospatial
+  - government
+  - real-estate
+  - search
+docs_url: https://landsight.co.nz/ai-connectors
+endpoints:
+  - url: https://landsight.co.nz/mcp
+    transport: streamable-http
+    auth: none

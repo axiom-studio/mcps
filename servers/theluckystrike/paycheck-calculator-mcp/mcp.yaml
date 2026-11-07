@@ -1,0 +1,12 @@
+name: Paycheck Calculator MCP
+summary: 2025-2026 US take-home pay with IRS brackets, FICA wage base and state income tax, 50 states + DC.
+category: finance
+tags:
+  - data-analysis
+  - finance
+  - government
+docs_url: https://github.com/theluckystrike/paycheck-calculator-mcp
+endpoints:
+  - url: https://paycheck-calculator-mcp.lipmichal.workers.dev/mcp
+    transport: streamable-http
+    auth: none

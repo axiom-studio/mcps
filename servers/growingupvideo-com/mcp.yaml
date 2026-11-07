@@ -1,0 +1,12 @@
+name: GrowingUpVideo
+summary: 'Suggests and starts an AI growing-up video from photos of a person, couple, or pet across the years: explains the product and prices, gives photo tips, and returns the link to make the video. Remote, no sign-in, read-only tools.'
+category: other
+tags:
+  - ai-model
+  - content-creation
+  - media
+docs_url: https://growingupvideo.com
+endpoints:
+  - url: https://growingupvideo.com/mcp
+    transport: streamable-http
+    auth: none

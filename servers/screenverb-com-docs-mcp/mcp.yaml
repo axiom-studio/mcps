@@ -1,0 +1,13 @@
+name: ScreenVerb
+summary: Search, read and organize the screenshots in your ScreenVerb cloud library, including the text inside them.
+category: productivity
+tags:
+  - cloud-storage
+  - file-management
+  - productivity
+  - search
+docs_url: https://screenverb.com/docs/mcp
+endpoints:
+  - url: https://mcp.screenverb.com/mcp
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Scribix
+summary: 'Turn your long videos into captioned vertical clips from chat: import a video, pick moments from the transcript, refine and render clips, then prepare and schedule posts to your connected social accounts. Remote server with OAuth sign-in.'
+category: marketing
+tags:
+  - content-creation
+  - marketing-automation
+  - social-media
+  - video
+docs_url: https://scribix.io/claude-connector
+endpoints:
+  - url: https://scribix.io/api/mcp
+    transport: streamable-http
+    auth: oauth

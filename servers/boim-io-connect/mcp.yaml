@@ -1,0 +1,12 @@
+name: BOIM 보임 — Korea vendor directory
+summary: Read-only remote MCP server for Korean sign, signage, traffic-safety and print vendors, built from Korean public procurement, apartment bid and local shop data.
+category: search
+tags:
+  - business-operations
+  - data-analysis
+  - search
+docs_url: https://boim.io/connect/
+endpoints:
+  - url: https://boim.io/api/mcp
+    transport: streamable-http
+    auth: unknown

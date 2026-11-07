@@ -1,0 +1,14 @@
+name: CommunityMentions
+summary: 'Which subreddits AI answers (OpenAI models, Perplexity, Gemini) cite: the subreddits that fit a product, with citation counts, and each subreddit''s most-cited threads. Read-only, no sign-in.'
+category: marketing
+tags:
+  - ai-model
+  - google-cloud
+  - llm
+  - marketing-automation
+  - openai
+docs_url: https://github.com/rdoyle99/communitymentions-plugin
+endpoints:
+  - url: https://communitymentions.com/api/mcp
+    transport: streamable-http
+    auth: none

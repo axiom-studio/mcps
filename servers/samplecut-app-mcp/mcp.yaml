@@ -1,0 +1,14 @@
+name: Samplecut
+summary: Cut audio from YouTube, TikTok or Instagram links to MP3/WAV, and fetch video transcripts.
+category: other
+tags:
+  - audio
+  - file-conversion
+  - media
+  - video
+  - web-scraping
+docs_url: https://samplecut.app/mcp
+endpoints:
+  - url: https://api.samplecut.app/mcp
+    transport: streamable-http
+    auth: none

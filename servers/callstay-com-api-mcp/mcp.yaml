@@ -1,0 +1,11 @@
+name: Callstay Hotels
+summary: 'Live hotel rates worldwide for AI agents: search stays, property detail, all-in room pricing with itemised fees and booking URLs, plus a human phone desk. Remote Streamable HTTP at https://callstay.com/api/mcp, no key needed for search and pricing.'
+category: other
+tags:
+  - api
+  - search
+docs_url: https://callstay.com/api/mcp
+endpoints:
+  - url: https://callstay.com/api/mcp
+    transport: streamable-http
+    auth: unknown

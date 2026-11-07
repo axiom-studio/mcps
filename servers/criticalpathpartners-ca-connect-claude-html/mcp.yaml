@@ -1,0 +1,12 @@
+name: Critical Path Partners
+summary: 'Forensic delay analysis of Primavera P6 schedules: windows analysis, time impact, DCMA-14 checks and Monte Carlo risk.'
+category: productivity
+tags:
+  - business-operations
+  - data-analysis
+  - project-management
+docs_url: https://criticalpathpartners.ca/connect-claude.html
+endpoints:
+  - url: https://mcp.criticalpathpartners.ca/mcp
+    transport: streamable-http
+    auth: none

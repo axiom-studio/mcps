@@ -1,0 +1,12 @@
+name: 'FiLot: gold prices and gold bar records'
+summary: World gold price in any currency, FiLot gold record checks, Indonesian dealer gold prices and tax. Read-only, public.
+category: finance
+tags:
+  - finance
+  - marketplace
+  - trading
+docs_url: https://filot.me/ai-assistants/
+endpoints:
+  - url: https://mcp.filot.me/mcp
+    transport: streamable-http
+    auth: none

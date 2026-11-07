@@ -1,0 +1,13 @@
+name: ConnectMyShop
+summary: Connect your Etsy shop to ChatGPT, Claude and other AI assistants. Check listings, research competitors and keywords, and edit in bulk. Nothing changes on Etsy until you approve it.
+category: productivity
+tags:
+  - ai-agent
+  - ecommerce
+  - marketplace
+  - productivity
+docs_url: https://connectmyshop.app/docs
+endpoints:
+  - url: https://connectmyshop.app/mcp
+    transport: streamable-http
+    auth: unknown

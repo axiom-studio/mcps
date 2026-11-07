@@ -1,0 +1,13 @@
+name: Requstory
+summary: See how any company works from its website, with an ease of doing business score out of 100. Maps teams, processes, handoffs and customer gaps. Free to use.
+category: productivity
+tags:
+  - analytics
+  - business-operations
+  - productivity
+  - web-research
+docs_url: https://requstory.com/mcp
+endpoints:
+  - url: https://requstory.com/mcp
+    transport: streamable-http
+    auth: unknown

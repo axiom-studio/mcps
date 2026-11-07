@@ -1,0 +1,13 @@
+name: PostPen
+summary: Schedule and publish LinkedIn posts to profiles and company pages from AI agents.
+category: marketing
+tags:
+  - content-creation
+  - marketing
+  - social-media
+  - workflow-automation
+docs_url: https://github.com/vikashsparxit/postpen-mcp
+endpoints:
+  - url: https://mcp.postpen.ai
+    transport: streamable-http
+    auth: oauth

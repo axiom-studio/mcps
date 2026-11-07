@@ -1,0 +1,15 @@
+name: DocSpring
+summary: Connect your AI assistant to DocSpring to set up PDF, Word, HTML and page design templates, fill them in, and send documents for signature. Sign in with OAuth, no API token to copy.
+category: productivity
+tags:
+  - document
+  - pdf
+  - productivity
+  - workflow-automation
+official: true
+registry_name: com.docspring/mcp
+docs_url: https://docspring.com/docs/mcp/
+endpoints:
+  - url: https://mcp.docspring.com/mcp
+    transport: streamable-http
+    auth: oauth

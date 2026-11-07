@@ -1,0 +1,13 @@
+name: VEYA
+summary: Check, limit, record and prove AI agent actions with 2-of-3 validators and onchain proofs.
+category: other
+tags:
+  - ai-agent
+  - compliance
+  - crypto
+  - security
+docs_url: https://github.com/veyanet/veya-mcp
+endpoints:
+  - url: https://mcp.veyanet.tech/mcp
+    transport: streamable-http
+    auth: unknown

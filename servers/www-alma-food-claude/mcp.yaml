@@ -1,0 +1,13 @@
+name: Alma
+summary: Health, fitness, and nutrition. Alma is an iPhone food tracker that connects to Claude over a remote MCP server with OAuth. Claude can read your meals, Alma Score (diet quality scored with Harvard's Alternate Healthy Eating Index), goals, and weight history. Read-only in Claude's Connectors Directory.
+category: other
+tags:
+  - data-analysis
+  - fitness
+  - healthcare
+  - mobile
+docs_url: https://www.alma.food/claude
+endpoints:
+  - url: https://mcp.alma.food
+    transport: streamable-http
+    auth: oauth

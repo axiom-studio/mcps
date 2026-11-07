@@ -1,0 +1,12 @@
+name: Vergabeweiser
+summary: 'German public tenders and contract awards (Bekanntmachungsservice CC0, TED). Remote MCP server, Streamable HTTP, no sign-in, 8 read-only tools: search tenders, tender details, organisations, buyer profile, company awards, market stats, expiring contracts, categories.'
+category: search
+tags:
+  - business-operations
+  - government
+  - search
+docs_url: https://vergabeweiser.de/api#mcp
+endpoints:
+  - url: https://vergabeweiser.de/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,19 @@
+name: Ticket Tailor
+summary: Ticket Tailor provides event organizers with tools for ticketing, orders, discounts, products, and box-office management. Its connector gives assistants event-operations context for managing ticket workflows and answering account questions.
+description: |-
+  Ticket Tailor provides event organizers with tools for ticketing, orders, discounts, products, and box-office management. Its connector gives assistants event-operations context for managing ticket workflows and answering account questions.
+
+  An eligible provider account or plan may be required for authenticated features. Consult the official setup documentation for access requirements and client compatibility.
+
+  [Setup documentation](https://claude.com/connectors/ticket-tailor)
+category: other
+tags:
+  - other
+  - remote-mcp
+official: true
+registry_name: ai.tickettailor/mcp
+docs_url: https://claude.com/connectors/ticket-tailor
+endpoints:
+  - url: https://mcp.tickettailor.ai/mcp
+    transport: streamable-http
+    auth: oauth

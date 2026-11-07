@@ -1,0 +1,11 @@
+name: Hermann® Agent Server
+summary: Lets AI agents evaluate whether a company qualifies for Hermann®, see pricing and a case study, check availability, and book a real 45-minute briefing call on the Hermann team's calendar on behalf of a CEO, founder, or advisor.
+category: marketing
+tags:
+  - marketing
+  - marketing-automation
+docs_url: https://www.heyhermann.com/api/mcp
+endpoints:
+  - url: https://www.heyhermann.com/api/mcp
+    transport: streamable-http
+    auth: none

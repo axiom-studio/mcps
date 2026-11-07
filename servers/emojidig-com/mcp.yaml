@@ -1,0 +1,12 @@
+name: EmojiDig Emoji Search
+summary: Find any Unicode emoji by meaning, mood or slang ("crying laughing", "im dead", "flag japan") and get the exact character to paste, with name, codepoints and skin-tone support. No auth.
+category: communication
+tags:
+  - communication
+  - productivity
+  - search
+docs_url: https://emojidig.com
+endpoints:
+  - url: https://emojidig.com/mcp
+    transport: streamable-http
+    auth: none

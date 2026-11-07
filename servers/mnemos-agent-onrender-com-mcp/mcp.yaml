@@ -1,0 +1,14 @@
+name: MNEMOS
+summary: 'MNEMOS options radar MCP from ScriptMasterLabs: Astra scorecard, decisions ledger, options scans, gas recommendations and arbitrage scans over a durable store. Paid routes settle per call in USDC on Base via x402 ($0.001–$0.01).'
+category: finance
+tags:
+  - crypto
+  - defi
+  - finance
+  - payment
+  - trading
+docs_url: https://mnemos-agent.onrender.com/mcp
+endpoints:
+  - url: https://mnemos-agent.onrender.com/mcp
+    transport: streamable-http
+    auth: none

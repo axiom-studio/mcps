@@ -1,0 +1,13 @@
+name: Creator Validator by SoniaIA
+summary: 'Find and vet influencers before you hire: audience, buying intent, momentum. Order from chat.'
+category: marketing
+tags:
+  - ai-agent
+  - analytics
+  - marketing
+  - sales
+docs_url: https://www.soniaia.com/tools/creator-validator
+endpoints:
+  - url: https://mcp.soniaia.com/mcp
+    transport: streamable-http
+    auth: none

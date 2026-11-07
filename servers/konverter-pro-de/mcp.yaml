@@ -1,0 +1,14 @@
+name: Konverter Pro
+summary: Converts German bank statements (PDF, CSV, MT940) and PayPal, SumUp or Stripe reports into verified DATEV, Lexware or MT940 bookkeeping files, with a completeness and balance check on every result.
+category: finance
+tags:
+  - compliance
+  - file-conversion
+  - finance
+  - payment
+  - pdf
+docs_url: https://konverter-pro.de
+endpoints:
+  - url: https://konverter-pro.de/api/v1/mcp
+    transport: streamable-http
+    auth: none

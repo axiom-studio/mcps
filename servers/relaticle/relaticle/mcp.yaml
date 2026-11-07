@@ -1,0 +1,13 @@
+name: Relaticle
+summary: 'Open-source CRM your AI agents can read and update: companies, people, opportunities, tasks, notes and custom fields.'
+category: productivity
+tags:
+  - ai-agent
+  - crm
+  - sales
+  - task-management
+docs_url: https://github.com/relaticle/relaticle
+endpoints:
+  - url: https://mcp.relaticle.com
+    transport: streamable-http
+    auth: unknown

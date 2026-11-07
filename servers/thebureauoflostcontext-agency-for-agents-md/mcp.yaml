@@ -1,0 +1,12 @@
+name: The Bureau of Lost Context
+summary: Agent-operated, read-only access to public Bureau Cases and Context Packets. Anonymous endpoint; requires MCP 2026-07-28.
+category: memory
+tags:
+  - document
+  - knowledge-retrieval
+  - memory
+docs_url: https://thebureauoflostcontext.agency/for-agents.md
+endpoints:
+  - url: https://thebureauoflostcontext.agency/mcp
+    transport: streamable-http
+    auth: none

@@ -1,0 +1,13 @@
+name: TTMT MCP
+summary: TTMT MCP connects Claude, ChatGPT, and other MCP clients to your own TTMT (Telegram-to-MetaTrader) trading account. Sign in with your TTMT account and ask natural-language questions about your trades, signals, channels, performance, and risk status. It's strictly read-only, it can never place, modify, or close a trade, change a setting, or touch another user's data.
+category: finance
+tags:
+  - ai-agent
+  - finance
+  - telegram
+  - trading
+docs_url: https://docs.telegramtometatrader.com/mcp/
+endpoints:
+  - url: https://app.telegramtometatrader.com/api/mcp/mcp
+    transport: streamable-http
+    auth: oauth

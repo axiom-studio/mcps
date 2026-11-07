@@ -1,0 +1,13 @@
+name: Tonpit
+summary: 'Tonpit is a video production studio built for AI agents and the people who direct them: AI media, motion graphics as code, a free music library, and a layered timeline where agent and human edit together, in one account, reachable through MCP.'
+category: other
+tags:
+  - ai-agent
+  - content-creation
+  - media
+  - video
+docs_url: https://www.tonpit.com/mcp
+endpoints:
+  - url: https://www.tonpit.com/api/mcp
+    transport: streamable-http
+    auth: oauth

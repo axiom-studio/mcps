@@ -1,0 +1,13 @@
+name: voicememotext
+summary: Remote MCP server that turns voice memos, meetings and any public audio or video URL into transcript text and SRT subtitles (Whisper-class, multilingual).
+category: productivity
+tags:
+  - audio
+  - document
+  - file-conversion
+  - productivity
+docs_url: https://www.voicememotext.com
+endpoints:
+  - url: https://www.voicememotext.com/api/mcp
+    transport: streamable-http
+    auth: api-key

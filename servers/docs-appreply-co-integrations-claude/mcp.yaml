@@ -1,0 +1,12 @@
+name: AppReply
+summary: 'Ask Claude about your app reviews: unreplied reviews, insights, and any public App Store or Google Play app.'
+category: marketing
+tags:
+  - analytics
+  - marketing
+  - mobile
+docs_url: https://docs.appreply.co/integrations/claude
+endpoints:
+  - url: https://appreply.co/mcp
+    transport: streamable-http
+    auth: oauth

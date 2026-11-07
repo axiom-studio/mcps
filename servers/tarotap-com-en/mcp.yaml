@@ -1,0 +1,11 @@
+name: Tarotap Tarot
+summary: Tarot spreads and card draws from a shuffled 78-card Rider-Waite-Smith deck. list_spreads returns the spread ids, draw_cards shuffles server-side and returns the cards, in 23 languages. Remote, stateless, no API key. By TAROTAP LTD (UK).
+category: other
+tags:
+  - api
+  - entertainment
+docs_url: https://tarotap.com/en
+endpoints:
+  - url: https://tarotap.com/mcp
+    transport: streamable-http
+    auth: none

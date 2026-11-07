@@ -1,0 +1,13 @@
+name: LuckPanda tools
+summary: Create invoices, quotes, receipts and credit notes with GST or VAT, as prefilled links or PDFs.
+category: finance
+tags:
+  - business-operations
+  - document
+  - finance
+  - pdf
+docs_url: https://luckpanda.app/agents
+endpoints:
+  - url: https://luckpanda.app/mcp/public
+    transport: streamable-http
+    auth: unknown

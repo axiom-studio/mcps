@@ -1,0 +1,12 @@
+name: UXMachine
+summary: Measures your site in a real browser and returns verifiable observations, with evidence and limits.
+category: development
+tags:
+  - browser-automation
+  - performance
+  - testing-qa
+docs_url: https://uxmachine.app/en/agents
+endpoints:
+  - url: https://uxmachine.app/mcp
+    transport: streamable-http
+    auth: oauth

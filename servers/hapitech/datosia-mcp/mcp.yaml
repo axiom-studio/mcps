@@ -1,0 +1,14 @@
+name: DatosIA
+summary: 'Official public data for Central America and the Dominican Republic, down to the municipality: census and population, daily retail prices, public procurement and suppliers, trade, labour, banking, crime, health, education, laws and news. Ask in Spanish or English and get sourced numbers, charts and maps. Remote server at https://datosia.net/mcp (OAuth or free API key).'
+category: database
+tags:
+  - data-analysis
+  - database
+  - geospatial
+  - research
+  - web-research
+docs_url: https://github.com/hapitech/datosia-mcp
+endpoints:
+  - url: https://datosia.net/mcp
+    transport: streamable-http
+    auth: oauth

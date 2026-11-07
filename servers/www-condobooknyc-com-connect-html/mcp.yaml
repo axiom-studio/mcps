@@ -1,0 +1,13 @@
+name: The Condo Book Project
+summary: 'Search 8,000+ NYC condo offering plans from NY Attorney General filings: budgets, sponsor terms, units and sales, with page-cited sources.'
+category: database
+tags:
+  - database
+  - government
+  - real-estate
+  - search
+docs_url: https://www.condobooknyc.com/connect.html
+endpoints:
+  - url: https://www.condobooknyc.com/api/mcp
+    transport: streamable-http
+    auth: oauth

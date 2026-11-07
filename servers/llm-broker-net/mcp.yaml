@@ -1,0 +1,12 @@
+name: LLM Broker
+summary: 'One OpenAI-compatible key for every model: measured benchmark scores and live prices, each request routed to the cheapest offer that meets your criteria.'
+category: development
+tags:
+  - ai-model
+  - api
+  - llm
+docs_url: https://llm-broker.net/
+endpoints:
+  - url: https://api.llm-broker.net/api/v1/broker/mcp
+    transport: streamable-http
+    auth: api-key

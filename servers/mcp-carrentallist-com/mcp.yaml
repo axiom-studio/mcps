@@ -1,0 +1,11 @@
+name: CarRentalList
+summary: 'Exotic car rental data for your AI assistant. Free, read-only MCP server: 4,046 exotic rental cars at 213 independent U.S. companies, published daily rates, no API key. Endpoint: https://mcp.carrentallist.com/mcp (Streamable HTTP).'
+category: search
+tags:
+  - marketplace
+  - search
+docs_url: https://mcp.carrentallist.com/
+endpoints:
+  - url: https://mcp.carrentallist.com/mcp
+    transport: streamable-http
+    auth: none

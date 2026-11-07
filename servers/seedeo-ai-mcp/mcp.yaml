@@ -1,0 +1,14 @@
+name: Seedeo MCP
+summary: Generate AI videos, images and music from Claude or Cursor with Veo 3.1, Kling, Seedance and Suno.
+category: marketing
+tags:
+  - ai-model
+  - audio
+  - content-creation
+  - marketing
+  - video
+docs_url: https://seedeo.ai/mcp
+endpoints:
+  - url: https://seedeo.ai/api/mcp
+    transport: streamable-http
+    auth: api-key

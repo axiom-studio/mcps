@@ -1,0 +1,12 @@
+name: MakeItSay
+summary: Change the words in a screenshot or photo and keep the original font and layout.
+category: design
+tags:
+  - content-creation
+  - design
+  - document
+docs_url: https://makeitsay.com/docs/mcp
+endpoints:
+  - url: https://makeitsay.com/mcp
+    transport: streamable-http
+    auth: api-key

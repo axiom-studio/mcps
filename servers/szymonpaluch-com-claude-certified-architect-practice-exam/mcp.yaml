@@ -1,0 +1,12 @@
+name: Unofficial Claude certification practice (szymonpaluch.com)
+summary: Free, unofficial practice questions for four Claude certifications, plus an AI blog (EN/PL).
+category: other
+tags:
+  - ai-model
+  - education
+  - research
+docs_url: https://szymonpaluch.com/claude-certified-architect-practice-exam#mcp
+endpoints:
+  - url: https://szymonpaluch.com/mcp
+    transport: streamable-http
+    auth: none

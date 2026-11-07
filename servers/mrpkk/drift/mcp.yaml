@@ -1,0 +1,13 @@
+name: drift — mandate gate for AI agents
+summary: 'Continuous mandate enforcement for AI agents: every proposed action is checked against a signed mandate BEFORE it happens. Six rules in fixed order (amount, payee, audience, currency, window, intent), deny-by-default, tamper-evident ledger fingerprint. HTTP + MCP endpoint, free tier 100 checks/day. Apache-2.0.'
+category: development
+tags:
+  - ai-agent
+  - compliance
+  - development
+  - security
+docs_url: https://github.com/mrpkk/drift
+endpoints:
+  - url: https://drift.rta.lat/mcp
+    transport: streamable-http
+    auth: unknown

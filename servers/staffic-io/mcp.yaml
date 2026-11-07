@@ -1,0 +1,13 @@
+name: Staffic
+summary: 'Remote MCP server for Staffic time tracking: timesheets, attendance, app and URL usage, screenshots, projects, tasks, payroll and invoices'
+category: productivity
+tags:
+  - analytics
+  - business-operations
+  - productivity
+  - project-management
+docs_url: https://staffic.io
+endpoints:
+  - url: https://app.staffic.io/backend/api/v1/mcp
+    transport: streamable-http
+    auth: api-key

@@ -1,0 +1,13 @@
+name: Thrume
+summary: Mac bug and context recorder. Assistants retrieve authorized evidence over MCP.
+category: development
+tags:
+  - debugging
+  - macos
+  - monitoring
+  - testing-qa
+docs_url: https://thrume.app/docs/mcp
+endpoints:
+  - url: https://dash.thrume.app/mcp
+    transport: streamable-http
+    auth: oauth

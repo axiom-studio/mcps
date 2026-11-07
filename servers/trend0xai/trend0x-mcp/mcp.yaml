@@ -1,0 +1,13 @@
+name: Trend0x
+summary: 'AI trading terminal: market data, backtests, strategies and portfolio for crypto and stock exchanges'
+category: finance
+tags:
+  - ai-agent
+  - crypto
+  - finance
+  - trading
+docs_url: https://github.com/trend0xai/trend0x-mcp
+endpoints:
+  - url: https://app.trend0x.com/api/mcp
+    transport: streamable-http
+    auth: unknown

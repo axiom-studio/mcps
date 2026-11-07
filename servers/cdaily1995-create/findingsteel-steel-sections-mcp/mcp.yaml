@@ -1,0 +1,11 @@
+name: FindingSteel Steel Sections
+summary: Look up Chinese (GB) standard steel section properties and calculate theoretical weight for H-beams, I-beams, channels, angles, C/Z purlins, square/rectangular hollow sections and welded sections.
+category: development
+tags:
+  - data-analysis
+  - database
+docs_url: https://github.com/cdaily1995-create/findingsteel-steel-sections-mcp
+endpoints:
+  - url: https://www.findingsteel.com/mcp/
+    transport: streamable-http
+    auth: none

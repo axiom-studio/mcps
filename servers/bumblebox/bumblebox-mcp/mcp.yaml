@@ -1,0 +1,14 @@
+name: BumbleBox
+summary: Remote MCP server (https://api.bumblebox.ai/api/mcp, OAuth 2.1 + DCR). Your AI assistant searches, reads and triages every mailbox you run (Gmail, Outlook, IMAP), lists what waits for your reply, prepares reply and campaign drafts, and tidies on request — always undoable, never a permanent deletion. Sending only at the level you set in BumbleBox (by default one tap). Pro/Business plans.
+category: communication
+tags:
+  - communication
+  - email-automation
+  - gmail
+  - outlook
+  - productivity
+docs_url: https://github.com/BumbleBox/bumblebox-mcp
+endpoints:
+  - url: https://api.bumblebox.ai/api/mcp
+    transport: streamable-http
+    auth: unknown

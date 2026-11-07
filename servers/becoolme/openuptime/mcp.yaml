@@ -1,0 +1,13 @@
+name: OpenUptime
+summary: Open-source uptime monitoring, incident management and status pages via MCP.
+category: cloud-service
+tags:
+  - cloud-infrastructure
+  - devops-infrastructure
+  - monitoring
+  - observability-incident
+docs_url: https://github.com/becoolme/openuptime
+endpoints:
+  - url: https://openuptime.app/api/mcp
+    transport: streamable-http
+    auth: oauth

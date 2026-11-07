@@ -1,0 +1,13 @@
+name: Convert.Online
+summary: Convert files between 400+ formats — images, video, audio, documents, ebooks, fonts and CAD — from inside a conversation. Connects over OAuth or an API key.
+category: productivity
+tags:
+  - document
+  - file-conversion
+  - media
+  - productivity
+docs_url: https://convert.online/mcp-server
+endpoints:
+  - url: https://mcp.convert.online
+    transport: streamable-http
+    auth: oauth

@@ -1,0 +1,13 @@
+name: Mail Security Tools
+summary: 'Remote MCP server for email security: free DMARC, SPF, DKIM and MX checks for any domain, plus paid (x402 USDC on Base) score, fix plan, bulk scoring of up to 100 domains and 30-day watch alerts.'
+category: cloud-service
+tags:
+  - crypto
+  - email-automation
+  - monitoring
+  - security
+docs_url: https://api.mailsecuritytools.com/llms.txt
+endpoints:
+  - url: https://api.mailsecuritytools.com/mcp
+    transport: streamable-http
+    auth: unknown

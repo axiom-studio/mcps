@@ -1,0 +1,13 @@
+name: Horse Truth
+summary: Live intelligence on Australian thoroughbreds for AI assistants and developers. Look up any horse, see its current form picture, what has changed since its last run, how it compares to others, and why. Free preview tools work straight away. Deeper lookups are paid per call.
+category: database
+tags:
+  - data-analysis
+  - database
+  - research
+  - sports
+docs_url: https://horsetruth.com.au
+endpoints:
+  - url: https://horsetruth.com.au/api/v1/mcp
+    transport: streamable-http
+    auth: none

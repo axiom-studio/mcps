@@ -1,0 +1,13 @@
+name: docket
+summary: 'Projekte, Tickets, Zeiten und Budgets für Agenturen: Woche abfragen, Zeit buchen, Stoppuhren steuern und Tickets bearbeiten – immer mit genau den Rechten, die man in docket hat.'
+category: productivity
+tags:
+  - business-operations
+  - productivity
+  - project-management
+  - task-management
+docs_url: https://docket.rocks/docs/ai-connections
+endpoints:
+  - url: https://mcp.docket.rocks/mcp
+    transport: streamable-http
+    auth: oauth

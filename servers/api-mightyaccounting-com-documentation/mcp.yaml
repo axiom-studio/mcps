@@ -1,0 +1,11 @@
+name: Mighty
+summary: 'Connect your AI assistant to Mighty accounting: reconcile bank transactions, match receipts from the postbox, create sales invoices, expenses and mileage claims, and pull P&L, balance sheet and trial balance reports.'
+category: finance
+tags:
+  - api
+  - finance
+docs_url: https://api.mightyaccounting.com/documentation/
+endpoints:
+  - url: https://api.mightyaccounting.com/mcp
+    transport: streamable-http
+    auth: api-key

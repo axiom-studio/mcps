@@ -1,0 +1,12 @@
+name: ColorSnapAI Color Seasons
+summary: 'Seasonal color analysis: palettes for all 12 color seasons and a season estimate from hair, skin and eye colors. Free, no auth.'
+category: other
+tags:
+  - ai-model
+  - api
+  - design
+docs_url: https://colorsnapai.com
+endpoints:
+  - url: https://colorsnapai.com/mcp
+    transport: streamable-http
+    auth: none

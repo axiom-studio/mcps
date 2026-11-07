@@ -1,0 +1,13 @@
+name: Papua New Guinea Mining Tenements, Concessions & Villages
+summary: PNG mining tenements, logging concessions, RSPO palm oil and census villages by point, code or name.
+category: other
+tags:
+  - database
+  - geospatial
+  - government
+  - research
+docs_url: https://github.com/BumiAtlas/papuanewguinea-concessions-mcp
+endpoints:
+  - url: https://bumiatlas.com/mcp/papuanewguinea
+    transport: streamable-http
+    auth: oauth
