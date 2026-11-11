@@ -1,6 +1,8 @@
 name: Mnemoverse
-summary: Persistent memory for AI agents over MCP. Rating a recalled memory as helpful or misleading re-ranks what comes back next. Shared rooms (beta) let several agents work from one memory. One key or OAuth across Claude Code, Cursor, VS Code and ChatGPT.
+summary: Persistent memory for AI agents over MCP. Rating a recalled memory as helpful or misleading re-ranks what comes back next. Shared rooms let several agents work from one memory. One key or OAuth across Claude Code, Cursor, VS Code and ChatGPT.
 category: memory
+official: true
+registry_name: io.github.mnemoverse/mcp-memory-server
 docs_url: https://github.com/mnemoverse/mcp-memory-server
 endpoints:
   - url: https://mcp.mnemoverse.com/mcp
