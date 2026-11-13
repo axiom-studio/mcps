@@ -1,0 +1,23 @@
+name: INDmoney
+summary: Read-only access to your INDmoney portfolio plus Indian and US market data and mutual fund research.
+description: |-
+  INDmoney's official MCP server. Ask about your net worth, asset allocation, holdings, SIPs and watchlist, pull live prices, candles, option chains, Greeks, analyst views and news for Indian and US markets, and explore mutual fund categories and individual funds.
+
+  It is read-only: it cannot place trades, transfer money, redeem investments or change any setting. Sign-in uses OAuth on INDmoney's own page (mobile, OTP and MPIN).
+
+  [Setup documentation](https://www.indmoney.com/mcp)
+category: finance
+tags:
+  - finance
+  - investing
+  - stocks
+  - mutual funds
+  - india
+  - remote-mcp
+official: true
+docs_url: https://www.indmoney.com/mcp
+website_url: https://www.indmoney.com
+endpoints:
+  - url: https://mcp.indmoney.com/mcp
+    transport: streamable-http
+    auth: oauth
