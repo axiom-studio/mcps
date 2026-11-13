@@ -1,0 +1,17 @@
+name: BankBridge
+summary: Read-only access to your bank accounts, balances, transactions and spending through Plaid, for AI assistants.
+description: |-
+  BankBridge connects your bank accounts through Plaid and exposes them to your AI assistant as read-only tools: accounts, balances, transactions, recurring charges and spending summaries. It is a paid service ($5/month per connected bank, billed through Stripe).
+
+  [Website](https://bankbridge.money)
+category: finance
+tags:
+  - finance
+  - banking
+  - remote-mcp
+official: true
+website_url: https://bankbridge.money
+endpoints:
+  - url: https://bankbridge.money/api/mcp
+    transport: streamable-http
+    auth: oauth
