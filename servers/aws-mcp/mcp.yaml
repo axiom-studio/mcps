@@ -9,7 +9,7 @@ description: |-
 
   Every request is signed with AWS Signature Version 4 from an IAM access key: an access key ID, a secret access key and, for temporary credentials, a session token. Give the key only the permissions agents need, for example read-only. IAM context keys and Service Control Policies can limit what the server may do separately from people, and its calls are logged in CloudTrail and under the `AWS-MCP` namespace in CloudWatch.
 
-  The server runs in US East (N. Virginia) and Europe (Frankfurt) and can call any AWS Region. It has no charge of its own; you pay for the AWS resources it uses.
+  The server runs in US East (N. Virginia), US West (Oregon), Europe (Frankfurt, Ireland, London) and Asia Pacific (Tokyo, Singapore, Sydney), and from any of them it can call any AWS Region. It has no charge of its own; you pay for the AWS resources it uses.
 
   [AWS MCP Server User Guide](https://docs.aws.amazon.com/aws-mcp/latest/userguide/what-is-mcp-server.html)
 category: developer-tools
@@ -23,6 +23,24 @@ endpoints:
   - url: https://aws-mcp.us-east-1.api.aws/mcp
     transport: streamable-http
     auth: signed
+  - url: https://aws-mcp.us-west-2.api.aws/mcp
+    transport: streamable-http
+    auth: signed
   - url: https://aws-mcp.eu-central-1.api.aws/mcp
+    transport: streamable-http
+    auth: signed
+  - url: https://aws-mcp.eu-west-1.api.aws/mcp
+    transport: streamable-http
+    auth: signed
+  - url: https://aws-mcp.eu-west-2.api.aws/mcp
+    transport: streamable-http
+    auth: signed
+  - url: https://aws-mcp.ap-northeast-1.api.aws/mcp
+    transport: streamable-http
+    auth: signed
+  - url: https://aws-mcp.ap-southeast-1.api.aws/mcp
+    transport: streamable-http
+    auth: signed
+  - url: https://aws-mcp.ap-southeast-2.api.aws/mcp
     transport: streamable-http
     auth: signed
