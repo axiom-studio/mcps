@@ -48,7 +48,7 @@ Each endpoint:
 | --- | --- |
 | `url` | `https://` URL of the remote MCP endpoint |
 | `transport` | `streamable-http` or `sse` |
-| `auth` | `oauth`, `api-key`, `none` or `unknown` |
+| `auth` | `oauth`, `api-key`, `signed` (each request signed, e.g. AWS SigV4 on `<service>.<region>.api.aws`), `none` or `unknown` |
 
 Example:
 

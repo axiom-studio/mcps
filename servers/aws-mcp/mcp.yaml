@@ -1,0 +1,28 @@
+name: AWS MCP Server
+summary: The AWS MCP Server gives agents authenticated access to AWS through a small set of tools. It can call any of the 15,000+ AWS API operations with your IAM permissions, run short Python scripts in a sandbox that has no network access, and search current AWS documentation and best practices.
+description: |-
+  # AWS MCP Server
+
+  The AWS MCP Server gives agents authenticated access to AWS through a small set of tools: `call_aws` runs any AWS API operation with your IAM permissions, `run_script` runs a short Python script server-side in a sandbox that has no network access, and `search_documentation` and `read_documentation` fetch current AWS documentation. AWS service teams maintain the skills it uses.
+
+  ## Connection
+
+  Every request is signed with AWS Signature Version 4 from an IAM access key: an access key ID, a secret access key and, for temporary credentials, a session token. Give the key only the permissions agents need, for example read-only. IAM context keys and Service Control Policies can limit what the server may do separately from people, and its calls are logged in CloudTrail and under the `AWS-MCP` namespace in CloudWatch.
+
+  The server runs in US East (N. Virginia) and Europe (Frankfurt) and can call any AWS Region. It has no charge of its own; you pay for the AWS resources it uses.
+
+  [AWS MCP Server User Guide](https://docs.aws.amazon.com/aws-mcp/latest/userguide/what-is-mcp-server.html)
+category: developer-tools
+tags:
+  - developer-tools
+  - remote-mcp
+official: true
+docs_url: https://docs.aws.amazon.com/aws-mcp/latest/userguide/what-is-mcp-server.html
+website_url: https://aws.amazon.com/blogs/aws/the-aws-mcp-server-is-now-generally-available/
+endpoints:
+  - url: https://aws-mcp.us-east-1.api.aws/mcp
+    transport: streamable-http
+    auth: signed
+  - url: https://aws-mcp.eu-central-1.api.aws/mcp
+    transport: streamable-http
+    auth: signed

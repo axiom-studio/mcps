@@ -31,7 +31,7 @@
         "properties": {
           "url": {"type": "string", "pattern": "^https://\\S+$"},
           "transport": {"enum": ["streamable-http", "sse"]},
-          "auth": {"enum": ["oauth", "api-key", "none", "unknown"]}
+          "auth": {"enum": ["oauth", "api-key", "signed", "none", "unknown"]}
         }
       }
     }
