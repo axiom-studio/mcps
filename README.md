@@ -40,6 +40,7 @@ Keys are snake_case and no other keys are allowed. Leave out optional keys that 
 | `registry_name` | no | string | name in the official MCP registry, e.g. `io.github.zoom/zoom-workspace` |
 | `docs_url` | no | string | http(s) URL |
 | `website_url` | no | string | http(s) URL |
+| `allowed_hosts` | no | list of strings | up to 16 unique lowercase host names, e.g. `github.com`: other hosts the server's sign-in token may be used against directly, besides the endpoints. Leave out when none |
 | `endpoints` | yes | list | 1–16 items, unique `url` |
 
 Each endpoint:

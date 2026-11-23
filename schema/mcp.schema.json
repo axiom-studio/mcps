@@ -20,6 +20,13 @@
     "registry_name": {"type": "string"},
     "docs_url": {"type": "string", "pattern": "^https?://\\S+$"},
     "website_url": {"type": "string", "pattern": "^https?://\\S+$"},
+    "allowed_hosts": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 16,
+      "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^[a-z0-9]([a-z0-9-]{0,61}[a-z0-9])?(\\.[a-z0-9]([a-z0-9-]{0,61}[a-z0-9])?)+$", "x-maxBytes": 253}
+    },
     "endpoints": {
       "type": "array",
       "minItems": 1,
