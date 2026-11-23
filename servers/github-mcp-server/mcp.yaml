@@ -10,6 +10,8 @@ tags:
 official: true
 registry_name: io.github.github/github-mcp-server
 docs_url: https://github.com/github/github-mcp-server
+allowed_hosts:
+  - github.com
 endpoints:
   - url: https://api.githubcopilot.com/mcp/
     transport: streamable-http
