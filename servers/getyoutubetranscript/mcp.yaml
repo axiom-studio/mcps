@@ -1,0 +1,22 @@
+name: GetYouTubeTranscript
+summary: Read YouTube as text from your AI assistant. Fetch a video's full transcript in any caption language it has (with optional timestamps), list its caption languages, search YouTube, and list a channel's latest videos or a playlist's videos.
+description: |-
+  GetYouTubeTranscript's hosted MCP server gives an agent read-only access to YouTube as text: the full transcript of a video in any caption language the video has, optionally as timed segments, the list of caption languages, YouTube search, a channel's latest videos, and the videos in a playlist. It reads existing captions rather than transcribing audio.
+
+  Sign in with OAuth, or send an API key as a bearer token. Each successful call uses one credit; new accounts get 100 credits.
+
+  [Website](https://getyoutubetranscript.com/youtube-mcp-server) · [API docs](https://getyoutubetranscript.com/docs)
+category: media
+tags:
+  - youtube
+  - transcripts
+  - video
+  - search
+  - remote-mcp
+official: true
+docs_url: https://getyoutubetranscript.com/docs
+website_url: https://getyoutubetranscript.com/youtube-mcp-server
+endpoints:
+  - url: https://getyoutubetranscript.com/api/mcp
+    transport: streamable-http
+    auth: oauth
